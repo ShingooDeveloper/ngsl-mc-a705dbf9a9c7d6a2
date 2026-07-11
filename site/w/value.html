@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>value — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>value</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/ˈvæljuː/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#341</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/value.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】価値、値打ち（…merit, worth）</li><li>【名詞】値、数値（…number, amount）</li><li>【名詞】価値観、信念（…principle, belief）</li><li>【動詞】評価する、値段をつける（…estimate）</li><li>【動詞】大切にする、重視する（…treasure, appreciate）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I really <mark>value</mark> my enchanted diamond pickaxe.</p>
+<p class="ja">本当に、私のエンチャント付きダイヤのつるはしを大切にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/value_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/value_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈrɪliː ˈvæljuː maɪ ɪnˈtʃæntɪd ˈdaɪmənd ˈpɪkˌæks/</div>
+<ul class="link"></ul>
+<div class="kana">アイ リリー ヴァリュー マイ インチャンティド ダイモンド ピッカックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mining ore has <mark>value</mark> when you need resources.</p>
+<p class="ja">リソースが必要なときは、鉱石採掘に価値がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/value_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/value_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnɪŋ ɔr hæz ˈvæljuː wɛn ju nid ˈrɛsɚsəz/</div>
+<ul class="link"></ul>
+<div class="kana">マイニング オア ハズ ヴァリュー ウェン ユー ニード レソースズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>value</mark> teamwork to survive in the Nether.</p>
+<p class="ja">ネザーで生き残るには、チームワークが大切だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/value_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/value_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈvæljuː ˈtimwɜrk tə sərˈvaɪv ɪn ðə ˈnɛðər/</div>
+<ul class="link"><li>survive の /v/ が in に連結</li><li>to は弱形 /tə/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィー ヴァリュー ティームワーク タ サーヴァイブ イン ザ ネザー</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

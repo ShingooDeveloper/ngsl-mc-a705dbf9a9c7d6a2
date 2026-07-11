@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>letter — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>letter</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈlɛtər/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#357</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/letter.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】文字、字（アルファベットの 1 字）</li><li>【名詞】手紙、書状（郵便物）</li><li>【動詞】文字を書く、文字を刻む</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You need to place a <mark>letter</mark> on the sign.</p>
+<p class="ja">看板に文字を置く必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/letter_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/letter_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[juː ˈniːd tə ˈpleɪsə ˈlɛɾɑn̚ ðə ˈsaɪn]</div>
+<ul class="link"><li>place の語末 /s/ が a の /ə/ に連結 [ˈpleɪsə] プレイサ</li><li>letter の /t/ が flap [ɾ] になり、/ə/ が on の /ɑ/ に連結 [ˈlɛɾɑn] レラン</li><li>on の語末 /n/ が未開放で the に続く [ɑn̚ðə] アン・ザ</li></ul>
+<div class="kana">ユー ニード タ プレイサ レラン ザ サイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need a <mark>letter</mark> made of wood.</p>
+<p class="ja">木製の文字が必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/letter_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/letter_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈniːd ə ˈlɛtər ˈmeɪdəv ˈwʊd]</div>
+<ul class="link"><li>need の語末 /d/ が a の /ə/ に連結 [ˈniːdə] ニーダ</li><li>made の語末 /d/ が of の /ə/ に連結 [ˈmeɪdəv] メイダヴ</li></ul>
+<div class="kana">アイ ニーダ レター メイダヴ ウッド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Make a <mark>letter</mark> out of stone.</p>
+<p class="ja">石で文字を作ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/letter_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/letter_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈmeɪkə ˈlɛɾaʊt ˈaʊɾəv stoʊn]</div>
+<ul class="link"><li>make の語末 /k/ が a の /ə/ に連結 [ˈmeɪkə] メイカ</li><li>letter の /t/ が flap [ɾ] になり、/ə/ が out の /aʊ/ に連結 [ˈlɛɾaʊt] レラウト</li><li>out の /t/ が flap [ɾ] になり、of の /ə/ に連結 [ˈaʊɾəv] アウラヴ</li></ul>
+<div class="kana">メイカ レラウト アウラヴ ストウン</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
