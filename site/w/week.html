@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>week — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>week</h2><span class="pos">名詞</span><span class="ipa-head">/wiːk/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#156</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/week.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】7日間の期間（…the period of seven days…）</li><li>【名詞】仕事や学校のある日々（…weekdays, the days that are not Saturday or Sunday…）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We got a base ready by the first <mark>week</mark>.</p>
+<p class="ja">私たちは最初の週までに基地を準備した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/week_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/week_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈɡɑt ə ˈbeɪs ˈrɛdi baɪ ðə ˈfɚst ˈwiːk/</div>
+<ul class="link"><li>got の語末子音 /t/ が a の母音 /ə/ に連結し [ˈɡɑtə]</li><li>the は機能語の弱形 [ðə] に弱化</li></ul>
+<div class="kana">ウィ ガタ ベース レディ バイ ザ ファースト ウィーク</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I bet a <mark>week</mark>'s worth of diamonds on winning.</p>
+<p class="ja">勝利に1週間分のダイヤを賭けた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/week_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/week_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbɛt ə ˈwiːks ˌwɚθ əv ˈdaɪməndz ɑn ˈwɪnɪŋ/</div>
+<ul class="link"><li>bet の語末子音 /t/ が a の母音 /ə/ に連結し [ˈbɛtə]</li><li>of は機能語の弱形 [əv] に弱化</li></ul>
+<div class="kana">アイ ベタ ウィークス ワース アヴ ダイモンズ オン ウィニング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Set out your tools before the <mark>week</mark> starts.</p>
+<p class="ja">週が始まる前に道具を準備しろ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/week_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/week_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɛt aʊt jɚ ˈtulz bɪˈfɔr ðə ˈwiːk ˈstɑrts/</div>
+<ul class="link"><li>set の語末子音 /t/ が out の母音 /aʊ/ に連結し [ˈsɛtaʊt]</li><li>the は機能語の弱形 [ðə] に弱化</li></ul>
+<div class="kana">セタウト ユア ツールズ ビフォア ザ ウィーク スターツ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
