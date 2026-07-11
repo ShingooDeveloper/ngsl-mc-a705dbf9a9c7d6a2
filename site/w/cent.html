@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>cent — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>cent</h2><span class="pos">名詞</span><span class="ipa-head">/sent/</span><span class="lvl">CEFR A2</span><span class="rankbadge">頻度#748</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cent.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】通貨単位。1ドルの百分の一（one cent coin）。</li><li>【名詞】（数学・統計）百分比に関わる基本単位（5 percent = 5 per cent）。</li><li>【名詞】（一般）わずかな金銭、少額（not worth a cent）。</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>cent</mark></p>
+<p class="ja">セント</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cent_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cent_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/sent/</div>
+<ul class="link"><li>r-linking により /r/ が次の母音に連結する</li></ul>
+<div class="kana">セント</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>cents</mark></p>
+<p class="ja">セントス / センツ</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cent_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cent_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/sɛnts/</div>
+<ul class="link"><li>複数形は [ɛn] + [ts] 構造</li></ul>
+<div class="kana">センツ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>not worth a <mark>cent</mark></p>
+<p class="ja">全く価値がない</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cent_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/cent_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/nɑt wɜrθ ə sent/</div>
+<ul class="link"><li>/t/ が未開放になる</li></ul>
+<div class="kana">ナッ ワース ア セント</div>
+</article>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">not worth a cent</span><span class="im">全く価値がない</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>That broken pickaxe is not worth a <mark>cent</mark>.</p>
+<p class="ja">その壊れたツルハシは全く価値がない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cent_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cent_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðæt ˈbroʊkən ˈpɪkæks ɪz nɑt̚ ˈwɜrθ ə ˈsɛnt]</div>
+<ul class="link"><li>not worth: /t/ が未開放</li></ul>
+<div class="kana">ザット ブロークン ピッカックス イズ ナッ ワース ア セント</div>
+</article>
+</div>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
