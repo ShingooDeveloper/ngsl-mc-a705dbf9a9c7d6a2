@@ -28,5 +28,89 @@
     "license": "pdm",
     "provider": "flickr",
     "title": "Awesome Sea Nature View"
+  },
+  "child": {
+    "source": "https://www.flickr.com/photos/144661696@N05/34353042293",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Child"
+  },
+  "country": {
+    "source": "https://www.flickr.com/photos/88123769@N02/16398797386",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "A high country landscape."
+  },
+  "family": {
+    "source": "https://www.flickr.com/photos/24469639@N00/6992489093",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "The Stapleton Family, at the Rodney, Easter Monday 1907"
+  },
+  "group": {
+    "source": "https://www.flickr.com/photos/88645472@N00/4264611623",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "Group of students and teacher posing in front of schoolhouse, c1913"
+  },
+  "hand": {
+    "source": "https://www.flickr.com/photos/49976053@N00/2768392379",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Hand"
+  },
+  "home": {
+    "source": "https://www.flickr.com/photos/140788899@N07/41445877625",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "homes by the sea"
+  },
+  "house": {
+    "source": "https://www.flickr.com/photos/40869888@N03/8596663616",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Early Spring at The Claremont House"
+  },
+  "man": {
+    "source": "https://www.flickr.com/photos/24469639@N00/6631186033",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "Unknown Edwardian man in a workshop?"
+  },
+  "market": {
+    "source": "https://www.flickr.com/photos/88123769@N02/40434642195",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Hong Kong street market."
+  },
+  "money": {
+    "source": "https://www.flickr.com/photos/56544547@N00/2823255013",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Cash Money"
+  },
+  "people": {
+    "source": "https://www.flickr.com/photos/149556095@N03/24646494338",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "People in castle courtyard"
+  },
+  "school": {
+    "source": "https://www.flickr.com/photos/60455048@N02/35562967406",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "Mount Gravatt State High School, c 1976"
+  },
+  "woman": {
+    "source": "https://www.flickr.com/photos/80309306@N05/36281499255",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Business Woman"
+  },
+  "world": {
+    "source": "https://www.flickr.com/photos/38451115@N04/3595826459",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "The Old World"
   }
 }
