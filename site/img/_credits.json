@@ -112,5 +112,23 @@
     "license": "cc0",
     "provider": "flickr",
     "title": "The Old World"
+  },
+  "car": {
+    "source": "https://commons.wikimedia.org/wiki/File:Public_transport_share_taxi_in_Maracaibo_city,_Zulia,_Venezuela.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Public transport share taxi in Maracaibo city, Zulia, Venezuela.jpg"
+  },
+  "friend": {
+    "source": "https://commons.wikimedia.org/wiki/File:H._Magnus_Olsson,_Jens_O._Z._Ehrs_%26_Emil_Eikner_2005.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "H. Magnus Olsson, Jens O. Z. Ehrs & Emil Eikner 2005.jpg"
+  },
+  "job": {
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer,_January_1984,_by_Bernard_Gotfryd_-_edited.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Steve Jobs and Macintosh computer, January 1984, by Bernard Gotfryd - edited.jpg"
   }
 }
