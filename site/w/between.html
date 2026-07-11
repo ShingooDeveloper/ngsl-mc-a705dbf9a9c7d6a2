@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrap">
-<a class="backlink" href="../index.html">← 目次にもどる</a>
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
 <section class="word" style="--wc:#2563eb">
 <div class="wordhead"><h2>between</h2><span class="pos">前置詞</span><span class="ipa-head">/bɪˈtwiːn/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#115</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/between.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
 <ol class="meanings"><li>【前置詞】2つのもの・事柄・人の間に、中間で（...と...の空間・位置にある）</li><li>【前置詞】複数の人や事柄の間で、相互に（共有・分配・協力する関係で）</li><li>【前置詞】...から...への間の期間・範囲で（時間的な中間に）</li><li>【前置詞】複数の選択肢の中から、〜か〜のいずれか</li></ol>
@@ -52,6 +52,7 @@
 </article>
 </div>
 </section>
+<span class="markbar bottom"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span>
 </div>
 <script>
 function play(b, which) {
@@ -71,6 +72,22 @@ function play(b, which) {
   a.onended = function () { b.classList.remove('playing'); };
   b.classList.add('playing');
   a.play();
-}</script>
+}
+var W="between";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
 </body>
 </html>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrap">
-<a class="backlink" href="../index.html">← 目次にもどる</a>
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
 <section class="word" style="--wc:#dc2626">
 <div class="wordhead"><h2>paper</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈpeɪpər/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#424</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/paper.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
 <ol class="meanings"><li>【名詞】紙；素材（サトウキビから製造される）</li><li>【名詞】文書；記録（座標や計画書など）</li><li>【動詞】壁や面に紙を貼る；装飾する</li></ol>
@@ -40,6 +40,7 @@
 <div class="kana">ユー・シュド・コレクト・ペイパラアンド・シュガーケイン・ファー・メイキング・ブックス</div>
 </article>
 </section>
+<span class="markbar bottom"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span>
 </div>
 <script>
 function play(b, which) {
@@ -59,6 +60,22 @@ function play(b, which) {
   a.onended = function () { b.classList.remove('playing'); };
   b.classList.add('playing');
   a.play();
-}</script>
+}
+var W="paper";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
 </body>
 </html>

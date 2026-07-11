@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrap">
-<a class="backlink" href="../index.html">← 目次にもどる</a>
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
 <section class="word" style="--wc:#059669">
 <div class="wordhead"><h2>myself</h2><span class="pos">代名詞</span><span class="ipa-head">/maɪˈsɛlf/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#668</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/myself.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
 <ol class="meanings"><li>【代名詞】（再帰用法）自分自身。動作の対象が話者自身である場合に使う（I built it myself.）</li><li>【代名詞】（強調用法）〜私自身が。主語や述語を強調する際に用いる（I myself don't know.）</li><li>【代名詞】単独で使われて自分自身を指す。by myself で1人で、助けなしに（I can do it by myself.）</li></ol>
@@ -52,6 +52,7 @@
 </article>
 </div>
 </section>
+<span class="markbar bottom"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span>
 </div>
 <script>
 function play(b, which) {
@@ -71,6 +72,22 @@ function play(b, which) {
   a.onended = function () { b.classList.remove('playing'); };
   b.classList.add('playing');
   a.play();
-}</script>
+}
+var W="myself";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
 </body>
 </html>

@@ -59,7 +59,15 @@ ul.link li{margin:3px 0}
 .idiomhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;margin-bottom:8px}
 .idiomhead .ph{font-weight:700;color:#7c3aed;font-size:1.1rem}
 .idiomhead .im{font-size:.92rem}
-.backlink{display:inline-block;margin-bottom:12px;font-size:.85rem;color:var(--accent);text-decoration:none}
+.backlink{display:inline-block;font-size:.85rem;color:var(--accent);text-decoration:none}
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbar.bottom{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);
+  color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
 .player{display:inline-flex;gap:6px;vertical-align:middle}
 .player button{font:inherit;font-size:.78rem;font-weight:700;cursor:pointer;
   border:1.5px solid var(--wc,#2563eb);color:var(--wc,#2563eb);background:transparent;

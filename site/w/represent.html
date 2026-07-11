@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrap">
-<a class="backlink" href="../index.html">← 目次にもどる</a>
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
 <section class="word" style="--wc:#d97706">
 <div class="wordhead"><h2>represent</h2><span class="pos">動詞</span><span class="ipa-head">/ˌrɛprɪˈzɛnt/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#657</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/represent.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
 <ol class="meanings"><li>【動詞】(人・もの・事が)〜を表す、表現する（…represent sth）</li><li>【動詞】(代理人が)〜を代理する、～の利益を代表する（…represent sb）</li><li>【動詞】(絵画・彫刻などで)〜を描く、描写する</li><li>【動詞】〜を～として示す、呈示する</li></ol>
@@ -40,6 +40,7 @@
 <div class="kana">ウィ レプリゼンティド ザ ドラゴンズ キャッスル イン アワー ビルド</div>
 </article>
 </section>
+<span class="markbar bottom"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span>
 </div>
 <script>
 function play(b, which) {
@@ -59,6 +60,22 @@ function play(b, which) {
   a.onended = function () { b.classList.remove('playing'); };
   b.classList.add('playing');
   a.play();
-}</script>
+}
+var W="represent";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
 </body>
 </html>
