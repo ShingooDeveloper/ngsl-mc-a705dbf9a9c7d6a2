@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>street — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>street</h2><span class="pos">名詞</span><span class="ipa-head">/strit/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#597</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/street.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】通り、街路、道路。町や村の街区を形作る公道（...the main street）</li><li>【名詞】街、町。都市部や地域（...walking the streets）</li><li>【名詞】公共通路、道路（...cross the street）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The main <mark>street</mark> of the village is lined with cobblestone.</p>
+<p class="ja">その村のメインストリートは丸石ブロックで敷き詰められている</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/street_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/street_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈmeɪn stri ɾəv ðə ˈvɪlɪdʒ ɪz laɪnd wɪð ˈkɑbəlˌstoʊn]</div>
+<ul class="link"><li>street of：語末の /t/ が母音 /ə/ に連結、フラップ化して [ɾ]、[ˈstri ɾəv] &quot;ストリーラヴ&quot;</li><li>the：子音前で弱形 /ðə/、&quot;ザ&quot;</li><li>with：/ð/ は有声音のまま、&quot;ウィズ&quot;</li></ul>
+<div class="kana">ザ メイン ストリーラヴ ザ ビリッジ イズ ラインド ウィズ カバルストーン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I built my house on the corner of a desert <mark>street</mark>.</p>
+<p class="ja">デザート街の角に家を建てた</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/street_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/street_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ bɪlt maɪ haʊs ɑn ðə ˈkɔrnər əv ə ˈdɛzərt strit]</div>
+<ul class="link"><li>the corner：子音前で &quot;the&quot; は弱形 /ðə/、&quot;ザ&quot;</li><li>of a：両者弱形 /əv ə/、&quot;アバ&quot;</li></ul>
+<div class="kana">アイ ビルト マイ ハウス オン ザ コーナー アバ デザート ストリート</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We walked down the <mark>street</mark> searching for the abandoned cabin.</p>
+<p class="ja">廃棄されたキャビンを探しながら街路を下っていった</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/street_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/street_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi wɔkt daʊn ðə strit ˈsɜrtʃɪŋ fər ðə əˈbændənd ˈkæbən]</div>
+<ul class="link"><li>the street：子音 /s/ 前で &quot;the&quot; は弱形 /ðə/、&quot;ザ&quot;</li><li>for the：&quot;for&quot; 弱形 /fər/、&quot;ファー&quot;と &quot;the&quot; 弱形 /ðə/、&quot;ザ&quot;が連続</li></ul>
+<div class="kana">ウィ ウォークト ダウン ザ ストリート サーチング ファー ザ アバンダンド キャビン</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

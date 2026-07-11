@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>technology — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>technology</h2><span class="pos">名詞</span><span class="ipa-head">/tɛkˈnɑlədʒi/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#562</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/technology.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】科学的知識や実践的方法を実用的な目的に応用する技術（応用技術全般）</li><li>【名詞】コンピュータやデジタルデバイスなどの最新機械設備（IT・電子機器）</li><li>【名詞】特定の分野で実務を達成するための専門的知識や技能（実践的スキル）</li><li>【名詞】科学的発見や発明に基づく新しい産業的手段または工業的方法（革新的手法）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We developed a <mark>technology</mark> to automate mining.</p>
+<p class="ja">私たちは採掘を自動化するための技術を開発した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/technology_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/technology_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː dɪˈvɛləpt ə tɛkˈnɑlədʒi tə ˈɔːtəmeɪt ˈmaɪnɪŋ/</div>
+<ul class="link"><li>「developed」の /d/ が「a」の /ə/ に連結</li><li>「to」は機能語で弱形 /tə/（発音は「タ」）</li></ul>
+<div class="kana">ウィ ディヴェロプト ア テクノロジー タ オートメート マイニング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You need advanced <mark>technology</mark> to protect against creepers.</p>
+<p class="ja">クリーパーから身を守るには、高度な技術が必要だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/technology_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/technology_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː ˈniːd ə ˈdvænst tɛkˈnɑlədʒi tə prəˈtɛkt əˈɡɛnst ˈkɹiːpərz/</div>
+<ul class="link"><li>「need」の /d/ が「advanced」の /ə/ に連結</li><li>「to」は機能語で弱形 /tə/</li></ul>
+<div class="kana">ユー ニーダ ドヴァンスト テクノロジー タ プロテクト アゲンスト クリーパーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Technology</mark> like redstone helps us create anything.</p>
+<p class="ja">レッドストーンのような技術があれば、何でも作ることができる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/technology_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/technology_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/tɛkˈnɑlədʒi ˈlaɪk ˈɹɛdˌstoʊn ˈhɛlpz əz kriˈeɪɾ ˈɛniθɪŋ/</div>
+<ul class="link"><li>「helps」の /s/ が「us」に連結する際、/s/ は /z/ に濁音化します</li><li>「create」の /t/ が「anything」の /ɛ/ に連結されてフラップT [ɾ] になります</li></ul>
+<div class="kana">テクノロジー ライク レッドストーン ヘルプズ アズ クリエイラ エニシング</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
