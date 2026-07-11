@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>official — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>official</h2><span class="pos">形容詞・名詞</span><span class="ipa-head">/əˈfɪʃəl/</span><span class="lvl">CEFR B2</span><span class="rankbadge">頻度#642</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/official.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【形容詞】公式の・正式な（official announcement）</li><li>【形容詞】職務上の・公務の（official duty）</li><li>【名詞】公務員・役人・担当官（government official）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Download the <mark>official</mark> launcher to play safely.</p>
+<p class="ja">公式ランチャーをダウンロードして安全にプレイしましょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/official_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/official_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdaʊnloʊd ðə əˈfɪʃəl ˈlɔːntʃər tə ˈpleɪ ˈseɪfli/</div>
+<ul class="link"></ul>
+<div class="kana">ダウンロード ザフィシャル ローンチャー タ プレイ セイフリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>These crafting recipes are not <mark>official</mark> according to the wiki.</p>
+<p class="ja">これらのクラフティングレシピはウィキによると公式ではありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/official_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/official_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiːz ˈkræftɪŋ ˈrɛsɪpiz ɑr nɑt əˈfɪʃəl əˈkɔrdɪŋ tə ðə ˈwɪki/</div>
+<ul class="link"><li>「official according」- 語末子音 /l/ が初期シュワ /ə/ に連結 [əˈfɪʃəl‿əˈkɔrdɪŋ] アフィシャルアコーディング</li></ul>
+<div class="kana">ディーズ クラフティング レシピーズ アー ナッ アフィシャルアコーディング タザ ウィキ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I use an <mark>official</mark> version of the game.</p>
+<p class="ja">私は公式版のゲームを使用しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/official_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/official_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ juːz ən əˈfɪʃəl ˈvɜrʒən əv ðə ˈɡeɪm/</div>
+<ul class="link"><li>「an official」- 語末子音 /n/ が初期シュワ /ə/ に連結 [ən‿əˈfɪʃəl] エナフィシャル</li><li>「version of」- 語末子音 /n/ が初期シュワ /ə/ に連結。of は弱形 /əv/ [ˈvɜrʒən‿əv] ヴァージョンアヴ</li></ul>
+<div class="kana">アイ ユーズ エナフィシャル ヴァージョンアヴ ザ ゲイム</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

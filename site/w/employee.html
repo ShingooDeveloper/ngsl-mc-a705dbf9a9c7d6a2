@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>employee — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>employee</h2><span class="pos">名詞</span><span class="ipa-head">/ˌɛmplɔɪˈi/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#623</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/employee.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】給与をもらって会社や組織に雇用されている人（従業員、スタッフ）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I hired an <mark>employee</mark> to help manage our mining operation.</p>
+<p class="ja">採掘事業を管理するため、従業員を雇った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/employee_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/employee_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈhaɪɚd ən ɪmˈplɔɪi tə ˈhɛlp ˈmænɪdʒ ˈaʊr ˈmaɪnɪŋ ˌɑpəˈreɪʃən/</div>
+<ul class="link"><li>語末の /d/ が弱形 /ən/ の母音に連結 [ˈhaɪɚd ən]「ハイアード アン」</li><li>to は機能語で弱形 /tə/ に弱化</li></ul>
+<div class="kana">アイ ハイアード アン イムプロイー タ ヘルプ マネッジ アウア マイニング オペレイション</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Each <mark>employee</mark> on the server must follow the mining rules.</p>
+<p class="ja">サーバー上のすべての従業員は、採掘のルールに従う必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/employee_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/employee_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/iːtʃ ɪmˈplɔɪi ɑn ðə ˈsɝvər mʌst ˈfɑloʊ ðə ˈmaɪnɪŋ rulz/</div>
+<ul class="link"><li>must の語末 /t/ が未開放 [t̚]。follow と無融合で接続</li><li>the は弱形 /ðə/「ザ」に弱化</li></ul>
+<div class="kana">イーチ イムプロイー オン ザ サーヴァー マスト ファロー ザ マイニング ルールズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My best <mark>employee</mark> discovered a hidden lava lake yesterday.</p>
+<p class="ja">昨日、我が社で最高の従業員が隠されたラヴァ湖を発見した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/employee_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/employee_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ bɛst ɪmˈplɔɪi dɪsˈkʌvɚd ə ˈhɪdən ˈlɑvə leɪk ˈjɛstərdeɪ/</div>
+<ul class="link"><li>語末の /d/ が弱形 /ə/ に連結 [dɪsˈkʌvɚd ə]「ディスカヴァード ア」</li><li>a は弱形 /ə/「ア」</li></ul>
+<div class="kana">マイ ベスト イムプロイー ディスカヴァード ア ヒッデン ラヴァ レイク イエスタデイ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>relate — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>relate</h2><span class="pos">動詞</span><span class="ipa-head">/rɪˈleɪt/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#641</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/relate.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【動詞】「関係がある、関連している」</li><li>【動詞】「共感する、同調する」</li><li>【動詞】「説明する、述べる」</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mining <mark>relates</mark> to survival in Minecraft.</p>
+<p class="ja">マインクラフトではマイニングがサバイバルに関連している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/relate_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/relate_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnɪŋ rɪˈleɪts tə sɚˈvaɪvəl ɪn ˈmaɪnˌkræft/</div>
+<ul class="link"><li>relates to → relates の語末 /ts/ の後に弱形 to /tə/ が続く。[rɪˈleɪts tə]</li></ul>
+<div class="kana">マイニング リレイツ タ サヴァイヴァル イン マインクラフト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>relate</mark> to struggling for resources.</p>
+<p class="ja">リソース集めの苦労に共感する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/relate_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/relate_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ rɪˈleɪt tə ˈstrʌɡəlɪŋ fɚ rɪˈsɔrsɪz/</div>
+<ul class="link"><li>relate to → 語末子音 /t/ が弱形 to /tə/ の母音 /ə/ に連結し [rɪˈleɪtə]</li><li>for が弱形 /fɚ/ に弱化</li></ul>
+<div class="kana">アイ リレイタ ストラグリング ファー リソーシズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She <mark>related</mark> her mining adventure to the group.</p>
+<p class="ja">彼女はマイニングの冒険をグループに説明した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/relate_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/relate_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi rɪˈleɪtɪd hɚ ˈmaɪnɪŋ ədˈvɛntʃɚ tə ðə ɡrup/</div>
+<ul class="link"><li>her が弱形 /hɚ/</li><li>to と the が弱形</li></ul>
+<div class="kana">シー リレイティド ハー マイニング アドベンチャー タ ザ グループ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
