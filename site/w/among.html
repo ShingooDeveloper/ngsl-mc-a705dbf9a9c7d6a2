@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>among — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>among</h2><span class="pos">前置詞</span><span class="ipa-head">/əˈmʌŋ/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#375</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/among.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【前置詞】〜の中に、〜の間に（場所；…among the trees など）</li><li>【前置詞】グループの一員として（…among friends など）</li><li>【前置詞】複数の中から、分配する（…to share among us など）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Scout <mark>among</mark> the tall rocks first.</p>
+<p class="ja">背の高い岩の中をまず探索してください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/among_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/among_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/skaʊt əˈmʌŋ ðə ˈtɔl ˈrɑks ˈfɝst/</div>
+<ul class="link"><li>scout の語末子音 /t/ が among の /ə/ に連結 [ˈskaʊ.tə.ˈmʌŋ] スカウタマン</li><li>the は弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">スカウタマン ザ トール ラックス ファースト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Ores hide <mark>among</mark> rocky areas everywhere.</p>
+<p class="ja">鉱石はいたるところの岩地の中に隠れている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/among_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/among_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɔɹz ˈhaɪd əˈmʌŋ ˈrɑk.i ˈɛɹ.i.əz ˈɛv.ri.wɛɹ/</div>
+<ul class="link"><li>hide の語末子音 /d/ が among の /ə/ に連結 [ˈhaɪ.də.ˈmʌŋ] ハイダマン</li></ul>
+<div class="kana">オーズ ハイダマン ラッキー エリアズ エブリウェア</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We stand <mark>among</mark> our fellow miners together.</p>
+<p class="ja">私たちは仲間の採掘者と一緒にいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/among_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/among_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈstænd əˈmʌŋ ˈaʊɹ ˈfɛl.oʊ ˈmaɪ.nɚz təˈɡɛð.ɚ/</div>
+<ul class="link"><li>stand の語末子音 /d/ が among の /ə/ に連結 [ˈstæn.də.ˈmʌŋ] スタンダマン</li></ul>
+<div class="kana">ウィ スタンダマン アワー フェロー マイナーズ タゲザー</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
