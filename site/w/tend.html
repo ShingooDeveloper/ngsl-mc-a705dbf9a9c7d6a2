@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>tend — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>tend</h2><span class="pos">動詞</span><span class="ipa-head">/tend/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#841</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tend.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【動詞】...する傾向がある、～しやすい、～することが多い（tend to + 動詞）</li><li>【動詞】（特定の方向・結果へ）向かう、傾く、～の方へいく</li><li>【動詞】世話をする、面倒を見る、手入れする（tend to/tend + 目的語）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Hostile mobs <mark>tend</mark> to spawn in dark areas.</p>
+<p class="ja">ホスティルモブは暗い場所でスポーンする傾向がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tend_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tend_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˌhɑːˈstaɪl mɑːbz ˈtendə ˈspɔːn ɪn dɑːrk ˈɛəriəz]</div>
+<ul class="link"><li>tend /d/ + to /tə/ の連結で [ˈtendə] テンダ</li></ul>
+<div class="kana">ホースタイル モブズ テンダ スポーン イン ダーク エリアズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stone <mark>tends</mark> to break into multiple drops when mined with a pickaxe.</p>
+<p class="ja">石をツルハシで採掘すると、複数のドロップに分かれる傾向がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tend_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tend_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[stoʊn ˈtendə ˈbreɪk ˈɪntə ˈmʌltəpəl drɑːps wɛn maɪnd wɪð ə ˈpɪkæks]</div>
+<ul class="link"><li>break /k/ + into /ɪntə/ の連結で [breɪkˈɪntə] ブレイキントゥ</li></ul>
+<div class="kana">ストーン テンダ ブレイク イントゥ マルチプル ドロップス ウェン マインド ウィズ ア ピッカックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>tend</mark> my crops regularly to ensure a good harvest.</p>
+<p class="ja">良い収穫を確保するために、定期的に自分の作物の世話をする必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tend_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/tend_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈniːdə ˈtɛnd maɪ krɑːps ˈrɛɡjəlɛrli tə ɪnˈʃʊr ə ˈɡʊd ˈhɑːrvəst]</div>
+<ul class="link"><li>need /d/ + to /tə/ の連結で [ˈniːdə] ニーダ</li></ul>
+<div class="kana">アイ ニーダ テンド マイ クロップス レギュラーリ タ インシュア ア グッド ハーベスト</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

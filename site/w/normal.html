@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>normal — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>normal</h2><span class="pos">形容詞・名詞</span><span class="ipa-head">/ˈnɔɹ.məl/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#853</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/normal.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【形容詞】通常の、ふだんの（everyday and ordinary）</li><li>【形容詞】正常な、異常でない（usual and expected）</li><li>【形容詞】標準的な（typical of that kind）</li><li>【名詞】通常の状態（the usual condition or state）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We play on <mark>normal</mark> difficulty to make it challenging.</p>
+<p class="ja">難しくするために、難易度ノーマルでプレイしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/normal_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/normal_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈpleɪən ˈnɔɹ.məl ˈdɪf.ɪ.kəl.tə ˈmeɪkɪt̚ ˈtʃæl.ən.dʒɪŋ]</div>
+<ul class="link"><li>make it — make の語末 /k/ が it の /ɪ/ に連結し、it の語末 /t/ は未開放 [ˈmeɪkɪt̚] メイキッ</li></ul>
+<div class="kana">ウィ プレイン ノーマル ディフィカルター メイキッ チャレンジング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>normal</mark> terrain in this world has many caves.</p>
+<p class="ja">このワールドの通常地形には、たくさんの洞窟があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/normal_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/normal_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈnɔɹ.məl ˈtɛr.eɪnɪn ðɪs ˈwɝld ˈhæz ˈmen.i ˈkeɪvz]</div>
+<ul class="link"><li>terrain in — terrain の語末 /n/ が in の /ɪ/ に連結 [tɛˈreɪnɪn] テレイニン</li></ul>
+<div class="kana">ザ ノーマル テレイニン ディス ワールド ハズ メニー ケイブズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Normal</mark> ore at this depth gives rare items.</p>
+<p class="ja">この深さの通常のオアは、珍しいアイテムをドロップします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/normal_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/normal_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈnɔɹ.məl ˈɔɹ æt ðɪs ˈdɛpθ ˈɡɪvz ˈɹɛɹ ˈaɪ.təmz]</div>
+<ul class="link"><li>ore at — ore の語末 /ɹ/ が at の /æ/ に連結（linking r）[ˈɔɹ æt] オー アット</li><li>rare items — rare の語末 /ɹ/ が items の /aɪ/ に連結（linking r）[ˈɹɛɹ ˈaɪ.təmz] レア アイテムズ</li></ul>
+<div class="kana">ノーマル オー アット ディス デプス ギヴズ レア アイテムズ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
