@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>continue — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>continue</h2><span class="pos">動詞</span><span class="ipa-head">/kənˈtɪnjuː/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#307</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/continue.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【動詞】～し続ける（continue mining, continue building）</li><li>【動詞】再開する、再び始める（continue after taking a break）</li><li>【動詞】続く、続行される（the process continues）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Continue</mark> mining the obsidian!</p>
+<p class="ja">黒曜石の採掘を続けてください！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/continue_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/continue_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kənˈtɪnjuː ˈmaɪnɪŋ ðə əbˈsɪdiən/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>mining の語末 /ŋ/ は鼻音で開放しない。the の初頭 /ð/ との間は語境界が明確</li></ul>
+<div class="kana">クンティニュー マイニング ザ アブスィディアン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>If you <mark>continue</mark> digging, you might hit lava.</p>
+<p class="ja">掘り続けたら、溶岩に当たるかもしれません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/continue_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/continue_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪf juː kənˈtɪnjuː ˈdɪɡɪŋ juː maɪt hɪt ˈlɑvə/</div>
+<ul class="link"><li>might の語末 /t/ は未開放。hit の語末 /t/ も未開放で、lava の初頭 /l/ とは連結しない</li></ul>
+<div class="kana">イフ ユー クンティニュー ディギング ユー マイト ヒット ラーヴァ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The hopper <mark>continues</mark> feeding items into the chest.</p>
+<p class="ja">ホッパーがアイテムをチェストに供給し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/continue_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/continue_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhɑpər kənˈtɪnjuːz ˈfiːdɪŋ ˈaɪtəmz ˈɪntə ðə ˈtʃɛst/</div>
+<ul class="link"><li>continues の語末 /z/ から feeding の初頭 /f/ へ。両方摩擦音だが有声+無声で別音</li><li>items の語末 /z/ から into の初頭 /ɪ/ へ。摩擦音が母音に続く</li><li>the は弱形 /ðə/。chest の初頭 /tʃ/ に連結しない</li></ul>
+<div class="kana">ザ ハッパー クンティニューズ フィーディング アイテムズ イントゥ ザ チェスト</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

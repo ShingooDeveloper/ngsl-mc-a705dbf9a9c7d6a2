@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>train — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>train</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/treɪn/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#288</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/train.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【動詞】（人や動物を）訓練・調教する（teach through practice）</li><li>【動詞】スキルを練習で高める（improve a skill by practice）</li><li>【名詞】機関車に牽引される一連の車両（series of connected railway cars）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I built a long <mark>train</mark> of minecarts to carry ore from the mine.</p>
+<p class="ja">鉱山からの鉱石を運ぶために、長いトロッコ列車を作りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/train_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/train_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbɪltə ˈlɔŋ ˈtreɪn əv ˈmaɪnkɑrts tə ˈkæri ˈɔr frəm ðə ˈmaɪn/</div>
+<ul class="link"><li>built + a: 語末子音 /t/ が母音 /ə/ に連結 [ˈbɪltə] ビルタ</li></ul>
+<div class="kana">アイ ビルタ ロング トレイン アヴ マインカーツ タ キャリ オア フラム ザ マイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Train</mark> your wolf by giving it bones, and it will protect you.</p>
+<p class="ja">ご褒美に骨をあげてオオカミを訓練すれば、あなたを守ってくれます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/train_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/train_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtreɪn jɔr ˈwʊlf baɪ ˈɡɪvɪŋ ɪt̚ ˈboʊnz ən ɪt wɪl prəˈtɛkt ju/</div>
+<ul class="link"><li>bones + and: 語末子音 /z/ の後、「and」が弱形 /ən/ で続く [ˈboʊnz ən] ボウンズン</li><li>it + will: 「it」の末尾 /t/ は音節末で未開放 [ɪt̚]、新しい音節「will」へ [ɪt̚ wɪl] イッ ウィル</li></ul>
+<div class="kana">トレイン ヨア ウルフ バイ ギビング イッ ボウンズ アン イット ウィル プロテクト ユー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Train</mark> hard in the Nether to survive the dangers of this world.</p>
+<p class="ja">この世界の危険から生き残るために、ネザーで激しく訓練してください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/train_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/train_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtreɪn hɑrd ɪn ðə ˈnɛðɚ tə sɚˈvaɪv ðə ˈdeɪndʒɚz əv ðɪs wɜrld/</div>
+<ul class="link"><li>hard + in: 連結なし [hɑrd ɪn] ハード イン</li><li>dangers + of: 語末子音 /z/ が弱形「of」/əv/ に続く [ˈdeɪndʒɚz əv] デンジャーズ アヴ</li></ul>
+<div class="kana">トレイン ハード イン ザ ネザー タ サーバイブ ザ デンジャーズ アヴ ジス ワールド</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
