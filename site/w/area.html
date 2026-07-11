@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>area — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>area</h2><span class="pos">名詞</span><span class="ipa-head">/ˈɛɹiə/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#203</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/area.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】領域・エリア・地域（geographical location or zone）</li><li>【名詞】分野・領域（field of knowledge, expertise, or activity）</li><li>【名詞】面積（size or extent of a two-dimensional surface）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need a big <mark>area</mark> for my base.</p>
+<p class="ja">ベースのために大きなエリアが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/area_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/area_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd ə ˈbɪɡ ˈɛɹiə ˈfɔɹ maɪ ˈbeɪs/</div>
+<ul class="link"><li>need の末尾子音 /d/ が a の /ə/ に連結 [ˈniːdə]</li><li>big の末尾子音 /ɡ/ が area の /ɛ/ に連結 [ˈbɪɡɛɹiə]</li><li>for は弱形 /ə/</li></ul>
+<div class="kana">アイ ニーダ ビゲリア ファ マイ ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You need a lot of <mark>area</mark> in this place.</p>
+<p class="ja">この場所ではたくさんのエリアが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/area_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/area_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː ˈniːd ə ˈlɑt əv ˈɛɹiə ɪn ðɪs pleɪs/</div>
+<ul class="link"><li>need の /d/ が a の /ə/ に連結 [ˈniːdə]</li><li>lot の /t/ が of の /ə/ に連結、フラップT化 [ˈlɑɾəv]</li></ul>
+<div class="kana">ユー ニーダ ラーラヴ エリア イン ディス プレイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We found a great <mark>area</mark> by the trees.</p>
+<p class="ja">木の近くで素晴らしいエリアを見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/area_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/area_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈfaʊnd ə ɡɹeɪt ˈɛɹiə baɪ ðə triz/</div>
+<ul class="link"><li>found の /d/ が a の /ə/ に連結 [ˈfaʊndə]</li><li>great の末尾子音 /t/ が area の /ɛ/ に連結 [ɡɹeɪtɛɹiə]</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィ ファウンダ グレイテリア バイ ザ トリーズ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

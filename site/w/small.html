@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>small — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>small</h2><span class="pos">形容詞</span><span class="ipa-head">/smɔːl/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#185</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/small.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【形容詞】小さい（サイズ・規模）。（a small block, small house）</li><li>【形容詞】少ない（量・数）。（a small amount of ore, small profit）</li><li>【形容詞】取るに足らない（unimportant）。（a small detail, small matter）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need <mark>small</mark> blocks to build a detailed tower.</p>
+<p class="ja">詳細なタワーを建設するために小さなブロックが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/small_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/small_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd ˈsmɔːl ˈblɑks tə ˈbɪld ə dɪˈteɪld ˈtaʊər/</div>
+<ul class="link"><li>「to」は機能語で弱形 /tə/ に弱化</li><li>「build a」で build の語末 /d/ が a の母音に連結 [bɪldə]</li></ul>
+<div class="kana">アイ ニード スモール ブラックス タ ビルダ ディテイルド タウアー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mining <mark>small</mark> diamonds is more profitable than large ores.</p>
+<p class="ja">小さなダイヤモンドを採掘することは、大きな鉱石より利益がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/small_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/small_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnɪŋ ˈsmɔːl ˈdaɪmənds ɪz mɔːr ˈprɑfɪtəbəl ðən lɑːrʒ ˈɔːrz/</div>
+<ul class="link"><li>「small diamonds」で small の語末 /l/ が diamonds の /d/ に連結</li></ul>
+<div class="kana">マイニング スモールダイマンズ イズ モア プロフィラブル ザン ラージ オアーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I found a <mark>small</mark> cave near my base.</p>
+<p class="ja">私のベース近くに小さな洞窟を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/small_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/small_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈfaʊnd ə ˈsmɔːl ˈkeɪv ˈnɪr maɪ ˈbeɪs/</div>
+<ul class="link"><li>「found a」で found の語末 /d/ が a の母音に連結 [faʊndə]</li></ul>
+<div class="kana">アイ ファウンダ スモール ケイブ ニア マイ ベース</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
