@@ -130,5 +130,53 @@
     "license": "Public domain",
     "provider": "wikimedia",
     "title": "Steve Jobs and Macintosh computer, January 1984, by Bernard Gotfryd - edited.jpg"
+  },
+  "student": {
+    "source": "https://commons.wikimedia.org/wiki/File:Student_Lab.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Student Lab.jpg"
+  },
+  "room": {
+    "source": "https://commons.wikimedia.org/wiki/File:ROOM_RIOR.png",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "ROOM RIOR.png"
+  },
+  "person": {
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Perkins_Person_to_Person_2.png",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Anthony Perkins Person to Person 2.png"
+  },
+  "line": {
+    "source": "https://commons.wikimedia.org/wiki/File:Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Crowds of French patriots line the Champs Elysees-edit2.jpg"
+  },
+  "party": {
+    "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Pierre-Auguste Renoir - Luncheon of the Boating Party - Google Art Project.jpg"
+  },
+  "center": {
+    "source": "https://commons.wikimedia.org/wiki/File:Circle-withsegments.svg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Circle-withsegments.svg"
+  },
+  "food": {
+    "source": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Good Food Display - NCI Visuals Online.jpg"
+  },
+  "view": {
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramic_of_Juan_Griego_45.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Panoramic of Juan Griego 45.jpg"
   }
 }
