@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>medium — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>medium</h2><span class="pos">形容詞・名詞</span><span class="ipa-head">/ˈmiːdiəm/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#688</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/medium.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【形容詞】中程度の、中くらいの</li><li>【名詞】媒体、手段</li><li>【名詞】物質、媒質</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Build a <mark>medium</mark> stone house for your base.</p>
+<p class="ja">あなたの基地のために中くらいの石の家を作ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/medium_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/medium_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪldə ˈmiːdiəm ˈstoʊn ˈhaʊs fɚ jɔɹ ˈbeɪs/</div>
+<ul class="link"><li>build の /d/ が a の弱形 /ə/ に連結して [bɪldə] ビルダ</li><li>for は弱形 /fɚ/ に弱化</li></ul>
+<div class="kana">ビルダ ミーディアム ストウン ハウス ファー ユアー ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Water is the perfect <mark>medium</mark> for moving items quickly through your world.</p>
+<p class="ja">水はあなたの世界でアイテムを素早く移動するための完璧な媒体です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/medium_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/medium_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔɾɚ ɪz ðə ˈpɚfɪkt ˈmiːdiəm fɚ ˈmuvɪŋ ˈaɪtəmz ˈkwɪkli θru jɔɹ ˈwɚld/</div>
+<ul class="link"><li>water の /t/ がフラップ化して [ˈwɔɾɚ] ウォーラー</li><li>the は弱形 /ðə/ に弱化</li><li>for は弱形 /fɚ/ に弱化</li></ul>
+<div class="kana">ウォーラー イズ ザ パーフィクト ミーディアム ファー ムービング アイテムズ クイックリー スルー ユアー ワールド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mine a <mark>medium-sized</mark> cave for good storage space.</p>
+<p class="ja">良い保存スペースのために中くらいの大きさの洞窟を掘ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/medium_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/medium_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnə ˈmiːdiəm ˈsaɪzd ˈkeɪv fɚ ˈɡʊd ˈstɔɹɪdʒ ˈspeɪs/</div>
+<ul class="link"><li>mine の /n/ が a の弱形 /ə/ に連結して [ˈmaɪnə] マイナ</li><li>for は弱形 /fɚ/ に弱化</li></ul>
+<div class="kana">マイナ ミーディアム サイズド キェイヴ ファー グッド ストーリッジ スペイス</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
