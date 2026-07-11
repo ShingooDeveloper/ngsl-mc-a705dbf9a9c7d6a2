@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>hospital — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>hospital</h2><span class="pos">名詞</span><span class="ipa-head">/ˈhɑːspɪtəl/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#781</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/hospital.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】病院。患者が治療と入院を受ける医療施設。</li><li>【名詞】マインクラフトでは、プレイヤーやNPCが体力回復のために建設される建物。</li><li>【名詞】緊急医療や専門的医療が提供される施設。</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You need a <mark>hospital</mark> when you're seriously injured in this world.</p>
+<p class="ja">このワールドで重症を負ったら、病院が必要だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/hospital_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/hospital_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː ˈniːdə ˈhɑːspɪtəl wen ˈjɔr ˈsɪriəsli ˈɪndʒərd ɪn ðɪs wɜːld/</div>
+<ul class="link"><li>need a → 語末子音 /d/ が母音 /ə/ に連結 [ˈniːdə]</li><li>you're → 短縮形で /jɔr/ [ˈjɔr]</li><li>injured in → 語末子音 /d/ が母音 /ɪ/ に連結</li></ul>
+<div class="kana">ユー ニーダ ハースピタル ウェン ユア シリアスリー インジャード イン ディス ワールド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I built a <mark>hospital</mark> to help the villagers.</p>
+<p class="ja">村人たちを助けるために病院を建設した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/hospital_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/hospital_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbɪltə ˈhɑːspɪtəl tə ˈhelp ðə ˈvɪlɪdʒərz/</div>
+<ul class="link"><li>built a → 語末子音 /t/ が母音 /ə/ に連結 [ˈbɪltə]</li><li>to → 機能語の弱形 /tə/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">アイ ビルダ ハースピタル タ ヘルプ ザ ヴィリジャーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>hospital</mark> is located near the spawn point.</p>
+<p class="ja">その病院はスポーンポイントの近くに位置している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/hospital_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/hospital_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhɑːspɪtəl ɪz ˈloʊkeɪtɪd ˈnɪrðə ˈspɔːn pɔɪnt/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ザ ハースピタル イズ ロウケイティド ニアザ スポーン ポイント</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>nation — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>nation</h2><span class="pos">名詞</span><span class="ipa-head">/ˈneɪʃən/</span><span class="lvl">CEFR B1</span><span class="rankbadge">頻度#766</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/nation.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【名詞】国、国家（an independent country with its own government）</li><li>【名詞】国民、民族（the people of a country or ethnic group）</li><li>【名詞】プレイヤー団体、領土集団（a group of players sharing territory in server contexts）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>All <mark>nations</mark> need a strong defense.</p>
+<p class="ja">すべての国が強い防御を必要とします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/nation_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/nation_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɔːl ˈneɪʃənz ˈniːd ə ˈstrɔŋ dɪˈfɛns]</div>
+<ul class="link"><li>all の末尾 l が nations の開始子音 n に連結。</li><li>need の末尾 d が a の弱形 ə に連結。</li></ul>
+<div class="kana">オール ネイシャンズ ニーダ ストロング ディフェンス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our <mark>nation</mark> made a lot of progress.</p>
+<p class="ja">私たちの国は大きな進歩を成し遂げました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/nation_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/nation_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aʊɹ ˈneɪʃən ˈmeɪdə ˈlɑɾəv ˈprɑːɡrɛs]</div>
+<ul class="link"><li>our の末尾 r が nation の開始母音に滑らかに繋がる。</li><li>made の末尾 d が a の弱形 ə に連結。</li><li>lot の t が母音に挟まれてフラップ [ɾ] に。</li><li>of は弱形で [əv]。</li></ul>
+<div class="kana">アウア ネイシャン メイダ ロラヴ プログレス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Warriors from every <mark>nation</mark> attacked the base.</p>
+<p class="ja">すべての国からの戦士たちが基地を攻撃しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/nation_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/nation_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈwɔːɹiərz frəm ˈɛvri ˈneɪʃən əˈtækt̚ ðə ˈbeɪs]</div>
+<ul class="link"><li>from の末尾 m が every の開始母音 ɛ に連結。</li><li>from は弱形で [frəm]。</li><li>the は弱形で [ðə]。attacked の t は未開放 [t̚]。</li></ul>
+<div class="kana">ウォーリアーズ フラム エヴリ ネイシャン アタクト ザ ベイス</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
