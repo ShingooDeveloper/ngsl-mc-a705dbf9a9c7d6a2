@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>usually — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>usually</h2><span class="pos">副詞</span><span class="ipa-head">/ˈjuːʒuəli/</span><span class="lvl">CEFR A2</span><span class="rankbadge">頻度#554</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/usually.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【副詞】通常は、たいていは（大部分の場合、ほぼいつも）</li><li>【副詞】習慣的に、規則的に（…regularly, customarily）</li><li>【副詞】特別でない日常の行為・状況に使う（…I usually wake up at seven）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>usually</mark> mine diamonds deep underground.</p>
+<p class="ja">私はたいていは深い地下でダイヤモンドを採掘します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/usually_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/usually_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjuːʒuəli ˈmaɪn ˈdaɪ.əˌmɑndz dip ˌʌndərˈɡraʊnd/</div>
+<ul class="link"><li>deep の /p/ が underground の /ʌ/ に連結 [dipʌndərˈɡraʊnd]</li></ul>
+<div class="kana">アイ ユージュアリ マイン ダイアモンズ ディパンダーグラウンド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mobs <mark>usually</mark> come out of the ground at night.</p>
+<p class="ja">モブはたいていは夜に地面から出てきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/usually_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/usually_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/mɑbz ˈjuːʒuəli kʌm aʊt əv ðə ˈɡraʊnd æt ˈnaɪt/</div>
+<ul class="link"><li>out の /t/ が of の /ə/ に連結 [aʊtəv]</li><li>at の /t/ が night の /n/ に未開放 [æt̚ ˈnaɪt]</li></ul>
+<div class="kana">モブズ ユージュアリ カム アウタヴ ザ グラウンド アッナイト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Builders <mark>usually</mark> use torches to light up dark caves.</p>
+<p class="ja">建築者たちはたいていは松明を使って暗い洞窟を照らします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/usually_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/usually_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbɪldərz ˈjuːʒuəli ˈjuːz ˈtɔrʃɪz tə ˈlaɪt ʌp dɑrk ˈkeɪvz/</div>
+<ul class="link"><li>light の /t/ が up の /ʌ/ に連結してフラップT [ˈlaɪɾəp]</li></ul>
+<div class="kana">ビルダーズ ユージュアリ ユーズ トーチズ タ ライラップ ダーク ケイブズ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

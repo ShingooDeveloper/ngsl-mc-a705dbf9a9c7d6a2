@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>certainly — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>certainly</h2><span class="pos">副詞</span><span class="ipa-head">/ˈsɝ.tən.li/</span><span class="lvl">CEFR A2</span><span class="rankbadge">頻度#535</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/certainly.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【副詞】確実に、きっと（…will certainly work）</li><li>【副詞】もちろん、当然（…certainly not）</li><li>【副詞】確かに、本当に（…that is certainly true）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You should dig here, you'll <mark>certainly</mark> make a fortune.</p>
+<p class="ja">ここを掘るべき、確実に財宝が見つかるよ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/certainly_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/certainly_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju ʃʊd dɪɡ hɪr juːl ˈsɝ.tən.li meɪk ə ˈfɔr.tʃun/</div>
+<ul class="link"><li>make a - 語末のk音が次の a に連結 [meɪkə]</li><li>here you'll - 語末のr音が次の y に連結（r-linking）</li></ul>
+<div class="kana">ユー シュド ディグ ヒアユール セーティンリ メイカ フォーチュン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Certainly</mark>, diamonds are the best way to get a pickaxe.</p>
+<p class="ja">もちろん、ダイヤが最高のピッケルを手に入れる方法だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/certainly_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/certainly_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɝ.tən.li ˈdaɪ.mən.dz ɑr ðə ˈbɛst weɪ tə ɡɛt ə ˈpɪk.æks/</div>
+<ul class="link"><li>diamonds are - 語末のz音が次の a に連結 [ˈdaɪ.mən.dzɑr]</li><li>get a - 語末のt音が次の a に連結 [ɡɛtə]</li></ul>
+<div class="kana">セーティンリ ダイマンダ アーザ ベスト ウェイ タ ゲッタ ピックアックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You'll <mark>certainly</mark> find more ore if you dig down.</p>
+<p class="ja">掘り下げれば確実にもっと鉱石が見つかるよ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/certainly_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/certainly_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːl ˈsɝ.tən.li ˈfaɪnd ˈmɔr ˈɔr ɪf ju dɪɡ ˈdaʊn/</div>
+<ul class="link"><li>more ore - 語末のr音が次の o に連結（r-linking）[ˈmɔrɔr]→モロア</li><li>ore if - 語末のr音が次の i に連結（r-linking）[ˈɔrɪf]</li></ul>
+<div class="kana">ユール セーティンリ ファイン モロア イフ ユー ディグ ダウン</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
