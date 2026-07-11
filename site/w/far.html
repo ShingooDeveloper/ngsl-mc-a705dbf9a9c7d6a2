@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>far — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>far</h2><span class="pos">形容詞・副詞</span><span class="ipa-head">/fɑr/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#244</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/far.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【形容詞】距離が遠い；遠くにある（…a far place）</li><li>【副詞】遠く、遠い所へ（…go far）</li><li>【副詞】程度が大きく；ずっと（…far more difficult）</li><li>【副詞】比較級を修飾し…の方がずっと（…far easier）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This ore is <mark>far</mark> too difficult to reach.</p>
+<p class="ja">この鉱石は遠すぎて届かない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/far_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/far_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ˈɔrɪz fɑr tu ˈdɪfɪkəlt tu ˈritʃ]</div>
+<ul class="link"><li>ore is → 語末の [r]（子音）が母音 [ɪ] に連結 [ɔrɪz] オリズ</li><li>to reach の to → 機能語で弱形 [tə] に弱化 タ</li></ul>
+<div class="kana">ディス オリズ ファー タ ディフィカルト タ リーチ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Building this tower is <mark>far</mark> more difficult than I expected.</p>
+<p class="ja">このタワーを建てるのはずっと難しい。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/far_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/far_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈbɪldɪŋ ðɪs ˈtaʊɚɪz fɑr ˈmɔr ˈdɪfɪkəlt ðən aɪ ɪkˈspɛktɪd]</div>
+<ul class="link"><li>tower is → 語末の [r]（子音）が母音 [ɪ] に連結 [ˈtaʊɚɪz] タウアリズ</li><li>than I → 語末の [n]（子音）が母音 [aɪ] に連結 [ðənaɪ] ザナイ</li></ul>
+<div class="kana">ビルディング ディス タウアリズ ファー モー ディフィカルト ザナイ イクスペクティド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Iron ore is <mark>far</mark> easier to find than diamonds.</p>
+<p class="ja">鉄鉱石はダイヤモンドよりずっと見つけやすい。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/far_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/far_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈaɪɚn ˈɔrɪz fɑr ˈiziər tə ˈfaɪnd ðən ˈdaɪməndz]</div>
+<ul class="link"><li>ore is → 語末の [r]（子音）が母音 [ɪ] に連結 [ɔrɪz] オリズ</li><li>to find の to → 弱形 [tə] で弱化 タ</li></ul>
+<div class="kana">アイアーン オリズ ファー イージアー タ ファインド ザン ダイモンズ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>
