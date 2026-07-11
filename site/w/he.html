@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>he — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>he</h2><span class="pos">代名詞</span><span class="ipa-head">/hiː/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#10</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/he.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【代名詞】男性や少年を指す人称代名詞（He is mining.）</li><li>【代名詞】性別が既知の動物を指す場合もある（He is a llama.）</li><li>【代名詞】文の主語に用いることが多い</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>He</mark> is building a house.</p>
+<p class="ja">彼は家を建てている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/he_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/he_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ɪz ˈbɪldɪŋ ə ˈhaʊs/</div>
+<ul class="link"></ul>
+<div class="kana">ヒー イズ ビルディング ア ハウス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>He</mark> broke stone with a pickaxe.</p>
+<p class="ja">彼はつるはしで石を割った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/he_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/he_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ˈbroʊk ˈstoʊn wɪð ə ˈpɪkæks/</div>
+<ul class="link"><li>with の語末 /ð/ が a の /ə/ に連結し [wɪðə]</li></ul>
+<div class="kana">ヒー ブロウク ストウン ウィザ ピックアックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>He</mark> got killed by a creeper last night.</p>
+<p class="ja">昨夜、彼はクリーパーに殺された。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/he_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/he_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ɡɑt ˈkɪld baɪ ə ˈkriːpər læst naɪt/</div>
+<ul class="link"></ul>
+<div class="kana">ヒー ガット キルド バイア クリーパー ラスト ナイト</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

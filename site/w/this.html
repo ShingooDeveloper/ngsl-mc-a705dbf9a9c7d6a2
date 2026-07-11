@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>this — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css">
+<style>body{padding:0}.wrap{padding:20px}</style>
+</head>
+<body>
+<div class="wrap">
+<a class="backlink" href="../index.html">← 目次にもどる</a>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>this</h2><span class="pos">限定詞・代名詞・副詞</span><span class="ipa-head">/ðɪs/</span><span class="lvl">CEFR A1</span><span class="rankbadge">頻度#18</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/this.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<ol class="meanings"><li>【限定詞】この、この…（ものを特定する）（this ore, this block）</li><li>【代名詞】これ、このもの（単独で指す）（This is a treasure）</li><li>【副詞】このほど、これほど（距離や量）（dig this deep）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>This</mark> ore is obsidian.</p>
+<p class="ja">この鉱石は黒曜石だ</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/this_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/this_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɔr ɪz ɑbˈsɪdiən/</div>
+<ul class="link"><li>this ore → 語末 /s/ が ore の /ɔ/ に連結し [ðɪsɔɹ]「ディソー」</li><li>ore is → 語末 /r/ が is の /ɪ/ に連結し [ɔɹɪz]「オーイズ」</li></ul>
+<div class="kana">ディソーイズ アブシディアン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>This</mark> is a treasure!</p>
+<p class="ja">これは宝物だ！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/this_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/this_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɪz ə ˈtrɛʒər/</div>
+<ul class="link"><li>is a → 語末 /z/ が a の /ə/ に連結し [ɪzə]「イザ」</li></ul>
+<div class="kana">ディス イザ トレジャー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I dug <mark>this</mark> deep and found diamonds.</p>
+<p class="ja">私はこんなに深く掘って、ダイヤモンドを見つけた</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/this_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/this_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ dʌg ðɪs diːp ænd faʊnd ˈdaɪməndz/</div>
+<ul class="link"><li>deep and → 語末 /p/ が and の弱形 /ən/ に連結し [diːpən]「ディーペン」</li></ul>
+<div class="kana">アイ ダグ ディス ディーペン ファウンド ダイマンズ</div>
+</article>
+</section>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}</script>
+</body>
+</html>

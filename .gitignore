@@ -1,0 +1,8 @@
+# --- 公開に不要な生成元データ・スクリプトを除外 ---
+# 公開対象は site/ + audio/ + ルート index.html/robots.txt/.nojekyll のみ
+data/
+scripts/
+
+# OS/エディタ
+Thumbs.db
+.DS_Store
