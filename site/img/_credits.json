@@ -1,0 +1,32 @@
+{
+  "dog": {
+    "source": "https://www.flickr.com/photos/131705628@N06/16120825474",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "lisa-the-dog"
+  },
+  "book": {
+    "source": "https://www.flickr.com/photos/39699193@N03/11293127343",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Prayer Book (Use of Rome), Christ, Walters Manuscript W.438, Tail"
+  },
+  "garden": {
+    "source": "https://www.flickr.com/photos/23960020@N02/35391056625",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "Monaco - Japanese garden"
+  },
+  "clock": {
+    "source": "https://www.flickr.com/photos/53018729@N00/217183023",
+    "license": "cc0",
+    "provider": "flickr",
+    "title": "tictoc the clock"
+  },
+  "sea": {
+    "source": "https://www.flickr.com/photos/150806024@N04/48179551707",
+    "license": "pdm",
+    "provider": "flickr",
+    "title": "Awesome Sea Nature View"
+  }
+}
