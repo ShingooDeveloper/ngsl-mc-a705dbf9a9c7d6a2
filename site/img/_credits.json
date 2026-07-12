@@ -178,5 +178,53 @@
     "license": "CC0",
     "provider": "wikimedia",
     "title": "Panoramic of Juan Griego 45.jpg"
+  },
+  "face": {
+    "source": "https://commons.wikimedia.org/wiki/File:Boy_Face_from_Venezuela.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Boy Face from Venezuela.jpg"
+  },
+  "city": {
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%89difice_Price_at_night,_Quebec_city,_Canada.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Édifice Price at night, Quebec city, Canada.jpg"
+  },
+  "eye": {
+    "source": "https://commons.wikimedia.org/wiki/File:Desinsertion_du_muscle_CO.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Desinsertion du muscle CO.jpg"
+  },
+  "paper": {
+    "source": "https://commons.wikimedia.org/wiki/File:Paper_450x450.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Paper 450x450.jpg"
+  },
+  "human": {
+    "source": "https://commons.wikimedia.org/wiki/File:Saami_Family_1900.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Saami Family 1900.jpg"
+  },
+  "girl": {
+    "source": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "1665 Girl with a Pearl Earring.jpg"
+  },
+  "phone": {
+    "source": "https://commons.wikimedia.org/wiki/File:Mobile_phone_PHS_Japan_1997-2003.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Mobile phone PHS Japan 1997-2003.jpg"
+  },
+  "picture": {
+    "source": "https://commons.wikimedia.org/wiki/File:Image-x-generic.svg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Image-x-generic.svg"
   }
 }
