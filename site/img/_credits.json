@@ -226,5 +226,71 @@
     "license": "Public domain",
     "provider": "wikimedia",
     "title": "Image-x-generic.svg"
+  },
+  "parent": {
+    "source": "https://commons.wikimedia.org/wiki/File:TSgt_Pattee_meets_daughter.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "TSgt Pattee meets daughter.jpg"
+  },
+  "computer": {
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer,_January_1984,_by_Bernard_Gotfryd_-_edited.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Steve Jobs and Macintosh computer, January 1984, by Bernard Gotfryd - edited.jpg"
+  },
+  "foot": {
+    "source": "https://commons.wikimedia.org/wiki/File:Ivory_sandaled_foot_MET_DP123885.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Ivory sandaled foot MET DP123885.jpg"
+  },
+  "animal": {
+    "source": "https://commons.wikimedia.org/wiki/File:Bradypus.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Bradypus.jpg"
+  },
+  "president": {
+    "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "President Barack Obama.jpg"
+  },
+  "fire": {
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Fire_London.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Great Fire London.jpg"
+  },
+  "arm": {
+    "source": "https://commons.wikimedia.org/wiki/File:Human_arm_bones_diagram.svg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Human arm bones diagram.svg"
+  },
+  "employee": {
+    "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Katherine Johnson at NASA, in 1966.jpg"
+  },
+  "bank": {
+    "source": "https://commons.wikimedia.org/wiki/File:Bank_Run_on_American_Union_Bank.jpeg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "Bank Run on American Union Bank.jpeg"
+  },
+  "paint": {
+    "source": "https://commons.wikimedia.org/wiki/File:Splattered_white_paint_2.jpg",
+    "license": "CC0",
+    "provider": "wikimedia",
+    "title": "Splattered white paint 2.jpg"
+  },
+  "worker": {
+    "source": "https://commons.wikimedia.org/wiki/File:WomanFactory1940s.jpg",
+    "license": "Public domain",
+    "provider": "wikimedia",
+    "title": "WomanFactory1940s.jpg"
   }
 }
