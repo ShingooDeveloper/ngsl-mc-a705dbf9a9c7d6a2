@@ -2,6 +2,7 @@
 # 公開対象は site/ + audio/ + ルート index.html/robots.txt/.nojekyll のみ
 data/
 scripts/
+HANDOFF_NEXT.md
 
 # OS/エディタ
 Thumbs.db
