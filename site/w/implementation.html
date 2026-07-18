@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>implementation — NGSL 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>implementation</h2><span class="pos">名詞</span><span class="ipa-head">/ˌɪmpləmenˈteɪʃən/</span><span class="lvl">CEFR C1</span><span class="rankbadge">頻度#2644</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/implementation.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】計画・設計を実行に移すこと（the process of putting a plan or design into effect）</li><li>【名詞】機能・システムの導入・実装（the introduction or adoption of a system, feature, or method）</li><li>【名詞】プログラムやシステムの具体的な実現・構築（the creation or construction of a program, device, or system）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>implementation</mark> of the new enchanting system was successful.</p>
+<p class="ja">新しいエンチャントシステムの実装は成功しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/implementation_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/implementation_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɪmpləmenˈteɪʃən əv ðə njuː ɪnˈtʃæntɪŋ ˈsɪstəm wəz səkˈsɛsfəl/</div>
+<ul class="link"><li>The は冠詞で弱形 /ðə/ に弱化</li><li>of は前置詞で弱形 /əv/ に弱化</li><li>the は冠詞で弱形 /ðə/、new の初頭に連結</li></ul>
+<div class="kana">ザ インプレメンテイション アヴ ザ ニュー インチャンティング システム ワズ サクセスフル</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need careful <mark>implementation</mark> of the farm design.</p>
+<p class="ja">その農場デザインの注意深い実装が必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/implementation_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/implementation_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈniːd ˈkɛrfəl ˌɪmpləmenˈteɪʃən əv ðə fɑrm dɪˈzaɪn/</div>
+<ul class="link"><li>need の末尾子音 /d/ が careful の初頭母音に連結 [ˈniːdə] ニーダ</li><li>of は弱形 /əv/ に弱化</li><li>the は冠詞で弱形 /ðə/ に弱化、farm の初頭に連結</li></ul>
+<div class="kana">ウィー ニーダ ケアフル インプレメンテイション アヴ ザ ファーム ディザイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>implementation</mark> of redstone circuits requires precision.</p>
+<p class="ja">レッドストーン回路の実装には精密さが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/implementation_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/implementation_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɪmpləmenˈteɪʃən əv ˈrɛdˌstoʊn ˈsɝkɪts rɪˈkwaɪɚz prɪˈsɪʒən/</div>
+<ul class="link"><li>The は冠詞で弱形 /ðə/ に弱化</li><li>of は前置詞で弱形 /əv/ に弱化、redstone に連結</li></ul>
+<div class="kana">ザ インプレメンテイション アヴ レッドストーン サーキッツ リクワイヤズ プリシージョン</div>
+</article>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">quick implementation</span><span class="im">素早い実装・迅速な導入</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Quick <mark>implementation</mark> of the mob farm allowed us to collect drops fast.</p>
+<p class="ja">モブ農場の素早い実装のおかげで、ドロップを素早く集められました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/implementation_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/implementation_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkwɪk ˌɪmpləmenˈteɪʃən əv ðə moʊb fɑrm əˈlaʊd əs tə kəˈlɛkt drɑps fæst/</div>
+<ul class="link"><li>of は弱形 /əv/ に弱化</li><li>the は冠詞で弱形 /ðə/ に弱化、mob に連結</li><li>us は弱形 /əs/ に弱化</li></ul>
+<div class="kana">クウィック インプレメンテイション アヴ ザ モブ ファーム アラウド アス タ コレクト ドラップス ファスト</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">successful implementation</span><span class="im">成功した実装・実装の成功</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The successful <mark>implementation</mark> meant we could expand the base faster.</p>
+<p class="ja">成功した実装により、拠点をより速く拡張できました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/implementation_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/implementation_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səkˈsɛsfəl ˌɪmpləmenˈteɪʃən ˈmɛnt wiː kəd ɪkˈspænd ðə beɪs ˈfæstɚ/</div>
+<ul class="link"><li>The は冠詞で弱形 /ðə/ に弱化</li><li>could は助動詞で弱形 /kəd/ に弱化、expand に連結</li><li>the は冠詞で弱形 /ðə/ に弱化、base に連結</li></ul>
+<div class="kana">ザ サクセスフル インプレメンテイション メント ウィー クッディク スパンド ザ ベイス ファスター</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="implementation";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
