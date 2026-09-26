@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>flourish — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>flourish</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/ˈflɝɪʃ/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1400 #1235</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】繁栄する、栄える、成功する（grow or develop well; prosper）</li><li>【動詞】（特に植物が）良く育つ、茂る、生長する（to grow well or vigorously）</li><li>【動詞】（剣などを）派手に振る、振りかざす（wave something in an ostentatious or dramatic manner）</li><li>【名詞】派手なジェスチャー、装飾的な動き（an ornamental gesture or movement）</li><li>【名詞】装飾、飾り文字（ornamental marks or designs）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Your farm will <mark>flourish</mark> if you give it plenty of sunlight and water.</p>
+<p class="ja">十分な日光と水を与えると、あなたの農場は栄えるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔr ˈfɑrm wəl ˈflɝɪʃ ɪf ju ˈɡɪv ɪt ˈplɛnti əv ˈsʌnˌlaɪt ənd ˈwɔɾɚ/</div>
+<ul class="link"><li>your farm → your /jɔr/ の語末子音 /r/ が farm の初頭母音に連結</li><li>sunlight and → sunlight の語末 /t/ が and の弱形 /ənd/ に未開放で続く</li></ul>
+<div class="kana">ユア ファーム ウル フローリッシュ イフ ユー ギヴ イット プレンティ アヴ サンライト アン ウォーラー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The village began to <mark>flourish</mark> after we installed new trading posts.</p>
+<p class="ja">新しい交易所を設置した後、村は栄え始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ bɪˈɡæn tə ˈflɝɪʃ ˈæftɚ wi ɪnˈstɔld ˈnu ˈtreɪdɪŋ ˈpoʊsts/</div>
+<ul class="link"></ul>
+<div class="kana">ザ ヴィリッジ ビガン タ フローリッシュ アフター ウィー インスタールド ニュー トレイディング ポウスツ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She <mark>flourished</mark> her enchanted sword before the final battle.</p>
+<p class="ja">最終戦闘の前に、彼女は魔法のつるぎを派手に振りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈflɝɪʃt hɚ ɪnˈtʃæntɪd sɔrd bɪˈfɔr ðə ˈfaɪnəl ˈbætəl/</div>
+<ul class="link"><li>before the → before の語末 /r/ が the の弱形 /ðə/ に連結</li></ul>
+<div class="kana">シー フローリッシュト ハー インチャンティド ソード ビフォア ザ ファイナル バッタル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flourishes</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈflɝɪʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This rare plant <mark>flourishes</mark> in the dark caves of the Nether.</p>
+<p class="ja">この珍しい植物はネザーの暗い洞窟で栄えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈrɛr plænt ˈflɝɪʃɪz ɪn ðə dɑrk ˈkeɪvz əv ðə ˈnɛðɚ/</div>
+<ul class="link"><li>plant flourishes → plant の語末 /t/ が flourishes の初頭母音に先立つ [plænt ˈflɝɪʃɪz] プラント フローリッシーズ</li><li>flourishes in → flourishes の語末 /z/ が in の初頭 /ɪ/ に連結 [ˈflɝɪʃɪz ɪn] フローリッシーズ イン</li></ul>
+<div class="kana">ディス レア プラント フローリッシーズ イン ザ ダーク ケイブズ アヴ ザ ネザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The village <mark>flourishes</mark> when there are plenty of resources.</p>
+<p class="ja">リソースがたくさんあると、村は栄えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ ˈflɝɪʃɪz wɛn ðɛr ɑr ˈplɛnti əv ˈrɛsɚsɪz/</div>
+<ul class="link"><li>the village → the は弱形 /ðə/ ザ、village に先立つ</li><li>village flourishes → village の語末 /dʒ/ が flourishes に続く [ˈvɪlɪdʒ ˈflɝɪʃɪz] ヴィリッジ フローリッシーズ</li><li>there are → there の語末 /r/ が are の初頭 /ə/ に連結 [ðɛr ɑr] ゼア アー</li></ul>
+<div class="kana">ザ ヴィリッジ フローリッシーズ ホェン ゼア アー プレンティ アヴ レソーシーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flourished</span><span class="fl">過去形</span><span class="fi">/ˈflɝɪʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient city <mark>flourished</mark> for many years before abandonment.</p>
+<p class="ja">古代都市は放棄される前に何年も栄えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈeɪnʃənt ˈsɪti ˈflɝɪʃt fɔr ˈmɛni jɪrz bɪˈfɔr əˈbændənmənt/</div>
+<ul class="link"><li>city flourished → city の語末 /i/ が flourished の初頭 /f/ に続く [ˈsɪti ˈflɝɪʃt] シティ フローリッシュト</li><li>flourished for → flourished の語末 /t/ が for に未開放で先立つ [ˈflɝɪʃt̚ fɔr] フローリッシュ フォー</li><li>for many → for の語末 /r/ が many に続く [fɔr ˈmɛni] フォア メニー</li></ul>
+<div class="kana">ザ エイシャント シティ フローリッシュ フォア メニー イヤーズ ビフォア アバンダンメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our settlement <mark>flourished</mark> after we built proper farms and defense structures.</p>
+<p class="ja">適切な農場と防御構造を建設した後、私たちの入植地は栄えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈsɛtəlmənt ˈflɝɪʃt ˈæftɚ wi bɪlt ˈpɹɑpɚ fɑrmz ənd dɪˈfɛns ˈstrʌktʃɚz/</div>
+<ul class="link"><li>settlement flourished → settlement の語末 /t/ が flourished に未開放で先立つ [ˈsɛtəlmənt ˈflɝɪʃt] セットルメント フローリッシュト</li><li>after we → after の語末 /r/ が we に先立つ [ˈæftɚ wi] アフター ウィー</li><li>and defense → and は弱形 /ənd/ アン、defense に先立つ</li></ul>
+<div class="kana">アワー セットルメント フローリッシュ アフター ウィー ビルト プロパー ファームズ アン ディフェンス ストラクチャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flourished</span><span class="fl">過去分詞</span><span class="fi">/ˈflɝɪʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The kingdom has <mark>flourished</mark> under the new monarch's rule.</p>
+<p class="ja">新しい君主の統治の下で、その王国は栄えてきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɪŋdəm həz ˈflɝɪʃt ˈʌndɚ ðə ˈnu ˈmɑnɑrks ˈrul/</div>
+<ul class="link"><li>has flourished → has は弱形 /həz/ ハズ、flourished に先立つ [həz ˈflɝɪʃt] ハズ フローリッシュト</li><li>the new → the は弱形 /ðə/ ザ、new に先立つ [ðə ˈnu] ザ ニュー</li></ul>
+<div class="kana">ザ キングダム ハズ フローリッシュ アンダー ザ ニュー マナークス ルール</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once the land has <mark>flourished</mark> with crops, players can expand their settlements.</p>
+<p class="ja">土地が作物で栄えたら、プレイヤーは入植地を拡張できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðə lænd həz ˈflɝɪʃt wɪð ˈkrɑps | ˈpleɪɚz kæn ɪkˈspænd ðɛr ˈsɛtəlmənts/</div>
+<ul class="link"><li>land has → land の語末 /d/ が has の弱形 /həz/ に続く [lænd həz] ランド ハズ</li><li>has flourished → has は弱形 /həz/、flourished に先立つ</li></ul>
+<div class="kana">ワンス ザ ランド ハズ フローリッシュ ウィズ クロップス、プレイヤーズ キャン イクスパンド ゼア セットルメンツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flourishing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>flourishing</mark> economy of the server attracts many new players.</p>
+<p class="ja">サーバーの栄える経済は多くの新しいプレイヤーを惹きつけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈflɝɪʃɪŋ ɪˈkɑnəmi əv ðə ˈsɝvɚ əˈtræks ˈmɛni ˈnu ˈpleɪɚz/</div>
+<ul class="link"><li>the flourishing → the は弱形 /ðə/ ザ、flourishing に先立つ</li><li>of the → of は弱形 /əv/ アヴ、the は弱形 /ðə/ ザ [əv ðə] アヴ ザ</li></ul>
+<div class="kana">ザ フローリッシング イコノミ アヴ ザ サーバー アトラクツ メニー ニュー プレイヤーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>flourishing</mark> the underground mushroom farm, we discovered valuable treasure.</p>
+<p class="ja">地下キノコ農場を栄えさせることで、私たちは貴重な宝を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈflɝɪʃɪŋ ðə ˈʌndɚɡraʊnd ˈmʌʃrum fɑrm | wi dɪˈskʌvɚd ˈvæljəbəl ˈtrɛʒɚ/</div>
+<ul class="link"><li>by flourishing → by の語末 /aɪ/ が flourishing に先立つ</li><li>flourishing the → flourishing の語末 /ŋ/ が the に先立つ [ˈflɝɪʃɪŋ ðə] フローリッシング ザ</li></ul>
+<div class="kana">バイ フローリッシング ザ アンダーグラウンド マッシュルーム ファーム、ウィー ディスカバード ヴァリュアブル トレジャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flourishes</span><span class="fl">複数形</span><span class="fi">/ˈflɝɪʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The champion drew their sword with elaborate <mark>flourishes</mark> before the duel.</p>
+<p class="ja">決闘の前に、チャンピオンは精巧な装飾的振りをしながら剣を抜きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtʃæmpiən dru ðɛr sɔrd wɪð ɪˈlæbərət ˈflɝɪʃɪz bɪˈfɔr ðə ˈduəl/</div>
+<ul class="link"><li>the champion → the は弱形 /ðə/、champion に先立つ [ðə ˈtʃæmpiən] ザ チャンピオン</li><li>with elaborate → with の語末 /ð/ が elaborate に先立つ [wɪð ɪˈlæbərət] ウィズ イラボレット</li></ul>
+<div class="kana">ザ チャンピオン ドルー ゼア ソード ウィズ イラボレット フローリッシーズ ビフォア ザ デュアル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The artist added final <mark>flourishes</mark> to the painting to enhance its beauty.</p>
+<p class="ja">アーティストは絵画の美しさを高めるために、最後の装飾を加えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɑrtəst ˈædəd ˈfaɪnəl ˈflɝɪʃɪz tə ðə ˈpeɪntɪŋ tə ɪnˈhæns ɪts ˈbjuti/</div>
+<ul class="link"><li>added final → added の語末 /d/ が final に先立つ [ˈædəd ˈfaɪnəl] アデッド ファイナル</li><li>final flourishes → final の語末 /l/ が flourishes に先立つ [ˈfaɪnəl ˈflɝɪʃɪz] ファイナル フローリッシーズ</li></ul>
+<div class="kana">ザ アーティスト アデッド ファイナル フローリッシーズ タ ザ ペインティング タ インハンス イツ ビューティ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has flourished</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈflɝɪʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The farm has <mark>flourished</mark> ever since we added extra compost.</p>
+<p class="ja">余分な堆肥を加えてから、農場は栄えてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfɑrm həz ˈflɝɪʃt ˈɛvɚ sɪns wi ˈædɪd ˈɛkstrə ˈkɑmpoʊst/</div>
+<ul class="link"><li>farm has → farm の語末 /m/ が has の弱形 /həz/ に連結 [ˈfɑrm həz] ファーム ハズ</li><li>has flourished → has は弱形 /həz/、flourished に先立つ [həz ˈflɝɪʃt] ハズ フローリッシュト</li></ul>
+<div class="kana">ザ ファーム ハズ フローリッシュト エバー シンス ウィー アディド エクストラ カンポウスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our trading hub has <mark>flourished</mark> for several months now.</p>
+<p class="ja">私たちの取引所は数ヶ月間、栄えてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈtreɪdɪŋ hʌb həz ˈflɝɪʃt fɚ ˈsɛvɚəl ˈmʌnθz naʊ/</div>
+<ul class="link"><li>hub has → hub の語末 /b/ が has の弱形 /həz/ に連結 [hʌb həz] ハブ ハズ</li><li>has flourished → has は弱形 /həz/、flourished に先立つ [həz ˈflɝɪʃt] ハズ フローリッシュト</li></ul>
+<div class="kana">アワー トレイディング ハブ ハズ フローリッシュト ファ セバラル マンスズ ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had flourished</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈflɝɪʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The kingdom had <mark>flourished</mark> before the dragon invasion destroyed everything.</p>
+<p class="ja">ドラゴン侵略がすべてを破壊する前に、王国は栄えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɪŋdəm həd ˈflɝɪʃt bɪˈfɔr ðə ˈdræɡən ɪnˈveɪʒən dɪˈstrɔɪd ˈɛvrɪθɪŋ/</div>
+<ul class="link"><li>kingdom had → kingdom の語末 /m/ が had の弱形 /həd/ に連結 [ˈkɪŋdəm həd] キングダム ハド</li><li>had flourished → had は弱形 /həd/、flourished に先立つ [həd ˈflɝɪʃt] ハド フローリッシュト</li><li>before the → before の語末 /r/ が the の弱形 /ðə/ に連結 [bɪˈfɔr ðə] ビフォア ザ</li><li>dragon invasion → dragon の語末 /n/ が invasion に先立つ [ˈdræɡən ɪnˈveɪʒən] ドラゴン インベイジャン</li></ul>
+<div class="kana">ザ キングダム ハド フローリッシュト ビフォア ザ ドラゴン インベイジャン ディストロイド エブリシング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The village had <mark>flourished</mark> quietly until the redstone traps malfunctioned.</p>
+<p class="ja">レッドストーントラップが誤動作するまで、村は静かに栄えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ həd ˈflɝɪʃt ˈkwaɪətli ənˈtɪl ðə ˈrɛdstoʊn træps ˌmælˈfʌŋkʃənd/</div>
+<ul class="link"><li>village had → village の語末 /dʒ/ が had の弱形 /həd/ に連結 [ˈvɪlɪdʒ həd] ヴィリッジ ハド</li><li>had flourished → had は弱形 /həd/、flourished に先立つ [həd ˈflɝɪʃt] ハド フローリッシュト</li><li>until the → until の語末 /l/ が the の弱形 /ðə/ に先立つ [ənˈtɪl ðə] アンティル ザ</li></ul>
+<div class="kana">ザ ヴィリッジ ハド フローリッシュト クワイエットリー アンティル ザ レッドストウン トラップス マルファンクシャンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been flourishing</span><span class="fl">現在完了進行形（has/have been + 現在分詞）</span><span class="fi">/həz bɪn ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The underground city has been <mark>flourishing</mark> since we discovered the ancient loot.</p>
+<p class="ja">古代の戦利品を発見して以来、地下都市は栄え続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈʌndɚɡraʊnd ˈsɪti həz bɪn ˈflɝɪʃɪŋ sɪns wi dɪˈskʌvɚd ðə ˈeɪnʃənt lut/</div>
+<ul class="link"><li>has been → has は弱形 /həz/、been は弱形 /bɪn/ に先立つ [həz bɪn] ハズ ビン</li><li>been flourishing → been は弱形 /bɪn/、flourishing に先立つ [bɪn ˈflɝɪʃɪŋ] ビン フローリッシング</li></ul>
+<div class="kana">ザ アンダーグラウンド シティ ハズ ビン フローリッシング シンス ウィー ディスカバード ジ エインシャント ルート</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our economy has been <mark>flourishing</mark> thanks to the new trading routes.</p>
+<p class="ja">新しい交易路のおかげで、私たちの経済は栄え続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ɪˈkɑnəmi həz bɪn ˈflɝɪʃɪŋ ˈθæŋks tə ðə ˈnu ˈtreɪdɪŋ ˈraʊts/</div>
+<ul class="link"><li>has been → has は弱形 /həz/、been は弱形 /bɪn/ に先立つ [həz bɪn] ハズ ビン</li><li>been flourishing → been は弱形 /bɪn/、flourishing に先立つ [bɪn ˈflɝɪʃɪŋ] ビン フローリッシング</li></ul>
+<div class="kana">アワー イコノミ ハズ ビン フローリッシング セングクス タ ザ ニュー トレイディング ラウツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is flourishing</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The crops are <mark>flourishing</mark> in the bright sunlight of the farm.</p>
+<p class="ja">農場の明るい日光の中で、農作物は栄えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkrɑps ɑr ˈflɝɪʃɪŋ ɪn ðə ˈbraɪt ˈsʌnˌlaɪt əv ðə ˈfɑrm/</div>
+<ul class="link"><li>crops are → crops の語末 /s/ が are の初頭母音に連結 [ˈkrɑps ɑr] クロップス アー</li></ul>
+<div class="kana">ザ クロップス アー フローリッシング イン ザ ブライト サンライト アヴ ザ ファーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The village is <mark>flourishing</mark> because we have built strong defenses and good infrastructure.</p>
+<p class="ja">堅牢な防御と良いインフラを構築したので、村は栄えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ ɪz ˈflɝɪʃɪŋ bɪˈkɔz wi həv bɪlt ˈstɹɔŋ dɪˈfɛnsɪz ənd ɡʊd ˈɪnfrəˌstrʌktʃɚ/</div>
+<ul class="link"></ul>
+<div class="kana">ザ ヴィリッジ イズ フローリッシング ビコーズ ウィー ハヴ ビルト ストロング ディフェンシズ アン グッド インフラストラクチャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was flourishing</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient civilization was <mark>flourishing</mark> when we discovered the mysterious artifact in the temple.</p>
+<p class="ja">寺院で謎のアーティファクトを発見したとき、古代文明は栄えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈeɪnʃənt ˌsɪvəlɪˈzeɪʃən wəz ˈflɝɪʃɪŋ wɛn wi dɪˈskʌvɚd ðə ˈmɪstɛriəs ɑrˈtɪˌfækt ɪn ðə ˈtɛmpəl/</div>
+<ul class="link"></ul>
+<div class="kana">ザ エイシャント シビライゼーション ワズ フローリッシング ホェン ウィー ディスカバード ザ ミステリアス アーティファクト イン ザ テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>flourishing</mark> quietly until the Wither boss attacked our peaceful settlement.</p>
+<p class="ja">ウィザーボスが私たちの平和な入植地を攻撃するまで、私たちは静かに栄えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈflɝɪʃɪŋ ˈkwaɪətli ənˈtɪl ðə ˈwɪðɚ ˈbɑs əˈtækt ˈaʊɚ ˈpisfəl ˈsɛtəlmənt/</div>
+<ul class="link"></ul>
+<div class="kana">ウィー ワー フローリッシング クワイエットリー アンティル ザ ウィザー ボス アタクト アワー ピースフル セットルメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been flourishing</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The community had been <mark>flourishing</mark> for several years before the major server reset.</p>
+<p class="ja">大規模なサーバーリセットの前に、コミュニティは数年間栄え続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə kəˈmjunəti həd bɪn ˈflɝɪʃɪŋ fɔr ˈsɛvɚəl jɪrz bɪˈfɔr ðə ˈmeɪdʒɚ ˈsɝvɚ ˈrɛsɛt/</div>
+<ul class="link"></ul>
+<div class="kana">ザ コミューニティ ハド ビン フローリッシング フォア セバラル イヤーズ ビフォア ザ メイジャー サーバー リセット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The economy had been <mark>flourishing</mark> steadily when resource scarcity suddenly struck the entire realm.</p>
+<p class="ja">資源不足が全領域を突然襲ったとき、経済は着実に栄え続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪˈkɑnəmi həd bɪn ˈflɝɪʃɪŋ ˈstɛdəli wɛn ˈrɛsɚs ˈskɛrsəti ˈsʌdənli ˈstrʌk ðə ɪnˈtaɪɚ ˈrɛlm/</div>
+<ul class="link"></ul>
+<div class="kana">ザ イコノミ ハド ビン フローリッシング ステディリー ホェン レソース スカーシティ サドゥンリー ストラック ザ エンタイアー レルム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will flourish</span><span class="fl">単純未来形</span><span class="fi">/wəl ˈflɝɪʃ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The crops will <mark>flourish</mark> if we give them enough light and water.</p>
+<p class="ja">十分な光と水を与えると、作物は栄えるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkrɑps wəl ˈflɝɪʃ ɪf wi ˈɡɪv ðəm ɪˈnʌf ˈlaɪt ənd ˈwɔɾɚ/</div>
+<ul class="link"><li>the crops → the は弱形 /ðə/ ザ、crops に先立つ [ðə ˈkrɑps]</li><li>will flourish → will は弱形 /wəl/ ウル、flourish に先立つ [wəl ˈflɝɪʃ] ウル フローリッシュ</li><li>light and → light の語末 /t/ が and の弱形 /ənd/ に未開放で続く [ˈlaɪt̚ ənd] ライト アン</li><li>and water → water の /t/ が母音に挟まれフラップ化 [ˈwɔɾɚ] ウォーラー</li></ul>
+<div class="kana">ザ クロップス ウル フローリッシュ イフ ウィー ギヴ ザム イナフ ライト アン ウォーラー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The enchanted plants will <mark>flourish</mark> in the mystical garden we created.</p>
+<p class="ja">私たちが作成した神秘的な庭で、魔法の植物は栄えるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪnˈtʃæntɪd plænts wəl ˈflɝɪʃ ɪn ðə ˈmɪstɪkəl ˈɡɑrdən wi kriˈeɪtɪd/</div>
+<ul class="link"><li>the enchanted → the は弱形 /ðə/ ザ、enchanted に先立つ [ðə ɪnˈtʃæntɪd]</li><li>will flourish → will は弱形 /wəl/ ウル、flourish に先立つ [wəl ˈflɝɪʃ] ウル フローリッシュ</li><li>in the → in の語末 /n/ が the の弱形 /ðə/ に続く [ɪn ðə] イン ザ</li><li>garden we → garden の語末 /n/ が we に先立つ [ˈɡɑrdən wi] ガーデン ウィー</li></ul>
+<div class="kana">ザ インチャンティド プランツ ウル フローリッシュ イン ザ ミスティカル ガーデン ウィー クリエイティド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be flourishing</span><span class="fl">未来進行形</span><span class="fi">/wəl bɪ ˈflɝɪʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By harvest time, the entire farm will be <mark>flourishing</mark> with golden crops.</p>
+<p class="ja">収穫の時期までに、農場全体は黄金の作物で栄え続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈhɑrvəst ˈtaɪm | ðə ɪnˈtaɪɚ ˈfɑrm wəl bɪ ˈflɝɪʃɪŋ wɪð ˈɡoʊldən ˈkrɑps/</div>
+<ul class="link"><li>harvest time → harvest の語末 /t/ が time に未開放で先立つ [ˈhɑrvəst̚ ˈtaɪm] ハーベスト タイム</li><li>the entire → the は弱形 /ðə/ ザ、entire に先立つ [ðə ɪnˈtaɪɚ]</li><li>will be flourishing → will は弱形 /wəl/、be は弱形 /bɪ/、flourishing に続く [wəl bɪ ˈflɝɪʃɪŋ] ウル ビ フローリッシング</li><li>with golden → with の語末 /ð/ が golden に先立つ [wɪð ˈɡoʊldən] ウィズ ゴールデン</li></ul>
+<div class="kana">バイ ハーベスト タイム ザ エンタイアー ファーム ウル ビ フローリッシング ウィズ ゴールデン クロップス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Tomorrow when you return, the economy will be <mark>flourishing</mark> thanks to our trading hub.</p>
+<p class="ja">明日あなたが戻ってきたとき、私たちの交易所のおかげで経済は栄え続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/təˈmɑroʊ wɛn ju rɪˈtɝn | ðə ɪˈkɑnəmi wəl bɪ ˈflɝɪʃɪŋ ˈθæŋks tə ˈaʊɚ ˈtreɪdɪŋ ˈhʌb/</div>
+<ul class="link"><li>when you → when の語末 /n/ が you の初頭 /ju/ に連結 [wɛn ju] ウェン ユー</li><li>the economy → the は弱形 /ðə/ ザ、economy に先立つ [ðə ɪˈkɑnəmi]</li><li>will be flourishing → will は弱形 /wəl/、be は弱形 /bɪ/、flourishing に続く [wəl bɪ ˈflɝɪʃɪŋ] ウル ビ フローリッシング</li><li>to our → to は弱形 /tə/ タ、our に先立つ [tə ˈaʊɚ] タ アワー</li></ul>
+<div class="kana">タモロー ウェン ユー リターン ザ イコノミ ウル ビ フローリッシング セングクス タ アワー トレイディング ハブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have flourished</span><span class="fl">未来完了形</span><span class="fi">/wəl həv ˈflɝɪʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flourish_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the end of this season, our settlement will have <mark>flourished</mark> beyond our expectations.</p>
+<p class="ja">このシーズンの終わりまでに、私たちの入植地は期待を超えて栄えているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈɛnd əv ðɪs ˈsizən ˈaʊɚ ˈsɛtəlmənt wəl həv ˈflɝɪʃt bɪˈjɑnd ˈaʊɚ ˌɛkspɛkˈteɪʃənz/</div>
+<ul class="link"><li>the end → the は弱形 /ðə/ ザ、end に先立つ [ðə ˈɛnd] ザ エンド</li><li>end of → end の語末 /d/ が of の弱形 /əv/ に続く [ˈɛnd əv] エンド アヴ</li><li>will have flourished → will は弱形 /wəl/、have は弱形 /həv/、flourished に続く [wəl həv ˈflɝɪʃt] ウル ハヴ フローリッシュト</li><li>beyond our → beyond の語末 /d/ が our の初頭 /aʊ/ に連結 [bɪˈjɑnd ˈaʊɚ] ビヨンド アワー</li></ul>
+<div class="kana">バイ ザ エンド アヴ ディス シーズン アワー セットルメント ウル ハヴ フローリッシュト ビヨンド アワー エクスペクテーションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once we finish building the farms, the village will have <mark>flourished</mark> greatly.</p>
+<p class="ja">農場の建設を完了したら、村は大いに栄えているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns wi ˈfɪnɪʃ ˈbɪldɪŋ ðə ˈfɑrmz | ðə ˈvɪlɪdʒ wəl həv ˈflɝɪʃt ˈɡreɪtli/</div>
+<ul class="link"><li>the farms → the は弱形 /ðə/ ザ、farms に先立つ [ðə ˈfɑrmz] ザ ファームズ</li><li>the village → the は弱形 /ðə/ ザ、village に先立つ [ðə ˈvɪlɪdʒ] ザ ヴィリッジ</li><li>will have flourished → will は弱形 /wəl/、have は弱形 /həv/、flourished に続く [wəl həv ˈflɝɪʃt] ウル ハヴ フローリッシュト</li><li>flourished greatly → flourished の語末 /t/ が greatly に未開放で先立つ [ˈflɝɪʃt̚ ˈɡreɪtli] フローリッシュ グレイトリー</li></ul>
+<div class="kana">ワンス ウィー フィニッシュ ビルディング ザ ファームズ ザ ヴィリッジ ウル ハヴ フローリッシュト グレイトリー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">with a flourish</span><span class="im">派手に、見栄よく</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The player defeated the final boss with a <mark>flourish</mark>.</p>
+<p class="ja">プレイヤーは最終ボスを派手に倒しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər dɪˈfitɪd ðə ˈfaɪnəl bɔs wɪð ə ˈflɝɪʃ/</div>
+<ul class="link"></ul>
+<div class="kana">ザ プレイアー ディフィーティド ザ ファイナル ボス ウィズ ア フローリッシュ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">flourish and grow</span><span class="im">繁栄して成長する、栄える</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The crops <mark>flourish</mark> and grow throughout the spring season.</p>
+<p class="ja">春の季節を通じて、作物は繁栄して成長します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flourish_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flourish_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkrɑps ˈflɝɪʃ ənd ɡroʊ θruˈaʊt ðə ˈsprɪŋ ˈsizən/</div>
+<ul class="link"></ul>
+<div class="kana">ザ クロップス フローリッシュ アン グロウ スルーアウト ザ スプリング シーズン</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="flourish";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

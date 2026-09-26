@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>puzzle — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>puzzle</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈpʌzəl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1400 #710</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】（解く必要のある）謎・パズル（ゲームやクイズなど）。例：（a jigsaw puzzle）</li><li>【名詞】困惑・謎（理解が難しい人・事柄）。例：（be a puzzle to someone）</li><li>【動詞】（人を）困惑させる・戸惑わせる。例：（puzzle someone）</li><li>【動詞】（puzzle over/out）...について思い悩む・解明する。例：（puzzle out the answer）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This redstone <mark>puzzle</mark> is hard to solve.</p>
+<p class="ja">このレッドストーン・パズルは解くのが難しい。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ˈɹɛdˌstoʊn ˈpʌzəl ɪz hɑɹd tə ˈsoʊlv]</div>
+<ul class="link"><li>redstone の n は /p/ 前で未開放 [ˈɹɛdˌstoʊn̚]。</li><li>puzzle is / の /l/ が次の /ɪ/ に連結 [ˈpʌzəlɪz]。</li><li>to は弱形 /tə/。</li></ul>
+<div class="kana">ディス・レッドストーン・パゼルイズ・ハード・タ・ソウルヴ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm <mark>puzzled</mark> by how this Enderman spawns here.</p>
+<p class="ja">このエンダーマンがここに出現する理由に戸惑っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˈpʌzəld baɪ ˌhaʊ ðɪs ˈɛndɚˌmæn spɔnz hɪɹ]</div>
+<ul class="link"><li>I'm /aɪm/ の m は /p/ 前で未開放 [aɪm̚ ˈpʌzəld]。アイッ・パゼルド。</li><li>puzzled by：/d/ の後に /b/ が続く。</li></ul>
+<div class="kana">アイム・パゼルド・バイ・ハウ・ディス・エンダーマン・スポーンズ・ヒアー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Can you <mark>puzzle</mark> out why I can't mine this diamond?</p>
+<p class="ja">このダイヤが掘れない理由を解明できますか？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[kæn juː ˈpʌzəl ˈaʊt waɪ aɪ kænt maɪn ðɪs ˈdaɪmənd]</div>
+<ul class="link"><li>Can は弱形 /kən/、you /juː/ に連結 [kən juː]。キャン・ユー。</li><li>puzzle out / の /l/ が /aʊ/ に連結。</li><li>out は /t/ 未開放、why の /w/ へ。</li></ul>
+<div class="kana">キャン・ユー・パゼル・アウト・ワイ・アイ・キャント・マイン・ディス・ダイマンド</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">puzzles</span><span class="fl">複数形</span><span class="fi">/ˈpʌzəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>puzzle</mark> room has three <mark>puzzles</mark> to solve.</p>
+<p class="ja">パズルルームには解くべきパズルが3つある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpʌzəl ɹuːm hæz θɹiː ˈpʌzəlz tə ˈsoʊlv]</div>
+<ul class="link"><li>the puzzle → the /ðə/ は弱形、puzzle /ˈpʌ/ に連結 [ðə ˈpʌzəl]。ザ・パゼル。</li><li>puzzles to → /z/ が /t/ 前で未開放 [ˈpʌzəlz̚ tə]。パゼルズ・タ。</li></ul>
+<div class="kana">ザ・パゼル・ルーム・ハズ・スリー・パゼルズ・タ・ソウルヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have found four <mark>puzzles</mark> in this fortress.</p>
+<p class="ja">この要塞で4つのパズルを見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ hæv ˈfaʊnd ˈfɔɹ ˈpʌzəlz ɪn ðɪs ˈfɔɹtɹɪs]</div>
+<ul class="link"><li>have found → have の語末 /v/ と found の /f/ が連続 [hæv ˈfaʊnd]。ハヴ・ファウンド。</li><li>puzzles in → /z/ が母音 /ɪ/ に連結 [ˈpʌzəlz ɪn]。パゼルズ・イン。</li></ul>
+<div class="kana">アイ・ハヴ・ファウンド・フォー・パゼルズ・イン・ディス・フォートレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">puzzles</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈpʌzəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This problem <mark>puzzles</mark> even the most experienced players.</p>
+<p class="ja">この問題は最も経験豊かなプレイヤーでさえ戸惑わせる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ˈprɑbləm ˈpʌzəlz ˈiːvən ðə ˈmoʊst ɪkˈspɪɹiənst ˈpleɪɚz]</div>
+<ul class="link"><li>problem puzzles → /m/ が未開放で /p/ に接続 [ˈprɑbləm̚ ˈpʌzəlz]。プラブレム・パゼルズ。</li><li>puzzles even → /z/ が母音 /ˈiː/ に連結 [ˈpʌzəlz ˈiːvən]。パゼルズ・イーヴン。</li></ul>
+<div class="kana">ディス・プラブレム・パゼルズ・イーヴン・ザ・モースト・イクスピアランスト・プレイヤーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone mechanism <mark>puzzles</mark> everyone who studies it.</p>
+<p class="ja">レッドストーン機構はそれを研究する誰もが困惑する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɹɛdˌstoʊn ˈmɛkənɪzəm ˈpʌzəlz ˈɛvɹiwʌn huː ˈstʌdiz ɪt]</div>
+<ul class="link"><li>mechanism puzzles → /m/ が未開放で /p/ に接続 [ˈmɛkənɪzəm̚ ˈpʌzəlz]。メッカニズム・パゼルズ。</li><li>puzzles everyone → /z/ が母音 /ˈɛ/ に連結 [ˈpʌzəlz ˈɛvɹiwʌn]。パゼルズ・エヴリワン。</li></ul>
+<div class="kana">ザ・レッドストーン・メッカニズム・パゼルズ・エヴリワン・フー・スタディーズ・イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">puzzled</span><span class="fl">過去形</span><span class="fi">/ˈpʌzəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>puzzled</mark> by the hidden water stream.</p>
+<p class="ja">隠れた水流に戸惑った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz ˈpʌzəld baɪ ðə ˈhɪdən ˈwɔtɚ ˈstɹiːm]</div>
+<ul class="link"><li>was puzzled → was /wəz/ は弱形 /əz/、puzzled の /ˈpʌ/ に連結 [wəz ˈpʌzəld]。ウズ・パゼルド。</li><li>puzzled by → /d/ が子音 /b/ 前で未開放 [ˈpʌzəld̚ baɪ]。パゼルド・バイ。</li></ul>
+<div class="kana">アイ・ウズ・パゼルド・バイ・ザ・ヒデン・ウォーター・ストリーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>puzzled</mark> over that enchantment chart for hours.</p>
+<p class="ja">私たちはその魔法効果チャートについて何時間も思い悩んだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wiː ˈpʌzəld ˈoʊvɚ ðæt ɪnˈtʃæntmənt tʃɑɹt fɚ ˈaʊɚz]</div>
+<ul class="link"><li>puzzled over → /d/ が母音 /ˈoʊ/ に連結 [ˈpʌzəld ˈoʊvɚ]。パゼルド・オーバー。</li><li>over that → over と that が連結 [ˈoʊvɚ ðæt]。オーバー・ザット。</li></ul>
+<div class="kana">ウィー・パゼルド・オーバー・ザット・エンチャントメント・チャート・ファー・アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">puzzled</span><span class="fl">過去分詞</span><span class="fi">/ˈpʌzəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>puzzled</mark> over the problem, I finally understood the solution.</p>
+<p class="ja">その問題について思い悩んだ結果、ついに答えが分かった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈheɪvɪŋ ˈpʌzəld ˈoʊvɚ ðə ˈprɑbləm aɪ ˈfaɪnəli ən ˈstʊd ðə səˈluːʃən]</div>
+<ul class="link"><li>Having puzzled → /ɪŋ/ が未開放で /p/ に接続 [ˈheɪvɪŋ̚ ˈpʌzəld]。ヘイヴィン・パゼルド。</li><li>puzzled over → /d/ が母音 /ˈoʊ/ に連結 [ˈpʌzəld ˈoʊvɚ]。パゼルド・オーバー。</li></ul>
+<div class="kana">ヘイヴィン・パゼルド・オーバー・ザ・プラブレム・アイ・ファイナリー・アンダースッド・ザ・サルーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>puzzled</mark> player couldn't figure out the redstone mechanism.</p>
+<p class="ja">戸惑ったプレイヤーはレッドストーン機構が理解できなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpʌzəld ˈpleɪɚ ˈkʊdənt ˈfɪɡɚ ˈaʊt ðə ˈɹɛdˌstoʊn ˈmɛkənɪzəm]</div>
+<ul class="link"><li>puzzled player → puzzled の語末 /d/ が player の /p/ に先行 [ˈpʌzəld ˈpleɪɚ]。パゼルド・プレイヤー。</li><li>player couldn't → /ɚ/ が子音 /k/ 前で未開放 [ˈpleɪɚ̚ ˈkʊdənt]。プレイヤー・クドゥント。</li></ul>
+<div class="kana">ザ・パゼルド・プレイヤー・クドゥント・フィガー・アウト・ザ・レッドストーン・メッカニズム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">puzzling</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Puzzling over the enchantment system takes a lot of time.</p>
+<p class="ja">魔法効果システムについて思い悩むのに多くの時間がかかる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈpʌzəlɪŋ ˈoʊvɚ ðə ɪnˈtʃæntmənt ˈsɪstəm teɪks ə ˈlɑt əv ˈtaɪm]</div>
+<ul class="link"><li>Puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結 [ˈpʌzəlɪŋ ˈoʊvɚ]。パゼリン・オーバー。</li><li>over the → over と the が連結、the は弱形 /ðə/ [ˈoʊvɚ ðə]。オーバー・ザ。</li></ul>
+<div class="kana">パゼリン・オーバー・ザ・エンチャントメント・システム・テイクス・ア・ラット・アヴ・タイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The crew was puzzling out the secret passage location.</p>
+<p class="ja">クルーは秘密の通路の場所を解明していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə kruː wəz ˈpʌzəlɪŋ ˈaʊt ðə ˈsɪkɹət ˈpæsɪdʒ loʊˈkeɪʃən]</div>
+<ul class="link"><li>was puzzling → was /wəz/ は弱形 /əz/、puzzling の /ˈpʌ/ に連結 [wəz ˈpʌzəlɪŋ]。ウズ・パゼリン。</li><li>puzzling out → /ɪŋ/ が母音 /ˈaʊ/ に連結 [ˈpʌzəlɪŋ ˈaʊt]。パゼリン・アウト。</li></ul>
+<div class="kana">ザ・クルー・ウズ・パゼリン・アウト・ザ・シークレット・パッシッジ・ロケーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has puzzled</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈpʌzəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>puzzled</mark> over this redstone mechanism for hours.</p>
+<p class="ja">このレッドストーン機構について何時間も思い悩んだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ hæv ˈpʌzəld ˈoʊvɚ ðɪs ˈɹɛdˌstoʊn ˈmɛkənɪzəm fɚ ˈaʊɚz]</div>
+<ul class="link"><li>have puzzled → have /hæv/ の語末 /v/ は puzzled /ˈpʌ/ の子音前で弱化 [hæv ˈpʌzəld]。ハヴ・パゼルド。</li><li>puzzled over → /d/ が母音 /ˈoʊ/ に連結 [ˈpʌzəld ˈoʊvɚ]。パゼルド・オーバー。</li></ul>
+<div class="kana">アイ・ハヴ・パゼルド・オーバー・ディス・レッドストーン・メカニズム・ファー・アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>puzzled</mark> out why the Enderman moved my blocks.</p>
+<p class="ja">彼女はエンダーマンが私のブロックを動かした理由を解明した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi həz ˈpʌzəld ˈaʊt waɪ ðə ˈɛndɚˌmæn ˈmuːvd maɪ blɑks]</div>
+<ul class="link"><li>has puzzled → has /həz/ は弱形、puzzled /ˈpʌ/ に先行、/z/ は子音前で未開放 [həz ˈpʌzəld]。ハズ・パゼルド。</li><li>puzzled out → /d/ が母音 /ˈaʊ/ に連結 [ˈpʌzəld ˈaʊt]。パゼルド・アウト。</li></ul>
+<div class="kana">シー・ハズ・パゼルド・アウト・ワイ・ザ・エンダーマン・ムーヴド・マイ・ブラックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had puzzled</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈpʌzəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>puzzled</mark> over the circuit before the instructor arrived.</p>
+<p class="ja">その回路について思い悩んだ後、インストラクターが到着した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd ˈpʌzəld ˈoʊvɚ ðə ˈsɚkət bɪˈfɔɹ ðə ɪnˈstɹʌktɚ əˈɹaɪvd]</div>
+<ul class="link"><li>had puzzled → had /həd/ は弱形、puzzled /ˈpʌ/ に先行、/d/ は子音前で未開放 [həd ˈpʌzəld]。ハド・パゼルド。</li><li>puzzled over → /d/ が母音 /ˈoʊ/ に連結 [ˈpʌzəld ˈoʊvɚ]。パゼルド・オーバー。</li></ul>
+<div class="kana">ザイ・ハド・パゼルド・オーバー・ザ・サーキット・ビフォー・ザ・インストラクター・アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had <mark>puzzled</mark> out the hidden location before we found him.</p>
+<p class="ja">彼は私たちに見つかる前に隠された場所を解明していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi həd ˈpʌzəld ˈaʊt ðə ˈhɪdən loʊˈkeɪʃən bɪˈfɔɹ wiː ˈfaʊnd hɪm]</div>
+<ul class="link"><li>had puzzled → had /həd/ は弱形、puzzled /ˈpʌ/ に先行、/d/ は子音前で未開放 [həd ˈpʌzəld]。ハド・パゼルド。</li><li>puzzled out → /d/ が母音 /ˈaʊ/ に連結 [ˈpʌzəld ˈaʊt]。パゼルド・アウト。</li></ul>
+<div class="kana">ヒー・ハド・パゼルド・アウト・ザ・ヒデン・ロケーション・ビフォー・ウィー・ファウンド・ヒム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been puzzling</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been puzzling over this enchantment chart all afternoon.</p>
+<p class="ja">この魔法効果チャートについて午後ずっと思い悩んでいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ hæv bɪn ˈpʌzəlɪŋ ˈoʊvɚ ðɪs ɪnˈtʃæntmənt tʃɑɹt ɔl ˌæftɚˈnuːn]</div>
+<ul class="link"><li>have been → have /hæv/, been /bɪn/ に続く、/v/ は子音 /b/ 前で弱化 [hæv bɪn]。ハヴ・ビン。been は弱形 /bɪn/。</li><li>been puzzling → been /bɪn/ の語末 /n/ は puzzling の /ˈp/ 前で未開放 [bɪn̚ ˈpʌzəlɪŋ]。ビン・パゼリン。</li></ul>
+<div class="kana">アイ・ハヴ・ビン・パゼリン・オーバー・ディス・エンチャントメント・チャート・オール・アフタヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been puzzling out the redstone door mechanism all week.</p>
+<p class="ja">レッドストーンドア機構を1週間ずっと解明しようとしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wiː hæv bɪn ˈpʌzəlɪŋ ˈaʊt ðə ˈɹɛdˌstoʊn dɔɹ ˈmɛkənɪzəm ɔl ˈwiːk]</div>
+<ul class="link"><li>have been → have /hæv/, been /bɪn/ に続く、/v/ は子音 /b/ 前で弱化 [hæv bɪn]。ハヴ・ビン。</li><li>been puzzling → been /bɪn/ の語末 /n/ は puzzling の /ˈp/ 前で未開放 [bɪn̚ ˈpʌzəlɪŋ]。ビン・パゼリン。</li></ul>
+<div class="kana">ウィー・ハヴ・ビン・パゼリン・アウト・ザ・レッドストーン・ドア・メカニズム・オール・ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is puzzling</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Alex is puzzling over how to solve this redstone <mark>puzzle</mark>.</p>
+<p class="ja">アレックスがこのレッドストーン・パズルを解く方法について思い悩んでいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈælɛks ɪz ˈpʌzəlɪŋ ˈoʊvɚ ˌhaʊ tə ˈsoʊlv ðɪs ˈɹɛdˌstoʊn ˈpʌzəl]</div>
+<ul class="link"><li>is は弱形 /ɪz/、puzzling /ˈpʌ/ 前で /z/ が未開放</li><li>puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結</li><li>over how → /ɚ/ が /h/ に連結</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">アレックス・イズ・パゼリン・オーバー・ハウ・タ・ソウルヴ・ディス・レッドストーン・パゼル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The teammates are puzzling over that weird enchantment.</p>
+<p class="ja">チームメイトたちがその変な魔法効果について思い悩んでいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtimˌmeɪts ɑɹ ˈpʌzəlɪŋ ˈoʊvɚ ðæt wɪɹd ɪnˈtʃæntmənt]</div>
+<ul class="link"><li>the は弱形 /ðə/、teammates /ˈtiː/ に連結</li><li>are は弱形 /ɚ/、puzzling /ˈpʌ/ 前で未開放</li><li>puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結</li><li>over that → /ɚ/ が /ð/ に連結</li></ul>
+<div class="kana">ザ・ティームメイツ・アー・パゼリン・オーバー・ザット・ウィアード・エンチャントメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was puzzling</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve was puzzling out the secret base entrance location.</p>
+<p class="ja">スティーブが秘密基地の入口の場所を解明していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[stiv wəz ˈpʌzəlɪŋ ˈaʊt ðə ˈsɪkrət beɪs ˈɛntrəns loʊˈkeɪʃən]</div>
+<ul class="link"><li>was は弱形 /wəz/、puzzling /ˈpʌ/ に連結</li><li>puzzling out → /ɪŋ/ が母音 /ˈaʊ/ に連結</li><li>out the → /t/ 未開放、the は弱形 /ðə/</li><li>base entrance → /s/ が母音 /ˈɛ/ に連結</li></ul>
+<div class="kana">スティーブ・ウズ・パゼリン・アウト・ザ・シークレット・ベース・エントランス・ロケーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were puzzling over the map for hours before finding it.</p>
+<p class="ja">彼らがそれを見つけるまで何時間もマップについて思い悩んでいた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɚ ˈpʌzəlɪŋ ˈoʊvɚ ðə mæp fɚ ˈaʊɚz bɪˈfɔɹ ˈfaɪndɪŋ ɪt]</div>
+<ul class="link"><li>were は弱形 /wɚ/、puzzling /ˈpʌ/ に連結</li><li>puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結</li><li>over the → /ɚ/ が /ð/ に連結</li><li>for hours → for /fɚ/ 弱形、hours /ˈaʊ/ に連結</li></ul>
+<div class="kana">ザイ・ウァー・パゼリン・オーバー・ザ・マップ・ファー・アワーズ・ビフォー・ファイディング・イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been puzzling</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/hæd bɪn ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player had been puzzling over the spawner mechanics before asking for help.</p>
+<p class="ja">そのプレイヤーは助けを求める前にスポーナー機構について思い悩んでいた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpleɪɚ hæd bɪn ˈpʌzəlɪŋ ˈoʊvɚ ðə ˈspɔnɚ məˈkænɪks bɪˈfɔɹ ˈæskɪŋ fɚ hɛlp]</div>
+<ul class="link"><li>had は弱形 /həd/、been /bɪn/ に連結</li><li>been は弱形 /bɪn/、puzzling /ˈpʌ/ に連結</li><li>puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結</li><li>over the → /ɚ/ が /ð/ に連結</li></ul>
+<div class="kana">ザ・プレイヤー・ハド・ビン・パゼリン・オーバー・ザ・スポーナー・メカニックス・ビフォー・アスキング・ファー・ヘルプ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been puzzling over this enchanting recipe for days when Alex solved it.</p>
+<p class="ja">アレックスが解決する時点で、私たちはこのエンチャント・レシピについて数日間思い悩んでいた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wiː hæd bɪn ˈpʌzəlɪŋ ˈoʊvɚ ðɪs ɪnˈtʃæntɪŋ ˈɹɛsəpi fɚ deɪz wɛn ˈælɛks ˈsoʊlvd ɪt]</div>
+<ul class="link"><li>had は弱形 /həd/、been /bɪn/ に連結</li><li>been は弱形 /bɪn/、puzzling /ˈpʌ/ に連結</li><li>puzzling over → /ɪŋ/ が母音 /ˈoʊ/ に連結</li><li>for days → for /fɚ/ 弱形、days /ˈdeɪ/ に連結</li></ul>
+<div class="kana">ウィー・ハド・ビン・パゼリン・オーバー・ディス・エンチャンティング・レセピ・ファー・デイズ・ウェン・アレックス・ソウルド・イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will puzzle</span><span class="fl">単純未来形</span><span class="fi">/wəl ˈpʌzəl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>puzzle</mark> over this hidden trap tomorrow.</p>
+<p class="ja">明日、この隠された罠について思い悩むつもりだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪl ˈpʌzəl ˈoʊvɚ ðɪs ˈhɪdən træp̚ tə ˈmɑɹoʊ]</div>
+<ul class="link"><li>I'll → I + will の縮約 /aɪl/、puzzle の /ˈpʌ/ に連結 [aɪl ˈpʌzəl]。アイル・パゼル。</li><li>puzzle over → puzzle の語末 /l/ が over の /ˈoʊ/ に連結 [ˈpʌzəl ˈoʊvɚ]。パゼル・オーバー。</li><li>over this → over の語末 /ɚ/ が this の /ð/ に連結 [ˈoʊvɚ ðɪs]。オーバー・ディス。</li><li>trap tomorrow → /p/ が /t/ 前で未開放 [træp̚ tə ˈmɑɹoʊ]。トラップ・タモロー。</li></ul>
+<div class="kana">アイル・パゼル・オーバー・ディス・ヒデン・トラップ・タモロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>puzzle</mark> out the Wither structure by next week.</p>
+<p class="ja">来週までに、彼らはウィザー建築物を解明するだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪl ˈpʌzəl ˈaʊt ðə ˈwɪðɚ ˈstrʌktʃɚ baɪ̚ ˌnɛkst ˈwiːk]</div>
+<ul class="link"><li>They'll → they + will の縮約 /ðeɪl/、puzzle の /ˈpʌ/ に連結 [ðeɪl ˈpʌzəl]。ゼイル・パゼル。</li><li>puzzle out → /əl/ と /ˈaʊ/ で連結 [ˈpʌzəl ˈaʊt]。パゼル・アウト。</li><li>by next → by の語末 /t/ が next の /n/ 前で未開放 [baɪ̚ ˌnɛkst]。バイ・ネクスト。</li></ul>
+<div class="kana">ゼイル・パゼル・アウト・ザ・ウィザー・ストラクチャー・バイ・ネクスト・ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be puzzling</span><span class="fl">未来進行形</span><span class="fi">/wəl bi ˈpʌzəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be puzzling over the map layout all evening.</p>
+<p class="ja">夜中ずっと、地図のレイアウトについて思い悩んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wil bi ˈpʌzəlɪŋ ˈoʊvɚ ðə mæp ˈleɪˌaʊt ɔl ˈiːvnɪŋ]</div>
+<ul class="link"><li>We'll be → we + will の縮約 /wil/、be /bi/ に連結 [wil bi]。ウィル・ビー。</li><li>be puzzling → /bi/ が /ˈpʌ/ に連結、-ing は鼻音で滑らか [bi ˈpʌzəlɪŋ]。ビー・パゼリン。</li><li>puzzling over → puzzling の /ŋ/ が over の /ˈoʊ/ に連結 [ˈpʌzəlɪŋ ˈoʊvɚ]。パゼリン・オーバー。</li></ul>
+<div class="kana">ウィル・ビー・パゼリン・オーバー・ザ・マップ・レイアウト・オール・イーブニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll be puzzling out the redstone contraption when I return.</p>
+<p class="ja">私が戻ってくるとき、君はレッドストーン装置を解明してるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[juːl bi ˈpʌzəlɪŋ ˈaʊt ðə ˈɹɛdˌstoʊn kənˈtɹæpʃən wɛn aɪ ɹɪˈtɝn]</div>
+<ul class="link"><li>You'll be → you + will の縮約 /juːl/、be /bi/ に連結 [juːl bi]。ユール・ビー。</li><li>be puzzling → /bi/ が /ˈpʌ/ に連結、-ing は鼻音 [bi ˈpʌzəlɪŋ]。ビー・パゼリン。</li><li>puzzling out → puzzling の /ŋ/ が out の /ˈaʊ/ に連結 [ˈpʌzəlɪŋ ˈaʊt]。パゼリン・アウト。</li></ul>
+<div class="kana">ユール・ビー・パゼリン・アウト・ザ・レッドストーン・コントラプション・ウェン・アイ・リターン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have puzzled</span><span class="fl">未来完了形</span><span class="fi">/wəl əv ˈpʌzəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll have <mark>puzzled</mark> out this mystery by tonight.</p>
+<p class="ja">今夜までに、この謎を解明しているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪl əv ˈpʌzəld ˈaʊt ðɪs ˈmɪstəɹi baɪ̚ təˈnaɪt]</div>
+<ul class="link"><li>I'll have → I + will の縮約 /aɪl/、have の弱形 /əv/ に連結 [aɪl əv]。アイル・アヴ。</li><li>have puzzled → /v/ が /ˈpʌ/ に連結 [əv ˈpʌzəld]。アヴ・パゼルド。</li><li>puzzled out → /d/ が母音 /ˈaʊ/ に連結 [ˈpʌzəld ˈaʊt]。パゼルド・アウト。</li></ul>
+<div class="kana">アイル・アヴ・パゼルド・アウト・ディス・ミステリー・バイ・タナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time you finish, we'll have <mark>puzzled</mark> over the enchantment table.</p>
+<p class="ja">君が終わるまでに、私たちはエンチャント台について思い悩んでいるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm juː ˈfɪnɪʃ wil əv ˈpʌzəld ˈoʊvɚ ði ɪnˈtʃæntmənt ˈteɪbəl]</div>
+<ul class="link"><li>we'll have → we + will の縮約 /wil/、have の弱形 /əv/ に連結 [wil əv]。ウィル・アヴ。</li><li>have puzzled → /v/ が /ˈpʌ/ に連結 [əv ˈpʌzəld]。アヴ・パゼルド。</li><li>puzzled over → /d/ が母音 /ˈoʊ/ に連結 [ˈpʌzəld ˈoʊvɚ]。パゼルド・オーバー。</li></ul>
+<div class="kana">バイ・ザ・タイム・ユー・フィニッシュ・ウィル・アヴ・パゼルド・オーバー・ディ・エンチャントメント・テイブル</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">puzzle over</span><span class="im">...について頭を悩ませる・思い悩む</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm puzzling over this enchantment recipe.</p>
+<p class="ja">この魔法のレシピについて思い悩んでいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˈpʌzəlɪŋ ˈoʊvɚ ðɪs ɪnˈtʃæntmənt ˈɹɛsəpi]</div>
+<ul class="link"><li>puzzling /ɪŋ/ から over /ˈoʊ/ へ。</li><li>over this：/ɚ/ から /ð/ への移行。</li></ul>
+<div class="kana">アイム・パゼリン・オーバー・ディス・エンチャントメント・レセピ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">puzzle out</span><span class="im">...を解明する・謎を解く</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>puzzled</mark> out the hidden base location.</p>
+<p class="ja">隠された基地の場所を解明した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wiː ˈpʌzəld ˈaʊt ðə ˈhɪdən beɪs ˌloʊˈkeɪʃən]</div>
+<ul class="link"><li>puzzled /əld/ から out /ˈaʊt/ へ滑らかに。</li><li>out the：/t/ 未開放、the は弱形 /ðə/。</li></ul>
+<div class="kana">ウィー・パゼル・アウト・ザ・ヒデン・ベース・ロケーション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">piece of the puzzle</span><span class="im">（大きな問題の）一部・一片</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Each enchantment is just one piece of the <mark>puzzle</mark>.</p>
+<p class="ja">各魔法効果はパズルの一片に過ぎない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/puzzle_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/puzzle_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[iːtʃ ɪnˈtʃæntmənt ɪz dʒʌst wʌn piːs əv ðə ˈpʌzəl]</div>
+<ul class="link"><li>piece /s/ は /ə/ 前で voicing。</li><li>of は弱形 /əv/、the は弱形 /ðə/。</li></ul>
+<div class="kana">イーチ・エンチャントメント・イズ・ジャスト・ワン・ピーザヴ・ザ・ヒデン・ベース・ロケーション</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="puzzle";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

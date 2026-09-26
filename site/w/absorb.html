@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>absorb — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>absorb</h2><span class="pos">動詞</span><span class="ipa-head">/əbˈzɔɹb/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1400 #639</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】液体・ガス・光などを吸収する（absorb water, absorb light）</li><li>【動詞】情報・知識を習得する、理解する（absorb information）</li><li>【動詞】コスト・費用・衝撃などを負担する、吸収する（absorb costs, absorb impact）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The sponge <mark>absorbs</mark> water quickly.</p>
+<p class="ja">スポンジが素早く水を吸収する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ əbˈzɔɹbz ˈwɔɾə ˈkwɪkli/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>sponge absorbs → 語末子音 /dʒ/ が母音 /ə/ に連結</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">ザ スパンジ アブゾーブズ ウォーラ クウィックリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The shield <mark>absorbs</mark> the impact.</p>
+<p class="ja">盾が衝撃を吸収する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ʃiːld əbˈzɔɹbz ðə ˈɪmpækt/</div>
+<ul class="link"><li>The (1st) → 弱形 /ðə/</li><li>shield absorbs → 語末子音 /d/ が母音 /ə/ に連結</li><li>the (2nd) → 弱形 /ðə/</li></ul>
+<div class="kana">ザ シールド アブゾーブズ ザ インパクト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Shields <mark>absorb</mark> damage from mobs.</p>
+<p class="ja">盾はモブのダメージを吸収する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiːldz əbˈzɔɹb ˈdæmɪdʒ frəm ˈmoʊbz/</div>
+<ul class="link"><li>shields absorb → 語末子音 /z/ が母音 /ə/ に連結</li><li>from → 弱形 /frəm/</li></ul>
+<div class="kana">シールズ アブゾーブ ダメッジ フラム モウブズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">absorbs</span><span class="fl">三人称単数現在形</span><span class="fi">/əbˈzɔɹbz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Sponges <mark>absorb</mark> water blocks.</p>
+<p class="ja">スポンジが水のブロックを吸収する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈspʌndʒɪz əbˈzɔɹbz ˈwɔɾər blɑks/</div>
+<ul class="link"><li>Sponges absorb → 語末子音 /dʒ/ が母音 /ə/ に連結</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">スパンジズ アブゾーブズ ウォーラ ブラックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Wood <mark>absorbs</mark> impacts when falling.</p>
+<p class="ja">木は落下時の衝撃を吸収する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʊd əbˈzɔɹbz ˈɪmpækts wɛn ˈfɔːlɪŋ/</div>
+<ul class="link"><li>Wood absorbs → 語末子音 /d/ が母音 /ə/ に連結</li><li>impacts when → /s/ で明確に区切られる</li></ul>
+<div class="kana">ウッド アブゾーブズ インパクツ ウェン フォーリング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">absorbed</span><span class="fl">過去形</span><span class="fi">/əbˈzɔɹbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The shield <mark>absorbed</mark> that hit.</p>
+<p class="ja">盾はその一撃を吸収した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈʃiːld əbˈzɔɹbd ðæt hɪt/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>shield absorbed → 語末子音 /d/ が母音 /ə/ に連結</li></ul>
+<div class="kana">ザ シールド アブゾーブド ザット ヒット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>absorbed</mark> all the damage from the creeper.</p>
+<p class="ja">私はクリーパーのダメージをすべて吸収した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əbˈzɔɹbd ɔːl ðə ˈdæmɪdʒ frəm ðə ˈkriːpər/</div>
+<ul class="link"><li>the (1st) → 弱形 /ðə/</li><li>from → 弱形 /frəm/</li><li>the (2nd) → 弱形 /ðə/</li></ul>
+<div class="kana">アイ アブゾーブド オール ザ ダメッジ フラム ザ クリーパー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">absorbed</span><span class="fl">過去分詞</span><span class="fi">/əbˈzɔɹbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>absorbed</mark> tons of redstone knowledge.</p>
+<p class="ja">私は膨大なレッドストーンの知識を習得した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ hæv əbˈzɔɹbd tʌnz əv ˈrɛdˌstoʊn ˈnɑːlɪdʒ/</div>
+<ul class="link"><li>tons of → /z/ から /ə/ へ連結。of は弱形 /əv/</li><li>redstone knowledge → 複合名詞で通常の接続</li></ul>
+<div class="kana">アイ ハブ アブゾーブド トンズ アブ レッドストーン ナリッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge has <mark>absorbed</mark> all the water.</p>
+<p class="ja">スポンジはすべての水を吸収した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ hæz əbˈzɔɹbd ɔːl ðə ˈwɔɾər/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>sponge has → /dʒ/ と /z/ が続き、/z/ が /ə/ に連結</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">ザ スパンジ ハズ アブゾーブド オール ザ ウォーラー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">absorbing</span><span class="fl">現在分詞/動名詞</span><span class="fi">/əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>absorbing</mark> damage so my team survives.</p>
+<p class="ja">チームが生き残るように、私がダメージを吸収している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm əbˈzɔɹbɪŋ ˈdæmɪdʒ soʊ maɪ ˈtiːm sərˈvaɪvz/</div>
+<ul class="link"><li>I'm → 縮約形 /aɪm/</li><li>team survives → /m/ と /s/ で明確に区切られる</li></ul>
+<div class="kana">アイム アブゾービング ダメッジ ソウ マイ ティーム サーバイブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge is <mark>absorbing</mark> water from the cave.</p>
+<p class="ja">スポンジは洞窟から水を吸収している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ ɪz əbˈzɔɹbɪŋ ˈwɔɾər frəm ðə keɪv/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>sponge is → 語末子音 /dʒ/ が母音 /ɪ/ に連結</li><li>water from → /t/ がフラップ化、from は弱形 /frəm/</li></ul>
+<div class="kana">ザ スパンジ イズ アブゾービング ウォーラ フラム ザ ケイブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has absorbed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz əbˈzɔɹbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge has <mark>absorbed</mark> all the water.</p>
+<p class="ja">スポンジがすべての水を吸収した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ həz əbˈzɔɹbd ɔːl ðə ˈwɔɾər/</div>
+<ul class="link"><li>The (1st, 2nd) → 弱形 /ðə/</li><li>has → 弱形 /həz/（助動詞）</li><li>sponge has → 語末子音 /dʒ/ が母音 /ə/ に連結</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">ザ スパンジ ハズ アブゾーブド オール ザ ウォーラー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>absorbed</mark> the valuable information from the guide.</p>
+<p class="ja">プレイヤーたちはガイドから有用な情報を吸収した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz həv əbˈzɔɹbd ðə ˈvæljuəbəl ˌɪnfərˈmeɪʃən frəm ðə ɡaɪd/</div>
+<ul class="link"><li>have → 弱形 /həv/（助動詞）</li><li>Players have → 語末子音 /z/ が母音 /ə/ に連結</li><li>absorbed the → 語末子音 /d/ が母音 /ə/ に連結（the は弱形）</li><li>from → 弱形 /frəm/</li></ul>
+<div class="kana">プレイヤーズ ハヴ アブゾーブド ザ ヴァリュアブル インファメーション フラム ザ ガイド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had absorbed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd əbˈzɔɹbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time I arrived, the shield had <mark>absorbed</mark> most of the damage.</p>
+<p class="ja">私が到着した時には、盾がほとんどのダメージを吸収していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm aɪ əˈraɪvd ðə ʃiːld həd əbˈzɔɹbd ˈmoʊst əv ðə ˈdæmɪdʒ/</div>
+<ul class="link"><li>the (1st, 2nd) → 弱形 /ðə/</li><li>had → 弱形 /həd/（助動詞）</li><li>shield had → 語末子音 /d/ が母音 /ə/ に連結</li></ul>
+<div class="kana">バイ ザ タイム アイ アライヴド ザ シールド ハド アブゾーブド モウスト アヴ ザ ダメッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>absorbed</mark> all the redstone knowledge before attempting the complex contraption.</p>
+<p class="ja">複雑な装置に挑戦する前に、彼らはすべてのレッドストーン知識を習得していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd əbˈzɔɹbd ɔːl ðə ˈrɛdˌstoʊn ˈnɑːlɪdʒ bɪˈfɔːr əˈtɛmptɪŋ ðə ˈkɑːmplɛks kənˈtræpʃən/</div>
+<ul class="link"><li>had → 弱形 /həd/（助動詞）</li><li>absorbed all → 語末子音 /d/ が母音 /ɔ/ に連結</li><li>the (1st) → 弱形 /ðə/（redstone の前）</li></ul>
+<div class="kana">ザイ ハド アブゾーブド オール ザ レッドストーン ナリッジ ビフォア アテンプティング ザ コンプレックス コントラプション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been absorbing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The obsidian barrier has been <mark>absorbing</mark> the endermen's attacks all night.</p>
+<p class="ja">黒曜石の障壁は夜中ずっとエンダーマンの攻撃を吸収し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɑbˈsɪdɪən ˈbæɹɪər həz bɪn əbˈzɔɹbɪŋ ðə ˈɛndərˌmɛnz əˈtæks ɔːl naɪt/</div>
+<ul class="link"><li>The (1st, 2nd) → 弱形 /ðə/</li><li>has → 弱形 /həz/、been → 弱形 /bɪn/（助動詞）</li><li>barrier has → 語末子音 /r/ が母音 /ə/ に連結</li><li>endermen's attacks → 語末子音 /z/ が母音 /ə/ に連結</li></ul>
+<div class="kana">ザ アブシディアン バリアー ハズ ビン アブゾーブング ザ エンダーメンズ アタックス オール ナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sandy blocks have been <mark>absorbing</mark> water in the desert biome.</p>
+<p class="ja">砂ブロックが砂漠バイオームで水を吸収し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsændi blɑːks həv bɪn əbˈzɔɹbɪŋ ˈwɔɾər ɪn ðə ˈdɛzərt ˈbaɪoʊm/</div>
+<ul class="link"><li>The (1st, 2nd) → 弱形 /ðə/</li><li>have → 弱形 /həv/、been → 弱形 /bɪn/（助動詞）</li><li>water → /t/ がフラップ化 [ɾ]</li><li>in the → in は /ɪn/、the は弱形 /ðə/</li></ul>
+<div class="kana">ザ サンディ ブロックス ハヴ ビン アブゾーブング ウォーラー イン ザ デザート バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is absorbing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge is <mark>absorbing</mark> the water.</p>
+<p class="ja">スポンジが水を吸収している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ ɪz əbˈzɔɹbɪŋ ðə ˈwɔɾər/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>sponge is → 語末子音 /dʒ/ が母音 /ɪ/ に連結</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">ザ スパンジ イズ アブゾーブィング ザ ウォーラ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>absorbing</mark> all the redstone knowledge from tutorials.</p>
+<p class="ja">チュートリアルからすべてのレッドストーン知識を習得している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ɑɹ əbˈzɔɹbɪŋ ɔːl ðə ˈrɛdˌstoʊn ˈnɑːlɪdʒ frəm tuːˈtɔːriəlz/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>all the → 語末子音 /l/ が /ðə/ に連結</li><li>from → 弱形 /frəm/</li></ul>
+<div class="kana">ウィー アー アブゾーブィング オール ザ レッドストーン ナーリッジ フラム トゥートリアルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was absorbing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge was <mark>absorbing</mark> water when I placed it down.</p>
+<p class="ja">スポンジを置いたとき、水を吸収していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ wəz əbˈzɔɹbɪŋ ˈwɔɾər wɛn aɪ ˈpleɪst ɪt ˈdaʊn/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>sponge was → 語末子音 /dʒ/ が母音 /ə/ に連結</li><li>it down → 語末の /t/ が未開放で /d/ に連接</li></ul>
+<div class="kana">ザ スパンジ ワズ アブゾーブィング ウォーラ ウェン アイ プレイスト ダウン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>absorbing</mark> the tutorial when my friend logged in.</p>
+<p class="ja">友達がログインしたとき、チュートリアルを学習していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz əbˈzɔɹbɪŋ ðə tuːˈtɔːriəl wɛn maɪ ˈfrɛnd ˈlɔːɡd ɪn/</div>
+<ul class="link"><li>was → 弱形 /wəz/</li><li>the → 弱形 /ðə/</li><li>logged in → 語末子音 /d/ が母音 /ɪ/ に連結</li></ul>
+<div class="kana">アイ ワズ アブゾーブィング ザ トゥートリアル ウェン マイ フレンド ロゴド イン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been absorbing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge had been <mark>absorbing</mark> water for too long before it reached max capacity.</p>
+<p class="ja">スポンジが満杯になるまで、ずっと水を吸収していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ həd bɪn əbˈzɔɹbɪŋ ˈwɔɾər fɚ tuː lɔːŋ bɪˈfɔɹ ɪt ˈriːtʃt mæks kəˈpæsɪti/</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>had, been → 弱形（/həd/, /bɪn/）</li><li>water → /t/ がフラップ化 [ɾ]</li></ul>
+<div class="kana">ザ スパンジ ハド ビン アブゾーブィング ウォーラ ファー トゥー ロング ビフォア イッ リーチト マックス カパシティ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we finished building, I had been <mark>absorbing</mark> all the mechanics.</p>
+<p class="ja">建築を終えるまで、すべてのゲーム機構を学んでいた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wiː ˈfɪnɪʃt ˈbɪldɪŋ aɪ həd bɪn əbˈzɔɹbɪŋ ɔːl ðə məˈkænɪks/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>had, been → 弱形（/həd/, /bɪn/）</li><li>finished building → /t/ が未開放 [t̚]</li></ul>
+<div class="kana">バイ ザ タイム ウィー フィニシト ビルディング アイ ハド ビン アブゾーブィング オール ザ メカニクス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will absorb</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl əbˈzɔɹb/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>You will <mark>absorb</mark> the healing potion effects immediately.</p>
+<p class="ja">あなたはヒーリングポーションの効果をすぐに吸収します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː wɪl əbˈzɔɹb ðə ˈhiːlɪŋ ˈpoʊʃən ɪˈfɛkts ɪˈmiːdɪətli/</div>
+<ul class="link"><li>will の末子音 /l/ が absorb の初音 /ə/ に連結 [wɪl əbˈzɔɹb] ウィル アブゾーブ</li><li>the → 弱形 /ðə/</li><li>potion の末子音 /n/ が effects の初音 /ɪ/ に連結</li></ul>
+<div class="kana">ユー ウィル アブゾーブ ザ ヒーリング ポーション イフェクツ イミーディエットリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sponge will <mark>absorb</mark> all the water in seconds.</p>
+<p class="ja">スポンジはすべての水を数秒で吸収します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspʌndʒ wɪl əbˈzɔɹb ɔːl ðə ˈwɔɾər ɪn ˈsɛkəndz/</div>
+<ul class="link"><li>will の末子音 /l/ が absorb の初音 /ə/ に連結 [wɪl əbˈzɔɹb] ウィル アブゾーブ</li><li>the → 弱形 /ðə/</li><li>water の末子音 /r/ が in の初音 /ɪ/ に連結 [ˈwɔɾər ɪn] ウォーラ イン</li></ul>
+<div class="kana">ザ スパンジ ウィル アブゾーブ オール ザ ウォーラ イン セカンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be absorbing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi əbˈzɔɹbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>absorbing</mark> the radiation as planned.</p>
+<p class="ja">計画通り、彼らは放射線を吸収しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi əbˈzɔɹbɪŋ ðə ˌreɪdiˈeɪʃən əz ˈplænd/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>radiation の末子音 /n/ が as の弱形初音 /ə/ に連結</li><li>as → 弱形 /əz/</li></ul>
+<div class="kana">ザイ ウィル ビー アブゾービング ザ レイディエイション アズ プランド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The shield will be <mark>absorbing</mark> damage from the Creeper explosion.</p>
+<p class="ja">盾はクリーパーの爆発からのダメージを吸収します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ʃiːld wɪl bi əbˈzɔɹbɪŋ ˈdæmɪdʒ frəm ðə ˈkriːpər ɪkˈsploʊʒən/</div>
+<ul class="link"><li>the (1st) → 弱形 /ðə/</li><li>from → 弱形 /frəm/</li><li>Creeper の末子音 /r/ が explosion の初音 /ɪ/ に連結 [ˈkriːpər ɪkˈsploʊʒən] クリーパー イクスプロージョン</li></ul>
+<div class="kana">ザ シールド ウィル ビー アブゾービング ダメッジ フラム ザ クリーパー イクスプロージョン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have absorbed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv əbˈzɔɹbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/absorb_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we finish building, the sponge will have <mark>absorbed</mark> all the water.</p>
+<p class="ja">建設が完了する時間が無くなる前に、スポンジはすべての水を吸収しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈfɪnɪʃ ˈbɪldɪŋ ðə ˈspʌndʒ wɪl həv əbˈzɔɹbd ɔːl ðə ˈwɔɾər/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>have の末子音 /v/ が absorbed の初音 /ə/ に連結 [həv əbˈzɔɹbd] ハヴ アブゾーブド</li><li>absorbed の末子音 /d/ が all の初音 /ɔ/ に連結 [əbˈzɔɹbd ɔːl] アブゾーブド オール</li></ul>
+<div class="kana">バイ ザ タイム ウィー フィニッシュ ビルディング ザ スパンジ ウィル ハヴ アブゾーブド オール ザ ウォーラ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The shield will have <mark>absorbed</mark> dozens of blows by the time the raid ends.</p>
+<p class="ja">レイドが終わる頃には、盾は数十の攻撃を吸収しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ʃiːld wɪl həv əbˈzɔɹbd ˈdʌzənz əv ˈbloʊz baɪ ðə ˈtaɪm ðə ˈreɪd ˈɛndz/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>have の末子音 /v/ が absorbed の初音 /ə/ に連結 [həv əbˈzɔɹbd] ハヴ アブゾーブド</li><li>of → 弱形 /əv/</li><li>raid の末子音 /d/ が ends の初音 /ɛ/ に連結 [ˈreɪd ˈɛndz] レイド エンズ</li></ul>
+<div class="kana">ザ シールド ウィル ハヴ アブゾーブド ダズンズ アヴ ブローズ バイ ザ タイム ザ レイド エンズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">absorb information</span><span class="im">情報を習得する、理解する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>absorbed</mark> all the redstone mechanics from the tutorials.</p>
+<p class="ja">チュートリアルからすべてのレッドストーン機構を理解した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əbˈzɔɹbd ɔːl ðə ˈrɛdˌstoʊn məˈkænɪks frəm ðə tuːˈtɔːriəlz/</div>
+<ul class="link"><li>the (1st) → 弱形 /ðə/</li><li>from → 弱形 /frəm/</li><li>the (2nd) → 弱形 /ðə/</li></ul>
+<div class="kana">アイ アブゾーブド オール ザ レッドストーン メカニクス フラム ザ トゥートリアルズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">be absorbed in</span><span class="im">...に夢中になる、没入する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I was <mark>absorbed</mark> in building my castle.</p>
+<p class="ja">城を建てることに夢中だった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/absorb_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/absorb_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz əbˈzɔɹbd ɪn ˈbɪldɪŋ maɪ ˈkæsəl/</div>
+<ul class="link"><li>was → 弱形 /wəz/</li><li>absorbed in → 語末子音 /d/ が母音 /ɪ/ に連結</li></ul>
+<div class="kana">アイ ワズ アブゾーブド イン ビルディング マイ キャスル</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="absorb";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

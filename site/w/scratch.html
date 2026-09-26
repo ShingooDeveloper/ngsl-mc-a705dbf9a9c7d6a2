@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>scratch — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>scratch</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/skrætʃ/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1400 #1330</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】爪や尖ったもので表面をこする、引っかく（ツールや爪でダメージ）</li><li>【名詞】引っかき傷、かき傷（…に付いた線状の傷）</li><li>【動詞】かゆみを止めるために爪でこする</li><li>【動詞】（競技や参加者を）除外する、リストから削除する</li><li>【動詞】（音や表面を）ひっかく音を出す</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I found a <mark>scratch</mark> on my diamond armor after the fight.</p>
+<p class="ja">戦いのあと、ダイアモンド防具に傷を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈfaʊnd ə ˈskrætʃ ɑn maɪ ˈdaɪmənd ˈɑrmɚ ˈæftər ðə faɪt/</div>
+<ul class="link"><li>found a: 語末 /d/ が母音 /ə/ に連結 [ˈfaʊnd ə]ファウンド ア</li><li>scratch on: 語末 /tʃ/ が母音 /ɑ/ に連結 [ˈskrætʃ ɑn]スクラッチ オン</li><li>the fight: the /ðə/ 弱形 [ðə faɪt]ザ ファイト</li></ul>
+<div class="kana">アイ ファウンド ア スクラッチ オン マイ ダイモンド アーマー アフター ザ ファイト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't <mark>scratch</mark> the obsidian with your pickaxe.</p>
+<p class="ja">つるはしで黒曜石を傷つけないで。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/doʊnt ˈskrætʃ ðə əbˈsɪdiən wɪð jɚ ˈpɪkæks/</div>
+<ul class="link"><li>don't scratch: 語末 /t/ が子音 /s/ に先行し未開放 [ˈdoʊnt̚ ˈskrætʃ]ドント スクラッチ</li><li>the obsidian: the /ðə/ 弱形 [ðə əbˈsɪdiən]ザ オブシディアン</li></ul>
+<div class="kana">ドント スクラッチ ザ オブシディアン ウィズ ユア ピカックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to <mark>scratch</mark> materials from the ground to start building.</p>
+<p class="ja">建造を始めるために地面から材料を調達する必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈniːd tə ˈskrætʃ məˈtɪriəlz frəm ðə ˈɡraʊnd tə stɑrt ˈbɪldɪŋ/</div>
+<ul class="link"><li>need to: 語末 /d/ が弱形 to /tə/ に連結 [ˈniːd tə]ニード タ</li></ul>
+<div class="kana">ウィ ニード タ スクラッチ マテリアルズ フラム ザ グラウンド タ スターート ビルディング</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scratches</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈskrætʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Each tool <mark>scratches</mark> stone blocks at a different rate.</p>
+<p class="ja">各道具は異なる速度で石ブロックを傷つけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/itʃ ˈtul ˈskrætʃɪz stoʊn blɑks æt ə ˈdɪfərənt ˈreɪt/</div>
+<ul class="link"><li>Each の語末 /tʃ/ が tool の初頭 /t/ に未開放で続く [itʃ̚ ˈtul]</li><li>scratches の語末 /ɪz/ が stone の初頭 /s/ に子音+子音で連結なし</li><li>a は冠詞で弱形 /ə/</li></ul>
+<div class="kana">イーチ トゥール スクラッチーズ ストウン ブラックス アット ア ディファレント レイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Diamond armor <mark>scratches</mark> easily when you fall on rough surfaces.</p>
+<p class="ja">ダイヤモンド防具は、ざらざらした表面に落ちると傷つきやすい。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdaɪəmənd ˈɑrmɚ ˈskrætʃɪz ˈizəli wɛn ju fɔl ɑn ˈrʌf ˈsɝfɪsɪz/</div>
+<ul class="link"><li>armor の語末 /ɚ/ が scratches の初頭 /s/ に子音+子音で続く</li><li>easily の語末 /l/ が when の初頭 /w/ に続く</li><li>on は /ɑn/、rough に続く</li></ul>
+<div class="kana">ダイモンド アーマー スクラッチーズ イージーリー ホェン ユー フォール オン ラフ サーフィシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scratched</span><span class="fl">過去形</span><span class="fi">/ˈskrætʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>scratched</mark> my armor when climbing the mountain during the storm.</p>
+<p class="ja">嵐の最中、山を登っているときに防具を傷つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈskrætʃt maɪ ˈɑrmɚ wɛn ˈklaɪmɪŋ ðə ˈmaʊntən ˈdʊrɪŋ ðə ˈstɔrm/</div>
+<ul class="link"><li>scratched の語末 /t/ が my の初頭 /m/ に未開放で続く [ˈskrætʃt̚ maɪ]</li><li>climbing の語末 /ŋ/ が the の初頭 /ð/ に続く</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ スクラッチド マイ アーマー ホェン クライミング ザ マウンテン ドゥリング ザ ストーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Creepers <mark>scratched</mark> deep marks into the castle walls.</p>
+<p class="ja">クリーパーが城壁に深い傷をつけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkripərz ˈskrætʃt ˈdip mɑrks ˈɪntu ðə ˈkæsəl wɔlz/</div>
+<ul class="link"><li>scratched の語末 /t/ が deep の初頭 /d/ に未開放</li><li>into の語末 /u/ が the の初頭 /ð/ に続く</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">クリーパーズ スクラッチド ディープ マークス イントゥ ザ キャスル ウォルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scratched</span><span class="fl">過去分詞</span><span class="fi">/ˈskrætʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We discovered <mark>scratched</mark> diamond armor in the ancient temple.</p>
+<p class="ja">古い寺院で傷ついたダイヤモンド防具を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dɪˈskʌvərd ˈskrætʃt ˈdaɪəmənd ˈɑrmɚ ɪn ðə ˈeɪnʃənt ˈtɛmpəl/</div>
+<ul class="link"><li>discovered の語末 /d/ が scratched の初頭 /s/ に未開放で続く [dɪˈskʌvɚd̚ ˈskrætʃt]</li><li>in の語末 /n/ が the の初頭 /ð/ に続く</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィ ディスカバード スクラッチド ダイモンド アーマー イン ザ エイシェント テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>scratched</mark> stone blocks have been used for building our monument.</p>
+<p class="ja">傷ついた石ブロックは私たちのモニュメント建造に使用されてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskrætʃt stoʊn blɑks hæv bɪn ˈjuzd fər ˈbɪldɪŋ ˈaʊər ˈmɑn.jə.mənt/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>blocks の語末 /s/ が have の初頭 /h/ に続く</li><li>used の語末 /d/ が for の初頭 /f/ に未開放</li><li>for は弱形 /fɚ/</li></ul>
+<div class="kana">ザ スクラッチド ストウン ブラックス ハヴ ビン ユーズド ファー ビルディング アワー モニュメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scratching</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Zombies are <mark>scratching</mark> at the iron door, but it won't break.</p>
+<p class="ja">ゾンビが鉄のドアを傷つけようとしていますが、壊れません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈzɑmbiz ɑr ˈskrætʃɪŋ æt ðə ˈaɪərn ˈdor, bət ɪt ˈwoʊnt ˈbreɪk/</div>
+<ul class="link"><li>are は弱形 /ɑr/、scratching に続く [ɑr ˈskrætʃɪŋ] アー スクラッチング</li><li>at は /æt/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ゾンビーズ アー スクラッチング アット ザ アイアーン ドア、バット イット ウォント ブレイク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Scratching</mark> the bedrock is impossible even with the strongest pickaxe.</p>
+<p class="ja">最も強いツルハシを使っても、基盤岩を傷つけることは不可能です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈskrætʃɪŋ ðə ˈbɛd.rɑk ɪz ɪmˈpɑsəbəl ˈivən wɪð ðə ˈstrɑŋɡəst ˈpɪk.æks/</div>
+<ul class="link"><li>scratching の語末 /ŋ/ が the の初頭 /ð/ に続く</li><li>the は弱形 /ðə/ (2回)</li><li>is は弱形 /ɪz/</li></ul>
+<div class="kana">スクラッチング ザ ベッドロック イズ インポッサブル イーブン ウィズ ザ ストロンゲスト ピックアックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scratches</span><span class="fl">複数形（名詞）</span><span class="fi">/ˈskrætʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>These small <mark>scratches</mark> on my pickaxe won't affect its durability.</p>
+<p class="ja">私のツルハシにはこれらの小さな傷がありますが、耐久性に影響しません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz smɔl ˈskrætʃɪz ɑn maɪ ˈpɪk.æks ˈwoʊnt əˈfɛkt ɪts də.ˈrə.bɪl.ə.ti/</div>
+<ul class="link"><li>scratches の語末 /ɪz/ が on の初頭 /ɑ/ に連結 [ˈskrætʃɪz ɑn] スクラッチーズ オン</li><li>pickaxe の語末 /s/ が won't の初頭 /w/ に続く</li></ul>
+<div class="kana">ディーズ スモール スクラッチーズ オン マイ ピックアックス ウォント ア フェクト イツ ジュアラビリティ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Deep <mark>scratches</mark> from explosions covered the ancient palace blocks.</p>
+<p class="ja">爆発による深い傷が古い宮殿のブロックを覆いました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdip ˈskrætʃɪz frəm ɪkˈsploʊ.ʒənz ˈkʌvərd ðə ˈeɪn.ʃənt ˈpæl.ɪs blɑks/</div>
+<ul class="link"><li>scratches の語末 /ɪz/ が from の初頭 /f/ に子音+子音で連結なし</li><li>covered の語末 /d/ が the の初頭 /ð/ に未開放で続く [ˈkʌvɚd̚ ðə]</li><li>the は弱形 /ðə/</li><li>from は弱形 /frəm/</li></ul>
+<div class="kana">ディープ スクラッチーズ フラム イクスプロウジョンズ カバード ザ エイシェント パレス ブラックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has scratched</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/əz ˈskrætʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>scratched</mark> my armor several times during combat.</p>
+<p class="ja">戦闘中に防具を何度も傷つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv ˈskrætʃt maɪ ˈɑrmɚ ˈsɛvərəl ˈtaɪmz ˈdʊrɪŋ ˈkɑmbæt/</div>
+<ul class="link"><li>have は弱形 /əv/、scratched に続く [əv ˈskrætʃt]アヴ スクラッチド</li><li>scratched の語末 /t/ が my の初頭 /m/ に未開放で続く [ˈskrætʃt̚ maɪ]スクラッチド マイ</li><li>during の語末 /ŋ/ が combat の初頭 /k/ に続く [ˈdʊrɪŋ ˈkɑmbæt]ジュアリング コンバット</li></ul>
+<div class="kana">アイ アヴ スクラッチド マイ アーマー セヴァラル タイムズ ジュアリング コンバット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>scratched</mark> through layers of stone to reach the diamond ore.</p>
+<p class="ja">彼女はダイヤモンド鉱石に到達するために、層状の石を傷つけています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əz ˈskrætʃt θru ˈleɪərz əv ˈstoʊn ˈtu riːtʃ ðə ˈdaɪəmənd ˈɔr/</div>
+<ul class="link"><li>has は弱形 /əz/、scratched に続く [əz ˈskrætʃt]アズ スクラッチド</li><li>scratched の語末 /t/ が through の初頭 /θ/ に未開放で続く [ˈskrætʃt̚ θru]スクラッチド スルー</li><li>of は弱形 /əv/ [əv]アヴ</li></ul>
+<div class="kana">シー アズ スクラッチド スルー レイアーズ アヴ ストウン トゥ リーチ ザ ダイモンド オア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had scratched</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/əd ˈskrætʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the Enderman arrived, I had already <mark>scratched</mark> deep marks into the block.</p>
+<p class="ja">エンダーマンが到着する前に、私はすでにそのブロックに深い傷をつけていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈɛndərmən əˈraɪvd, aɪ əd ˈɔlˌrɛdi ˈskrætʃt ˈdip ˈmɑrks ˈɪntu ðə ˈblɑk/</div>
+<ul class="link"><li>the は弱形 /ðə/ [ðə]ザ</li><li>had は弱形 /əd/、already に続く [əd ˈɔlˌrɛdi]アド オールレディ</li><li>scratched の語末 /t/ が deep の初頭 /d/ に未開放 [ˈskrætʃt̚ ˈdip]スクラッチド ディープ</li></ul>
+<div class="kana">バイ ザ タイム ザ エンダーマン アライvド、アイ アド オールレディ スクラッチド ディープ マークス イントゥ ザ ブラック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once I had <mark>scratched</mark> the surface, I discovered valuable resources were hiding beneath.</p>
+<p class="ja">ひとたび表面を傷つけた後、私は価値のあるリソースが下に隠れていることを発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns aɪ əd ˈskrætʃt ðə ˈsɝfɪs, aɪ dɪˈskʌvərd ˈvæljəbəl ˈrɛsɔrsɪz wɚ ˈhaɪdɪŋ bɪˈniːθ/</div>
+<ul class="link"><li>had は弱形 /əd/、scratched に続く [əd ˈskrætʃt]アド スクラッチド</li><li>scratched の語末 /t/ が the の初頭 /ð/ に未開放 [ˈskrætʃt̚ ðə]スクラッチド ザ</li><li>the は弱形 /ðə/ [ðə]ザ</li></ul>
+<div class="kana">ワンス アイ アド スクラッチド ザ サーフィス、アイ ディスカバード バリューアブル リソーシーズ ワー ハイディング ビニース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been scratching</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/əz bɪn ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>scratching</mark> at the ore deposit for over an hour without finding diamonds.</p>
+<p class="ja">私は1時間以上、鉱石の鉱床を傷つけていますが、ダイヤモンドはまだ見つかりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv bɪn ˈskrætʃɪŋ æt ðə ˈɔr dɪˈpoʊzɪt fər ˈoʊvɚ ən ˈaʊər wɪðˈaʊt ˈfaɪndɪŋ ˈdaɪəməndz/</div>
+<ul class="link"><li>have は弱形 /əv/、been に続く [əv bɪn]アヴ ビン</li><li>been の語末 /n/ が scratching の初頭 /s/ に続く [bɪn ˈskrætʃɪŋ]ビン スクラッチング</li><li>scratching の語末 /ŋ/ が at の初頭 /æ/ に続く [ˈskrætʃɪŋ æt]スクラッチング アット</li></ul>
+<div class="kana">アイ アヴ ビン スクラッチング アット ザ オア ディポゥジット ファー オウバー アン アワー ウィザウト ファインディング ダイアモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The Endermen have been <mark>scratching</mark> at the bottom of the structure all night.</p>
+<p class="ja">エンダーマンたちは一晩中、建造物の底部を傷つけ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛndərmɛn əv bɪn ˈskrætʃɪŋ æt ðə ˈbɑtəm əv ðə ˈstrʌktʃər ˈɔl ˈnaɪt/</div>
+<ul class="link"><li>have は弱形 /əv/、been に続く [əv bɪn]アヴ ビン</li><li>been の語末 /n/ が scratching の初頭 /s/ に続く [bɪn ˈskrætʃɪŋ]ビン スクラッチング</li><li>scratching の語末 /ŋ/ が at の初頭 /æ/ に続く [ˈskrætʃɪŋ æt]スクラッチング アット</li></ul>
+<div class="kana">ザ エンダーメン アヴ ビン スクラッチング アット ザ ボッタム アヴ ザ ストラクチャー オール ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is scratching</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>scratching</mark> the stone to find ore.</p>
+<p class="ja">私は鉱石を見つけるために石を傷つけています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əm ˈskrætʃɪŋ ðə stoʊn tu ˈfaɪnd ˈɔr/</div>
+<ul class="link"><li>am は弱形 /əm/、scratching に続く [əm ˈskrætʃɪŋ]アム スクラッチング</li><li>scratching の語末 /ŋ/ が the の初頭 /ð/ に続く [ˈskrætʃɪŋ ðə]スクラッチング ザ</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">アイ アム スクラッチング ザ ストウン タ ファインド オア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Zombies are <mark>scratching</mark> at the door right now.</p>
+<p class="ja">ゾンビがドアを傷つけようとしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈzɑmbiz ɑr ˈskrætʃɪŋ æt ðə ˈdɔr ˈraɪt ˈnaʊ/</div>
+<ul class="link"><li>are は弱形 /ɑr/、scratching に続く [ɑr ˈskrætʃɪŋ]アー スクラッチング</li><li>scratching の語末 /ŋ/ が at の初頭 /æ/ に続く [ˈskrætʃɪŋ æt]スクラッチング アット</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ゾンビーズ アー スクラッチング アット ザ ドア ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was scratching</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>scratching</mark> the cave wall when I found diamonds.</p>
+<p class="ja">洞窟の壁を傷つけていたときに、ダイヤモンドを見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈskrætʃɪŋ ðə ˈkeɪv wɔl wɛn aɪ ˈfaʊnd ˈdaɪəməndz/</div>
+<ul class="link"><li>was は弱形 /wəz/、scratching に続く [wəz ˈskrætʃɪŋ]ワズ スクラッチング</li><li>scratching の語末 /ŋ/ が the の初頭 /ð/ に続く [ˈskrætʃɪŋ ðə]スクラッチング ザ</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ワズ スクラッチング ザ ケイブ ウォール ホェン アイ ファウンド ダイアモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>scratching</mark> at the ore deposit when the redstone alarm went off.</p>
+<p class="ja">鉱石の鉱床を傷つけていたときに、レッドストーンアラームが鳴りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈskrætʃɪŋ æt ðə ˈɔr dɪˈpoʊzɪt wɛn ðə ˈrɛdˌstoʊn əˈlɑrm wɛnt ˈɔf/</div>
+<ul class="link"><li>were は弱形 /wɚ/、scratching に続く [wɚ ˈskrætʃɪŋ]ワー スクラッチング</li><li>scratching の語末 /ŋ/ が at の初頭 /æ/ に続く [ˈskrætʃɪŋ æt]スクラッチング アット</li><li>the は弱形 /ðə/（2回）</li></ul>
+<div class="kana">ウィ ワー スクラッチング アット ザ オア ディポゥジット ホェン ザ レッドストーン ア ラーム ウェント オフ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been scratching</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/əd bɪn ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>scratching</mark> at that wall for an hour before I broke through.</p>
+<p class="ja">私はその壁を1時間傷つけ続けてから、ついに突破しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əd bɪn ˈskrætʃɪŋ æt ðæt wɔl fər ən ˈaʊər bɪˈfɔr aɪ ˈbroʊk ˈθru/</div>
+<ul class="link"><li>had は弱形 /əd/、been に続く [əd bɪn]アド ビン</li><li>been の語末 /n/ が scratching の初頭 /s/ に続く [bɪn ˈskrætʃɪŋ]ビン スクラッチング</li><li>scratching の語末 /ŋ/ が at の初頭 /æ/ に続く [ˈskrætʃɪŋ æt]スクラッチング アット</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">アイ アド ビン スクラッチング アット ザット ウォール ファー アン アワー ビフォア アイ ブロウク スルー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>scratching</mark> the deep ore vein when the cave collapsed.</p>
+<p class="ja">彼女が深い鉱石の鉱脈を傷つけ続けていたときに、洞窟が崩壊しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əd bɪn ˈskrætʃɪŋ ðə ˈdip ˈɔr veɪn wɛn ðə ˈkeɪv kəˈlæpst/</div>
+<ul class="link"><li>had は弱形 /əd/、been に続く [əd bɪn]アド ビン</li><li>been の語末 /n/ が scratching の初頭 /s/ に続く [bɪn ˈskrætʃɪŋ]ビン スクラッチング</li><li>scratching の語末 /ŋ/ が the の初頭 /ð/ に続く [ˈskrætʃɪŋ ðə]スクラッチング ザ</li><li>the は弱形 /ðə/（2回）</li></ul>
+<div class="kana">シー アド ビン スクラッチング ザ ディープ オア ベイン ホェン ザ ケイブ コラプスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will scratch</span><span class="fl">単純未来形</span><span class="fi">/wəl ˈskrætʃ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>scratch</mark> these stone blocks tomorrow to find diamonds.</p>
+<p class="ja">明日、これらの石ブロックを傷つけてダイヤモンドを見つけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈskrætʃ ðiz stoʊn blɑks təˈmɑroʊ tu ˈfaɪnd ˈdaɪəməndz/</div>
+<ul class="link"><li>I'll: 縮約形 /aɪl/、scratch に続く [aɪl ˈskrætʃ]アイル スクラッチ</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">アイル スクラッチ ディーズ ストウン ブラックス トゥモロウ タ ファインド ダイアモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>scratch</mark> the deep ore vein in the cave next.</p>
+<p class="ja">彼らは次に洞窟の深い鉱石の鉱脈を傷つけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈskrætʃ ðə ˈdip ˈɔr veɪn ɪn ðə ˈkeɪv ˈnɛkst/</div>
+<ul class="link"><li>They'll: 縮約形 /ðeɪl/、scratch に続く [ðeɪl ˈskrætʃ]ゼイル スクラッチ</li></ul>
+<div class="kana">ゼイル スクラッチ ザ ディープ オア ベイン イン ザ ケイブ ネクスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be scratching</span><span class="fl">未来進行形</span><span class="fi">/wəl bi ˈskrætʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will be <mark>scratching</mark> this obsidian wall for hours when you arrive.</p>
+<p class="ja">あなたが到着するときに、私はこの黒曜石の壁を何時間も傷つけ続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈskrætʃɪŋ ðɪs əbˈsɪdiən wɔl fɚ ˈaʊərz wɛn ju əˈraɪv/</div>
+<ul class="link"><li>I'll: 縮約形 /aɪl/、be に続く [aɪl bi]アイル ビー</li><li>for は弱形 /fɚ/</li></ul>
+<div class="kana">アイル ビー スクラッチング ディス オブシディアン ウォール ファー アワーズ ホェン ユー ア ライ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be <mark>scratching</mark> the cave walls all night to build our fortress.</p>
+<p class="ja">私たちは要塞を建造するために一晩中、洞窟の壁を傷つけ続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈskrætʃɪŋ ðə ˈkeɪv wɔlz ɔl ˈnaɪt tu ˈbɪld ˈaʊər ˈfɔrtrəs/</div>
+<ul class="link"><li>we'll: 縮約形 /wil/、be に続く [wil bi]ウィル ビー</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">ウィル ビー スクラッチング ザ ケイブ ウォールズ オール ナイト タ ビルド アワー フォートレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have scratched</span><span class="fl">未来完了形</span><span class="fi">/wəl əv ˈskrætʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/scratch_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, I will have <mark>scratched</mark> through fifty stone blocks.</p>
+<p class="ja">来週までに、50個の石ブロックを傷つけ終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik, aɪl əv ˈskrætʃt θru ˈfɪfɾi stoʊn blɑks/</div>
+<ul class="link"><li>I'll: 縮約形 /aɪl/、have に続く、have は弱形 /əv/ [aɪl əv]アイル アヴ</li><li>scratched の語末 /t/ が through の初頭 /θ/ に未開放で続く [ˈskrætʃt̚ θru]スクラッチド スルー</li></ul>
+<div class="kana">バイ ネクスト ウィーク、アイル アヴ スクラッチド スルー フィフリ ストウン ブラックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>scratched</mark> all the ore veins in this mountain by the time she's done.</p>
+<p class="ja">彼女が終わるまでに、この山のすべての鉱石の鉱脈を傷つけ終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil əv ˈskrætʃt ɔl ðə ˈɔr veɪnz ɪn ðɪs ˈmaʊntən baɪ ðə ˈtaɪm ʃiz ˈdʌn/</div>
+<ul class="link"><li>She'll: 縮約形 /ʃil/、have に続く、have は弱形 /əv/ [ʃil əv]シル アヴ</li><li>scratched の語末 /t/ が all の初頭 /ɔ/ に連結 [ˈskrætʃt̚ ɔl]スクラッチド オール</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">シル アヴ スクラッチド オール ザ オア ベインズ イン ディス マウンテン バイ ザ タイム シーズ ダン</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">from scratch</span><span class="im">ゼロから、最初から、一から</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We built this entire base from <mark>scratch</mark> using only wooden blocks.</p>
+<p class="ja">私たちは木のブロックだけを使ってこの拠点全体をゼロから建造した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈbɪlt ðɪs ənˈtaɪr beɪs frəm ˈskrætʃ ˈjuːzɪŋ ˈoʊnli ˈwʊdən blɑks/</div>
+<ul class="link"><li>built this: 語末 /t/ が子音 /ð/ に先行し未開放 [ˈbɪlt̚ ðɪs]ビルト ディス</li></ul>
+<div class="kana">ウィ ビルト ディス エンタイア ベイス フラム スクラッチ ユージング オンリー ウッデン ブラックス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">scratch the surface</span><span class="im">表面をなでる程度、ほんの一部に触れる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I've only <mark>scratched</mark> the surface of this Redstone contraption.</p>
+<p class="ja">このレッドストーン装置のほんの表面をなでただけだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪv ˈoʊnli ˈskrætʃt ðə ˈsɝfɪs əv ðɪs ˈɹɛdˌstoʊn kənˈtræpʃən/</div>
+<ul class="link"><li>scratched the: scratched /ˈskrætʃt/ の語末 /t/ が未開放で the /ðə/ に先行 [ˈskrætʃt̚ ðə]スクラッチド ザ</li></ul>
+<div class="kana">アイヴ オンリー スクラッチド ザ サーフィス アヴ ディス レッドストーン コントラプション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">start from scratch</span><span class="im">最初からやり直す、ゼロからやり始める</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My world got corrupted, so I had to start from <mark>scratch</mark>.</p>
+<p class="ja">ワールドが破損したので、最初からやり直さなければならなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/scratch_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/scratch_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ wɝld ɡɑt kərˈɹʌptəd soʊ aɪ ˈhæd tə stɑrt frəm ˈskrætʃ/</div>
+<ul class="link"><li>got corrupted: 語末 /t/ が子音 /k/ に先行し未開放 [ɡɑt̚ kərˈɹʌptəd]ガット コラプティド</li></ul>
+<div class="kana">マイ ワールド ガット コラプティド ソウ アイ ハド タ スターート フラム スクラッチ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="scratch";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>reinforce — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>reinforce</h2><span class="pos">動詞</span><span class="ipa-head">/ˌriːɪnˈfɔrs/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1400 #1113</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（…を）強化する、強固にする（建造物・防御などを丈夫にする）</li><li>【動詞】（…を）支持・支援する、一層強める（考え・意見などを）</li><li>【動詞】増援部隊・物資などを加える、さらに強化する</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>reinforce</mark> our stone walls before the raid.</p>
+<p class="ja">襲撃の前に、石の壁を強化する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd-ə ˌriːɪnˈfɔɹs-ˈaʊɹ ˈstoʊn ˈwɔlz bɪˈfɔɹ ðə ˈreɪd/</div>
+<ul class="link"><li>need to → 語末子音 /d/ が母音 /ə/ に連結。to は弱形 /tə/ [ˈniːdə] ニーダ</li><li>reinforce our → 語末子音 /s/ が母音 /aʊ/ に連結 [ˌriːɪnˈfɔɹs-ˈaʊɹ] リーインフォースアワー</li></ul>
+<div class="kana">アイ ニーダ リーインフォースアワー ストゥーン ウォルズ ビフォー ザ レイド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Obsidian blocks really <mark>reinforce</mark> any fortress well.</p>
+<p class="ja">黒曜石のブロックは、どんな要塞を本当に強化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɑbˈsɪdiən ˈblɑks ˈriːli ˌriːɪnˈfɔɹs-ˈɛni ˈfɔɹtrəs ˈwɛl/</div>
+<ul class="link"><li>reinforce any → 語末子音 /s/ が母音 /ɛ/ に連結 [ˌriːɪnˈfɔɹs-ˈɛni] リーインフォースエニー</li></ul>
+<div class="kana">アブシディアン ブロックス リーリ リーインフォースエニー フォートレス ウェル</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Reinforcing your base with obsidian blocks is essential.</p>
+<p class="ja">黒曜石のブロックであなたの拠点を強化することは、本質的に重要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˌriːɪnˈfɔɹsɪŋ jɔɹ ˈbeɪs wɪð ɑbˈsɪdiən ˈblɑks-ɪz ɪˈsɛnʃəl/</div>
+<ul class="link"><li>blocks is → 語末子音 /s/ が母音 /ɪ/ に連結 [ˈblɑks-ɪz] ブロックスィズ</li></ul>
+<div class="kana">リーインフォーシング ジョー ベイス ウィズ アブシディアン ブロックスィズ イッセンシャル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reinforces</span><span class="fl">三人称単数現在形（動詞）</span><span class="fi">/ˌriːɪnˈfɔɹsɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Obsidian <mark>reinforces</mark> any fortress wall and makes it nearly impossible to break.</p>
+<p class="ja">黒曜石は要塞の壁を強化し、ほぼ壊すことが不可能にします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɑbˈsɪdiən ˌriːɪnˈfɔɹsɪz ˈɛni ˈfɔɹtrəs wɔl ənd ˈmeɪks ɪt ˈnɪrli ɪmˈpɑsəbəl tu ˈbreɪk]</div>
+<ul class="link"><li>reinforces の /z/ が any に連結 [ˌriːɪnˈfɔɹsɪz ˈɛni] リーインフォーシーズ・エニー</li><li>wall の /l/ が and に続く。and は弱形 /ənd/ で /l/ が /ə/ に連結 [wɔl ənd] ウォール・アン</li><li>to → 弱形 /tə/ で break に続く</li></ul>
+<div class="kana">アブシディアン リーインフォーシーズ エニー フォートレス ウォール アン メイクス イット ニアリー インポッシブル タ ブレイク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Each diamond block <mark>reinforces</mark> the roof when placed strategically during construction.</p>
+<p class="ja">各ダイヤブロックは建設中に戦略的に配置すると、屋根を強化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈiːtʃ ˈdaɪmənd ˈblɑk ˌriːɪnˈfɔɹsɪz ðə ˈruf ˈwɛn ˈpleɪst ˈstrətɪdʒɪkli ˈdʊrɪŋ kənˈstrʌkʃən]</div>
+<ul class="link"><li>block の /k/ が reinforce に未開放で続く [ˈblɑk̚ ˌriːɪnˈfɔɹsɪz] ブロック・リーインフォーシーズ</li><li>reinforces の /z/ が the に続く。the は弱形 /ðə/ [ˌriːɪnˈfɔɹsɪz ðə] リーインフォーシーズ・ザ</li><li>placed の /t/ が strategically に未開放で続く [ˈpleɪst̚ ˈstrætɪdʒɪkli] プレイスト・ストラテジカリー</li></ul>
+<div class="kana">イーチ ダイモンド ブロック リーインフォーシーズ ザ ルーフ ウェン プレイスト ストラテジカリー デュリング コンストラクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reinforced</span><span class="fl">過去形（動詞）</span><span class="fi">/ˌriːɪnˈfɔɹst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>reinforced</mark> the castle gate with iron blocks before the mobs attacked last night.</p>
+<p class="ja">昨夜のモブ攻撃の前に、城門を鉄ブロックで強化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˌriːɪnˈfɔɹst ðə ˈkæsəl ɡeɪt wɪð ˈaɪɚn ˈblɑks bɪˈfɔr ðə ˈmɑbz əˈtækt ˈlæst ˈnaɪt]</div>
+<ul class="link"><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>gate の /t/ が with に未開放で続く [ɡeɪt̚ wɪð] ゲット・ウィズ</li><li>with の /ð/ が iron に続く（子音+母音で連結傾向）[wɪð ˈaɪɚn] ウィズ・アイアン</li><li>blocks の /s/ が before に続く（子音+子音）[ˈblɑks bɪˈfɔr] ブロックス・ビフォア</li></ul>
+<div class="kana">ウィー リーインフォースト ザ キャッスル ゲット ウィズ アイアン ブロックス ビフォア ザ モブズ ァタクト ラスト ナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After I <mark>reinforced</mark> the walls, they were able to withstand three raids in a row.</p>
+<p class="ja">壁を強化した後、3回の連続したレイドに耐えることができました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈæftɚ aɪ ˌriːɪnˈfɔɹst ðə ˈwɔlz | ðeɪ wɚ ˈeɪbəl tu wɪðˈstænd ˈθri ˈreɪdz ɪn ə ˈroʊ]</div>
+<ul class="link"><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>walls の /z/ が they に続く（子音+子音）[ˈwɔlz ðeɪ] ウォルズ・ゼイ</li><li>to → 弱形 /tə/</li><li>in の弱形 /ɪn/ が a に続く。a は弱形 /ə/ [ɪn ə] イン・ア</li></ul>
+<div class="kana">アフター アイ リーインフォースト ザ ウォルズ、ゼイ ワー エイブル タ ウィズスタンド スリー レイズ イン ア ロウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reinforced</span><span class="fl">過去分詞（動詞）</span><span class="fi">/ˌriːɪnˈfɔɹst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>reinforced</mark> the base with diamond blocks, we felt confident in the defense.</p>
+<p class="ja">ダイヤブロックで基地を強化したので、防御に自信がありました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˌriːɪnˈfɔɹst ðə ˈbeɪs wɪð ˈdaɪmənd ˈblɑks | wi ˈfɛlt ˈkɑnfɪdənt ɪn ðə dɪˈfɛns]</div>
+<ul class="link"><li>having の /ŋ/ が reinforced に続く（子音+子音）[ˈhævɪŋ ˌriːɪnˈfɔɹst] ハヴィング・リーインフォースト</li><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>with の /ð/ が diamond に続く（子音+子音）[wɪð ˈdaɪmənd] ウィズ・ダイモンド</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ハヴィング リーインフォースト ザ ベイス ウィズ ダイモンド ブロックス、ウィー フェルト コンフィデント イン ザ ディフェンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>reinforced</mark> structure stood firm during the massive zombie siege.</p>
+<p class="ja">強化された構造物は、大量のゾンビ包囲の間も堅く立ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˌriːɪnˈfɔɹst ˈstrʌktʃɚ ˈstʊd ˈfɝm ˈdʊrɪŋ ðə ˈmæsɪv ˈzoʊmbi sɪˈdʒ]</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>reinforced の /t/ が structure に未開放で続く [ˌriːɪnˈfɔɹst̚ ˈstrʌktʃɚ] リーインフォースト・ストラクチャー</li><li>during → /ˈdʊrɪŋ/、the は弱形 /ðə/ [ˈdʊrɪŋ ðə] デュリング・ザ</li><li>massive の /v/ が zombie に続く（子音+子音）[ˈmæsɪv ˈzoʊmbi] マッシヴ・ゾンビ</li></ul>
+<div class="kana">ザ リーインフォースト ストラクチャー スッド ファーム デュリング ザ マッシヴ ゾンビ スィージ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reinforcing</span><span class="fl">現在分詞（動詞）</span><span class="fi">/ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Reinforcing our walls with extra materials takes time but keeps us safe.</p>
+<p class="ja">追加の素材で壁を強化するのは時間がかかりますが、安全に保ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˌriːɪnˈfɔɹsɪŋ ˈaʊr ˈwɔlz wɪð ˈɛkstrə məˈtɪriəlz ˈteɪks ˈtaɪm bʌt ˈkips ʌs ˈseɪf]</div>
+<ul class="link"><li>reinforcing の /ŋ/ が our に続く（子音+母音で連結傾向）[ˌriːɪnˈfɔɹsɪŋ ˈaʊr] リーインフォーシング・アワー</li><li>walls の /z/ が with に続く（子音+子音）[ˈwɔlz wɪð] ウォルズ・ウィズ</li><li>takes の /z/ が time に続く（子音+子音）[ˈteɪks ˈtaɪm] テイクス・タイム</li><li>but の /t/ が keeps に未開放で続く [bʌt̚ ˈkips] バット・キープス</li></ul>
+<div class="kana">リーインフォーシング アワー ウォルズ ウィズ エクストラ マテリアルズ テイクス タイム バット キープス アス セイフ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team is reinforcing the perimeter while I gather more building blocks.</p>
+<p class="ja">私がより多くの建築ブロックを集めている間に、チームは周辺を強化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtim ɪz ˌriːɪnˈfɔɹsɪŋ ðə pəˈrɪmɪtɚ ˈwaɪl aɪ ˈɡæðɚ ˈmoːr ˈbɪldɪŋ ˈblɑks]</div>
+<ul class="link"><li>is → 弱形 /ɪz/</li><li>reinforcing の /ŋ/ が the に続く（子音+子音）[ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ。the は弱形 /ðə/</li><li>perimeter の /ɚ/ が while に続く（子音+子音）[pəˈrɪmɪtɚ ˈwaɪl] パリメター・ワイル</li><li>gather の /ɚ/ が more に続く（子音+子音）[ˈɡæðɚ ˈmoːr] ギャザー・モア</li></ul>
+<div class="kana">ザ ティーム イズ リーインフォーシング ザ パリメター ワイル アイ ギャザー モア ビルディング ブロックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has reinforced</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˌriːɪnˈfɔɹst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>reinforced</mark> our castle and now it's nearly impossible to break.</p>
+<p class="ja">城を強化したので、今ではほぼ壊すことが不可能です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv ˌriːɪnˈfɔɹst̚ ˈaʊɹ ˈkæsəl ənd naʊ ɪts ˈnɪrli ɪmˈpɑsəbəl tə ˈbreɪk]</div>
+<ul class="link"><li>have → 弱形 /həv/</li><li>reinforced の /t/ が our に未開放で続く [ˌriːɪnˈfɔɹst̚ ˈaʊɹ] リーインフォースト・アワー</li><li>and → 弱形 /ənd/</li><li>to → 弱形 /tə/ で break に続く</li></ul>
+<div class="kana">アイ ハヴ リーインフォースト アワー キャッスル アン ナウ イッツ ニアリー インポッシブル タ ブレイク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>reinforced</mark> the eastern wall with diamond blocks and it withstood the entire siege.</p>
+<p class="ja">東側の壁をダイヤモンドブロックで強化したので、全体の包囲戦に耐えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi həv ˌriːɪnˈfɔɹst̚ ðə ˈistɚn wɔl wɪð ˈdaɪmənd ˈblɑks ənd ɪt wɪðˈstʊd ðə ənˈtaɪɚ siːdʒ]</div>
+<ul class="link"><li>have → 弱形 /həv/</li><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>with の /ð/ が diamond に続く [wɪð ˈdaɪmənd] ウィズ・ダイモンド</li><li>and → 弱形 /ənd/</li></ul>
+<div class="kana">ウィー ハヴ リーインフォースト ザ イースターン ウォル ウィズ ダイモンド ブロックス アン イット ウィズスッド ザ エンタイアー シージ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had reinforced</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˌriːɪnˈfɔɹst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After we had <mark>reinforced</mark> the walls, no mobs could get through the defense easily.</p>
+<p class="ja">壁を強化した後、モブは防御を簡単に通ることができませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈæftɚ wi həd ˌriːɪnˈfɔɹst̚ ðə ˈwɔlz | noʊ ˈmoʊbz ˈkʊd ɡɛt̚ ˈθruː ðə dɪˈfɛns ˈiːzili]</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>get の /t/ が through に未開放で続く [ɡɛt̚ ˈθruː] ゲット・スルー</li><li>defense の /s/ が easily に続く（子音+母音で連結）[dɪˈfɛns ˈiːzili] ディフェンス・イージリー</li></ul>
+<div class="kana">アフター ウィー ハド リーインフォースト ザ ウォルズ、ノウ モウブズ クッド ゲット スルー ザ ディフェンス イージリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid started, we had <mark>reinforced</mark> every gate and tower in the compound.</p>
+<p class="ja">レイドが始まった時点で、コンパウンド内のすべてのゲートとタワーを強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm ðə ˈreɪd ˈstɑɹtəd̚ | wi həd ˌriːɪnˈfɔɹst̚ ˈɛvri ɡeɪt̚ ənd ˈtaʊɚ ɪn ðə ˈkɑmpaʊnd]</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>reinforced の /t/ が every に未開放で続く [ˌriːɪnˈfɔɹst̚ ˈɛvri] リーインフォースト・エブリー</li><li>gate の /t/ が and に未開放で続く [ɡeɪt̚ ənd] ゲット・アン。and は弱形 /ənd/</li><li>in の弱形 /ɪn/ が the に続く。the は弱形 /ðə/ [ɪn ðə] イン・ザ</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド スターテッド、ウィー ハド リーインフォースト エブリー ゲット アン タワー イン ザ コムパウンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been reinforcing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been reinforcing the base for the last hour, and it's getting much stronger now.</p>
+<p class="ja">ここ1時間、基地を強化し続けているので、今ではずっと強くなっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv bɪn ˌriːɪnˈfɔɹsɪŋ ðə ˈbeɪs fɚ ðə ˈlæst̚ ˈaʊɚ | ənd ɪts ˈɡɛtɪŋ ˈmʌtʃ ˈstɹɑŋɡɚ naʊ]</div>
+<ul class="link"><li>have → 弱形 /həv/、been → 弱形 /bɪn/</li><li>reinforcing の /ŋ/ が the に続く（子音+子音）[ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ。the は弱形 /ðə/</li><li>last の /t/ が hour に未開放で続く [ˈlæst̚ ˈaʊɚ] ラスト・アワー</li><li>for → 弱形 /fɚ/、and → 弱形 /ənd/</li></ul>
+<div class="kana">アイ ハヴ ビン リーインフォーシング ザ ベイス ファー ザ ラスト アワー、アン イッツ ゲッティング マッチ ストロンガー ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team has been reinforcing the perimeter since early morning, and they're almost done with the upgrades.</p>
+<p class="ja">チームは午前中からずっと周辺を強化し続けており、アップグレードはほぼ完了しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtim həz bɪn ˌriːɪnˈfɔɹsɪŋ ðə pəˈrɪmɪtɚ sɪns ˈɜrli ˈmɔɹnɪŋ | ənd ðeɪr ˈɔlmoʊst ˈdʌn wɪð ðə ˈʌpɡreɪdz]</div>
+<ul class="link"><li>has → 弱形 /həz/、been → 弱形 /bɪn/</li><li>reinforcing の /ŋ/ が the に続く（子音+子音）[ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ。the は弱形 /ðə/</li><li>since → /sɪns/</li><li>with の /ð/ が the に続く。the は弱形 /ðə/ [wɪð ðə] ウィズ・ザ</li></ul>
+<div class="kana">ザ ティーム ハズ ビン リーインフォーシング ザ パリミター スィンス アーリー モーニング、アン ゼイ オールモウスト ダン ウィズ ザ アップグレイズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is reinforcing</span><span class="fl">現在進行形（動詞）</span><span class="fi">/ɪz ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm reinforcing the castle right now.</p>
+<p class="ja">今、城を強化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˌriːɪnˈfɔɹsɪŋ ðə ˈkæsəl ˈraɪt ˈnaʊ]</div>
+<ul class="link"><li>I'm が reinforcing に続く [aɪm ˌriːɪnˈfɔɹsɪŋ] アイム・リーインフォーシング</li><li>the → 弱形 /ðə/</li><li>castle right → 語末子音 /l/ が /ɹ/ に続く（子音+子音）[ˈkæsəl ˈraɪt] キャッスル・ライト</li><li>right now → 語末子音 /t/ が未開放で /n/ に続く [ˈraɪt̚ ˈnaʊ] ライット・ナウ</li></ul>
+<div class="kana">アイム リーインフォーシング ザ キャッスル ライット ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team is reinforcing the fortress against the mobs.</p>
+<p class="ja">チームが要塞をモブ対策で強化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtim ɪz ˌriːɪnˈfɔɹsɪŋ ðə ˈfɔɹtrəs əˈɡɛnst ðə ˈmɑbz]</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>team is → 語末子音 /m/ が母音 /ɪ/ に連結 [ˈtim ɪz] ティーム・イズ。is は弱形 /ɪz/</li><li>is reinforcing → [ɪz ˌriːɪnˈfɔɹsɪŋ] イズ・リーインフォーシング</li><li>reinforcing the → 語末子音 /ŋ/ が /ð/ に続く（子音+子音）the は弱形 /ðə/ [ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ</li></ul>
+<div class="kana">ザ ティーム イズ リーインフォーシング ザ フォートレス ァゲンスト ザ モブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was reinforcing</span><span class="fl">過去進行形（動詞）</span><span class="fi">/wəz ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was reinforcing the base when the mobs attacked.</p>
+<p class="ja">モブが攻撃してきたとき、基地を強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz ˌriːɪnˈfɔɹsɪŋ ðə ˈbeɪs wɛn ðə ˈmɑbz əˈtækt]</div>
+<ul class="link"><li>was reinforcing → was /wəz/ が reinforcing に続く（子音+子音）[wəz ˌriːɪnˈfɔɹsɪŋ] ワズ・リーインフォーシング。was は弱形 /wəz/</li><li>the → 弱形 /ðə/</li><li>mobs attacked → 語末子音 /z/ が母音 /ə/ に連結 [ˈmɑbz əˈtækt] モブズ・ァタクト</li><li>when the → 語末子音 /n/ が /ð/ に続く（子音+子音）[wɛn ðə] ウェン・ザ。the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ワズ リーインフォーシング ザ ベイス ウェン ザ モブズ ァタクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders were reinforcing the wall all night.</p>
+<p class="ja">建築家たちが一晩中壁を強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbɪldɚz wɚ ˌriːɪnˈfɔɹsɪŋ ðə ˈwɔl ɔl ˈnaɪt]</div>
+<ul class="link"><li>The → 弱形 /ðə/</li><li>were reinforcing → were /wɚ/ が reinforcing に続く（子音+子音）[wɚ ˌriːɪnˈfɔɹsɪŋ] ワー・リーインフォーシング。were は弱形 /wɚ/</li><li>reinforcing the → 語末子音 /ŋ/ が /ð/ に続く（子音+子音）the は弱形 /ðə/ [ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ</li><li>all night → 語末子音 /l/ が /n/ に続く（子音+子音）[ɔl ˈnaɪt] オール・ナイト</li></ul>
+<div class="kana">ザ ビルダーズ ワー リーインフォーシング ザ ウォール オール ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been reinforcing</span><span class="fl">過去完了進行形（動詞）</span><span class="fi">/həd bɪn ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been reinforcing the castle for hours before the siege started.</p>
+<p class="ja">包囲が始まる前に、何時間も城を強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həd bɪn ˌriːɪnˈfɔɹsɪŋ ðə ˈkæsəl fɚ ˈaʊɚz bɪˈfɔr ðə ˈsidʒ ˈstɑɹtɪd]</div>
+<ul class="link"><li>had been → had /həd/ が been /bɪn/ に続く（子音+子音）[həd bɪn] ハド・ビン。had と been は弱形 /həd/, /bɪn/</li><li>been reinforcing → [bɪn ˌriːɪnˈfɔɹsɪŋ] ビン・リーインフォーシング</li><li>for hours → for /fɚ/ が hours に連結（子音+母音）[fɚ ˈaʊɚz] ファー・アワーズ。for は弱形 /fɚ/</li><li>before the → 語末子音 /r/ が母音 /ðə/ に連結 [bɪˈfɔr ðə] ビフォア・ザ。the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ハド ビン リーインフォーシング ザ キャッスル ファー アワーズ ビフォア ザ シージ スターティド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been reinforcing the base for weeks when the final attack came.</p>
+<p class="ja">最後の攻撃が来たとき、何週間も基地を強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd bɪn ˌriːɪnˈfɔɹsɪŋ ðə ˈbeɪs fɚ ˈwiks wɛn ðə ˈfaɪnəl əˈtæk ˈkeɪm]</div>
+<ul class="link"><li>had been → had /həd/ が been /bɪn/ に続く（子音+子音）[həd bɪn] ハド・ビン。had と been は弱形</li><li>been reinforcing → [bɪn ˌriːɪnˈfɔɹsɪŋ] ビン・リーインフォーシング</li><li>for weeks → for /fɚ/ が weeks に連結（子音+母音）[fɚ ˈwiks] ファー・ウィークス。for は弱形 /fɚ/</li><li>when the → 語末子音 /n/ が /ð/ に続く（子音+子音）[wɛn ðə] ウェン・ザ。the は弱形 /ðə/</li></ul>
+<div class="kana">ゼイ ハド ビン リーインフォーシング ザ ベイス ファー ウィークス ウェン ザ ファイナル ァタック ケイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will reinforce</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˌriːɪnˈfɔɹs/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>reinforce</mark> this wall with more blocks tomorrow.</p>
+<p class="ja">明日、このプロックをもっとブロックで強化するつもりです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wɪl ˌriːɪnˈfɔɹs ðɪs wɔl wɪð ˈmoːr ˈblɑks təˈmɑroʊ]</div>
+<ul class="link"><li>will の /l/ が reinforce に続く（子音+子音）[wɪl ˌriːɪnˈfɔɹs] ウィル・リーインフォース</li><li>reinforce の /s/ が this に連結 [ˌriːɪnˈfɔɹs ðɪs] リーインフォース・ディス</li><li>wall の /l/ が with に続く（子音+子音）[wɔl wɪð] ウォール・ウィズ</li><li>more の /r/ が blocks に続く（子音+子音）[ˈmoːr ˈblɑks] モア・ブロックス</li></ul>
+<div class="kana">アイ ウィル リーインフォース ディス ウォール ウィズ モア ブロックス トゥモロウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>reinforce</mark> the base perimeter before the raid starts.</p>
+<p class="ja">レイドが始まる前に、基地の周辺を強化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wil ˌriːɪnˈfɔɹs ðə ˈbeɪs pəˈrɪmɪtɚ bɪˈfɔɹ ðə ˈreɪd ˈstɑɹts]</div>
+<ul class="link"><li>we'll → /wil/ の縮約形</li><li>reinforce の /s/ が the に連結。the は弱形 /ðə/ [ˌriːɪnˈfɔɹs ðə] リーインフォース・ザ</li><li>base の /s/ が perimeter に続く（子音+子音）[ˈbeɪs pəˈrɪmɪtɚ] ベイス・パリミター</li><li>perimeter の /r/ が before に続く（子音+子音）[pəˈrɪmɪtɚ bɪˈfɔɹ] パリミター・ビフォア</li></ul>
+<div class="kana">ウィル リーインフォース ザ ベイス パリミター ビフォア ザ レイド スターツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be reinforcing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˌriːɪnˈfɔɹsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will be reinforcing the structure when you arrive at the base.</p>
+<p class="ja">基地に到着するとき、構造物を強化しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wɪl bi ˌriːɪnˈfɔɹsɪŋ ðə ˈstrʌktʃɚ ˈwɛn ju əˈraɪv ət ðə ˈbeɪs]</div>
+<ul class="link"><li>will の /l/ が be に連結（子音+母音）[wɪl bi] ウィル・ビー</li><li>reinforcing の /ŋ/ が the に続く（子音+子音）[ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ。the は弱形 /ðə/</li><li>arrive の /v/ が at に続く（子音+母音）[əˈraɪv ət] ァライヴ・ァット</li><li>at → 弱形 /ət/、the → 弱形 /ðə/</li></ul>
+<div class="kana">アイ ウィル ビー リーインフォーシング ザ ストラクチャー ウェン ユー ァライヴ ァット ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team will be reinforcing the defenses while we mine for resources.</p>
+<p class="ja">私たちがリソースを採掘している間に、チームは防御を強化しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtim wɪl bi ˌriːɪnˈfɔɹsɪŋ ðə dɪˈfɛnsɪz ˈwaɪl wi ˈmaɪn fɔɹ ˈriːsɔɹsɪz]</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>will の /l/ が be に連結（子音+母音）[wɪl bi] ウィル・ビー</li><li>reinforcing の /ŋ/ が the に続く（子音+子音）[ˌriːɪnˈfɔɹsɪŋ ðə] リーインフォーシング・ザ。the は弱形 /ðə/</li><li>for → 弱形 /fɔɹ/</li></ul>
+<div class="kana">ザ ティーム ウィル ビー リーインフォーシング ザ ディフェンシーズ ワイル ウィー マイン フォア リーソーシーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have reinforced</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˌriːɪnˈfɔɹst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will have <mark>reinforced</mark> the entire eastern wall by the time you finish gathering materials.</p>
+<p class="ja">材料を集め終わるまでに、東側の壁全体を強化しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wɪl həv ˌriːɪnˈfɔɹst̚ ðə ɪnˈtaɪɚ ˈistɚn wɔl baɪ ðə ˈtaɪm ju ˈfɪnɪʃ ˈɡæðɚɪŋ məˈtɪriəlz]</div>
+<ul class="link"><li>will の /l/ が have に続く（子音+母音）。have は弱形 /həv/ [wɪl həv] ウィル・ハヴ</li><li>have の /v/ が reinforced に続く（子音+子音）[həv ˌriːɪnˈfɔɹst] ハヴ・リーインフォースト</li><li>reinforced の /t/ が the に未開放で続く [ˌriːɪnˈfɔɹst̚ ðə] リーインフォースト・ザ。the は弱形 /ðə/</li><li>wall の /l/ が by に続く（子音+子音）[wɔl baɪ] ウォール・バイ</li></ul>
+<div class="kana">アイ ウィル ハヴ リーインフォースト ザ インタイアー イースターン ウォール バイ ザ タイム ユー フィニッシュ ギャザリング マテリアルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will have <mark>reinforced</mark> every gate before the next raid happens.</p>
+<p class="ja">次のレイドが起こる前に、すべてのゲートを強化しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi wɪl həv ˌriːɪnˈfɔɹst̚ ˈɛvri ɡeɪt̚ bɪˈfɔɹ ðə ˈnɛkst ˈreɪd ˈhæpənz]</div>
+<ul class="link"><li>will の /l/ が have に続く（子音+母音）。have は弱形 /həv/ [wɪl həv] ウィル・ハヴ</li><li>have の /v/ が reinforced に続く（子音+子音）[həv ˌriːɪnˈfɔɹst] ハヴ・リーインフォースト</li><li>reinforced の /t/ が every に未開放で続く [ˌriːɪnˈfɔɹst̚ ˈɛvri] リーインフォースト・エブリー</li><li>gate の /t/ が before に未開放で続く [ɡeɪt̚ bɪˈfɔɹ] ゲット・ビフォア</li></ul>
+<div class="kana">ウィー ウィル ハヴ リーインフォースト エブリー ゲット ビフォア ザ ネクスト レイド ハップンズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">reinforce a point</span><span class="im">論点・主張をより強く述べる、強調する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The teacher <mark>reinforces</mark> the main crafting recipe by showing it multiple times.</p>
+<p class="ja">教師が重要なクラフトレシピを何度も見せることで、その要点を強調している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reinforce_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reinforce_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtiːtʃɚ ˌriːɪnˈfɔɹsɪz-ðə ˈmeɪn ˈkræftɪŋ ˈrɛsəpi ˌbaɪ ˈʃoʊɪŋ ɪt ˈmʌltɪpəl ˈtaɪmz/</div>
+<ul class="link"><li>reinforces the → 語末子音 /z/ が弱形母音 /ə/ に連結 [ˌriːɪnˈfɔɹsɪz-ðə] リーインフォースィズザ</li></ul>
+<div class="kana">ザ ティーチャー リーインフォースィズザ メイン クラフティング レシピ バイ ショウイング イッ マルティプル タイムズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="reinforce";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>yawn — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>yawn</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/jɔːn/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1400 #1206</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】あくびをする（疲れや退屈で口を大きく開けて深く息を吸う）</li><li>【動詞】（空間などが）大きく開く、ぽっかり開く</li><li>【名詞】あくび</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>yawn</mark> when I take a break from mining.</p>
+<p class="ja">採掘から休憩を取るときにあくびをする。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjɔːn wɛn aɪ ˈteɪkə ˈbreɪk frəm ˈmaɪnɪŋ/</div>
+<ul class="link"><li>take a の /k/ が母音 /ə/ に連結 [ˈteɪkə] テイカ</li><li>from は弱形 /frəm/ [frəm] フラム</li></ul>
+<div class="kana">アイ ジョーン ウェン アイ テイカ ブレイク フラム マイニング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My friends <mark>yawned</mark> and took a break from mining.</p>
+<p class="ja">友達が採掘中にあくびをして、休憩を取った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈfrendz ˈjɔːnd ənd ˈtʊkə ˈbreɪk frəm ˈmaɪnɪŋ/</div>
+<ul class="link"><li>took a の /k/ が母音 /ə/ に連結 [ˈtʊkə] トゥーカ</li><li>and は弱形 /ənd/ [ənd] エンド、from は /frəm/ [frəm] フラム</li></ul>
+<div class="kana">マイ フレンズ ジョーンド エンド トゥーカ ブレイク フラム マイニング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The massive cave <mark>yawned</mark> open before us as we entered.</p>
+<p class="ja">巨大な洞窟がぱっくり開いているのが見えた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmæsɪv keɪv ˈjɔːnd ˈoʊpən bɪˈfoɹ əs əz wi ˈɛntɚd/</div>
+<ul class="link"><li>yawned open の /d/ が母音 /oʊ/ に連結 [ˈjɔːndˈoʊpən] ジョーンドウペン</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ マッシヴ ケイヴ ジョーンド オウペン ビフォー アス アズ ウィ エンタード</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yawns</span><span class="fl">三人称単数現在形</span><span class="fi">/jɑnz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeleton <mark>yawns</mark> whenever it wakes up in the cave.</p>
+<p class="ja">スケルトンは洞窟で目覚めるたびにあくびをする。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlətən ˈjɑnz wɛnˈɛvər ɪt ˈweɪks ʌp ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ スケレトゥン ヤーンズ ウェネバー イット ウェイクス アップ イン ザ ケイブ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>yawns</mark> frequently after working on the farm for hours.</p>
+<p class="ja">彼は農場で数時間働いた後、頻繁にあくびをする。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈjɑnz ˈfrekwəntli ˈæftər ˈwɚkɪŋ ɑn ðə ˈfɑrm fər ˈaʊərz/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">ヒー ヤーンズ フレックウェントリー アフター ワーキング オン ザ ファーム ファー アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yawned</span><span class="fl">過去形</span><span class="fi">/jɑnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>yawned</mark> during the entire Redstone tutorial because it was so boring.</p>
+<p class="ja">レッドストーンのチュートリアル全体であくびをしました、とても退屈だったから。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjɑnd ˈdʊrɪŋ ðə ənˈtaɪər ˈrɛdˌstoʊn ˈtʊtərɪəl bɪˈkəz ɪt wəz soʊ ˈbɔrɪŋ/</div>
+<ul class="link"><li>the entire → the は弱形 /ðə/</li><li>because は弱化 /bɪˈkəz/ で it に続く</li></ul>
+<div class="kana">アイ ヤーンド ドゥーリング ザ エンタイアー レッストーン トゥートリアル ビコーズ イット ワズ ソウ ボーリング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My brother <mark>yawned</mark> and fell asleep while mining for coal.</p>
+<p class="ja">兄は石炭採掘中にあくびをして眠りに落ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈbrʌðər ˈjɑnd ənd ˈfɛl əˈslip waɪl ˈmaɪnɪŋ fər ˈkoʊl/</div>
+<ul class="link"><li>yawned and → yawned の末尾 /d/ が and の初頭 /ə/ に連結</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">マイ ブラザー ヤーンドアンド フェル アスリープ ワイル マイニング ファー コウル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yawned</span><span class="fl">過去分詞</span><span class="fi">/jɑnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>yawned</mark> three times since I started this boring base design.</p>
+<p class="ja">この退屈なベース設計を始めてから、3回あくびをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv ˈjɑnd θri taɪmz sɪns aɪ ˈstɑrtɪd ðɪs ˈbɔrɪŋ ˈbeɪs dɪˈzaɪn/</div>
+<ul class="link"><li>have は弱形 /əv/ アブ</li></ul>
+<div class="kana">アイ アブ ヤーンド スリー タイムズ シンス アイ スターティド ディス ボーリング ベイス ディザイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>yawned</mark> several times before discovering the hidden treasure.</p>
+<p class="ja">彼女は隠された宝を発見する前に何度かあくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əd ˈjɑnd ˈsɛvərəl taɪmz bɪˈfɔr dɪˈskʌvərɪŋ ðə ˈhɪdən ˈtrɛʒər/</div>
+<ul class="link"><li>had は弱形 /əd/ アド</li><li>the hidden → the は弱形 /ðə/</li></ul>
+<div class="kana">シー アド ヤーンド セバラル タイムズ ビフォー ディスカバリング ザ ヒッデン トレジャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yawning</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Stop <mark>yawning</mark> and help me find a suitable spot for the house.</p>
+<p class="ja">あくびをするのをやめて、家に適した場所を見つけるのを手伝ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈstɑp ˈjɑnɪŋ ənd ˈhɛlp mi ˈfaɪnd ə ˈsutəbəl ˈspɑt fər ðə ˈhaʊs/</div>
+<ul class="link"><li>and は弱形 /ənd/</li><li>for は弱形 /fər/、the は弱形 /ðə/</li></ul>
+<div class="kana">ストップ ヤーニング アンド ヘルプ ミー ファインド ア スーテブル スポット ファー ザ ハウス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Yawning</mark> during combat is a sign that you're getting tired.</p>
+<p class="ja">戦闘中にあくびをするのは、疲れている証拠です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈjɑnɪŋ ˈdʊrɪŋ ˈkɑmbæt ɪz ə ˈsaɪn ðæt jɚˈɡɛtɪŋ ˈtaɪərd/</div>
+<ul class="link"><li>is a → is の末尾 /z/ が a の初頭 /ə/ に連結 [ɪzə]</li><li>you're は弱形 /jɚ/ ユアー</li></ul>
+<div class="kana">ヤーニング ドゥーリング カムバット イザ サイン ザット ユアー ゲティング タイアード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yawns</span><span class="fl">複数形</span><span class="fi">/jɑnz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>His <mark>yawns</mark> showed that he was tired from the long night of building.</p>
+<p class="ja">彼のあくびは、長い夜の建築で疲れていたことを示していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɪz ˈjɑnz ˈʃoʊd ðæt hi wəz ˈtaɪərd frəm ðə ˈlɔŋ ˈnaɪt əv ˈbɪldɪŋ/</div>
+<ul class="link"><li>from は弱形 /frəm/</li><li>the は弱形 /ðə/、night の末尾 /t/ が of の初頭 /ə/ に連結傾向</li></ul>
+<div class="kana">ヒズ ヤーンズ ショウド ザット ヒー ワズ タイアード フラム ザ ロング ナイト アブ ビルディング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Your <mark>yawns</mark> are making me <mark>yawn</mark> too while we explore the cave.</p>
+<p class="ja">洞窟を探索している間に、あなたのあくびが私もあくびさせています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔr ˈjɑnz ɑr ˈmeɪkɪŋ mi ˈjɑn tu waɪl wi ɪkˈsplɔr ðə ˈkeɪv/</div>
+<ul class="link"><li>are は弱形 /ɑr/ アー</li></ul>
+<div class="kana">ユア ヤーンズ アー メイキング ミー ヤーン トゥー ワイル ウィ イクスプロア ザ ケイブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has yawned</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈjɑnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve has <mark>yawned</mark> throughout the whole night in the Nether.</p>
+<p class="ja">スティーブはネザーで一晩中あくびをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stiv həz ˈjɑnd ˈθruaʊt ðə ˈhoʊl ˈnaɪt ɪn ðə ˈnɛðər/</div>
+<ul class="link"><li>has は弱形 /həz/ ハズ</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">スティーブ ハズ ヤーンド スルーアウト ザ ホウル ナイト イン ザ ネザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>yawned</mark> from boredom since the start of this long mining session.</p>
+<p class="ja">採掘セッション開始以来、退屈でずっとあくびをし続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi əv ˈjɑnd frəm ˈbɔrədəm sɪns ðə ˈstɑrt əv ðɪs ˈlɔŋ ˈmaɪnɪŋ ˈsɛʃən/</div>
+<ul class="link"><li>have は弱形 /əv/ アブ</li><li>from は弱形 /frəm/ フラム、the は弱形 /ðə/ ザ、of は弱形 /əv/ アブ</li></ul>
+<div class="kana">ウィ アブ ヤーンド フラム ボーラダム シンス ザ スタート アブ ディス ロング マイニング セッション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had yawned</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/əd ˈjɑnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time I found the village, I had <mark>yawned</mark> at least twenty times.</p>
+<p class="ja">村を見つけるまでに、少なくとも20回はあくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm aɪ ˈfaʊnd ðə ˈvɪlɪdʒ aɪ əd ˈjɑnd æt ˈlist ˈtwɛnti ˈtaɪmz/</div>
+<ul class="link"><li>had は弱形 /əd/ アド</li><li>the は弱形 /ðə/ ザ（2回出現）</li></ul>
+<div class="kana">バイ ザ タイム アイ ファウンド ザ ビリッジ アイ アド ヤーンド アット リスト トゥエンティ タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had <mark>yawned</mark> so much before we even started fighting the dragon.</p>
+<p class="ja">ドラゴンとの戦い開始前に、彼は本当にたくさんあくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi əd ˈjɑnd soʊ ˈmʌtʃ bɪˈfɔr wi ˈivən ˈstɑrɪd ˈfaɪtɪŋ ðə ˈdræɡən/</div>
+<ul class="link"><li>had は弱形 /əd/ アド</li><li>before と we が子音-子音で連結（/r/-/w/）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ヒー アド ヤーンド ソウ マッチ ビフォー ウィ イーブン スターティッド ファイティング ザ ドラゴン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been yawning</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The zombie has been <mark>yawning</mark> nonstop ever since you woke it up.</p>
+<p class="ja">ゾンビは、あなたがそれを起こしてからずっとあくびをし続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈzoʊmbi həz bɪn ˈjɑnɪŋ ˈnɑnˌstɑp ˈɛvər sɪns ju ˈwoʊk ɪt ˈʌp/</div>
+<ul class="link"><li>has は弱形 /həz/ ハズ、been は弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ ゾンビ ハズ ビン ヤーニング ノンストップ エバー シンス ユー ウォウク イット アップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>yawning</mark> all day while decorating the new house.</p>
+<p class="ja">新しい家を装飾しながら、一日中あくびをし続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv bɪn ˈjɑnɪŋ ɔl ˈdeɪ waɪl ˌdɛkəˈreɪtɪŋ ðə ˈnu ˈhaʊs/</div>
+<ul class="link"><li>have は弱形 /əv/ アブ、been は弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ アブ ビン ヤーニング オール デイ ワイル デコレイティング ザ ニュー ハウス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is yawning</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>yawning</mark> after a long night of building.</p>
+<p class="ja">長い建築の夜の後、あくびをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈjɑnɪŋ ˈæftər ə ˈlɔŋ ˈnaɪt əv ˈbɪldɪŋ/</div>
+<ul class="link"><li>after a → after の末尾 /r/ が a の初頭 /ə/ に連結 [ˈæftərə]</li><li>night of → night の末尾 /t/ が of の初頭 /ə/ に挟まれフラップ化し連結 [ˈnaɪɾəv]</li></ul>
+<div class="kana">ウィ アー ヤーニング アフターラ ロング ナイラブ ビルディング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeleton is <mark>yawning</mark> in the corner of the trading hall.</p>
+<p class="ja">スケルトンは取引ホールの隅であくびをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlətən ɪz ˈjɑnɪŋ ɪn ðə ˈkɔrnər əv ðə ˈtreɪdɪŋ ˈhɔl/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>is は弱形 /ɪz/ イズ</li><li>corner of → corner の末尾 /r/ が of の初頭 /ə/ に連結 [ˈkɔrnərəv]</li></ul>
+<div class="kana">ザ スケレトゥン イズ ヤーニング イン ザ コーナーラブ ザ トレイディング ホール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was yawning</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>yawning</mark> in a farm during the evening.</p>
+<p class="ja">彼らは夕方に農場であくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˈjɑnɪŋ ɪn ə ˈfɑrm ˈdʊrɪŋ ðə ˈivnɪŋ/</div>
+<ul class="link"><li>were は弱形 /wər/ ワー</li><li>in a → in の末尾 /n/ が a の初頭 /ə/ に連結 [ɪnə]</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ゼイ ワー ヤーニング イナ ファーム ジューリング ザ イーブニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You were <mark>yawning</mark> after a long day of farming.</p>
+<p class="ja">長い農場作業の日の後、あなたはあくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wər ˈjɑnɪŋ ˈæftər ə ˈlɔŋ ˈdeɪ əv ˈfɑrmɪŋ/</div>
+<ul class="link"><li>were は弱形 /wər/ ワー</li><li>after a → after の末尾 /r/ が a の初頭 /ə/ に連結 [ˈæftərə]</li><li>of は弱形 /əv/ アブ</li></ul>
+<div class="kana">ユー ワー ヤーニング アフターラ ロング デイ アブ ファーミング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been yawning</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/əd bɪn ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player had been <mark>yawning</mark> in a cave during the exploration.</p>
+<p class="ja">探索中、プレイヤーは洞窟であくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər əd bɪn ˈjɑnɪŋ ɪn ə ˈkeɪv ˈdʊrɪŋ ðə ɪkˌsplɔˈreɪʃən/</div>
+<ul class="link"><li>had は弱形 /əd/ アド、been は弱形 /bɪn/ ビン</li><li>in a → in の末尾 /n/ が a の初頭 /ə/ に連結 [ɪnə]</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ プレイアー アド ビン ヤーニング イナ ケイブ ジューリング ザ イクスプロレイション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>yawning</mark> after a long night of grinding.</p>
+<p class="ja">長い夜のグラインディングの後、あくびをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əd bɪn ˈjɑnɪŋ ˈæftər ə ˈlɔŋ ˈnaɪt əv ˈɡraɪndɪŋ/</div>
+<ul class="link"><li>had は弱形 /əd/ アド、been は弱形 /bɪn/ ビン</li><li>after a → after の末尾 /r/ が a の初頭 /ə/ に連結 [ˈæftərə]</li><li>of は弱形 /əv/ アブ</li></ul>
+<div class="kana">アイ アド ビン ヤーニング アフターラ ロング ナイト アブ グラインディング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will yawn</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wəl ˈjɑn/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>yawn</mark> if this Redstone tutorial is too complicated.</p>
+<p class="ja">このレッドストーンのチュートリアルが複雑すぎたら、あくびをするでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈjɑn ɪf ðɪs ˈrɛdˌstoʊn ˈtʊtərɪəl ɪz tu ˈkɑmpləˌkeɪtəd/</div>
+<ul class="link"><li>I'll → I と will の縮約 /aɪl/ アイル</li><li>this は /ðɪs/ ディス、is は弱形 /ɪz/ イズ</li></ul>
+<div class="kana">アイル ヤーン イフ ディス レッストーン トゥートリアル イズ トゥー コンプリケイテッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeleton will <mark>yawn</mark> when it wakes up from rest.</p>
+<p class="ja">スケルトンは休息から目覚めるときにあくびをするでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlətən wəl ˈjɑn wɛn ɪt ˈweɪks ʌp frəm ˈrɛst/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>will は弱形 /wəl/ ウル、it は /ɪt̚/ イッ（未開放）</li></ul>
+<div class="kana">ザ スケレトゥン ウル ヤーン ウェン イット ウェイクス アップ フラム レスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be yawning</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wəl bi ˈjɑnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>yawning</mark> by the time the farming session ends.</p>
+<p class="ja">農場セッションが終わるまでに、あくびをしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈjɑnɪŋ baɪ ðə ˈtaɪm ðə ˈfɑrmɪŋ ˈsɛʃən ˈɛndz/</div>
+<ul class="link"><li>we'll → we と will の縮約 /wil/ ウィル</li><li>be は弱形 /bi/ ビ、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィル ビ ヤーニング バイ ザ タイム ザ ファーミング セッション エンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll be <mark>yawning</mark> while exploring the massive cave system.</p>
+<p class="ja">大きな洞窟システムを探索している間、あくびをしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːl bi ˈjɑnɪŋ waɪl ɪkˈsplɔrɪŋ ðə ˈmæsɪv ˈkeɪv ˈsɪstəm/</div>
+<ul class="link"><li>you'll → you と will の縮約 /juːl/ ユーウル</li><li>be は弱形 /bi/ ビ、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ユーウル ビ ヤーニング ワイル イクスプローリング ザ マッシブ ケイブ システム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have yawned</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wəl əv ˈjɑnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yawn_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, I will have <mark>yawned</mark> at least ten times in this game.</p>
+<p class="ja">明日までに、このゲームで少なくとも10回あくびをしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ aɪ wəl əv ˈjɑnd æt ˈlist ˈtɛn ˈtaɪmz ɪn ðɪs ˈɡeɪm/</div>
+<ul class="link"><li>will は弱形 /wəl/ ウル、have は弱形 /əv/ アブ</li><li>this は /ðɪs/ ディス（in this game）</li></ul>
+<div class="kana">バイ トゥモロウ アイ ウル アブ ヤーンド アット リスト テン タイムズ イン ディス ゲイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He will have <mark>yawned</mark> several times before we finish the building challenge.</p>
+<p class="ja">建築チャレンジを終える前に、彼は何度かあくびをしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wəl əv ˈjɑnd ˈsɛvərəl ˈtaɪmz bɪˈfɔr wi ˈfɪnɪʃ ðə ˈbɪldɪŋ ˈtʃælɪndʒ/</div>
+<ul class="link"><li>will は弱形 /wəl/ ウル、have は弱形 /əv/ アブ</li><li>before の語末 /r/ が we の初頭 /w/ に先立つ [bɪˈfɔr wi]</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ヒー ウル アブ ヤーンド セバラル タイムズ ビフォー ウィ フィニッシュ ザ ビルディング チャレンジ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">a yawning ~</span><span class="im">大きく開いた…。大きな隔たりや溝のことを表す定型表現。</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We discovered a <mark>yawning</mark> chasm on our mining expedition.</p>
+<p class="ja">採掘遠征で大きな空洞を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yawn_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yawn_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dɪsˈkʌvərd ə ˈjɔːnɪŋ ˈkæzəm ɑn ˈaʊɚ ˈmaɪnɪŋ ɪkˈspɛdɪʃən/</div>
+<ul class="link"><li>discovered a の /d/ が母音 /ə/ に連結 [dɪsˈkʌvɚdə] ディスカヴァーダ</li><li>a は弱形 /ə/ [ə] ア、on は /ɑn/</li></ul>
+<div class="kana">ウィ ディスカヴァード ア ジョーニング キャズム オン アワー マイニング エクスペディション</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="yawn";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

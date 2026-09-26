@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>persist — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>persist</h2><span class="pos">動詞</span><span class="ipa-head">/pərˈsɪst/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1400 #1317</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（困難にもかかわらず）～を続ける、辛抱強く続ける（continue doing something despite difficulty）</li><li>【動詞】（影響・状態などが）残る、存続する（continue to exist or remain）</li><li>【動詞】しつこく言い張る、主張し続ける（assert something repeatedly or insistently）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I will <mark>persist</mark> in mining deep underground until I find ancient debris.</p>
+<p class="ja">古代の残骸を見つけるまで、地下深くで採掘を続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl pərˈsɪst ɪn ˈmaɪnɪŋ dip ˌʌndɚˈɡraʊnd ənˈtɪl aɪ faɪnd ˈeɪnʃənt dɪˈbriː/</div>
+<ul class="link"><li>will → 弱形 /wɪl/</li><li>persist の語末 /t/ が in の /ɪ/ に連結（子音+母音）</li></ul>
+<div class="kana">アイ ウィル パーシスト イン マイニング ディープ アンダーグラウンド アンティル アイ ファインド エイシェント デブリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The fire <mark>persists</mark> in spreading across the wooden structures we built.</p>
+<p class="ja">火は私たちが建てた木造建造物全体に広がり続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfaɪər pərˈsɪsts ɪn ˈsprɛdɪŋ əˈkrɔs ðə ˈwʊdən ˈstrʌkʃɚz wi bɪlt/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>persists の語末 /s/ が in の /ɪ/ に連結（子音+母音）</li><li>spreading の /ŋ/ が across の /ə/ に連結（子音+母音）</li></ul>
+<div class="kana">ザ ファイアー パーシスツ イン スプレディング ァクロース ザ ウッドゥン ストラクチャーズ ウィー ビルト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players must <mark>persist</mark> through difficult caves to discover rare treasures and escape safely.</p>
+<p class="ja">プレイヤーたちは困難な洞窟を通り抜け、レアな宝物を発見して安全に脱出する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz məst pərˈsɪst θruː ˈdɪfɪkəlt keɪvz tə dɪsˈkʌvər ˈrɛr ˈtrɛʒɚz ənd ɪˈskeɪp ˈseɪfli/</div>
+<ul class="link"><li>must → 弱形 /məst/</li><li>to → 弱形 /tə/</li></ul>
+<div class="kana">プレイヤーズ マスト パーシスト スルー ディフィカルト ケイブズ タ ディスカバー レア トレジャーズ アン イスケイプ セイフリー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">persists</span><span class="fl">三人称単数現在形</span><span class="fi">/pərˈsɪsts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The rain <mark>persists</mark> in the forest biome, making it harder to gather resources.</p>
+<p class="ja">森バイオームで雨が降り続けるため、リソース集めがさらに難しくなります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈreɪn pərˈsɪsts ɪn ðə ˈfɔrəst baɪˈoʊm | ˈmeɪkɪŋ ɪt ˈhɑrdər tu ˈɡæðər ˈrɛsɔrsəz/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>rain の /n/ が persists に続く（子音+子音）</li><li>persists の /s/ が in に続く（子音+母音で連結）</li><li>in は弱形 /ɪn/、the は弱形 /ðə/ [ɪn ðə]</li></ul>
+<div class="kana">ザ レイン パーシスツ イン ザ フォレスト バイオーム、メイキング イット ハーダー トゥ ギャザー リソーシズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This creeper problem <mark>persists</mark> despite all our efforts to protect the base.</p>
+<p class="ja">基地を保護するための努力にもかかわらず、このクリーパー問題は続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈkriːpər ˈprɑbləm pərˈsɪsts dɪsˈpaɪt ɔl ˈaʊər ˈɛfərts tu prəˈtɛkt ðə ˈbeɪs/</div>
+<ul class="link"><li>problem の /m/ が persists に続く（子音+子音）</li><li>persists の /s/ が despite に続く（子音+子音）</li><li>to は弱形 /tə/</li><li>protect の /t/ が the に続く。the は弱形 /ðə/ [prəˈtɛk̚ ðə] プロテック ザ</li></ul>
+<div class="kana">ディス クリーパー プラブルム パーシスツ ディスパイト オール アワー エファーツ トゥ プロテック ザ ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">persisted</span><span class="fl">過去形</span><span class="fi">/pərˈsɪstəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The storm <mark>persisted</mark> through the entire night, blocking our exploration plans.</p>
+<p class="ja">嵐が一晩中続いたため、探索計画が妨げられました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈstɔrm pərˈsɪstəd θruː ðə ɪnˈtaɪr naɪt | ˈblɑkɪŋ ˈaʊər ɪkˈsplɔˈreɪʃən ˈplænz/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>storm の /m/ が persisted に続く（子音+子音）</li><li>persisted の /d/ が through に続く（子音+子音）</li><li>through の /u/ が the に続く（母音+子音）。the は弱形 /ðə/ [θruː ðə]</li></ul>
+<div class="kana">ザ ストーム パーシステッド スルー ザ エンタイアー ナイト、ブロッキング アワー イクスプロレーション プランズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The glitch <mark>persisted</mark> until we updated the Minecraft version.</p>
+<p class="ja">Minecraftバージョンをアップデートするまで、不具合は続いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɡlɪtʃ pərˈsɪstəd ənˈtɪl wi ˈʌpˌdeɪɾəd ðə ˈmaɪnˌkræft ˈvɝʒən/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>until は /ənˈtɪl/、we に続く</li><li>until の /l/ が we に続く（子音+母音で連結）[ənˈtɪl wi]</li><li>updated の /t/ はフラップ化 [ˈʌpˌdeɪɾəd ðə]</li></ul>
+<div class="kana">ザ グリッチ パーシステッド アンティル ウィー アップデイラッド ザ マインクラフト ヴァージョン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">persisted</span><span class="fl">過去分詞</span><span class="fi">/pərˈsɪstəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The challenges that <mark>persisted</mark> in the cave were overcome through teamwork.</p>
+<p class="ja">洞窟に残っていた課題はチームワークで克服されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtʃælɪndʒɪz ðæt pərˈsɪstəd ɪn ðə ˈkeɪv wər ˈoʊvərˌkoʊm θruː ˈtimˌwɝk/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>that の /t/ が persisted に続く（子音+子音）</li><li>persisted の /d/ が in に続く（子音+母音で連結）</li><li>in は弱形 /ɪn/、the は弱形 /ðə/ [ɪn ðə]</li><li>cave の /v/ が were に続く（子音+母音で連結）</li></ul>
+<div class="kana">ザ チャレンジズ ザット パーシステッド イン ザ ケイブ ワー オーバーコーム スルー ティームワーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Problems that had <mark>persisted</mark> for months were finally resolved after the patch.</p>
+<p class="ja">数ヶ月間続いていた問題はついにパッチ後に解決されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈprɑbləmz ðæt həd pərˈsɪstəd fər ˈmʌnθz wər ˈfaɪnəli rɪˈzɑlvd ˈæftər ðə ˈpætʃ/</div>
+<ul class="link"><li>that の /t/ が had に続く（子音+子音）</li><li>had は弱形 /əd/。had の /d/ が persisted に続く（子音+子音）</li><li>persisted の /d/ が for に続く（子音+母音で連結）。for は弱形 /fər/ [pərˈsɪstəd fər]</li><li>for は弱形 /fər/、months は /mʌnθz/</li></ul>
+<div class="kana">プラブルムズ ザット ハド パーシステッド ファー マンスズ ワー ファイナリー リゾルブド アフター ザ パッチ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">persisting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>persisting</mark> in our search for ancient debris deep in the nether.</p>
+<p class="ja">私たちはネザーの深部で古代の遺骨の探索を続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr pərˈsɪstɪŋ ɪn ˈaʊər ˈsɝtʃ fər ˈeɪnʃənt dɪˈbriː dip ɪn ðə ˈnɛðər/</div>
+<ul class="link"><li>are は弱形 /ər/</li><li>persisting の /ŋ/ が in に続く（子音+母音で連結）</li><li>in は弱形 /ɪn/、our は /ˈaʊər/。/ɪn ˈaʊər/</li><li>search の /tʃ/ が for に続く。for は弱形 /fər/。tʃ は無声音なので連結なし [ˈsɝtʃ fər]</li><li>for は弱形 /fər/、deep の /d/ に続く</li></ul>
+<div class="kana">ウィー アー パーシスティング イン アワー サーチ ファー エイシェント デブリー ディープ イン ザ ネザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>persisting</mark> through this cave system, we will unlock incredible rewards.</p>
+<p class="ja">この洞窟システムを通り抜けることで、素晴らしい報酬がロック解除されます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ pərˈsɪstɪŋ θruː ðɪs ˈkeɪv ˈsɪstəm | wi wɪl ˈʌnˌlɑk ɪnˈkrɛdəbəl rɪˈwɔrdz/</div>
+<ul class="link"><li>by は弱形 /baɪ/、persisting の /p/ に続く（子音+子音）</li><li>persisting の /ŋ/ が through に続く（子音+子音）</li><li>through の /u/ が this に続く（母音+子音）</li><li>this の /s/ が cave に続く（子音+子音）。cave の /v/ が system に続く（子音+子音）</li><li>will は弱形 /wɪl/</li></ul>
+<div class="kana">バイ パーシスティング スルー ディス ケイブ システム、ウィー ウィル アンロック インクレディブル リワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has persisted</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz pərˈsɪstəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The rain has <mark>persisted</mark> in the forest biome despite all our efforts.</p>
+<p class="ja">雨は私たちのすべての努力にもかかわらず、森バイオームで降り続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈreɪn həz pərˈsɪstəd ɪn ðə ˈfɔrəst baɪˈoʊm dɪsˈpaɪɾ ɔl ˈaʊər ˈɛfərts/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>rain の /n/ が has に続く（子音+子音）</li><li>has → 弱形 /həz/</li><li>persisted の /d/ が in に続く（語末の子音が次の母音に連結）</li><li>despite の /t/ が all に続く（フラップT: [ɾ]）</li></ul>
+<div class="kana">ザ レイン ハズ パーシステッド イン ザ フォレスト バイオーム ディスパイラ オール アワー エファーツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Creepers have <mark>persisted</mark> in attacking our base since we started building.</p>
+<p class="ja">クリーパーは私たちが建設を始めて以来、基地を攻撃し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkriːpərz həv pərˈsɪstəd ɪn əˈtækɪŋ ˈaʊər ˈbeɪs sɪns wi ˈstɑrtəd ˈbɪldɪŋ/</div>
+<ul class="link"><li>Creepers → /ˈkriːpərz/</li><li>have → 弱形 /həv/</li><li>persisted の /d/ が in に続く（語末の子音が次の母音に連結）</li><li>attacking の /ŋ/ が our に続く（語末の子音が次の母音に連結）</li></ul>
+<div class="kana">クリーパーズ ハヴ パーシステッド イン アタッキング アワー ベイス シンス ウィー スターティッド ビルディング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had persisted</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd pərˈsɪstəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The problem had <mark>persisted</mark> for weeks before we finally discovered the solution.</p>
+<p class="ja">その問題は私たちがついに解決策を発見する前に数週間続いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈprɑbləm həd pərˈsɪstəd fər wiks bɪˈfɔr wi ˈfaɪnəli dɪsˈkʌvərd ðə səˈluʃən/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>problem の /m/ が had に続く（子音+子音）</li><li>had → 弱形 /həd/</li><li>persisted の /d/ が for に続く（子音+子音）。for は弱形 /fər/</li></ul>
+<div class="kana">ザ プラブルム ハド パーシステッド ファー ウィークス ビフォー ウィー ファイナリー ディスカバード ザ ソリューション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The damage had <mark>persisted</mark> throughout our entire mining expedition before we could rebuild.</p>
+<p class="ja">再建できるようになる前に、ダメージは鉱業遠征全体を通じて続いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdæmɪdʒ həd pərˈsɪstəd θruːˈaʊɾ ˈaʊər ɪnˈtaɪər ˈmaɪnɪŋ ɛkspəˈdɪʃən bɪˈfɔr wi ˈkʊd rɪˈbɪld/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>damage の /dʒ/ が had に続く（子音+子音）</li><li>had → 弱形 /həd/</li><li>persisted の /d/ が throughout に続く（子音+子音）</li><li>throughout の /t/ が our に続く（フラップT: [ɾ]）</li></ul>
+<div class="kana">ザ ダメッジ ハド パーシステッド スルーアウラ アワー エンタイアー マイニング イクスペディション ビフォー ウィー コッド リビルド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been persisting</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>persisting</mark> in our search for the legendary stronghold.</p>
+<p class="ja">私たちは伝説の要塞の探索を続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn pərˈsɪstɪŋ ɪn ˈaʊər ˈsɝtʃ fər ðə ˈlɛdʒənɛri ˈstrɑŋˌhoʊld/</div>
+<ul class="link"><li>we → /wi/</li><li>have → 弱形 /həv/</li><li>been → 弱形 /bɪn/</li><li>persisting の /ŋ/ が in に続く（語末の子音が次の母音に連結）</li><li>search の /tʃ/ が for に続く（子音+子音）。for は弱形 /fər/</li></ul>
+<div class="kana">ウィー ハヴ ビン パーシスティング イン アワー サーチ ファー ザ レジェンドリー ストロングホールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The construction project has been <mark>persisting</mark> for three months despite the delays.</p>
+<p class="ja">建設プロジェクトは遅延にもかかわらず3ヶ月間続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə kənˈstrʌkʃən ˈprɑdʒɛkt həz bɪn pərˈsɪstɪŋ fər θri ˈmʌnθz dɪsˈpaɪt ðə dɪˈleɪz/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>construction の /n/ が project に続く（子音+子音）</li><li>project の /t/ が has に続く（子音+子音）</li><li>has → 弱形 /həz/</li><li>been → 弱形 /bɪn/</li><li>persisting の /ŋ/ が for に続く（子音+子音）。for は弱形 /fər/</li></ul>
+<div class="kana">ザ コンストラクション プロジェクト ハズ ビン パーシスティング ファー スリー マンスズ ディスパイト ザ ディレイズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is persisting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team is <mark>persisting</mark> in their search for diamonds in this dangerous cave.</p>
+<p class="ja">チームはこの危険な洞窟でダイヤモンドの探索を続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim ɪz pərˈsɪstɪŋ ɪn ðɛr ˈsɝtʃ fər ˈdaɪməndz ɪn ðɪs ˈdeɪndʒərəs keɪv/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>is persisting: /z/ が /p/ に続く。摩擦音から破裂音への移行 [ɪz pərˈsɪstɪŋ]</li><li>persisting の /ŋ/ が in に続く（子音+母音で連結）</li><li>their は /ðɛr/、search の /tʃ/ に続く</li><li>search の /tʃ/ が for に続く。for は弱形 /fər/ [ˈsɝtʃ fər]</li><li>diamonds の /z/ が in に続く（子音+子音）。in は弱形 /ɪn/ [ˈdaɪməndz ɪn]</li></ul>
+<div class="kana">ザ ティーム イズ パーシスティング イン ゼア サーチ ファー ダイマンズ イン ディス デンジャラス ケイブ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>persisting</mark> through the nether fortress to find blaze rods.</p>
+<p class="ja">ブレイズロッドを見つけるため、ネザー要塞を通り抜けるのを続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əm pərˈsɪstɪŋ θruː ðə ˈnɛðər ˈfɔɹɾəs tə faɪnd bleɪz rɑdz/</div>
+<ul class="link"><li>I: /aɪ/、am は弱形 /əm/ [aɪ əm]</li><li>persisting の /ŋ/ が through に続く（子音+子音）</li><li>through: /θruː/、the は弱形 /ðə/ [θruː ðə]</li><li>fortress の /s/ が to に続く。to は弱形 /tə/ [ˈfɔɹɾəs tə]</li><li>find の /d/ が blaze に続く（子音+母音で連結）[faɪnd bleɪz]</li></ul>
+<div class="kana">アイ アム パーシスティング スルー ザ ネザー フォーラス タ ファインド ブレイズ ラドズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was persisting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>persisting</mark> through the cave system when the creeper exploded.</p>
+<p class="ja">クリーパーが爆発した時、洞窟システムを通り抜けるのを続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ pərˈsɪstɪŋ θruː ðə keɪv ˈsɪstəm wɛn ðə ˈkrɪpər ɪkˈsploʊdəd/</div>
+<ul class="link"><li>we: /wi/、were は弱形 /wɚ/ [wi wɚ]</li><li>were persisting: /ɚ/ が /p/ に続く。円滑に移行 [wɚ pərˈsɪstɪŋ]</li><li>persisting の /ŋ/ が through に続く（子音+子音）</li><li>through: /θruː/、the は弱形 /ðə/ [θruː ðə]</li><li>the cave: 弱形 /ðə/ が /k/ に続く</li></ul>
+<div class="kana">ウィー ワー パーシスティング スルー ザ ケイブ システム ウェン ザ クリーパー イクスプロウデッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners were <mark>persisting</mark> in their quest when they struck valuable ore.</p>
+<p class="ja">採掘者たちが貴重な鉱石を見つけた時、彼らのクエストを続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz wɚ pərˈsɪstɪŋ ɪn ðɛr ˈkwɛst wɛn ðeɪ strʌk ˈvæljuəbəl ˈɔr/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>miners の /z/ が were に続く（子音+子音）。were は弱形 /wɚ/ [ˈmaɪnərz wɚ]</li><li>were persisting: /ɚ/ が /p/ に続く。円滑に移行 [wɚ pərˈsɪstɪŋ]</li><li>persisting の /ŋ/ が in に続く（子音+母音で連結）</li><li>their: /ðɛr/、quest の /kw/ に続く</li></ul>
+<div class="kana">ザ マイナーズ ワー パーシスティング イン ゼア クエスト ウェン ゼイ ストラック ヴァリュアブル オア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been persisting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners had been <mark>persisting</mark> for hours when they finally found the stronghold.</p>
+<p class="ja">採掘者たちが要塞をついに見つけた時、彼らは何時間も続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz həd bɪn pərˈsɪstɪŋ fər ˈaʊərz wɛn ðeɪ ˈfaɪnəli faʊnd ðə ˈstroʊŋˌhoʊld/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>miners の /z/ が had に続く（子音+子音）。had は弱形 /həd/ [ˈmaɪnərz həd]</li><li>had been: /d/ が /b/ に続く。未開放で連接 [həd bɪn]</li><li>been persisting: /n/ が /p/ に続く。鼻音から破裂音への移行 [bɪn pərˈsɪstɪŋ]</li><li>persisting の /ŋ/ が for に続く。for は弱形 /fər/ [pərˈsɪstɪŋ fər]</li></ul>
+<div class="kana">ザ マイナーズ ハド ビン パーシスティング ファー アワーズ ウェン ゼイ ファイナリー ファウンド ザ ストロングホウルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we reached safety, we had been <mark>persisting</mark> against hostile mobs all night.</p>
+<p class="ja">私たちが安全に到達した時までに、一晩中ホスタイルモブに抵抗して続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi ritʃt ˈseɪfti wi həd bɪn pərˈsɪstɪŋ əˈɡɛnst ˈhɑstəl moʊbz ɔl naɪt/</div>
+<ul class="link"><li>by: /baɪ/、the は弱形 /ðə/ [baɪ ðə]</li><li>the time: 弱形 /ðə/ が /t/ に続く</li><li>reached: 語末の /t/ が safety に続く（未開放で連接）[ritʃt ˈseɪfti]</li><li>we: /wi/、had は弱形 /həd/</li><li>had been: /d/ が /b/ に続く。未開放で連接 [həd bɪn]</li><li>been persisting: /n/ が /p/ に続く [bɪn pərˈsɪstɪŋ]</li><li>against: /əˈɡɛnst/、hostile の /h/ に続く</li></ul>
+<div class="kana">バイ ザ タイム ウィー リーチッ セイフティー ウィー ハド ビン パーシスティング アゲンスト ハスタル モウブズ オール ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will persist</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl pərˈsɪst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>persist</mark> in exploring deep caves until I find ancient debris.</p>
+<p class="ja">古代の残骸を見つけるまで、深い洞窟の探索を続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl pərˈsɪst ɪn ɪkˈsplɔrɪŋ dip keɪvz ənˈtɪl aɪ faɪnd ˈeɪnʃənt dɪˈbriː/</div>
+<ul class="link"><li>persist の /t/ が in に続く（子音+母音で連結）[pərˈsɪst ɪn]</li><li>in は弱形 /ɪn/、exploring に続く</li><li>until の /l/ が I に続く（子音+母音で連結）[ənˈtɪl aɪ]</li><li>find の /d/ が ancient に続く（子音+母音で連結）[faɪnd ˈeɪnʃənt]</li></ul>
+<div class="kana">アイ ウィル パーシスト イン イクスプロリング ディープ ケイブズ アンティル アイ ファインド エイシェント デブリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team will <mark>persist</mark> through this difficult dungeon to claim their victory.</p>
+<p class="ja">チームはこの困難なダンジョンを通り抜けて、彼らの勝利を勝ち取り続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim wɪl pərˈsɪst θruː ðɪs ˈdɪfɪkəlt ˈdʌndʒən tu kleɪm ðɛr ˈvɪktəri/</div>
+<ul class="link"><li>the は弱形 /ðə/、team の /m/ が will に続く（子音+子音）</li><li>will の /l/ が persist に続く（子音+子音）</li><li>persist の /t/ が through に続く（子音+子音）[pərˈsɪst θruː]</li><li>dungeon の /n/ が to に続く。to は弱形 /tə/ [ˈdʌndʒən tə]</li></ul>
+<div class="kana">ザ ティーム ウィル パーシスト スルー ディス ディフィカルト ダンジョン トゥ クレイム ゼア ヴィクトリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be persisting</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi pərˈsɪstɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be <mark>persisting</mark> through the nether fortress while searching for blaze rods.</p>
+<p class="ja">ブレイズロッドを探しながら、ネザー要塞を通り抜け続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl bi pərˈsɪstɪŋ θruː ðə ˈnɛðər ˈfɔɹɾəs waɪl ˈsɝtʃɪŋ fər bleɪz rɑdz/</div>
+<ul class="link"><li>will は弱形、we'll に縮約。will の /l/ が be に続く（子音+子音）</li><li>be は弱形 /bə/ または /bi/</li><li>persisting の /ŋ/ が through に続く（子音+子音）</li><li>searching の /ŋ/ が for に続く。for は弱形 /fər/ [ˈsɝtʃɪŋ fər]</li></ul>
+<div class="kana">ウィー ウィル ビー パーシスティング スルー ザ ネザー フォーラス ホワイル サーチング ファー ブレイズ ラドズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>When the storm comes, we will be <mark>persisting</mark> in our mining operations.</p>
+<p class="ja">嵐が来た時、私たちは採掘事業を続けていることになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ðə ˈstɔrm kʌmz | wi wɪl bi pərˈsɪstɪŋ ɪn ˈaʊər ˈmaɪnɪŋ ˌɑpəˈreɪʃənz/</div>
+<ul class="link"><li>when の /n/ が the に続く。the は弱形 /ðə/ [wɛn ðə]</li><li>the の /ə/ が storm に続く（母音+子音）</li><li>we'll (we + will): will の /l/ が be に続く（子音+子音）</li><li>persisting の /ŋ/ が in に続く（子音+母音で連結）[pərˈsɪstɪŋ ɪn]</li></ul>
+<div class="kana">ウェン ザ ストーム カムズ、ウィー ウィル ビー パーシスティング イン アワー マイニング アペレイションズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have persisted</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv pərˈsɪstɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/persist_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, we will have <mark>persisted</mark> for three days without stopping.</p>
+<p class="ja">明日までに、私たちは止まることなく3日間続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ | wi wɪl həv pərˈsɪstɪd fər θri deɪz wɪðˈaʊt ˈstɑpɪŋ/</div>
+<ul class="link"><li>we'll (we + will): will の /l/ が have に続く（子音+子音）</li><li>have は弱形 /əv/ [wɪl əv]</li><li>have の /v/ が persisted に続く（子音+子音）</li><li>persisted の /d/ が for に続く。for は弱形 /fər/ [pərˈsɪstɪd fər]</li></ul>
+<div class="kana">バイ トゥモロー、ウィー ウィル ハブ パーシスティド ファー スリー デイズ ウィザウト ストッピング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners will have <mark>persisted</mark> through the cave by the time darkness falls.</p>
+<p class="ja">暗くなるまでに、採掘者たちは洞窟を通り抜け続けていることになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz wɪl həv pərˈsɪstɪd θruː ðə keɪv baɪ ðə taɪm ˈdɑrkənəs fɔlz/</div>
+<ul class="link"><li>the は弱形 /ðə/。miners の /z/ が will に続く（子音+子音）</li><li>will の /l/ が have に続く（子音+子音）</li><li>have は弱形 /əv/、persisted に続く（子音+子音）</li><li>persisted の /d/ が through に続く（子音+子音）</li></ul>
+<div class="kana">ザ マイナーズ ウィル ハブ パーシスティド スルー ザ ケイブ バイ ザ タイム ダークネス フォーズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">persist in</span><span class="im">～し続ける、～を続ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>If you <mark>persist</mark> in exploring the outer islands, you will eventually find a rare biome.</p>
+<p class="ja">外側の島の探索を続ければ、最終的にレアなバイオームを見つけるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪf ju pərˈsɪst ɪn ɪkˈsplɔrɪŋ ðə ˈaʊtɚ ˈaɪləndz | ju wɪl ɪˈvɛntʃuəli faɪnd ə ˈrɛr baɪˈoʊm/</div>
+<ul class="link"><li>persist の語末 /t/ が in の /ɪ/ に連結（子音+母音）</li><li>in の /n/ が exploring の /ɪ/ に連結（子音+母音）</li><li>find の /d/ が a の /ə/ に連結（子音+母音）</li></ul>
+<div class="kana">イフ ユー パーシスト イン イクスプロリング ザ アウター アイランズ、ユー ウィル イヴェンチュアリー ファインド ア レア バイオーム</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">persist with</span><span class="im">～を続ける、～で頑張り続ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Persist</mark> with your base construction project, and you will create something magnificent.</p>
+<p class="ja">基地建設プロジェクトを続ければ、素晴らしいものを作ることができるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/pərˈsɪst wɪð jɔr ˈbeɪs kənˈstrʌkʃən ˈprɑːdʒɛkt | ənd ju wɪl kriˈeɪt ˈsʌmθɪŋ məɡˈnɪfɪsənt/</div>
+<ul class="link"></ul>
+<div class="kana">パーシスト ウィズ ユア ベース コンストラクション プロジェクト、アン ユー ウィル クリエイト サムシング マグニフィセント</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">persist in the face of</span><span class="im">～に直面しながらも～し続ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The miners <mark>persist</mark> in the face of constant creeper attacks.</p>
+<p class="ja">採掘者たちは、絶え間ないクリーパー攻撃に直面しながらも採掘を続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/persist_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/persist_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz pərˈsɪst ɪn ðə ˈfeɪs əv ˈkɑnstənt ˈkriːpər əˈtæks/</div>
+<ul class="link"><li>persist の語末 /t/ が in の /ɪ/ に連結（子音+母音）</li><li>face の /s/ が of の /ə/ に連結（子音+母音）</li></ul>
+<div class="kana">ザ マイナーズ パーシスト イン ザ フェース アヴ コンスタント クリーパー アタックス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="persist";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

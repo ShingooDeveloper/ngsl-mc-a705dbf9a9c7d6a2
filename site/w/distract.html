@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>distract — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>distract</h2><span class="pos">動詞</span><span class="ipa-head">/dɪˈstrækt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1400 #1132</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（注意・気を）そらす、邪魔をする（take someone's attention away from something）</li><li>【動詞】（気を）紛らわす、気晴らしさせる（entertain to help forget one's worry）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't let that creeper <mark>distract</mark> you from mining diamonds.</p>
+<p class="ja">クリーパーに気を取られてダイヤモンド採掘に集中できないようにしてはいけません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/doʊnt lɛt ðæt ˈkrɪpər dɪˈstrækt juː frəm ˈmaɪnɪŋ ˈdaɪməndz/</div>
+<ul class="link"><li>distract you: 語末の /t/ が次の /juː/ の /j/ に連結し、スムーズに接続 [dɪˈstræktjuː]</li><li>from: 機能語は弱形 /frəm/ に弱化。「フラム」</li><li>let that: 語末の無声音 /t/ が有声音 /ð/ に続く。[lɛt ðæt]</li></ul>
+<div class="kana">ドウント レット ザット クリーパー ディストラクユー フラム マイニング ダイマンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Exploring caves often <mark>distracts</mark> me from my main goal.</p>
+<p class="ja">洞窟の探索は私の主な目的から気をそらすことがよくあります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪkˈsplɔrɪŋ keɪvz ˈɔfən dɪˈstræks mi frəm maɪ ˈmeɪn ɡoʊl/</div>
+<ul class="link"><li>often distracts: 語末の /n/ が /d/ に続く。鼻音から歯茎音への円滑な移行 [ˈɔfən dɪˈstræks]</li><li>from my: 弱形 from /frəm/ の /m/ が my の /m/ に続く。同音の子音で語境界が曖昧</li></ul>
+<div class="kana">イクスプローリング ケイブズ オフン ディストラクス ミー フラム マイ メイン ゴウル</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I use redstone contraptions to <mark>distract</mark> hostile mobs.</p>
+<p class="ja">ホスティルモブを気をそらすためにレッドストーン装置を使います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ juːz ˈrɛdˌstoʊn kənˈtræpʃənz tə dɪˈstrækt ˈhɑstəl moʊbz/</div>
+<ul class="link"><li>to distract: 機能語 to は弱形 /tə/ に弱化。/tə/ + /d/ で音が連続 [tə dɪˈstrækt] → 「タ ディストラクト」</li><li>distract hostile: 語末の /t/ が /h/ に続く。/t/ は明確にリリースされ、新しい音へ移行 [dɪˈstrækt ˈhɑstəl]</li></ul>
+<div class="kana">アイ ユーズ レッドストウン コントラプションズ タ ディストラクト ホスタル モウブズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">distracts</span><span class="fl">三人称単数現在形（動詞）</span><span class="fi">/dɪˈstræks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>A skeleton always <mark>distracts</mark> me from building.</p>
+<p class="ja">スケルトンはいつも建築から気をそらしてきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈskɛlətən ˈɔlweɪz dɪˈstræks mi frəm ˈbɪldɪŋ/</div>
+<ul class="link"><li>from: 弱形 /frəm/ に弱化。「フラム」</li></ul>
+<div class="kana">ア スケレトン オルウェイズ ディストラクス ミー フラム ビルディング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Each creeper <mark>distracts</mark> me while I'm gathering resources.</p>
+<p class="ja">各クリーパーはリソース集めの最中に気をそらしてきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/itʃ ˈkrɪpər dɪˈstræks mi waɪl aɪm ˈɡæðərɪŋ rɪˈsɔːrɪz/</div>
+<ul class="link"><li>while I'm: 語末の /l/ が /aɪ/ に連結。流暢に接続 [waɪl aɪm]</li></ul>
+<div class="kana">イッチ クリーパー ディストラクス ミー ワイル アイム ギャザリング リソーシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">distracted</span><span class="fl">過去形（動詞）</span><span class="fi">/dɪˈstræktəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That skeleton <mark>distracted</mark> me for five minutes.</p>
+<p class="ja">あのスケルトンは5分間気をそらしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈskɛlətən dɪˈstræktəd mi fɔr faɪv ˈmɪnɪts/</div>
+<ul class="link"></ul>
+<div class="kana">ザット スケレトン ディストラクテッド ミー フォー ファイブ ミニッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>distracted</mark> by the creeper explosion.</p>
+<p class="ja">クリーパー爆発に気をそらされました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz dɪˈstræktəd baɪ ðə ˈkrɪpər ɪkˈsploʊʒən/</div>
+<ul class="link"><li>was: 弱形 /wəz/ に弱化。「ワズ」</li><li>the: 弱形 /ðə/ に弱化。「ザ」</li></ul>
+<div class="kana">アイ ワズ ディストラクテッド バイ ザ クリーパー イクスプロウジョン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">distracted</span><span class="fl">過去分詞（動詞）</span><span class="fi">/dɪˈstræktəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>distracted</mark> by mobs too many times.</p>
+<p class="ja">モブに気をそらされたことが何度もあります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ hæv bɪn dɪˈstræktəd baɪ moʊbz tuː ˈmɛni taɪmz/</div>
+<ul class="link"></ul>
+<div class="kana">アイ ハブ ビン ディストラクテッド バイ モウブズ トゥー メニー タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players <mark>distracted</mark> by mining often die to mobs.</p>
+<p class="ja">採掘で気をそらされたプレイヤーはよくモブに殺されます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz dɪˈstræktəd baɪ ˈmaɪnɪŋ ˈɔfən daɪ tə moʊbz/</div>
+<ul class="link"><li>mining often: 語末の /ŋ/ が /ɔ/ に連結。鼻音から母音への流暢な移行</li></ul>
+<div class="kana">プレイアーズ ディストラクテッド バイ マイニング オフン ダイ タ モウブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">distracting</span><span class="fl">現在分詞・動名詞（動詞）</span><span class="fi">/dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Mobs are <mark>distracting</mark> me from building my house.</p>
+<p class="ja">モブが家を建てるのから気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/moʊbz ɑr dɪˈstræktɪŋ mi frəm ˈbɪldɪŋ maɪ haʊs/</div>
+<ul class="link"><li>distracting me: 語末の /ŋ/ が /m/ に続く。鼻音から鼻音への流暢な移行 [dɪˈstræktɪŋ mi]</li><li>from: 弱形 /frəm/ に弱化。「フラム」</li></ul>
+<div class="kana">モウブズ アー ディストラクティング ミー フラム ビルディング マイ ハウス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone contraption is <mark>distracting</mark> the mobs away.</p>
+<p class="ja">レッドストーン装置がモブを気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛdˌstoʊn kənˈtræpʃən ɪz dɪˈstræktɪŋ ðə moʊbz əˈweɪ/</div>
+<ul class="link"><li>the: 弱形 /ðə/ に弱化。「ザ」</li></ul>
+<div class="kana">ザ レッドストウン コントラプション イズ ディストラクティング ザ モウブズ アウェイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has distracted</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz dɪˈstræktəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This creeper has <mark>distracted</mark> me from mining diamonds all afternoon.</p>
+<p class="ja">このクリーパーは午後ずっとダイヤモンド採掘から気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈkrɪpər həz dɪˈstræktəd mi frəm ˈmaɪnɪŋ ˈdaɪməndz ɔl ˌæftərˈnuːn/</div>
+<ul class="link"><li>this creeper: 語末の /s/ が /k/ に続く。摩擦音から破裂音への移行 [ðɪs ˈkrɪpər]</li><li>has: 弱形 /həz/ に弱化。「ハズ」</li><li>distracted me: 語末の /d/ が /m/ に続く。破裂音と鼻音の語境界 [dɪˈstræktəd mi]</li><li>from: 弱形 /frəm/ に弱化。「フラム」</li></ul>
+<div class="kana">ディス クリーパー ハズ ディストラクテッド ミー フラム マイニング ダイマンズ オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mobs have <mark>distracted</mark> many players from completing their builds.</p>
+<p class="ja">モブが多くのプレイヤーのビルド完成から気をそらしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊbz həv dɪˈstræktəd ˈmɛni ˈpleɪərz frəm kəmˈpliːtɪŋ ðɛr bɪldz/</div>
+<ul class="link"><li>the: 弱形 /ðə/ に弱化。「ザ」</li><li>mobs have: /z/ が /h/ に続く。摩擦音から無声音への移行 [moʊbz həv]</li><li>distracted many: 語末の /d/ が /m/ に続く。破裂音と鼻音の語境界 [dɪˈstræktəd ˈmɛni]</li><li>from: 弱形 /frəm/ に弱化。「フラム」</li></ul>
+<div class="kana">ザ モウブズ ハブ ディストラクテッド メニー プレイアーズ フラム コムプリーティング ゼア ビルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had distracted</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd dɪˈstræktəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before I built this fortress, mobs had <mark>distracted</mark> me many times.</p>
+<p class="ja">この砦を建てる前に、モブは何度も気をそらしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr aɪ bɪlt ðɪs ˈfɔɾəs moʊbz həd dɪˈstræktəd mi ˈmɛni taɪmz/</div>
+<ul class="link"><li>before: 語末の /r/ が次の /aɪ/ に連結。流暢に接続 [bɪˈfɔr aɪ]</li><li>this fortress: 語末の /s/ が /f/ に続く。両方とも無声子音で語境界は明確 [ðɪs ˈfɔɾəs]</li><li>had: 弱形 /həd/ に弱化。「ハド」</li><li>distracted me: 語末の /d/ が /m/ に続く。破裂音と鼻音の語境界 [dɪˈstræktəd mi]</li></ul>
+<div class="kana">ビフォー アイ ビルト ディス フォーラス モウブズ ハド ディストラクテッド ミー メニー タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time I reached the nether, that skeleton had <mark>distracted</mark> me twice already.</p>
+<p class="ja">ネザーに到達するまでに、そのスケルトンはすでに2回気をそらしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm aɪ ritʃt ðə ˈnɛðər ðæt ˈskɛlətən həd dɪˈstræktəd mi twaɪs ɔlˈrɛdi/</div>
+<ul class="link"><li>the time: 弱形 /ðə/ に弱化。次の /t/ に続く [ðə taɪm]</li><li>reached the: 語末の /t/ が /ðə/ に続く。無声子音から有声音への移行 [ritʃt ðə]</li><li>had: 弱形 /həd/ に弱化。次の /d/ に未開放で連接 [həd dɪˈstræktəd]</li><li>me twice: /m/ が /t/ に続く。鼻音から無声子音への移行 [mi twaɪs]</li></ul>
+<div class="kana">バイ ザ タイム アイ リーチト ザ ネザー ザット スケレトン ハド ディストラクテッド ミー トゥワイス オールレディー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been distracting</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That creeper has been <mark>distracting</mark> me for the last hour.</p>
+<p class="ja">そのクリーパーここ1時間ずっと気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈkrɪpər həz bɪn dɪˈstræktɪŋ mi fɔr ðə læɾ aʊr/</div>
+<ul class="link"><li>has been: /z/ が /b/ に続く。摩擦音から破裂音への移行 [həz bɪn]</li><li>been distracting: /n/ が /d/ に続く。鼻音から破裂音への移行 [bɪn dɪˈstræktɪŋ]</li><li>for the: 弱形 /fɔr/ と /ðə/ の弱化。「ファー ザ」</li><li>last hour: 語末の /t/ が /aʊ/ 母音に続き、フラップT [ɾ] に変わる。「ラー アウアー」</li></ul>
+<div class="kana">ザット クリーパー ハズ ビン ディストラクティング ミー ファー ザ ラー アウアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mobs have been <mark>distracting</mark> us since we started playing.</p>
+<p class="ja">モブが遊び始めてからずっと気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊbz həv bɪn dɪˈstræktɪŋ əs sɪns wi ˈstɑɾtəd ˈpleɪɪŋ/</div>
+<ul class="link"><li>have been: /v/ が /b/ に続く。摩擦音から破裂音への移行 [həv bɪn]</li><li>been distracting: /n/ が /d/ に続く。鼻音から破裂音への移行 [bɪn dɪˈstræktɪŋ]</li><li>us since: 弱形 /əs/ に弱化。次の /s/ で語境界が明確 [əs sɪns]</li><li>started: /t/ が /ə/ に続く位置でフラップT [ɾ] に変わる。「スターテッド」→「スタアテッド」</li></ul>
+<div class="kana">ザ モウブズ ハブ ビン ディストラクティング アス シンス ウィー スタアテッド プレイング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is distracting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeleton is <mark>distracting</mark> me while I'm mining diamonds.</p>
+<p class="ja">スケルトンが私がダイヤモンドを採掘している間、気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlətən ɪz dɪˈstræktɪŋ mi waɪl aɪm ˈmaɪnɪŋ ˈdaɪməndz/</div>
+<ul class="link"><li>The: 弱形 /ðə/ ザ</li><li>is distracting: /z/ が /d/ に続く。摩擦音から破裂音への移行 [ɪz dɪˈstræktɪŋ]</li><li>while I'm: 語末の /l/ が /aɪ/ に連結。流暢に接続 [waɪl aɪm]</li></ul>
+<div class="kana">ザ スケレトン イズ ディストラクティング ミー ワイル アイム マイニング ダイマンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These creepers are <mark>distracting</mark> the endermen from the village.</p>
+<p class="ja">これらのクリーパーはエンダーメンを村から気をそらしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz ˈkrɪpərz ɑr dɪˈstræktɪŋ ðə ˈɛndərˌmɛn frəm ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>creepers are: 語末の /z/ が /ɑr/ の初音 /ɑ/ に連結。摩擦音が母音に連なる [ˈkrɪpərz ɑr]</li><li>from: 弱形 /frəm/ フラム</li><li>the: 弱形 /ðə/ ザ × 2</li></ul>
+<div class="kana">ディーズ クリーパーズ アー ディストラクティング ザ エンダーメン フラム ザ ヴィレッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was distracting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That creeper was <mark>distracting</mark> me when the dragon attacked.</p>
+<p class="ja">クリーパーがドラゴンに攻撃された時、私を気をそらしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈkrɪpər wəz dɪˈstræktɪŋ mi wɛn ðə ˈdræɡən əˈtækt/</div>
+<ul class="link"><li>was: 弱形 /wəz/ ワズ</li><li>was distracting: /z/ が /d/ に続く。摩擦音から破裂音への移行 [wəz dɪˈstræktɪŋ]</li><li>the: 弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザット クリーパー ワズ ディストラクティング ミー ウェン ザ ドラゴン アタック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeletons were <mark>distracting</mark> the enderman when we arrived.</p>
+<p class="ja">私たちが到着した時、スケルトンたちがエンダーマンを気をそらしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlətənz wɚ dɪˈstræktɪŋ ðə ˈɛndərˌmæn wɛn wi əˈraɪvd/</div>
+<ul class="link"><li>The: 弱形 /ðə/ ザ</li><li>were: 弱形 /wɚ/ ワー</li><li>were distracting: /ɚ/ が /d/ に続く。円滑に移行 [wɚ dɪˈstræktɪŋ]</li></ul>
+<div class="kana">ザ スケレトンズ ワー ディストラクティング ザ エンダーマン ウェン ウィー アライヴド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been distracting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper had been <mark>distracting</mark> me since I entered the cave.</p>
+<p class="ja">洞窟に入ってからずっと、クリーパーが私を気をそらしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkrɪpər həd bɪn dɪˈstræktɪŋ mi sɪns aɪ ˈɛntərd ðə keɪv/</div>
+<ul class="link"><li>The: 弱形 /ðə/ ザ</li><li>had been: 助動詞の弱形。had /həd/ been /bɪn/ で /d/ が /b/ に続く [həd bɪn]</li><li>been distracting: /n/ が /d/ に続く。鼻音から破裂音への移行 [bɪn dɪˈstræktɪŋ]</li><li>since I: /s/ が /aɪ/ に連結。摩擦音が母音に連なる [sɪns aɪ]</li></ul>
+<div class="kana">ザ クリーパー ハド ビン ディストラクティング ミー シンス アイ エンタード ザ ケイブ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we finished, the mobs had been <mark>distracting</mark> us all day.</p>
+<p class="ja">終わる時間までに、モブは一日中私たちを気をそらしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈfɪnɪʃt ðə ˈmoʊbz həd bɪn dɪˈstræktɪŋ əs ɔːl deɪ/</div>
+<ul class="link"><li>the: 弱形 /ðə/ ザ × 2（time と mobs の前）</li><li>had been: 助動詞の弱形 /həd/ /bɪn/ [həd bɪn]</li><li>been distracting: /n/ が /d/ に続く [bɪn dɪˈstræktɪŋ]</li></ul>
+<div class="kana">バイ ザ タイム ウィー フィニシト ザ モウブズ ハド ビン ディストラクティング アス オール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will distract</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl dɪˈstrækt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>distract</mark> that skeleton so you can mine diamonds safely.</p>
+<p class="ja">あのスケルトンを気をそらすので、あなたは安全にダイヤを採掘できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl dɪˈstrækt ðæt ˈskɛlətən soʊ ju kən ˈmaɪn ˈdaɪməndz ˈseɪfli/</div>
+<ul class="link"><li>I'll: 縮約形 /aɪl/。「アイル」</li><li>distract that: 語末の /t/ が /ð/ に続く。無声と有声の子音が語境界で明確 [dɪˈstrækt ðæt]</li><li>can: 機能語として弱形 /kən/ に弱化。「カン」</li></ul>
+<div class="kana">アイル ディストラクト ザット スケレトン ソー ユー カン マイン ダイマンズ セイフリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>distract</mark> the mobs while they attack our fortress.</p>
+<p class="ja">モブが私たちの要塞を攻撃している間、気をそらさせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl dɪˈstrækt ðə moʊbz waɪl ðeɪ əˈtæk ˈaʊr ˈfɔrtəs/</div>
+<ul class="link"><li>We'll: 縮約形 /wɪl/。「ウィル」</li><li>distract the: 語末の /t/ が /ð/ に続く。無声と有声の子音が語境界で明確 [dɪˈstrækt ðə]</li><li>while: 語末の /l/ が /ð/ に続く。流音から有声子音への移行 [waɪl ðeɪ]</li></ul>
+<div class="kana">ウィル ディストラクト ザ モウブズ ホワイル ゼイ アタック アワー フォートッス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be distracting</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi dɪˈstræktɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper will be <mark>distracting</mark> me while I'm mining.</p>
+<p class="ja">クリーパーは私が採掘している間、気をそらし続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkrɪpər wɪl bi dɪˈstræktɪŋ mi waɪl aɪm ˈmaɪnɪŋ/</div>
+<ul class="link"><li>will be: /l/ が /b/ に続く。流音から破裂音への連接 [wɪl bi]</li><li>while I'm: 語末の /l/ が /aɪ/ に連結。流暢に接続 [waɪl aɪm]</li><li>the: 弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ クリーパー ウィル ビー ディストラクティング ミー ホワイル アイム マイニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll be <mark>distracting</mark> the endermen while we escape.</p>
+<p class="ja">あなたはエンダーメンを気をそらしながら、私たちは逃げます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jʊl bi dɪˈstræktɪŋ ðə ˈɛndərˌmɛn waɪl wi ɪsˈkeɪp/</div>
+<ul class="link"><li>You'll: 縮約形 /jʊl/。「ユール」</li><li>the: 弱形 /ðə/ ザ</li><li>while: 語末の /l/ が /w/ に続く。流音から半母音への連接 [waɪl wi]</li></ul>
+<div class="kana">ユール ビー ディストラクティング ザ エンダーメン ホワイル ウィー イスケイプ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have distracted</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv dɪˈstræktəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/distract_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, we will have <mark>distracted</mark> the dragon three times.</p>
+<p class="ja">明日までに、私たちはドラゴンを3回気をそらしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ wi wɪl həv dɪˈstræktəd ðə ˈdræɡən ˈθri taɪmz/</div>
+<ul class="link"><li>will have: /l/ が /h/ に続く。流音から無声音への連接 [wɪl həv]</li><li>have distracted: /v/ が /d/ に続く。摩擦音から破裂音への移行 [həv dɪˈstræktəd]</li><li>the: 弱形 /ðə/ ザ</li></ul>
+<div class="kana">バイ トゥモロウ ウィー ウィル ハブ ディストラクテッド ザ ドラゴン スリー タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>distracted</mark> many mobs by the end of the day.</p>
+<p class="ja">その日の終わりまでに、彼らは多くのモブを気をそらしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl həv dɪˈstræktəd ˈmɛni moʊbz baɪ ðə ɛnd əv ðə deɪ/</div>
+<ul class="link"><li>will have: /l/ が /h/ に続く。流音から無声音への連接 [wɪl həv]</li><li>have distracted: /v/ が /d/ に続く。摩擦音から破裂音への移行 [həv dɪˈstræktəd]</li><li>end of: /d/ が /ə/ に続く。破裂音が弱形 /əv/ に連なる [ɛnd əv]</li></ul>
+<div class="kana">ゼイ ウィル ハブ ディストラクテッド メニー モウブズ バイ ザ エンド アヴ ザ デイ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">distract ~ from ~</span><span class="im">〜から〜を気をそらす、〜に気を取られさせる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mobs <mark>distract</mark> me from building my dream house.</p>
+<p class="ja">モブが夢の家づくりから気をそらしてしまいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/distract_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/distract_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/moʊbz dɪˈstrækt mi frəm ˈbɪldɪŋ maɪ ˈdrim haʊs/</div>
+<ul class="link"><li>from my: 弱形 from /frəm/ が /m/ に続く。[frəm maɪ]</li></ul>
+<div class="kana">モウブズ ディストラクト ミー フラム ビルディング マイ ドリーム ハウス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="distract";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

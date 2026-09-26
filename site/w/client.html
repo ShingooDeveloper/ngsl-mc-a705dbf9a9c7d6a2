@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>client — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>client</h2><span class="pos">名詞</span><span class="ipa-head">/ˈklaɪənt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1400 #856</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/client.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】サービス・製品を受け取る人、顧客（a person or company receiving services or products）</li><li>【名詞】クライアント、クライアント機、サーバーに接続する装置またはプログラム（a computer or software that accesses a server）</li><li>【名詞】依頼人、相談者（a person who seeks advice or services from a professional）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Your Minecraft <mark>client</mark> crashed when you tried to load the multiplayer world.</p>
+<p class="ja">マルチプレイヤーワールドを読み込もうとしたとき、あなたのマインクラフトクライアントがクラッシュしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔr ˈmaɪnˌkræft ˈklaɪənt kræʃt wɛn ju traɪd tə ˈloʊd ðə ˌmʌltiˈpleɪə ˈwɝld/</div>
+<ul class="link"><li>to → 機能語で弱形 /tə/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ユア マインクラフト クライアント クラッシュド ウェン ユー トライド タ ロウド ザ マルティプレイア ワールド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The server rejected the <mark>client</mark> request because the player was using an outdated version.</p>
+<p class="ja">プレイヤーが古いバージョンを使用していたため、サーバーはクライアントリクエストを拒否しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɝːvər rɪˈdʒɛktɪd ðə ˈklaɪənt rɪˈkwɛst bɪˈkɑz ðə ˈpleɪə wəz ˈjuːzɪŋ ən ˌaʊtˈdeɪtɪd ˈvɜrʒən/</div>
+<ul class="link"><li>the → 弱形 /ðə/（複数回）</li><li>was → 弱形 /wəz/</li><li>an → 弱形 /ən/</li></ul>
+<div class="kana">ザ サーヴァー リジェクティド ザ クライアント リクウェスト ビコーズ ザ プレイア ワズ ユージング アン アウトデイティド ヴァージョン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Installing a new mod on your <mark>client</mark> requires restarting the game before joining the server.</p>
+<p class="ja">クライアントに新しいモッドをインストールするには、サーバーに参加する前にゲームを再起動する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪnˈstɔːlɪŋ ə ˈnu məd ɑn jɔr ˈklaɪənt rɪˈkwaɪərz ˌriːˈstɑːrtɪŋ ðə ɡeɪm bɪˈfɔːr ˈdʒɔɪnɪŋ ðə ˈsɝːvər/</div>
+<ul class="link"><li>a → 弱形 /ə/</li><li>on → 弱形 /ɑn/</li><li>the → 弱形 /ðə/（複数回）</li></ul>
+<div class="kana">インストーリング ア ニュー モド オン ユア クライアント リクワイアーズ リースターティング ザ ゲイム ビフォア ジョイニング ザ サーヴァー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clients</span><span class="fl">複数形</span><span class="fi">/ˈklaɪənts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/client_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>All <mark>clients</mark> on your server must have matching mod versions and resource packs installed.</p>
+<p class="ja">あなたのサーバー上のすべてのクライアントは、一致するモッドバージョンとリソースパックがインストールされている必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ˈklaɪənts ɑn jɔr ˈsɝːvɚ məst hæv ˈmætʃɪŋ mɑd ˈvɝːʒənz ən ˈrisɔrs pæks ɪnˈstɑːld/</div>
+<ul class="link"><li>all の /l/ が clients に未開放で続く [ɔl̚ ˈklaɪənts] オル クライアンツ</li><li>clients の /ts/ が on に連結 [ˈklaɪənts ɑn] クライアンツ オン。on は弱形 /ɑn/</li><li>your の語末子音 /r/ が server に続く（子音+子音）[jɔr ˈsɝːvɚ] ユア サーヴァー</li><li>mod の /d/ が versions に未開放で続く [mɑd̚ ˈvɝːʒənz] モッ ヴァージョンズ</li></ul>
+<div class="kana">オル クライアンツ オン ユア サーヴァー マスト ハブ マッチング モド ヴァージョンズ エン リソース パックス インストールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>When <mark>clients</mark> update their game files, they need to restart the launcher before joining multiplayer servers.</p>
+<p class="ja">クライアントがゲームファイルを更新するとき、マルチプレイヤーサーバーに参加する前にランチャーを再起動する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ˈklaɪənts ʌpˈdeɪt ðɛɚ ɡeɪm faɪlz | ðeɪ niːd tu rɪˈstɑːrt ðə ˈlɑːntʃɚ bɪˈfɔr ˈdʒɔɪnɪŋ ˌmʌltɪˈpleɪɚ ˈsɝːvɚz/</div>
+<ul class="link"><li>when の /n/ が clients に未開放で続く [wɛn̚ ˈklaɪənts] ウェン クライアンツ</li><li>clients の /ts/ が update に連結 [ˈklaɪənts ʌpˈdeɪt] クライアンツ アップデイト</li><li>their の語末子音 /r/ が game に続く（子音+子音）[ðɛɚ ɡeɪm] ザア ゲイム</li><li>to → 機能語で弱形 /tə/ に弱化。the → 弱形 /ðə/</li></ul>
+<div class="kana">ウェン クライアンツ アップデイト ザア ゲイム ファイルズ、ザイ ニード タ リスターティ ザ ローンチャー ビフォア ジョイニング マルティプレイアー サーヴァーズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">client side</span><span class="im">クライアント側、クライアント側のプログラム</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The rendering happens on the <mark>client</mark> side while the server manages the game state.</p>
+<p class="ja">レンダリングはクライアント側で行われ、サーバーはゲーム状態を管理します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛndərɪŋ ˈhæpənz ɑn ðə ˈklaɪənt saɪd waɪl ðə ˈsɝːvər ˈmænɪdʒɪz ðə ɡeɪm ˈsteɪt/</div>
+<ul class="link"><li>the → 弱形 /ðə/（複数回）</li></ul>
+<div class="kana">ザ レンダリング ハペンズ オン ザ クライアント サイド ワイル ザ サーヴァー マネッジズ ザ ゲイム ステイト</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">client-server model</span><span class="im">クライアント・サーバーモデル</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Minecraft uses a <mark>client</mark>-server model to handle multiplayer gameplay and synchronization.</p>
+<p class="ja">マインクラフトはマルチプレイヤーゲームプレイと同期を処理するためにクライアント・サーバーモデルを使用します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnˌkræft ˈjuːzɪz ə ˈklaɪənt ˈsɝːvər ˈmɑdəl tə ˈhændəl ˌmʌltiˈpleɪə ˈɡeɪmˌpleɪ ənd ˌsɪŋkrənəˈzeɪʃən/</div>
+<ul class="link"><li>a → 弱形 /ə/</li><li>to → 弱形 /tə/</li><li>and → 弱形 /ənd/</li></ul>
+<div class="kana">マインクラフト ユーズィズ ア クライアント サーヴァー モデル タ ハンドル マルティプレイア ゲイムプレイ アン シンクロナイゼーション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">connect to a server</span><span class="im">サーバーに接続する（クライアントが）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>When you launch the game, your <mark>client</mark> attempts to connect to the server automatically.</p>
+<p class="ja">ゲームを起動すると、クライアントが自動的にサーバーに接続しようとします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/client_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/client_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ju lɔːntʃ ðə ɡeɪm jɔr ˈklaɪənt əˈtɛmpts tə kəˈnɛkt tə ðə ˈsɝːvər ˈɔːtəˌmætɪkli/</div>
+<ul class="link"><li>to → 弱形 /tə/（複数回）</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ウェン ユー ローンチ ザ ゲイム ユア クライアント ァテムプツ タ コネクト タ ザ サーヴァー オートマティカリー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="client";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
