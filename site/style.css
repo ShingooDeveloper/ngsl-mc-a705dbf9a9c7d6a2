@@ -68,6 +68,8 @@ ul.link li{margin:3px 0}
 .formhead .fi{font-family:"Charis SIL","Gentium Plus","Segoe UI",serif;color:var(--sub);font-size:.95rem}
 .backlink{display:inline-block;font-size:.85rem;color:var(--accent);text-decoration:none}
 .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.tagbadge{display:inline-block;font-size:.68rem;font-weight:700;padding:1px 8px;border-radius:999px;background:#ede9fe;color:#5b21b6;margin-left:6px;vertical-align:middle;white-space:nowrap}
+.chip small{opacity:.65;font-weight:400}
 .markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
 .markbar.bottom{margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
 .markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);
