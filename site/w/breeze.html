@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>breeze — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>breeze</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/briːz/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1200 #814</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】軽い風、そよ風（涼しい空気の流れ）</li><li>【名詞】簡単な物事（…it's a breeze で「簡単だ、容易だ」）</li><li>【動詞】快適に素速く移動する、さっと通る</li><li>【動詞】（試験・競争などを）楽々と成功する、難なく通過する</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I can find a <mark>breeze</mark> near the mountain peak when mining.</p>
+<p class="ja">採掘するとき、山の頂上付近でそよ風を感じることができる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ kæn faɪnd ə briːz nɪr ðə ˈmaʊntən ˌpiːk wɛn ˈmaɪnɪŋ/</div>
+<ul class="link"><li>find a: 語末 /d/ が母音 /ə/ に連結 [faɪndə] ファインダ</li></ul>
+<div class="kana">アイ キャン ファインダ ブリーズ ニアー ザ マウンテン ピーク ウェン マイニング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This building project is a <mark>breeze</mark> with all your resources.</p>
+<p class="ja">すべてのリソースがあれば、このビル建築プロジェクトは簡単だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈbɪldɪŋ ˈprɑdʒɛkt ɪz ə briːz wɪð ɔl jɔr rɪˈsɔrsɪz/</div>
+<ul class="link"><li>is a: 語末 /z/ が母音 /ə/ に連結 [ɪzə] イザ</li><li>with all: 語末 /ð/ が母音 /ɔ/ に連結 [wɪðɔl] ウィザオル</li></ul>
+<div class="kana">ディス ビルディング プロジェクト イザ ブリーズ ウィザオル ユア リソーシーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I breezed past all the hostile mobs without taking any damage.</p>
+<p class="ja">ホスタイル・モブを避けて、ダメージを受けずに通り過ぎた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbriːzd pæst ɔl ðə ˈhɑstaɪl ˈmɑbz wɪðˈaʊt ˈteɪkɪŋ ˈɛni ˈdæmɪdʒ/</div>
+<ul class="link"><li>past all: 語末 /t/ が母音 /ɔ/ に連結 [pæstɔl] パストオル</li><li>taking any: 語末 /ŋ/ が母音 /ɛ/ に連結 [ˈteɪkɪŋɛni] テイキングエニー</li></ul>
+<div class="kana">アイ ブリーズド パストオル ザ ホスタイル モブズ ウィザウト テイキングエニー ダメージ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">breezes</span><span class="fl">複数形</span><span class="fi">/briːzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Cool <mark>breezes</mark> help me stay comfortable while mining.</p>
+<p class="ja">涼しいそよ風は採掘中に快適に過ごすのに役立つ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kuːl ˈbriːzɪz ˈhɛlp mi ˈsteɪ ˈkʌmfərtəbəl ˈwaɪl ˈmaɪnɪŋ/</div>
+<ul class="link"><li>breezes help: 語末 /z/ が子音 /h/ に続くため連結ではない</li></ul>
+<div class="kana">クール ブリーズィズ ヘルプ ミー ステイ カムファータブル ワイル マイニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>breezes</mark> in mountains always make me feel refreshed.</p>
+<p class="ja">山のそよ風は私をいつもリフレッシュさせてくれる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbriːzɪz ɪn ˈmaʊntənz ˈɔlweɪz ˈmeɪk mi ˈfiːl rɪˈfrɛʃt/</div>
+<ul class="link"><li>breezes in: 語末 /z/ が母音 /ɪ/ に連結 [ˈbriːzɪz ɪn] ブリーズィズ イン</li><li>make me: 語末 /k/ が母音 /i/ に連結 [ˈmeɪk mi] メイク ミー</li></ul>
+<div class="kana">ザ ブリーズィズ イン マウンテンズ オールウェイズ メイク ミー フィール リフレッシュト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">breezes</span><span class="fl">三人称単数現在形</span><span class="fi">/briːzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>breezes</mark> past all the hostile mobs without any damage.</p>
+<p class="ja">彼は敵対的なモブをすべて通り抜けてダメージを受けない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈbriːzɪz ˈpæst ɔl ðə ˈhɑstaɪl ˈmɑbz ˌwɪðˈaʊt ˈɛni ˈdæmɪdʒ/</div>
+<ul class="link"><li>past all: 語末 /t/ が母音 /ɔ/ に連結 [ˈpæst ɔl] パストォル</li></ul>
+<div class="kana">ヒー ブリーズィズ パストォル ザ ホスタイル モブズ ウィザウト エニー ダメージ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>breezes</mark> across each area in this biome very quickly.</p>
+<p class="ja">彼女はこのバイオームの各エリアをすばやく通り抜ける。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈbriːzɪz əˈkrɑs ˈiːtʃ ˈɛriə ɪn ðɪs ˈbaɪoʊm ˈvɛri ˈkwɪkli/</div>
+<ul class="link"><li>breezes across: 語末 /z/ が母音 /ə/ に連結 [ˈbriːzɪz əˈkrɑs] ブリーズィズ アクロス</li></ul>
+<div class="kana">シー ブリーズィズ アクロス イーチ エリア イン ディス バイオーム ベリー クウィックリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">breezed</span><span class="fl">過去形</span><span class="fi">/briːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I breezed through the cave and found emerald ore.</p>
+<p class="ja">私は洞窟をスムーズに通り抜けてエメラルド鉱石を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbriːzd θruː ðə ˈkeɪv ənd ˈfaʊnd ˈɛmərəld ˈɔr/</div>
+<ul class="link"><li>cave and: 語末 /v/ が母音 /ə/ に連結 [ˈkeɪv ənd] ケイヴ アンド</li></ul>
+<div class="kana">アイ ブリーズド スルー ザ ケイヴ アンド ファウンド エメラルド オア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We breezed past all the obstacles easily.</p>
+<p class="ja">私たちはすべての障害物をスムーズに通り抜けた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈbriːzd ˈpæst ɔl ðə ˈɑbstəkəlz ˈiziːli/</div>
+<ul class="link"><li>past all: 語末 /t/ が母音 /ɔ/ に連結 [ˈpæst ɔl] パストォル</li></ul>
+<div class="kana">ウィ ブリーズド パストォル ザ アブスタクルズ イージリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">breezed</span><span class="fl">過去分詞</span><span class="fi">/briːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having breezed through the tutorial, he was ready for survival.</p>
+<p class="ja">チュートリアルをスムーズに通り抜けたので、彼はサバイバルの準備ができていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈheɪvɪŋ ˈbriːzd θruː ðə ˈtjuːtɔriəl hi wəz ˈrɛdi fər sərˈvaɪvəl/</div>
+<ul class="link"><li>Having breezed: 語末 /ŋ/ が子音 /b/ に続くため連結ではない</li></ul>
+<div class="kana">ヘイビング ブリーズド スルー ザ チュートーリアル ヒー ワズ レディ ファー サーバイバル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team had breezed past every challenge at last.</p>
+<p class="ja">チームはついにすべてのチャレンジをスムーズに通り抜けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim hæd ˈbriːzd ˈpæst ˈɛvri ˈtʃælɪndʒ æt ˈlæst/</div>
+<ul class="link"><li>past every: 語末 /t/ が母音 /ɛ/ に連結 [ˈpæst ˈɛvri] パスト エブリー</li><li>challenge at: 語末 /dʒ/ が母音 /æ/ に連結 [ˈtʃælɪndʒ æt] チャレンジ アット</li></ul>
+<div class="kana">ザ ティーム ハッド ブリーズド パスト エブリー チャレンジ アット ラスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">breezing</span><span class="fl">現在分詞・動名詞（-ing形）</span><span class="fi">/briːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm breezing through this mining session with proper tools.</p>
+<p class="ja">適切なツールでこのマイニングセッションをスムーズにこなしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈbriːzɪŋ θruː ðɪs ˈmaɪnɪŋ ˈsɛʃən wɪð ˈprɑpər ˈtulz/</div>
+<ul class="link"><li>through this: 語末 /uː/ が子音 /ð/ に続くため連結ではない</li></ul>
+<div class="kana">アイム ブリージング スルー ディス マイニング セッション ウィズ プロパー ツールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He's breezing across the biome without any effort at all.</p>
+<p class="ja">彼はまったく努力せずにバイオーム中をスムーズに移動している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiz ˈbriːzɪŋ əˈkrɑs ðə ˈbaɪoʊm ˌwɪðˈaʊt ˈɛni ˈɛfərt æt ˈɔl/</div>
+<ul class="link"><li>breezing across: 語末 /ŋ/ が母音 /ə/ に連結 [ˈbriːzɪŋ əˈkrɑs] ブリージング アクロス</li><li>effort at: 語末 /t/ が母音 /æ/ に連結 [ˈɛfərt æt] エファート アット</li></ul>
+<div class="kana">ヒーズ ブリージング アクロス ザ バイオーム ウィザウト エニー エファート アット オール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has breezed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈbriːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have breezed past each obstacle in the cave.</p>
+<p class="ja">私は洞窟のそれぞれの障害物をスムーズに通り抜けた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈbriːzd ˈpæst ˈiːtʃ ˈɑbstəkəl ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>have breezed: 語末 /v/ が子音 /b/ に続くため連結ではない</li><li>past each: 語末 /t/ が母音 /iː/ に連結 [pæsティːtʃ] パスティーチ</li><li>obstacle in: 語末 /l/ が母音 /ɪ/ に連結 [stəkəlɪn] ストゥカルイン</li></ul>
+<div class="kana">アイ ハヴ ブリーズド パスティーチ アブスタクルイン ザ ケイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have breezed through ancient ruins and found treasures.</p>
+<p class="ja">プレイヤーは古い遺跡をスムーズに通り抜けて宝物を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz həv ˈbriːzd θruː ˈeɪʃənt ˈruːɪnz ənd ˈfaʊnd ˈtrɛʒərz/</div>
+<ul class="link"><li>through ancient: 語末 /uː/ が母音 /eɪ/ に続くため連結ではない（語末が子音ではない）</li><li>ruins and: 語末 /z/ が母音 /ə/ に連結 [ˈruːɪnzənd] ルーインザンド</li></ul>
+<div class="kana">プレイヤーズ ハヴ ブリーズド スルーエイシャント ルーインザンド ファウンド トレジャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had breezed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈbriːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By noon, the team had breezed past all enemies easily.</p>
+<p class="ja">正午までに、チームはすべての敵をスムーズに通り抜けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnun ðə ˈtim həd ˈbriːzd ˈpæst ɔl ˈɛnəmiz ˈiziːli/</div>
+<ul class="link"><li>had breezed: 語末 /d/ が子音 /b/ に続くため連結ではない</li><li>past all: 語末 /t/ が母音 /ɔ/ に連結 [pæstɔl] パストォル</li><li>all enemies: 語末 /l/ が母音 /ɛ/ に連結 [ɔlˈɛnəmiz] オーレネミーズ</li></ul>
+<div class="kana">バイ ヌーン ザ ティーム ハド ブリーズド パストォル オーレネミーズ イージリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had breezed through ancient ruins and found diamonds.</p>
+<p class="ja">彼は古い遺跡をスムーズに通り抜けてダイヤモンドを見つけていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həd ˈbriːzd θruː ˈeɪʃənt ˈruːɪnz ənd ˈfaʊnd ˈdaɪəmɑndz/</div>
+<ul class="link"><li>had breezed: 語末 /d/ が子音 /b/ に続くため連結ではない</li><li>through ancient: 語末 /uː/ が母音 /eɪ/ に続くため連結ではない（語末が子音ではない）</li><li>ruins and: 語末 /z/ が母音 /ə/ に連結 [ˈruːɪnzənd] ルーインザンド</li></ul>
+<div class="kana">ヒー ハド ブリーズド スルーエイシャント ルーインザンド ファウンド ダイアモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been breezing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbriːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been breezing around each island all afternoon.</p>
+<p class="ja">彼女は午後ずっと各島をスムーズに移動している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˈbriːzɪŋ əˈraʊnd ˈiːtʃ ˈaɪlənd ɔl ˌæftərˈnun/</div>
+<ul class="link"><li>been breezing: 語末 /n/ が子音 /b/ に続くため連結ではない</li><li>breezing around: 語末 /ŋ/ が母音 /ə/ に連結 [ˈbriːzɪŋəˈraʊnd] ブリージングアラウンド</li><li>around each: 語末 /d/ が母音 /iː/ に連結 [ˈraʊndˈiːtʃ] ラウンドイーチ</li></ul>
+<div class="kana">シー ハズ ビン ブリージングアラウンド ラウンドイーチ アイランド オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have been breezing past obstacles and enjoying survival mode.</p>
+<p class="ja">彼らは障害物をスムーズに通り抜けてサバイバルモードを楽しんでいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv bɪn ˈbriːzɪŋ ˈpæst ˈɑbstəkəlz ənd ɪnˈdʒɔɪɪŋ sərˈvaɪvəl ˈmoʊd/</div>
+<ul class="link"><li>been breezing: 語末 /n/ が子音 /b/ に続くため連結ではない</li><li>obstacles and: 語末 /z/ が母音 /ə/ に連結 [stəkəlzənd] ストゥカルザンド</li><li>and enjoying: 語末 /d/ が母音 /ɪ/ に連結 [əndɪnˈdʒɔɪɪŋ] アンドエンジョイング</li></ul>
+<div class="kana">ザイ ハヴ ビン ブリージング パスト ストゥカルザンド アンドエンジョイング サーバイバル モード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is breezing</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈbriːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm breezing through this mining tunnel easily.</p>
+<p class="ja">このマイニングトンネルをスムーズに簡単にこなしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈbriːzɪŋ θruː ðɪs ˈmaɪnɪŋ ˈtʌnəl ˈiːzəli/</div>
+<ul class="link"><li>tunnel easily: 語末 /l/ が母音 /i/ に連結 [ˈtʌnəl ˈiːzəli] タンネル イージーリー</li></ul>
+<div class="kana">アイム ブリージング スルー ディス マイニング タンネル イージーリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She's breezing past all the creepers without taking damage.</p>
+<p class="ja">彼女はダメージを受けずにクリーパーをすべてスムーズに通り抜けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiz ˈbriːzɪŋ pæst ɔl ðə ˈkripərz wɪðˈaʊt ˈteɪkɪŋ ˈdæmɪdʒ/</div>
+<ul class="link"><li>past all: 語末 /t/ が母音 /ɔ/ に連結 [pæst ɔl] パスト オール</li></ul>
+<div class="kana">シーズ ブリージング パスト オール ザ クリーパーズ ウィザウト テイキング ダメージ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was breezing</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈbriːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was breezing through the cave when I found diamonds.</p>
+<p class="ja">洞窟をスムーズに通り抜けているときにダイヤモンドを見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈbriːzɪŋ θruː ðə ˈkeɪv wɛn aɪ ˈfaʊnd ˈdaɪməndz/</div>
+<ul class="link"></ul>
+<div class="kana">アイ ワズ ブリージング スルー ザ ケイヴ ウェン アイ ファウンド ダイモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were breezing across the nether portal area very quickly.</p>
+<p class="ja">私たちはネザーポータル地域をスムーズに通り抜けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wər ˈbriːzɪŋ əˈkrɑs ðə ˈnɛðər ˈpɔrtəl ˈɛriə ˈvɛri ˈkwɪkli/</div>
+<ul class="link"><li>portal area: 語末 /l/ が母音 /ɛ/ に連結 [ˈpɔrtəl ˈɛriə] ポルタル エリア</li></ul>
+<div class="kana">ウィ ワー ブリージング アクロス ザ ネザー ポルタル エリア ベリー クウィックリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been breezing</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈbriːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He had been breezing through mining for hours before stopping.</p>
+<p class="ja">彼は立ち止まる前に何時間もマイニングをスムーズにこなしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həd bɪn ˈbriːzɪŋ θruː ˈmaɪnɪŋ fər ˈaʊrz bɪˈfɔr ˈstɑpɪŋ/</div>
+<ul class="link"><li>had been: had の弱形 /həd/、been の弱形 /bɪn/ [həd bɪn] ハド ビン</li></ul>
+<div class="kana">ヒー ハド ビン ブリージング スルー マイニング ファー アワーズ ビフォア ストッピング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been breezing past obstacles without effort all day.</p>
+<p class="ja">彼らは一日中努力なしに障害物をスムーズに通り抜けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd bɪn ˈbriːzɪŋ pæst ˈɑbstəkəlz wɪðˈaʊt ˈɛfərt ɔl ˈdeɪ/</div>
+<ul class="link"><li>had been: had の弱形 /həd/、been の弱形 /bɪn/ [həd bɪn] ハド ビン</li><li>past obstacles: 語末 /t/ が母音 /ɑ/ に連結 [pæst ˈɑbstəkəlz] パスト アブスタクルズ</li><li>effort all: 語末 /t/ が母音 /ɔ/ に連結 [ˈɛfərt ɔl] エファート オール</li></ul>
+<div class="kana">ザイ ハド ビン ブリージング パスト アブスタクルズ ウィザウト エファート オール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will breeze</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl briːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>breeze</mark> through these caves looking for ore deposits.</p>
+<p class="ja">鉱石鉱床を探してこれらの洞窟をスムーズに移動するだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl briːz θruː ðiz ˈkeɪvz ˈlʊkɪŋ fər ˈɔr dɪˈpɑzɪts/</div>
+<ul class="link"><li>I'll: 縮約形で will が /əl/ に弱化して I に融合 [aɪl] アイル</li><li>looking for: 機能語 for は弱形 /fər/ に弱化</li></ul>
+<div class="kana">アイル ブリーズ スルー ディーズ ケイブズ ルッキング ファー オア デポジッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll <mark>breeze</mark> past all the mobs in this desert biome quickly.</p>
+<p class="ja">彼はこの砂漠バイオームのすべてのモブをすばやくスムーズに通り抜けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil briːz ˈpæst ɔl ðə ˈmɑbz ɪn ðɪs ˈdɛzərt ˈbaɪoʊm ˈkwɪkli/</div>
+<ul class="link"><li>he'll: 縮約形で will が /əl/ に弱化 [hil] ヒール</li><li>past all: 語末 /t/ がフラップ /ɾ/ に変わり母音 /ɔ/ に続く [pæɾɔl] パロール</li></ul>
+<div class="kana">ヒール ブリーズ パロール ザ モブズ イン ディス デザート バイオーム クウィックリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be breezing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈbriːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Tomorrow, I'll be breezing through the mine shafts all morning.</p>
+<p class="ja">明日の朝中、鉱山シャフトをスムーズに移動しているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/təˈmɑroʊ aɪl bi ˈbriːzɪŋ θruː ðə ˈmaɪn ˈʃæfts ɔl ˈmɔrnɪŋ/</div>
+<ul class="link"><li>I'll be: 縮約形 I'll /aɪl/、be は弱形 /bi/ または /bə/</li><li>through the: 語末 /θ/ が子音 /ð/ に続くため連結ではない</li></ul>
+<div class="kana">トゥモロー アイル ビー ブリージング スルー ザ マイン シャフツ オール モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>When you log in tomorrow, we'll be breezing through the Nether.</p>
+<p class="ja">明日ログインするとき、私たちはネザーをスムーズに移動しているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ju ˈlɔɡ ɪn təˈmɑroʊ wil bi ˈbriːzɪŋ θruː ðə ˈnɛðər/</div>
+<ul class="link"><li>we'll be: 縮約形 we'll /wil/、be は弱形 /bi/ または /bə/</li></ul>
+<div class="kana">ウェン ユー ログ イン トゥモロー ウィール ビー ブリージング スルー ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have breezed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl hæv briːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/breeze_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next Friday, I'll have breezed through the entire storyline.</p>
+<p class="ja">来週の金曜日までに、メインストーリー全体をスムーズに通り抜けているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈfraɪdeɪ aɪl hæv briːzd θruː ðə ɪnˈtaɪər ˈmeɪn ˈstɔrilaɪn/</div>
+<ul class="link"><li>I'll have: 縮約形 I'll /aɪl/、have は弱形 /həv/ または /əv/</li></ul>
+<div class="kana">バイ ネクスト フライデー アイル ハブ ブリーズド スルー ジエンタイア メイン ストーリーライン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll have breezed past all the boss battles by the time the update releases.</p>
+<p class="ja">アップデートがリリースされるまでに、彼女はすべてのボス戦をスムーズに通り抜けているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil hæv briːzd ˈpæst ɔl ðə bɑs ˈbætəlz baɪ ðə ˈtaɪm ðə ˈʌpˌdeɪt rɪˈlis̺ɪz/</div>
+<ul class="link"><li>she'll have: 縮約形 she'll /ʃil/、have は弱形 /həv/ または /əv/</li><li>past all: 語末 /t/ がフラップ /ɾ/ に変わり母音 /ɔ/ に続く [pæɾɔl] パロール</li></ul>
+<div class="kana">シール ハブ ブリーズド パロール ザ ボス バトルズ バイ ザ タイム ザ アップデート リラシーズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">a breeze</span><span class="im">簡単なこと、容易な物事</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Building a castle is a <mark>breeze</mark> with enough resources.</p>
+<p class="ja">十分なリソースがあれば、城を建築するのは簡単だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbɪldɪŋ ə ˈkæsəl ɪz ə briːz wɪð ɪˈnʌf ˈrɛsɔrsɪz/</div>
+<ul class="link"><li>Building a: 語末 /ŋ/ が母音 /ə/ に連結 [ˈbɪldɪŋə] ビルディングア</li><li>is a: 語末 /z/ が母音 /ə/ に連結 [ɪzə] イザ</li></ul>
+<div class="kana">ビルディングア キャセル イザ ブリーズ ウィザ イナフ リソーシーズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">breeze through</span><span class="im">…を楽々とこなす、素早く通り抜ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You can <mark>breeze</mark> through the nether and find Ancient Debris.</p>
+<p class="ja">ネザーを素速く通り抜けて、古代の破片を見つけることができる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/breeze_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/breeze_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː kæn briːz θruː ðə ˈnɛðər ənd ˈfaɪnd ˈeɪnʃənt dəˈbriː/</div>
+<ul class="link"><li>nether and: 語末 /ɚ/ が母音 /æ/ に連結 [ˈnɛðɚænd] ネザーアンド</li><li>find Ancient: 語末 /d/ が母音 /eɪ/ に連結 [ˈfaɪndeɪnʃənt] ファインデインシャント</li></ul>
+<div class="kana">ユー キャン ブリーズ スルー ザ ネザーアンド ファインデインシャント ダブリー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="breeze";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

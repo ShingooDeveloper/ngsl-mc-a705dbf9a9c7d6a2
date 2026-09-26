@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>snack — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>snack</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/snæk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1200 #736</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】軽食、スナック（軽くて簡単な食事、おやつ）</li><li>【名詞】スナック菓子、お菓子（袋詰めの食べ物；…bag of snacks, crackers and snacks…）</li><li>【動詞】軽食を食べる、おやつを食べる（…snack on apples, snacking while building…）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>snack</mark> before mining diamonds deep in the cave.</p>
+<p class="ja">洞窟の奥でダイヤモンドを採掘する前に、軽食を食べないといけません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd tə ˈsnæk bɪˈfɔɹ ˈmaɪnɪŋ ˈdaɪməndz ˈdip ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>need to → 語末子音 /d/ が to の弱形 /tə/ に連結 [ˈniːdə] ニーダ。to は弱形 /tə/</li><li>deep in → 語末子音 /p/ が母音 /ɪ/ に連結 [ˈdipɪn] ディピン</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ニード タ スナック ビフォア マイニング ダイモンズ ディップ イン ザ ケイヴ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We're <mark>snacking</mark> on apples and bread while building the tower.</p>
+<p class="ja">塔を建築しながら、りんごとパンを食べています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪɹ ˈsnækɪŋ ɑn ˈæpəlz ən ˈbrɛd waɪl ˈbɪldɪŋ ðə ˈtaʊɹ/</div>
+<ul class="link"><li>We're → vocalic r により [wɪɹ] ウィア</li><li>snacking on → 語末鼻音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋɑn] スナッキング・アン</li><li>and bread → and は弱形 /ən/（b の子音のため）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィア スナッキング アン アップルズ エン ブレッド ホワイル ビルディング ザ タウアー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>A quick <mark>snack</mark> of cookies will restore my hunger bar.</p>
+<p class="ja">クッキーのちょっとした軽食で、私の満腹度が回復します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈkwɪk ˈsnæk əv ˈkʊkiz wəl rɪˈstɔɹ maɪ ˈhʌŋɡɹ̩ ˈbɑɹ/</div>
+<ul class="link"><li>of cookies → of は弱形 /əv/ で cookies の初母音に連結 [əv ˈkʊkiz] アヴ クッキーズ</li><li>will restore → will は弱形 /wəl/、restore の r-coloring</li></ul>
+<div class="kana">ア クイック スナック アヴ クッキーズ ウィル リストア マイ ハンガー バー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">snacks</span><span class="fl">複数形</span><span class="fi">ˈsnæks</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>snacks</mark> are essential for long cave expeditions.</p>
+<p class="ja">これらのスナックは、長い洞窟遠征に不可欠です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðiːz ˈsnæks ɑr ɪˈsɛnʃəl fɔr ˈlɔŋ ˈkeɪv ɛkspəˈdɪʃənz]</div>
+<ul class="link"><li>snacks are → ks が母音 /ɑ/ に連結し [ˈsnæks ɑr] スナックス・アー</li><li>are is → r が母音 /ɪ/ に連結し [ɑr ɪ] アー・イ</li></ul>
+<div class="kana">ディーズ スナックス アー・イセンシャル フォー ロング ケイヴ エクスペディションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Pack plenty of <mark>snacks</mark> at the farm before mining.</p>
+<p class="ja">採掘する前に、ファームで大量のスナックを詰める。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈpæk ˈplɛnti əv ˈsnæks æt̚ ðə ˈfɑrm bɪˈfɔr ˈmaɪnɪŋ]</div>
+<ul class="link"><li>snacks at → ks が無声破裂音に続く</li><li>at → t が未開放で詰まり [æt̚] アッ</li><li>the → 弱形 /ðə/ に弱化し [ðə] ザ</li></ul>
+<div class="kana">パック プレンティ アヴ スナックス アッ・ザ ファーム ビフォア マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">snacks</span><span class="fl">三人称単数現在形</span><span class="fi">ˈsnæks</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>snacks</mark> on bread to restore hunger quickly.</p>
+<p class="ja">彼女はパンをつまんで、空腹度を素早く回復させます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ˈsnæks ɑn ˈbrɛd tu rɪˈstɔr ˈhʌŋɡər ˈkwɪkli]</div>
+<ul class="link"><li>snacks on → ks が母音 /ɑ/ に連結し [ˈsnæks ɑn] スナック・スオン</li></ul>
+<div class="kana">シー スナックス オン ブレッド タ・リストア ハンガー クイックリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player <mark>snacks</mark> between mining sessions to stay healthy.</p>
+<p class="ja">プレイヤーはマイニング セッション間にスナックを食べて、健康を保ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpleɪər ˈsnæks bɪˈtwiːn ˈmaɪnɪŋ ˈsɛʃənz tu ˈsteɪ ˈhɛlθi]</div>
+<ul class="link"><li>the player → ə が p に続く弱形 the</li><li>to stay → to は弱形 /tə/</li></ul>
+<div class="kana">ザ プレイアー スナックス ビットウィーン マイニング セッションズ タ・ステイ ヘルシー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">snacked</span><span class="fl">過去形</span><span class="fi">ˈsnækt</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>snacked</mark> on raw fish during the desert raid.</p>
+<p class="ja">砂漠の襲撃中に、生の魚をつまみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈsnækt ɑn ˈrɔ ˈfɪʃ ˈdʊrɪŋ ðə ˈdɛzərt ˈreɪd]</div>
+<ul class="link"><li>snacked on → kt が母音 /ɑ/ に連結し [ˈsnækt ɑn] スナッ・クトオン</li></ul>
+<div class="kana">アイ スナックト オン ロー フィッシュ ドゥーリング ザ デザート レイド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>snacked</mark> before the big battle with the boss mob.</p>
+<p class="ja">ボス モブとの大きな戦いの前に、スナックを食べました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈsnækt bɪˈfɔr ðə ˈbɪɡ ˈbætəl wɪð ðə ˈbɔs ˈmɑb]</div>
+<ul class="link"><li>the big → ə が b に続く弱形 the</li><li>with the → ə が b に続く弱形 the</li></ul>
+<div class="kana">ウィ スナックト ビフォア ザ ビッグ バトル ウィズ ザ ボス モッブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">snacked</span><span class="fl">過去分詞</span><span class="fi">ˈsnækt</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>snacked</mark> before the expedition, we felt prepared.</p>
+<p class="ja">遠征前にスナックを食べたので、私たちは準備ができたと感じました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˈsnækt bɪˈfɔr ðə ɛkspəˈdɪʃən wi ˈfɛlt prɪˈpɛrd]</div>
+<ul class="link"><li>the expedition → ə が e に続く弱形 the</li></ul>
+<div class="kana">ハヴィング スナックト ビフォア ザ エクスペディション ウィ フェルト プリペアド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After we had <mark>snacked</mark> underground, we discovered a stronghold.</p>
+<p class="ja">地下でスナックを食べた後、要塞を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈæftər wi həd ˈsnækt ˌʌndərˈɡraʊnd wi dɪˈskʌvərd ə ˈstrɔŋhoʊld]</div>
+<ul class="link"><li>snacked underground → kt が ʌ に連結し [ˈsnækt ʌ] スナッ・クタンダー</li></ul>
+<div class="kana">アフター ウィ ハド スナックト アンダーグラウンド ウィ ディスカヴァード ア ストロングホールド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">snacking</span><span class="fl">現在分詞・動名詞</span><span class="fi">ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Snacking</mark> on apples while building restores hunger saturation.</p>
+<p class="ja">建築しながらりんごを食べることで、満腹度が回復します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈsnækɪŋ ɑn ˈæpəlz waɪl ˈbɪldɪŋ rɪˈstɔrz ˈhʌŋɡər ˌsætʃərˈeɪʃən]</div>
+<ul class="link"><li>snacking on → ŋ が母音 /ɑ/ に連結し [ˈsnækɪŋ ɑn] スナッキング・オン</li></ul>
+<div class="kana">スナッキング オン アップルズ ホワイル ビルディング リストアーズ ハンガー サチュレーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>snacking</mark> in the cave, we mined valuable ores.</p>
+<p class="ja">洞窟でスナックを食べながら、貴重な鉱石を採掘しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ˈsnækɪŋ ɪn ðə ˈkeɪv wi ˈmaɪnd ˈvæljəbəl ˈɔrz]</div>
+<ul class="link"><li>the cave → ə が k に続く弱形 the</li><li>valuable ores → l が母音 /ɔ/ に連結し</li></ul>
+<div class="kana">ホワイル スナッキング イン ザ ケイヴ ウィ マインド ヴァルジュアブル オーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has snacked</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">həz ˈsnækt</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>snacked</mark> on apples to restore my hunger during mining.</p>
+<p class="ja">採掘中に空腹を回復させるために、りんごを食べました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv ˈsnækt ɑn ˈæpəlz tu rɪˈstɔr maɪ ˈhʌŋɡər ˈdʊrɪŋ ˈmaɪnɪŋ]</div>
+<ul class="link"><li>have snacked on → have は弱形 /həv/、snacked の t が母音 /ɑ/ に連結</li></ul>
+<div class="kana">アイ ハヴ スナックト オン アップルズ タ・リストア マイ ハンガー ドゥーリング マイニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He has <mark>snacked</mark> before entering the dark cave.</p>
+<p class="ja">暗い洞窟に入る前に、彼はスナックを食べました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi həz ˈsnækt bɪˈfɔr ˈɛntərɪŋ ðə ˈdɑrk ˈkeɪv]</div>
+<ul class="link"><li>has snacked before → has は弱形 /həz/、snacked の t が母音 /ɪ/ に連結</li></ul>
+<div class="kana">ヒー ハズ スナックト ビフォア エンタリング ザ ダーク ケイヴ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had snacked</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">həd ˈsnækt</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>snacked</mark> before discovering the stronghold entrance.</p>
+<p class="ja">要塞の入口を発見する前に、私たちはスナックを食べていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi həd ˈsnækt bɪˈfɔr dɪˈskʌvərɪŋ ðə ˈstrɔŋhoʊld ˈɛntrəns]</div>
+<ul class="link"><li>had snacked before → had は弱形 /həd/、snacked の t が母音に連結</li></ul>
+<div class="kana">ウィ ハド スナックト ビフォア ディスカヴァリング ザ ストロングホールド エンターンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>snacked</mark> underground before the cave collapsed.</p>
+<p class="ja">洞窟が崩壊する前に、彼らは地下でスナックを食べていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd ˈsnækt ˌʌndərˈɡraʊnd bɪˈfɔr ðə ˈkeɪv kəˈlæps]</div>
+<ul class="link"><li>had snacked underground → had は弱形 /həd/、snacked の t が母音に連結</li></ul>
+<div class="kana">ザイ ハド スナックト アンダーグラウンド ビフォア ザ ケイヴ カラップス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been snacking</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">həz bɪn ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>snacking</mark> on bread while building the tower.</p>
+<p class="ja">塔を建築しながら、ずっとパンを食べ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv bɪn ˈsnækɪŋ ɑn ˈbrɛd waɪl ˈbɪldɪŋ ðə ˈtaʊɚ]</div>
+<ul class="link"><li>have been snacking on → have は弱形 /həv/、been も弱形 /bɪn/、snacking の ŋ が母音 /ɑ/ に連結</li></ul>
+<div class="kana">アイ ハヴ ビン スナッキング オン ブレッド ホワイル ビルディング ザ タウアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players have been <mark>snacking</mark> since they started mining.</p>
+<p class="ja">プレイヤーたちは採掘を始めて以来、ずっとスナックを食べています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpleɪɚz həv bɪn ˈsnækɪŋ ˈsɪns ðeɪ ˈstɑrtəd ˈmaɪnɪŋ]</div>
+<ul class="link"><li>have been → have は弱形 /həv/、been も弱形 /bɪn/</li></ul>
+<div class="kana">ザ プレイアーズ ハヴ ビン スナッキング シンス ザイ スターティド マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is snacking</span><span class="fl">現在進行形</span><span class="fi">ɪz ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>snacking</mark> on golden apples to heal wounds from the Wither attack.</p>
+<p class="ja">彼女はウィザー攻撃からの傷を治すために金のリンゴをつまんでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ɪz ˈsnækɪŋ ɑn ˈɡoʊldən ˈæpəlz tə ˈhil ˈwaʊndz frəm ðə ˈwɪðər əˈtæk]</div>
+<ul class="link"><li>is → 助動詞は弱形 /ɪz/ に弱化</li><li>snacking on → 語末子音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋ ɑn] スナッキング・オン</li><li>from the → m が ð に続き、the は弱形 /ðə/</li></ul>
+<div class="kana">シー イズ スナッキング オン ゴールデン アップルズ タ ヒール ワウンズ フラム ザ ウィザー アタック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>snacking</mark> on bread while digging down for diamonds.</p>
+<p class="ja">私たちはダイヤモンドを掘り下げながら、パンをつまんでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ɑr ˈsnækɪŋ ɑn ˈbrɛd waɪl ˈdɪɡɪŋ ˈdaʊn fɔr ˈdaɪməndz]</div>
+<ul class="link"><li>are → r が母音 /ɪ/ に続く連結 [ɑr] アー</li><li>snacking on → 語末子音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋ ɑn]</li></ul>
+<div class="kana">ウィ アー スナッキング オン ブレッド ホワイル ディギング ダウン フォー ダイモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was snacking</span><span class="fl">過去進行形</span><span class="fi">wəz ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>snacking</mark> on apples when a creeper suddenly exploded.</p>
+<p class="ja">リンゴをつまんでいた時に、クリーパーが突然爆発しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz ˈsnækɪŋ ɑn ˈæpəlz wɛn ə ˈkripər səˈdɛnli ɪkˈsploʊdəd]</div>
+<ul class="link"><li>was → 助動詞は弱形 /wəz/ に弱化</li><li>snacking on → 語末子音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋ ɑn]</li><li>a creeper → a は弱形 /ə/</li></ul>
+<div class="kana">アイ ワズ スナッキング オン アップルズ ウェン ア クリーパー サディンリー イクスプローディド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was <mark>snacking</mark> on carrots while we escaped from the Nether.</p>
+<p class="ja">私たちがネザーから逃げている間、彼はニンジンをつまんでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi wəz ˈsnækɪŋ ɑn ˈkærəts waɪl wi ɪˈskeɪpt frəm ðə ˈnɛðər]</div>
+<ul class="link"><li>was → 助動詞は弱形 /wəz/ に弱化</li><li>snacking on → 語末子音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋ ɑn]</li><li>from the → m が ð に続き、the は弱形 /ðə/</li></ul>
+<div class="kana">ヒー ワズ スナッキング オン キャロッツ ホワイル ウィ イスケイプト フラム ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been snacking</span><span class="fl">過去完了進行形</span><span class="fi">həd bɪn ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>snacking</mark> for an hour before we found the hidden stronghold.</p>
+<p class="ja">隠された要塞を見つける前に、1時間スナックを食べていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi həd bɪn ˈsnækɪŋ fɔr ən ˈaʊər bɪˈfɔr wi ˈfaʊnd ðə ˈhɪdən ˈstrɔŋhoʊld]</div>
+<ul class="link"><li>had → 助動詞は弱形 /həd/ に弱化</li><li>been → 助動詞は弱形 /bɪn/ に弱化 [bɪn]</li><li>for an → r が /ə/ に連結 [fɔr ən] フォー・ラン</li></ul>
+<div class="kana">ウィ ハド ビン スナッキング フォー ラン アワー ビフォア ウィ ファウンド ザ ヒデン ストロングホールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>snacking</mark> on fish when the endermen started attacking.</p>
+<p class="ja">エンドマンが攻撃を始めた時、彼らは魚をつまんでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd bɪn ˈsnækɪŋ ɑn ˈfɪʃ wɛn ðɪ ˈɛndɚmɛn ˈstɑrtəd əˈtækɪŋ]</div>
+<ul class="link"><li>had → 助動詞は弱形 /həd/ に弱化</li><li>been → 助動詞は弱形 /bɪn/ に弱化</li><li>snacking on → 語末子音 /ŋ/ が母音 /ɑ/ に連結</li><li>the endermen → the は母音前で /ðɪ/ に強化</li></ul>
+<div class="kana">ザイ ハド ビン スナッキング オン フィッシュ ウェン ジ エンダーメン スターティド アタッキング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will snack</span><span class="fl">単純未来形</span><span class="fi">wɪl ˈsnæk</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>snack</mark> on golden apples before the Nether raid.</p>
+<p class="ja">ネザー襲撃の前に、金のリンゴをつまみます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪl ˈsnækɑn ˈɡoʊldən ˈæpəlz bɪˈfɔɹ ðə ˈnɛðɚ ˈreɪd]</div>
+<ul class="link"><li>I'll snack → I will の縮約で /aɪl/、snack に連続 [aɪl ˈsnæk] アイル スナック</li><li>snack on → 語末子音 /k/ が母音 /ɑ/ に連結 [ˈsnækɑn] スナッコン</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">アイル スナッコン ゴールデン アップルズ ビフォア ザ ネザー レイド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>snack</mark> on bread and cheese during the mining session.</p>
+<p class="ja">マイニング セッション中にパンとチーズをつまみます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wiːl ˈsnækɑn ˈbrɛd ən ˈtʃiz ˈdʊrɪŋ ðə ˈmaɪnɪŋ ˈsɛʃən]</div>
+<ul class="link"><li>We'll snack → we will の縮約で /wiːl/、snack に連続 [wiːl ˈsnæk] ウィール スナック</li><li>snack on → 語末子音 /k/ が母音 /ɑ/ に連結 [ˈsnækɑn] スナッコン</li><li>and → 弱形 /ən/ で cheese の子音に先行 [ən ˈtʃiz] エン チーズ</li></ul>
+<div class="kana">ウィール スナッコン ブレッド エン チーズ ドゥーリング ザ マイニング セッション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be snacking</span><span class="fl">未来進行形</span><span class="fi">wɪl bi ˈsnækɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be <mark>snacking</mark> on apples while mining for diamonds.</p>
+<p class="ja">ダイヤモンドを採掘しながら、リンゴをつまんでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪl biː ˈsnækɪŋɑn ˈæpəlz waɪl ˈmaɪnɪŋ fɚ ˈdaɪməndz]</div>
+<ul class="link"><li>I'll be → I will の縮約で /aɪl/、be は /biː/ [aɪl biː] アイル ビー</li><li>snacking on → 語末鼻音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋɑn] スナッキング・アン</li><li>for diamonds → r-coloring で /fɚ/ に弱化</li></ul>
+<div class="kana">アイル ビー スナッキング・アン アップルズ ホワイル マイニング フォー ダイモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll be <mark>snacking</mark> on bread while building the shelter.</p>
+<p class="ja">避難所を建築しながら、パンをつまんでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃiːl biː ˈsnækɪŋɑn ˈbrɛd waɪl ˈbɪldɪŋ ðə ˈʃɛltər]</div>
+<ul class="link"><li>She'll be → she will の縮約で /ʃiːl/、be は /biː/ [ʃiːl biː] シール ビー</li><li>snacking on → 語末鼻音 /ŋ/ が母音 /ɑ/ に連結 [ˈsnækɪŋɑn] スナッキング・アン</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">シール ビー スナッキング・アン ブレッド ホワイル ビルディング ザ シェルター</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have snacked</span><span class="fl">未来完了形</span><span class="fi">wɪl hæv ˈsnækt</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/snack_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will have <mark>snacked</mark> before the raid begins.</p>
+<p class="ja">襲撃が始まる前に、スナックを食べているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wɪl hæv ˈsnækt bɪˈfɔɹ ðə ˈreɪd bɪˈɡɪnz]</div>
+<ul class="link"><li>I will → 標準形 /aɪ wɪl/ [aɪ wɪl] アイ ウィル</li><li>before the → before の r-coloring で /bɪˈfɔɹ/、the は弱形 /ðə/ [bɪˈfɔɹ ðə] ビフォア ザ</li></ul>
+<div class="kana">アイ ウィル ハヴ スナックト ビフォア ザ レイド ビギンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll have <mark>snacked</mark> on fish before exploring the deep dark.</p>
+<p class="ja">深いダークを探検する前に、魚をつまんでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɛɹl hæv ˈsnækɾɑn ˈfɪʃ bɪˈfɔɹ ɪkˈsplɔrɪŋ ðə ˈdip ˈdɑrk]</div>
+<ul class="link"><li>They'll have → they will の縮約で /ðɛɹl/、have は /hæv/ [ðɛɹl hæv] ザイル ハヴ</li><li>snacked on → 語末子音 /t/ が母音 /ɑ/ に連結し、フラップTになる [ˈsnækɾɑn] スナッコン</li><li>before → r-coloring で /bɪˈfɔɹ/</li></ul>
+<div class="kana">ザイル ハヴ スナッコン フィッシュ ビフォア イクスプローリング ザ ディープ ダーク</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">snack on</span><span class="im">～を食べる、～をつまむ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players <mark>snack</mark> on golden apples during dangerous mob fights.</p>
+<p class="ja">危険なモブとの戦闘中に、プレイヤーは金のリンゴを食べます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz ˈsnæk ɑn ˈɡoʊldən ˈæpəlz ˈdʊrɪŋ ˈdeɪndʒɚəs ˈmɑb ˈfaɪts/</div>
+<ul class="link"><li>snack on → 語末子音 /k/ が母音 /ɑ/ に連結 [ˈsnækɑn] スナッカン</li><li>golden apples → 語末子音 /n/ が母音 /æ/ に連結 [ˈɡoʊldən ˈæpəlz]</li><li>during → 弱形化により [ˈdʊɹɪŋ]、r-coloring</li></ul>
+<div class="kana">プレイアーズ スナック アン ゴールデン アップルズ デュアリング デインジャラス モッブ ファイツ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">quick snack</span><span class="im">ちょっとした軽食、素早い一口</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I grabbed a quick <mark>snack</mark> of bread before heading to the Nether.</p>
+<p class="ja">ネザーに向かう前に、パンのちょっとした軽食を掴みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/snack_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/snack_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈɡræbd ə ˈkwɪk ˈsnæk əv ˈbrɛd bɪˈfɔɹ ˈhɛdɪŋ tə ðə ˈnɛðɚ/</div>
+<ul class="link"><li>grabbed a → 語末子音 /d/ が a の弱形 /ə/ に連結 [ˈɡræbdə] グラァブダ</li><li>of bread → of は弱形 /əv/ で bread の初子音に続く [əv ˈbrɛd]</li><li>to the → to は弱形 /tə/、the も弱形 /ðə/</li></ul>
+<div class="kana">アイ グラァブド ア クイック スナック アヴ ブレッド ビフォア ヘディング タ ザ ネザー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="snack";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

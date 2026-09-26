@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>treasure — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>treasure</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈtreʒɚ/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1200 #153</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】 宝、宝物（treasure chestで「宝箱」）</li><li>【名詞】 貴重なもの、大事なもの、財宝</li><li>【動詞】 （…を）大切にする、いつくしむ、珍重する</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>treasure</mark> is hidden beneath the sand.</p>
+<p class="ja">宝は砂の下に隠れている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtreʒɚ ɪz ˈhɪdn̩ bɪˈniːθ ðə sænd/</div>
+<ul class="link"><li>「the」は弱形 /ðə/ で、「treasure」の /t/ に連結：[ðə ˈtreʒɚ]「ザ トレジャー」</li><li>「treasure」の語末 r が「is」の初頭母音に連結：[ˈtreʒɚ ɪz]「トレジャー イズ」</li></ul>
+<div class="kana">ザ トレジャー イズ ヒドゥン ビニース ザ サンド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We found <mark>treasure</mark> in an old temple.</p>
+<p class="ja">私たちは古い神殿の中に宝を見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈfaʊnd ˈtreʒɚ ɪn ən oʊld ˈtɛmpəl/</div>
+<ul class="link"><li>「found」の語末 /d/ が未開放で、「treasure」の /t/ に続く：[ˈfaʊn̚d ˈtreʒɚ]「ファウンッ トレジャー」</li><li>「in」の語末 /n/ が「an」の弱形に連結：[ɪn ən]「イナン」</li><li>「old」の語末 /d/ が未開放で、「temple」の /t/ に続く：[oʊl̚d ˈtɛmpəl]「オウルッ テンポル」</li></ul>
+<div class="kana">ウィ ファウンッ トレジャー イン エン オウルッ テンポル</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>treasure</mark> every precious ore I mine.</p>
+<p class="ja">採掘したすべての貴重な鉱石を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈtreʒɚ ˈɛvri ˈprɛʃəs ɔɹ aɪ ˈmaɪn/</div>
+<ul class="link"><li>「treasure」の語末 r が「every」の初頭母音に連結：[ˈtreʒɚ ˈɛvri]「トレジャー エヴリ」</li><li>「ore」の語末 r が「I」の初頭母音に連結：[ɔɹ aɪ]「オー アイ」</li></ul>
+<div class="kana">アイ トレジャー エヴリ プレシャス オー アイ マイン</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">treasures</span><span class="fl">複数形</span><span class="fi">/ˈtrɛʒərz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>treasures</mark> are worth protecting from thieves.</p>
+<p class="ja">これらの宝は泥棒から守る価値がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz ˈtrɛʒərz ɑr ˈwɚθ prəˈtɛktɪŋ frəm ˈθivz/</div>
+<ul class="link"><li>from は弱形 /frəm/</li></ul>
+<div class="kana">ディーズ トレジャーズ アー ワース プロテクティング フラム ティーブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>treasures</mark> hidden deep underground require careful planning to obtain.</p>
+<p class="ja">地下深くに隠された宝は入手のために慎重な計画を必要とします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtrɛʒərz ˈhɪdən ˈdip ˌʌndərˈɡraʊnd rɪˈkwaɪr ˈkɛrfəl ˈplænɪŋ tə əbˈteɪn/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>to obtain → to は弱形 /tə/</li></ul>
+<div class="kana">ザ トレジャーズ ヒドゥン ディープ アンダーグラウンド リクワイアー ケアフル プラニング タ アブテイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">treasures</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈtrɛʒərz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>treasures</mark> every diamond he finds in the mines.</p>
+<p class="ja">彼は鉱山で見つけたすべてのダイヤモンドを大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈtrɛʒərz ˈɛvri ˈdaɪmənd hi ˈfaɪndz ɪn ðə ˈmaɪnz/</div>
+<ul class="link"><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ヒー トレジャーズ エブリ ダイモンド ヒ ファインズ イン ザ マインズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>treasures</mark> her enchanted armor collection more than anything.</p>
+<p class="ja">彼女はエンチャント済みアーマーコレクションを何よりも大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈtrɛʒərz hɚ ɪnˈtʃæntɪd ˈɑrmər kəˈlɛkʃən ˈmɔr ðən ˈɛniθɪŋ/</div>
+<ul class="link"><li>than は機能語で弱形、ə との組み合わせで [ðən]</li></ul>
+<div class="kana">シー トレジャーズ ハー インチャンティド アーマー コレクション モア ザン エニシング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">treasured</span><span class="fl">過去形</span><span class="fi">/ˈtrɛʒərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>treasured</mark> that ancient relic until a fire destroyed it.</p>
+<p class="ja">火災でそれが破壊されるまで、私たちはその古い遺物を大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈtrɛʒərd ðæt ˈeɪnʃənt ˈrɛlɪk ənˈtɪl ə ˈfaɪər dɪˈstrɔɪd ɪt/</div>
+<ul class="link"><li>a fire → a は弱形 /ə/</li></ul>
+<div class="kana">ウィ トレジャード ザット エイント レリック アンティル ア ファイアー ディストロイド イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>treasured</mark> the secret route to the <mark>treasure</mark> room for years.</p>
+<p class="ja">私は宝の部屋への秘密の道を何年も大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈtrɛʒərd ðə ˈsikrət ˈrut tu ðə ˈtrɛʒər ˈrum fər jɪrz/</div>
+<ul class="link"><li>the secret → the は弱形 /ðə/</li><li>to the → to は弱形 /tə/、the も /ðə/</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">アイ トレジャード ザ シークリット ルート タ ザ トレジャー ルーム ファー イアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">treasured</span><span class="fl">過去分詞</span><span class="fi">/ˈtrɛʒərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This <mark>treasured</mark> item has been displayed in the museum for months.</p>
+<p class="ja">この貴重な品は数ヶ月間博物館に展示されている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈtrɛʒərd ˈaɪtəm əz bɪn dɪsˈpleɪd ɪn ðə mjuˈziəm fər ˈmʌnθz/</div>
+<ul class="link"><li>has been → has の弱形 /əz/、been は /bɪn/</li><li>the は弱形 /ðə/</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">ディス トレジャード アイテム アズ ビン ディスプレイド イン ザ ミュージアム ファー マンスズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>treasured</mark> artifacts were found in the end dimension.</p>
+<p class="ja">貴重な工芸品はエンド次元で見つかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtrɛʒərd ˈɑrtɪfæks wɚ ˈfaʊnd ɪn ði ˈɛnd dɪˈmɛnʃən/</div>
+<ul class="link"><li>the は弱形 /ðə/。were は /wɚ/</li><li>in the → the は母音前なので /ði/ ディ</li></ul>
+<div class="kana">ザ トレジャード アーティファックス ワー ファウンド イン ディ エンド ディメンション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">treasuring</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They are treasuring every moment of their shared adventure.</p>
+<p class="ja">彼らは共有した冒険のすべての瞬間を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈtrɛʒərɪŋ ˈɛvri ˈmoʊmənt əv ðɛr ˈʃɛrd ˌædˈvɛntʃər/</div>
+<ul class="link"><li>of は弱形 /əv/</li></ul>
+<div class="kana">ザイ アー トレジャーリング エブリ モウメント アブ ザイアー シェアード アドベンチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are treasuring this experience of exploring together in survival mode.</p>
+<p class="ja">私たちはサバイバルモードで一緒に探索するこの経験を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈtrɛʒərɪŋ ðɪs ɪkˈspɪriəns əv ɪkˌsplɔrɪŋ təˈɡɛðɚ ɪn sərˈvaɪvəl ˈmoʊd/</div>
+<ul class="link"><li>of は弱形 /əv/</li><li>together → r-coloring で /təˈɡɛðɚ/</li></ul>
+<div class="kana">ウィ アー トレジャーリング ディス イクスピアリアンス アブ イクスプロアリング トゥゲザー イン サーバイバル モウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has treasured</span><span class="fl">現在完了形</span><span class="fi">/həz ˈtrɛʒərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player has <mark>treasured</mark> that rare enchanted book in the vault for the entire game.</p>
+<p class="ja">プレイヤーはゲーム全体を通じてボールト内のその珍しいエンチャント本を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər əz ˈtrɛʒərd ðæt ˈrɛr ɪnˈtʃæntɪd ˈbʊk ɪn ðə ˈvɔlt fər ðə ɪnˈtaɪr ˈɡeɪm/</div>
+<ul class="link"><li>has → 機能語の弱形 /əz/ アズ</li><li>treasured that → d が th へ未開放で続く</li><li>for the → for は弱形 /fər/、the も /ðə/</li></ul>
+<div class="kana">ザ プレイアー アズ トレジャード ザット レア インチャンティド ブック イン ザ ボールト ファー ザ インタイアー ゲイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>treasured</mark> the secret base location for years now.</p>
+<p class="ja">私たちは秘密のベース位置をもう何年も大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi əv ˈtrɛʒərd ðə ˈsikrət ˈbeɪs loʊˈkeɪʃən fər ˈjɪrz ˈnaʊ/</div>
+<ul class="link"><li>have → 機能語の弱形 /əv/ アブ</li><li>the secret → the は弱形 /ðə/</li><li>for years → for は弱形 /fər/</li></ul>
+<div class="kana">ウィ アブ トレジャード ザ シークレット ベース ロウケーション ファー イアーズ ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had treasured</span><span class="fl">過去完了形</span><span class="fi">/həd ˈtrɛʒərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He had <mark>treasured</mark> his collection of rare ores before the server reset.</p>
+<p class="ja">サーバーがリセットされる前に、彼はレアな鉱石のコレクションを大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi əd ˈtrɛʒərd hɪz kəˈlɛkʃən əv ˈrɛr ˈɔrz bɪˈfɔr ðə ˈsɚvər ˈrɛsɛt/</div>
+<ul class="link"><li>had → 機能語の弱形 /əd/ アド</li><li>treasured his → d が /h/ へ未開放で続く</li><li>of rare → of は弱形 /əv/</li><li>before the → the は弱形 /ðə/</li></ul>
+<div class="kana">ヒー アド トレジャード ヒズ コレクション アブ レア オーズ ビフォア ザ サーバー リセット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, they had <mark>treasured</mark> every precious block in the structure.</p>
+<p class="ja">私たちが到着する頃には、彼らは構造内のすべての貴重なブロックを大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪvd ðeɪ əd ˈtrɛʒərd ˈɛvri ˈprɛʃəs ˈblɑk ɪn ðə ˈstrʌktʃər/</div>
+<ul class="link"><li>by the → the は弱形 /ðə/</li><li>arrived they → d が /ð/ へ未開放で続く</li><li>had → 機能語の弱形 /əd/</li><li>in the → the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライヴド ザイ アド トレジャード エブリ プレシャス ブラック イン ザ ストラクチャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been treasuring</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders have been treasuring this unique design concept throughout the project.</p>
+<p class="ja">ビルダーたちはプロジェクト全体を通じてこのユニークなデザイン概念を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldərz əv bɪn ˈtrɛʒərɪŋ ðɪs juˈnik dɪˈzaɪn ˈkɑnsɛpt θruˈaʊt ðə ˈprɑdʒɛkt/</div>
+<ul class="link"><li>have → 機能語の弱形 /əv/</li><li>been → 弱形 /bɪn/</li><li>this unique → this の語末 /s/ が unique に続く</li></ul>
+<div class="kana">ザ ビルダーズ アブ ビン トレジャーリング ディス ユニーク ディザイン コンセプト スルーアウト ザ プロジェクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been treasuring every moment since I found this hidden underground vault.</p>
+<p class="ja">この隠された地下のボールトを見つけて以来、私はすべての瞬間を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv bɪn ˈtrɛʒərɪŋ ˈɛvri ˈmoʊmənt sɪns aɪ ˈfaʊnd ðɪs ˈhɪdən ˌʌndərˈɡraʊnd ˈvɔlt/</div>
+<ul class="link"><li>have → 機能語の弱形 /əv/</li><li>been → 弱形 /bɪn/</li><li>this hidden → this の語末 /s/ が hidden に続く</li></ul>
+<div class="kana">アイ アブ ビン トレジャーリング エブリ モウメント シンス アイ ファウンド ディス ヒドゥン アンダーグラウンド ボールト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is treasuring</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We are treasuring this enchanted book collection.</p>
+<p class="ja">私たちはこのエンチャント済み本のコレクションを大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɚ ˈtrɛʒərɪŋ ðɪs ɪnˈtʃæntɪd ˈbʊk kəˈlɛkʃən/</div>
+<ul class="link"><li>this enchanted → 語末子音 /s/ が次の母音 /ɪ/ に連結 [ðɪsɪnˈtʃæntɪd]</li></ul>
+<div class="kana">ウィ アー トレジャーリング ディシンチャンティド ブック コレクション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders are treasuring the rare ore deposits they discovered.</p>
+<p class="ja">ビルダーたちは彼らが発見した希少鉱石鉱床を大切にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚz ɚ ˈtrɛʒərɪŋ ðə ˈrɛr ˈɔr ˌdɪˈpɑzɪts ðeɪ dɪsˈkʌvɚd/</div>
+<ul class="link"></ul>
+<div class="kana">ザ ビルダーズ アー トレジャーリング ザ レア オア ディポジッツ ザイ ディスカバード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was treasuring</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were treasuring artifacts when the creeper attacked.</p>
+<p class="ja">クリーパーが攻撃してくるまで、私たちは工芸品を大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈtrɛʒərɪŋ ˈɑrtɪfæks wɛn ðə ˈkripɚ əˈtækt/</div>
+<ul class="link"></ul>
+<div class="kana">ウィ ワー トレジャーリング アーティファックス ウェン ザ クリーパー アタック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was treasuring the hidden diamonds he found in the cave.</p>
+<p class="ja">彼は洞窟で見つけた隠された宝石を大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wəz ˈtrɛʒərɪŋ ðə ˈhɪdən ˈdaɪməndz hi ˈfaʊnd ɪn ðə ˈkeɪv/</div>
+<ul class="link"></ul>
+<div class="kana">ヒ ワズ トレジャーリング ザ ヒドゥン ダイモンズ ヒ ファウンド イン ザ ケイブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been treasuring</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been treasuring the legendary sword for months before it broke.</p>
+<p class="ja">それが壊れる前に、彼らは数ヶ月間伝説の剣を大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd bɪn ˈtrɛʒərɪŋ ðə ˈlɛdʒəˌnɛri ˈsɔrd fɚ ˈmʌnθz bɪˈfɔr ɪt ˈbroʊk/</div>
+<ul class="link"></ul>
+<div class="kana">ザイ ハド ビン トレジャーリング ザ レジェンダリー ソード ファー マンスズ ビフォア イット ブロウク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been treasuring this enchanted armor collection until a lightning strike destroyed it.</p>
+<p class="ja">閃光攻撃がそれを破壊するまで、私はこのエンチャント済みアーマーコレクションを大切にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈtrɛʒərɪŋ ðɪs ɪnˈtʃæntɪd ˈɑrmɚ kəˈlɛkʃən ənˈtɪl ə ˈlaɪtnɪŋ ˈstraɪk dɪsˈstrɔɪd ɪt/</div>
+<ul class="link"><li>this enchanted → 語末子音 /s/ が次の母音 /ɪ/ に連結 [ðɪsɪnˈtʃæntɪd]</li></ul>
+<div class="kana">アイ ハド ビン トレジャーリング ディシンチャンティド アーマー コレクション アンティル ア ライトニング ストライク ディストロイド イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will treasure</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈtrɛʒər/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>treasure</mark> the ancient artifacts we find deep in the cave.</p>
+<p class="ja">洞窟の奥深くで見つけた古代の工芸品を大切にします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈtrɛʒər ðiː ˈeɪnʃənt ˈɑrtɪfæks wi ˈfaɪnd ˈdip ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>the ancient → /ðiː/ (before vowel)</li><li>the cave → /ðə/ (before consonant)</li><li>in は弱形 /ɪn/</li></ul>
+<div class="kana">アイ ウィル トレジャー ディー エインシャント アーティファックス ウィ ファインド ディープ イン ザ ケイブ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>treasure</mark> our victory over a thousand hostile mobs.</p>
+<p class="ja">千体の敵モブとの戦いでの勝利を大切にするでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil ˈtrɛʒər ˈaʊɚ ˈvɪktəri ˈoʊvər ə ˈθaʊzənd ˈhoʊstaɪl ˈmoʊbz/</div>
+<ul class="link"><li>We'll → 縮約形 /wil/</li><li>our → r-coloring により /ˈaʊɚ/</li><li>a → 弱形 /ə/</li></ul>
+<div class="kana">ウィル トレジャー アウアー ビクトリー オウバー ア サウザンド ホウスタイル モウブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be treasuring</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈtrɛʒərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll be treasuring every moment spent with her team during the adventure.</p>
+<p class="ja">冒険の間、彼女はチームとの時間を大切にし続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil bi ˈtrɛʒərɪŋ ˈɛvri ˈmoʊmənt spɛnt wɪð hɚ ˈtim ˈdʊrɪŋ ðiː ˌædˈvɛntʃər/</div>
+<ul class="link"><li>She'll → 縮約形 /ʃil/</li><li>every は /ˈɛvri/</li><li>the → /ðiː/ (before vowel)</li></ul>
+<div class="kana">シール ビー トレジャーリング エブリ モウメント スペント ウィズ ハー ティーム ドゥーリング ディー アドベンチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be treasuring the legendary items we collect from the dungeons.</p>
+<p class="ja">地下牢から集めた伝説的なアイテムを大切にし続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈtrɛʒərɪŋ ðə ˈlɛdʒəˌnɛri ˈaɪtəmz wi kəˈlɛkt frəm ðə ˈdʌndʒənz/</div>
+<ul class="link"><li>We'll → 縮約形 /wil/</li><li>the は弱形 /ðə/（twice：the legendary と the dungeons）</li><li>from → 弱形 /frəm/</li></ul>
+<div class="kana">ウィル ビー トレジャーリング ザ レジェンダリー アイテムズ ウィ コレクト フラム ザ ダンジョンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have treasured</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈtrɛʒərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/treasure_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next season, I will have <mark>treasured</mark> every rare item I've found.</p>
+<p class="ja">来シーズンまでに、見つけたすべてのレアアイテムを大切にしたことになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈsizən aɪ wɪl həv ˈtrɛʒərd ˈɛvri ˈrɛr ˈaɪtəm aɪv ˈfaʊnd/</div>
+<ul class="link"><li>will have → will は /wɪl/、have は弱形 /həv/</li><li>every は /ˈɛvri/</li><li>I've → 縮約形 /aɪv/</li></ul>
+<div class="kana">バイ ネクスト シーズン アイ ウィル ハブ トレジャード エブリ レア アイテム アイブ ファウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will have <mark>treasured</mark> the friendships formed through countless battles.</p>
+<p class="ja">無数の戦いを通じて築かれた友情を大切にしたことになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wɪl həv ˈtrɛʒərd ðə ˈfrɛndʃɪps ˈfɔrmd θru ˈkaʊntləs ˈbætəlz/</div>
+<ul class="link"><li>will have → will は /wɪl/、have は弱形 /həv/</li><li>the → 弱形 /ðə/</li><li>formed through → formed の語末 /d/ は未開放で続く</li></ul>
+<div class="kana">ユー ウィル ハブ トレジャード ザ フレンドシップス フォアームド スルー カウントレス バットルズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">treasure hunt</span><span class="im">宝探し、財宝を探す活動</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>treasure</mark> hunt led us to a hidden cave.</p>
+<p class="ja">その宝探しは私たちを隠れた洞窟へ導いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtreʒɚ hʌnt ˈlɛd əs tə ə ˈhɪdn keɪv/</div>
+<ul class="link"><li>「the」弱形 /ðə/ が「treasure」の /t/ に連結：[ðə ˈtreʒɚ]「ザ トレジャー」</li><li>「led」の語末 /d/ が「us」の初頭母音に連結：[ˈlɛd əs]「レド アス」</li></ul>
+<div class="kana">ザ トレジャー ハント レド アス タ ア ヒドゥン ケイヴ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">buried treasure</span><span class="im">埋蔵された宝、埋もれた財宝</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We spent hours digging for buried <mark>treasure</mark>.</p>
+<p class="ja">埋もれた宝を探すために何時間も掘り続けた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈspɛnt ˈaʊɚz ˈdɪɡɪŋ fɔɹ ˈbɛrid ˈtreʒɚ/</div>
+<ul class="link"><li>「for」の弱形 /fɚ/ の語末 r が「buried」の初頭母音に連結：[fɚ ˈbɛrid]「ファー ベリッド」</li><li>「buried」の語末 /d/ が未開放で、「treasure」の /t/ に続く：[ˈbɛri̚d ˈtreʒɚ]「ベリッド トレジャー」</li></ul>
+<div class="kana">ウィ スペント アワーズ ディギング ファー ベリッド トレジャー</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">treasure trove</span><span class="im">（宝の）宝庫、豊富な資源や貴重品の集まり</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This ocean biome is a <mark>treasure</mark> trove of rare items.</p>
+<p class="ja">この海バイオームは珍しいアイテムの宝庫だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/treasure_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/treasure_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈoʊʃən ˈbaɪoʊm ɪz ə ˈtreʒɚ tɹoʊv əv ˈɹɛr ˈaɪtəmz/</div>
+<ul class="link"><li>「is」の語末 /z/ が「a」の弱形母音に連結：[ɪz ə]「イズ ア」</li><li>「of」の弱形 /əv/ の語末 v が「rare」の初頭母音に連結：[əv ˈɹɛr]「アヴ レア」</li></ul>
+<div class="kana">ディス オーシャン バイオーム イズ ア トレジャー トロウヴ アヴ レア アイテムズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="treasure";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

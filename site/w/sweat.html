@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>sweat — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>sweat</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/swɛt/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1200 #892</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】汗をかく；身体から液体が流れ出る（become wet with salty liquid from the body during physical exertion or heat）</li><li>【動詞】心配する、不安に思う（worry about something or feel anxious）</li><li>【動詞】（~it out）困難に耐える、苦労してやり遂げる（endure something difficult, work hard through a challenging situation）</li><li>【名詞】汗；身体から出た液体（salty liquid produced by the body）</li><li>【名詞】（俗語）心配、不安；努力（worry or hard work）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>sweat</mark> a lot when I'm fighting the Wither boss.</p>
+<p class="ja">ウィザーボスと戰うときは大量の汗をかきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ swɛtə ˈlɑt wɛn aɪm ˈfaɪtɪŋ ðə ˈwɪðər bɑs/</div>
+<ul class="link"><li>sweat a — 語末子音 /t/ が次の母音 /ə/ に連結 [swɛtə]</li><li>the Wither — 冠詞 the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ スウェタ ロット ウェン アイム ファイティング ザ ウィザー バース</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Sweat</mark> dripped down my face when I saw that charged creeper.</p>
+<p class="ja">チャージされたクリーパーを見たとき、汗が顔を流れ落ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/swɛt ˈdrɪpt daʊn maɪ feɪs wɛn aɪ sɔ ðæt ˈtʃɑrdʒd ˈkriːpər/</div>
+<ul class="link"><li>Sweat dripped — /t/ + /d/ 両方停止音のため連結しない</li><li>when I saw — 語末子音 /n/ が次の母音 /aɪ/ に連結</li></ul>
+<div class="kana">スウェット ドリップト ダウン マイ フェイス ウェン アイ ソー ザット チャージド クリーパー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We'll <mark>sweat</mark> it out in this cave until we find diamonds.</p>
+<p class="ja">この洞窟でダイヤを見つけるまで頑張ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl swɛtɪt̚aʊt ɪn ðɪs keɪv ənˈtɪl wi ˈfaɪnd ˈdaɪəmənz/</div>
+<ul class="link"><li>sweat it out — 語末 /t/ が /ɪ/ に連結し、it の /t/ は未開放 [swɛtɪt̚ aʊt]</li><li>until we — /l/ + /w/ 子音同士のため連結しない</li></ul>
+<div class="kana">ウィル スウェティッタウト イン ディス ケイヴ アンティル ウィ ファインド ダイモンズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sweats</span><span class="fl">三人称単数現在形</span><span class="fi">/swɛts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>sweats</mark> a lot while mining deep underground.</p>
+<p class="ja">彼は深い地下で採掘する時にたくさんの汗をかきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi swɛts ə lɑt waɪl ˈmaɪnɪŋ dip ˈʌndərɡraʊnd/</div>
+<ul class="link"><li>sweats a — a は弱形 /ə/。語末 /s/ に連結 [swɛtsə]</li><li>deep underground — p + ʌ 自然に続く</li></ul>
+<div class="kana">ヒ スウェッツァ ロット ワイル マイニング ディープ アンダーグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>sweats</mark> when battling the Ender Dragon.</p>
+<p class="ja">彼女はエンダードラゴンと戦うときに汗をかきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi swɛts wɛn ˈbæɾəlɪŋ ðə ˈɛndər ˈdræɡən/</div>
+<ul class="link"><li>the Ender — 冠詞 the は弱形 /ðə/。Ender に連結 [ðəˈɛndər]</li></ul>
+<div class="kana">シー スウェッツ ウェン バラリング ザ エンダー ドラゴン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sweated</span><span class="fl">過去形</span><span class="fi">/ˈswɛɾɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>sweated</mark> so much after defeating the Wither.</p>
+<p class="ja">ウィザーを倒した後、大量の汗をかきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈswɛɾɪd soʊ mʌtʃ ˈæfɾər dɪˈfirɪŋ ðə ˈwɪðər/</div>
+<ul class="link"><li>so much — oʊ + m 自然に続く</li><li>the Wither — 冠詞 the は弱形 /ðə/。Wither に連結 [ðəˈwɪðər]</li></ul>
+<div class="kana">アイ スウェリド ソー マッチ アフラー ディフィーリング ザ ウィザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>sweated</mark> through the entire cave exploration.</p>
+<p class="ja">彼らは洞窟探検全体を通して汗をかきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈswɛɾɪd θru ðə ɪnˈtaɪɾər keɪv ˌɛkspɮəˈreɪʃən/</div>
+<ul class="link"><li>the entire — the /ðə/ が entire に連結 [ðəɪnˈtaɪɾər]</li></ul>
+<div class="kana">ザェイ スウェリド スルー ザ インタイラー ケイヴ エクスプラレイション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sweated</span><span class="fl">過去分詞</span><span class="fi">/ˈswɛɾɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>sweated</mark> for hours, we finally found the fortress.</p>
+<p class="ja">何時間も汗をかいた後、最終的に要塞を見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˈswɛɾɪd fər ˈaʊərz wi ˈfaɪnəli ˈfaʊnd ðə ˈfɔrtres/</div>
+<ul class="link"><li>for — 前置詞 for は弱形 /fər/</li><li>the fortress — 冠詞 the は弱形 /ðə/。fortress に連結 [ðəˈfɔrtres]</li></ul>
+<div class="kana">ハイヴィング スウェリド ファー アワーズ ウィ ファイナリ ファウンド ザ フォートレス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I felt exhausted and <mark>sweated</mark> out after that intense battle.</p>
+<p class="ja">その激しい戦闘後、疲れて汗まみれでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ fɛlt ɪɡˈzɔstɪd ənd ˈswɛɾɪd aʊt ˈæfɾər ðæt ɪnˈtɛns ˈbæɾəl/</div>
+<ul class="link"><li>and — 接続詞 and は弱形 /ənd/ または /ən/。sweated に続く</li></ul>
+<div class="kana">アイ フェルト イグゾースティド アン スウェリド アウト アフラー ザット インテンス バラル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sweating</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈswɛɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>sweating</mark> because I'm fighting multiple mobs.</p>
+<p class="ja">複数のモブと戦っているから、汗をかいています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈswɛɾɪŋ bɪˈkɔz aɪm ˈfaɪɾɪŋ ˈmʌltɪpəl mɑbz/</div>
+<ul class="link"><li>I'm sweating — m + s 子音同士だが自然に続く</li><li>because I'm — z + aɪm 自然に続く</li></ul>
+<div class="kana">アイム スウェリング ビコーズ アイム ファイリング マルティプル マブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players are <mark>sweating</mark> when exploring the Nether.</p>
+<p class="ja">プレイヤーはネザーを探索するときに汗をかいています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz ər ˈswɛɾɪŋ wɛn ɪkˈsplɔrɪŋ ðə ˈnɛðər/</div>
+<ul class="link"><li>are — 動詞 are は弱形 /ər/。sweating に続く [ərˈswɛɾɪŋ]</li><li>the Nether — 冠詞 the は弱形 /ðə/。Nether に連結 [ðəˈnɛðər]</li></ul>
+<div class="kana">プレイアーズ アー スウェリング ウェン イクスプローリング ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has sweated</span><span class="fl">現在完了形</span><span class="fi">/həz ˈswɛtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>sweated</mark> so much since I started exploring this cave.</p>
+<p class="ja">この洞窟の探検を始めてからずっと汗をかいています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈswɛtɪd soʊ mʌtʃ sɪns aɪ ˈstɑrtɪd ɪkˈsplɔrɪŋ ðɪs keɪv/</div>
+<ul class="link"><li>have sweated — 助動詞 have は弱形 /həv/。語末 /v/ + /s/ 子音同士のため連結しない</li><li>this cave — 冠詞 this は /ðɪs/、cave に続く</li></ul>
+<div class="kana">アイ ハヴ スウェッティド ソー マッチ シンス アイ スターティド イクスプローリング ディス ケイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>sweated</mark> through countless battles at the fortress.</p>
+<p class="ja">プレイヤーたちは要塞での無数の戦闘で汗をかいてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz həv ˈswɛtɪd θru ˈkaʊntləs ˈbætəlz æt ðə ˈfɔrtres/</div>
+<ul class="link"><li>have sweated — 助動詞 have は弱形 /həv/。語末 /v/ + /s/ は連結しない</li><li>the fortress — 冠詞 the は弱形 /ðə/。fortress に連結 [ðəˈfɔrtres]</li></ul>
+<div class="kana">プレイアーズ ハヴ スウェッティド スルー カウントレス バットルズ アット ザ フォートレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had sweated</span><span class="fl">過去完了形</span><span class="fi">/həd ˈswɛtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we reached the Nether fortress, we had <mark>sweated</mark> through our armor.</p>
+<p class="ja">ネザーの要塞にたどり着く時には、私たちは鎧を通して汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi riˈtʃt ðə ˈnɛðər ˈfɔrtres wi həd ˈswɛtɪd θru aʊr ˈɑrmər/</div>
+<ul class="link"><li>had sweated — 助動詞 had は弱形 /həd/。語末 /d/ + /s/ は連結しない</li><li>reached the — reached の /t/ は未開放 [riˈtʃt̚]。the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ザ タイム ウィ リーチ ザ ネザー フォートレス ウィ ハド スウェッティド スルー アワー アーマー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>sweated</mark> for hours before finally defeating the Ender Dragon.</p>
+<p class="ja">彼らはエンダードラゴンを倒す前に何時間も汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd ˈswɛtɪd fər ˈaʊərz bɪˈfɔr ˈfaɪnəli dɪˈfitɪŋ ðə ˈɛndər ˈdræɡən/</div>
+<ul class="link"><li>had sweated — 助動詞 had は弱形 /həd/。語末 /d/ + /s/ は連結しない</li><li>the Ender — 冠詞 the は弱形 /ðə/。Ender に連結 [ðəˈɛndər]</li></ul>
+<div class="kana">ゼイ ハド スウェッティド ファー アワーズ ビフォー ファイナリ ディフィーティング ザ エンダー ドラゴン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been sweating</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈswɛtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>sweating</mark> for hours while mining deep underground.</p>
+<p class="ja">深い地下で採掘をしながら、何時間も汗をかき続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈswɛtɪŋ fər ˈaʊərz waɪl ˈmaɪnɪŋ dip ˈʌndərɡraʊnd/</div>
+<ul class="link"><li>have been sweating — 助動詞 have は弱形 /həv/。been は弱形 /bɪn/、sweating の /s/ に連結しない</li><li>deep underground — 自然に続く</li></ul>
+<div class="kana">アイ ハヴ ビン スウェティング ファー アワーズ ワイル マイニング ディープ アンダーグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>sweating</mark> throughout the entire Nether expedition.</p>
+<p class="ja">彼女はネザー探検全体を通して汗をかき続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˈswɛtɪŋ θruːˈaʊt ðə ɪnˈtaɪər ˈnɛðər ˌɛkspəˈdɪʃən/</div>
+<ul class="link"><li>has been sweating — 助動詞 has は弱形 /həz/。been は弱形 /bɪn/、sweating の /s/ に連結しない</li><li>the Nether — 冠詞 the は弱形 /ðə/。Nether に連結 [ðəˈnɛðər]</li></ul>
+<div class="kana">シー ハズ ビン スウェティング スルーアウト ザ インタイア ネザー エクスペディション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is sweating</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈswɛɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>sweating</mark> because the Wither is firing projectiles at me!</p>
+<p class="ja">ウィザーが投射物を私に向かって放ってきているから、汗をかいています！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈswɛɾɪŋ bɪˈkɔz ðə ˈwɪðər ɪz ˈfaɪərɪŋ prəˈdʒɛktəlz ət mi/</div>
+<ul class="link"><li>the Wither — 冠詞 the は弱形 /ðə/。Wither に連結 [ðəˈwɪðər]</li><li>is firing — is は弱形 /ɪz/。firing に続く [ɪzˈfaɪərɪŋ]</li></ul>
+<div class="kana">アイム スウェリング ビコーズ ザ ウィザー イズ ファイアリング プロジェクタルズ アッ ミー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He's <mark>sweating</mark> like a madman in this dark cave.</p>
+<p class="ja">この暗い洞窟で、彼は狂ったように汗をかいています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiz ˈswɛɾɪŋ laɪk ə ˈmædmən ɪn ðɪs dɑrk keɪv/</div>
+<ul class="link"><li>is sweating — is は弱形 /ɪz/。sweating に続く [ɪzˈswɛɾɪŋ]</li><li>like a — 語末子音 /k/ が弱形 /ə/ に連結 [laɪkə]</li></ul>
+<div class="kana">ヒズ スウェリング ライカ マッドマン イン ディス ダーク ケイヴ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was sweating</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈswɛɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>sweating</mark> out of fear when that charged creeper appeared.</p>
+<p class="ja">あのチャージされたクリーパーが現れたとき、恐れから汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈswɛɾɪŋ aʊɾəv fɪr wɛn ðæt ˈtʃɑrdʒd ˈkriːpər əˈpɪrd/</div>
+<ul class="link"><li>was sweating — was は弱形 /wəz/。sweating に連結 [wəzˈswɛɾɪŋ]</li><li>out of — 語末子音 /t/ がフラップ [ɾ] となり、弱形 /əv/ に連結 [aʊɾəv]</li></ul>
+<div class="kana">アイ ワズ スウェリング アウラヴ フィアー ウェン ザット チャージド クリーパー アピアード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>sweating</mark> as they fought the Ender Dragon together.</p>
+<p class="ja">彼らはエンダードラゴンと一緒に戦いながら汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˈswɛɾɪŋ əz ðeɪ fɔɾðə ˈɛndər ˈdræɡən təˈɡɛðər/</div>
+<ul class="link"><li>were sweating — were は弱形 /wər/。sweating に連結 [wərˈswɛɾɪŋ]</li><li>fought the — 語末子音 /t/ がフラップ [ɾ] となり、the は弱形 /ðə/ に連結 [fɔɾðə]</li></ul>
+<div class="kana">ザ ワー スウェリング アズ ザ フォラー ザ エンダー ドラゴン タゲザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been sweating</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈswɛɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>sweating</mark> for hours by the time we found the stronghold.</p>
+<p class="ja">要塞を見つけるまでに、何時間も汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈswɛɾɪŋ fɔr ˈaʊərz baɪ ðə taɪm wi ˈfaʊnd ðə ˈstrɔŋhoʊld/</div>
+<ul class="link"><li>had been sweating — had は弱形 /həd/、been は弱形 /bɪn/。sweating に流れる [həd bɪn ˈswɛɾɪŋ]</li><li>by the — by は /baɪ/、the は弱形 /ðə/。time に連結 [ðəˈtaɪm]</li></ul>
+<div class="kana">アイ ハド ビン スウェリング ファ アワーズ バイ ザ タイム ウィ ファウンド ザ ストロングホウルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had been <mark>sweating</mark> the whole time before we finally escaped the cave.</p>
+<p class="ja">私たちが最終的に洞窟から逃げるまで、彼は最初からずっと汗をかいていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həd bɪn ˈswɛɾɪŋ ðə hoʊl taɪm bɪˈfɔr wi ˈfaɪnəli ɪˈskeɪpɾðə keɪv/</div>
+<ul class="link"><li>had been sweating — had は弱形 /həd/、been は弱形 /bɪn/。sweating に流れる [həd bɪn ˈswɛɾɪŋ]</li><li>the whole — 冠詞 the は弱形 /ðə/。whole に連結 [ðəˈhoʊl]</li><li>escaped the — 語末子音 /t/ がフラップ [ɾ] となり、the は弱形 /ðə/ に連結 [ɪˈskeɪpɾðə]</li></ul>
+<div class="kana">ヒ ハド ビン スウェリング ザ ホール タイム ビフォア ウィ ファイナリ イスケイプラー ザ ケイヴ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will sweat</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl swɛt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>sweat</mark> a lot when mining diamonds.</p>
+<p class="ja">ダイヤモンド採掘時に大量の汗をかくでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl swɛtə lɑt wɛn ˈmaɪnɪŋ ˈdaɪməndz/</div>
+<ul class="link"><li>sweat a — sweatの語末子音 /t/ が a の弱形 /ə/ に連結し [swɛtə] スウェッター</li></ul>
+<div class="kana">アイル スウェッター ロット ウェン マイニング ダイマンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll <mark>sweat</mark> if you dig all day.</p>
+<p class="ja">一日中掘り続ければ、汗をかくでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːl swɛtɪf ju dɪgɔːl deɪ/</div>
+<ul class="link"><li>sweat if — 語末 /t/ が if の /ɪ/ に連結し [swɛtɪf] スウェティフ</li><li>dig all — 語末 /g/ が all の /ɔː/ に連結し [dɪgɔːl] ディゴール</li></ul>
+<div class="kana">ユール スウェティフ ユ ディゴール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be sweating</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈswɛtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be <mark>sweating</mark> while running all morning long.</p>
+<p class="ja">朝中走り続ける間、ずっと汗をかくでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈswɛtɪŋ waɪl ˈrʌnɪŋɔl ˈmɔɹnɪŋ lɔŋ/</div>
+<ul class="link"><li>running all — runningの語末 /ŋ/ が all の /ɔ/ に続き [ˈrʌnɪŋɔl] ラニング オール</li></ul>
+<div class="kana">アイル ビ スウェティング ホワイル ラニング オール モーニング ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>sweating</mark> after chasing all those zombies.</p>
+<p class="ja">あれほどのゾンビを追いかけた後は、汗をかくでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈswɛtɪŋ ˈæftɚ ˈtʃeɪsɪŋɔl ðoʊz ˈzɑmbiz/</div>
+<ul class="link"><li>chasing all — chasingの語末 /ŋ/ が all の /ɔ/ に続き [ˈtʃeɪsɪŋɔl] チェイシング オール</li></ul>
+<div class="kana">ゼイル ビ スウェティング アフター チェイシング オール ゼーズ ゾンビーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have sweated</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl hæv ˈswɛtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sweat_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll have <mark>sweated</mark> buckets by the end of this long expedition.</p>
+<p class="ja">この長い探検の終わりには、汗をたくさんかいているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl həv ˈswɛtɪd ˈbʌkɪts baɪ ðə ˈɛndəv ðɪs lɔŋ ˌɛkspəˈdɪʃən/</div>
+<ul class="link"><li>end of — endの語末 /d/ が of の弱形 /əv/ に連結し [ˈɛndəv] エンダヴ</li></ul>
+<div class="kana">ウィル ハヴ スウェッティド バケッツ バイ ザ エンダヴ ディス ロング エクスペディション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll have <mark>sweated</mark> a gallon by the time this shift ends.</p>
+<p class="ja">このシフトが終わるまでに、彼は1ガロンの汗をかいているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɪl həv ˈswɛtɪdə ˈɡælən baɪ ðə ˈtaɪm ðɪs ʃɪft ɛndz/</div>
+<ul class="link"><li>sweated a — sweatedの語末 /d/ が a の弱形 /ə/ に連結し [ˈswɛtɪdə] スウェッティダ</li></ul>
+<div class="kana">ヒル ハヴ スウェッティダ ガロン バイ ザ タイム ディス シフト エンズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">sweat it out</span><span class="im">困難に耐える、頑張ってやり遂げる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Just <mark>sweat</mark> it out—we're almost done mining the obsidian.</p>
+<p class="ja">頑張ろう、黒曜石の採掘もあとちょっとだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/dʒʌst swɛtɪt̚aʊt wɪr ˈɔlmoʊst dʌn ˈmaɪnɪŋ ðə əbˈsɪdiən/</div>
+<ul class="link"><li>sweat it out — it の /t/ は未開放 [swɛtɪt̚ aʊt]</li><li>the obsidian — 冠詞 the は弱形 /ðə/ ザ、obsidian に連結</li></ul>
+<div class="kana">ジャスト スウェティッタウト ウィアー オールモウスト ダン マイニング ザ アブシディアン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">no sweat</span><span class="im">大したことじゃない、簡単だ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Breaking stone with a pickaxe? No <mark>sweat</mark>!</p>
+<p class="ja">つるはしで石を壊す？造作もない！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sweat_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sweat_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbreɪkɪŋ stoʊn wɪð ə ˈpɪkæks ˈnoʊ swɛt/</div>
+<ul class="link"><li>stone with — /n/ + /w/ 子音同士のため連結しない</li><li>a pickaxe — 冠詞 a の弱形 /ə/ が語頭子音 /p/ に先行</li></ul>
+<div class="kana">ブレイキング ストーン ウィズ ア ピックアックス ノー スウェット</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="sweat";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

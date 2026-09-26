@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>clue — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>clue</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/kluː/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1200 #491</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】謎や問題を解く際の証拠・情報（follow the clue to the treasure）</li><li>【名詞】～の手がかり（that's a clue to finding diamonds）</li><li>【動詞】（～in）(人に)情報を与える・知らせる（clue someone in on something）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Take a <mark>clue</mark> from the signs.</p>
+<p class="ja">標識から手がかりを得ましょう</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈteɪk ə ˈkluː ˈfrəm ðə ˈsaɪnz]</div>
+<ul class="link"><li>Take a - 語末子音 /k/ が母音 /ə/ に連結 [ˈteɪkə] テイカ</li><li>the - 冠詞 &quot;the&quot; は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">テイカ クルー フラム ザ サインズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Find a <mark>clue</mark> inside the cave.</p>
+<p class="ja">ケイヴの中から手がかりを探しましょう</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈfaɪnɾə ˈkluː ɪnˈsaɪd ðə ˈkeɪv]</div>
+<ul class="link"><li>Find a - 語末子音 /d/ が母音 /ə/ に挟まれてフラップ化 [ˈfaɪnɾə] ファインラ</li><li>the - 冠詞 &quot;the&quot; は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">ファインラ クルー インサイド ザ ケイヴ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Without a <mark>clue</mark>, I can't mine these diamonds.</p>
+<p class="ja">手がかりなしでは、これらのダイヤを採掘できません</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɪðˈaʊɾə ˈkluː aɪ ˈkænt ˈmaɪn ðiːz ˈdaɪməndz]</div>
+<ul class="link"><li>without a - 語末の /t/ が母音 /ə/ に挟まれてフラップ化 [wɪðˈaʊɾə] ウィザウラ</li><li>can't - /kænt/</li></ul>
+<div class="kana">ウィザウラ クルー アイ キャント マイン ディーズ ダイマンズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clues</span><span class="fl">複数形（名詞）</span><span class="fi">/kluːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We found three <mark>clues</mark> hidden around the ancient temple.</p>
+<p class="ja">古い寺院の周りに隠された3つのヒントを見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi faʊnd θri kluːz ˈhɪdən əˈraʊnd ði ˈeɪʃənt ˈtɛmpəl/</div>
+<ul class="link"><li>three → /θri/</li><li>around the → the は弱形 /ðə/</li></ul>
+<div class="kana">ウィ ファウンド スリー クルーズ ヒデン アラウンド ディ エイシェント テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>clues</mark> pointed us toward the hidden chest in the ravine.</p>
+<p class="ja">ヒントは私たちを渓谷の隠されたチェストに向かわせました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə kluːz ˈpɔɪntɪd əs təˈwɔːrd ðə ˈhɪdən tʃɛst ɪn ðə ˈræviːn/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>pointed us → us は弱形 /əs/</li><li>toward → /təˈwɔːrd/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ダ クルーズ ポインティド アズ タワード ダ ヒデン チェスト イン ダ ラヴィーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clues</span><span class="fl">三人称単数現在形（動詞）</span><span class="fi">/kluːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This ancient book <mark>clues</mark> us in on the location of the secret room.</p>
+<p class="ja">この古い本は、シークレットルームの場所についてのヒントを私たちに与えてくれます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈeɪʃənt bʊk kluːz əs ɪn ɑn ðə loʊˈkeɪʃən əv ðə ˈsikrət rum/</div>
+<ul class="link"><li>this → 弱形 /ðɪs/</li><li>clues us → us は弱形 /əs/</li><li>on the → the は弱形 /ðə/</li><li>of the → of は弱形 /əv/、the は弱形 /ðə/</li></ul>
+<div class="kana">ディス エイシェント ブック クルーズ アズ イン オン ダ ロウケイション アヴ ダ シークリット ルーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The map <mark>clues</mark> her about the entrance to the Nether fortress.</p>
+<p class="ja">地図は彼女にネザー要塞への入口についてのヒントを与えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə mæp kluːz hɚ əˈbaʊt ðɪ ˈɛntrəns tu ðə ˈnɛðər ˈfɔːrtres/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>her → 弱形 /hɚ/</li><li>about the → about /əˈbaʊt/、the は弱形 /ðɪ/</li><li>to the → to は弱形 /tə/、the は弱形 /ðə/</li></ul>
+<div class="kana">ダ マップ クルーズ ハー ァバウト ディ エントランス トゥ ダ ネザー フォートレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clued</span><span class="fl">過去形（動詞）</span><span class="fi">/kluːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient ruins clued us in on the truth about the lost civilization.</p>
+<p class="ja">古い遺跡は、失われた文明についての真実を私たちに知らせてくれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ði ˈeɪʃənt ˈruːɪnz kluːd əs ɪn ɑn ðə truːθ əˈbaʊt ðə lɔst ˌsɪvɪləˈzeɪʃən/</div>
+<ul class="link"><li>the → 弱形 /ðɪ/ or /ðə/（複数箇所）</li><li>us → 弱形 /əs/</li><li>about → /əˈbaʊt/</li></ul>
+<div class="kana">ディ エイシェント ルーインズ クルード アズ イン オン ダ トルース ァバウト ダ ロスト シビライゼーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>That villager clued me in on a hidden farm nearby.</p>
+<p class="ja">あの村人は近くにある隠されたファームについて私に知らせてくれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈvɪlɪdʒər kluːd mi ɪn ɑn ə ˈhɪdən fɑːrm ˈnɪrˌbaɪ/</div>
+<ul class="link"><li>that → /ðæt/</li><li>me → 弱形 /mi/</li><li>on a → on /ɑn/、a は弱形 /ə/</li></ul>
+<div class="kana">ザット ビレッジャー クルード ミー イン オン ア ヒデン ファーム ニアバイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clued</span><span class="fl">過去分詞（動詞）</span><span class="fi">/kluːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been clued in on the secret entrance before we arrived.</p>
+<p class="ja">到着する前に、私たちはシークレット入口について知らされていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn kluːd ɪn ɑn ðə ˈsikrət ˈɛntrəns bɪˈfɔr wi əˈraɪvd/</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>been → 弱形 /bɪn/</li><li>on the → the は弱形 /ðə/</li><li>before → /bɪˈfɔr/</li></ul>
+<div class="kana">ウィ ハド ビン クルード イン オン ダ シークリット エントランス ビフォー ウィ アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having been clued in by the map, we knew exactly where to go.</p>
+<p class="ja">地図によってヒントが与えられたので、私たちは正確にどこへ行くべきかを知っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ bɪn kluːd ɪn baɪ ðə mæp, wi ˈnjuː ɪɡˈzæktli wɛr tu ɡoʊ/</div>
+<ul class="link"><li>by the → by /baɪ/、the は弱形 /ðə/</li><li>to → 弱形 /tə/</li></ul>
+<div class="kana">ハヴィング ビン クルード イン バイ ダ マップ、ウィ ニュー イグザクトリー ウェア トゥ ゴウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">cluing</span><span class="fl">現在分詞・動名詞（動詞）</span><span class="fi">/ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Cluing me in on the treasure location would make the hunt much easier.</p>
+<p class="ja">宝物の位置についてヒントをくれることは、探索をずっと簡単にするでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkluːɪŋ mi ɪn ɑn ðə ˈtrɛʒər loʊˈkeɪʃən wəd meɪk ðə ˈhʌnt mʌtʃ ˈiːziər/</div>
+<ul class="link"><li>on the → on /ɑn/、the は弱形 /ðə/</li><li>would → 弱形 /wəd/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">クルーイング ミー イン オン ダ トレジャー ロウケーション ワッド メイク ダ ハント マッチ イージャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are cluing us in on all the secret locations throughout the world.</p>
+<p class="ja">彼らは世界中のすべてのシークレットな場所について私たちにヒントを与えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈkluːɪŋ əs ɪn ɑn ɔl ðə ˈsikrət loʊˈkeɪʃənz θruːˈaʊt ðə wɝld/</div>
+<ul class="link"><li>are → 弱形 /ɑr/</li><li>us → 弱形 /əs/</li><li>the → 弱形 /ðə/（複数箇所）</li><li>throughout → /θruːˈaʊt/</li></ul>
+<div class="kana">ザイ アー クルーイング アズ イン オン オール ダ シークリット ロウケーションズ スルーアウト ダ ワールド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has clued</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz kluːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has clued us in on the location of the End portal.</p>
+<p class="ja">彼女は、エンドポータルの位置について私たちにヒントを与えてくれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz kluːd əs ɪn ɑn ðə loʊˈkeɪʃən əv ðə ɛnd ˈpɔːrtəl/</div>
+<ul class="link"><li>has → 弱形 /həz/</li><li>us → 弱形 /əs/</li><li>on the → on /ɑn/、the は弱形 /ðə/</li><li>of the → of は弱形 /əv/、the は弱形 /ðə/</li></ul>
+<div class="kana">シー ハズ クルード アズ イン オン ダ ロウケーション アヴ ダ エンド ポータル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient map has clued many players into discovering this hidden valley.</p>
+<p class="ja">古い地図は、多くのプレイヤーがこの隠された谷を発見することにヒントを与えてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈeɪʃənt mæp həz kluːd ˈmɛni ˈpleɪərz ˈɪntu dɪsˈkʌvərɪŋ ðɪs ˈhɪdən ˈvæli/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>has → 弱形 /həz/</li><li>into → /ˈɪntu/、to は弱形 /tə/</li></ul>
+<div class="kana">ダ エイシェント マップ ハズ クルード メニー プレヤーズ イントゥ ディスカバリング ディス ヒデン バレー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had clued</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd kluːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before we arrived, the villager had clued us in on the secret route.</p>
+<p class="ja">到着する前に、その村人は秘密のルートについて私たちにヒントを与えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr wi əˈraɪvd, ðə ˈvɪlɪdʒər həd kluːd əs ɪn ɑn ðə ˈsikrət ruːt/</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>the → 弱形 /ðə/</li><li>us → 弱形 /əs/</li><li>on the → on /ɑn/、the は弱形 /ðə/</li></ul>
+<div class="kana">ビフォー ウィ アライヴド、ダ ビレッジャー ハド クルード アズ イン オン ダ シークリット ルート</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The treasure map had clued them into the cave system long before.</p>
+<p class="ja">宝の地図は、ずっと前から彼らをそのケイブシステムにヒントを与えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtrɛʒər mæp həd kluːd ðəm ˈɪntu ðə keɪv ˈsɪstəm lɔŋ bɪˈfɔr/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>had → 弱形 /həd/</li><li>into the → /ˈɪntu/、the は弱形 /ðə/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ダ トレジャー マップ ハド クルード ザム イントゥ ダ ケイブ システム ロング ビフォー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been cluing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That guide has been cluing players in on speedrunning techniques for years.</p>
+<p class="ja">そのガイドは、何年もの間、プレイヤーにスピードラン技法についてのヒントを与え続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ɡaɪd həz bɪn ˈkluːɪŋ ˈpleɪərz ɪn ɑn ˈspiːdˌrʌnɪŋ tɛkˈniks fɔr jɪrz/</div>
+<ul class="link"><li>has → 弱形 /həz/</li><li>been → 弱形 /bɪn/</li><li>on → /ɑn/</li><li>for → 弱形 /fɔr/</li></ul>
+<div class="kana">ザット ガイド ハズ ビン クルーイング プレヤーズ イン オン スピードラニング テクニークス フォー イーアーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mysterious signs have been cluing us into the direction of safety.</p>
+<p class="ja">謎の標識は、安全な方向について私たちにヒントを与え続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə mɪsˈtɪriəs saɪnz həv bɪn ˈkluːɪŋ əs ˈɪntu ðə dəˈrɛkʃən əv ˈseɪfti/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>have → 弱形 /həv/</li><li>been → 弱形 /bɪn/</li><li>us → 弱形 /əs/</li><li>into the → /ˈɪntu/、the は弱形 /ðə/</li><li>of → 弱形 /əv/</li></ul>
+<div class="kana">ダ ミステリアス サインズ ハヴ ビン クルーイング アズ イントゥ ダ ダイレクション アヴ セイフティ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is cluing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>My friend is cluing me in on where the hidden Stronghold is located.</p>
+<p class="ja">友人が隠されたストロングホールドの場所についてヒントをくれています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ frɛnd ɪz ˈkluːɪŋ mi ɪn ɑn wɛr ðə ˈhɪdən ˈstrɔŋˌhoʊld ɪz ˈloʊkeɪɾɪd/</div>
+<ul class="link"><li>is → 弱形 /ɪz/、cluing me → me は弱形 /mi/</li><li>on where the → the は弱形 /ðə/</li><li>is → 弱形 /ɪz/</li></ul>
+<div class="kana">マイ フレンド イズ クルーイング ミー イン オン ウェア ダ ヒデン ストロングホウルド イズ ロウケイラド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The villager is cluing us in on all the rare ore locations in this biome.</p>
+<p class="ja">村人がこのバイオームのすべてのレアオアの場所についてヒントをくれています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒər ɪz ˈkluːɪŋ əs ɪn ɑn ɔl ðə rɛr ɔr loʊˈkeɪʃənz ɪn ðɪs baɪˈoʊm/</div>
+<ul class="link"><li>the → 弱形 /ðə/、is → 弱形 /ɪz/、us → 弱形 /əs/</li><li>on the → the は弱形 /ðə/</li><li>in this → this は弱形 /ðɪs/</li></ul>
+<div class="kana">ダ ビレッジャー イズ クルーイング アズ イン オン オール ダ レアー オア ロウケーションズ イン ディス バイオウム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was cluing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was exploring, she was cluing him in on the secret exit.</p>
+<p class="ja">私が探索している間、彼女は彼にシークレット出口についてヒントをくれていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ɪkˈsplɔrɪŋ, ʃi wəz ˈkluːɪŋ hɪm ɪn ɑn ðə ˈsɛkrət ˈɛɡzɪt/</div>
+<ul class="link"><li>while → /waɪl/、was → 弱形 /wəz/</li><li>she → 弱形 /ʃi/、was → 弱形 /wəz/、him → 弱形 /hɪm/</li><li>on the → the は弱形 /ðə/</li></ul>
+<div class="kana">ワイル アイ ワズ イクスプローリング、シー ワズ クルーイング ヒム イン オン ダ セークレット エグジット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were cluing everyone in on the treasure map's meaning all afternoon.</p>
+<p class="ja">彼らは午後中、全員に宝の地図の意味についてヒントをくれていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˈkluːɪŋ ˈɛvriˌwən ɪn ɑn ðə ˈtrɛʒər mæps ˈminɪŋ ɔl ˌæftərˈnun/</div>
+<ul class="link"><li>were → 弱形 /wər/、everyone → /ˈɛvriˌwən/</li><li>on the → the は弱形 /ðə/</li></ul>
+<div class="kana">ザイ ワー クルーイング エブリワン イン オン ダ トレジャー マップス ミーニング オール アフターヌーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been cluing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we found the hidden base, we had been cluing each other in on <mark>clues</mark> for hours.</p>
+<p class="ja">隠されたベースを見つけるまでに、私たちは何時間も互いにヒントについてヒントをくれていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi faʊnd ðə ˈhɪdən ˈbeɪs, wi həd bɪn ˈkluːɪŋ ˈiːtʃ ˈʌðər ɪn ɑn ˈkluːz fɔr ˈaʊərz/</div>
+<ul class="link"><li>by the → the は弱形 /ðə/</li><li>had → 弱形 /həd/、been → 弱形 /bɪn/</li><li>on clues → /ɑn kluːz/、for → 弱形 /fər/</li></ul>
+<div class="kana">バイ ダ タイム ウィ ファウンド ダ ヒデン ベース、ウィ ハド ビン クルーイング イーチ アザー イン オン クルーズ ファー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been cluing them in on the Stronghold location before they encountered the first portal frame.</p>
+<p class="ja">彼らが最初のポータルフレームに遭遇する前に、彼女はストロングホールドの位置についてヒントをくれていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd bɪn ˈkluːɪŋ ðɛm ɪn ɑn ðə ˈstrɔŋˌhoʊld loʊˈkeɪʃən bɪˈfɔr ðeɪ ɪnˈkaʊnɾərd ðə ˈfɝst ˈpɔːrɾəl freɪm/</div>
+<ul class="link"><li>had → 弱形 /həd/、been → 弱形 /bɪn/</li><li>on the → the は弱形 /ðə/</li><li>before → /bɪˈfɔr/、the → 弱形 /ðə/</li></ul>
+<div class="kana">シー ハド ビン クルーイング ゼム イン オン ダ ストロングホウルド ロウケーション ビフォー ザイ インカウンラード ダ ファースト ポーラル フレイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will clue</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈkluː/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>clue</mark> you in on the location of the hidden temple.</p>
+<p class="ja">隠された神殿の場所についてのヒントをあなたに与えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈkluː ju ɪn ɑn ðə loʊˈkeɪʃən əv ðə ˈhɪdən ˈtɛmpəl/</div>
+<ul class="link"><li>will → 不変化 /wɪl/</li><li>you in → in は /ɪn/</li><li>on the → the は弱形 /ðə/</li><li>of the → of は弱形 /əv/、the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ウィル クルー ユー イン オン ダ ロウケイション アヴ ダ ヒデン テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient tablet will <mark>clue</mark> us about the secret passage.</p>
+<p class="ja">古い石板が、秘密の通路についてのヒントを私たちに与えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪ ˈeɪʃənt ˈtæblət wɪl ˈkluː əs əˈbaʊt ðə ˈsikrət ˈpæsɪdʒ/</div>
+<ul class="link"><li>the → 弱形 /ðɪ/ (母音の前)、/ðə/ (子音の前)</li><li>will → 不変化 /wɪl/</li><li>us → 弱形 /əs/</li><li>the → 弱形 /ðə/</li></ul>
+<div class="kana">ディ エイシェント タブレット ウィル クルー アズ ァバウト ダ シークレット パッサージ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be cluing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈkluːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be cluing them in on every treasure location in this cavern.</p>
+<p class="ja">この洞窟のあらゆる宝物の場所について、彼らにヒントを与え続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl bi ˈkluːɪŋ ðɛm ɪn ɑn ˈɛvri ˈtrɛʒər loʊˈkeɪʃən ɪn ðɪs kəˈvɝn/</div>
+<ul class="link"><li>will be → will /wɪl/、be は弱形 /bə/</li><li>them in → them /ðɛm/、in は /ɪn/</li><li>on every → on /ɑn/</li><li>in this → this は /ðɪs/</li></ul>
+<div class="kana">ウィ ウィル ビー クルーイング デム イン オン エブリー トレジャー ロウケーション イン ディス カバーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, he'll be cluing the builders on where to place the foundation.</p>
+<p class="ja">明日までに、彼は建築者たちに基礎をどこに配置するかについてのヒントを与えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ, hil bi ˈkluːɪŋ ðə ˈbɪldərz ɑn wɛr tu pleɪs ðə faʊnˈdeɪʃən/</div>
+<ul class="link"><li>by tomorrow → by /baɪ/、tomorrow は /təˈmɑroʊ/</li><li>he'll → 縮約形 /hil/</li><li>be cluing → be は弱形 /bə/ or /bi/</li><li>the builders → the は弱形 /ðə/</li></ul>
+<div class="kana">バイ トゥモロー、ヒール ビー クルーイング ダ ビルダーズ オン ウェア トゥ プレイス ダ ファウンデーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have clued</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈkluːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clue_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the end of today, I will have clued you in on every secret location in this world.</p>
+<p class="ja">今日の終わりまでに、この世界のあらゆるシークレット場所についてのヒントをあなたに与えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈɛnd əv təˈdeɪ, aɪ wɪl həv ˈkluːd ju ɪn ɑn ˈɛvri ˈsikrət loʊˈkeɪʃən ɪn ðɪs wɝld/</div>
+<ul class="link"><li>by the end of today → the は弱形 /ðə/、of は弱形 /əv/</li><li>will have → will /wɪl/、have は弱形 /həv/</li><li>you in → you /ju/</li><li>in this → this は /ðɪs/</li></ul>
+<div class="kana">バイ ダ エンド アヴ タデイ、アイ ウィル ハヴ クルード ユー イン オン エブリー シークレット ロウケーション イン ディス ワールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have clued us about the redstone mechanism before the storm arrives.</p>
+<p class="ja">嵐が到着する前に、彼らはレッドストーンメカニズムについてのヒントを私たちに与えているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl həv ˈkluːd əs əˈbaʊt ðə ˈrɛdˌstoʊn ˈmɛkənɪzəm bɪˈfɔr ðə ˈstɔrm əˈraɪvz/</div>
+<ul class="link"><li>will have → will /wɪl/、have は弱形 /həv/</li><li>us about → us は弱形 /əs/</li><li>the redstone → the は弱形 /ðə/</li><li>before the → before /bɪˈfɔr/、the は弱形 /ðə/</li></ul>
+<div class="kana">ザイ ウィル ハヴ クルード アズ ァバウト ダ レッドストウン メカニズム ビフォア ダ ストーム アライヴス</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">not have a clue</span><span class="im">全く分からない</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I don't have a <mark>clue</mark> how to make a potion.</p>
+<p class="ja">ポーションの作り方が全く分かりません</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈaɪ ˈdoʊnt ˈhæv ə ˈkluː ˈhaʊ tə ˈmeɪk ə ˈpoʊʃən]</div>
+<ul class="link"><li>have a - 語末子音 /v/ が母音 /ə/ に連結 [ˈhæv ə] ハヴア</li><li>make a - 語末子音 /k/ が母音 /ə/ に連結 [ˈmeɪkə] メイカ</li></ul>
+<div class="kana">アイ ドント ハヴア クルー ハウ タ メイカ ア ポーション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">get a clue</span><span class="im">ヒントを得る、気づく、理解する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I finally got a <mark>clue</mark> that this farm wasn't working right.</p>
+<p class="ja">やっとこの農場が正しく機能していないことに気づきました</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clue_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clue_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈaɪ ˈfaɪnəli ˈɡɑɾə ˈkluː ðæt ðɪs ˈfɑrm ˈwʌzənt ˈwɝkɪŋ ˈraɪt]</div>
+<ul class="link"><li>got a - 語末の /t/ が母音に挟まれてフラップ化 [ˈɡɑɾə] ガラ</li></ul>
+<div class="kana">アイ ファイナリー ガラ クルー ザット ディス ファーム ワズント ワーキング ライト</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="clue";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

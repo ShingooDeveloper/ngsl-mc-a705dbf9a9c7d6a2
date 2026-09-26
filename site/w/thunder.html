@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>thunder — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>thunder</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈθʌndɚ/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1200 #816</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】雷が落ちた後に聞こえる大きな音（ゴロゴロという響き）</li><li>【名詞】その轟音そのもの、あるいは天気現象としての雷鳴</li><li>【動詞】（空が）ゴロゴロと音を立てる、轟く</li><li>【動詞】大きな音や声で言う、轟かせて言う（figurative）</li><li>【動詞】（馬などが）ドドドと走る、大きな音を立てて動く（figurative）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>thunder</mark> made a loud noise above the forest.</p>
+<p class="ja">その雷音は森の上で大きな音を立てた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθʌndɚ ˈmeɪd ə ˈlaʊd ˈnɔɪz əˈbʌv ðə ˈfɔrəst/</div>
+<ul class="link"><li>made a：語末の子音 /d/ が次の弱形 /ə/ に連結 [ˈmeɪdə]「メイダ」</li><li>loud noise：/d/ と /n/ は両方子音で連結しない</li><li>above the：語末の /v/ と /ðə/ の /ð/ は子音+子音のため連結しない</li></ul>
+<div class="kana">ザ サンダー メイダ ラウド ノイズ アバヴザ フォレスト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I heard <mark>thunder</mark> and saw lightning near the mountain.</p>
+<p class="ja">私は雷鳴を聞いた、そして山の近くで稲妻を見た。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈhɝd ˈθʌndɚ ənd ˈsɔ ˈlaɪtnɪŋ nɪr ðə ˈmaʊntən/</div>
+<ul class="link"><li>heard thunder：/d/ と /θ/ は子音+子音で連結しない</li><li>and saw：and は弱形 /ən/ に弱化し、saw の /s/ の前で [ən ˈsɔ]「アン ソー」</li><li>lightning near：/ŋ/ と /n/ は異なる鼻音位置で連結しない</li></ul>
+<div class="kana">アイ ハード サンダー アン ソー ライトニング ニア ザ マウンテン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>It will <mark>thunder</mark> heavily if the storm comes tonight.</p>
+<p class="ja">もし暴風雨が今夜来れば、激しく雷がなるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt wɪl ˈθʌndɚ ˈhɛvəli ɪf ðə ˈstɔrm kʌmz təˈnaɪt/</div>
+<ul class="link"><li>It will：/t/ が未開放で次の /w/ に準備するが、明確な連結ではない。will は弱形 /wɪl/</li><li>the storm：弱形 /ðə/ が /s/ に先行。consonant cluster /st/ が続く</li><li>tonight：to は弱形 /tə/ に弱化。night に連なる [tə ˈnaɪt]「タナイト」</li></ul>
+<div class="kana">イット ウィル サンダー ヘビリー イフ ザ ストーム カムズ タナイト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">thunders</span><span class="fl">複数形</span><span class="fi">/ˈθʌndɚz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>thunders</mark> during the raid were deafening inside our base.</p>
+<p class="ja">襲撃中の雷鳴が私たちのベース内で聞き取れないほど大きかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθʌndɚz ˈdʊrɪŋ ðə ˈreɪd wɚ ˈdiːfənɪŋ ɪnˈsaɪd aʊɚ ˈbeɪs/</div>
+<ul class="link"><li>the thunders：弱形 /ðə/ が子音 /θ/ に先行</li><li>during the：語末 /ŋ/ と弱形 /ðə/ は異なる鼻音位置で連結なし</li><li>inside our：語末の /d/ が母音 /aʊ/ に連結 [ɪnˈsaɪdaʊɚ]「インサイダー」</li></ul>
+<div class="kana">ザ サンダーズ デュアリング ザ レイド ワー ディーフニング インサイダー ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Each of the <mark>thunders</mark> shook the player's wooden house.</p>
+<p class="ja">各々の雷音がプレイヤーの木造の家を揺らした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/itʃ əv ðə ˈθʌndɚz ʃʊk ðə ˈpleɪɚz ˈwʊdən haʊs/</div>
+<ul class="link"><li>Each of：語末 /tʃ/ が弱形 /ə/ に連結 [itʃəv]「イチャヴ」</li><li>shook the：語末 /k/ が弱形 /ðə/ に連結 [ʃʊkðə]「シュクザ」</li><li>player's wooden：語末 /z/ と /w/ の間は連結なし</li></ul>
+<div class="kana">イチャヴ ザ サンダーズ シュクザ プレイアーズ ウッデン ハウス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">thunders</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈθʌndɚz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>When it <mark>thunders</mark>, the player hides inside a cave immediately.</p>
+<p class="ja">雷が鳴るとき、プレイヤーはすぐに洞窟の中に隠れる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ɪt ˈθʌndɚz ðə ˈpleɪɚ haɪdz ɪnˈsaɪd ə ˈkeɪv ɪˈmidiətli/</div>
+<ul class="link"><li>it thunders：/t/ が未開放で次の /θ/ に準備</li><li>thunders, the：語末 /z/ が弱形 /ðə/ に連結 [ˈθʌndɚzðə]「サンダーズザ」</li><li>inside a：語末 /d/ が弱形 /ə/ に連結 [ɪnˈsaɪdə]「インサイダ」</li></ul>
+<div class="kana">ウェン イット サンダーズザ プレイアー ハイドズ インサイダ ケイヴ イミディアットリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sky <mark>thunders</mark> above our mining operation every storm.</p>
+<p class="ja">空は毎回の嵐の間、私たちの採掘作業の上で雷鳴を轟かせる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskaɪ ˈθʌndɚz əˈbʌv aʊɚ ˈmaɪnɪŋ ˌɑpəˈreɪʃən ˈɛvri ˈstɔrm/</div>
+<ul class="link"><li>sky thunders：語末 /aɪ/ と子音 /θ/ の間は連結なし</li><li>thunders above：語末 /z/ が母音 /ə/ に連結 [ˈθʌndɚzəˈbʌv]「サンダーズアバヴ」</li><li>mining operation：語末 /ŋ/ と /ɑ/ の間は連結なし</li></ul>
+<div class="kana">ザ スカイ サンダーズアバヴ アワー マイニング アペレイション エブリー ストーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">thundered</span><span class="fl">過去形</span><span class="fi">/ˈθʌndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It <mark>thundered</mark> for hours while we built the redstone contraption.</p>
+<p class="ja">レッドストーン装置を作っている間、何時間も雷が鳴っていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt ˈθʌndɚd fɚr ˈaʊɚz waɪl wi bɪlt ðə ˈrɛdˌstoʊn kənˈtræpʃən/</div>
+<ul class="link"><li>it thundered：/t/ が未開放で /θ/ に準備</li><li>thundered for：語末 /d/ が弱形 /fə/ に連結 [ˈθʌndɚdə]「サンダードファ」</li><li>built the：/t/ が未開放で弱形 /ðə/ に準備</li></ul>
+<div class="kana">イット サンダードファー アワーズ ワイル ウィー ビルッ ザ レッドストーン コントラプション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The storm <mark>thundered</mark> above the jungle base all night long.</p>
+<p class="ja">その嵐は一晩中、ジャングルベースの上で轟き続けた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈstɔrm ˈθʌndɚd əˈbʌv ðə ˈdʒʌŋɡəl ˈbeɪs ɔl ˈnaɪt ˈlɔŋ/</div>
+<ul class="link"><li>storm thundered：語末 /m/ が子音 /θ/ に先行、連結なし</li><li>thundered above：語末 /d/ が母音 /ə/ に連結 [ˈθʌndɚdəˈbʌv]「サンダーダバヴ」</li><li>night long：語末 /t/ が /l/ に先行、未開放</li></ul>
+<div class="kana">ザ ストーム サンダーダバヴ ザ ジャングル ベイス オール ナイッ ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">thundered</span><span class="fl">過去分詞</span><span class="fi">/ˈθʌndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were startled by the <mark>thundered</mark> sound of the severe storm.</p>
+<p class="ja">激しい嵐の轟音に私たちは驚かされた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈstɑrtəld baɪ ðə ˈθʌndɚd saʊnd əv ðə səˈvɪr ˈstɔrm/</div>
+<ul class="link"><li>were startled：弱形 /wɚ/ が /s/ に先行</li><li>startled by：語末 /d/ が /b/ に先行、連結は限定的</li><li>sound of：語末 /d/ が弱形 /əv/ に連結 [saʊndəv]「サウンダヴ」</li></ul>
+<div class="kana">ウィ ワー スターテルド バイ ザ サンダード サウンダヴ ザ サヴィア ストーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>thundered</mark> noises had frightened all the village animals away.</p>
+<p class="ja">その轟く音は、村のすべての動物を怖がらせて逃げさせてしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθʌndɚd ˈnɔɪzəz hæd ˈfraɪtənd ɔl ðə ˈvɪlɪdʒ ˈænəməlz əˈweɪ/</div>
+<ul class="link"><li>the thundered：弱形 /ðə/ が子音 /θ/ に先行</li><li>thundered noises：語末 /d/ が /n/ に先行。noises は複数形で語末 /z/</li><li>frightened all：語末 /d/ が /ɔ/ に連結 [ˈfraɪtəndɔl]「フライテンドオール」</li></ul>
+<div class="kana">ザ サンダード ノイズズ ハド フライテンドオール ザ ビリッジ アニマルズ アウェイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">thundering</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>thundering</mark> noise made us run inside the cave system quickly.</p>
+<p class="ja">轟く音が、私たちを素早く洞窟システムの中に逃げさせた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθʌndɚɪŋ ˈnɔɪz ˈmeɪd əs ɹʌn ɪnˈsaɪd ðə ˈkeɪv ˈsɪstəm ˈkwɪkli/</div>
+<ul class="link"><li>the thundering：弱形 /ðə/ が /θ/ に先行</li><li>made us：語末 /d/ が /ə/ に連結 [ˈmeɪdəs]「メイダス」</li><li>inside the：語末 /d/ が弱形 /ðə/ に連結</li></ul>
+<div class="kana">ザ サンダーリング ノイズ メイダス ラン インサイド ザ ケイヴ シスタム クウィックリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>thundering</mark> overhead, the storm kept the creeper far away from our base.</p>
+<p class="ja">頭上で轟く間、その嵐はクリーパーを私たちのベースから遠ざけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ˈθʌndɚɪŋ ˌoʊvɚˈhɛd ðə ˈstɔrm kɛpt ðə ˈkripɚ fɑr əˈweɪ frəm aʊɚ ˈbeɪs/</div>
+<ul class="link"><li>While thundering：語末 /l/ が子音 /θ/ に先行、連結なし</li><li>overhead, the：語末 /d/ がクロージャー。the は弱形 /ðə/</li><li>away from：語末 /eɪ/ と弱形 /frəm/ の間 [əˈweɪfrəm]「アウェイ フラム」</li></ul>
+<div class="kana">ワイル サンダーリング オーバーヘド ザ ストーム ケプト ザ クリーパー ファー アウェイ フラム アワー ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has thundered</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈθʌndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It has <mark>thundered</mark> above the jungle biome repeatedly since we logged in.</p>
+<p class="ja">我々がログインして以来、ジャングルバイオームの上で何度も雷が鳴った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt həz ˈθʌndɚd əˈbʌv ðə ˈdʒʌŋɡəl baɪˈoʊm rɪˈpiːtɪdli sɪns wi ˈlɑgd ɪn/</div>
+<ul class="link"><li>It has：/t/ が未開放で次の /h/ に準備。has は弱形 /həz/</li><li>thundered above：語末の子音 /d/ が次の母音 /ə/ に連結 [ˈθʌndɚdəˈbʌv]「サンダーダバヴ」</li></ul>
+<div class="kana">イット ハズ サンダーダバヴ ザ ジャングル バイオーム リピーティドリー シンス ウィー ラグド イン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Since we built our base, the storm has <mark>thundered</mark> above it constantly.</p>
+<p class="ja">私たちが拠点を作って以来、嵐がその上で絶えず鳴り続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/sɪns wi bɪlt aʊɚ ˈbeɪs ðə ˈstɔrm həz ˈθʌndɚd əˈbʌv ɪt ˈkɑnstəntli/</div>
+<ul class="link"><li>has thundered above：語末の子音 /d/ が次の母音 /ə/ に連結 [ˈθʌndɚdəˈbʌv]「サンダーダバヴ」</li><li>has：弱形 /həz/</li></ul>
+<div class="kana">シンス ウィー ビルト アワー ベイス ザ ストーム ハズ サンダーダバヴ イット コンスタントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had thundered</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈθʌndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By midnight, it had <mark>thundered</mark> above our mine entrance without stopping.</p>
+<p class="ja">真夜中までに、私たちの鉱山入口の上で、嵐が止まらずに鳴り響いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈmɪdnaɪt ɪt həd ˈθʌndɚd əˈbʌv aʊɚ ˈmaɪn ˈɛntrəns wɪðˈaʊt ˈstɑpɪŋ/</div>
+<ul class="link"><li>it had：/t/ が未開放で次の /h/ に準備。had は弱形 /həd/</li><li>thundered above：語末の子音 /d/ が次の母音 /ə/ に連結 [ˈθʌndɚdəˈbʌv]「サンダーダバヴ」</li></ul>
+<div class="kana">バイ ミッドナイット イット ハド サンダーダバヴ アワー マイン エントランス ウィザウット ストッピング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The loud noise appeared after the storm had <mark>thundered</mark> violently for hours.</p>
+<p class="ja">嵐が何時間も激しく鳴り響いた後、その大きな音が現れた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlaʊd ˈnɔɪz əˈpɪrd ˈæftər ðə ˈstɔrm həd ˈθʌndɚd ˈvaɪləntli fɚ ˈaʊɚz/</div>
+<ul class="link"><li>appeared after：語末の子音 /d/ が次の母音 /æ/ に連結 [əˈpɪɹdˈæftər]「アピアーダフター」</li><li>had：弱形 /həd/</li></ul>
+<div class="kana">ザ ラウド ノイズ アピアーダフター ザ ストーム ハド サンダード バイオレントリー ファー アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been thundering</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It has been <mark>thundering</mark> violently above our mining base all this time.</p>
+<p class="ja">この間ずっと、私たちの採鉱基地の上で激しく鳴り続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt həz bɪn ˈθʌndɚɪŋ ˈvaɪləntli əˈbʌv aʊɚ ˈmaɪnɪŋ ˈbeɪs ɔl ðɪs ˈtaɪm/</div>
+<ul class="link"><li>it has：/t/ が未開放で次の /h/ に準備。has は弱形 /həz/</li><li>been：弱形 /bɪn/</li></ul>
+<div class="kana">イット ハズ ビン サンダーリング バイオレントリー アバヴ アワー マイニング ベイス オール ディス タイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Since yesterday morning, it has been <mark>thundering</mark> above our farm non-stop.</p>
+<p class="ja">昨日の朝から、私たちの農地の上で絶え間なく鳴り続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/sɪns ˈjɛstərˌdeɪ ˈmɔrnɪŋ ɪt həz bɪn ˈθʌndɚɪŋ əˈbʌv aʊɚ ˈfɑrm ˈnɑnstɑp/</div>
+<ul class="link"><li>it has：/t/ が未開放で次の /h/ に準備。has は弱形 /həz/</li><li>been：弱形 /bɪn/</li></ul>
+<div class="kana">シンス イェスターディ モーニング イット ハズ ビン サンダーリング アバヴ アワー ファーム ノンストップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is thundering</span><span class="fl">現在進行形（is/are + -ing）</span><span class="fi">/ɪz ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The storm is <mark>thundering</mark> loudly.</p>
+<p class="ja">嵐が大きな音で鳴り響いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈstɔrm ɪz ˈθʌndɚɪŋ ˈlaʊdli/</div>
+<ul class="link"><li>storm is: m links to vowel</li><li>is thundering: z links to th</li></ul>
+<div class="kana">ザ ストーム イズ サンダーリング ラウドリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While the sky is <mark>thundering</mark> overhead, we run.</p>
+<p class="ja">空が上から鳴り響いている間に、私たちは走ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ðə ˈskaɪ ɪz ˈθʌndɚɪŋ ˌoʊvɚˈhɛd wi ɹʌn/</div>
+<ul class="link"><li>sky is: diphthong glides to vowel</li><li>is thundering: z links to th</li><li>we run: i links to r</li></ul>
+<div class="kana">ワイル ザ スカイ イズ サンダーリング オーバーヘド ウィー ラン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was thundering</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sky was <mark>thundering</mark> when we built.</p>
+<p class="ja">私たちが建てている時、空が鳴り響いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskaɪ wəz ˈθʌndɚɪŋ wɛn wi bɪlt/</div>
+<ul class="link"><li>sky was: diphthong glides to vowel</li><li>was thundering: z links to th</li><li>we built: i links to b</li></ul>
+<div class="kana">ザ スカイ ワズ サンダーリング ウェン ウィー ビルト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>It was <mark>thundering</mark> all night.</p>
+<p class="ja">一晩中、雷が鳴り響いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt wəz ˈθʌndɚɪŋ ɔl ˈnaɪt/</div>
+<ul class="link"><li>it was: unreleased t</li><li>was thundering: z links to th</li><li>all night: clear</li></ul>
+<div class="kana">イット ワズ サンダーリング オール ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been thundering</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/əd bən ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sound had been <mark>thundering</mark> for hours.</p>
+<p class="ja">その音は数時間鳴り響いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsaʊnd əd bən ˈθʌndɚɪŋ fɚr ˈaʊɚz/</div>
+<ul class="link"><li>had been: weak forms (əd, bən)</li><li>been thundering: n links to th</li><li>for hours: weak for</li></ul>
+<div class="kana">ザ サウンド アド バン サンダーリング ファー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>It had been <mark>thundering</mark> all morning.</p>
+<p class="ja">朝中、雷が鳴り響いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt əd bən ˈθʌndɚɪŋ ɔl ˈmɔrnɪŋ/</div>
+<ul class="link"><li>it had: unreleased t</li><li>had been: weak forms (əd, bən)</li><li>been thundering: n links to th</li></ul>
+<div class="kana">イット アド バン サンダーリング オール モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will thunder</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈθʌndɚ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It will <mark>thunder</mark> loudly during the raid at midnight.</p>
+<p class="ja">真夜中の襲撃の最中に大きな音で雷が鳴るでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt wɪl ˈθʌndɚ ˈlaʊdli ˈdʊrɪŋ ðə ˈreɪd æt ˈmɪdˌnaɪt/</div>
+<ul class="link"><li>it will：/t/ が未開放で次の /w/ に準備</li><li>will thunder：弱形 /wɪl/ が子音 /θ/ に先行</li><li>during the：語末 /ŋ/ と弱形 /ðə/ の間に連結なし</li></ul>
+<div class="kana">イット ウィル サンダー ラウドリー デュアリング ザ レイド アット ミッドナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sky will <mark>thunder</mark> above us when the storm rolls into the valley.</p>
+<p class="ja">嵐が谷へ流れ込む時、空が私たちの上で鳴るでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskaɪ wɪl ˈθʌndɚ əˈbʌv əs wɛn ðə ˈstɔrm roʊlz ˈɪntə ðə ˈvæli/</div>
+<ul class="link"><li>sky will：語末 /aɪ/ と弱形 /wɪl/ の間に連結なし</li><li>will thunder：弱形 /wɪl/ が /θ/ に先行</li><li>into the：to は弱形 /tə/ に弱化。弱形 /ðə/ に先行</li></ul>
+<div class="kana">ザ スカイ ウィル サンダー アバヴ アス ウェン ザ ストーム ローズ イントゥ ザ ヴァレー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be thundering</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈθʌndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It will be <mark>thundering</mark> overhead while we stay inside our shelter.</p>
+<p class="ja">私たちが避難所の中にいる間、頭上で雷がずっと鳴り続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt wɪl bi ˈθʌndɚɪŋ ˌoʊvɚˈhɛd waɪl wi steɪ ɪnˈsaɪd aʊɚ ˈʃɛltər/</div>
+<ul class="link"><li>it will：/t/ が未開放で /w/ に準備</li><li>will be：弱形 /wɪl/ と /bi/</li><li>be thundering：/bi/ が子音 /θ/ に先行</li><li>inside our：語末の子音 /d/ が母音に連結 [ɪnˈsaɪdaʊɚ]「インサイダワー」</li></ul>
+<div class="kana">イット ウィル ビー サンダーリング オーバーヘド ワイル ウィー ステイ インサイダワー シェルター</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The storm will be <mark>thundering</mark> all night while you defend the base against mobs.</p>
+<p class="ja">モブから基地を守る間中、嵐は一晩中鳴り続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈstɔrm wɪl bi ˈθʌndɚɪŋ ɔl ˈnaɪt waɪl ju dɪˈfɛnd ðə ˈbeɪs əˈgɛnst ˈmɑbz/</div>
+<ul class="link"><li>will be：弱形 /wɪl/ と /bi/</li><li>be thundering：/bi/ が /θ/ に先行</li><li>the base：弱形 /ðə/ が子音 /b/ に先行</li><li>against mobs：語末の子音グループと /m/ の間に連結なし</li></ul>
+<div class="kana">ザ ストーム ウィル ビー サンダーリング オール ナイト ワイル ユー ディフェンド ザ ベイス アゲンスト モッブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have thundered</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈθʌndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/thunder_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By dawn, it will have <mark>thundered</mark> countless times during this terrible storm.</p>
+<p class="ja">この恐ろしい嵐の最中に、夜明けまでに数え切れないほど何度も雷が鳴っているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈdɔn ɪt wɪl həv ˈθʌndɚd ˈkaʊntləs ˈtaɪmz ˈdʊrɪŋ ðɪs ˈtɛrəbəl ˈstɔrm/</div>
+<ul class="link"><li>will have：弱形 /wɪl/ と弱形 /həv/。have は /həv/ に弱化</li><li>have thundered：弱形 /həv/ が /θ/ に先行</li><li>countless times：語末の子音 /s/ と /t/ の間に連結なし</li></ul>
+<div class="kana">バイ ドーン イット ウィル ハヴ サンダード カウントレス タイムズ デュアリング ディス テラブル ストーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we escape, the sky will have <mark>thundered</mark> nonstop for days.</p>
+<p class="ja">私たちが逃げるまでに、空は何日間も絶え間なく鳴り続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ɪˈskeɪp ðə ˈskaɪ wɪl həv ˈθʌndɚd ˈnɑnˌstɑp fɚr ˈdeɪz/</div>
+<ul class="link"><li>the time：弱形 /ðə/ が子音 /t/ に先行</li><li>will have：弱形 /wɪl/ と弱形 /həv/</li><li>have thundered：弱形 /həv/ が /θ/ に先行</li><li>for days：弱形 /fɚ/ が母音に先行</li></ul>
+<div class="kana">バイ ザ タイム ウィ イスケイプ ザ スカイ ウィル ハヴ サンダード ノンストップ ファー デイズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">thunder and lightning</span><span class="im">雷と稲妻（両方の現象を合わせた表現）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>thunder</mark> and lightning filled the night sky above the plains during the violent storm.</p>
+<p class="ja">暴風雨の間、平原の上の夜空は雷鳴と稲妻で満たされていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθʌndɚ ənd ˈlaɪtnɪŋ fɪld ðə ˈnaɪt skaɪ əˈbʌv ðə ˈpleɪnz dʊˈrɪŋ ðə vaɪˈolənt ˈstɔrm/</div>
+<ul class="link"><li>thunder and：thunder の語末 /ɚ/ の後、and は弱形 /ən/ または /ənd/ に弱化</li><li>lightning filled：/ŋ/ と /f/ は子音+子音で連結しない</li><li>filled the night：語末 /d/ が弱形 /ðə/ に連結 [fɪldðə]「フィルザ」</li></ul>
+<div class="kana">ザ サンダー アン ライトニング フィルド ザ ナイト スカイ アバヴ ザ プレインズ デュアリング ザ バイオレント ストーム</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">a clap of thunder</span><span class="im">ゴロゴロという雷音（突然の大きな音を指す）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>A clap of <mark>thunder</mark> startled me out of my house near the canyon.</p>
+<p class="ja">ゴロゴロという雷音が、峡谷の近くの家から私を飛び出させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/thunder_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/thunder_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈklæp əv ˈθʌndɚ ˈstɑrtəld mi aʊt əv maɪ haʊs nɪr ðə ˈkænjən/</div>
+<ul class="link"><li>clap of：語末 /p/ が弱形 /əv/ に連結 [ˈklæpəv]「クラップアヴ」</li><li>startled me：/d/ と /m/ は子音+子音で連結しない</li><li>out of：語末 /t/ が母音に挟まれてフラップ化 [aʊɾəv]「アウラヴ」。of は弱形 /əv/</li></ul>
+<div class="kana">ア クラップ アヴ サンダー スターテルド ミー アウラヴ マイ ハウス ニア ザ キャニオン</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="thunder";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

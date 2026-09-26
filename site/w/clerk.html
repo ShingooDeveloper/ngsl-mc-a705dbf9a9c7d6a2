@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>clerk — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>clerk</h2><span class="pos">名詞</span><span class="ipa-head">/klɝk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1200 #627</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clerk.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】店員（店で顧客に商品や情報を提供する人）（a person who sells goods or provides information in a store）</li><li>【名詞】事務員、書記（オフィスで記録や帳簿の管理をする人）（a person employed in an office to keep records and accounts）</li><li>【名詞】記録係、管理官（施設や組織内で書類や取引を管理する人）（a person responsible for managing records and transactions）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The village <mark>clerk</mark> sells essential trading items to all the players.</p>
+<p class="ja">村の店員は、すべてのプレイヤーに必需品を売ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clerk_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clerk_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ klɝk ˈsɛlz əˈsɛnʃəl ˈtreɪdɪŋ ˈaɪtəmz tə ˈɔl ðə ˈpleɪərz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>to は機能語で弱形 /tə/</li></ul>
+<div class="kana">ザ ヴィリッジ クラーク セルズ エッセンシャル トレイディング アイテムズ タ オール ザ プレイヤーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I hired a skilled <mark>clerk</mark> to manage our base's storage and resources.</p>
+<p class="ja">基地のストレージとリソースを管理するために、熟練した事務員を雇いました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clerk_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clerk_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈhaɪərd ə ˈskɪld klɝk tə ˈmænɪdʒ ˈaʊər ˈbeɪsəz ˈstɔrɪdʒ ən rɪˈsɔrsəz/</div>
+<ul class="link"><li>a は弱形 /ə/</li><li>to は機能語で弱形 /tə/</li><li>and は弱形 /ən/ に弱化</li></ul>
+<div class="kana">アイ ハイアード ア スキルド クラーク タ マネージ アワー ベーシズ ストレッジ アン リソーシズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our <mark>clerk</mark> records every resource trade and crafting recipe in the database.</p>
+<p class="ja">私たちの事務員は、すべてのリソース取引とクラフティングレシピをデータベースに記録します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clerk_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/clerk_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊər klɝk rɪˈkɔrdz ˈɛvəri rɪˈsɔrs ˈtreɪd ən ˈkræftɪŋ ˈrɛsəpi ɪn ðə ˈdeɪtəbeɪs/</div>
+<ul class="link"><li>and は弱形 /ən/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アワー クラーク リコーズ エバリー リソース トレード アン クラフティング レシピー イン ザ デイタベース</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">clerks</span><span class="fl">複数形</span><span class="fi">/klɝks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/clerk_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We stationed several skilled <mark>clerks</mark> at the marketplace to help all the players.</p>
+<p class="ja">私たちは市場にいくつかの熟練した店員を配置して、すべてのプレイヤーを支援しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clerk_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/clerk_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈsteɪʃənd ˈsɛvərəl ˈskɪld klɝks æt ðə ˈmɑːrkɪtˌpleɪs tə ˈhɛlp ɔl ðə ˈpleɪərz/</div>
+<ul class="link"><li>the marketplace → the は弱形 /ðə/</li><li>to help → to は弱形 /tə/</li><li>the players → the は弱形 /ðə/。players と連結 [ðə ˈpleɪərz]</li></ul>
+<div class="kana">ウィ ステイシャンド セブラル スキルド クラークス アット ザ マーケットプレイス タ ヘルプ オール ザ プレイヤーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These devoted <mark>clerks</mark> organize every transaction and maintain our trade records diligently.</p>
+<p class="ja">これらの献身的な店員はすべての取引を整理し、私たちの取引記録を注意深く保つ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/clerk_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/clerk_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz dɪˈvoʊtəd klɝks ˈɔːrɡənaɪz ˈɛvəri trænˈzækʃən ənd meɪnˈteɪn ˈaʊər ˈtreɪd ˈrɛkərdz ˈdɪlɪdʒəntli/</div>
+<ul class="link"><li>clerks organize → clerks の語末音 /z/ (plural) が organize の母音 /ɔː/ に連結 [klɝks ˈɔːrɡənaɪz]</li><li>and は弱形 /ən/</li></ul>
+<div class="kana">ディーズ ディボウテッド クラークス オーガナイズ エブリー トランザクション アン メイン テイン アワー トレード レコーズ ディリジェントリー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="clerk";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
