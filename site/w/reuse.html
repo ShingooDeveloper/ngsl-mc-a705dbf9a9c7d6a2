@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>reuse — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>reuse</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/ˌriːˈjuːz/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット中学1800 #1414</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】(物・材料など)を再び使用する、再利用する</li><li>【動詞】(古い物やリソースを)何度も使い続ける</li><li>【名詞】再使用、再利用(再利用する行為、または再利用される物)</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I take a shortcut by reusing these old materials.</p>
+<p class="ja">古い材料を再利用することで、ショートカットを取っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈteɪk ə ˈʃɔːrkʌt baɪ ˌriːˈjuːzɪŋ ðiz ˈoʊld məˈtɪriəlz/</div>
+<ul class="link"><li>take a: 語末の /k/ が母音 /ə/ に連結。[ˈteɪkə] テイカ。</li><li>by reusing: /baɪ/ の語末 /aɪ/ が reusing の /r/ に連結。バイ リーユーズング。</li></ul>
+<div class="kana">アイ テイカ ショートカット バイ リーユーズング ディーズ オールド マテリアルズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need a lot of old wood to <mark>reuse</mark> for our wall.</p>
+<p class="ja">壁のために再利用するために、古い木材がたくさん必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː niːd ə ˈlɑt əv ˈoʊld wʊd tə ˌriːˈjuːz fɔːr aʊər ˈwɔːl/</div>
+<ul class="link"><li>need a: 語末の /d/ が母音 /ə/ に連結。[ˈniːd ə] ニーダ。</li><li>lot of: 母音 /ɑ/+子音 /t/+母音 /ə/ でフラップ化 [ɾ]。[ˈlɑɾəv] ラーラヴ。</li><li>to reuse: to は弱形 /tə/、語末の /ə/ が reuse の /r/ に連結。タ リーユーズ。</li></ul>
+<div class="kana">ウィー ニーダ ラーラヴ オールド ウッド タ リーユーズ フォー アワー ウォール</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Can we make a bigger base by reusing this design?</p>
+<p class="ja">このデザインを再利用することで、より大きな拠点を作ることができますか?</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kæn wiː ˈmeɪk ə ˈbɪɡər ˈbeɪs baɪ ˌriːˈjuːzɪŋ ðɪs dɪˈzaɪn/</div>
+<ul class="link"><li>make a: 語末の /k/ が母音 /ə/ に連結。[ˈmeɪkə] メイカ。</li></ul>
+<div class="kana">キャン ウィー メイカ ビガー ベイス バイ リーユーズング ディス ディザイン</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reuses</span><span class="fl">三人称単数現在形</span><span class="fi">/ˌriːˈjuːzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve <mark>reuses</mark> old stone blocks for his new builds.</p>
+<p class="ja">スティーブは新しい建設のために古い石のブロックを再利用している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stiːv ˌriːˈjuːzɪz ˈoʊld ˈstoʊn ˈblɑks fɔːr hɪz ˈnuː ˈbɪldz/</div>
+<ul class="link"><li>blocks for: /ks/ で終わる blocks と /f/ で始まる for。for は弱形 /fɚ/。[blɑks fɚ] ブラックス ファー。</li><li>for his: for の語末 /r/ は rhotic に変わり [fɔ˞]、his は弱形で /hɪz/。[fɔ˞ hɪz] フォー ヒズ。</li><li>his new: /z/ で終わる his と /n/ で始まる new。[hɪz ˈnuː] ヒズ ニュー。</li></ul>
+<div class="kana">スティーブ リーユーズィズ オールド ストーン ブラックス フォー ヒズ ニュー ビルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>reuses</mark> materials from the old farm to build new ones.</p>
+<p class="ja">彼女は古いファームからの材料を再利用して新しいファームを建設している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˌriːˈjuːzɪz məˈtɪriəlz frəm ðə ˈoʊld ˈfɑːrm tə ˈbɪld ˈnuː ˈwʌnz/</div>
+<ul class="link"><li>from the: /m/ で終わる from (弱形 /frəm/) と /ð/ で始まる the (弱形 /ðə/)。[frəm ðə] フラム ザ。</li><li>farm to: /m/ で終わる farm と /t/ で始まる to。to は弱形 /tə/。[fɑːrm tə] ファーム タ。</li><li>build new: /d/ で終わる build と /n/ で始まる new。/d/ が未開放で止まり [bɪld̚ ˈnuː]。ビルド ニュー。</li></ul>
+<div class="kana">シー リーユーズィズ マテリアルズ フラム ザ オールド ファーム タ ビルド ニュー ワンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reused</span><span class="fl">過去形</span><span class="fi">/ˌriːˈjuːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Yesterday I <mark>reused</mark> wood from the burned-down cabin.</p>
+<p class="ja">昨日、私は焼けた小屋からの木材を再利用しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈjɛstərdeɪ aɪ ˌriːˈjuːzd ˈwʊd frəm ðə ˈbɜːrnd daʊn ˈkæbɪn/</div>
+<ul class="link"><li>wood from: /d/ で終わる wood と /f/ で始まる from。from は弱形 /frəm/。[wʊd frəm] ウッド フラム。</li><li>burned-down: burned の /d/ と down の /d/ が連続。未開放で1つに聞こえる [ˈbɜːrnd̚ daʊn]。バーンド ダウン。</li><li>down cabin: /n/ で終わる down と /k/ で始まる cabin。[daʊn ˈkæbɪn] ダウン キャビン。</li></ul>
+<div class="kana">イェスターデイ アイ リーユーズド ウッド フラム ザ バーンド ダウン キャビン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>reused</mark> the same farm design for our second base.</p>
+<p class="ja">私たちは2番目の拠点のために同じファーム設計を再利用しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˌriːˈjuːzd ðə ˈseɪm ˈfɑːrm dɪˈzaɪn fɔːr aʊər ˈsɛkənd ˈbeɪs/</div>
+<ul class="link"><li>farm design: /m/ で終わる farm と /d/ で始まる design。[fɑːrm dɪˈzaɪn] ファーム ディザイン。</li><li>for our: for の語末 /r/ は rhotic [fɔ˞]、our は /aʊr/。[fɔ˞ ˈaʊr] フォー アワー。</li><li>second base: /d/ で終わる second と /b/ で始まる base。[ˈsɛkənd ˈbeɪs] セカンド ベイス。</li></ul>
+<div class="kana">ウィー リーユーズド ザ セイム ファーム ディザイン フォー アワー セカンド ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reused</span><span class="fl">過去分詞</span><span class="fi">/ˌriːˈjuːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Materials <mark>reused</mark> from the old mine became part of our castle.</p>
+<p class="ja">古い鉱山から再利用された材料は、私たちの城の一部になりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/məˈtɪriəlz ˌriːˈjuːzd frəm ðə ˈoʊld ˈmaɪn bɪˈkeɪm ˈpɑːrt əv aʊər ˈkæsəl/</div>
+<ul class="link"><li>from the: /m/ で終わる from (弱形 /frəm/) と /ð/ で始まる the (弱形 /ðə/)。[frəm ðə] フラム ザ。</li><li>part of: /t/ で終わる part と /ə/ で始まる of。/t/ が母音に挟まれてフラップ化 [pɑɾəv]。of は弱形 /əv/。パーラヴ。</li><li>of our: /v/ で終わる of と /aʊ/ で始まる our。[əv ˈaʊər] アヴ アワー。</li></ul>
+<div class="kana">マテリアルズ リーユーズド フラム ザ オールド マイン ビケイム パーラヴ アワー キャッスル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>reused</mark> our cobblestone cache, we built even bigger walls.</p>
+<p class="ja">丸石キャッシュを再利用した後、私たちはさらに大きな壁を建設しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˌriːˈjuːzd aʊər ˈkoʊbəlˌstoʊn ˈkæʃ wiː ˈbɪlt ˈiːvən ˈbɪɡər ˈwɔːlz/</div>
+<ul class="link"><li>our cobblestone: /r/ で終わる our は rhotic [aʊ˞]、/k/ で始まる cobblestone。[aʊ˞ ˈkoʊbəlˌstoʊn] アワー コッブルストーン。</li><li>cache we: /ʃ/ で終わる cache と /w/ で始まる we。[kæʃ wiː] キャッシュ ウィー。</li><li>built even: /t/ で終わる built と /i/ で始まる even。/t/ が母音に挟まれてフラップ化 [bɪɾən]。ビレン。</li></ul>
+<div class="kana">ハヴィング リーユーズド アワー コッブルストーン キャッシュ ウィー ビレン イーブン ビガー ウォールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reusing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By reusing stone blocks, we save tons of mining time.</p>
+<p class="ja">石のブロックを再利用することで、採掘時間を大量に節約できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˌriːˈjuːzɪŋ ˈstoʊn ˈblɑks wiː ˈseɪv ˈtɑnz əv ˈmaɪnɪŋ ˈtaɪm/</div>
+<ul class="link"><li>stone blocks: /n/ で終わる stone と /b/ で始まる blocks。[ˈstoʊn ˈblɑks] ストーン ブラックス。</li><li>tons of: /z/ で終わる tons と /ə/ で始まる of。of は弱形 /əv/。[ˈtɑnz əv] タンズ アヴ。</li><li>mining time: /ŋ/ で終わる mining と /t/ で始まる time。[ˈmaɪnɪŋ ˈtaɪm] マイニング タイム。</li></ul>
+<div class="kana">バイ リーユーズング ストーン ブラックス ウィー セイブ タンズ アヴ マイニング タイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She's reusing that redstone circuit in multiple contraptions.</p>
+<p class="ja">彼女は複数のコントラプションでそのレッドストーン回路を再利用しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiz ˌriːˈjuːzɪŋ ðæt ˈrɛdˌstoʊn ˈsɜːrkɪt ɪn ˈmʌltɪpəl kənˈtræpʃənz/</div>
+<ul class="link"><li>She's reusing: is の弱形 /z/ で she と縮約。/z/ で始まり /r/ に続く [ʃiz ˌriːˈjuːzɪŋ]。シーズ リーユーズング。</li><li>redstone circuit: /n/ で終わる redstone と /s/ で始まる circuit。[ˈrɛdˌstoʊn ˈsɜːrkɪt] レッドストーン サーキット。</li><li>in multiple: /n/ で終わる in と /m/ で始まる multiple。[ɪn ˈmʌltɪpəl] イン マルティポル。</li></ul>
+<div class="kana">シーズ リーユーズング ザット レッドストーン サーキット イン マルティポル コントラプションズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reuses</span><span class="fl">複数形</span><span class="fi">/ˌriːˈjuːzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>reuses</mark> of wooden planks help us build faster.</p>
+<p class="ja">木材の複数の再利用は、私たちがより速く建設するのに役立ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌltɪpəl ˌriːˈjuːzɪz əv ˈwʊdən ˈplæŋks ˈhɛlp əs ˈbɪld ˈfæstər/</div>
+<ul class="link"><li>Multiple reuses: /əl/ で終わる multiple (弱形 /ˈmʌltɪpəl/) と /r/ で始まる reuses。[ˈmʌltɪpəl ˌriːˈjuːzɪz] マルティポル リーユーズィズ。</li><li>reuses of: /z/ で終わる reuses と /ə/ で始まる of。of は弱形 /əv/。[ˌriːˈjuːzɪz əv] リーユーズィズ アヴ。</li><li>help us: /p/ で終わる help と /ə/ で始まる us。us は弱形 /əs/。[ˈhɛlp əs] ヘルプ アス。</li></ul>
+<div class="kana">マルティポル リーユーズィズ アヴ ウッデン プラングクス ヘルプ アス ビルド ファステル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Strategic <mark>reuses</mark> of old designs let us build twice as fast.</p>
+<p class="ja">古いデザインの戦略的な再利用により、私たちは2倍の速さで建設できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/strəˈtɛdʒɪk ˌriːˈjuːzɪz əv ˈoʊld dɪˈzaɪnz ˈlɛt əs ˈbɪld ˈtwaɪs əz ˈfæst/</div>
+<ul class="link"><li>Strategic reuses: /ɪk/ で終わる strategic と /r/ で始まる reuses。[strəˈtɛdʒɪk ˌriːˈjuːzɪz] ストラテジック リーユーズィズ。</li><li>reuses of: /z/ で終わる reuses と /ə/ で始まる of。of は弱形 /əv/。[ˌriːˈjuːzɪz əv] リーユーズィズ アヴ。</li><li>designs let: /z/ で終わる designs と /l/ で始まる let。[dɪˈzaɪnz ˈlɛt] ディザインズ レット。</li></ul>
+<div class="kana">ストラテジック リーユーズィズ アヴ オールド ディザインズ レット アス ビルド トゥワイス アズ ファースト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is reusing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Alex is reusing all the cobblestone from the destroyed fortress.</p>
+<p class="ja">アレックスは破壊された要塞からのすべての丸石を再利用しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈælɪks ɪz ˌriːˈjuːzɪŋ ˈɔːl ðə ˈkoʊbəlˌstoʊn frəm ðə dɪˈstrɔɪd ˈfɔːrtrəs/</div>
+<ul class="link"></ul>
+<div class="kana">アレックス イズ リーユーズング オール ザ コッブルストーン フラム ザ ディストロイド フォートレス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are reusing broken tools to craft new pickaxes.</p>
+<p class="ja">私たちは壊れたツールを再利用して新しいつるはしを作成しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ɑːr ˌriːˈjuːzɪŋ ˈbroʊkən ˈtuːlz tə ˈkræft ˈnuː ˈpɪkˌæksɪz/</div>
+<ul class="link"><li>to craft: to の弱形 /tə/ が craft の /k/ に続く。[tə ˈkræft] タ クラフト。</li></ul>
+<div class="kana">ウィー アー リーユーズング ブロークン トゥールズ タ クラフト ニュー ピックアックシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was reusing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was reusing the old farm blocks, a creeper attacked.</p>
+<p class="ja">古いファームのブロックを再利用している間に、クリーパーが攻撃してきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ˌriːˈjuːzɪŋ ðə ˈoʊld ˈfɑːrm ˈblɑks ə ˈkriːpər əˈtækt/</div>
+<ul class="link"></ul>
+<div class="kana">ワイル アイ ワズ リーユーズング ザ オールド ファーム ブラックス ア クリーパー アタックト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were reusing materials from the old village when the raid started.</p>
+<p class="ja">レイドが始まったとき、彼らは古い村からの材料を再利用していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˌriːˈjuːzɪŋ məˈtɪriəlz frəm ðə ˈoʊld ˈvɪlɪdʒ wɛn ðə ˈreɪd ˈstɑːrtəd/</div>
+<ul class="link"><li>when the: when の語末 /n/ が the の弱形 /ðə/ に接する。[wɛn ðə] ウェン ザ。</li></ul>
+<div class="kana">ザイ ウェア リーユーズング マテリアルズ フラム ザ オールド ビレッジ ウェン ザ レイド スターテッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been reusing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd ˌbɪn ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been reusing old materials before finding a new supply.</p>
+<p class="ja">新しい供給源を見つける前に、私は古い材料を長時間再利用していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd ˌbɪn ˌriːˈjuːzɪŋ ˈoʊld məˈtɪriəlz bɪˈfɔːr ˈfaɪndɪŋ ə ˈnuː səˈplaɪ/</div>
+<ul class="link"><li>had been: had の弱形 /həd/ が been の /b/ に面する。/d/ が未開放で止まり、次の /b/ に準備する。[həd̚ ˌbɪn] ハド ビン。</li></ul>
+<div class="kana">アイ ハド ビン リーユーズング オールド マテリアルズ ビフォア ファインディング ア ニュー サプライ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we reached the end, we had been reusing the same equipment.</p>
+<p class="ja">終わりに着く頃には、同じ装備を長時間再利用していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wiː ˈriːtʃt ðə ˈɛnd wiː həd ˌbɪn ˌriːˈjuːzɪŋ ðə ˈseɪm ɪˈkwɪpmənt/</div>
+<ul class="link"></ul>
+<div class="kana">バイ ザ タイム ウィー リーチト ザ エンド ウィー ハド ビン リーユーズング ザ セイム イクウィップメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has reused</span><span class="fl">現在完了形</span><span class="fi">/həz ˌriːˈjuːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve has <mark>reused</mark> those stone blocks three times already.</p>
+<p class="ja">スティーブはその石のブロックをもう3回再利用している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stiːv həz ˌriːˈjuːzd ðoʊz ˈstoʊn ˈblɑks ˈθriː ˈtaɪmz ɔːlˈrɛdi/</div>
+<ul class="link"><li>has reused: has は弱形 /həz/、/z/ が後続の /r/ に連なり [həz ˌriːˈjuːzd]。ハズ リーユーズド。</li><li>times already: /z/ で終わる times と /ɔ/ で始まる already。[ˈtaɪmz ɔːlˈrɛdi] タイムズ オールレディ。</li></ul>
+<div class="kana">スティーブ ハズ リーユーズド ドーズ ストーン ブラックス スリー タイムズ オールレディ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>reused</mark> the same farm design in five different worlds.</p>
+<p class="ja">私たちは5つの異なるワールドで同じファーム設計を再利用している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː həv ˌriːˈjuːzd ðə ˈseɪm ˈfɑːrm dɪˈzaɪn ɪn ˈfaɪv ˈdɪfərənt ˈwɜːrldz/</div>
+<ul class="link"><li>have reused: have は弱形 /həv/、/v/ が後続の /r/ に連なり [həv ˌriːˈjuːzd]。ハヴ リーユーズド。</li></ul>
+<div class="kana">ウィー ハヴ リーユーズド ザ セイム ファーム ディザイン イン ファイブ ディファレント ワールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had reused</span><span class="fl">過去完了形</span><span class="fi">/həd ˌriːˈjuːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After we had <mark>reused</mark> the cobblestone blocks, the base looked much better.</p>
+<p class="ja">丸石ブロックを再利用した後、拠点がずっと良く見えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər wiː həd ˌriːˈjuːzd ðə ˈkoʊbəlˌstoʊn ˈblɑks ðə ˈbeɪs ˈlʊkt ˈmʌtʃ ˈbɛtər/</div>
+<ul class="link"><li>had reused: had は弱形 /həd/ [həd ˌriːˈjuːzd]。ハッ リーユーズド。</li></ul>
+<div class="kana">アフター ウィー ハッ リーユーズド ザ コッブルストーン ブラックス ザ ベイス ルック マッチ ベター</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we found the cave, we had <mark>reused</mark> all our wooden materials.</p>
+<p class="ja">洞窟を見つけるまでに、私たちはすべての木の材料を再利用していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wiː ˈfaʊnd ðə ˈkeɪv wiː həd ˌriːˈjuːzd ɔːl ˈaʊər ˈwʊdən məˈtɪriəlz/</div>
+<ul class="link"><li>by the: /aɪ/ で終わる by と /ð/ で始まる the、弱形 /ðə/ [baɪ ðə]。バイ ザ。</li><li>had reused: had は弱形 /həd/ [həd ˌriːˈjuːzd]。ハッ リーユーズド。</li><li>all our: /l/ で終わる all と /aʊ/ で始まる our [ɔːl ˈaʊər]。オール アワー。</li></ul>
+<div class="kana">バイ ザ タイム ウィー ファウンド ザ ケイブ ウィー ハッ リーユーズド オール アワー ウッデン マテリアルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been reusing</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been reusing old wood from the forest for the last three hours.</p>
+<p class="ja">この3時間、森からの古い木を再利用し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˌriːˈjuːzɪŋ ˈoʊld ˈwʊd frəm ðə ˈfɔːrɪst fɔːr ðə ˈlæst ˈθriː ˈaʊərz/</div>
+<ul class="link"><li>have been: have は弱形 /həv/、been は弱形 /bɪn/ [həv bɪn]。ハヴ ビン。</li></ul>
+<div class="kana">アイ ハヴ ビン リーユーズング オールド ウッド フラム ザ フォレスト フォー ザ ラースト スリー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been reusing the same redstone design in her farm all morning.</p>
+<p class="ja">彼女は朝ずっとファームで同じレッドストーン設計を再利用し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˌriːˈjuːzɪŋ ðə ˈseɪm ˈrɛdˌstoʊn dɪˈzaɪn ɪn hər ˈfɑːrm ɔːl ˈmɔːrnɪŋ/</div>
+<ul class="link"><li>has been: has は弱形 /həz/、been は弱形 /bɪn/ [həz bɪn]。ハズ ビン。</li><li>farm all: /m/ で終わる farm と /ɔ/ で始まる all [fɑːrm ɔːl]。ファーム オール。</li></ul>
+<div class="kana">シー ハズ ビン リーユーズング ザ セイム レッドストーン ディザイン イン ハー ファーム オール モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will reuse</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˌriːˈjuːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>reuse</mark> those stone blocks for building tomorrow.</p>
+<p class="ja">明日の建設のために、その石のブロックを再利用します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˌriːˈjuːz ðoʊz ˈstoʊn ˈblɑks fɔːr ˈbɪldɪŋ təˈmɑːroʊ/</div>
+<ul class="link"><li>I'll reuse: I'll は縮約形 /aɪl/ [aɪl ˌriːˈjuːz]。アイル リーユーズ。</li><li>for building: for の語末 /r/ は rhotic [fɔ˞]。[fɔ˞ ˈbɪldɪŋ] フォー ビルディング。</li></ul>
+<div class="kana">アイル リーユーズ ドーズ ストーン ブラックス フォー ビルディング トゥマロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>reuse</mark> the cobblestone path from the old village.</p>
+<p class="ja">彼らは古い村からの丸石の小道を再利用するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wəl ˌriːˈjuːz ðə ˈkoʊbəlˌstoʊn ˈpæθ frəm ðə ˈoʊld ˈvɪlɪdʒ/</div>
+<ul class="link"><li>will reuse: will は弱形 /wəl/ [wəl ˌriːˈjuːz]。ウル リーユーズ。</li></ul>
+<div class="kana">ザイ ウル リーユーズ ザ コッブルストーン パス フラム ザ オールド ビレッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be reusing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˌriːˈjuːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be reusing old materials while constructing the mega base.</p>
+<p class="ja">巨大な拠点を建設しながら、古い材料を再利用するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiːl bi ˌriːˈjuːzɪŋ ˈoʊld məˈtɪriəlz ˈwaɪl kənˈstrʌktɪŋ ðə ˈmeɪɡə ˈbeɪs/</div>
+<ul class="link"><li>We'll be: We'll は縮約 /wiːl/ [wiːl bi]。ウィール ビー。</li></ul>
+<div class="kana">ウィール ビー リーユーズング オールド マテリアルズ ホワイル コンストラクティング ザ メガ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will be reusing the same farm layout for the new expansion.</p>
+<p class="ja">新しい拡張のために、同じファームのレイアウトを再利用し続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː wəl bi ˌriːˈjuːzɪŋ ðə ˈseɪm ˈfɑːrm ˈleɪaʊt fɔːr ðə ˈnuː ɪkˈspænʃən/</div>
+<ul class="link"><li>will be: will は弱形 /wəl/ [wəl bi]。ウル ビー。</li><li>for the: for の語末 /r/ は rhotic [fɔ˞]、the は弱形 /ðə/。[fɔ˞ ðə] フォー ザ。</li></ul>
+<div class="kana">ユー ウル ビー リーユーズング ザ セイム ファーム レイアウト フォー ザ ニュー イクスパンション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have reused</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˌriːˈjuːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/reuse_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next month, I'll have <mark>reused</mark> all these leftover blocks.</p>
+<p class="ja">来月までに、これらの余ったブロックをすべて再利用しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈmʌnθ aɪl həv ˌriːˈjuːzd ɔːl ðiz ˈlɛftˌoʊvər ˈblɑks/</div>
+<ul class="link"><li>I'll have: I'll は縮約 /aɪl/、have は弱形 /həv/ [aɪl həv]。アイル ハヴ。</li><li>reused all: /d/ で終わる reused と /ɔ/ で始まる all。[ˌriːˈjuːzd ɔːl] リーユーズド オール。</li><li>leftover blocks: leftover の語末 /r/ は rhotic [ˈlɛftˌoʊvɚ]。[ˈlɛftˌoʊvɚ ˈblɑks] レフトオーバー ブラックス。</li></ul>
+<div class="kana">バイ ネクスト マンス アイル ハヴ リーユーズド オール ディーズ レフトオーバー ブラックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>reused</mark> materials from three different projects before summer.</p>
+<p class="ja">夏の前に、3つの異なるプロジェクトからの材料を再利用しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/reuse_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/reuse_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəl həv ˌriːˈjuːzd məˈtɪriəlz frəm ˈθriː ˈdɪfərənt ˈprɑːdʒɛkts bɪˈfɔːr ˈsʌmər/</div>
+<ul class="link"><li>will have: will は弱形 /wəl/、have は弱形 /həv/ [wəl həv]。ウル ハヴ。</li></ul>
+<div class="kana">シー ウル ハヴ リーユーズド マテリアルズ フラム スリー ディファレント プロジェクツ ビフォー サマー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="reuse";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

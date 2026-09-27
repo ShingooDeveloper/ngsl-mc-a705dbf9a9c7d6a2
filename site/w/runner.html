@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>runner — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>runner</h2><span class="pos">名詞</span><span class="ipa-head">/ˈrʌnər/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット中学1800 #1114</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/runner.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】走る人、走者、ランナー（athlete or person who runs）</li><li>【名詞】スピードランナー、世界記録に挑戦する人（a person attempting to achieve speedrun records in games）</li><li>【名詞】組織や任務を実行・推進する人（a person who executes or delivers tasks）</li><li>【名詞】つる状に伸びる植物の茎、ランナー（botanical term for horizontal plant stem）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The fastest <mark>runner</mark> on our server just beat the Nether speedrun record.</p>
+<p class="ja">サーバーで最速のランナーがネザースピードラン記録を破った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfæstəst ˈrʌnɚ ɑn ˈaʊɚ ˈsɝvɚ dʒʌst ˈbit ðə ˈnɛðɚ ˈspiːdˌrʌn ˈɹɛkɚd/</div>
+<ul class="link"><li>runner on → 語末の r が on の初母音 /ɑ/ に連結</li><li>the Nether → the は弱形 /ðə/ で Nether に続く</li></ul>
+<div class="kana">ザ ファーステスト ラナー オン アワー サーバー ジャスト ビート ザ ネザー スピードラン レコード</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She's the team <mark>runner</mark> for gathering resources from the Deep Dark caves.</p>
+<p class="ja">彼女はディープダークの洞窟からリソースを集めるチームのランナーだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiz ðə ˈtim ˈrʌnɚ fɚ ˈɡæðɚɪŋ ɹɪˈsɔrsɪz frəm ðə ˈdip ˈdɑrk ˈkeɪvz/</div>
+<ul class="link"><li>for は弱形 /fɚ/</li></ul>
+<div class="kana">シーズ ザ ティーム ラナー フォー ギャザリング リソーシーズ フラム ザ ディープ ダーク ケイヴズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Every serious Minecraft <mark>runner</mark> practices daily to improve their speedrunning strategies.</p>
+<p class="ja">真剣なマインクラフトランナーはみんな毎日スピードラン戦略を改善するために練習する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvri ˈsɪrɪəs ˈmaɪnkræft ˈrʌnɚ ˈpræktɪsɪz ˈdeɪli tu ɪmˈpruv ðɛɚ ˈspiːdˌrʌnɪŋ ˈstɹætədʒiz/</div>
+<ul class="link"><li>their → r-color vowel /ɚ/</li></ul>
+<div class="kana">エヴリー シリアス マインクラフト ラナー プラクティシーズ デイリー トゥ イムプルーヴ ザイアー スピードラニング ストラテジーズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">runners</span><span class="fl">複数形</span><span class="fi">/ˈrʌnərz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/runner_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>runners</mark> collaborate to complete the Ender Dragon challenge speedrun.</p>
+<p class="ja">複数のランナーがエンダードラゴンチャレンジスピードランを完成させるために協力する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌɾɪpl̩ ˈrʌnərz kəˈlæbəreɪt tə kəmˈplit ðə ˈɛndɚ ˈdræɡən ˈtʃælɪndʒ ˈspiːdˌɹʌn/</div>
+<ul class="link"><li>runners collaborate → 語末の /z/ が collaborate の /k/ に続く（子音+子音、未開放） [ˈrʌnərz kəˈlæbəreɪt] ラナーズ コラボレイト</li><li>to complete → to は弱形 /tə/、complete の /k/ に続く [tə kəmˈplit] タ コンプリート</li><li>the Ender → the は弱形 /ðə/、Ender の /ɛ/ に連結 [ðə ˈɛndɚ] ザ エンダー</li><li>challenge speedrun → 語末の /dʒ/ が speedrun の /s/ に続く（子音+子音） [ˈtʃælɪndʒ ˈspiːdˌɹʌn] チャレンジ スピードラン</li></ul>
+<div class="kana">ムラティプル ラナーズ コラボレイト タ コンプリート ザ エンダー ドラゴン チャレンジ スピードラン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Fast <mark>runners</mark> can clear an entire level in just five minutes.</p>
+<p class="ja">速いランナーなら、わずか5分でレベル全体をクリアできる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/fæst ˈrʌnərz kən ˈklɪr ən ɪnˈtɑɪr ˈlɛvəl ɪn dʒʌst ˈfaɪv ˈmɪnɪɾz/</div>
+<ul class="link"><li>Fast runners → Fast の語末 /st/ が runners の /ɹ/ に続く（未開放） [fæst ˈrʌnərz] ファースト ラナーズ</li><li>runners can → 語末の /z/ が can の /k/ に続く（子音+子音、can は弱形 /kən/） [ˈrʌnərz kən] ラナーズ カン</li><li>an entire → an は弱形 /ən/、語末 /n/ が entire の /ɪ/ に連結 [ən ɪnˈtɑɪr] エン エンタイアー</li><li>in just → /n/ が /dʒ/ に続く（子音+子音） [ɪn dʒʌst] イン ジャスト</li></ul>
+<div class="kana">ファースト ラナーズ カン クリアー エン エンタイアー レベル イン ジャスト ファイヴ ミナリズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">be a runner</span><span class="im">ランナーである、走る人である、実行者である</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I've always been a <mark>runner</mark> since I started playing speedrunning games.</p>
+<p class="ja">スピードランゲームをプレイし始めてから、私はずっとランナーである。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/runner_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/runner_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪv ˈɔlweɪz bɪn ə ˈrʌnɚ sɪns aɪ ˈstɑɹtəd ˈpleɪɪŋ ˈspiːdˌrʌnɪŋ ˈɡeɪmz/</div>
+<ul class="link"><li>been a → been の /n/ が a の弱形 /ə/ に連結</li><li>a runner → a は弱形 /ə/ で runner に続く</li></ul>
+<div class="kana">アイヴ オールウェイズ ビン ア ラナー シンス アイ スターティッド プレイング スピードラニング ゲイムズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="runner";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

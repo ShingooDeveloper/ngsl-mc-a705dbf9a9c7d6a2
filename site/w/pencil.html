@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>pencil — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>pencil</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈpɛnsəl/</span><span class="lvl">CEFR A1</span><span class="tagbadge">ターゲット中学1800 #988</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】先端が鋭い筆記具；鉛筆（writing implement with a pointed tip）</li><li>【動詞】鉛筆で書く、描く、スケッチする（to write, mark, or draw with a pencil）</li><li>【動詞】暫定的に計画する、仮予定する（to schedule provisionally）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need a <mark>pencil</mark> to mark the mining coordinates on my map.</p>
+<p class="ja">地図に採掘座標を鉛筆で書き込む必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd ə ˈpɛnsəl tə ˈmɑːrk ðə ˈmaɪnɪŋ ˌkoʊˈɔːrdənɪts ɑn maɪ mæp/</div>
+<ul class="link"><li>「need a」— /d/ が /ə/ に連結。[ˈniːdə] ニーダ</li><li>「to」— 弱形 /tə/（強形は /tuː/）。[tə] タ</li><li>「the mining」— 「the」は弱形 /ðə/。[ðə] ザ</li></ul>
+<div class="kana">アイ ニーダ ペンスル タ マーク ザ マイニング コーオーディネッツ オン マイ マップ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Can you <mark>pencil</mark> in the build meeting tomorrow?</p>
+<p class="ja">明日の建築会議を仮予定してもらえますか？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kæn juː ˈpɛnsəl ɪn ðə ˈbɪld ˈmiːtɪŋ təˈmɑːroʊ/</div>
+<ul class="link"><li>「pencil in」— /l/ が /ɪ/ に連結。[ˈpɛnsəlɪn] ペンスリン</li><li>「in the」— /n/ が /ð/ に続き、「the」は弱形 /ðə/。[ɪn ðə] イン ザ</li></ul>
+<div class="kana">キャン ユー ペンスリン ザ ビルド ミーティング タマーロー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She <mark>penciled</mark> the redstone layout on paper before building.</p>
+<p class="ja">彼女は建築前に紙にレッドストーンの配置図を鉛筆で描いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈpɛnsəld ðə ˈrɛdstoʊn ˈleɪaʊt ɑn ˈpeɪpər bɪˈfɔːr ˈbɪldɪŋ/</div>
+<ul class="link"><li>「penciled the」— 「penciled」の /d/ は未開放で /ð/ に続く。[d̚ ðə] ペンスルッ ザ</li><li>「the redstone」— 「the」は弱形 /ðə/。[ðə] ザ</li><li>「on paper」— /n/ が /p/ に続くが別音節のため連結なし</li></ul>
+<div class="kana">シー ペンスルッ ザ レッドストーン レイアウト オン ペイパー ビフォー ビルディング</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">pencils</span><span class="fl">複数形</span><span class="fi">/ˈpɛnsəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I keep my colored <mark>pencils</mark> in the storage chest near my crafting table.</p>
+<p class="ja">クラフトテーブルの近くのストレージチェストに色鉛筆を保管しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈkiːp maɪ ˈkʌlərd ˈpɛnsəlz ɪn ðə ˈstɔːrɪdʒ tʃɛst nɪr maɪ ˈkræftɪŋ ˈteɪbəl]</div>
+<ul class="link"><li>crafting table — crafting の語末 /ŋ/ が table の初音 /t/ に続く</li></ul>
+<div class="kana">アイ キープ マイ カラード ペンスルズ イン ザ ストレッジ チェスト ニア マイ クラフティング テイブル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>pencils</mark> work perfectly for sketching out my building designs.</p>
+<p class="ja">これらのペンシルは建築設計のスケッチに完璧に機能します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðiːz ˈpɛnsəlz ˈwɝk ˈpɝfɪktli fɔr ˈskɛtʃɪŋ aʊt maɪ ˈbɪldɪŋ dɪˈzaɪnz]</div>
+<ul class="link"><li>perfectly for — perfectly の /i/ が for の弱形 /fɚ/ に続く</li></ul>
+<div class="kana">ディーズ ペンスルズ ワーク パーフェクトリー フォー スケッチング アウト マイ ビルディング ディザインズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">pencils</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈpɛnsəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>pencils</mark> out the mine shaft layout before we start digging.</p>
+<p class="ja">私たちが掘り始める前に、彼女は鉱山シャフトのレイアウトをペンシルで描きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ˈpɛnsəlz aʊt ðə ˈmaɪn ʃæft ˈleɪaʊt bɪˈfɔːr wi ˈstɑrt ˈdɪɡɪŋ]</div>
+<ul class="link"><li>out the — out の語末 /t/ が the の弱形 /ðə/ に先立つ未開放 [aʊt̚ ðə] アット ザ</li><li>start digging — start の語末 /t/ が digging の /d/ に先立つ未開放 [ˈstɑrt̚ ˈdɪɡɪŋ] スターッ ディギング</li></ul>
+<div class="kana">シー ペンスルズ アウト ザ マイン シャフト レイアウト ビフォア ウィ スターッ ディギング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>pencils</mark> in the coordinates for the secret base on his map.</p>
+<p class="ja">彼は秘密基地の座標を地図にペンシルで記入します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi ˈpɛnsəlz ɪn ðə ˌkoʊˈɔːrdənəts fɔr ðə ˈsikrət ˈbeɪs ɑn hɪz ˈmæp]</div>
+<ul class="link"><li>in the — in の語末 /n/ が the の初音 /ð/ に続く弱形連接</li></ul>
+<div class="kana">ヒー ペンスルズ イン ザ コーディネイツ フォー ザ シークレット ベイス オン ヒズ マップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">penciled</span><span class="fl">過去形</span><span class="fi">/ˈpɛnsəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>penciled</mark> the foundation layout on the ground before building the structure.</p>
+<p class="ja">構造物を建設する前に、基礎のレイアウトを地面にペンシルで描きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈpɛnsəld ðə ˌfaʊnˈdeɪʃən ˈleɪaʊt ɑn ðə ɡraʊnd bɪˈfɔːr ˈbɪldɪŋ ðə ˈstrʌktʃɚ]</div>
+<ul class="link"><li>before building — before の語末 /r/ が building の初音 /b/ に続く</li></ul>
+<div class="kana">アイ ペンスルド ザ ファウンデイション レイアウト オン ザ グラウンド ビフォア ビルディング ザ ストラクチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>penciled</mark> out all the tunnel routes on our map yesterday.</p>
+<p class="ja">昨日、私たちは地図にすべてのトンネルルートをペンシルで描きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈpɛnsəld aʊt ɔːl ðə ˈtʌnəl ˈraʊts ɑn ˈaʊɚ ˈmæp ˈjɛstɚdeɪ]</div>
+<ul class="link"><li>out all — out の語末 /t/ が all の初音 /ɔ/ に先立つ未開放 [aʊt̚ ɔl] アット オール</li></ul>
+<div class="kana">ウィ ペンスルド アウト オール ザ タンネル ラウツ オン アウア マップ イェスタデイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">penciled</span><span class="fl">過去分詞</span><span class="fi">/ˈpɛnsəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>penciled</mark> marks on the blueprint guide us through the construction project.</p>
+<p class="ja">ブループリント上のペンシルで描かれたマークは、建設プロジェクトを通じて私たちをガイドします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpɛnsəld ˈmɑrks ɑn ðə ˈblupˌprɪnt ˈɡaɪd ʌs ˈθruː ðə kənˈstrʌkʃən ˈprɑdʒɛkt]</div>
+<ul class="link"><li>guide us — guide の語末 /d/ が us の初音 /ʌ/ に続く</li></ul>
+<div class="kana">ザ ペンスルド マークス オン ザ ブループリント ガイド アス スルー ザ コンストラクション プロジェクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>penciled</mark> out the mine plan, we were ready to extract resources.</p>
+<p class="ja">採掘計画をペンシルで描き終わったので、リソース採取の準備ができました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˈpɛnsəld aʊt ðə ˈmaɪn ˈplæn | wi wɚ ˈrɛdi tu ɪkˈstrækt ˈrɛsɚsɪz]</div>
+<ul class="link"><li>out the — out の語末 /t/ が the の弱形 /ðə/ に先立つ未開放 [aʊt̚ ðə] アット ザ</li></ul>
+<div class="kana">ハビング ペンスルド アウト ザ マイン プラン ウィ ワー レディー タ イクストラクト リソーセズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">penciling</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She's <mark>penciling</mark> the building layout on the ground while we gather materials.</p>
+<p class="ja">私たちが材料を集める間、彼女は地面に建築レイアウトをペンシルで描いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃiz ˈpɛnsəlɪŋ ðə ˈbɪldɪŋ ˈleɪaʊt ɑn ðə ɡraʊnd ˈwaɪl wi ˈɡæðɚ məˈtɪɹiəlz]</div>
+<ul class="link"><li>She's penciling — She's の /z/ が penciling の初音 /p/ に連結 [ʃiz ˈpɛnsəlɪŋ] シーズ ペンスルリング</li><li>gather materials — gather の語末 /r/ が materials の初音 /m/ に続く</li></ul>
+<div class="kana">シーズ ペンスルリング ザ ビルディング レイアウト オン ザ グラウンド ホワイル ウィ ギャザー マテリアルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>penciling</mark> out the underground tunnel system on my notebook.</p>
+<p class="ja">ノートブックに地下トンネルシステムをペンシルで描き出しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˈpɛnsəlɪŋ aʊt ðə ˌʌndɚˈɡraʊnd ˈtʌnəl ˈsɪstəm ɑn maɪ ˈnoʊtˌbʊk]</div>
+<ul class="link"><li>I'm penciling — I'm の /m/ が penciling の初音 /p/ に連結 [aɪm ˈpɛnsəlɪŋ] アイム ペンスルリング</li><li>out the — out の語末 /t/ が the の弱形 /ðə/ に先立つ未開放 [aʊt̚ ðə] アット ザ</li></ul>
+<div class="kana">アイム ペンスルリング アウト ザ アンダーグラウンド タンネル システム オン マイ ノートブック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is penciling</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>penciling</mark> in the details of the fortress design on my notepad.</p>
+<p class="ja">砦の設計の詳細をメモ帳にえんぴつで記入中です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈpɛnsəlɪŋ ɪn ðə dɪˈteɪlz əv ðə ˈfɔɹtɚs dɪˈzaɪn ɑn maɪ ˈnoʊtˌpæd/</div>
+<ul class="link"><li>I'm penciling: I'm の /aɪm/ が penciling の /p/ に続く [aɪm ˈpɛnsəlɪŋ]「アイム ペンセリング」</li><li>penciling in: penciling の語末 /ŋ/ が in の母音 /ɪ/ に連結 [ˈpɛnsəlɪŋ ɪn]「ペンセリング イン」</li><li>in the: in の /ɪn/ が弱形 the /ðə/ に続く [ɪn ðə]「イン ザ」</li><li>of the: of の弱形 /əv/ が弱形 the /ðə/ に連結 [əv ðə]「アヴ ザ」</li></ul>
+<div class="kana">アイム ペンセリング イン ザ ディテイルズ アヴ ザ フォートレス ディザイン オン マイ ノートパッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>penciling</mark> the map to mark all the ore locations in the cave system.</p>
+<p class="ja">彼女は洞窟システムの鉱石の位置をすべてマークするために地図をえんぴつで描いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈɪz ˈpɛnsəlɪŋ ðə ˈmæp tə ˈmɑɹk ɔl ðə ˈoɹ loʊˈkeɪʃənz ɪn ðə ˈkeɪv ˈsɪstəm/</div>
+<ul class="link"><li>She is: she は弱形 /ʃi/ で、is の弱形 /ɪz/ に続く [ʃi ˈɪz]「シー イズ」</li><li>is penciling: is の弱形 /ɪz/ が penciling の /p/ に連結 [ˈɪz ˈpɛnsəlɪŋ]「イズ ペンセリング」</li><li>penciling the: penciling の語末 /ŋ/ が弱形 the /ðə/ に連結 [ˈpɛnsəlɪŋ ðə]「ペンセリング ザ」</li><li>in the: in の /ɪn/ が弱形 the /ðə/ に続く [ɪn ðə]「イン ザ」</li></ul>
+<div class="kana">シー イズ ペンセリング ザ マップ タ マーク オール ザ オー ロウケイションズ イン ザ ケイブ システム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was penciling</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>penciling</mark> my redstone circuit designs when the endermen started attacking.</p>
+<p class="ja">エンダーマンが攻撃を始めたとき、私はレッドストーン回路の設計をえんぴつで描いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈpɛnsəlɪŋ maɪ ˈɹɛdˌstoʊn ˈsɜɹkɪt dɪˈzaɪnz wɛn ðə ˈɛndɚˌmɛn ˈstɑɹtɪd əˈtækɪŋ/</div>
+<ul class="link"><li>was penciling: was の弱形 /wəz/ が penciling の /p/ に連結 [wəz ˈpɛnsəlɪŋ]「ワズ ペンセリング」</li><li>penciling my: penciling の語末 /ŋ/ が my の /m/ に続く [ˈpɛnsəlɪŋ maɪ]「ペンセリング マイ」</li><li>the endermen: the は弱形 /ðə/、endermen /ɛ/ に続く [ðə ˈɛndɚˌmɛn]「ザ エンダーメン」</li><li>started attacking: started の語末 /ɪd/ が attacking の /ə/ に連結 [ˈstɑɹtɪd əˈtækɪŋ]「スターティド アタッキング」</li></ul>
+<div class="kana">アイ ワズ ペンセリング マイ レッドストーン サーキット ディザインズ ウェン ザ エンダーメン スターティド アタッキング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>penciling</mark> in the coordinates for the nether portal when the sun set.</p>
+<p class="ja">太陽が沈んだとき、彼らはネザーポータルの座標をえんぴつで記入していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈpɛnsəlɪŋ ɪn ðə koʊˈɔɹdɪnɪts fɚ ðə ˈnɛðɚ ˈpoɹtəl wɛn ðə ˈsʌn ˈsɛt/</div>
+<ul class="link"><li>were penciling: were の弱形 /wɚ/ が penciling の /p/ に連結 [wɚ ˈpɛnsəlɪŋ]「ワー ペンセリング」</li><li>penciling in: penciling の語末 /ŋ/ が in の母音 /ɪ/ に連結 [ˈpɛnsəlɪŋ ɪn]「ペンセリング イン」</li><li>for the: for の弱形 /fɚ/ が弱形 the /ðə/ に連結 [fɚ ðə]「ファー ザ」</li><li>the nether: the は弱形 /ðə/、nether /n/ に続く [ðə ˈnɛðɚ]「ザ ネザー」</li></ul>
+<div class="kana">ザイ ワー ペンセリング イン ザ コーディニッツ ファー ザ ネザー ポータル ウェン ザ サン セット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been penciling</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He had been <mark>penciling</mark> out the mining tunnels for three hours when he found the diamond ore.</p>
+<p class="ja">ダイヤモンド鉱石を見つけたとき、彼は採鉱トンネルをえんぴつで描いて3時間経っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həd bɪn ˈpɛnsəlɪŋ aʊt ðə ˈmaɪnɪŋ ˈtʌnəlz fɚ ˈθɹi ˈaʊɚz wɛn hi ˈfaʊnd ðə ˈdaɪmənd ˈoɹ/</div>
+<ul class="link"><li>had been: had の弱形 /həd/ が been の /b/ に連結 [həd bɪn]「ハド ビン」</li><li>been penciling: been の弱形 /bɪn/ が penciling の /p/ に連結 [bɪn ˈpɛnsəlɪŋ]「ビン ペンセリング」</li><li>penciling out: penciling の語末 /ŋ/ が out の母音 /aʊ/ に連結 [ˈpɛnsəlɪŋ aʊt]「ペンセリング アウト」</li><li>for three: for の弱形 /fɚ/ が three の /θ/ に続く [fɚ ˈθɹi]「ファー スリー」</li></ul>
+<div class="kana">ヒー ハド ビン ペンセリング アウト ザ マイニング タンネルズ ファー スリー アワーズ ウェン ヒー ファウンド ザ ダイモンド オア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the builder arrived, she had been <mark>penciling</mark> the fortress blueprints all morning.</p>
+<p class="ja">ビルダーが到着したとき、彼女は一朝中砦の青写真をえんぴつで描いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈbɪldɚ əˈɹaɪvd ʃi həd bɪn ˈpɛnsəlɪŋ ðə ˈfɔɹtɚs ˈbluːˌprɪnts ɔl ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>the time: the は弱形 /ðə/、time /t/ に続く [ðə ˈtaɪm]「ザ タイム」</li><li>had been: had の弱形 /həd/ が been の /b/ に連結 [həd bɪn]「ハド ビン」</li><li>been penciling: been の弱形 /bɪn/ が penciling の /p/ に連結 [bɪn ˈpɛnsəlɪŋ]「ビン ペンセリング」</li><li>penciling the: penciling の語末 /ŋ/ が弱形 the /ðə/ に連結 [ˈpɛnsəlɪŋ ðə]「ペンセリング ザ」</li></ul>
+<div class="kana">バイ ザ タイム ザ ビルダー アライヴド シー ハド ビン ペンセリング ザ フォートレス ブループリンツ オール モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has penciled</span><span class="fl">現在完了形（has penciled）</span><span class="fi">/həz ˈpɛnsəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has <mark>penciled</mark> the entire perimeter of the base on the blueprint.</p>
+<p class="ja">彼はブループリントにベースの全周を鉛筆で描きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz ˈpɛnsəld ðɪ ənˈtaɪɚ pəˈrɪmɪtɚ əv ðə ˈbeɪs ɑn ðə ˈbluˌprɪnt/</div>
+<ul class="link"><li>has は弱形 /həz/ [ハズ]</li><li>penciled の語末 /d/ が the の弱形 /ðɪ/ に連結 [ˈpɛnsəld ðɪ] [ペンセルド ザ]</li><li>on は /ɑn/</li></ul>
+<div class="kana">ヒー ハズ ペンセルド ザ エンタイアー パリミター アヴ ザ ベイス オン ザ ブループリント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>penciled</mark> in all the major structural points for the rebuild.</p>
+<p class="ja">我々は再建のためにすべての主要な構造ポイントを鉛筆で描きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ˈpɛnsəld ɪn ɔl ðə ˈmeɪdʒɚ ˈstrʌktʃərəl ˈpɔɪnts fɚ ðə rɪˈbɪld/</div>
+<ul class="link"><li>have は弱形 /həv/ [ハヴ]</li><li>in は /ɪn/</li><li>all は /ɔl/；the は弱形 /ðə/ [ザ]</li><li>for は弱形 /fɚ/ [ファ]；the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">ウィー ハヴ ペンセルド イン オール ザ メイジャー ストラクチャラル ポイントス ファー ザ リビルド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had penciled</span><span class="fl">過去完了形（had penciled）</span><span class="fi">/həd ˈpɛnsəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the admin arrived, I had <mark>penciled</mark> in all the farm locations on the map.</p>
+<p class="ja">管理者が到着する前に、私はマップにすべての農場の場所を鉛筆で描きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr ðə ˈædmɪn əˈraɪvd aɪ həd ˈpɛnsəld ɪn ɔl ðə ˈfɑrm loʊˈkeɪʃənz ɑn ðə ˈmæp/</div>
+<ul class="link"><li>the は弱形 /ðə/ [ザ]</li><li>had は弱形 /həd/ [ハド]；penciled の語末 /d/ が in の /ɪ/ に連結 [ˈpɛnsəld ɪn] [ペンセルド イン]</li><li>the は弱形 /ðə/ [ザ]</li><li>on は /ɑn/</li></ul>
+<div class="kana">ビフォア ザ アドミン アライブド アイ ハド ペンセルド イン オール ザ ファーム ローケイションズ オン ザ マップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>penciled</mark> the tunnel routes weeks ago before construction began.</p>
+<p class="ja">彼らは建設が始まる数週間前にトンネルルートを鉛筆で描いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd ˈpɛnsəld ðə ˈtʌnəl ˈruts ˈwiks ˈæɡoʊ bɪˈfɔr kənˈstrʌkʃən bɪˈɡæn/</div>
+<ul class="link"><li>had は弱形 /həd/ [ハド]；penciled と the の間、penciled の語末 /d/ が the の弱形 /ðə/ に連結 [ˈpɛnsəld ðə]</li><li>the は弱形 /ðə/ [ザ]</li><li>before は /bɪˈfɔr/</li></ul>
+<div class="kana">ザイ ハド ペンセルド ザ タンネル ルーツ ウィークス アゴー ビフォア コンストラクション ビガン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been penciling</span><span class="fl">現在完了進行形（has been penciling）</span><span class="fi">/həz bɪn ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>penciling</mark> the designs for the castle tower all afternoon.</p>
+<p class="ja">彼女は午後ずっと城の塔のデザインを鉛筆で描き続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˈpɛnsəlɪŋ ðə dɪˈzaɪnz fɚ ðə ˈkæsəl ˈtaʊɚ ɔl ˈæftɚˌnun/</div>
+<ul class="link"><li>has は弱形 /həz/ [ハズ]；been は弱形 /bɪn/ [ビン]</li><li>penciling の語末 /ŋ/ が the の子音 /ð/ に先行、未開放で発音 [ˈpɛnsəlɪŋ̚ðə] [ペンセリングザ]</li><li>the は弱形 /ðə/ [ザ]</li><li>for は弱形 /fɚ/ [ファー]；the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">シー ハズ ビン ペンセリングザ デザインズ ファー ザ キャッスル タウアー オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have been <mark>penciling</mark> the mine shaft dimensions on the planning board all week.</p>
+<p class="ja">彼らは1週間ずっと計画ボードに鉱山軸の寸法を鉛筆で描き続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv bɪn ˈpɛnsəlɪŋ ðə ˈmaɪn ˈʃæft dɪˈmɛnʃənz ɑn ðə ˈplænɪŋ ˈbɔrd ɔl ˈwik/</div>
+<ul class="link"><li>have は弱形 /həv/ [ハヴ]；been は弱形 /bɪn/ [ビン]</li><li>penciling の語末 /ŋ/ が the の子音 /ð/ に先行、未開放 [ˈpɛnsəlɪŋ̚ðə] [ペンセリングザ]</li><li>the は弱形 /ðə/ [ザ]</li><li>on は /ɑn/；the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">ザイ ハヴ ビン ペンセリングザ マイン シャフト ディメンションズ オン ザ プランニング ボード オール ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will pencil</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈpɛnsəl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>pencil</mark> in the coordinates for the new mining tunnel tomorrow.</p>
+<p class="ja">明日、新しい鉱山トンネルの座標を記入します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈpɛnsəl ɪn ðə ˈkoʊɚˌdɪneɪts fɔr ðə ˈnu ˈmaɪnɪŋ ˈtʌnəl təˈmɑroʊ/</div>
+<ul class="link"><li>pencil in → pencil の語末 /l/ が in の母音 /ɪ/ に連結</li><li>for the → for の語末 /r/ が弱形 the /ðə/ に続く</li></ul>
+<div class="kana">アイル ペンセリン ザ コーディネイツ フォー ザ ニュー マイニング タンネル トゥモロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>pencil</mark> out the layout of our new redstone contraption.</p>
+<p class="ja">私たちの新しいレッドストーン装置のレイアウトをスケッチします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil ˈpɛnsəl aʊt ðə ˈleɪaʊt əv aʊɚ ˈnu ˈrɛdˌstoʊn kənˈtræpʃən/</div>
+<ul class="link"><li>pencil out → pencil の語末 /l/ が out の母音 /aʊ/ に連結</li><li>of our → 弱形 /əv/ が /aʊ/ に連結</li></ul>
+<div class="kana">ウィル ペンセラウト ザ レイアウト アヴ アワー ニュー レッドストーン コントラプション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be penciling</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈpɛnsəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be <mark>penciling</mark> in the route to the village while you gather supplies.</p>
+<p class="ja">あなたが補給品を集めている間に、私は村への道をスケッチしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈpɛnsəlɪŋ ɪn ðə ˈrut tu ðə ˈvɪlɪdʒ waɪl ju ˈɡæðər səˈplaɪz/</div>
+<ul class="link"><li>penciling in → /ŋ/ が /ɪ/ に続く</li></ul>
+<div class="kana">アイル ビー ペンセリン ザ ルート タ ザ ヴィレッジ ワイル ユー ギャザー サプライズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll be <mark>penciling</mark> out the cave system when I arrive at the base.</p>
+<p class="ja">私がベースに到着するとき、彼は洞窟システムをスケッチしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil bi ˈpɛnsəlɪŋ aʊt ðə ˈkeɪv ˈsɪstəm wɛn aɪ əˈɹaɪv æt ðə ˈbeɪs/</div>
+<ul class="link"><li>penciling out → /ŋ/ が /aʊ/ に続く</li></ul>
+<div class="kana">ヒール ビー ペンセリングアウト ザ ケイヴ システム ウェン アイ アライヴ エット ザ ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have penciled</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈpɛnsəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/pencil_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, I will have <mark>penciled</mark> in all the biome locations on my map.</p>
+<p class="ja">来週までに、私はマップ上のすべてのバイオームの位置を記入し終わります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik aɪ wɪl həv ˈpɛnsəld ɪn ɔl ðə ˈbaɪoʊm loʊˈkeɪʃənz ɑn maɪ ˈmæp/</div>
+<ul class="link"><li>penciled in → /d/ が /ɪ/ に連結</li></ul>
+<div class="kana">バイ ネクスト ウィーク アイ ウィル ハヴ ペンセルディン オール ザ バイオーム ロケイションズ オン マイ マップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>penciled</mark> out the entire base design before the creative contest.</p>
+<p class="ja">創作コンテストの前に、彼らはベース全体のデザインをスケッチし終わります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl həv ˈpɛnsəld aʊt ðə ənˈtaɪɚ ˈbeɪs dɪˈzaɪn bɪˈfɔr ðə kriˈeɪtɪv ˈkɑntest/</div>
+<ul class="link"><li>penciled out → /d/ が /aʊ/ に連結</li><li>before the → /r/ が弱形 /ðə/ に連結</li></ul>
+<div class="kana">ザイ ウィル ハヴ ペンセルダウト ザ エンタイア ベイス ディザイン ビフォー ザ クリエイティヴ コンテスト</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">pencil in</span><span class="im">（～を）暫定的に計画する、仮予定する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Let's <mark>pencil</mark> in the mining expedition for Saturday afternoon.</p>
+<p class="ja">土曜日の午後の採掘遠征を仮予定しましょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/pencil_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/pencil_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/lɛts ˈpɛnsəl ɪn ðə ˈmaɪnɪŋ ɪkˈspɛdɪʃən fɔr ˈsætərdeɪ ˈæftərnuːn/</div>
+<ul class="link"><li>「pencil in」— /l/ が /ɪ/ に連結。[ˈpɛnsəlɪn] ペンスリン</li><li>「in the」— /n/ と /ð/ が続き、「the」は弱形 /ðə/。[ɪn ðə] イン ザ</li></ul>
+<div class="kana">レッツ ペンスリン ザ マイニング イクスペディション フォー サタデイ アフタヌーン</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="pencil";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

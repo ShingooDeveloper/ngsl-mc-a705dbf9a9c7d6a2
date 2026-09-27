@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>cloudy — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>cloudy</h2><span class="pos">形容詞</span><span class="ipa-head">/ˈklaʊdi/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット中学1800 #1340</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cloudy.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【形容詞】雲で覆われた、曇った（空や天候について）（The sky is cloudy when covered with clouds.）</li><li>【形容詞】濁った、透明でない（液体について）（Water becomes cloudy if mixed with particles.）</li><li>【形容詞】曖昧な、不明確な、ぼんやりした（思考や計画について）（The mining strategy is too cloudy.）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The sky looks very <mark>cloudy</mark>, so it might rain soon.</p>
+<p class="ja">空がとても曇っているので、もうすぐ雨が降りそうです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈskaɪ ˈlʊks ˈvɛri ˈklaʊdi soʊ ɪt̚ ˈmaɪt̚ reɪn ˈsuːn]</div>
+<ul class="link"><li>The [ðə] - 機能語の弱形「ザ」</li><li>it might - 両方とも語末の /t/ が次の子音の前で未開放 [ɪt̚ ˈmaɪt̚]「イッ マイッ」</li></ul>
+<div class="kana">ザ スカイ ルックス ベリー クラウディー ソー イッ マイッ レイン スーン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The water here is <mark>cloudy</mark> because of the lava mixing.</p>
+<p class="ja">このエリアの水は溶岩が混ざっていて濁っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɔɾər ˈhɪr ɪz ˈklaʊdi bɪˈkɑzəv ðə ˈlɑːvə ˈmɪksɪŋ]</div>
+<ul class="link"><li>water - 語末の /t/ が母音に挟まれてフラップ化 [ɾ]「ウォーラー」</li><li>because of - 語末の /z/ が 'of' の弱形の初頭母音に連結「ビコーザヴ」</li></ul>
+<div class="kana">ザ ウォーラー ヒア イズ クラウディー ビコーザヴ ザ ラーバ ミックシング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My route is <mark>cloudy</mark>; I should mark waypoints first.</p>
+<p class="ja">採掘ルートが不明確です。最初にウェイポイントをマークするべきです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[maɪ ˈruːɾ ɪz ˈklaʊdi aɪ ˈʃʊd̚ ˈmɑrk ˈweɪpɔɪnts ˈfɝst]</div>
+<ul class="link"><li>route - 語末の /t/ が母音に挟まれてフラップ化 [ɾ]「ルーラー」</li><li>should - 語末の /d/ が次の子音の前で未開放 [d̚]「シュッ」</li></ul>
+<div class="kana">マイ ルーラー イズ クラウディー アイ シュッ マーク ウェイポインツ ファースト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">cloudier</span><span class="fl">比較級</span><span class="fi">/ˈklaʊdiɚ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cloudy_form_comparative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The water is cloudier here than at the main base.</p>
+<p class="ja">ここの水は主要基地よりも濁っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_form_comparative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_form_comparative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɔɾɚ ɪz ˈklaʊdiɚ ˈhɪr ðæn æt̚ ðə ˈmeɪn ˈbeɪs]</div>
+<ul class="link"><li>at the - at の語末 /t/ が the の弱形 /ðə/ に先立つ未開放 [æt̚ ðə]「アッ ザ」</li></ul>
+<div class="kana">ザ ウォーラー イズ クラウディア ヒア ザン アッ ザ メイン ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This cave is cloudier due to all the dust and sand falling.</p>
+<p class="ja">この洞窟はたくさんの砂塵が落ちてくるので濁っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_form_comparative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_form_comparative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ˈkeɪv ɪz ˈklaʊdiɚ ˈdu tu ˈɔl ðə ˈdʌst ənd ˈsænd ˈfɔlɪŋ]</div>
+<ul class="link"><li>all the - all の語末 /l/ が the の弱形 /ðə/ に連結「オール ザ」</li><li>dust and - dust の語末 /t/ が and の /æ/ に連結「ダスタン」</li></ul>
+<div class="kana">ディス ケイブ イズ クラウディア ドゥ トゥ オール ザ ダスタン サンド フォーリング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">cloudiest</span><span class="fl">最上級</span><span class="fi">/ˈklaʊdiəst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cloudy_form_superlative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That's the cloudiest water we've seen since we built this base.</p>
+<p class="ja">ここの基地を建設してから見た水の中で最も濁っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_form_superlative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_form_superlative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðæts ðə ˈklaʊdiəst ˈwɔɾɚ wiv ˈsin sɪns wi ˈbɪlt ðɪs ˈbeɪs]</div>
+<ul class="link"></ul>
+<div class="kana">ザッツ ザ クラウディエスト ウォーラー ウィーヴ シーン シンス ウィ ビルト ディッ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This is the cloudiest spot we've found for our mining operations.</p>
+<p class="ja">採掘作業の為にここは最も濁ったスポットです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cloudy_form_superlative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cloudy_form_superlative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ɪz ðə ˈklaʊdiəst ˈspɑt̚ wiv ˈfaʊnd fər ɑɚ ˈmaɪnɪŋ ˌɑpəˈreɪʃənz]</div>
+<ul class="link"><li>spot we've - spot の語末 /t/ が we've の /w/ に先立つ未開放「スパッ ウィーヴ」</li><li>for our - for の弱形 /fər/ が our の /ɑɚ/ に連結「フォア アウア」</li></ul>
+<div class="kana">ディス イズ ザ クラウディエスト スパッ ウィーヴ ファウンド フォア アウア マイニング オペレーションズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="cloudy";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

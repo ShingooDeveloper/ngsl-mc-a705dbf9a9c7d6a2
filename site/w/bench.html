@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>bench — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>bench</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/bɛntʃ/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット中学1800 #1519</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】椅子のような座席で複数人が座れるもの（a long narrow seat for several people to sit on）</li><li>【名詞】作業台や機械操作用の台。クラフティングテーブルなど（a work table; crafting station）</li><li>【動詞】選手をベンチから外す、試合から除外する（to remove a player from active play; to substitute out）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We'll take a <mark>bench</mark> up to the roof.</p>
+<p class="ja">屋根までベンチを持ち上げます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiːl teɪk ə bɛntʃ ʌp tu ðə ruːf/</div>
+<ul class="link"><li>take a: 語末の /k/ が /ə/ に連結 [teɪkə] テイカ</li><li>up to: 語末の /p/ が弱形 to の /ə/ に連結 [ʌptə] アップター</li></ul>
+<div class="kana">ウィール テイカ ベンチ アップター ザ ルーフ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Let me build a <mark>bench</mark> out of wood.</p>
+<p class="ja">木からベンチを作ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/lɛt miː bɪld ə bɛntʃ aʊt əv wʊd/</div>
+<ul class="link"><li>build a: 語末の /d/ が /ə/ に連結 [bɪldə] ビルダ</li><li>out of: t が母音に挟まれフラップ化し連結 [aʊɾəv] アウラヴ。of は弱形 /əv/</li></ul>
+<div class="kana">レッ ミー ビルダ ベンチ アウラヴ ウッド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Please set up a <mark>bench</mark> and wait for me.</p>
+<p class="ja">ベンチをセットアップして、私を待ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/pliːz sɛt ʌp ə bɛntʃ ənd weɪt fɔr miː/</div>
+<ul class="link"><li>set up: 語末の /t/ が未開放で /ʌp/ に続く [sɛt̚ʌp] セッ アップ</li><li>up a: 語末の /p/ が /ə/ に連結 [ʌpə] アプア</li></ul>
+<div class="kana">プリーズ セッ アプア ベンチ アンド ウェイト フォア ミー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">benches</span><span class="fl">複数形</span><span class="fi">/ˈbɛntʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We placed wooden <mark>benches</mark> throughout the village square.</p>
+<p class="ja">村の広場全体に木製のベンチを配置した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi pleɪst ˈwʊdn̩ ˈbɛntʃɪz θruːˈaʊt ðə ˈvɪlɪdʒ ˈskwɛr/</div>
+<ul class="link"><li>benches の語末子音 /z/ が throughout の初頭 /θ/ に続く (子音+子音で連結なし)</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィ プレイスト ウッドゥン ベンチーズ スルーアウト ザ ヴィレッジ スクウェア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>All the <mark>benches</mark> are made from oak wood.</p>
+<p class="ja">すべてのベンチはオーク材でできています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ðə ˈbɛntʃɪz ɑr meɪd frəm oʊk ˈwʊd/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>benches の語末子音 /z/ が are の初頭母音 /ɑ/ に連結 [ˈbɛntʃɪz ɑr] ベンチーズ アー</li><li>from は前置詞で弱形 /frəm/</li></ul>
+<div class="kana">オール ザ ベンチーズ アー メイド フラム オウク ウッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">benches</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈbɛntʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>benches</mark> any player who refuses to follow the rules.</p>
+<p class="ja">彼はルールに従わないプレイヤーを外す。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈbɛntʃɪz ˈɛni ˈpleɪər huː rɪˈfjuz tə ˈfɑloʊ ðə ˈrulz/</div>
+<ul class="link"><li>benches の語末子音 /z/ が any の初頭母音 /ɛ/ に連結 [ˈbɛntʃɪz ˈɛni] ベンチーズ エニー</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ヒー ベンチーズ エニー プレイヤー フー リフューズ タ フォロウ ザ ルールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server admin <mark>benches</mark> inactive players every month.</p>
+<p class="ja">サーバー管理者は毎月非アクティブなプレイヤーを外す。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrvər ˈædmɪn ˈbɛntʃɪz ɪnˈæktɪv ˈpleɪərz ˈɛvri ˈmʌnθ/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>benches の語末子音 /z/ が inactive の初頭 /ɪ/ に連結 [ˈbɛntʃɪz ɪnˈæktɪv] ベンチーズ イナクティヴ</li></ul>
+<div class="kana">ザ サーヴァー アドミン ベンチーズ イナクティヴ プレイヤーズ エヴァリー マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">benched</span><span class="fl">過去形</span><span class="fi">/bɛntʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The manager <mark>benched</mark> him for not following team strategy.</p>
+<p class="ja">マネージャーはチーム戦略に従わないため、彼を外した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmænɪdʒər ˈbɛntʃt hɪm fɔr nɑt ˈfɑloʊɪŋ ˈtim strəˈtɛdʒi/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>benched の語末子音 /t/ が him の初頭 /h/ に続く (子音+子音で連結なし)</li><li>for は前置詞で弱形 /fɔr/</li></ul>
+<div class="kana">ザ マネージャー ベンチト ヒム フォア ノット フォロウイング ティーム ストラテジー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>benched</mark> my mining tools while I worked on construction.</p>
+<p class="ja">建築作業をしている間、採掘道具を置いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbɛntʃt maɪ ˈmaɪnɪŋ tulz waɪl aɪ ˈwɝkt ɑn kənˈstrʌkʃən/</div>
+<ul class="link"><li>benched の語末子音 /t/ が my の初頭 /m/ に続く (子音+子音で連結なし)</li><li>worked の語末 /t/ が on の初頭母音 /ɑ/ に連結 [ˈwɝkt ɑn] ワークト オン</li></ul>
+<div class="kana">アイ ベンチト マイ マイニング ツールズ ワイル アイ ワークト オン コンストラクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">benched</span><span class="fl">過去分詞</span><span class="fi">/bɛntʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having been <mark>benched</mark> by the admin, the player complained on the forum.</p>
+<p class="ja">管理者から外されたプレイヤーはフォーラムで不平を言った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæviŋ bɪn ˈbɛntʃt baɪ ðə ˈædmɪn, ðə ˈpleɪər kəmˈpleɪnd ɑn ðə ˈfɔrəm/</div>
+<ul class="link"><li>been は /bɪn/ で benched の /b/ に続く (子音+子音で連結なし)</li><li>benched の語末子音 /t/ が by の初頭 /b/ に続く (子音+子音で連結なし)</li><li>by は前置詞で弱形 /baɪ/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ハヴィング ビン ベンチト バイ ザ アドミン ザ プレイヤー コンプレインド オン ザ フォーラム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>benched</mark> equipment was stored safely in the chest.</p>
+<p class="ja">据え置かれた機器は安全に宝箱に保管されていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɛntʃt ɪˈkwɪpmənt wəz ˈstɔrd ˈseɪfli ɪn ðə ˈtʃɛst/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>benched は過去分詞形容詞 /ˈbɛntʃt/ で equipment の /ɪ/ に続く (子音+子音で連結なし)</li><li>was は弱形 /wəz/</li><li>in は前置詞で弱形 /ɪn/</li></ul>
+<div class="kana">ザ ベンチト イクウィップメント ワズ ストアード セイフリー イン ザ チェスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">benching</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin is <mark>benching</mark> players who are inactive for over a month.</p>
+<p class="ja">管理者は1ヶ月以上非アクティブなプレイヤーを外しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn ɪz ˈbɛntʃɪŋ ˈpleɪərz huː ɑr ɪnˈæktɪv fɔr ˈoʊvər ə ˈmʌnθ/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>is の語末子音 /z/ が benching の初頭母音 /ə/ に連結 [ɪz ˈbɛntʃɪŋ] イズ ベンチング</li><li>for は前置詞で弱形 /fɔr/</li></ul>
+<div class="kana">ザ アドミン イズ ベンチング プレイヤーズ フー アー イナクティヴ フォア オーヴァー ア マンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Benching</mark> your best tools gives you inventory space.</p>
+<p class="ja">最高のツールを置くことでインベントリスペースが得られます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbɛntʃɪŋ jɔr bɛst tulz ɡɪvz jə ɪnˈvɛn.tə.ri speɪs/</div>
+<ul class="link"><li>gives の語末子音 /z/ が you の初頭半母音 /j/ に連結 [ɡɪvz jə] ギヴス ユー</li><li>your は /jɔr/ で jor のように発音される場合がある</li></ul>
+<div class="kana">ベンチング ユア ベスト ツールズ ギヴズ ユー インベントリー スペイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is benching</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin is <mark>benching</mark> players who grief the server.</p>
+<p class="ja">管理者はサーバーを荒らすプレイヤーを外しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn ɪz ˈbɛntʃɪŋ ˈpleɪərz huː ɡrif ðə ˈsɜrvər/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>is の語末子音 /z/ が benching の初頭子音 /b/ に続く (子音+子音で連結なし)</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ アドミン イズ ベンチング プレイヤーズ フー グリフ ザ サーヴァー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>benching</mark> my old tools to focus on building.</p>
+<p class="ja">建築に集中するために古いツールを置いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əm ˈbɛntʃɪŋ maɪ oʊld tulz tə ˈfoʊkəs ɑn ˈbɪldɪŋ/</div>
+<ul class="link"><li>am は助動詞で弱形 /əm/</li><li>focus の語末子音 /s/ が on の初頭母音 /ɑ/ に連結 [ˈfoʊkəs ɑn] フォーカス オン</li><li>on は前置詞で弱形 /ɑn/</li></ul>
+<div class="kana">アイ アム ベンチング マイ オウルド ツールズ タ フォーカス オン ビルディング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was benching</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The manager was <mark>benching</mark> inactive players during the tournament.</p>
+<p class="ja">トーナメント中、マネージャーは非アクティブなプレイヤーを外していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmænɪdʒər wəz ˈbɛntʃɪŋ ɪnˈæktɪv ˈpleɪərz ˈdurɪŋ ðə ˈtɔrnəmənt/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>was は助動詞で弱形 /wəz/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ マネージャー ワズ ベンチング イナクティヴ プレイヤーズ ドューリング ザ トーナメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>benching</mark> their best members while defending the base.</p>
+<p class="ja">基地を守っている間、彼らは最高のメンバーを外していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˈbɛntʃɪŋ ðɛɚ bɛst ˈmɛmbərz waɪl dɪˈfɛndɪŋ ðə ˈbeɪs/</div>
+<ul class="link"><li>were は助動詞で弱形 /wər/</li><li>their の語末 /r/ が best の初頭子音 /b/ に続く (子音+子音で連結なし)</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ゼイ ウェア ベンチング ゼア ベスト メンバーズ ワイル ディフェンディング ザ ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been benching</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin had been <mark>benching</mark> players for weeks before the server reset.</p>
+<p class="ja">サーバーリセットの前の数週間、管理者はプレイヤーを外していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn həd bɪn ˈbɛntʃɪŋ ˈpleɪərz fɔr wiks bɪˈfɔr ðə ˈsɜrvər rɪˈsɛt/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は助動詞で弱形 /həd/</li><li>been は助動詞で弱形 /bɪn/</li><li>for は前置詞で弱形 /fɔr/</li></ul>
+<div class="kana">ザ アドミン ハド ビン ベンチング プレイヤーズ フォア ウィークス ビフォア ザ サーヴァー リセット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>benching</mark> weak equipment since I found the diamond mine.</p>
+<p class="ja">ダイヤ鉱脈を見つけてから、弱いツールを置き続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈbɛntʃɪŋ wik ɪˈkwɪpmənt sɪns aɪ faʊnd ðə ˈdaɪəmənd ˈmaɪn/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/</li><li>been は助動詞で弱形 /bɪn/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ハド ビン ベンチング ウィク イクウィップメント シンス アイ ファウンド ザ ダイアモンド マイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has benched</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈbɛntʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin has <mark>benched</mark> several inactive players this season.</p>
+<p class="ja">管理者は今シーズン何人かの非アクティブなプレイヤーを外した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn həz ˈbɛntʃt ˈsɛvərəl ɪnˈæktɪv ˈpleɪərz ðɪs ˈsizən/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>has は助動詞で弱形 /həz/</li><li>benched の語末子音 /t/ が several の初頭子音 /s/ に続く (子音+子音で連結なし)</li></ul>
+<div class="kana">ザ アドミン ハズ ベンチト セヴァラル イナクティヴ プレイヤーズ ディス シーズン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>benched</mark> my old mining setup since I found diamonds.</p>
+<p class="ja">ダイヤを見つけてから、古い採掘道具は外しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈbɛntʃt maɪ oʊld ˈmaɪnɪŋ ˈsɛtʌp sɪns aɪ faʊnd ˈdaɪəmənz/</div>
+<ul class="link"><li>have は助動詞で弱形 /həv/</li><li>benched の語末子音 /t/ が my の初頭子音 /m/ に続く (子音+子音で連結なし)</li></ul>
+<div class="kana">アイ ハヴ ベンチト マイ オウルド マイニング セットアップ シンス アイ ファウンド ダイアモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had benched</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈbɛntʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After the admin had <mark>benched</mark> the disruptive player, the server became peaceful.</p>
+<p class="ja">管理者が荒らすプレイヤーを外した後、サーバーは平和になった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ðə ˈædmɪn həd ˈbɛntʃt ðə dɪsˈrʌptɪv ˈpleɪər, ðə ˈsɜrvər bɪˈkeɪm ˈpisfəl/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は助動詞で弱形 /həd/</li><li>benched の語末子音 /t/ が the の初頭 /ðə/ に続く (子音+子音で連結なし)</li></ul>
+<div class="kana">アフター ザ アドミン ハド ベンチト ザ ディスラプティヴ プレイヤー ザ サーヴァー ビケイム ピースフル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once we had <mark>benched</mark> the old crafting table, we upgraded to better equipment.</p>
+<p class="ja">古いクラフティングテーブルを置いた後、私たちはより良い機器にアップグレードした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns wi həd ˈbɛntʃt ðə oʊld ˈkræftɪŋ ˈteɪbəl, wi ˈʌpɡreɪdɪd tə ˈbɛtər ɪˈkwɪpmənt/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/</li><li>benched の語末子音 /t/ が the の初頭 /ðə/ に続く (子音+子音で連結なし)</li><li>to は前置詞で弱形 /tə/</li></ul>
+<div class="kana">ワンス ウィ ハド ベンチト ザ オウルド クラフティング テイバル ウィ アップグレイディド タ ベター イクウィップメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been benching</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The manager has been <mark>benching</mark> aggressive players all week.</p>
+<p class="ja">マネージャーは1週間中攻撃的なプレイヤーを外し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmænɪdʒər həz bɪn ˈbɛntʃɪŋ əˈɡrɛsɪv ˈpleɪərz ɔl wik/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>has は助動詞で弱形 /həz/</li><li>been は助動詞で弱形 /bɪn/</li><li>benching の語末 /ŋ/ が aggressive の初頭母音 /ə/ に続く</li></ul>
+<div class="kana">ザ マネージャー ハズ ビン ベンチング アグレッシヴ プレイヤーズ オール ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>benching</mark> my best tools to make room for new equipment.</p>
+<p class="ja">新しい機器のためのスペースを作るために、最高のツールを置き続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈbɛntʃɪŋ maɪ bɛst tulz tə meɪk rum fɔr nu ɪˈkwɪpmənt/</div>
+<ul class="link"><li>have は助動詞で弱形 /həv/</li><li>been は助動詞で弱形 /bɪn/</li><li>benching の語末 /ŋ/ が my の初頭子音 /m/ に続く (子音+子音で連結なし)</li><li>to は前置詞で弱形 /tə/</li></ul>
+<div class="kana">アイ ハヴ ビン ベンチング マイ ベスト ツールズ タ メイク ルーム フォア ニュー イクウィップメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will bench</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl bɛntʃ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>bench</mark> my diamond tools on the crafting table tonight.</p>
+<p class="ja">今夜、ダイヤモンドツールをクラフティングテーブルに置きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈbɛntʃ maɪ ˈdaɪmənd ˈtulz ɑn ðə ˈkræftɪŋ ˈteɪbəl təˈnaɪt/</div>
+<ul class="link"><li>tools の語末子音 /z/ が on の初頭母音 /ɑ/ に連結</li></ul>
+<div class="kana">アイル ベンチ マイ ダイモンド ツールズ オン ザ クラフティング テーブル タナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>bench</mark> any player who griefs the server.</p>
+<p class="ja">彼らはサーバーを荒らすプレイヤーを外します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈbɛntʃ ˈɛni ˈpleɪər huː ɡrifs ðə ˈsɜrvər/</div>
+<ul class="link"><li>bench の語末子音 /tʃ/ が any の初頭母音 /ɛ/ に連結</li></ul>
+<div class="kana">ゼイル ベンチ エニー プレイヤー フー グリーフス ザ サーヴァー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be benching</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈbɛntʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>benching</mark> inactive members throughout the season.</p>
+<p class="ja">私たちはシーズン全体を通じて非アクティブなメンバーを外し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl bi ˈbɛntʃɪŋ ɪnˈæktɪv ˈmɛmbərz θruːˈaʊt ðə ˈsizən/</div>
+<ul class="link"></ul>
+<div class="kana">ウィル ビー ベンチング イナクティヴ メンバーズ スルーアウト ザ シーズン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server will be <mark>benching</mark> players who break the building code.</p>
+<p class="ja">サーバーはビルディングコードを破るプレイヤーを外し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrvər wɪl bi ˈbɛntʃɪŋ ˈpleɪərz huː breɪk ðə ˈbɪldɪŋ ˈkoʊd/</div>
+<ul class="link"></ul>
+<div class="kana">ザ サーヴァー ウィル ビー ベンチング プレイヤーズ フー ブレイク ザ ビルディング コウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have benched</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv bɛntʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bench_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, you'll have <mark>benched</mark> all your mining tools.</p>
+<p class="ja">来週までに、すべての採掘道具を置き終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik, jʊl həv ˈbɛntʃt ɔl jər ˈmaɪnɪŋ ˈtulz/</div>
+<ul class="link"><li>benched の語末子音 /t/ が all の初頭母音 /ɔ/ に連結</li></ul>
+<div class="kana">バイ ネクスト ウィーク ユル ハヴ ベンチト オール ユア マイニング ツールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>benched</mark> all rule-breakers before the tournament starts.</p>
+<p class="ja">トーナメント開始前に、彼らはすべてのルール違反者を外し終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl həv ˈbɛntʃt ɔl ˈrulˌbreɪkərz bɪˈfɔr ðə ˈtɜrnəmənt ˈstɑrts/</div>
+<ul class="link"><li>benched の語末子音 /t/ が all の初頭母音 /ɔ/ に連結</li></ul>
+<div class="kana">ゼイ ウィル ハヴ ベンチト オール ルールブレイカーズ ビフォア ザ ターナメント スターツ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">on the bench</span><span class="im">交代選手として待機中；サイドラインにいる状態。マルチプレイサーバーではアクティブでない状態</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>He's been on the <mark>bench</mark> for two weeks.</p>
+<p class="ja">彼は2週間ベンチの状態だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bench_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bench_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiːz bɪn ɑn ðə bɛntʃ fɔr tuː wiːks/</div>
+<ul class="link"><li>on the: the は弱形 /ðə/ で [ɑn ðə] オン ザ</li></ul>
+<div class="kana">ヒーズ ビン オン ザ ベンチ フォア トゥー ウィークス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="bench";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

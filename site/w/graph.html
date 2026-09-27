@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>graph — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>graph</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ɡræf/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット中学1800 #388</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】データを図式で表したもの、グラフ（...a diagram showing the relationship between variables or quantities...）</li><li>【名詞】格子、グリッド（...a pattern of lines forming a grid or network...）</li><li>【動詞】図表に表す、グラフを作成する（...to plot or represent data as a graph...）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We should <mark>graph</mark> all the ore levels in this mine.</p>
+<p class="ja">この鉱山のすべての鉱石レベルをグラフに表すべきだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈʃʊd ˈɡræf ɔl ðə ˈɔɹ ˈlɛvəlz ɪn ðɪs ˈmaɪn/</div>
+<ul class="link"><li>should graph → should の /d/ が未開放で graph の /ɡ/ に続く [ʃʊd̚ ɡræf] シュッ グラフ</li><li>graph all → graph の /f/ が all の /ɔ/ に連結 [ˈɡræf ɔl] グラフ オール</li></ul>
+<div class="kana">ウィー シュッド グラフ オール ザ オア レベルズ イン ディス マイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>That <mark>graph</mark> shows our daily mining progress clearly.</p>
+<p class="ja">そのグラフは私たちの日々の採掘進度を明確に示している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈɡræf ˈʃoʊz ˈaʊɹ ˈdeɪli ˈmaɪnɪŋ ˈprɑɡrɛs ˈklɪɹli/</div>
+<ul class="link"><li>shows our → shows の /z/ が our の /aʊ/ に連結 [ˈʃoʊz ˈaʊɹ] ショーズ アワー</li><li>mining progress → mining の /ŋ/ が未開放で progress の /p/ に続く [ˈmaɪnɪŋ̚ ˈprɑɡrɛs] マイニング プログレス</li></ul>
+<div class="kana">ザット グラフ ショーズ アワー デイリー マイニング プログレス クリアリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Can you help me <mark>graph</mark> these coordinates on the map?</p>
+<p class="ja">この座標をマップに記入するのを手伝ってくれない？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kən juː hɛlp mi ˈɡræf ðiːz ˌkoʊɹˈdɪnəts ɑn ðə ˈmæp/</div>
+<ul class="link"><li>help me → help の /p/ が未開放で me の /m/ に続く [hɛlp̚ mi] ヘルプ ミー</li><li>me graph → me の /i/ が graph の /ɡ/ に連結 [mi ˈɡræf] ミー グラフ</li><li>the map → the は子音前で弱形 /ðə/ ザ</li></ul>
+<div class="kana">キャン ユー ヘルプ ミー グラフ ディーズ コーディネイツ オン ザ マップ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">graphs</span><span class="fl">複数形</span><span class="fi">/ɡræfs/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I collected three ore <mark>graphs</mark> from different mines.</p>
+<p class="ja">異なる鉱山から3つの鉱石グラフを集めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ kəˈlɛktəd θriː ˈɔɹ ɡræfs frəm ˈdɪfərənt ˈmaɪnz/</div>
+<ul class="link"><li>collected three → collected の /d/ が three の /θ/ に未開放で続く [kəˈlɛktəd̚ θriː] コレクテッド スリー</li><li>ore graphs → ore の /ɹ/ が graphs の /ɡ/ に続く [ˈɔɹ ɡræfs] オア グラフス</li></ul>
+<div class="kana">アイ コレクテッド スリー オア グラフス フラム ディフェレント マインズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>graphs</mark> show the resource distribution across the biomes.</p>
+<p class="ja">これらのグラフはバイオーム全体のリソース分布を示しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiːz ɡræfs ˈʃoʊ ðə ˌrɛˈsɔɹs ˌdɪstrɪˈbjuːʃən əˈkɹɑs ðə ˈbaɪoʊmz/</div>
+<ul class="link"><li>the resource → the は子音前で弱形 /ðə/「ザ」</li></ul>
+<div class="kana">ディーズ グラフス ショー ザ リソース ディストリビューション アクロス ザ バイオームズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">graphs</span><span class="fl">三人称単数現在形</span><span class="fi">/ɡræfs/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>graphs</mark> the data every time we find new ore deposits.</p>
+<p class="ja">彼女は新しい鉱石堆積物を見つけるたびにデータをグラフ化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɡræfs ðə ˈdeɪtə ˈɛvəri taɪm wi faɪnd nju ˈɔɹ dɪˈpoʊzɪts/</div>
+<ul class="link"><li>find new → find の /d/ が new の /n/ に未開放で続く [faɪnd̚ nju] ファインド ニュー</li></ul>
+<div class="kana">シー グラフス ザ デイタ エブリー タイム ウィー ファインド ニュー オア ディポジッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The system <mark>graphs</mark> real-time mining statistics on the display.</p>
+<p class="ja">システムはディスプレイにリアルタイム採掘統計をグラフ化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɪstəm ɡræfs ˌriːlˈtaɪm ˈmaɪnɪŋ stəˈtɪstɪks ɑn ðə dɪˈsplɛɪ/</div>
+<ul class="link"><li>The system → The は子音前で弱形 /ðə/「ザ」</li></ul>
+<div class="kana">ザ システム グラフス リアルタイム マイニング スタティスティクス オン ザ ディスプレイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">graphed</span><span class="fl">過去形</span><span class="fi">/ɡræft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>graphed</mark> all the mining data from yesterday's expedition.</p>
+<p class="ja">昨日の遠征からすべての採掘データをグラフ化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɡræft ɔl ðə ˈmaɪnɪŋ ˈdeɪtə frəm ˌjɛstərˈdɛz ɛkˈspɛdɪʃən/</div>
+<ul class="link"></ul>
+<div class="kana">ウィー グラフト オール ザ マイニング デイタ フラム イェスタデイズ エクスペディション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>graphed</mark> the coordinates to locate the next village.</p>
+<p class="ja">彼は次の村を見つけるために座標をグラフ化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ɡræft ðə ˌkoʊɹˈdɪnəts tu ˈloʊkeɪt ðə ˈnɛkst ˈvɪlɪdʒ/</div>
+<ul class="link"><li>to locate → to は弱形 /tə/「タ」が locate の /l/ に連結 [tə ˈloʊkeɪt] タ ロケイト</li></ul>
+<div class="kana">ヒー グラフト ザ コーディネイツ タ ロケイト ザ ネクスト ビレッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">graphed</span><span class="fl">過去分詞</span><span class="fi">/ɡræft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The data <mark>graphed</mark> on the wall shows our progress clearly.</p>
+<p class="ja">壁にグラフ化されたデータは私たちの進捗を明確に示しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdeɪtə ˈɡræft ɑn ðə wɔl ˈʃoʊz ˈaʊɹ ˈprɑɡrɛs ˈklɪɹli/</div>
+<ul class="link"><li>The data → The は子音前で弱形 /ðə/「ザ」</li></ul>
+<div class="kana">ザ デイタ グラフト オン ザ ウォール ショーズ アワー プログレス クリアリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>All resources <mark>graphed</mark> so far indicate we have enough diamonds.</p>
+<p class="ja">これまでグラフ化されたすべてのリソースは、ダイヤモンドが十分にあることを示しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ˌrɛˈsɔɹsɪz ˈɡræft soʊ fɑɹ ˈɪndɪkeɪt wi hæv ɪˈnʌf ˈdaɪməndz/</div>
+<ul class="link"></ul>
+<div class="kana">オール リソーシズ グラフト ソー ファー インディケイト ウィー ハブ イナフ ダイモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">graphing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Graphing</mark> the ore levels helps us understand the mine's structure.</p>
+<p class="ja">鉱石レベルをグラフ化することは、鉱山の構造を理解するのに役立ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɡræfɪŋ ðə ˈɔɹ ˈlɛvəlz hɛlps ʌs ˌʌndərˈstænd ðə ˈmaɪnz ˈstrʌkʧər/</div>
+<ul class="link"><li>Graphing the → Graphing の /ŋ/ が the の /ðə/ に未開放で続き、the は弱形 [ˈɡræfɪŋ̚ ðə] グラフィング ザ</li><li>ore levels → ore の /ɹ/ が levels の /l/ に続く [ˈɔɹ ˈlɛvəlz] オア レベルズ</li></ul>
+<div class="kana">グラフィング ザ オア レベルズ ヘルプス アス アンダースタンド ザ マインズ ストラクチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>graphing</mark> the cave system when the creeper attacked.</p>
+<p class="ja">洞窟システムをグラフ化していたときに、クリーパーが襲撃しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈɡræfɪŋ ðə ˈkeɪv ˈsɪstəm wɛn ðə ˈkripər əˈtækt/</div>
+<ul class="link"><li>was graphing → was は弱形 /wəz/「ワズ」が graphing の /ɡ/ に連結 [wəz ˈɡræfɪŋ] ワズ グラフィング</li><li>graphing the → graphing の /ŋ/ が the の /ðə/ に未開放で続き、the は弱形 [ˈɡræfɪŋ̚ ðə] グラフィング ザ</li><li>when the → when の /n/ が the の /ðə/ に未開放で続き、the は弱形 [wɛn ðə] ウェン ザ</li></ul>
+<div class="kana">アイ ワズ グラフィング ザ ケイブ システム ウェン ザ クリーパー アタックト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is graphing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>graphing</mark> the resource distribution in real-time.</p>
+<p class="ja">彼女はリアルタイムでリソース分布をグラフ化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz ˈɡræfɪŋ ðə ˌrɛˈsɔɹs ˌdɪstrɪˈbjuːʃən ɪn ˌriːlˈtaɪm/</div>
+<ul class="link"><li>is の弱形は /ɪz/</li><li>the は母音前で弱形 /ðə/</li></ul>
+<div class="kana">シー イズ グラフィング ザ リソース ディストリビューション イン リアルタイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>graphing</mark> the ore deposits they found.</p>
+<p class="ja">彼らが見つけた鉱石堆積物をグラフ化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɹ ɑɹ ˈɡræfɪŋ ðə ˈɔɹ dɪˈpoʊzɪts ðɛɪ faʊnd/</div>
+<ul class="link"><li>are は弱形 /ɑɹ/</li><li>the は母音前で弱形 /ðə/ [ðə ˈɔɹ] ザ オア</li></ul>
+<div class="kana">ザー アー グラフィング ザ オア ディポジッツ ザイ ファウンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was graphing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>graphing</mark> the cave system when a phantom appeared.</p>
+<p class="ja">洞窟システムをグラフ化していたときに、ファントムが現れました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈɡræfɪŋ ðə ˈkeɪv ˈsɪstəm wɛn ə ˈfæntəm əˈpɪɹd/</div>
+<ul class="link"><li>was は弱形 /wəz/</li><li>when の /n/ が a の /ə/ に連結（子音+母音）[wɛn ə] ウェン ア</li></ul>
+<div class="kana">アイ ワズ グラフィング ザ ケイブ システム ウェン ア ファントム アピアード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was <mark>graphing</mark> coordinates for the new base layout.</p>
+<p class="ja">彼は新しいベースのレイアウトのために座標をグラフ化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wəz ˈɡræfɪŋ ˌkoʊɹˈdɪnəts fɔɹ ðə nju beɪs ˈleɪaʊt/</div>
+<ul class="link"><li>was は弱形 /wəz/</li><li>the は子音前で弱形 /ðə/</li></ul>
+<div class="kana">ヒー ワズ グラフィング コーディネイツ フォー ザ ニュー ベイス レイアウト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been graphing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/hæd bɪn ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>graphing</mark> data for hours before the server crashed.</p>
+<p class="ja">サーバーがクラッシュする前に、彼らは何時間もデータをグラフ化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɪ hæd bɪn ˈɡræfɪŋ ˈdeɪtə fɔɹ ˈaʊɹz bɪˈfɔɹ ðə ˈsɜɹvɚ kræʃt/</div>
+<ul class="link"><li>had は弱形 /həd/、been は弱形 /bɪn/</li><li>for の /ɹ/ が hours の /aʊ/ に連結（linking r）[fɔɹ ˈaʊɹz] フォー アワーズ</li></ul>
+<div class="kana">ザイ ハド ビン グラフィング デイタ フォー アワーズ ビフォー ザ サーバー クラッシュト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>graphing</mark> the terrain map all morning.</p>
+<p class="ja">彼女は朝中、地形図をグラフ化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi hæd bɪn ˈɡræfɪŋ ðə ˈtɛɹən mæp ɔl ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>had は弱形 /həd/、been は弱形 /bɪn/</li><li>the は子音前で弱形 /ðə/</li></ul>
+<div class="kana">シー ハド ビン グラフィング ザ テレイン マップ オール モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has graphed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈɡræft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>graphed</mark> the mining data for our base expansion plans.</p>
+<p class="ja">私たちの基地拡張計画のための採掘データをグラフ化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈɡræft ðə ˈmaɪnɪŋ ˈdeɪtə fɔɹ ˈaʊɹ ˈbeɪs ɪkˈspænʃən plænz/</div>
+<ul class="link"><li>have graphed → have は機能語で弱形 /həv/「ハヴ」</li><li>graphed the → graphed の語末 /t/ が the の /ðə/ に連結、the は弱形 /ðə/「ザ」 [ɡræft ðə] グラフト ザ</li><li>for our → for の語末 /ɹ/ が our の /aʊ/ に連結 [fɔɹ ˈaʊɹ] フォア アワー</li></ul>
+<div class="kana">アイ ハヴ グラフト ザ マイニング デイタ フォア アワー ベイス エクスパンション プラーンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>graphed</mark> all the ore deposits we've discovered so far.</p>
+<p class="ja">彼女はこれまでに発見したすべての鉱石堆積物をグラフ化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz ˈɡræft ɔl ðə ˈɔɹ dɪˈpoʊzɪts wɪv dɪˈskʌvərd soʊ fɑɹ/</div>
+<ul class="link"><li>She has → She の母音 /i/ に続き、has は弱形 /həz/「ハズ」 [ʃi həz] シー ハズ</li><li>has graphed → has の語末 /z/ が graphed の /ɡ/ に未開放で続く [həz ˈɡræft] ハズ グラフト</li><li>all the → all の語末 /l/ が the の /ðə/ に未開放で続き、the は弱形「ザ」 [ɔl ðə] オール ザ</li></ul>
+<div class="kana">シー ハズ グラフト オール ザ オア ディポウジッツ ウィヴ ディスカヴァード ソー ファー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had graphed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈɡræft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>graphed</mark> the cave coordinates before the server crashed.</p>
+<p class="ja">サーバーがクラッシュする前に、洞窟の座標をグラフ化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ˈɡræft ðə ˈkeɪv ˌkoʊɹˈdɪnəts bɪˈfɔɹ ðə ˈsɝvər kræʃt/</div>
+<ul class="link"><li>had graphed → had は機能語で弱形 /həd/「ハド」が graphed の /ɡ/ に未開放で続く [həd ˈɡræft] ハド グラフト</li><li>graphed the → graphed の語末 /t/ が the の /ðə/ に連結、the は弱形「ザ」 [ɡræft ðə] グラフト ザ</li><li>before the → before の語末 /ɹ/ が the の /ðə/ に連結 [bɪˈfɔɹ ðə] ビフォア ザ</li></ul>
+<div class="kana">ウィー ハド グラフト ザ ケイヴ コーディネイツ ビフォア ザ サーヴァー クラッシュト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we started building, I had <mark>graphed</mark> the entire biome.</p>
+<p class="ja">建築を始める頃には、私はすでにバイオーム全体をグラフ化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈstɑɹtəd ˈbɪldɪŋ aɪ həd ˈɡræft ðɪ ɪnˈtaɪɚ ˈbaɪoʊm/</div>
+<ul class="link"><li>I had → I の /aɪ/ に続き、had は弱形 /həd/「ハド」 [aɪ həd] アイ ハド</li><li>had graphed → had の語末 /d/ が graphed の /ɡ/ に未開放で続く [həd ˈɡræft] ハド グラフト</li><li>the entire → the は母音前で弱形 /ðɪ/「ディ」が entire の /ɪ/ に連結 [ðɪ ɪnˈtaɪɚ] ディ インタイア</li></ul>
+<div class="kana">バイ ザ タイム ウィー スターテッド ビルディング アイ ハド グラフト ディ インタイア バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been graphing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has been <mark>graphing</mark> the resource distribution all morning.</p>
+<p class="ja">彼は朝中、リソース分布をグラフ化し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz bɪn ˈɡræfɪŋ ðə ˌrɛˈsɔɹs ˌdɪstrɪˈbjuːʃən ɔl ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>has been → has は弱形 /həz/「ハズ」、been も弱形 /bɪn/「ビン」 [həz bɪn] ハズ ビン</li><li>been graphing → been の語末 /n/ が graphing の /ɡ/ に未開放で続く [bɪn ˈɡræfɪŋ] ビン グラフィング</li><li>all morning → all の語末 /l/ が morning の /m/ に連結 [ɔl ˈmɔɹnɪŋ] オール モーニング</li></ul>
+<div class="kana">ヒー ハズ ビン グラフィング ザ リソース ディストリビューション オール モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>graphing</mark> the redstone circuit efficiency for three hours.</p>
+<p class="ja">彼女は3時間、レッドストーン回路の効率をグラフ化し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˈɡræfɪŋ ðə ˈrɛdstoʊn ˈsɝkɪt ɪˈfɪʃənsi fɔɹ θriː ˈaʊɹz/</div>
+<ul class="link"><li>She has → She の /i/ に続き、has は弱形 /həz/「ハズ」 [ʃi həz] シー ハズ</li><li>been graphing → been の語末 /n/ が graphing の /ɡ/ に未開放で続く [bɪn ˈɡræfɪŋ] ビン グラフィング</li><li>for three → for の語末 /ɹ/ が three の /θ/ に続く（未開放）[fɔɹ θriː] フォア スリー</li></ul>
+<div class="kana">シー ハズ ビン グラフィング ザ レッドストーン サーキット イフィシェンシー フォア スリー アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will graph</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈɡræf/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>graph</mark> the terrain data for the entire map tomorrow.</p>
+<p class="ja">明日、地形データを地図全体にグラフ化する予定です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈɡræf ðə təˈreɪn ˈdeɪtə fɚ ðə ɪnˈtaɪɹ ˈmæp təˈmɑɹoʊ/</div>
+<ul class="link"><li>I'll graph → I'll /aɪl/ の語末 /l/ が graph /g/ に連結 [aɪl ˈɡræf] アイル グラフ</li><li>graph the → graph の /f/ が the の /ðə/ に連結 [ɡræf ðə] グラフ ザ（the は子音前で弱形）</li><li>entire map → entire の /ɹ/ が map の /m/ に未開放で続く [ɪnˈtaɪɹ̚ ˈmæp] エンタイア マップ</li></ul>
+<div class="kana">アイル グラフ ザ テレイン デイタ ファー ザ エンタイア マップ トゥマロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>graph</mark> the resource distribution after we finish mining.</p>
+<p class="ja">採掘を終えた後、彼らはリソース分布をグラフ化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈɡræf ðə ˈrɛsɚs ˌdɪstrɪˈbjuʃən ˈæftɚ wi ˈfɪnɪʃ ˈmaɪnɪŋ/</div>
+<ul class="link"><li>They'll graph → They'll /ðeɪl/ の語末 /l/ が graph /g/ に連結 [ðeɪl ˈɡræf] ゼイル グラフ</li><li>graph the → graph の /f/ が the の /ðə/ に連結 [ɡræf ðə] グラフ ザ</li><li>after we → after の /ɹ/ が we の /w/ に続く（子音+グライド、弱形なし）[ˈæftɚ wi] アフター ウィー</li></ul>
+<div class="kana">ゼイル グラフ ザ レサース ディストリビューション アフター ウィー フィニッシュ マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be graphing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈɡræfɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>graphing</mark> the cave coordinates while you gather supplies.</p>
+<p class="ja">あなたが物資を集めている間、私たちは洞窟の座標をグラフ化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈɡræfɪŋ ðə ˈkeɪv ˌkoʊɹˈdɪnəts waɪl ju ˈɡæðɚ səˈplaɪz/</div>
+<ul class="link"><li>We'll be → We'll /wil/ の語末 /l/ が be /b/ に連結 [wil bi] ウィル ビー</li><li>be graphing → be の /i/ が graphing の /g/ に連結 [bi ˈɡræfɪŋ] ビー グラフィング</li><li>cave coordinates → cave の /v/ が coordinates の /k/ に未開放で続く [ˈkeɪv̚ ˌkoʊɹˈdɪnəts] ケイブ コーディネイツ</li></ul>
+<div class="kana">ウィル ビー グラフィング ザ ケイブ コーディネイツ ワイル ユー ガザー サプライズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll be <mark>graphing</mark> real-time redstone signal patterns during the test.</p>
+<p class="ja">テスト中、彼はリアルタイムのレッドストーン信号パターンをグラフ化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil bi ˈɡræfɪŋ ˌriːlˈtaɪm ˈrɛdstoʊn ˈsɪɡnəl ˈpætərnz ˈdjʊɹɪŋ ðə ˈtɛst/</div>
+<ul class="link"><li>He'll be → He'll /hil/ の語末 /l/ が be /b/ に連結 [hil bi] ヒル ビー</li><li>be graphing → be の /i/ が graphing の /g/ に連結 [bi ˈɡræfɪŋ] ビー グラフィング</li><li>during the → during の /ŋ/ が the の /ðə/ に未開放で続き、the は弱形 [ˈdjʊɹɪŋ̚ ðə] ジュアリング ザ</li></ul>
+<div class="kana">ヒル ビー グラフィング リアルタイム レッドストーン シグナル パターンズ ジュアリング ザ テスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have graphed</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈɡræft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/graph_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By evening, I will have <mark>graphed</mark> all the dimensional coordinates.</p>
+<p class="ja">夕方までに、すべての次元座標をグラフ化し終わります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈiːvnɪŋ aɪl həv ˈɡræft ɔl ðə daɪˈmɛnʃənəl ˌkoʊɹˈdɪnəts/</div>
+<ul class="link"><li>I will → I'll /aɪl/ の語末 /l/ が have の /h/ に連結 [aɪl həv] アイル ハブ（have は弱形 /həv/）</li><li>have graphed → have は弱形 /həv/ が graphed の /g/ に未開放で続く [həv ˈɡræft] ハブ グラフト</li><li>graphed all → graphed の /t/ が all の /ɔ/ に連結 [ɡræft ɔl] グラフト オール</li></ul>
+<div class="kana">バイ イーブニング アイル ハブ グラフト オール ザ ダイメンショナル コーディネイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once they finish mining, they will have <mark>graphed</mark> every biome's resources.</p>
+<p class="ja">採掘を終えたら、彼らはすべてのバイオームのリソースをグラフ化し終わっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/graph_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/graph_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðeɪ ˈfɪnɪʃ ˈmaɪnɪŋ ðeɪl həv ˈɡræft ˈɛvəri ˈbaɪoʊmz ˈrɛsɚsɪz/</div>
+<ul class="link"><li>they will → they'll /ðeɪl/ の語末 /l/ が have の /h/ に連結 [ðeɪl həv] ゼイル ハブ（have は弱形 /həv/）</li><li>have graphed → have は弱形 /həv/ が graphed の /g/ に未開放で続く [həv ˈɡræft] ハブ グラフト</li><li>every biome's → every の /i/ が biome's の /b/ に連結 [ˈɛvəri ˈbaɪoʊmz] エブリー バイオームズ</li></ul>
+<div class="kana">ワンス ゼイ フィニッシュ マイニング ゼイル ハブ グラフト エブリー バイオームズ レサーシズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="graph";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>candle — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>candle</h2><span class="pos">名詞</span><span class="ipa-head">/ˈkændəl/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット中学1800 #1720</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/candle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】火をつけて光を放つ、蝋または脂肪でできた光源（a light source made of wax or fat with a burning wick）</li><li>【名詞】照明や装飾の目的で使用する火が灯ったロウソク（a candle that is lit for lighting or decoration）</li><li>【名詞】マインクラフトでは、ハチの巣から採取した蝋と糸からクラフトする装飾用の光源ブロック（in Minecraft, a decorative light source block crafted from honeycomb and string）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need <mark>candles</mark> to light up my base.</p>
+<p class="ja">私のベースを明るくするためにろうそくが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd ˈkændəlz tə ˈlaɪt ˌʌp maɪ ˈbeɪs/</div>
+<ul class="link"><li>need candles で need の語末子音 /d/ が candles の子音 /k/ に先立つ未開放: [ˈniːd̚ ˈkændəlz] ニード キャンドルズ</li><li>to は機能語で弱形 /tə/ に弱化: タ</li></ul>
+<div class="kana">アイ ニード キャンドルズ タ ライト アップ マイ ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>candle</mark> gives off a soft glow like firelight.</p>
+<p class="ja">ろうそくは火の明かりのような柔らかい光を放ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkændəl ˈɡɪvz ɔf ə ˈsɔft ˈɡloʊ ˌlaɪk ˈfaɪərˌlaɪt/</div>
+<ul class="link"><li>The は冠詞で弱形 /ðə/ に弱化: ザ</li><li>off a で off の語末子音 /f/ が弱形 /ə/ に連結: [ɔf ə] オフ ア</li></ul>
+<div class="kana">ザ キャンドル ギブズ オフ ア ソフト グロー ライク ファイアーライト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We can craft <mark>candles</mark> from honeycomb and string in survival mode.</p>
+<p class="ja">サバイバルモードではハニカムと糸からろうそくをクラフトできます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi kæn ˈkræft ˈkændəlz frəm ˈhʌniˌkoʊm ənd ˈstrɪŋ ɪn sərˈvaɪvəl ˈmoʊd/</div>
+<ul class="link"><li>can craft で can の語末子音 /n/ が craft の子音 /k/ に先立つ未開放: [kæn̚ ˈkræft] キャン クラフト</li><li>from honeycomb で from の語末子音 /m/ が honeycomb の子音 /h/ に先立つ未開放: [frəm ˈhʌniˌkoʊm] フラム ハニーコーム</li></ul>
+<div class="kana">ウィ キャン クラフト キャンドルズ フラム ハニーコーム アンド ストリング イン サーバイバル モード</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">candles</span><span class="fl">複数形</span><span class="fi">/ˈkændəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/candle_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I placed <mark>candles</mark> all around my base to make it more beautiful.</p>
+<p class="ja">私のベースをもっときれいにするために、ろうそくを周りに置きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈpleɪst̚ ˈkændəlz ɔl əˈraʊnd̚ maɪ ˈbeɪs tə ˈmeɪk̚ ɪt ˈmɔr ˈbjuːtəfəl/</div>
+<ul class="link"><li>placed candles → placed の語末子音 /t/ が candles の子音 /k/ に先立つ未開放: [ˈpleɪst̚ ˈkændəlz] プレイスト キャンドルズ</li><li>around my → around の語末子音 /d/ が my の子音 /m/ に先立つ未開放: [əˈraʊnd̚ maɪ] アラウンド マイ</li><li>to は機能語で弱形 /tə/ に弱化: タ</li></ul>
+<div class="kana">アイ プレイスト キャンドルズ オール アラウンド マイ ベイス タ メイク イット モー ビューティフル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We need several <mark>candles</mark> if we want to light this dark cave properly.</p>
+<p class="ja">この暗い洞窟を適切に照らしたいなら、何本かのろうそくが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈniːd̚ ˈsɛvrəl ˈkændəlz ɪf wi ˈwɑnt̚ tə ˈlaɪt̚ ðɪs ˈdɑrk ˈkeɪv ˈproʊpərli/</div>
+<ul class="link"><li>need several → need の語末子音 /d/ が several の子音 /s/ に先立つ未開放: [ˈniːd̚ ˈsɛvrəl] ニード セブラル</li><li>want to → want の語末子音 /t/ が to の弱形 /tə/ に先立つ未開放。to は機能語で弱形化: [ˈwɑnt̚ tə] ウォント タ</li><li>light this → light の語末子音 /t/ が this の子音 /ð/ に先立つ未開放: [ˈlaɪt̚ ðɪs] ライト ジス</li></ul>
+<div class="kana">ウィ ニード セブラル キャンドルズ イフ ウィ ウォント タ ライト ジス ダーク ケイブ プロパリー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">by candlelight</span><span class="im">ろうそくの光で、ろうそくの明かりで</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We navigated the dark cave by candlelight during our mining expedition.</p>
+<p class="ja">採掘遠征中、ろうそくの光で暗い洞窟を進みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈnævɪɡeɪɾəd ðə ˈdɑrk ˈkeɪv baɪ ˈkændəlˌlaɪt ˌdʊrɪŋ ˈaʊər ˈmaɪnɪŋ ɪkˈspɛdɪʃən/</div>
+<ul class="link"><li>navigated で navigate の /t/ が -ed の /ə/ に連結しフラップ化: [ˈnævɪɡeɪɾəd] ナビゲイラッド</li></ul>
+<div class="kana">ウィ ナビゲイラッド ザ ダーク ケイブ バイ キャンドルライト ドゥリング アワー マイニング エクスペディション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">light candles</span><span class="im">ろうそくに灯をつける、ろうそくを点灯させる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players often light <mark>candles</mark> around their builds to create a cozy atmosphere.</p>
+<p class="ja">プレイヤーはしばしばビルドの周りにろうそくを点灯させて、居心地の良い雰囲気を作ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/candle_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/candle_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz ˈɔftən ˈlaɪt ˈkændəlz əˈraʊnd ðɛr ˈbɪldz tə kriˈeɪɾ ə ˈkoʊzi ætˈmɑsfɪr/</div>
+<ul class="link"><li>light candles で light の語末子音 /t/ が candles の子音 /k/ に先立つ未開放: [ˈlaɪt̚ ˈkændəlz] ライト キャンドルズ</li><li>around their で around の語末 /d/ が their の /ð/ に先立つ未開放: [əˈraʊnd̚ ðɛr] アラウンド ゼア</li><li>create a で create の /t/ が a の /ə/ に連結しフラップ化: [kriˈeɪɾ ə] クリエイラ ア</li></ul>
+<div class="kana">プレイヤーズ オフタン ライト キャンドルズ アラウンド ゼア ビルズ タ クリエイラ ア コージー アトモスフィア</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="candle";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

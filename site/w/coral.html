@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>coral — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>coral</h2><span class="pos">名詞</span><span class="ipa-head">/ˈkɔrəl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット中学1800 #1136</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/coral.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】海に棲む動物で、石灰質の外骨格を持つもの（the coral grows slowly in the reef）</li><li>【名詞】サンゴ礁を構成する構造物またはブロック（coral blocks are colorful）</li><li>【名詞】サンゴ色；明るい赤ないしオレンジ色（the wall is painted coral）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I found <mark>coral</mark> blocks near the warm ocean biome.</p>
+<p class="ja">温かい海バイオームでサンゴブロックを見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈfaʊnd ˈkɔrəl ˈblɑks nɪr ðə wɔrm ˈoʊʃən ˈbaɪoʊm/</div>
+<ul class="link"><li>found coral → 語末の d が coral の母音 /ɔ/ に連結 [ˈfaʊndˈkɔrəl] ファウンコーラル</li><li>the warm → the は弱形 /ðə/ [ðəˈwɔrm] ザウォーム</li></ul>
+<div class="kana">アイ ファウンド コーラル ブロックス ニア ザ ウォーム オーシャン バイオーム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need <mark>dead coral</mark> for our underwater base.</p>
+<p class="ja">海底基地のために枯れたサンゴが必要だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈniːd ˈdɛd ˈkɔrəl fɔr ˈaʊr ˌʌndərˈwɔɾər ˈbeɪs/</div>
+<ul class="link"><li>dead coral → 語末の d が coral の母音 /ɔ/ に連結 [ˈdɛdˈkɔrəl] デドコーラル</li></ul>
+<div class="kana">ウィ ニード デド コーラル フォー アワー アンダーウォーラー ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The colorful <mark>coral</mark> here makes a beautiful underwater scene.</p>
+<p class="ja">ここの色鮮やかなサンゴは美しい海底の景色を作ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkʌlərfəl ˈkɔrəl hɪr ˈmeɪks ə bjuˈtɪfəl ˌʌndərˈwɔɾər ˈsin/</div>
+<ul class="link"><li>The colorful → The は弱形 /ðə/ [ðəˈkʌlərfəl] ザカラーフル</li><li>colorful coral → 語末の l が coral の母音 /ɔ/ に連結 [ˈkʌlərfəlˈkɔrəl] カラーフルコーラル</li></ul>
+<div class="kana">ザ カラーフル コーラル ヒア メイクス ア ビューティフル アンダーウォーラー シーン</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">corals</span><span class="fl">複数形</span><span class="fi">/ˈkɔrəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/coral_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We collected several colorful <mark>corals</mark> from different warm ocean biomes.</p>
+<p class="ja">異なる温かい海バイオームからいくつかのカラフルなサンゴを集めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi kəˈlɛɾəd ˈsɛvərəl ˈkʌlərfəl ˈkɔrəlz frəm ˈdɪfərənt wɔrm ˈoʊʃən ˈbaɪoʊmz/</div>
+<ul class="link"><li>colorful corals → 語末の l が corals の母音 /ɔ/ に連結 [ˈkʌlərfəlˈkɔrəlz] カラーフルコーラルズ</li><li>from different → from は弱形 /frəm/ [frəmˈdɪfərənt] フラムディファラント</li></ul>
+<div class="kana">ウィ コレラド セベラル カラーフル コーラルズ フラム ディファラント ウォーム オーシャン バイオームズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The most beautiful <mark>corals</mark> are in this reef.</p>
+<p class="ja">最も美しいサンゴはこのサンゴ礁にあります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊst ˈbjuːɾəfəl ˈkɔrəlz ər ɪn ðɪs ˈrif/</div>
+<ul class="link"><li>The most → The は弱形 /ðə/ [ðəˈmoʊst] ザモースト</li><li>beautiful corals → 語末の l が corals の母音 /ɔ/ に連結 [ˈbjuːɾəfəlˈkɔrəlz] ビューラフルコーラルズ</li></ul>
+<div class="kana">ザ モースト ビューラフル コーラルズ ア イン ディス リーフ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">coral reef</span><span class="im">サンゴ礁</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm exploring the <mark>coral</mark> reef to find tropical fish.</p>
+<p class="ja">熱帯魚を探すためにサンゴ礁を探索しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ɪkˈsplɔrɪŋ ðə ˈkɔrəl ˈrif tə ˈfaɪnd ˈtrɑpɪkəl ˈfɪʃ/</div>
+<ul class="link"><li>coral reef → 語末の l が reef の母音 /iː/ に連結 [ˈkɔrəlˈrif] コーラルリーフ</li><li>to find → to は弱形 /tə/ [təˈfaɪnd] タファインド</li></ul>
+<div class="kana">アイム イクスプローリン ザ コーラル リーフ タ ファインド トロピカル フィッシュ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">dead coral</span><span class="im">枯れたサンゴ（マインクラフトのブロック）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Dead coral</mark> blocks don't have the same bright color.</p>
+<p class="ja">枯れたサンゴブロックは同じ鮮やかな色を持っていません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/coral_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/coral_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdɛd ˈkɔrəl ˈblɑks ˈdoʊnt ˈhæv ðə ˈseɪm ˈbraɪt ˈkʌlər/</div>
+<ul class="link"><li>Dead coral → 語末の d が coral の母音 /ɔ/ に連結 [ˈdɛdˈkɔrəl] デドコーラル</li><li>the same → the は弱形 /ðə/ [ðəˈseɪm] ザセイム</li></ul>
+<div class="kana">デド コーラル ブロックス ドーント ハエヴ ザ セイム ブライト カラー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="coral";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
