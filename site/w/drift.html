@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>drift — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>drift</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/drɪft/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1229</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】ゆっくり流されるように、または意図せず移動する（水や空気の中で）</li><li>【動詞】（方向・話題などが）しだいに変わる、ずれていく</li><li>【名詞】雪や砂が風に吹き寄せられた吹き溜まり</li><li>【名詞】話や文章の要点・大意（…get the drift のような用法）</li><li>【動詞】（くつろぎながら）ぶらぶら歩く、徘徊する</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The boat <mark>drifts</mark> slowly downstream while I fish by the river.</p>
+<p class="ja">川の側で釣りをしている間、ボートがゆっくり下流に漂っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈboʊt drɪfts ˈsloʊli ˈdaʊnstrim waɪl aɪ ˈfɪʃ baɪ ðə ˈrɪvɚ/</div>
+<ul class="link"><li>The は弱形 [ðə]</li><li>while の語末 /l/ が I の /aɪ/ に連結</li></ul>
+<div class="kana">ザ ボート ドリフツ スロウリー ダウンストリーム ワイル アイ フィッシュ バイ ザ リバー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>drifted</mark> off course while exploring the nether and got lost.</p>
+<p class="ja">ネザー探索中にコースを外れてしまい、迷子になった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈdrɪfɾəd ˈɔf ˈkɔɹs waɪl ɪkˈsplɔɹɪŋ ðə ˈnɛðɚ ənd ɡɑt ˈlɔst/</div>
+<ul class="link"><li>drifted の /t/ が次の /ə/ に挟まれてフラップ化 [ˈdrɪf.ɾəd]</li></ul>
+<div class="kana">アイ ドリフラッド オフ コース ワイル イクスプロリング ザ ネザー アン ガット ロスト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Team members slowly <mark>drift</mark> apart after the server gets shut down.</p>
+<p class="ja">サーバーが閉鎖されると、チームメンバーがしだいに離れていく。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtim ˈmɛmbɚz ˈsloʊli drɪft əˈpɑɹt ˈæftɚ ðə ˈsɚvɚ ɡɛts ʃʌt ˈdaʊn/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>gets の /s/ が shut の /ʃ/ に続くため弱化</li></ul>
+<div class="kana">ティーム メンバーズ スロウリー ドリフト アパート アフター ザ サーバー ゲッツ シャッ ダウン</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">drifts</span><span class="fl">三人称単数現在形</span><span class="fi">/drɪfts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Snow <mark>drifts</mark> settle across the biome during a blizzard.</p>
+<p class="ja">ブリザード中、雪の吹き溜まりがバイオームに広がって堆積する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/snoʊ drɪfts ˈsɛtəl əˈkrɔs ðə ˈbaɪoʊm ˈdɚɪŋ ə ˈblɪzɚd/</div>
+<ul class="link"><li>drifts の /ts/ が /s/ で始まる settle に続く際、両子音で unreleased [t̚s]</li><li>the は弱形 [ðə]</li><li>during の /ŋ/ が弱形 /ə/ に連結</li></ul>
+<div class="kana">スノウ ドリフツ セットル アクロス ザ バイオーム ダリング ア ブリザード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My boat <mark>drifts</mark> slowly downstream toward the ocean biome.</p>
+<p class="ja">ボートがゆっくり下流に漂い、海バイオームに向かう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ boʊt drɪfts ˈsloʊli ˈdaʊnstrim təˈwɔɹd ðə ˌoʊʃən ˈbaɪoʊm/</div>
+<ul class="link"><li>boat の /t/ が子音 /d/ に続く unreleased [t̚]</li><li>drifts の /ts/ が /s/ で始まる slowly に続く unreleased [t̚s]</li><li>the は弱形 [ðə]</li></ul>
+<div class="kana">マイ ボット ドリフツ スロウリー ダウンストリーム トワード ザ オーシャン バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">drifted</span><span class="fl">過去形</span><span class="fi">/ˈdrɪfɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>drifted</mark> off course while exploring the nether caves.</p>
+<p class="ja">ネザーの洞窟を探索中にコースを外れて漂った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈdrɪfɾəd ɔf ˈkɔɹs waɪl ɪkˈsplɔɹɪŋ ðə ˈnɛðɚ ˈkeɪvz/</div>
+<ul class="link"><li>drifted の /t/ が /ə/ に挟まれてフラップ化 [ˈdrɪf.ɾəd]</li><li>off の語末 /f/ が子音 /k/ に続く未開放 [f̚]</li><li>while の語末 /l/ が母音 /ɪ/ に連結</li></ul>
+<div class="kana">アイ ドリフラッド オフ コース ワイル イクスプローリング ザ ネザー ケイブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My raft <mark>drifted</mark> into deep water and floated away.</p>
+<p class="ja">いかだが深い水に漂い込んで、流されてしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ræft ˈdrɪfɾəd ˈɪntu dip ˈwɔɾɚ ənd ˈfloʊɾəd əˈweɪ/</div>
+<ul class="link"><li>raft の /t/ が子音 /d/ に続く unreleased [t̚]</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li><li>and は弱形 [ən]、floated の /d/ に連結</li></ul>
+<div class="kana">マイ ラフト ドリフラッド イントゥ ディープ ウォーラー アン フロウラッド アウェイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">drifted</span><span class="fl">過去分詞</span><span class="fi">/ˈdrɪfɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>drifted</mark> too far, I couldn't find my spawn point.</p>
+<p class="ja">漂いすぎて、スポーンポイントが見つからなくなった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈheɪvɪŋ ˈdrɪfɾəd tu fɑɹ aɪ ˈkʊdənt ˈfaɪnd maɪ spoʊn ˈpɔɪnt/</div>
+<ul class="link"><li>having の語末 /ŋ/ が母音 /ə/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li><li>find の語末 /d/ が /m/ に続く未開放 [d̚]</li></ul>
+<div class="kana">ヘイヴィング ドリフラッド トゥ ファー アイ クッデント ファインド マイ スポーン ポイント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies had <mark>drifted</mark> downstream and were swept away.</p>
+<p class="ja">補給物資は下流に漂い、流されてしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz həd ˈdrɪfɾəd ˈdaʊnstrim ənd wɚ swept əˈweɪ/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>had は弱形 [həd]、drifted の /d/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li></ul>
+<div class="kana">ザ サプライズ ハッド ドリフラッド ダウンストリーム アン ワー スウェップ アウェイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">drifting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈdrɪftɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>drifting</mark> in the sky after jumping off the tall cliff.</p>
+<p class="ja">高い崖から飛び降りた後、空を漂っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈdrɪftɪŋ ɪn ðə skaɪ ˈæftɚ ˈdʒʌmpɪŋ ɔf ðə tɔl klɪf/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>after の /ɚ/ は r-colored schwa</li></ul>
+<div class="kana">アイム ドリフティング イン ザ スカイ アフター ジャンピング オフ ザ トール クリフ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The raft is <mark>drifting</mark> through the mangrove swamp very slowly.</p>
+<p class="ja">いかだがマングローブ沼を非常にゆっくり漂っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ræft ɪz ˈdrɪftɪŋ θɹu ðə ˈmæŋɡroʊv swɑmp ˈvɛɹi ˈsloʊli/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>is は弱形 [ɪz]、drifting の /d/ に連結</li><li>through の語末 /u/ が次の the の /ð/ に連結</li></ul>
+<div class="kana">ザ ラフト イズ ドリフティング スルー ザ マングローブ スワンプ ヴェリー スロウリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">drifts</span><span class="fl">複数形</span><span class="fi">/drɪfts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Snow <mark>drifts</mark> blocked the path to my base.</p>
+<p class="ja">雪の吹き溜まりが私のベースへの道をふさいだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/snoʊ drɪfts blɑkt ðə pæθ tu maɪ beɪs/</div>
+<ul class="link"><li>drifts の /ts/ が /b/ で始まる blocked に続く、両子音で unreleased [t̚b]</li><li>the は弱形 [ðə]</li><li>to は弱形 [tə]、my の /m/ に連結</li></ul>
+<div class="kana">スノウ ドリフツ ブロクト ザ パス トゥ マイ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple sand <mark>drifts</mark> formed near the desert temple.</p>
+<p class="ja">砂漠の寺院の近くに複数の砂の吹き溜まりが形成された。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌltəpəl sænd drɪfts fɔɹmd nɪɹ ðə ˈdɛzɚt ˈtɛmpəl/</div>
+<ul class="link"><li>sand の /d/ が /d/ で始まる drifts に続く unreleased [d̚]</li><li>drifts の /ts/ が /f/ で始まる formed に続く unreleased [t̚f]</li><li>the は弱形 [ðə]</li></ul>
+<div class="kana">マルティプル サンド ドリフツ フォームド ニアー ザ デザート テンプル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is drifting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈdrɪfɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The boat is <mark>drifting</mark> slowly downstream.</p>
+<p class="ja">ボートがゆっくり下流に漂っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈboʊt ɪz ˈdrɪfɾɪŋ ˈsloʊli ˈdaʊnstrim/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>boat の末子音 /t/ が is の初音 /ɪ/ に連結 [ˈboʊtɪz]</li><li>is は弱形 [ɪz]、drifting の /d/ が続く</li></ul>
+<div class="kana">ザ ボート イズ ドリフリング スロウリー ダウンストリーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The raft is <mark>drifting</mark> toward the island while I gather resources.</p>
+<p class="ja">私が資源を集めている間、いかだが島に向かって漂っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈræft ɪz ˈdrɪfɾɪŋ təˈwɔrd ðə ˈaɪlənd waɪl aɪ ˈɡæðər ˈrɛsɔrsɪz/</div>
+<ul class="link"><li>raft の末子音 /t/ が is の初音 /ɪ/ に連結 [ˈræftɪz]</li><li>is は弱形 [ɪz]、drifting の /d/ が続く</li><li>island の末子音 /d/ が while の初音 /w/ に未開放で続く [ˈaɪlənd̚ waɪl]</li></ul>
+<div class="kana">ザ ラフト イズ ドリフリング トゥワード ザ アイランド ワイル アイ ギャザー レソーシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was drifting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈdrɪfɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The boat was <mark>drifting</mark> downstream when I spotted the village.</p>
+<p class="ja">ボートが下流に漂っている時に、村を発見した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈboʊt wəz ˈdrɪfɾɪŋ ˈdaʊnstrim wɛn aɪ ˈspɑɾəd ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>the は弱形 [ðə]</li><li>boat の末子音 /t/ が was の初音 /w/ に未開放で続く [ˈboʊt̚ wəz]</li><li>was は弱形 [wəz]、drifting の /d/ が続く</li></ul>
+<div class="kana">ザ ボート ワズ ドリフリング ダウンストリーム ウェン アイ スパラティド ザ ビリッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The raft was <mark>drifting</mark> away when I noticed the current had changed.</p>
+<p class="ja">流れが変わったのに気づいた時、いかだが流されていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈræft wəz ˈdrɪfɾɪŋ əˈweɪ wɛn aɪ ˈnoʊtɪsɪd ðə ˈkɚənt həd ˈtʃeɪndʒd/</div>
+<ul class="link"><li>raft の末子音 /t/ が was の初音 /w/ に未開放で続く [ˈræft̚ wəz]</li><li>was は弱形 [wəz]、drifting の /d/ が続く</li><li>had は弱形 [həd]</li></ul>
+<div class="kana">ザ ラフト ワズ ドリフリング アウェイ ウェン アイ ノーティシド ザ カレント ハド チェンジド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been drifting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈdrɪfɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After we had been <mark>drifting</mark> for an hour, we finally spotted the shore.</p>
+<p class="ja">1時間漂った後、ようやく岸を発見した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər wi həd bɪn ˈdrɪfɾɪŋ fɔr ən ˈaʊər wi ˈfaɪnəli ˈspɑɾəd ðə ˈʃɔr/</div>
+<ul class="link"><li>had は弱形 [həd]、been は弱形 [bɪn]</li><li>drifting の末子音 /ŋ/ と for の初子音 /f/ の間に連結なし（子音+子音）、for は弱形 [fɔr]</li><li>hour の末子音 /r/ が we の初子音 /w/ に先行 [ˈaʊər wɪ]</li></ul>
+<div class="kana">アフター ウィー ハド ビン ドリフリング フォー ァン アワー ウィー ファイナリー スパラティド ザ シォア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies had been <mark>drifting</mark> downstream for days before we found them.</p>
+<p class="ja">補給物資は数日間下流に漂い続けた後、ついに見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz həd bɪn ˈdrɪfɾɪŋ ˈdaʊnstrim fɔr ˈdeɪz bɪˈfɔr wi ˈfaʊnd ðəm/</div>
+<ul class="link"><li>supplies の末子音 /z/ が had の初音 /h/ に先行 [səˈplaɪz həd]</li><li>had は弱形 [həd]、been は弱形 [bɪn]</li><li>before の末子音 /r/ が we の初子音 /w/ に先行 [bɪˈfɔr wɪ]</li></ul>
+<div class="kana">ザ サプライズ ハド ビン ドリフリング ダウンストリーム フォー デイズ ビフォア ウィー ファウンド ザム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has drifted</span><span class="fl">現在完了形</span><span class="fi">/həz ˈdrɪfɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies have <mark>drifted</mark> away from the shore into deep water.</p>
+<p class="ja">補給物資は岸から漂い流れ、深い水へと流れていった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz həv ˈdrɪfɾəd əˈweɪ frəm ðə ʃɔɹ ˈɪntu dip ˈwɔɾɚ/</div>
+<ul class="link"><li>the は弱形 [ðə]（子音+母音の境界）</li><li>have は弱形 [həv]、drifted の /d/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li></ul>
+<div class="kana">ザ サプライズ ハヴ ドリフラッド アウェイ フラム ザ ショア イントゥ ディープ ウォーラー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>drifted</mark> so far from my base that I'm completely lost.</p>
+<p class="ja">自分のベースからあまりに遠く漂ってしまい、完全に迷ってしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈdrɪfɾəd soʊ fɑɹ frəm maɪ beɪs ðæt aɪm kəmˈplit li ˈlɔst/</div>
+<ul class="link"><li>have は弱形 [həv]、drifted の /d/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li><li>I'm の /m/ が /k/ に続く未開放 [m̚]</li></ul>
+<div class="kana">アイ ハヴ ドリフラッド ソー ファー フラム マイ ベイス ザッ アイム コンプリートリー ロスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had drifted</span><span class="fl">過去完了形</span><span class="fi">/həd ˈdrɪfɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the rescue team arrived, the boat had <mark>drifted</mark> far offshore.</p>
+<p class="ja">救援チームが到着する頃には、ボートはすでに遠く沖に漂いていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm ðə ˈrɛskju tim əˈɹaɪvd ðə boʊt həd ˈdrɪfɾəd fɑɹ ˈɔfʃɔɹ/</div>
+<ul class="link"><li>the は弱形 [ðə]（子音+母音の境界）</li><li>had は弱形 [həd]、drifted の /d/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li></ul>
+<div class="kana">バイ ザ タイム ザ レスキュー ティーム アライヴド ザ ボート ハッド ドリフラッド ファー オフショア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player had <mark>drifted</mark> so far that they couldn't recognize any landmarks.</p>
+<p class="ja">プレイヤーはあまりに遠く漂いすぎて、どんなランドマークも認識できなくなっていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚ həd ˈdrɪfɾəd soʊ fɑɹ ðæt ðeɪ ˈkʊdənt ˈrɛkəɡnaɪz ˈɛni ˈlændmɑrks/</div>
+<ul class="link"><li>had は弱形 [həd]、drifted の /d/ に連結</li><li>drifted の /t/ がフラップ化 [ˈdrɪf.ɾəd]</li><li>any は /ɛ/ で始まり、前語 so の /oʊ/ から離れているが自然な分離</li></ul>
+<div class="kana">ザ プレイヤー ハッド ドリフラッド ソー ファー ザッ ザェ クッデント レコグナイズ エニー ランドマークス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been drifting</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈdrɪftɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The raft has been <mark>drifting</mark> downstream all afternoon in the current.</p>
+<p class="ja">いかだが一日中、流れの中を下流に漂い続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɹæft həz bɪn ˈdrɪftɪŋ ˈdaʊnstrim ɔl ˌæftɚˈnun ɪn ðə ˈkɚənt/</div>
+<ul class="link"><li>the は弱形 [ðə]（子音+母音の境界）</li><li>has は弱形 [həz]、been の /b/ に連結</li><li>been は弱形 [bɪn]、drifting の /d/ に連結</li></ul>
+<div class="kana">ザ ラフト ハズ ビン ドリフティング ダウンストリーム オール アフターヌーン イン ザ カレント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our team has been <mark>drifting</mark> apart since the server problems started last month.</p>
+<p class="ja">先月からサーバーの問題が始まってからというもの、我々のチームはだんだん離れていっている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ tim həz bɪn ˈdrɪftɪŋ əˈpɑɹt sɪns ðə ˈsɚvɚ ˈprɑbləmz ˈstɑɹɾəd læst mʌnθ/</div>
+<ul class="link"><li>has は弱形 [həz]、been の /b/ に連結</li><li>been は弱形 [bɪn]、drifting の /d/ に連結</li><li>started の /d/ がフラップ化 [ˈstɑɹ.ɾəd]</li></ul>
+<div class="kana">アワー ティーム ハズ ビン ドリフティング アパート シンス ザ サーバー プロブレムズ スターラッド ラスト マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will drift</span><span class="fl">単純未来形</span><span class="fi">/wɪl drɪft/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>drift</mark> into the ocean if I keep going in that direction.</p>
+<p class="ja">この方向に進み続けると、大洋に漂い込むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl drɪft ˈɪntu ðə ˈoʊʃən ɪf aɪ kip ˈɡoʊɪŋ ɪn ðæt dəˈrɛkʃən/</div>
+<ul class="link"><li>I'll は I + will の縮約。will は弱形 /əl/ に弱化 [aɪl]</li><li>drift の末尾 /t/ が into の母音 /ɪ/ に連結</li><li>the は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">アイル ドリフト イントゥ ザ オーシャン イフ アイ キープ ゴウイング イン ザット ダレクション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies will <mark>drift</mark> away if we don't tie them to the raft.</p>
+<p class="ja">いかだに結び付けなければ、補給物資は流れ去ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz wɪl drɪft əˈweɪ ɪf wi ˈdoʊnt taɪ ðɛm tə ðə ræft/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化</li><li>don't の末尾 /t/ が tie の母音 /aɪ/ に連結</li><li>to は弱形 /tə/ に弱化</li></ul>
+<div class="kana">ザ サプライズ ウィル ドリフト アウェイ イフ ウィー ドント タイ ザエム タ ザ ラフト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be drifting</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈdrɪftɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>drifting</mark> downstream while you finish building the bridge.</p>
+<p class="ja">あなたが橋を完成させている間、私たちは下流に漂うでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl bi ˈdrɪftɪŋ ˈdaʊnstrim waɪl ju ˈfɪnɪʃ ˈbɪldɪŋ ðə ˈbrɪdʒ/</div>
+<ul class="link"><li>We'll は we + will の縮約。will は弱形に弱化 [wɪl]</li><li>be は弱形 [bi]（助動詞）</li><li>the は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">ウィル ビー ドリフティング ダウンストリーム ワイル ユー フィニッシュ ビルディング ザ ブリッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The logs will be <mark>drifting</mark> toward the waterfall as we watch from the shore.</p>
+<p class="ja">私たちが岸から見ている間、丸太は滝に向かって漂うでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlɑɡz wɪl bi ˈdrɪftɪŋ təˈwɔrd ðə ˈwɔtɚˌfɔl æz wi wɑtʃ frəm ðə ˈʃɔr/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化（3回）</li><li>will は弱形に弱化 [wɪl]、be は弱形 [bi]（助動詞）</li><li>from は弱形 /frəm/ に弱化</li></ul>
+<div class="kana">ザ ログス ウィル ビー ドリフティング トゥワード ザ ウォターフォール アズ ウィ ウォッチ フラム ザ ショア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have drifted</span><span class="fl">未来完了形</span><span class="fi">/wɪl əv ˈdrɪftəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/drift_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time dawn breaks, I will have <mark>drifted</mark> far away from our starting point.</p>
+<p class="ja">夜明けまでに、私は出発地点からかなり遠く漂っているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ˈdɔn ˈbreɪks aɪ wɪl əv ˈdrɪftəd fɑr əˈweɪ frəm ˈaʊr ˈstɑrtɪŋ pɔɪnt/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化</li><li>will は弱形に弱化 [wɪl]、have は弱形 /əv/ に弱化</li><li>from は弱形 /frəm/ に弱化</li></ul>
+<div class="kana">バイ ザ タイム ドーン ブレイクス アイ ウィル ヴ ドリフテッド ファー アウェイ フラム アワー スターティング ポイント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>All the supplies will have <mark>drifted</mark> away by evening if we don't anchor them properly.</p>
+<p class="ja">もし私たちが適切に固定しなければ、補給物資は夕方までに流されてしまっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ðə səˈplaɪz wɪl əv ˈdrɪftəd əˈweɪ baɪ ˈɪvənɪŋ ɪf wi doʊnt ˈæŋkər ðɛm ˈprɑpərli/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化</li><li>will は弱形に弱化 [wɪl]、have は弱形 /əv/ に弱化</li><li>don't の末尾 /t/ が anchor の母音 /æ/ に連結</li></ul>
+<div class="kana">オール ザ サプライズ ウィル ヴ ドリフテッド アウェイ バイ イブニング イフ ウィ ドント アンカー ザエム プロパーリー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">drift off</span><span class="im">眠りに落ちる、寝てしまう</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>drifted</mark> off during a long mining session at night.</p>
+<p class="ja">夜の長い採掘セッション中に寝てしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈdrɪfɾəd ˈɔf ˈdɪɹɪŋ ə ˈlɔŋ ˈmaɪnɪŋ ˈsɛʃən ət naɪt/</div>
+<ul class="link"><li>drifted の /t/ が /ə/ に挟まれてフラップ化 [ˈdrɪf.ɾəd]</li><li>off の語末 /f/ が during の /d/ に続くため未開放</li></ul>
+<div class="kana">アイ ドリフラッド オフ ジュリング ア ロング マイニング セッション アット ナイト</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">get the drift</span><span class="im">大意をつかむ、意味するところを理解する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I got the <mark>drift</mark> of your redstone contraption plan.</p>
+<p class="ja">君のレッドストーン装置計画の要点はわかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈɡɑt ðə ˈdrɪft əv jɔɹ ˈrɛdˌstoʊn kənˈtræpʃən ˈplæn/</div>
+<ul class="link"><li>got の語末 /t/ が the の /ð/ に続くため未開放</li><li>the は弱形 [ðə]</li><li>of が弱形 [əv]</li></ul>
+<div class="kana">アイ ガット ザ ドリフト アヴ ユアー レッドストーン コントラプション プラン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">drift apart</span><span class="im">（人間関係が）次第に離れていく、疎遠になる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Teammates <mark>drift</mark> apart when the server closes permanently.</p>
+<p class="ja">サーバーが永遠に閉鎖されるとき、プレイヤーたちは次第に離れていく。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/drift_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/drift_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtiːmˌmeɪts drɪft əˈpɑɹt wɛn ðə ˈsɝvɚ ˈkloʊzɪz ˌpɝˈmænəntli/</div>
+<ul class="link"><li>teammates の末尾 /ts/ が drift の /d/ に続くため /s/ は未開放</li><li>the は弱形 [ðə]</li><li>closes の /z/ が permanently の /p/ に続くため未開放</li></ul>
+<div class="kana">ティームメイツ ドリフト アパート ウェン ザ サーバー クロージーズ パーマネントリー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="drift";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

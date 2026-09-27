@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>assemble — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>assemble</h2><span class="pos">動詞</span><span class="ipa-head">/əˈsɛmbəl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1333</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】部品や材料を組み立てる、組み合わせる（put together the parts of something）</li><li>【動詞】人々や物を一箇所に集める、集合させる（gather people or things in one place）</li><li>【動詞】複数の要素を接合する、組成する（join different parts together to form something）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to <mark>assemble</mark> all the materials for building.</p>
+<p class="ja">建築のためにすべての素材を組み立てる必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈniːd tə əˈsɛmbəl ɔːl ðə məˈtɪrəlz fɚ ˈbɪldɪŋ/</div>
+<ul class="link"><li>need の末尾 /d/ が to の /t/ の前で未開放、to は弱形 /tə/ [ˈniːd̚ tə] ニード タ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>for は前置詞の弱形 /fɚ/ [ファー]</li></ul>
+<div class="kana">ウィ ニード タ アセンブル オール ザ マテリアルズ ファー ビルディング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>assembled</mark> the redstone circuit piece by piece carefully.</p>
+<p class="ja">レッドストーン回路をパーツごとに丁寧に組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əˈsɛmbəld ðə ˈrɛdˌstoʊn ˈsɜrkɪt ˈpiːs baɪ ˈpiːs ˈkɛrfəli/</div>
+<ul class="link"><li>assembled の末尾 /d/ が the の初頭 /ð/ に先行 [əˈsɛmbəld ðə] アセンブルド ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>circuit の末尾 /t/ が piece の /p/ の前で未開放 [ˈsɜrkɪt̚]</li></ul>
+<div class="kana">アイ アセンブルド ザ レッドストーン サーキット ピース バイ ピース ケアフリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players must <mark>assemble</mark> at the meeting place together.</p>
+<p class="ja">プレイヤーたちは集合場所に集合しなければなりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz məst əˈsɛmbəl ət ðə ˈmiːtɪŋ ˈpleɪs təˈɡɛðɚ/</div>
+<ul class="link"><li>must の末尾 /t/ が assemble の /ə/ に連結 [məst əˈsɛmbəl] マスト アセンブル</li><li>at の末尾 /t/ が the の /ð/ の前で未開放、the は弱形 /ðə/ [ət̚ ðə] アッ ザ</li><li>together の to は機能詞の弱形 /tə/ [タ]</li></ul>
+<div class="kana">プレイヤーズ マスト アセンブル アッ ザ ミーティング プレイス タゲザー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">assembles</span><span class="fl">三人称単数現在形</span><span class="fi">/əˈsɛmbəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>assembles</mark> the furnace with blocks quickly.</p>
+<p class="ja">彼は素早くブロックで炉を組み立てます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi əˈsɛmbəlz ðə ˈfɝnɪs wɪð blɑks ˈkwɪkli/</div>
+<ul class="link"><li>assembles の末尾 /z/ が the の /ð/ に連結 [əˈsɛmbəlz ðə] アセンブルズ ザ</li><li>with の末尾 /ð/ が blocks の /b/ の前で未開放 [wɪð̚ blɑks] ウィッ ブロックス</li></ul>
+<div class="kana">ヒ アセンブルズ ザ ファーニス ウィッ ブロックス クイックリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder <mark>assembles</mark> all the components for the farm.</p>
+<p class="ja">建築者はファームのすべての部品を組み立てます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚ əˈsɛmbəlz ɔːl ðə kəmˈpoʊnənts fɚ ðə fɑrm/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>builder の末尾 /ɚ/ が assembles の /ə/ に連結 [ˈbɪldɚ əˈsɛmbəlz] ビルダー アセンブルズ</li><li>assembles の末尾 /z/ が all の /ɔ/ に連結 [əˈsɛmbəlz ɔːl] アセンブルズ オール</li><li>for と the は弱形 /fɚ ðə/ [ファ ザ]</li></ul>
+<div class="kana">ザ ビルダー アセンブルズ オール ザ コムポーネンツ ファ ザ ファーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">assembled</span><span class="fl">過去形</span><span class="fi">/əˈsɛmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>assembled</mark> the full redstone contraption yesterday.</p>
+<p class="ja">昨日、私は完全なレッドストーン装置を組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əˈsɛmbəld ðə fʊl ˈrɛdˌstoʊn kənˈtræpʃən ˈjɛstɚdeɪ/</div>
+<ul class="link"><li>assembled の末尾 /d/ が the の /ð/ に連結 [əˈsɛmbəld ðə] アセンブルド ザ</li><li>full の末尾 /l/ が redstone の /ɹ/ に連結 [fʊl ˈrɛd] フル レッド</li><li>contraption の末尾 /n/ が yesterday の /j/ に連結 [kənˈtræpʃən ˈjɛs] コントラプション イェス</li></ul>
+<div class="kana">アイ アセンブルド ザ フル レッドストーン コントラプション イェスターデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>assembled</mark> the bridge structure over the lava lake.</p>
+<p class="ja">私たちは溶岩湖の上に橋構造を組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi əˈsɛmbəld ðə ˈbrɪdʒ ˈstrʌktʃɚ ˈoʊvɚ ðə ˈlɑvə leɪk/</div>
+<ul class="link"><li>assembled の末尾 /d/ が the の /ð/ に連結 [əˈsɛmbəld ðə] アセンブルド ザ</li><li>bridge の末尾 /dʒ/ が structure の /s/ の前で未開放 [ˈbrɪdʒ̚ ˈstrʌk] ブリッジ ストラクチャー</li><li>over の末尾 /ɚ/ が the の /ð/ に連結、the は弱形 /ðə/ [ˈoʊvɚ ðə] オーバー ザ</li></ul>
+<div class="kana">ウィ アセンブルド ザ ブリッジ ストラクチャー オーバー ザ ラバ レイク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">assembled</span><span class="fl">過去分詞</span><span class="fi">/əˈsɛmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The crafting bench was <mark>assembled</mark> from oak wood carefully.</p>
+<p class="ja">クラフトテーブルはオークの木から慎重に組み立てられました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkræftɪŋ bɛntʃ wəz əˈsɛmbəld frəm ˈoʊk wʊd ˈkɛrfəli/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>bench の末尾 /tʃ/ が was の /w/ の前で未開放 [bɛntʃ̚ wəz] ベンチ ワズ</li><li>was は弱形 /wəz/ [ワズ]、assembled の末尾 /d/ に連結 [wəz əˈsɛmbəld] ワズ アセンブルド</li><li>from は弱形 /frəm/ [フラム]</li></ul>
+<div class="kana">ザ クラフティング ベンチ ワズ アセンブルド フラム オーク ウッド ケアフリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>assembled</mark> all the materials, we began building the castle.</p>
+<p class="ja">すべての素材を組み立てた後、私たちは城の建築を始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ əˈsɛmbəld ɔːl ðə məˈtɪrəlz wiː bɪˈɡæn ˈbɪldɪŋ ðə ˈkæsəl/</div>
+<ul class="link"><li>Having の末尾 /ŋ/ が assembled の /ə/ に連結 [ˈhævɪŋ əˈsɛmbəld] ハビング アセンブルド</li><li>all の末尾 /l/ が the の /ð/ に連結 [ɔːl ðə] オール ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]、began の末尾 /n/ が building の /b/ に連結</li></ul>
+<div class="kana">ハビング アセンブルド オール ザ マテリアルズ ウィ ビガン ビルディング ザ キャスル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">assembling</span><span class="fl">現在分詞/動名詞</span><span class="fi">/əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>assembling</mark> the gear system for the door.</p>
+<p class="ja">私は門用のギアシステムを組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ æm əˈsɛmbəlɪŋ ðə ɡɪr ˈsɪstəm fɚ ðə dɔr/</div>
+<ul class="link"><li>assembling の末尾 /ŋ/ が the の /ð/ に連結 [əˈsɛmbəlɪŋ ðə] アセンブリング ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>for は前置詞の弱形 /fɚ/ [ファ]、the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">アイ アム アセンブリング ザ ギア システム ファ ザ ドア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>assembling</mark> blocks into a tower.</p>
+<p class="ja">彼らはブロックをタワーに組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr əˈsɛmbəlɪŋ blɑks ˈɪntu ə ˈtaʊər/</div>
+<ul class="link"><li>are の末尾 /r/ が assembling の /ə/ に連結 [ɑr əˈsɛmbəlɪŋ] アー アセンブリング</li><li>assembling の末尾 /ŋ/ が blocks の /b/ の前で未開放 [əˈsɛmbəlɪŋ̚ blɑks] アセンブリング ブロックス</li><li>into の末尾 /u/ が a の弱形 /ə/ に連結 [ˈɪntu ə] イントゥ ア</li></ul>
+<div class="kana">ゼイ アー アセンブリング ブロックス イントゥ ア タウアー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is assembling</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>assembling</mark> the redstone circuit piece by piece right now.</p>
+<p class="ja">彼女は今、レッドストーン回路をパーツごとに組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz əˈsɛmbəlɪŋ ðə ˈrɛdˌstoʊn ˈsɜrkɪt ˈpiːs baɪ ˈpiːs raɪt ˈnaʊ/</div>
+<ul class="link"><li>is は機能詞の弱形 /ɪz/ [イズ]</li><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>piece の末尾 /s/ が by の /b/ の前で未開放 [ˈpiːs̚ baɪ] ピース バイ</li></ul>
+<div class="kana">シー イズ アセンブリング ザ レッドストーン サーキット ピース バイ ピース ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>assembling</mark> blocks for the tower as fast as we can.</p>
+<p class="ja">私たちはできるだけ早く塔用のブロックを組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr əˈsɛmbəlɪŋ blɑks fɚ ðə ˈtaʊər əz fæst əz wi kæn/</div>
+<ul class="link"><li>are の末尾 /r/ が assembling の /ə/ に連結 [ɑr əˈsɛmbəlɪŋ] アー アセンブリング</li><li>assembling の末尾 /ŋ/ が blocks の /b/ の前で未開放 [əˈsɛmbəlɪŋ̚ blɑks] アセンブリング ブロックス</li><li>for と the は機能詞の弱形 /fɚ ðə/ [ファ ザ]</li></ul>
+<div class="kana">ウィ アー アセンブリング ブロックス ファ ザ タウアー アズ ファスト アズ ウィ キャン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was assembling</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>assembling</mark> the gear system when the creeper suddenly appeared.</p>
+<p class="ja">クリーパーが突然現れた時、私はギアシステムを組み立てていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz əˈsɛmbəlɪŋ ðə ɡɪr ˈsɪstəm wɛn ðə ˈkripɚ ˈsʌdənli əˈpɪrd/</div>
+<ul class="link"><li>was は機能詞の弱形 /wəz/、assembling の /ə/ に連結 [wəz əˈsɛmbəlɪŋ] ワズ アセンブリング</li><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>when の末尾 /n/ が the の /ð/ に連結、the は定冠詞の弱形 /ðə/ [ウェン ザ]</li></ul>
+<div class="kana">アイ ワズ アセンブリング ザ ギア システム ウェン ザ クリーパー サドゥンリー アピアド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>assembling</mark> the farm system for hours yesterday.</p>
+<p class="ja">昨日、彼らは何時間もファームシステムを組み立てていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ əˈsɛmbəlɪŋ ðə fɑrm ˈsɪstəm fɚ ˈaʊɚz ˈjɛstɚdeɪ/</div>
+<ul class="link"><li>were の末尾 /r/ が assembling の /ə/ に連結 [wɚ əˈsɛmbəlɪŋ] ワー アセンブリング</li><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>for は前置詞の弱形 /fɚ/ [ファ]</li></ul>
+<div class="kana">ゼイ ワー アセンブリング ザ ファーム システム ファ アワーズ イェスターデイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been assembling</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>assembling</mark> the castle structure for several hours when the storm came.</p>
+<p class="ja">嵐が来た時、私たちは何時間も城構造を組み立てていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn əˈsɛmbəlɪŋ ðə ˈkæsəl ˈstrʌktʃɚ fɚ ˈsɛvrəl ˈaʊɚz wɛn ðə stɔrm keɪm/</div>
+<ul class="link"><li>had は機能詞の弱形 /həd/、been は弱形 /bɪn/ [ハド ビン]</li><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>for は前置詞の弱形 /fɚ/ [ファ]、when の末尾 /n/ が the の /ð/ に連結、the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">ウィ ハド ビン アセンブリング ザ キャスル ストラクチャー ファ セブラル アワーズ ウェン ザ ストーム ケイム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>assembling</mark> components before the server restarted unexpectedly.</p>
+<p class="ja">サーバーが予期せず再起動する前に、彼女はコンポーネントを組み立てていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd bɪn əˈsɛmbəlɪŋ ˈkɑmpənənts bɪˈfɔr ðə ˈsɝvɚ riˈstɑrtəd ʌnɪkˈspɛktɪdli/</div>
+<ul class="link"><li>had は機能詞の弱形 /həd/、been は弱形 /bɪn/ [ハド ビン]</li><li>assembling の末尾 /ŋ/ が components の /k/ の前で未開放 [əˈsɛmbəlɪŋ̚ ˈkɑmpə] アセンブリング コンポー</li><li>before の末尾 /r/ が the の /ð/ に連結、the は定冠詞の弱形 /ðə/ [フォー ザ]</li></ul>
+<div class="kana">シー ハド ビン アセンブリング コンポーネンツ ビフォー ザ サーバー リスターテッド アニクスペクティドリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has assembled</span><span class="fl">現在完了形</span><span class="fi">/həz əˈsɛmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>assembled</mark> the brewing station carefully.</p>
+<p class="ja">彼女は醸造施設を丁寧に組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz əˈsɛmbəld ðə ˈbruːɪŋ ˈsteɪʃən ˈkɛrfəli/</div>
+<ul class="link"><li>has の末尾 /z/ が assembled の /ə/ に先行 [həz əˈsɛmbəld] ハズ アセンブルド</li><li>assembled の末尾 /d/ が the の /ð/ に連結 [əˈsɛmbəld ðə] アセンブルド ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>station の末尾 /n/ が carefully の /k/ の前で未開放 [ˈsteɪʃən̚ ˈkɛr] ステーション ケア</li></ul>
+<div class="kana">シー ハズ アセンブルド ザ ブルーイング ステーション ケアフリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players have <mark>assembled</mark> all the supplies for winter.</p>
+<p class="ja">プレイヤーたちは冬のためのすべての物資を組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz həv əˈsɛmbəld ɔːl ðə səˈplaɪz fɚ ˈwɪntɚ/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>players の末尾 /z/ が have の /h/ に先行 [ˈpleɪərz həv] プレイヤーズ ハヴ</li><li>have の末尾 /v/ が assembled の /ə/ に連結 [həv əˈsɛmbəld] ハヴ アセンブルド</li><li>assembled の末尾 /d/ が all の /ɔ/ に連結 [əˈsɛmbəld ɔːl] アセンブルド オール</li><li>all の末尾 /l/ が the の /ð/ に連結、the は弱形 /ðə/ [ɔːl ðə] オール ザ</li><li>for と the は弱形 /fɚ ðə/ [ファ ザ]</li></ul>
+<div class="kana">ザ プレイヤーズ ハヴ アセンブルド オール ザ サプライズ ファ ウィンター</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had assembled</span><span class="fl">過去完了形</span><span class="fi">/həd əˈsɛmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>assembled</mark> the nether portal before the creepers arrived.</p>
+<p class="ja">クリーパーが到着する前に、ネザーゲートを組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd əˈsɛmbəld ðə ˈnɛðɚ ˈpoʊrtəl bɪˈfɔr ðə ˈkriːpɚz əˈraɪvd/</div>
+<ul class="link"><li>had の末尾 /d/ が assembled の /ə/ に先行 [həd əˈsɛmbəld] ハド アセンブルド</li><li>assembled の末尾 /d/ が the の /ð/ に連結 [əˈsɛmbəld ðə] アセンブルド ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>portal の末尾 /l/ が before の /b/ に先行 [ˈpoʊrtəl bɪˈfɔr] ポータル ビフォア</li><li>before の末尾 /r/ が the の /ð/ に先行、the は弱形 /ðə/ [bɪˈfɔr ðə] ビフォア ザ</li><li>creepers の末尾 /z/ が arrived の /ə/ に先行 [ˈkriːpɚz əˈraɪvd] クリーパーズ アライヴド</li></ul>
+<div class="kana">ウィ ハド アセンブルド ザ ネザー ポータル ビフォア ザ クリーパーズ アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the dragon spawned, we had <mark>assembled</mark> all the end crystals.</p>
+<p class="ja">ドラゴンがスポーンするまでに、私たちはすべてのエンドクリスタルを組み立てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈdræɡən ˈspɔnd wi həd əˈsɛmbəld ɔːl ðə ˈɛnd ˈkrɪstəlz/</div>
+<ul class="link"><li>the は弱形 /ðə/ [ザ]</li><li>dragon の末尾 /n/ が spawned の /s/ の前で未開放 [ˈdræɡən̚ ˈspɔnd] ドラゴン スポーン</li><li>had の末尾 /d/ が assembled の /ə/ に先行 [həd əˈsɛmbəld] ハド アセンブルド</li><li>assembled の末尾 /d/ が all の /ɔ/ に連結 [əˈsɛmbəld ɔːl] アセンブルド オール</li><li>all の末尾 /l/ が the の /ð/ に連結、the は弱形 /ðə/ [ɔːl ðə] オール ザ</li></ul>
+<div class="kana">バイ ザ タイム ザ ドラゴン スポーン ウィ ハド アセンブルド オール ザ エンド クリスタルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been assembling</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has been <mark>assembling</mark> the redstone machine for three hours.</p>
+<p class="ja">彼は3時間レッドストーン装置を組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz bɪn əˈsɛmbəlɪŋ ðə ˈrɛdˌstoʊn məˈʃin fɚ ˈθri ˈaʊɚz/</div>
+<ul class="link"><li>has の末尾 /z/ が been の /b/ に先行 [həz bɪn] ハズ ビン</li><li>been の末尾 /n/ が assembling の /ə/ に先行 [bɪn əˈsɛmbəlɪŋ] ビン アセンブリング</li><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>machine の末尾 /n/ が for の /f/ の前で未開放 [məˈʃin̚ fɚ] マシーン ファ</li><li>for は前置詞の弱形 /fɚ/ [ファ]</li></ul>
+<div class="kana">ヒー ハズ ビン アセンブリング ザ レッドストーン マシーン ファ スリー アウアーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>assembling</mark> blocks into a massive tower all morning.</p>
+<p class="ja">私は一朝中、ブロックを組み立てて巨大なタワーを作っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn əˈsɛmbəlɪŋ blɑks ˈɪntu ə məˈsɪv ˈtaʊər ɔːl ˈmɔrnɪŋ/</div>
+<ul class="link"><li>have の末尾 /v/ が been の /b/ に連結 [həv bɪn] ハヴ ビン</li><li>been の末尾 /n/ が assembling の /ə/ に先行 [bɪn əˈsɛmbəlɪŋ] ビン アセンブリング</li><li>assembling の末尾 /ŋ/ が blocks の /b/ の前で未開放 [əˈsɛmbəlɪŋ̚ blɑks] アセンブリング ブロックス</li><li>blocks の末尾 /ks/ が into の /ɪ/ に先行 [blɑks ˈɪntu] ブロックス イントゥ</li><li>into の末尾 /u/ が a の /ə/ に先行、a は弱形 /ə/ [ˈɪntu ə] イントゥ ア</li><li>all の末尾 /l/ が morning の /m/ に先行 [ɔːl ˈmɔrnɪŋ] オール モーニング</li></ul>
+<div class="kana">アイ ハヴ ビン アセンブリング ブロックス イントゥ ア マシーブ タウアー オール モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will assemble</span><span class="fl">単純未来形</span><span class="fi">/wɪl əˈsɛmbəl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>assemble</mark> the farm when I collect more materials.</p>
+<p class="ja">素材をもっと集めたら、農場を組み立てます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl əˈsɛmbəl ðə fɑrm wɛn aɪ kəˈlɛkt mɔr məˈtɪrəlz/</div>
+<ul class="link"><li>will の末尾 /l/ が assemble の /ə/ に連結 [wɪl əˈsɛmbəl] ウィル アセンブル</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li><li>collect の末尾 /t/ が more の /m/ の前で未開放 [kəˈlɛkt̚ mɔr] コレクト モア</li></ul>
+<div class="kana">アイ ウィル アセンブル ザ ファーム ウェン アイ コレクト モア マテリアルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>assemble</mark> the structure together tomorrow.</p>
+<p class="ja">明日、私たちは一緒に構造を組み立てます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl əˈsɛmbəl ðə ˈstrʌktʃɚ təˈɡɛðɚ təˈmɑroʊ/</div>
+<ul class="link"><li>will の末尾 /l/ が assemble の /ə/ に連結 [wɪl əˈsɛmbəl] ウィル アセンブル</li><li>the は定冠詞の弱形 /ðə/ [ザ]、together の to は弱形 /tə/ [タ]</li></ul>
+<div class="kana">ウィ ウィル アセンブル ザ ストラクチャー トゥゲザー トゥモロー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be assembling</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi əˈsɛmbəlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He will be <mark>assembling</mark> the door mechanism all afternoon.</p>
+<p class="ja">彼は午後中ずっとドア機構を組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wɪl bi əˈsɛmbəlɪŋ ðə dɔr ˈmɛkənɪzəm ɔːl ˌæftɚˈnun/</div>
+<ul class="link"><li>assembling の末尾 /ŋ/ が the の /ð/ の前で未開放 [əˈsɛmbəlɪŋ̚ ðə] アセンブリング ザ</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">ヒー ウィル ビー アセンブリング ザ ドア メカニズム オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>assembling</mark> blocks into the wall tomorrow.</p>
+<p class="ja">明日、彼らは壁にブロックを組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi əˈsɛmbəlɪŋ blɑks ˈɪntu ðə wɔl təˈmɑroʊ/</div>
+<ul class="link"><li>assembling の末尾 /ŋ/ が blocks の /b/ の前で未開放 [əˈsɛmbəlɪŋ̚ blɑks] アセンブリング ブロックス</li><li>blocks の末尾 /ks/ が into の /ɪ/ に先行 [blɑks ˈɪntu] ブロックス イントゥ</li><li>into の末尾 /u/ が the の /ð/ に先行、the は弱形 /ðə/ [ˈɪntu ðə] イントゥ ザ</li></ul>
+<div class="kana">ゼイ ウィル ビー アセンブリング ブロックス イントゥ ザ ウォール トゥモロー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have assembled</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv əˈsɛmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/assemble_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, we will have <mark>assembled</mark> the entire castle.</p>
+<p class="ja">来週までに、私たちは城全体を組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst wik wi wɪl həv əˈsɛmbəld ðə ɪnˈtaɪr ˈkæsəl/</div>
+<ul class="link"><li>have の末尾 /v/ が assembled の /ə/ に連結 [həv əˈsɛmbəld] ハヴ アセンブルド</li><li>the は定冠詞の弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">バイ ネクスト ウィック ウィ ウィル ハヴ アセンブルド ザ インタイア キャスル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>assembled</mark> all the supplies before night falls.</p>
+<p class="ja">夜が落ちる前に、彼女はすべての物資を組み立てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/assemble_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/assemble_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl həv əˈsɛmbəld ɔːl ðə səˈplaɪz bɪˈfɔr naɪt fɔːlz/</div>
+<ul class="link"><li>have の末尾 /v/ が assembled の /ə/ に連結 [həv əˈsɛmbəld] ハヴ アセンブルド</li><li>assembled の末尾 /d/ が all の /ɔ/ に連結 [əˈsɛmbəld ɔːl] アセンブルド オール</li><li>before の末尾 /r/ が night の /n/ に先行 [bɪˈfɔr naɪt] ビフォア ナイト</li></ul>
+<div class="kana">シー ウィル ハヴ アセンブルド オール ザ サプライズ ビフォア ナイト フォールズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="assemble";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

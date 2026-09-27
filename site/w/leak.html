@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>leak — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>leak</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/liːk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1629</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】(液体・ガスなどが) 漏れ出す、もれる（ダムの水が漏れている）</li><li>【動詞】(秘密・情報が) 明かされる、漏らされる（基地の座標が漏れてしまった）</li><li>【名詞】穴や隙間からの液体・ガスの漏出（屋根の漏れ）</li><li>【名詞】秘密や情報の漏洩、暴露（プレイ動画の情報漏洩）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Water is <mark>leaking</mark> from the dam we built yesterday.</p>
+<p class="ja">昨日作ったダムから水が漏れている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔːtər ɪz ˈliːkɪŋ frəm ðə ˈdæm wi ˈbɪlt ˈjɛstərdeɪ/</div>
+<ul class="link"><li>water is：語末の /r/ が is の /ɪ/ に連結 [tər ɪz]→ウォーラ イズ</li><li>from the：from の /m/ が the の /ð/ に未開放で連接、the は弱形 /ðə/→フラム ザ</li><li>we built：we /wi/ と built /bɪlt/ は自然に連なる、built yesterday では /t/ が未開放</li></ul>
+<div class="kana">ウォーラ イズ リーキング フラム ザ ダム ウィ ビルト イェスタデイ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We found a <mark>leak</mark> in the roof during the storm.</p>
+<p class="ja">嵐の中、屋根に漏りが見つかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈfaʊnd ə ˈliːk ɪn ðə ˈruːf ˈdʊrɪŋ ðə ˈstɔːrm/</div>
+<ul class="link"><li>a leak：a は弱形 /ə/→ア、leak の /k/ が in の /ɪ/ に連結→ア リーク イン</li><li>in the：in の /n/ が the の /ð/ に未開放で連接、the は弱形 /ðə/→イン ザ</li><li>during the：during の /ŋ/ が the の /ð/ に未開放で連接、the は弱形→ドゥリング ザ</li></ul>
+<div class="kana">ウィ ファウンド ア リーク イン ザ ルーフ ドゥリング ザ ストーム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Someone <mark>leaked</mark> our secret base location to the enemy team.</p>
+<p class="ja">誰かが敵チームに秘密基地の場所を漏らした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsʌmwʌn ˈliːkt aʊr ˈsiːkrət ˈbeɪs loʊˈkeɪʃən tə ðə ˈɛnəmi ˈtiːm/</div>
+<ul class="link"><li>leaked our：leaked の /t/ が our の /aʊ/ に連結→リークト アワー。our の /r/ が secret の /s/ に連結→アワー シークラット</li><li>to the：to は弱形 /tə/→タ、the は弱形 /ðə/→ザ</li><li>enemy team：enemy の /i/ と team の /t/ が自然に連なる</li></ul>
+<div class="kana">サムワン リークト アワー シークラット ベイス ローケイション タ ザ エネミ ティーム</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">leaks</span><span class="fl">三人称単数現在形</span><span class="fi">/liːks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water <mark>leaks</mark> out of the container we made in the base.</p>
+<p class="ja">基地で作ったコンテナから水が漏れ出している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔːtər ˈliːks aʊt əv ðə kənˈteɪnər wi ˈmeɪd ɪn ðə ˈbeɪs/</div>
+<ul class="link"><li>「Water leaks」で Water の語末 /r/ と leaks の /l/ が続く「ウォーラ リークス」</li><li>「leaks out」で leaks の語末子音 /s/ が out の /aʊ/ に連結「リークス アウット」</li><li>「out of」で out の語末 /t/ が of の /ə/ に連結。of は弱形 /əv/「アウット ア」</li><li>「the container」で the は弱形 /ðə/「ザ」に弱化</li></ul>
+<div class="kana">ウォーラ リークス アウット ア ザ カンテイナー ウィ メイド イン ザ ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The roof <mark>leaks</mark> whenever it rains because the water flow is so heavy.</p>
+<p class="ja">屋根は雨が降るたびに漏れます。水の流れが非常に多いためです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈruf ˈliːks wɛnˈɛvər ɪt ˈreɪnz bɪˈkɔz ðə ˈwɔːtər ˈfloʊ ɪz soʊ ˈhɛvi/</div>
+<ul class="link"><li>「roof leaks」で roof の語末 /f/ と leaks の /l/ が続く「ルーフ リークス」</li><li>「it rains」で it の語末 /t/ と rains の /r/ が続く「イット レインズ」</li><li>「the water」で the は弱形 /ðə/「ザ」に弱化。water の語末 /r/ と flow の /f/ が続く「ウォーラ フロー」</li></ul>
+<div class="kana">ザ ルーフ リークス ウェネヴァー イット レインズ ビコーズ ザ ウォーラ フロー イズ ソー ヘビー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">leaked</span><span class="fl">過去形</span><span class="fi">/liːkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I accidentally <mark>leaked</mark> our secret base coordinates in a public chat yesterday.</p>
+<p class="ja">昨日、私は公開チャットで秘密基地の座標を誤って漏らしてしまいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ækˈsɪdəntli ˈliːkt aʊr ˈsɪkrət ˈbeɪs koʊˈɔrdənəts ɪn ə ˈpʌblɪk tʃæt ˈjɛstərdeɪ/</div>
+<ul class="link"><li>「accidentally leaked」で accidentally の語末 /i/ と leaked の /l/ が続く「アクシデンリー リークト」</li><li>「leaked our」で leaked の語末 /t/ が our の /aʊ/ に連結「リークト アワー」</li><li>「our secret」で our の語末 /r/ と secret の /s/ が続く「アワー シクレット」</li><li>「in a」で in の /n/ が a の /ə/ に連結。a は弱形「イン ア」</li></ul>
+<div class="kana">アイ アクシデンリー リークト アワー シクレット ベース コーオーディネイツ イン ア パブリック チャット イェスタデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server information <mark>leaked</mark> to rival players when the admin forgot to secure the database.</p>
+<p class="ja">管理者がデータベースのセキュアをわすれたとき、サーバー情報がライバルプレイヤーに漏洩しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɝːvər ˌɪnfərˈmeɪʃən ˈliːkt tu ˈraɪvəl ˈpleɪɚz wɛn ðə ədˈmɪn fərˈɡɑt tu sɪˈkjʊr ðə ˈdeɪtəˌbeɪs/</div>
+<ul class="link"><li>「server information」で server の語末 /r/ が information の /ɪ/ に連結「サーバー インフォメイション」</li><li>「information leaked」で information の語末 /ən/ と leaked の /l/ が続く「インフォメイション リークト」</li><li>「leaked to」で leaked の語末 /t/ が to の /t/ に続き未開放停止「リークト トゥー」</li><li>「the admin」で the は弱形 /ðə/「ザ」に弱化</li></ul>
+<div class="kana">ザ サーバー インフォメイション リークト トゥー ライバル プレイヤーズ ウェン ザ アドミン ファーゴット トゥー シキュアー ザ データベース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">leaked</span><span class="fl">過去分詞</span><span class="fi">/liːkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Our treasure location has <mark>leaked</mark> to the enemy, so we need to relocate everything immediately.</p>
+<p class="ja">私たちの宝物の場所が敵に漏洩してしまったので、すべてをすぐに移動する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aʊr ˈtrɛʒər loʊˈkeɪʃən hæz ˈliːkt tu ðə ˈɛnəmi soʊ wi ˈnid tu ˌriːloʊˈkeɪt ˈɛvrɪˌθɪŋ ɪˈmiːdiətli/</div>
+<ul class="link"><li>「has leaked」で has の語末 /z/ が leaked の /l/ に連結「ハズ リークト」</li><li>「leaked to」で leaked の語末 /t/ が to の /t/ に続き未開放停止「リークト トゥー」</li><li>「to the」で to は弱形 /tə/「トゥー」、the は弱形 /ðə/「ザ」に弱化</li><li>「need to」で need の語末 /d/ が to の /t/ に続く「ニード トゥー」</li></ul>
+<div class="kana">アワー トレジャー ロケイション ハズ リークト トゥー ザ エネミ ソー ウィ ニード トゥー リーロケイト エブリシング イミディエットリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The build plans have <mark>leaked</mark> before the event even started, disappointing all the participants.</p>
+<p class="ja">イベントが始まる前に建築計画が漏洩し、すべての参加者をがっかりさせてしまいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪld plænz hæv ˈliːkt bɪˈfɔr ðə ɪˈvɛnt ˈiːvən ˈstɑɹtəd dɪsəˈpɔɪntɪŋ ˈɔl ðə ˌpɑɹtɪsəˈpænts/</div>
+<ul class="link"><li>「plans have」で plans の語末 /z/ が have の /h/ に連結「プランズ ハヴ」</li><li>「have leaked」で have の弱形 /hæv/「ハヴ」。leaked の語末 /t/ が before の /b/ に続く「リークト ビフォア」</li><li>「the event」で the は弱形 /ðə/「ザ」に弱化</li><li>「even started」で even の語末 /n/ が started の /s/ に続く「イーヴン スターテッド」</li></ul>
+<div class="kana">ザ ビルド プランズ ハヴ リークト ビフォア ザ イベント イーヴン スターテッド ディスアポインティング オール ザ パーティシペイツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">leaking</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water is <mark>leaking</mark> through the ceiling of our underground base, and we need to fix it right now.</p>
+<p class="ja">地下基地の天井から水が漏れており、今すぐ修理する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔːtər ɪz ˈliːkɪŋ θruː ðə ˈsilɪŋ əv aʊr ˌʌndərˈɡraʊnd ˈbeɪs ænd wi ˈnid tu ˈfɪks ɪt ˈraɪt naʊ/</div>
+<ul class="link"><li>「Water is」で Water の語末 /r/ が is の /ɪ/ に連結「ウォーラ イズ」</li><li>「is leaking」で is の語末 /z/ が leaking の /l/ に連結「イズ リーキング」</li><li>「leaking through」で leaking の語末 /ŋ/ と through の /θ/ が続く「リーキング スルー」</li><li>「of our」で of は弱形 /əv/「アヴ」。our の語末 /r/ が underground の /ʌ/ に連結「アワー アンダーグラウンド」</li></ul>
+<div class="kana">ウォーラ イズ リーキング スルー ザ シーリング アヴ アワー アンダーグラウンド ベース アンド ウィ ニード トゥー フィックス イット ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Items are <mark>leaking</mark> out of the broken storage system because the container walls have cracks in them.</p>
+<p class="ja">壊れた保管システムからアイテムが漏れ出ています。コンテナの壁にひびが入っているからです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaɪtəmz ɑr ˈliːkɪŋ aʊt əv ðə ˈbroʊkən ˈstɔːrɪdʒ ˈsɪstəm bɪˈkɔz ðə kənˈteɪnər wɔlz hæv kræks ɪn ðɛm/</div>
+<ul class="link"><li>「Items are」で Items の語末 /z/ が are の /ɑ/ に連結「アイタムズ アー」</li><li>「are leaking」で are の語末 /r/ が leaking の /l/ に連結「アー リーキング」</li><li>「leaking out」で leaking の語末 /ŋ/ が out の /aʊ/ に続く「リーキング アウット」</li><li>「the broken」で the は弱形 /ðə/「ザ」に弱化。container の語末 /r/ が walls の /w/ に連結「カンテイナー ウォールズ」</li></ul>
+<div class="kana">アイタムズ アー リーキング アウット ア ザ ブロークン ストーリッジ システム ビコーズ ザ カンテイナー ウォールズ ハヴ クラックス イン ザム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">leaks</span><span class="fl">複数形</span><span class="fi">/liːks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We discovered three large <mark>leaks</mark> in the roof after the heavy storm passed through.</p>
+<p class="ja">大嵐の後、屋根に3つの大きな漏りが見つかりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dɪsˈkʌvərd ˈθri ˈlɑrdʒ ˈliːks ɪn ðə ˈruf ˈæftər ðə ˈhɛvi ˈstɔːrm pæst θruː/</div>
+<ul class="link"><li>「discovered three」で discovered の語末 /d/ と three の /θ/ が続く「ディスカヴァード スリー」</li><li>「three large」で three の語末 /i/ が large の /l/ に連結「スリー ラージ」</li><li>「large leaks」で large の語末 /dʒ/ と leaks の /l/ が続く「ラージ リークス」</li><li>「the roof」で the は弱形 /ðə/「ザ」に弱化。roof の語末 /f/ が after の /æ/ に連結「ルーフ アフター」</li></ul>
+<div class="kana">ウィ ディスカヴァード スリー ラージ リークス イン ザ ルーフ アフター ザ ヘビー ストーム パスト スルー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>leaks</mark> are getting worse every day, so we need to seal them before more water damage occurs.</p>
+<p class="ja">これらの漏りは毎日ひどくなっているので、より多くの水害が起こる前に塞ぐ必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz ˈliːks ɑr ˈɡɛtɪŋ ˈwɝːs ˈɛvri ˈdeɪ soʊ wi ˈnid tu ˈsil ðɛm bɪˈfɔr mɔr ˈwɔːtər ˈdæmɪdʒ əˈkɝːz/</div>
+<ul class="link"><li>「These leaks」で These の語末 /z/ が leaks の /l/ に連結「ディーズ リークス」</li><li>「leaks are」で leaks の語末 /s/ が are の /ɑ/ に連結「リークス アー」</li><li>「worse every」で worse の語末 /s/ が every の /ɛ/ に連結「ワース エブリ」</li><li>「need to」で need の語末 /d/ が to の /t/ に続く「ニード トゥー」</li><li>「seal them」で seal の語末 /l/ が them の /ð/ に続く「シール ザム」</li></ul>
+<div class="kana">ディーズ リークス アー ゲティング ワース エブリ デイ ソー ウィ ニード トゥー シール ザム ビフォア モア ウォーラ ダメージ アカーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is leaking</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water is <mark>leaking</mark> from the top of the cavern I just entered.</p>
+<p class="ja">私が入ったばかりの洞窟の天井から水が漏れている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔːtər ɪz ˈliːkɪŋ frəm ðə ˈtɑp əv ðə ˈkævərn aɪ dʒəst ˈɛntərd/</div>
+<ul class="link"><li>「Water is」で water の語末 /r/ が is の /ɪ/ に連結「ウォーラ イズ」</li><li>「from the」で from の /m/ が the の /ð/ に未開放で連接。the は弱形 /ðə/「フラム ザ」</li><li>「of the」で of は弱形 /əv/「アヴ」。cavern の語末 /n/ が I の /aɪ/ に連結「キャヴァーン アイ」</li></ul>
+<div class="kana">ウォーラ イズ リーキング フラム ザ タップ アヴ ザ キャヴァーン アイ ジャスト エンタード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They're worried because the system is <mark>leaking</mark> precious water we need for crops.</p>
+<p class="ja">農作物のために必要な大事な水がシステムから漏れているので、彼らは心配している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɹ ˈwɝɪd bɪˈkɔz ðə ˈsɪstəm ɪz ˈliːkɪŋ ˈprɛʃəs ˈwɔːtər wi ˈniːd fɚ ˈkrɑps/</div>
+<ul class="link"><li>「They're worried」で they're の語末 /ɹ/ が worried の /w/ に連結「ザ ワーリド」</li><li>「because the」で because の /z/ が the の /ð/ に未開放で連接。the は弱形 /ðə/「ビコーズ ザ」</li><li>「water we」で water の語末 /r/ が we の /w/ に連結「ウォーラ ウィ」</li></ul>
+<div class="kana">ザ ワーリド ビコーズ ザ システム イズ リーキング プレシャス ウォーラ ウィ ニード フォー クラップス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was leaking</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was mining diamonds, a stream was <mark>leaking</mark> into my tunnel and destroying everything.</p>
+<p class="ja">ダイヤモンドを採掘している間に、流れ落ちる水が私のトンネルに漏れ込み、すべてを破壊していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ˈmaɪnɪŋ ˈdaɪməndz ə ˈstrim wəz ˈliːkɪŋ ˈɪntə maɪ ˈtʌnəl ənd dɪˈstrɔɪɪŋ ˈɛvrɪθɪŋ/</div>
+<ul class="link"><li>「I was」で I の /aɪ/ が was の /w/ に連結。was は弱形 /wəz/「アイ ワズ」</li><li>「was mining」で was の語末 /z/ が mining の /m/ に未開放で連接「ワズ マイニング」</li><li>「was leaking」で was の語末 /z/ が leaking の /l/ に未開放で連接「ワズ リーキング」</li><li>「into my」で into の語末 /ə/ が my の /m/ に連結。my の /aɪ/ が tunnel の /t/ に未開放で連接「インタ マイ タナル」</li></ul>
+<div class="kana">ワイル アイ ワズ マイニング ダイモンズ ア ストリーム ワズ リーキング インタ マイ タナル アンド ディストロイング エブリシング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The roof was <mark>leaking</mark> for hours before someone noticed the water pooling below.</p>
+<p class="ja">誰かが下に溜まった水に気づく前に、屋根は数時間漏れていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈruf wəz ˈliːkɪŋ fɚ ˈaʊrz bɪˈfɔr ˈsʌmwʌn ˈnoʊtɪst ðə ˈwɔːtər ˈpuːlɪŋ bɪˈloʊ/</div>
+<ul class="link"><li>「the roof」で the は弱形 /ðə/「ザ」。roof の語末 /f/ が was の /w/ に未開放で連接「ルーフ ワズ」</li><li>「was leaking」で was の語末 /z/ が leaking の /l/ に未開放で連接「ワズ リーキング」</li><li>「for hours」で for は弱形 /fɚ/「フォー」。hours の語末 /z/ が before の /b/ に未開放で連接「アワーズ ビフォア」</li><li>「water pooling」で water の語末 /r/ が pooling の /p/ に連結「ウォーラ プーリング」</li></ul>
+<div class="kana">ザ ルーフ ワズ リーキング フォー アワーズ ビフォア サムワン ノーティスト ザ ウォーラ プーリング ビロー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been leaking</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we got to the base, water had been <mark>leaking</mark> for three days straight.</p>
+<p class="ja">私たちが基地に着いた時点で、水は3日連続で漏れていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈɡɑt tu ðə ˈbeɪs ˈwɔːtər həd bɪn ˈliːkɪŋ fɚ ˈθri ˈdeɪz ˈstreɪt/</div>
+<ul class="link"><li>「by the」で by の /aɪ/ が the の /ð/ に連結。the は弱形 /ðə/「バイ ザ」</li><li>「we got」で we の /w/ が got の /ɡ/ に未開放で連接「ウィ ゴット」</li><li>「to the」で to は弱形 /tə/「トゥー」。the は弱形 /ðə/「ザ」に弱化</li><li>「water had」で water の語末 /r/ が had の /h/ に連結。had は弱形 /həd/「ウォーラ ハド」</li><li>「had been」で had は弱形 /həd/、been は弱形 /bɪn/「ハド ビン」。been の語末 /n/ が leaking の /l/ に連結「ビン リーキング」</li></ul>
+<div class="kana">バイ ザ タイム ウィ ゴット トゥー ザ ベース ウォーラ ハド ビン リーキング フォー スリー デイズ ストレイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We realized later that the pipe had been <mark>leaking</mark> all season without us knowing about it.</p>
+<p class="ja">私たちは後で、パイプが私たちが気づかないまま全シーズン漏れていたことに気づいた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˌriːˈælaɪzd ˈleɪtər ðæt ðə ˈpaɪp həd bɪn ˈliːkɪŋ ˈɔl ˈsizən wɪˈðaʊt əz ˈnoʊɪŋ əˈbaʊt ɪt/</div>
+<ul class="link"><li>「we realized」で we の /i/ が realized の /r/ に連結「ウィ リーアライズド」</li><li>「that the」で that の /t/ が the の /ð/ に未開放で連接。the は弱形 /ðə/「ザット ザ」</li><li>「pipe had」で pipe の語末 /p/ が had の /h/ に未開放で連接。had は弱形 /həd/「パイプ ハド」</li><li>「had been」で had /həd/ と been /bɪn/ は弱形の連続「ハド ビン」。been の語末 /n/ が leaking の /l/ に連結「ビン リーキング」</li></ul>
+<div class="kana">ウィ リーアライズド レイター ザット ザ パイプ ハド ビン リーキング オール シーズン ウィザウト アズ ノーイング アバウト イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has leaked</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/hæz ˈliːkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Our water system has <mark>leaked</mark> several times this week, causing damage to the storage area.</p>
+<p class="ja">私たちの水システムは今週何度も漏れており、保管エリアに損害を与えている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aʊr ˈwɔːtər ˈsɪstəm həz ˈliːkt ˈsɛvərəl ˈtaɪmz ðɪs ˈwik ˈkɔːzɪŋ ˈdæmɪdʒ tu ðə ˈstɔːrɪdʒ ˈɛəriə/</div>
+<ul class="link"><li>「our water」で our の語末 /r/ が water の /ɔ/ に連結「アワー ウォーラ」</li><li>「has leaked」で has は弱形 /həz/「ハズ」。leaked の語末 /t/ が several の /s/ に未開放で連接「リークト セヴラル」</li><li>「times this」で times の語末 /z/ が this の /ð/ に連結「タイムズ ディス」</li><li>「to the」で to は弱形 /tə/「トゥー」、the は弱形 /ðə/「ザ」に弱化</li></ul>
+<div class="kana">アワー ウォーラ システム ハズ リークト セヴラル タイムズ ディス ウィック コーズィング ダメージ トゥー ザ ストーリッジ エアリア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The secret information has <mark>leaked</mark> out, and now all players know our location.</p>
+<p class="ja">秘密情報が漏れ出してしまい、今ではすべてのプレイヤーが私たちの場所を知っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsiːkrət ˌɪnfərˈmeɪʃən həz ˈliːkt aʊt ænd naʊ ˈɔl ˈpleɪɚz noʊ aʊr loʊˈkeɪʃən/</div>
+<ul class="link"><li>「the secret」で the は弱形 /ðə/「ザ」に弱化</li><li>「has leaked」で has は弱形 /həz/「ハズ」。leaked の語末 /t/ が out の /aʊ/ に連結「リークト アウット」</li><li>「and now」で and は弱形 /ən/「アンド」</li><li>「our location」で our の語末 /r/ が location の /l/ に連結「アワー ロケイション」</li></ul>
+<div class="kana">ザ シークリット インフォメイション ハズ リークト アウット アンド ナウ オール プレイヤーズ ノー アワー ロケイション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had leaked</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/hæd ˈliːkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the admin fixed the system, water had <mark>leaked</mark> throughout the entire base.</p>
+<p class="ja">管理者がシステムを修理するまでに、水は全基地中に漏れていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈædmɪn ˈfɪkst ðə ˈsɪstəm ˈwɔːtər həd ˈliːkt θruːˈaʊt ðə ɪnˈtaɪr ˈbeɪs/</div>
+<ul class="link"><li>「by the」で by の /aɪ/ が the の /ð/ に連結。the は弱形 /ðə/「バイ ザ」</li><li>「the admin」で the は弱形 /ðə/「ザ」に弱化</li><li>「water had」で water の語末 /r/ が had の /h/ に連結。had は弱形 /həd/「ウォーラ ハド」</li><li>「had leaked」で had は弱形 /həd/。leaked の語末 /t/ が throughout の /θ/ に未開放で連接「ハド リークト スルーアウト」</li></ul>
+<div class="kana">バイ ザ タイム ザ アドミン フィクスト ザ システム ウォーラ ハド リークト スルーアウト ザ インタイア ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The coordinates had <mark>leaked</mark> to rival clans before we could secure our defenses.</p>
+<p class="ja">防御を固める前に、座標はライバル氏族に漏れていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌkoʊˈɔːrdənəts həd ˈliːkt tu ˈraɪvəl ˈklænz bɪˈfɔr wi ˈkʊd sɪˈkjʊr aʊr dɪˈfɛnsɪz/</div>
+<ul class="link"><li>「the coordinates」で the は弱形 /ðə/「ザ」に弱化</li><li>「had leaked」で had は弱形 /həd/「ハド」。leaked の語末 /t/ が to の /t/ に未開放で連接「リークト トゥー」</li><li>「to rival」で to は弱形 /tə/「トゥー」</li><li>「could secure」で could の語末 /d/ が secure の /s/ に未開放で連接「クッド シキュア」</li><li>「our defenses」で our の語末 /r/ が defenses の /d/ に連結「アワー ディフェンセズ」</li></ul>
+<div class="kana">ザ コーオーディネイツ ハド リークト トゥー ライバル クランズ ビフォア ウィ クッド シキュア アワー ディフェンセズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been leaking</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/hæz bɪn ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water has been <mark>leaking</mark> from that crack for days now, and we still haven't patched it.</p>
+<p class="ja">その亀裂から数日間水が漏れ続けており、私たちはまだそれを塞いでいない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔːtər həz bɪn ˈliːkɪŋ frəm ðæt ˈkræk fɔr ˈdeɪz naʊ ænd wi ˈstɪl ˈheɪvənt ˈpætʃt ɪt/</div>
+<ul class="link"><li>「water has」で water の語末 /r/ が has の /h/ に連結。has は弱形 /həz/「ウォーラ ハズ」</li><li>「has been」で has は弱形 /həz/「ハズ」、been は弱形 /bɪn/「ビン」</li><li>「been leaking」で been の語末 /n/ が leaking の /l/ に連結「ビン リーキング」</li><li>「from that」で from の /m/ が that の /ð/ に未開放で連接「フラム」。that の語末 /t/ が crack の /k/ に未開放で連接「ザット クラック」</li></ul>
+<div class="kana">ウォーラ ハズ ビン リーキング フラム ザット クラック フォー デイズ ナウ アンド ウィ スティル ヘイヴント パッチト イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The information has been <mark>leaking</mark> slowly through discord messages and chat channels.</p>
+<p class="ja">情報がDiscordメッセージとチャットチャネルを通じてゆっくり漏れ続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɪnfərˈmeɪʃən həz bɪn ˈliːkɪŋ ˈsloʊli θruː ˈdɪsˌkɔːrd ˈmɛsɪdʒəz ænd tʃæt ˈtʃænəlz/</div>
+<ul class="link"><li>「the information」で the は弱形 /ðə/「ザ」に弱化</li><li>「has been」で has は弱形 /həz/「ハズ」、been は弱形 /bɪn/「ビン」</li><li>「been leaking」で been の語末 /n/ が leaking の /l/ に連結「ビン リーキング」</li><li>「slowly through」で slowly の語末 /i/ が through の /θ/ に連結「スロウリー スルー」</li></ul>
+<div class="kana">ザ インフォメイション ハズ ビン リーキング スロウリー スルー ディスコード メッセージズ アンド チャット チャネルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will leak</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈliːk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Those pipes will <mark>leak</mark> if we don't install proper support blocks underneath them.</p>
+<p class="ja">下に適切なサポートブロックを設置しなければ、それらのパイプは漏れるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðoʊz ˈpaɪpz wɪl ˈliːk ɪf wi ˈdoʊnt ɪnˈstɔl ˈpropər səˈpɔːrt blɑks ˈʌndərˌniːθ ðɛm/</div>
+<ul class="link"><li>「leak if」で leak の語末 /k/ が if の /ɪ/ に連結「リーク イフ」</li><li>「don't install」で don't の /t/ が install の /ɪ/ に連結「ドーント インストール」</li></ul>
+<div class="kana">ドーズ パイプズ ウィル リーク イフ ウィ ドーント インストール プロパー サポート ブロックス アンダーニース ザム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The secret base coordinates will <mark>leak</mark> to rival clans unless we're extremely careful about who we trust.</p>
+<p class="ja">誰を信じるかについてとても慎重にしなければ、秘密基地の座標がライバル氏族に漏れるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsiːkrət ˈbeɪs ˌkoʊˈɔːrdənəts wɪl ˈliːk tə ˈraɪvəl ˈklænz ənˈlɛs wɪr ɪkˈstrimli ˈkɛrfəl əˈbaʊt ˈhuː wi ˈtrʌst/</div>
+<ul class="link"><li>「leak to」で leak の語末 /k/ が to の /t/ に連結「リーク トゥー」。to は弱形 /tə/「トゥー」</li><li>「we're extremely」で we're /wɪr/ の /r/ が extremely の /ɪ/ に連結「ウィア イクストリームリー」</li></ul>
+<div class="kana">ザ シークリット ベース コーオーディネイツ ウィル リーク トゥー ライバル クランズ アンレス ウィア イクストリームリー ケアフル アバウト フー ウィ トラスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be leaking</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈliːkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While we're building the outer wall, water will be <mark>leaking</mark> from that cracked pipe constantly.</p>
+<p class="ja">外壁を建てている間、壊れたパイプから水が継続的に漏れ続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl wɪr ˈbɪldɪŋ ðə ˈaʊtər ˈwɔːl ˈwɔɾɚ wɪl bi ˈliːkɪŋ frəm ðæt ˈkrækt ˈpaɪp ˈkɑnstəntli/</div>
+<ul class="link"><li>「we're building」で we're /wɪr/ の /r/ が building の /b/ に連結「ウィア ビルディング」</li></ul>
+<div class="kana">ワイル ウィア ビルディング ザ アウター ウォール ウォーラ ウィル ビー リーキング フラム ザット クラックト パイプ カンスタントリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, the system will be <mark>leaking</mark> from multiple points if we don't repair it before the event.</p>
+<p class="ja">イベント前に修理しなければ、来週までにシステムは複数の場所から漏れ続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik ðə ˈsɪstəm wɪl bi ˈliːkɪŋ frəm ˈmʌltəpəl ˈpɔɪnts ɪf wi ˈdoʊnt rɪˈpɛr ɪt bɪˈfɔr ðə ɪˈvɛnt/</div>
+<ul class="link"><li>「by next」で by の /aɪ/ が next の /n/ に連結「バイ ネクスト」</li></ul>
+<div class="kana">バイ ネクスト ウィック ザ システム ウィル ビー リーキング フラム マルティプル ポインツ イフ ウィ ドーント リペア イット ビフォア ザ イベント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have leaked</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl hæv ˈliːkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/leak_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the admin gets back online, water will have <mark>leaked</mark> throughout the entire base structure.</p>
+<p class="ja">管理者がオンラインに戻る頃には、水は基地全体に漏れてしまっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈædmɪn ˈɡɛts ˈbæk ˈɑnlaɪn ˈwɔɾɚ wɪl hæv ˈliːkt θruːˈaʊt ðə ɪnˈtaɪr ˈbeɪs ˈstrʌktʃər/</div>
+<ul class="link"><li>「by the」で by の /aɪ/ が the の /ð/ に連結。the は弱形 /ðə/「バイ ザ」</li></ul>
+<div class="kana">バイ ザ タイム ザ アドミン ゲッツ バック オンライン ウォーラ ウィル ハブ リークト スルーアウト ザ インタイア ベース ストラクチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The secret base coordinates will have <mark>leaked</mark> to at least three rival teams before anyone realizes the security breach.</p>
+<p class="ja">誰かが セキュリティ侵害に気づく前に、秘密基地の座標は少なくとも3つのライバルチームに漏れてしまっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsiːkrət ˈbeɪs ˌkoʊˈɔːrdənəts wɪl hæv ˈliːkt tə æt ˈlist ˈθri ˈraɪvəl ˈtimz bɪˈfɔr ˈɛniˌwʌn ˌriːəˈlaɪzɪz ðə sɪˈkjʊrəti ˈbriːtʃ/</div>
+<ul class="link"><li>「have leaked」で have の語末 /v/ が leaked の /l/ に連結「ハブ リークト」。leaked の /t/ が to の /t/ に続く「リークト トゥー」</li><li>「to at」で to は弱形 /tə/「トゥー」</li><li>「before anyone」で before の /r/ が anyone の /ɛ/ に連結「ビフォア エニワン」</li></ul>
+<div class="kana">ザ シークリット ベース コーオーディネイツ ウィル ハブ リークト トゥー アット リースト スリー ライバル ティームズ ビフォア エニワン リーアライズィズ ザ シキュアリティ ブリーチ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">leak out</span><span class="im">（秘密や情報が）外に漏れる、明らかになる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The news <mark>leaked</mark> out that we found diamonds under our base.</p>
+<p class="ja">ベースの下でダイヤを見つけたというニュースが漏れた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/leak_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/leak_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈnjuːz ˈliːkt aʊt ðæt wi ˈfaʊnd ˈdaɪmənz ˈʌndər ɑr ˈbeɪs/</div>
+<ul class="link"><li>news leaked：news の /z/ が leaked の /l/ に連結（フラップT無し）→ニューズ リークト</li><li>leaked out：leaked の /t/ が out の /aʊ/ に連結→リークト アウト</li><li>that we：that の /t/ が we の /w/ に未開放で連接→ザット ウィ</li></ul>
+<div class="kana">ザ ニューズ リークト アウト ザット ウィ ファウンド ダイモンズ アンダー アワー ベース</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="leak";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

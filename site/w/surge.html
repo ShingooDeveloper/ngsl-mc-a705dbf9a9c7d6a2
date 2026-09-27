@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>surge — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>surge</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/sɝdʒ/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1605</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】急増する、大幅に上昇する（数量や勢い）</li><li>【動詞】波状に前進する、勢いよく進む</li><li>【名詞】急増、急上昇（数値や勢いの）</li><li>【名詞】大波、波状に押し寄せてくる流れ</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Player count <mark>surges</mark> when new content drops.</p>
+<p class="ja">新しいコンテンツがリリースされるとプレイヤー数が急増する</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚ kaʊnt ˈsɝdʒəz wɛn ˈnjuː ˈkɑntɛnt ˈdrɑps/</div>
+<ul class="link"><li>count の末尾 /t/ は未開放で surges の /s/ に連結しない</li></ul>
+<div class="kana">プレイヤー カウント サージャズ ウェン ニュー コンテント ドロップス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mobs <mark>surge</mark> from the spawner, so we need more torches.</p>
+<p class="ja">スポーナーからモブが大量に湧くので、松明がもっと必要だ</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/mɑbz sɝdʒ frəm ðə ˈspɔnɚ soʊ wi nid mɔr ˈtɔrʃəz/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ に弱化 [ðə] ザ</li><li>from も機能語で弱形 /frəm/ に弱化</li></ul>
+<div class="kana">マブズ サージ フラム ザ スポーナー ソゥウィ ニード モア トーチズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Water <mark>surges</mark> into our base when the dam breaks.</p>
+<p class="ja">ダムが決壊すると水が基地に押し寄せる</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔɾɚ ˈsɝdʒəz ˈɪnɾu ˈaʊɚ beɪs wɛn ðə dæm breɪks/</div>
+<ul class="link"><li>Water の中間 /t/ は母音に挟まれフラップ化 [ˈwɔɾɚ] ウォーラー</li><li>into の /t/ もフラップ化される [ˈɪnɾu] インロゥ</li><li>into の末尾 /u/ が our /aʊ/ に連結する（母音+母音）</li><li>the は弱形 /ðə/ に弱化 [ðə] ザ</li></ul>
+<div class="kana">ウォーラー サージャズ インロゥ アワー ベイス ウェン ザ ダム ブレイクス</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">surges</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈsɜrdʒəz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The water <mark>surges</mark> through the channels whenever the lever is pulled.</p>
+<p class="ja">レバーが引かれるたびに、水がチャネルを流れる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔtər ˈsɜrdʒəz ˈθru ðə ˈtʃænəlz wɛnˈɛvər ðə ˈlɛvər ɪz ˈpʊld/</div>
+<ul class="link"><li>surges through → 語末子音 /z/ が /θ/ に続く（子音+子音）</li><li>the channels → the は弱形 /ðə/ ザ、the channels では /ðə tʃ/ で続く</li><li>lever is → 語末 /r/ が is の /ɪ/ に r-linking [ˈlɛvər ɪz]</li></ul>
+<div class="kana">ザ ウォーター サージーズ スルー ザ チャネルズ ウェネバー ザ レバー イズ プルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Power <mark>surges</mark> from the battery to all connected devices instantly.</p>
+<p class="ja">電力がバッテリーからすべての接続されたデバイスに瞬時に流れる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpaʊər ˈsɜrdʒəz frəm ðə ˈbætəri tu ɔl kəˈnɛktəd dɪˈvaɪsɪz ˈɪnstəntli/</div>
+<ul class="link"><li>surges from → 語末子音 /z/ が子音 /f/ に続く（子音+子音）</li><li>the battery → the は弱形 /ðə/ ザ</li><li>all connected → /l/ が /k/ に続く（子音+子音）</li></ul>
+<div class="kana">パワー サージーズ フラム ザ バタリー トゥ オール コネクティド ディヴァイシズ インスタントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">surged</span><span class="fl">過去形</span><span class="fi">/ˈsɜrdʒd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water <mark>surged</mark> through the dam break and flooded the valley below.</p>
+<p class="ja">ダムの決壊から水が押し寄せ、下の谷を浸水させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtər ˈsɜrdʒd ˈθru ðə ˈdæm ˈbreɪk ənd ˈfləd.əd ðə ˈvæli bɪˈloʊ/</div>
+<ul class="link"><li>surged through → 語末子音 /d/ は未開放で /θ/ に続く [sɜrdʒd̚ θru]</li><li>the dam → the は弱形 /ðə/ ザ</li><li>break and → and は弱形 /ənd/ または /ən/</li></ul>
+<div class="kana">ウォーター サージド スルー ザ ダム ブレイク アン フラディド ザ ヴァリー ビロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Mobs <mark>surged</mark> into the arena after the doors opened.</p>
+<p class="ja">ドアが開いた後、モブが競技場に押し寄せた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/moʊbz ˈsɜrdʒd ˈɪntu ðə əˈrinə ˈæftər ðə dɔrz ˈoʊpənd/</div>
+<ul class="link"><li>surged into → 語末子音 /d/ は未開放で /ɪ/ に続く [sɜrdʒd̚ ɪntu]</li><li>the arena → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">モウブズ サージド イント ザ アリーナ アフター ザ ドアーズ オウペンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">surged</span><span class="fl">過去分詞</span><span class="fi">/ˈsɜrdʒd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>surged</mark> water had swept away all the blocks in its path.</p>
+<p class="ja">押し寄せた水は、その経路にあるすべてのブロックを流し去った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrdʒd ˈwɔtər əd swɛpt əˈweɪ ɔl ðə blɑks ɪn ɪts pæθ/</div>
+<ul class="link"><li>the surged → the は弱形 /ðə/ ザ</li><li>had swept → had は弱形 /əd/ アド</li><li>swept away → /t/ が /ə/ に続き、米国英語ではフラップTになる可能性 [swɛp.ɾə weɪ]</li></ul>
+<div class="kana">ザ サージド ウォーター アド スウェプト アウェイ オール ザ ブロックス イン イツ パス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>surged</mark> into the new dimension to explore.</p>
+<p class="ja">プレイヤーたちは探索するために新しい次元に押し寄せている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz əv ˈsɜrdʒd ˈɪntu ðə ˈnu dɪˈmɛnʃən tu ɪkˈsplɔr/</div>
+<ul class="link"><li>have surged → have は弱形 /əv/ アヴ、surged の /d/ に連結して /əv sɜrdʒd/ アヴ サージド</li><li>the new → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">プレイヤーズ アヴ サージド イント ザ ニュー ディメンション トゥ イクスプロア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">surging</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>surging</mark> water pressure is breaking the containment walls.</p>
+<p class="ja">押し寄せる水圧が封じ込め壁を破っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrdʒɪŋ ˈwɔtər ˈprɛʃər ɪz ˈbreɪkɪŋ ðə kənˈteɪnmənt wɔlz/</div>
+<ul class="link"><li>the surging → the は弱形 /ðə/ ザ</li><li>pressure is → 語末子音 /r/ が is の /ɪ/ に r-linking [ˈprɛʃər ɪz]</li><li>the containment → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ サージング ウォーター プレッシャー イズ ブレイキング ザ コンテインメント ウォールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Surging</mark> crowds of players filled the marketplace during the sale.</p>
+<p class="ja">セール中、押し寄せるプレイヤーの群衆がマーケットプレイスを埋めた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɜrdʒɪŋ ˈkraʊdz əv ˈpleɪərz fɪld ðə ˈmɑrkətˌpleɪs ˈdʊrɪŋ ðə ˈseɪl/</div>
+<ul class="link"><li>crowds of → 語末子音 /z/ が弱形 /ə/ に連結 [kraʊdz əv]、「クラウズ アヴ」</li><li>the marketplace → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">サージング クラウズ アヴ プレイヤーズ フィルド ザ マーケットプレイス デュアリング ザ セイル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">surges</span><span class="fl">複数形</span><span class="fi">/ˈsɜrdʒəz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>surges</mark> of hostile mobs overwhelmed the defense towers.</p>
+<p class="ja">敵対的なモブの複数の波が防御タワーを圧倒した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌltəpəl ˈsɜrdʒəz əv ˈhɑstəl moʊbz ˌoʊvərˈwɛlmd ðə dɪˈfɛns ˈtaʊərz/</div>
+<ul class="link"><li>surges of → 語末子音 /z/ が弱形 /ə/ に連結 [ˈsɜrdʒəz əv]、「サージーズ アヴ」</li><li>the defense → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">マルティプル サージーズ アヴ ハステル モウブズ オーヴァーウェルムド ザ ディフェンス タワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>surges</mark> in server traffic caused lag during peak hours.</p>
+<p class="ja">ピークアワー中のサーバートラフィックの急増がラグを引き起こした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrdʒəz ɪn ˈsɜrvər ˈtræfɪk ˈkɔzd læg ˈdʊrɪŋ pik ˈaʊərz/</div>
+<ul class="link"><li>the surges → the は弱形 /ðə/ ザ</li><li>surges in → 語末子音 /z/ が母音 /ɪ/ に連結 [ˈsɜrdʒəz ɪn]、「サージーズ イン」</li></ul>
+<div class="kana">ザ サージーズ イン サーバー トラフィック コーズド ラグ デュアリング ピーク アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is surging</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water is <mark>surging</mark> through the channels while the gates are open.</p>
+<p class="ja">ゲートが開いている間、水がチャネルを流れています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtər ɪz ˈsɜrdʒɪŋ ˈθruː ðə ˈtʃænəlz waɪl ðə ɡeɪts ɑr ˈoʊpən/</div>
+<ul class="link"><li>is surging → is は弱形 /ɪz/、/z/ が /s/ に続く（子音+子音）</li><li>the channels → the は弱形 /ðə/</li><li>gates are open → are は弱形 /ɑr/、/r/ が /ɑʊ/ に連結（r-linking）</li></ul>
+<div class="kana">ウォーター イズ サージング スルー ザ チャネルズ ワイル ザ ゲイツ アー オウペン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players are <mark>surging</mark> into the new territory to gather resources.</p>
+<p class="ja">プレイヤーたちは資源を集めるために新しい領土に押し寄せています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz ɑr ˈsɜrdʒɪŋ ˈɪntu ðə ˈnu ˈtɛrətɔri tu ˈɡæðər rɪˈsɔrsɪz/</div>
+<ul class="link"><li>are surging → are は弱形 /ɑr/、/r/ が /s/ に続く（子音+子音）</li><li>the new → the は弱形 /ðə/</li><li>to gather → to は弱形 /tə/、/ə/ が gather の /ɡ/ に続く</li></ul>
+<div class="kana">プレイヤーズ アー サージング インタ ザ ニュー テリトリー タ ギャザー リソーシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was surging</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob army was <mark>surging</mark> toward the base when we activated the traps.</p>
+<p class="ja">私たちがトラップを起動したとき、モブの軍勢が基地に向かって押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊb ˈɑrmi wəz ˈsɜrdʒɪŋ təˈwɔrd ðə ˈbeɪs wɛn wi ˈæktəˌveɪtəd ðə træps/</div>
+<ul class="link"><li>was surging → was は弱形 /wəz/、/z/ が /s/ に続く（子音+子音）</li><li>the base → the は弱形 /ðə/</li></ul>
+<div class="kana">ザ モウブ アーミー ワズ サージング タワード ザ ベイス ウェン ウィ アクティベイティド ザ トラップス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Water was <mark>surging</mark> out of the broken dam before we patched it.</p>
+<p class="ja">修正する前に、壊れたダムから水が押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtər wəz ˈsɜrdʒɪŋ ˈaʊt əv ðə ˈbroʊkən dæm bɪˈfɔr wi ˈpætʃt ɪt/</div>
+<ul class="link"><li>was surging → was は弱形 /wəz/、/z/ が /s/ に続く（子音+子音）</li><li>out of → /t/ が /ə/ に連結、of と the は弱形 /əv/ /ðə/</li></ul>
+<div class="kana">ウォーター ワズ サージング アウト アヴ ザ ブロウケン ダム ビフォア ウィ パッチド イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been surging</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The power had been <mark>surging</mark> through the circuit for an hour before it overloaded.</p>
+<p class="ja">オーバーロードされる前に、電力は1時間以上回路を通じて流れていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpaʊər həd bɪn ˈsɜrdʒɪŋ ˈθruː ðə ˈsɝkɪt fɔr ən ˈaʊər bɪˈfɔr ɪt ˌoʊvərˈloʊdɪd/</div>
+<ul class="link"><li>had been → had は弱形 /həd/、been は弱形 /bɪn/、/n/ が /s/ に続く（子音+子音）</li><li>the circuit → the は弱形 /ðə/</li><li>for an hour → for の /r/ が an の /ə/ に連結（r-linking）</li></ul>
+<div class="kana">ザ パワー ハド ビン サージング スルー ザ サーキット フォア アン アワー ビフォア イット オーバーロウディド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players had been <mark>surging</mark> into the marketplace all day before the server crashed.</p>
+<p class="ja">サーバーがクラッシュする前に、プレイヤーたちは一日中マーケットプレイスに押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz həd bɪn ˈsɜrdʒɪŋ ˈɪntu ðə ˈmɑrkətˌpleɪs ɔl deɪ bɪˈfɔr ðə ˈsɝvər kræʃt/</div>
+<ul class="link"><li>had been → had は弱形 /həd/、been は弱形 /bɪn/、/n/ が /s/ に続く（子音+子音）</li><li>into the → into は弱化、the は弱形 /ðə/</li></ul>
+<div class="kana">プレイヤーズ ハド ビン サージング インタ ザ マーケットプレイス オール デイ ビフォア ザ サーバー クラッシュド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has surged</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈsɜrdʒd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water has <mark>surged</mark> before we closed the gates.</p>
+<p class="ja">ゲートを閉じる前に、水が押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔtɚ həz ˈsɜrdʒd bɪˈfɔr wi ˈkloʊzd ðə ɡeɪts/</div>
+<ul class="link"><li>has surged → has は弱形 /həz/、surged の /s/ に続く（子音+子音）</li><li>the water → the は弱形 /ðə/ ザ</li><li>surged before → 語末子音 /d/ は未開放、/b/ に続く</li></ul>
+<div class="kana">ザ ウォーター ハズ サージド ビフォア ウィ クローズド ザ ゲイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>surged</mark> into the marketplace to find trading goods.</p>
+<p class="ja">プレイヤーたちはトレーディング商品を見つけるためにマーケットプレイスに押し寄せています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz həv ˈsɜrdʒd ˈɪntu ðə ˈmɑrkətˌpleɪs tu ˈfaɪnd ˈtreɪdɪŋ ɡʊdz/</div>
+<ul class="link"><li>have surged → have は弱形 /həv/、surged の /s/ に続く（子音+子音）</li><li>surged into → 語末子音 /d/ が母音 /ɪ/ に連結 [ˈsɜrdʒd ɪntu]</li><li>the marketplace → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">プレイヤーズ ハヴ サージド イント ザ マーケットプレイス トゥ ファインド トレイディング グッズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had surged</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈsɜrdʒd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The water had <mark>surged</mark> before we closed all the gates.</p>
+<p class="ja">私たちがすべてのゲートを閉じる前に、水が押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔtɚ həd ˈsɜrdʒd bɪˈfɔr wi ˈkloʊzd ɔl ðə ɡeɪts/</div>
+<ul class="link"><li>had surged → had は弱形 /əd/、surged の /s/ に続く（子音+子音）</li><li>the water → the は弱形 /ðə/ ザ</li><li>surged before → 語末子音 /d/ は未開放、/b/ に続く</li></ul>
+<div class="kana">ザ ウォーター ハド サージド ビフォア ウィ クローズド オール ザ ゲイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players had <mark>surged</mark> in by the time the server reset.</p>
+<p class="ja">サーバーがリセットされる時間までに、プレイヤーたちは押し寄せていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz həd ˈsɜrdʒd ɪn baɪ ðə ˈtaɪm ðə ˈsɝvər rɪˈsɛt/</div>
+<ul class="link"><li>had surged → had は弱形 /əd/、surged の /s/ に続く（子音+子音）</li><li>surged in → 語末子音 /d/ が母音 /ɪ/ に連結</li><li>the time → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">プレイヤーズ ハド サージド イン バイ ザ タイム ザ サーバー リセット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been surging</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water has been <mark>surging</mark> through the channels all morning.</p>
+<p class="ja">朝からずっと、水がチャネルを通じて流れ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtɚ həz bɪn ˈsɜrdʒɪŋ ˈθru ðə ˈtʃænəlz ɔl ˈmɔrnɪŋ/</div>
+<ul class="link"><li>has been → has と been は弱形 /həz/ /bɪn/、子音+子音で連結なし</li><li>been surging → /n/ + /s/ は子音+子音</li><li>the channels → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウォーター ハズ ビン サージング スルー ザ チャネルズ オール モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have been <mark>surging</mark> into the marketplace for hours now.</p>
+<p class="ja">今、プレイヤーたちは数時間もマーケットプレイスに押し寄せ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz həv bɪn ˈsɜrdʒɪŋ ˈɪntu ðə ˈmɑrkətˌpleɪs fər ˈaʊərz naʊ/</div>
+<ul class="link"><li>have been → have と been は弱形 /həv/ /bɪn/、子音+子音で連結なし</li><li>been surging → /n/ + /s/ は子音+子音</li><li>the marketplace → the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">プレイヤーズ ハヴ ビン サージング イント ザ マーケットプレイス フォー アワーズ ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will surge</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈsɜrdʒ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water will <mark>surge</mark> through the channels when we pull the lever.</p>
+<p class="ja">レバーを引くと、水がチャネルを通じて押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtər wɪl ˈsɜrdʒ ˈθru ðə ˈtʃænəlz wɛn wi pʊl ðə ˈlɛvər/</div>
+<ul class="link"><li>will surge → will は /wɪl/、surge の /s/ に続く（子音+子音）。会話では'll に縮約</li><li>the channels → the は弱形 /ðə/</li><li>pull the → /l/ が /ð/ に続く（子音+子音）</li></ul>
+<div class="kana">ウォーター ウィル サージ スルー ザ チャネルズ ウェン ウィ プル ザ レバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>surge</mark> into the marketplace after the new update drops.</p>
+<p class="ja">新しいアップデートがリリースされた後、彼らはマーケットプレイスに押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈsɜrdʒ ˈɪntu ðə ˈmɑrkətˌpleɪs ˈæftər ðə ˈnu ˈʌpˌdeɪt drɑps/</div>
+<ul class="link"><li>They'll surge → they'll は縮約形 /ðeɪl/、/l/ が /s/ に続く（子音+子音）</li><li>into the → into は弱化、the は弱形 /ðə/</li><li>update drops → /t/ が /d/ に続く（子音+子音）</li></ul>
+<div class="kana">ゼイル サージ イント ザ マーケットプレイス アフター ザ ニュー アップデイト ドラップス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be surging</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈsɜrdʒɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The water will be <mark>surging</mark> through the dam when the rainy season arrives.</p>
+<p class="ja">雨季が到来すると、水がダムを通じて押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔtər wɪl bi ˈsɜrdʒɪŋ ˈθru ðə ˈdæm wɛn ðə ˈreɪni ˈsizən əˈraɪvz/</div>
+<ul class="link"><li>will be → will は /wɪl/、be の /b/ に続く（子音+子音）。会話では'll に縮約</li><li>the dam → the は弱形 /ðə/</li><li>the rainy → the は弱形 /ðə/、rainy は /ˈreɪni/</li></ul>
+<div class="kana">ザ ウォーター ウィル ビー サージング スルー ザ ダム ウェン ザ レイニー シーズン アライヴズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Mobs will be <mark>surging</mark> toward our base while we're building the defensive walls.</p>
+<p class="ja">防御壁を建設している間、モブは私たちの基地に向かって押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/moʊbz wɪl bi ˈsɜrdʒɪŋ təˈwɔrd ˈaʊər ˈbeɪs waɪl wir ˈbɪldɪŋ ðə dɪˈfɛnsɪv wɔlz/</div>
+<ul class="link"><li>will be → will は /wɪl/、be の /b/ に続く（子音+子音）。会話では'll に縮約</li><li>we're → we are が we're [wir] に縮約</li><li>the defensive → the は弱形 /ðə/</li></ul>
+<div class="kana">モウブズ ウィル ビー サージング タワード アワー ベイス ワイル ウィア ビルディング ザ ディフェンシヴ ウォールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have surged</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈsɜrdʒd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/surge_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The water will have <mark>surged</mark> through the valley by the time we close all the gates.</p>
+<p class="ja">私たちがすべてのゲートを閉じるまでに、水は谷を通じて押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔtər wɪl həv ˈsɜrdʒd ˈθru ðə ˈvæli baɪ ðə ˈtaɪm wi ˈkloʊz ɔl ðə ɡeɪts/</div>
+<ul class="link"><li>will have → will は /wɪl/、have の弱形 /həv/ に続く [wɪl həv]</li><li>the valley → the は弱形 /ðə/</li><li>by the time → the は弱形 /ðə/、time の /m/ が we の /w/ に続く</li></ul>
+<div class="kana">ザ ウォーター ウィル ハヴ サージド スルー ザ ヴァリー バイ ザ タイム ウィ クローズ オール ザ ゲイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will have <mark>surged</mark> into the Nether dimension by the end of next week.</p>
+<p class="ja">来週までに、私たちはネザー次元に押し寄せるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl həv ˈsɜrdʒd ˈɪntu ðə ˈnɛðər dɪˈmɛnʃən baɪ ðə ˈɛnd əv nɛkst wik/</div>
+<ul class="link"><li>will have → will は /wɪl/、have の弱形 /həv/ に続く [wɪl həv]</li><li>into the → into は弱化、the は弱形 /ðə/</li><li>end of → of は弱形 /əv/、/v/ が /n/ に続く</li></ul>
+<div class="kana">ウィ ウィル ハヴ サージド イント ザ ネザー ディメンション バイ ザ エンド アヴ ネクスト ウィーク</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">surge forward</span><span class="im">勢いよく前進する、攻撃を仕掛ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>surge</mark> forward to defeat the Ender Dragon.</p>
+<p class="ja">エンダードラゴンを倒すために勢いよく前進する</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈsɝdʒ ˈfɔrwɚd tə dɪˈfit ðə ˈɛndɚ ˈdreɪɡən/</div>
+<ul class="link"><li>to は機能語で弱形 /tə/ に弱化 [tə] タ</li><li>the は弱形 /ðə/ に弱化 [ðə] ザ</li></ul>
+<div class="kana">ウィ サージ フォーワード タ ディフィート ザ エンダー ドレイゴン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">surge in demand</span><span class="im">需要が急増する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>There's a <mark>surge</mark> in demand for diamonds this season.</p>
+<p class="ja">今シーズンはダイヤモンドの需要が急増している</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/surge_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/surge_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɚz ə ˈsɝdʒ ɪn dɪˈmænd fɚ ˈdaɪməndz ðɪs ˈsizən/</div>
+<ul class="link"><li>There's の末尾 /z/ が a の /ə/ に連結 [ðɛɚzə] ゼアーザ</li><li>for は機能語で弱形 /fɚ/ に弱化 [fɚ] ファ</li></ul>
+<div class="kana">ゼアーザ サージ イン ディマンド ファ ダイモンズ ディス シーズン</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="surge";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

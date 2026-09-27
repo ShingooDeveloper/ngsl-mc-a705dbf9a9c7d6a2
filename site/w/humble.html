@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>humble — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>humble</h2><span class="pos">形容詞・動詞</span><span class="ipa-head">/ˈhʌmbəl/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1294</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【形容詞】謙虚な、慎み深い、高慢でない（誇らしくない態度や性質）</li><li>【形容詞】つましい、素朴な、地位が低い（簡素で派手でない物や環境）</li><li>【動詞】（人を）打ちのめす、謙虚にさせる、屈辱を与える（自信や誇りを失わせる）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm staying <mark>humble</mark> even though I found three diamonds in one cave.</p>
+<p class="ja">1つの洞窟で3つのダイヤを見つけたのに、私は謙虚さを保つようにしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈsteɪɪŋ ˈhʌmbəliːvən ðoʊ aɪ faʊnd θɹiː ˈdaɪmənzɪn wʌn keɪv/</div>
+<ul class="link"><li>humble の語末子音 /l/ が even の初頭母音 /iː/ に連結 [ˈhʌmbəliːvən]</li><li>diamonds の語末摩擦音 /z/ が in の初頭母音 /ɪ/ に連結 [ˈdaɪmənzɪn]、「ダイモンディン」</li></ul>
+<div class="kana">アイム ステイイング ハンボリーブン ザウ アイ ファウンド スリー ダイモンディン ワン ケイブ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our <mark>humble</mark> wooden house took three days to build.</p>
+<p class="ja">私たちのつましい木造の家は作るのに3日かかりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊr ˈhʌmbəl ˈwʊdən haʊs tʊk θɹiː deɪz tə ˈbɪld/</div>
+<ul class="link"><li>to は機能語で弱形 /tə/ に弱化、「タ」</li></ul>
+<div class="kana">アワー ハンボル ウッデン ハウス トゥック スリー デイズ タ ビルド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>That wither boss really <mark>humbled</mark> us during our first nether exploration.</p>
+<p class="ja">そのウィザーボスは本当に私たちを謙虚にさせた、最初のネザー探検中。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈwɪðɚ bɔs ˈɹɪli ˈhʌmbəldəs dʊɹɪŋaʊɚ ˈfɝst ˈnɛðɚ ɛksploʊˈɹeɪʃən/</div>
+<ul class="link"><li>humbled の語末子音 /d/ が us の初頭母音 /ʌ/ に連結 [ˈhʌmbəldəs]、「ハンボルダス」</li><li>during の語末鼻音 /ŋ/ が our の初頭母音 /aʊ/ に連結 [dʊɹɪŋaʊɚ]、「ドゥーリンガワー」</li><li>nether の語末 r-色彩母音 /ɚ/ が exploration の初頭母音 /ɛ/ に連結</li></ul>
+<div class="kana">ザット ウィザー ボス リーリー ハンボルダス ドゥーリンガワー ファースト ネザー エクスプロレイション</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humbler</span><span class="fl">比較級</span><span class="fi">/ˈhʌmblər/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_comparative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm humbler after losing to the Ender Dragon.</p>
+<p class="ja">エンダードラゴンに負けた後、私はより謙虚です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_comparative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_comparative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈhʌmblɚ ˈæftɚ ˈluːzɪŋ tə ðə ˈɛndɚ ˈdɹæɡən/</div>
+<ul class="link"><li>humbler の語末 r-色彩音 /ɚ/ が after の初頭母音 /æ/ に連結 [ˈhʌmblɚæftɚ]、「ハンブラアフター」</li><li>to は機能語で弱形 /tə/ に弱化、「タ」</li></ul>
+<div class="kana">アイム ハンブラアフター ルージング タ ザ エンダー ドラゴン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Every player is humbler after encountering the Warden in the deep dark.</p>
+<p class="ja">ディープダークでウォーデンに出会った後、各プレイヤーはより謙虚です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_comparative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_comparative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvɚi ˈpleɪɚ ɪz ˈhʌmblɚ ˈæftɚ ɪnˈkaʊntɚɪŋ ðə ˈwɔɹdən ɪn ðə ˈdiːp dɑɹk/</div>
+<ul class="link"><li>humbler の語末 r-色彩音 /ɚ/ が after の初頭母音 /æ/ に連結、after の語末 r-色彩音 /ɚ/ が encountering の初頭母音 /ɪ/ に連結</li></ul>
+<div class="kana">エブリ プレイヤー イズ ハンブラアフター インカウンタリング ザ ウォーデン イン ザ ディープ ダーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humblest</span><span class="fl">最上級</span><span class="fi">/ˈhʌmbləst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_superlative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Even the humblest wooden house can be beautiful with lighting.</p>
+<p class="ja">照明さえあれば、最もつましい木造の家も美しくなることができます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_superlative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_superlative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈiːvən ðə ˈhʌmbləst ˈwʊdən haʊs kæn bi ˈbjuːtɪfəl wɪð ˈlaɪtɪŋ/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ に弱化、「ザ」</li><li>humblest の語末 /t/ が wooden の初頭子音 /w/ の前で未開放、連結なし</li></ul>
+<div class="kana">イーブン ザ ハンブレスト ウッデン ハウス キャン ビー ビューティフル ウィズ ライティング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The humblest base can defeat the strongest mob with proper strategy.</p>
+<p class="ja">最もつましい基地でも、適切な戦略があれば最強のモブを倒せます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_superlative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_superlative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhʌmbləst beɪs kæn dɪˈfiːt ðə ˈstɹɑŋɡəst mɑb wɪð ˈpɹɑpɚ ˈstɹætədʒi/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ に弱化、「ザ」</li><li>humblest の語末 /t/ が base の初頭子音 /b/ で未開放。子音-子音の境界、連結なし</li><li>with の語末 /ð/ が proper の初頭子音 /p/ で未開放</li></ul>
+<div class="kana">ザ ハンブレスト ベイス キャン ディフィート ザ ストロンゲスト モブ ウィズ プロパー ストラテジー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humbles</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈhʌmbəlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The Warden <mark>humbles</mark> any player who explores without caution.</p>
+<p class="ja">ウォーデンは注意深く探索しないプレイヤーを誰でも謙虚にさせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔɹdən ˈhʌmbəlz ˈɛni ˈpleɪɚ huː ɪkˈsploʊɹz wɪðaʊt ˈkɔʃən/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ に弱化、「ザ」</li><li>humbles の語末 /z/ が any の初頭母音 /ɛ/ に連結 [ˈhʌmbəlzɛni]、「ハンボルズエニー」</li></ul>
+<div class="kana">ザ ウォーデン ハンボルズエニー プレイヤー フー イクスプロアーズ ウィザウト コーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Losing all your gear <mark>humbles</mark> even the most confident builder in hardcore mode.</p>
+<p class="ja">ハードコアモードですべてのギアを失うことは、最も自信を持つビルダーさえも謙虚にさせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈluːzɪŋ ɔl jɚ ɡɪr ˈhʌmbəlz ˈiːvən ðə ˈmoʊst ˈkɑnfɪdənt ˈbɪldɚ ɪn ˈhɑɹdkoʊr moʊd/</div>
+<ul class="link"><li>humbles の語末 /z/ が even の初頭母音 /iː/ に連結 [ˈhʌmbəlziːvən]、「ハンボルズイーブン」</li><li>the は機能語で弱形 /ðə/ に弱化、「ザ」</li></ul>
+<div class="kana">ルージング オール ユアー ギア ハンボルズイーブン ザ モウスト カンフィデント ビルダー イン ハードコア モウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humbled</span><span class="fl">過去形</span><span class="fi">/ˈhʌmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The Ender Dragon <mark>humbled</mark> us on our very first attempt.</p>
+<p class="ja">エンダードラゴンは本当に最初の試みで私たちを謙虚にさせました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛndɚ ˈdɹæɡən ˈhʌmbəldəz ɑn ˈaʊɚ ˈvɛri ˈfɝst əˈtɛmpt/</div>
+<ul class="link"><li>humbled の語末子音 /d/ が us の初頭母音 /ə/ に連結 [ˈhʌmbəldəz]、「ハンボルダズ」</li><li>our は r-色彩音で終わる /ˈaʊɚ/</li></ul>
+<div class="kana">ザ エンダー ドラゴン ハンボルダズ オン アワー ベリ ファースト アテンプト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>That unexpected creeper explosion <mark>humbled</mark> me forever.</p>
+<p class="ja">その予期しないクリーパー爆発は私を永遠に謙虚にさせました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ənɪkˈspɛktɪd ˈkɹiːpɚ ɪkˈsploʊʒən ˈhʌmbəld miː fɚˈɛvɚ/</div>
+<ul class="link"><li>humbled の語末 /d/ が me の初頭子音 /m/ で未開放、連結なし</li></ul>
+<div class="kana">ザット アニクスペクティド クリーパー エクスプロウジョン ハンボルド ミー フォレバー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humbled</span><span class="fl">過去分詞</span><span class="fi">/ˈhʌmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having been <mark>humbled</mark> by the deep dark, we built better defenses.</p>
+<p class="ja">ディープダークに謙虚にされたので、私たちはより良い防御を作りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ bɪn ˈhʌmbəld bə ðə ˈdiːp dɑɹk wiː bɪlt ˈbɛtɚ dɪˈfɛnsɪz/</div>
+<ul class="link"><li>humbled の語末 /d/ が by の初頭子音 /b/ で未開放、連結なし</li></ul>
+<div class="kana">ハービング ビーン ハンボルド バイ ザ ディープ ダーク ウィ ビルト ベタ ディフェンシズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>humbled</mark> and learned the importance of preparation.</p>
+<p class="ja">私たちは謙虚にされ、準備の重要性を学びました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː wɚ ˈhʌmbəld ænd ˈlɝnd ðə ɪmˈpɔɹtəns əv ˌprɛpəˈɹeɪʃən/</div>
+<ul class="link"><li>humbled の語末 /d/ が and の初頭母音 /æ/ に連結 [ˈhʌmbəldænd]、「ハンボルダンド」</li><li>importance の初頭は /ɪ/、of の弱形 /əv/</li></ul>
+<div class="kana">ウィ ワー ハンボルダンド ラーンド ザ インポーターンス アヴ プレペレーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">humbling</span><span class="fl">現在分詞</span><span class="fi">/ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Mining in the deep dark is a humbling experience.</p>
+<p class="ja">ディープダークでの採鉱は謙虚にさせる経験です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnɪŋ ɪn ðə ˈdiːp dɑɹk ɪz ə ˈhʌmblɪŋ ɪkˈspɪɹiəns/</div>
+<ul class="link"><li>humbling の語末鼻音 /ŋ/ が experience の初頭母音 /ɪ/ に連結 [ˈhʌmblɪŋɪk]、「ハンブリングエクスピアリエンス」</li><li>the は機能語で弱形 /ðə/、「ザ」</li></ul>
+<div class="kana">マイニング イン ザ ディープ ダーク イズ ア ハンブリングイクスピアリエンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Losing my full inventory is truly a humbling reminder.</p>
+<p class="ja">フルインベントリを失うことは、本当に謙虚にさせるリマインダーです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈluːzɪŋ maɪ fʊl ˌɪnvənˈtoɹi ɪz ˈtɹuːli ə ˈhʌmblɪŋ ɹɪˈmaɪndɚ/</div>
+<ul class="link"><li>humbling の語末鼻音 /ŋ/ が reminder の初頭子音 /ɹ/ で連結なし</li></ul>
+<div class="kana">ルージング マイ フル インベントリー イズ トゥルーリー ア ハンブリング リマインダー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is humbling</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The deep dark is humbling every new explorer.</p>
+<p class="ja">ディープダークは新しい探検家たちを謙虚にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdiːp dɑɹk ɪz ˈhʌmblɪŋ ˈɛvɚi ˈnjuː ɪkˈsploɹɚ/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、「ザ」</li><li>is は助動詞で弱形 /ɪz/、「イズ」</li><li>humbling の語末鼻音 /ŋ/ が every の初頭母音 /ɛ/ に連結 [ˈhʌmblɪŋ ɛ] ハンブリング エブリー</li></ul>
+<div class="kana">ザ ディープ ダーク イズ ハンブリング エブリー ニュー エクスプロアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These traps are humbling all our progress.</p>
+<p class="ja">これらのトラップは私たちの進捗をすべて謙虚にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiːz ˈtræps ɑɹ ˈhʌmblɪŋ ɔl ˈaʊɚ ˈpɹɑɡɹɛs/</div>
+<ul class="link"><li>are は助動詞で弱形 /ɑɹ/、「アー」</li><li>humbling の語末鼻音 /ŋ/ が all の初頭母音 /ɔ/ に連結 [ˈhʌmblɪŋ ɔl] ハンブリング オール</li><li>our は /ˈaʊɚ/、r-色彩音で「アワー」</li></ul>
+<div class="kana">ディーズ トラップス アー ハンブリング オール アワー プログレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was humbling</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The Wither was humbling us during our first confrontation.</p>
+<p class="ja">ウィザーは最初の対面で私たちを謙虚にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɪðɚ wəz ˈhʌmblɪŋ əs ˈdʊɹɪŋ aʊɚ ˈfɝst kənˈfrənˌteɪʃən/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、「ザ」</li><li>was は助動詞で弱形 /wəz/、「ワズ」</li><li>humbling の語末鼻音 /ŋ/ が us の初頭母音 /ə/ に連結 [ˈhʌmblɪŋ əs] ハンブリング アス</li><li>during の語末鼻音 /ŋ/ が our の初頭母音 /aʊ/ に連結 [ˈdʊɹɪŋ aʊɚ] ドゥリング アワー</li></ul>
+<div class="kana">ザ ウィザー ワズ ハンブリング アス ドゥリング アワー ファースト コンフロンテーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She was humbling herself by admitting her mistakes.</p>
+<p class="ja">彼女は自分の間違いを認めることで自分を謙虚にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəz ˈhʌmblɪŋ hɚˈsɛlf baɪ ədˈmɪɾɪŋ hɚ mɪˈsteɪks/</div>
+<ul class="link"><li>was は助動詞で弱形 /wəz/、「ワズ」</li><li>humbling の語末鼻音 /ŋ/ が herself の初頭子音 /h/ に続く [ˈhʌmblɪŋ hɚ] ハンブリング ハーセルフ</li><li>admitting の語末鼻音 /ŋ/ が her の初頭子音 /h/ に続く [ədˈmɪɾɪŋ hɚ] アドミリング ハー</li></ul>
+<div class="kana">シー ワズ ハンブリング ハーセルフ バイ アドミリング ハー ミステイクス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been humbling</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The Elder Guardian had been humbling deep sea explorers for centuries.</p>
+<p class="ja">エルダーガーディアンは何世紀もの間、深い海の探検家を謙虚にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛldɚ ˈɡɑɹdiən həd bɪn ˈhʌmblɪŋ ˈdiːp siː ɪkˈsploɹɚz fɚ ˈsɛntʃəɹiz/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、「ザ」</li><li>had は過去助動詞で弱形 /həd/、「ハド」</li><li>been は補助動詞で弱形 /bɪn/、「ビン」</li><li>humbling の語末鼻音 /ŋ/ が deep の初頭子音 /d/ に続く [ˈhʌmblɪŋ ˈdiːp] ハンブリング ディープ</li><li>for は前置詞で弱形 /fɚ/ → フア</li></ul>
+<div class="kana">ザ エルダー ガーディアン ハド ビン ハンブリング ディープ シー エクスプロアーズ フア センチュリーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, the dragon had been humbling invaders all evening.</p>
+<p class="ja">私たちが到着するまでに、ドラゴンは夜間の間ずっと侵入者を謙虚にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪvd ðə ˈdɹæɡən həd bɪn ˈhʌmblɪŋ ɪnˈveɪdɚz ɔl ˈiːvnɪŋ/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/（time の前と dragon の前）、「ザ」</li><li>had は過去助動詞で弱形 /həd/、「ハド」</li><li>been は補助動詞で弱形 /bɪn/、「ビン」</li><li>humbling の語末鼻音 /ŋ/ が invaders の初頭母音 /ɪ/ に連結 [ˈhʌmblɪŋ ɪn] ハンブリング インベーダーズ</li></ul>
+<div class="kana">バイ ザ タイム ウィ ァライヴド ザ ドラゴン ハド ビン ハンブリング インベーダーズ オール イーブニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has humbled</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈhʌmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I've been exploring the deep dark, and it has <mark>humbled</mark> me.</p>
+<p class="ja">ディープダークを探索してきたが、それは私を謙虚にさせた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪv bɪn ɪkˈsploʊɹɪŋ ðə ˈdiːp dɑɹk ən ɪt̚ həz ˈhʌmbəldmi/</div>
+<ul class="link"><li>been は弱形 /bɪn/に弱化、「ビン」</li><li>exploring の語末鼻音 /ŋ/ が the の初頭 /ð/ で未開放。子音-子音、連結なし</li><li>it の語末 /t/ と has の初頭 /h/ の間で t が未開放。子音-子音で連結なし、「イッ ハズ」</li><li>has も弱形 /həz/に弱化、「ハズ」</li></ul>
+<div class="kana">アイヴ ビン イクスプロウリング ザ ディープ ダーク エン イッ ハズ ハンボル ミー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The experience of losing everything to lava has <mark>humbled</mark> us all.</p>
+<p class="ja">溶岩ですべてを失った経験は私たちみんなを謙虚にさせた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪkˈspɪɹiəns əv ˈluːzɪŋ ˈɛvrɪθɪŋ tə ˈlɑvə həz ˈhʌmbəld əs ɔl/</div>
+<ul class="link"><li>the は弱形 /ðə/、「ザ」</li><li>of も弱形 /əv/、「アヴ」</li><li>losing の語末鼻音 /ŋ/ が everything の初頭母音 /ɛ/ に連結 [ˈluːzɪŋɛ]、「ルージングエ」</li><li>to は弱形 /tə/、「タ」</li></ul>
+<div class="kana">ザ イクスピアリエンス アヴ ルージング エブリシング タ ラーバ ハズ ハンボルダス オール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had humbled</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈhʌmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we found diamonds, the creeper explosion had <mark>humbled</mark> us.</p>
+<p class="ja">ダイヤを見つけるまでに、クリーパー爆発は私たちを謙虚にさせていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi faʊnd ˈdaɪmənz ðə ˈkɹiːpɚ ɪkˈsploʊʒən həd ˈhʌmbəldəz/</div>
+<ul class="link"><li>the は弱形 /ðə/、「ザ」</li><li>diamonds の語末 /z/ と the の初頭 /ð/ で子音-子音、未開放、「ダイモンズ ザ」</li><li>creeper の語末 r-色彩音 /ɚ/ が explosion の初頭母音 /ɪ/ に連結 [ˈkɹiːpɚɪ]、「クリーパーイ」</li><li>had も弱形 /həd/、「ハド」</li></ul>
+<div class="kana">バイ ザ タイム ウィ ファウンド ダイモンズ ザ クリーパーエクスプロウジョン ハド ハンボルダズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Before we built the final defense, the Warden had already <mark>humbled</mark> our confidence.</p>
+<p class="ja">最終防御を作る前に、ウォーデンはすでに私たちの自信を謙虚にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfoɹ wiː bɪlt ðə ˈfaɪnəl dɪˈfɛns ðə ˈwɔɹdən həd ɔlˈɹɛdi ˈhʌmbəldaʊɚ ˈkɑnfɪdəns/</div>
+<ul class="link"><li>built の語末 /t/ は the の初頭 /ð/ で未開放、「ビルト ザ」</li><li>the は弱形 /ðə/、「ザ」</li><li>had も弱形 /həd/、「ハド」</li><li>humbled の語末子音 /d/ が our の初頭 /aʊ/ に連結 [ˈhʌmbəldaʊɚ]、「ハンボルダワー」</li></ul>
+<div class="kana">ビフォア ウィ ビルト ザ ファイナル ディフェンス ザ ウォーデン ハド オールレディ ハンボルダワー カンフィデンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been humbling</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The deep dark has been humbling us for hours now.</p>
+<p class="ja">ディープダークはここ何時間も私たちを謙虚にさせてきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdiːp dɑɹk həz bɪn ˈhʌmblɪŋəs fər ˈaʊɚz naʊ/</div>
+<ul class="link"><li>the は弱形 /ðə/、「ザ」</li><li>dark の語末 /k/ と has の初頭 /h/ で子音-子音、未開放、「ダーク ハズ」</li><li>has は弱形 /həz/、「ハズ」</li><li>humbling の語末 /ŋ/ が us の初頭 /ə/ に連結 [ˈhʌmblɪŋəs]、「ハンブリングアス」</li></ul>
+<div class="kana">ザ ディープ ダーク ハズ ビン ハンブリングアス ファ アワーズ ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This hardcore challenge has been humbling every player who attempts it.</p>
+<p class="ja">このハードコアチャレンジはそれを試みるすべてのプレイヤーを謙虚にさせてきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈhɑɹdkoʊɚ ˈtʃælɪndʒ həz bɪn ˈhʌmblɪŋɛvɚi ˈpleɪɚ huː əˈtɛmptsɪt/</div>
+<ul class="link"><li>challenge の語末 /dʒ/ と has の初頭 /h/ で子音-子音、未開放、「チャレンジ ハズ」</li><li>has は弱形 /həz/、「ハズ」</li><li>humbling の語末 /ŋ/ が every の初頭 /ɛ/ に連結 [ˈhʌmblɪŋɛvɚi]、「ハンブリングエブリ」</li><li>attempts の語末 /s/ が it の初頭 /ɪ/ に連結 [əˈtɛmptsɪt]、「アテンプツィット」</li></ul>
+<div class="kana">ディス ハードコア チャレンジ ハズ ビン ハンブリングエブリ プレイヤー フー アテンプツィット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will humble</span><span class="fl">未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈhʌmbəl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>humble</mark> any player who enters this trap.</p>
+<p class="ja">このトラップに入るどんなプレイヤーも謙虚にさせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈhʌmbəl ˈɛni ˈpleɪɚ huː ˈɛntɚz ðɪs ˈtræp/</div>
+<ul class="link"><li>I'll = /aɪl/ (I will の縮約、/l/ が発音される) → 「アイル」。/l/ と humble の /h/ は子音-子音で未開放、連結なし</li><li>humble の語末子音 /l/ が any の初頭母音 /ɛ/ に連結 [ˈhʌmbəlɛni]、「ハンボレニー」</li></ul>
+<div class="kana">アイル ハンボレニー プレイヤー フー エンターズ ディス トラップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>humble</mark> anyone foolish enough to challenge them.</p>
+<p class="ja">彼らに挑むほど愚かな誰もが謙虚にされるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl ˈhʌmbəl ˈɛniˌwʌn ˈfuːlɪʃ ɪˈnʌf tə ˈtʃælɪndʒ ðɛm/</div>
+<ul class="link"><li>They will = /ðeɪ wɪl/ → 「ザイ ウィル」</li><li>humble の語末子音 /l/ が anyone の初頭母音 /ɛ/ に連結 [ˈhʌmbəlɛniˌwʌn] → 「ハンボレニワン」</li><li>to は機能語で弱形 /tə/ に弱化、「タ」</li></ul>
+<div class="kana">ザイ ウィル ハンボレニワン フーリッシュ イナフ タ チャレンジ ザム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be humbling</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈhʌmblɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper traps will be humbling visitors for weeks.</p>
+<p class="ja">クリーパー トラップは数週間、訪問者を謙虚にし続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɹiːpɚ ˈtræps wɪl bi ˈhʌmblɪŋ ˈvɪzɪtɚz fɔɹ wiːks/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/ → 「ザ」</li><li>will be = /wɪl bi/ → 「ウィル ビー」。be は助動詞で弱いが /bi/ と発音される</li><li>humbling の語末鼻音 /ŋ/ が visitors の初頭子音 /v/ の前で子音-子音、連結なし</li></ul>
+<div class="kana">ザ クリーパー トラップス ウィル ビー ハンブリング ビジターズ フォア ウィークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll be humbling her opponents in the PvP arena next week.</p>
+<p class="ja">来週、彼女はPvPアリーナで彼女の相手を謙虚にし続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiːl bi ˈhʌmblɪŋ hɚ əˈpoʊnənts ɪn ðə ˈpiːviːˈpiː əˈɹiːnə nɛkst wiːk/</div>
+<ul class="link"><li>She'll = /ʃiːl/ (she will の縮約) → 「シール」</li><li>be = /bi/ → 「ビー」。/l/ と be の /b/ は子音-子音で未開放、連結なし</li><li>humbling の語末鼻音 /ŋ/ が her の初頭子音 /h/ の前で子音-子音、連結なし</li><li>her は /hɚ/ で r-色彩音 → 「ハー」</li></ul>
+<div class="kana">シール ビー ハンブリング ハー アポウネンツ イン ザ ピー ブイ ピー アリーナ ネクスト ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have humbled</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl əv ˈhʌmbəld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/humble_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll have <mark>humbled</mark> five players by the time the boss arrives.</p>
+<p class="ja">ボスが到着するまでに、5人のプレイヤーを謙虚にさせているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl əv ˈhʌmbəld faɪv ˈpleɪɚz baɪ ðə taɪm ðə bɑs əˈɹaɪvz/</div>
+<ul class="link"><li>I'll = /aɪl/ (I will) → 「アイル」。/l/ が have の /ə/ に連結 [ˈaɪləv]</li><li>have = /əv/ で弱形 → 「ハヴ」。会話では /v/ は次の音へ連結することもある</li><li>humbled の語末 /d/ が five の初頭子音 /f/ の前で未開放。子音-子音、連結なし</li><li>the は冠詞で弱形 /ðə/ → 「ザ」</li></ul>
+<div class="kana">アイル ハヴ ハムボルド ファイブ プレイヤーズ バイ ザ タイム ザ ボス アライブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>humbled</mark> the Warden before nightfall.</p>
+<p class="ja">夜までに、彼らはウォーデンを謙虚にさせているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl əv ˈhʌmbəld ðə ˈwɔɹdən bɪˈfoɹ ˈnaɪtˌfɔl/</div>
+<ul class="link"><li>They will = /ðeɪ wɪl/ → 「ザイ ウィル」</li><li>have = /əv/ で弱形 → 「ハヴ」。/v/ と humbled の /h/ は子音-子音、連結なし</li><li>humbled の語末 /d/ が the の初頭子音 /ð/ の前で未開放。子音-子音、連結なし</li><li>the は冠詞で弱形 /ðə/ → 「ザ」</li></ul>
+<div class="kana">ザイ ウィル ハヴ ハムボルド ザ ウォーデン ビフォア ナイトフォール</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">eat humble pie</span><span class="im">失敗を認める、間違いを認めて謝罪する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We had to eat <mark>humble</mark> pie after losing all our diamonds to lava.</p>
+<p class="ja">溶岩ですべてのダイヤを失った後、私たちは失敗を認めなければならなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː hæd tə ˈiːt ˈhʌmbəl paɪ ˈæftɚ ˈluːzɪŋaʊɚ ˈdaɪmənz tə ˈlɑːvə/</div>
+<ul class="link"><li>to は機能語で弱形 /tə/ に弱化、「タ」</li><li>losing の語末鼻音 /ŋ/ が our の初頭母音 /aʊ/ に連結 [ˈluːzɪŋaʊɚ]、「ルージンガワー」</li></ul>
+<div class="kana">ウィ ハッ タ イート ハンボル パイ アフター ルージンガワー ダイモンズ タ ラーバ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">humble beginnings</span><span class="im">つましい始まり、貧しい出発点</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Every great Minecraft base starts with <mark>humble</mark> beginnings made from simple wood.</p>
+<p class="ja">すべての素晴らしいマインクラフトの基地は、シンプルな木からつましい始まりで始まります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/humble_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/humble_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvɚi ɡɹeɪt ˈmaɪnˌkɹæft beɪs stɑrts wɪðˈhʌmbəl bɪˈɡɪnɪŋz meɪd fɹəm ˈsɪmpəl wʊd/</div>
+<ul class="link"><li>from の語末 /m/ が simple の初頭子音 /s/ の前で連結なし</li></ul>
+<div class="kana">エブリ グレイト マインクラフト ベイス スターツ ウィズハンボル ビギニングズ メイド フラム シンプル ウッド</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="humble";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

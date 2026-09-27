@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>mock — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>mock</h2><span class="pos">動詞・形容詞</span><span class="ipa-head">/mɑk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1723</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（人を）馬鹿にする、嘲笑する、あざ笑う（…の人をからかう）</li><li>【動詞】真似する、模倣する（特に人をからかうために）</li><li>【形容詞】本物でない、模擬の、実験用の（…テスト/練習）</li><li>【形容詞】ふりをした、偽の（…戦い/敵）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't <mark>mock</mark> how I sprint-jumped - I'm still learning the technique!</p>
+<p class="ja">スプリントジャンプのやり方を馬鹿にするなよ。まだ習ってる最中だ！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[doʊnt ˈmɑk haʊ aɪ ˈsprɪnt dʒʌmpt aɪm stɪl ˈlɝnɪŋ ðə tɛkˈnik]</div>
+<ul class="link"><li>don't の語末 /t̚/ は未開放: [doʊn̚t] ドン(ッ)。mock の語頭 /m/ とは連結しない子音同士</li><li>mock how → 語末子音 /k/ が次の音 /h/ に連ならない（子音同士）。how は /haʊ/ [ˈmɑk haʊ] モック ハウ</li><li>learning the → the は弱形 /ðə/ に弱化。learning の語末は /ŋ/（鼻音）で、後続音に連ならない。[ˈlɝnɪŋ ðə] ラーニング ザ</li></ul>
+<div class="kana">ドーント モック ハウ アイ スプリント ジャンプト アイム スティル ラーニング ザ テクニック</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This is a <mark>mock</mark> arena for testing our combat skills before the tournament.</p>
+<p class="ja">これは本当のトーナメント前に戦闘スキルをテストするための模擬アリーナだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ɪz ə ˈmɑk əˈrenə fər ˈtɛstɪŋ ˈaʊər ˈkɑmbæt skɪlz bɪˈfɔr ðə ˈtɝnəmənt]</div>
+<ul class="link"><li>is a → 語末子音 /z/ が母音 /ə/ に連結: [ɪˈzə] イザ</li><li>before the → 語末子音 /r/ が母音 /ə/ に連結し、the は弱形: [bɪˈfɔr ðə] ビフォー ザ</li></ul>
+<div class="kana">ディス イズ ア モック アレナ ファ テスティング アワー コンバット スキルズ ビフォー ザ ターナメント</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stop <mark>mocking</mark> the Redstone engineer - his contraption actually works perfectly!</p>
+<p class="ja">そのレッドストーン技術者を馬鹿にするなよ。彼の装置は実際に完璧に動く！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈstɑp ˈmɑkɪŋ ðə ˈrɛdˌstoʊn ˌɛndʒɪˈnɪr hɪz ˌkɑntɹəpʃən ˈæktʃuəli ˈwɝks ˈpɝfɪktli]</div>
+<ul class="link"><li>mocking the → ing の /ŋ/ は鼻音で後続音に連ならず、the は弱形 /ðə/: [ˈmɑkɪŋ ðə] モッキング ザ</li><li>engineer his → engineer の語末 /r/ が his の語頭に連結。r-linking が起こり: [ˌɛndʒɪˈnɪr hɪz] エンジニア ヒズ</li><li>works perfectly → works の語末 /ks/ と次の /p/ は子音同士で連結しない。perfectly は /ˈpɝfɪktli/: [ˈwɝks ˈpɝfɪktli] ワークス パーフェクトリ</li></ul>
+<div class="kana">スタップ モッキング ザ レッドストーン エンジニア ヒズ コントラプション アクチュアリ ワークス パーフェクトリ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mocks</span><span class="fl">三人称単数現在形</span><span class="fi">/mɑks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>mocks</mark> everyone in the chat.</p>
+<p class="ja">彼はチャットで皆を馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ˈmɑks ˈɛvɹiwʌn ɪn ðə tʃæt/</div>
+<ul class="link"><li>mocks の /s/ が everyone の /ɛ/ に連結して流暢に発音: [ˈmɑks ɛ...]</li><li>everyone の /n/ が in の /ɪ/ に続く</li><li>the は機能語で弱形 /ðə/。chat の /tʃ/ に続く</li></ul>
+<div class="kana">ヒー マークス エヴリワン イン ザ チャット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>mocks</mark> anyone who dies to zombies.</p>
+<p class="ja">彼女はゾンビで死んだ誰もを馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiː ˈmɑks ˈɛniˌwʌn hu daɪz tə ˈzɑmbiz/</div>
+<ul class="link"><li>mocks の /s/ が anyone の /ɛ/ に連結: [ˈmɑks ɛ...]</li><li>anyone の /n/ が who の /h/ に続く</li><li>dies の /z/ が to の /t/ に続く。to は機能語で弱形 /tə/</li></ul>
+<div class="kana">シー マークス エニワン フー ダイズ タ ザンビーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mocked</span><span class="fl">過去形</span><span class="fi">/mɑkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He got <mark>mocked</mark> for using diamonds on a hoe.</p>
+<p class="ja">彼はダイヤモンドをクワに使ったことで馬鹿にされた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ɡɑt ˈmɑkt fɔɹ ˈjuzɪŋ ˈdaɪməndz ɑn ə hoʊ/</div>
+<ul class="link"><li>got の /t/ が mocked の /m/ に続く: 語末 /t/ は未開放 [t̚]</li><li>diamonds の /z/ が on の /ɑ/ に連結</li><li>a は弱形 /ə/。hoe の /h/ に続く</li></ul>
+<div class="kana">ヒー ガット マークトゥ フォー ユージング ダイマンズ アン ア ホー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>mocked</mark> his redstone design thoroughly.</p>
+<p class="ja">彼らは彼のレッドストーン設計を徹底的に馬鹿にした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈmɑkt hɪz ˈrɛdˌstoʊn dɪˈzaɪn ˈθɝoʊli/</div>
+<ul class="link"><li>mocked の /t/ が his の /h/ に続く: 語末 /t/ は未開放 [t̚]</li><li>his の /z/ が redstone の /ɹ/ に続く</li><li>design の /n/ が thoroughly の /θ/ に続く（子音間の接続）</li></ul>
+<div class="kana">ザイ マークトゥ ヒズ レッドストーン ディザイン ソロウリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mocked</span><span class="fl">過去分詞</span><span class="fi">/mɑkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having been <mark>mocked</mark>, he left the server.</p>
+<p class="ja">馬鹿にされた後、彼はサーバーを去った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ bɪn ˈmɑkt hiː lɛft ðə ˈsɝvɚ/</div>
+<ul class="link"><li>been の /n/ が mocked の /m/ に続く: 語末 /n/ は未開放 [n̚]</li><li>mocked の /t/ が he の /h/ に続く: 語末 /t/ は未開放 [t̚]</li><li>left の /t/ が the の /ð/ に続く: 語末 /t/ は未開放 [t̚]、the は弱形</li></ul>
+<div class="kana">ハヴィング ビン マークトゥ ヒー レフト ザ サーヴァー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>mocked</mark> player returned stronger than before.</p>
+<p class="ja">馬鹿にされたそのプレイヤーは前よりも強く戻ってきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmɑkt ˈpleɪɚ rɪˈtɝnd ˈstrɑŋɡɚ ðæn bɪˈfɔɹ/</div>
+<ul class="link"><li>the は弱形 /ðə/。mocked の /m/ に連結</li><li>player の /ɚ/ が returned の /r/ に続く（r-linking）</li><li>stronger の /ɚ/ が than の /ð/ に続く（母音から子音への接続）</li></ul>
+<div class="kana">ザ マークトゥ プレイヤー リターンド ストロンガー ザン ビフォー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mocking</span><span class="fl">現在分詞/動名詞</span><span class="fi">/ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Stop <mark>mocking</mark> our farm design!</p>
+<p class="ja">私たちのファーム設計を馬鹿にするのをやめて!</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stɑp ˈmɑkɪŋ aʊɚ fɑɹm dɪˈzaɪn/</div>
+<ul class="link"><li>stop の /p/ が mocking の /m/ に続く: 語末 /p/ は未開放 [p̚]</li><li>mocking の /ŋ/ は鼻音で後続の母音 /aʊ/ に直接続く</li><li>farm の /m/ が design の /d/ に続く（子音間の接続）</li></ul>
+<div class="kana">ストップ マッキング アワー ファーム ディザイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He's <mark>mocking</mark> the kid who lost all his resources.</p>
+<p class="ja">彼は全てのリソースを失った子供を馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiːz ˈmɑkɪŋ ðə kɪd hu lɔst ɔl hɪz rɪˈsɔɹsɪz/</div>
+<ul class="link"><li>he's の /z/ が mocking の /m/ に続く: voiced fricativeから無声閉鎖音へ</li><li>the は弱形 /ðə/。kid の /k/ に続く</li><li>his の /z/ が resources の /ɹ/ に続く</li></ul>
+<div class="kana">ヒーズ マッキング ザ キッド フー ロスト オール ヒズ リソーシズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is mocking</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He is <mark>mocking</mark> my redstone contraption right now in the chat.</p>
+<p class="ja">彼は今、チャットで私のレッドストーン装置を馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiː ɪz ˈmɑkɪŋ maɪ ˈrɛdˌstoʊn kənˈtræpʃən ˈraɪt ˈnaʊ ɪn ðə tʃæt/</div>
+<ul class="link"><li>is は弱形 /ɪz/「イズ」で、mocking に連結「イズ マッキング」</li><li>my redstone で my は弱いストレス、redstone の語頭に連結「マイ レッドストーン」</li><li>contraption right で contraption の語末 /n/ が right に先行「コントラプション ライト」</li><li>the は弱形 /ðə/、chat に連結「ザ チャット」</li></ul>
+<div class="kana">ヒー イズ マッキング マイ レッドストーン コントラプション ライト ナウ イン ザ チャット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>mocking</mark> the building style of our entire team.</p>
+<p class="ja">彼らは私たちのチーム全体の建築スタイルを馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɚ ˈmɑkɪŋ ðə ˈbɪldɪŋ staɪl əv ˈaʊɚ ɪnˈtaɪɚ tim/</div>
+<ul class="link"><li>are は弱形 /ɚ/「アー」で、mocking に連結「アー マッキング」</li><li>the は弱形 /ðə/、building に連結「ザ ビルディング」</li><li>building style で building の語末 /ŋ/ が style に先行「ビルディング スタイル」</li><li>of は弱形 /əv/「アヴ」</li></ul>
+<div class="kana">ザイ アー マッキング ザ ビルディング スタイル アヴ アワー エンタイア ティーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was mocking</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was building, she was <mark>mocking</mark> my placement of blocks.</p>
+<p class="ja">私が建築していた時、彼女は私のブロック配置を馬鹿にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ˈbɪldɪŋ ʃiː wəz ˈmɑkɪŋ maɪ pləˈsmɛnt əv blɑks/</div>
+<ul class="link"><li>was は弱形 /wəz/「ワズ」で、building に連結「ワズ ビルディング」</li><li>building の語末 /ŋ/ が she に先行「ビルディング シー」</li><li>was は弱形 /wəz/「ワズ」で、mocking に連結「ワズ マッキング」</li><li>placement の語末 /t/ が of に連結し、of は弱形 /əv/「アヴ」「プレイスメント アヴ」</li></ul>
+<div class="kana">ワイル アイ ワズ ビルディング シー ワズ マッキング マイ プレイスメント アヴ ブロックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>mocking</mark> the other team's strategy when the server crashed.</p>
+<p class="ja">サーバーがクラッシュした時、彼らは他のチームの戦略を馬鹿にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈmɑkɪŋ ðə ˈʌðɚ timz ˈstrætədʒi wɛn ðə ˈsɚvɚ kræʃt/</div>
+<ul class="link"><li>were は弱形 /wɚ/「ワー」で、mocking に連結「ワー マッキング」</li><li>the は弱形 /ðə/、other に連結「ザ アザー」</li><li>other の語末 /ɚ/ が team に連結「アザー ティーム」</li><li>the は弱形 /ðə/、server に連結「ザ サーヴァー」</li></ul>
+<div class="kana">ザイ ワー マッキング ザ アザー ティームズ ストラテジー ウェン ザ サーヴァー クラッシュト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been mocking</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the moderator joined, they had been <mark>mocking</mark> the new player for over an hour.</p>
+<p class="ja">モデレーターが参加するまでに、彼らは新しいプレイヤーを1時間以上馬鹿にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈmɑdəˌreɪtɚ ˈdʒɔɪnd ðeɪ həd bɪn ˈmɑkɪŋ ðə ˈnu ˈpleɪɚ fɔɹ ˈoʊvɚ ən ˈaʊɚ/</div>
+<ul class="link"><li>the は弱形 /ðə/（2回出現）「ザ」</li><li>had は弱形 /həd/「ハド」、been も弱形 /bɪn/「ビン」で連結「ハド ビン」</li><li>had been が mocking に連結「ハド ビン マッキング」</li><li>over は /ˈoʊvɚ/、an は弱形 /ən/「ン」で連結「オウヴァー ン」</li></ul>
+<div class="kana">バイ ザ タイム ザ マダレイター ジョインド ザイ ハド ビン マッキング ザ ニュー プレイヤー フォー オウヴァー ン アワー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players had been <mark>mocking</mark> the farm design until they saw how efficient it really was.</p>
+<p class="ja">プレイヤーたちは、それがいかに効率的であるかを見るまで、ファーム設計を馬鹿にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚz həd bɪn ˈmɑkɪŋ ðə fɑɹm dɪˈzaɪn ənˈtɪl ðeɪ sɔ haʊ ɪˈfɪʃənt ɪt ˈrɪli wəz/</div>
+<ul class="link"><li>the は弱形 /ðə/「ザ」</li><li>had は弱形 /həd/「ハド」、been も弱形 /bɪn/「ビン」で連結「ハド ビン」</li><li>had been が mocking に連結「ハド ビン マッキング」</li><li>the は弱形 /ðə/、farm に連結「ザ ファーム」</li><li>was は弱形 /wəz/「ワズ」</li></ul>
+<div class="kana">ザ プレイヤーズ ハド ビン マッキング ザ ファーム ディザイン アンティル ザイ ソー ハウ イフィシェント イット リーリー ワズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has mocked</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈmɑkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has <mark>mocked</mark> me for dying to fall damage twice already.</p>
+<p class="ja">彼は既に私がフォールダメージで2回死んだことを馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hiː həz ˈmɑkt mi fɔɹ ˈdaɪɪŋ tə fɔl ˈdæmɪdʒ twaɪs ɔlˈrɛdi]</div>
+<ul class="link"><li>has は機能詞で弱形 /həz/「ハズ」。mocked に連結: [həz ˈmɑkt] ハズ マークト</li><li>mocked の語末 /t/ が me の /m/ に未開放で連接: [ˈmɑkt̚ mi] マークト ミー</li><li>to は機能詞で弱形 /tə/「タ」。fall に連結: [tə fɔl] タ フォール</li></ul>
+<div class="kana">ヒー ハズ マークト ミー フォー ダイイング タ フォール ダメージ トゥワイス オールレディ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>mocked</mark> our base design for weeks without offering real criticism.</p>
+<p class="ja">プレイヤーたちは何週間も我々のベース設計を馬鹿にしてきたが、本当の批評は何もない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈpleɪɚz həv ˈmɑkt aʊɚ beɪs dɪˈzaɪn fɔɹ wiks wɪðˈaʊt ˈɔfɚɪŋ ˈril ˈkrɪtɪˌsɪzəm]</div>
+<ul class="link"><li>have は機能詞で弱形 /həv/「ハヴ」。mocked に連結: [həv ˈmɑkt] ハヴ マークト</li><li>mocked の語末 /t/ が our の /aʊ/ に未開放で連接: [ˈmɑkt̚ aʊ...] マークト アワー</li><li>for の語末 /r/ が weeks の /w/ に続く（子音同士）: [fɔɹ wiks] フォー ウィークス</li></ul>
+<div class="kana">プレイヤーズ ハヴ マークト アワー ベイス ディザイン フォー ウィークス ウィザウト オファリング リール クリティシズム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had mocked</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈmɑkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the tournament, they had <mark>mocked</mark> every strategy we proposed.</p>
+<p class="ja">トーナメント前に、彼らは私たちが提案したあらゆる戦略を馬鹿にしていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[bɪˈfɔɹ ðə ˈtɝnəmənt ðeɪ həd ˈmɑkt ˈɛvɹi ˈstrætədʒi wi prəˈpoʊzd]</div>
+<ul class="link"><li>the は弱形 /ðə/「ザ」。tournament に連結: [ðə ˈtɝnə...] ザ ターナメント</li><li>had は弱形 /həd/「ハド」。mocked に連結: [həd ˈmɑkt] ハド マークト</li><li>mocked の語末 /t/ が every の /ɛ/ に連結: [ˈmɑkt ɛ...] マークト エ</li></ul>
+<div class="kana">ビフォー ザ ターナメント ザイ ハド マークト エヴリ ストラテジー ウィ プロポーズド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had <mark>mocked</mark> the new player's equipment so badly that he never returned.</p>
+<p class="ja">彼は新しいプレイヤーの装備をそんなに馬鹿にしたので、彼は二度と戻ってこなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hiː həd ˈmɑkt ðə ˈnu ˈpleɪɚz ɪˈkwɪpmənt soʊ ˈbædli ðæt hiː ˈnɛvɚ rɪˈtɝnd]</div>
+<ul class="link"><li>had は弱形 /həd/「ハド」。mocked に連結: [həd ˈmɑkt] ハド マークト</li><li>the は弱形 /ðə/「ザ」。new に連結: [ðə ˈnu] ザ ニュー</li><li>player's の語末 /z/ が equipment の /ɪ/ に連結: [ˈpleɪɚz ɪˈkwɪp...]</li></ul>
+<div class="kana">ヒー ハド マークト ザ ニュー プレイヤーズ イクウィップメント ソー バッドリー ザット ヒー ネヴァー リターンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been mocking</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>mocking</mark> the redstone expert's build all afternoon.</p>
+<p class="ja">彼女は午後中ずっとレッドストーン専門家のビルドを馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃiː həz bɪn ˈmɑkɪŋ ðə ˈrɛdˌstoʊn ˈɛkspɚts bɪld ɔl ˈæftɚˌnun]</div>
+<ul class="link"><li>has は機能詞で弱形 /həz/「ハズ」、been も弱形 /bɪn/「ビン」。mocking に連結: [həz bɪn ˈmɑkɪŋ]</li><li>the は弱形 /ðə/「ザ」。redstone に連結: [ðə ˈrɛd...] ザ レッドストーン</li><li>expert's の語末 /s/ が build の /b/ に続く（子音同士）: [ˈɛkspɚts bɪld] エクスパーツ ビルド</li></ul>
+<div class="kana">シー ハズ ビン マッキング ザ レッドストーン エクスパーツ ビルド オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have been <mark>mocking</mark> the server rules since the update went live.</p>
+<p class="ja">彼らはアップデートが公開されて以来、ずっとサーバールールを馬鹿にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həv bɪn ˈmɑkɪŋ ðə ˈsɝvɚ rulz sɪns ðə ˈʌpdeɪt wɛnt laɪv]</div>
+<ul class="link"><li>have は機能詞で弱形 /həv/「ハヴ」、been も弱形 /bɪn/「ビン」。mocking に連結: [həv bɪn ˈmɑkɪŋ]</li><li>the は弱形 /ðə/「ザ」。server と update に連結: [ðə ˈsɝvɚ] ザ サーヴァー、[ðə ˈʌpdeɪt] ザ アップデイト</li><li>update の語末 /t/ が went の /w/ に未開放で連接: [ˈʌpdeɪt̚ wɛnt] アップデイト ウェント</li></ul>
+<div class="kana">ザイ ハヴ ビン マッキング ザ サーヴァー ルーズ シンス ザ アップデイト ウェント ライヴ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will mock</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl mɑk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He will <mark>mock</mark> anyone who falls into lava during the tournament.</p>
+<p class="ja">彼はトーナメント中に溶岩に落ちた人を馬鹿にするだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hiː wɪl ˈmɑk ˈɛniˌwʌn hu fɔlz ˈɪntu ˈlɑvə ˈdʊrɪŋ ðə ˈtɝnəmənt]</div>
+<ul class="link"><li>will は /wɪl/、mock に先行。主語後に縮約可能（he'll /hiːl/）: [wɪl ˈmɑk] ウィル マック</li><li>anyone の /n/ が who の /h/ に未開放で連接: [ˈwʌn̚ hu] ワン フー</li><li>the は弱形 /ðə/、tournament に連結: [ðə ˈtɝnə...] ザ ターナメント</li></ul>
+<div class="kana">ヒー ウィル マック エニワン フー フォールズ イントゥ ラヴァ ジューリング ザ ターナメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>mock</mark> our base design if we don't improve it before the deadline.</p>
+<p class="ja">期限前に改善しなければ、彼らは私たちのベース設計を馬鹿にするだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɪl ˈmɑk ˈaʊər beɪs dɪˈzaɪn ɪf wi doʊnt ɪmˈpruːv ɪt bɪˈfɔr ðə ˈdɛdˌlaɪn]</div>
+<ul class="link"><li>will は /wɪl/、mock に先行。縮約可能（they'll /ðeɪl/）: [wɪl ˈmɑk] ウィル マック</li><li>our は /ˈaʊər/、base の /b/ に先行（子音同士で自然に連続）</li><li>before の語末 /r/ が the の弱形 /ðə/ に連結: [bɪˈfɔr ðə] ビフォー ザ</li></ul>
+<div class="kana">ザイ ウィル マック アワー ベイス ディザイン イフ ウィ ドゥント イムプルーヴ イット ビフォー ザ デッドライン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be mocking</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈmɑkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be <mark>mocking</mark> our strategy while we're preparing for the raid.</p>
+<p class="ja">私たちがレイドの準備をしている間、彼女は私たちの戦略を馬鹿にしているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃiː wɪl bi ˈmɑkɪŋ ˈaʊər ˈstrætədʒi ˈwaɪl wɪr prɪˈpɛrɪŋ fər ðə reɪd]</div>
+<ul class="link"><li>will は /wɪl/、be は弱形 /bi/: [wɪl bi] ウィル ビー</li><li>be は /bi/、mocking に先行: [bi ˈmɑkɪŋ] ビー マッキング</li><li>for は弱形 /fər/、the に連結: [fər ðə] ファー ザ</li></ul>
+<div class="kana">シー ウィル ビー マッキング アワー ストラテジー ホワイル ウィアー プリペアリング ファー ザ レイド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Everyone will be <mark>mocking</mark> the server lag when the event actually starts.</p>
+<p class="ja">イベントが実際に始まるとき、皆がサーバーラグを馬鹿にしているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈɛvɹiˌwʌn wɪl bi ˈmɑkɪŋ ðə ˈsɝvər læg wɛn ðə ɪˈvɛnt ˈæktʃuəli stɑrts]</div>
+<ul class="link"><li>will は /wɪl/、be は弱形 /bi/: [wɪl bi] ウィル ビー</li><li>be は /bi/、mocking に先行: [bi ˈmɑkɪŋ] ビー マッキング</li><li>the は弱形 /ðə/、server と event に連結（2回）: [ðə ˈsɝvər]「ザ サーバー」、[ðə ɪˈvɛnt]「ザ イヴェント」</li></ul>
+<div class="kana">エヴリワン ウィル ビー マッキング ザ サーバー ラグ ウェン ザ イヴェント アクチュアリー スターツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have mocked</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv mɑkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mock_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time you finish building, they will have <mark>mocked</mark> your design a thousand times.</p>
+<p class="ja">お前が建築を終わるまでに、彼らはお前の設計を千回も馬鹿にしていることだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm ju ˈfɪnɪʃ ˈbɪldɪŋ | ðeɪ wɪl həv ˈmɑkt jɔr dɪˈzaɪn ə ˈθaʊzənd taɪmz]</div>
+<ul class="link"><li>will は /wɪl/、have は弱形 /həv/: [wɪl həv] ウィル ハヴ</li><li>have の /v/ が mocked の /m/ に未開放で連接: [həv ˈmɑkt] ハヴ マークトゥ</li><li>your の /r/ が design の /d/ に先行（子音同士で自然な結合）</li></ul>
+<div class="kana">バイ ザ タイム ユー フィニッシュ ビルディング | ザイ ウィル ハヴ マークトゥ ユア ディザイン ア サウザンド タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He will have <mark>mocked</mark> every mistake by the end of the tournament.</p>
+<p class="ja">トーナメント終了までに、彼はあらゆるミスを馬鹿にしていることだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hiː wɪl həv ˈmɑkt ˈɛvɹi mɪˈsteɪk baɪ ðə ɛnd əv ðə ˈtɝnəmənt]</div>
+<ul class="link"><li>will は /wɪl/、have は弱形 /həv/: [wɪl həv] ウィル ハヴ</li><li>have の /v/ が mocked の /m/ に未開放で連接: [həv ˈmɑkt] ハヴ マークトゥ</li><li>the は弱形 /ðə/、end に連結。of は弱形 /əv/: [ðə ɛnd əv] ザ エンド アヴ</li></ul>
+<div class="kana">ヒー ウィル ハヴ マークトゥ エヴリ ミステイク バイ ザ エンド アヴ ザ ターナメント</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">mock battle</span><span class="im">模擬戦、練習戦</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We organized a <mark>mock</mark> battle to practice our PvP strategy before the server tournament.</p>
+<p class="ja">サーバートーナメントの前にPvP戦略を練習するために模擬戦を企画した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mock_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mock_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈɔrɡənaɪzd ə ˈmɑk ˈbætəl tə ˈpræktɪs ˈaʊər ˈpiˈvi ˈstrætədʒi bɪˈfɔr ðə ˈsɝvər ˈtɝnəmənt]</div>
+<ul class="link"><li>organized a → 語末子音 /d/ が母音 /ə/ に連結: [ˈɔrɡənaɪzd ə] オーガナイズド ア</li><li>battle to → battle の語末 /əl/ から次の弱形 to /tə/: [ˈbætəl tə] バトゥル タ</li><li>before the → 語末 /r/ が母音に連結、the は弱形: [bɪˈfɔr ðə] ビフォー ザ</li></ul>
+<div class="kana">ウィ オーガナイズド ア モック バトゥル タ プラクティス アワー ピーヴィ ストラテジー ビフォー ザ サーヴァー ターナメント</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="mock";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

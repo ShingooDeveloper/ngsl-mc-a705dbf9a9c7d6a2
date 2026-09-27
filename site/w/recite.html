@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>recite — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>recite</h2><span class="pos">動詞</span><span class="ipa-head">/rɪˈsaɪt/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1634</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】暗唱する、誦じる（recite a poem）</li><li>【動詞】述べる、報告する、詳しく述べる（recite facts）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I must <mark>recite</mark> ancient magic runes from this book.</p>
+<p class="ja">この本から古い魔法のルーンを暗唱しなければならない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ məst rɪˈsaɪ teɪnʃənt ˈmædʒɪk ruːnz frəm ðɪs bʊk/</div>
+<ul class="link"><li>「recite ancient」: 語末子音 /t/ が母音 /eɪ/ に連結 [saɪ teɪ] → サイテイ</li><li>「from」: 弱形 /frəm/ フラム</li></ul>
+<div class="kana">アイ マスト リサイテインシャント マジック ルーンズ フラム ディス ブック</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The wizard must <mark>recite</mark> enchantment texts to summon dragons.</p>
+<p class="ja">魔法使いはドラゴンを召喚するために魔法のテキストを暗唱しなければならない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɪzərd məst rɪˈsaɪ tɪntʃæntmənt tɛksts tə ˈsʌmən ˈdræɡənz/</div>
+<ul class="link"><li>「recite enchantment」: 語末子音 /t/ が母音 /ɪ/ に連結 [saɪ tɪ] → サイティ</li><li>「to」: 弱形 /tə/ タ</li></ul>
+<div class="kana">ザ ウィザード マスト リサイティンチャントメント テクスツ タ サマン ドラゴンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Every player should <mark>recite</mark> important ore positions daily.</p>
+<p class="ja">すべてのプレイヤーは毎日重要な鉱石の位置を暗唱すべきである。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvri ˈpleɪər ʃʊd rɪˈsaɪ tɪmˈpɔːrtənt oʊr pəˈzɪʃənz ˈdeɪli/</div>
+<ul class="link"><li>「recite important」: 語末子音 /t/ が母音 /ɪ/ に連結 [saɪ tɪ] → サイティ</li><li>「should」: /ʃʊd/ シュド、「recite」の /r/ とは子音+子音で連結なし</li></ul>
+<div class="kana">エヴリ プレイヤー シュド リサイティンポータント オー パジションズ デイリ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">recites</span><span class="fl">三人称単数現在形</span><span class="fi">/rɪˈsaɪts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>recites</mark> the mining route to every new player.</p>
+<p class="ja">彼女は新しいプレイヤーにマイニングルートを暗唱する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi rɪˈsaɪts ðə ˈmaɪnɪŋ ˈrut tu ˈɛvri ˈnu ˈpleɪɚ/</div>
+<ul class="link"><li>mining route — 語末の鼻音 /ŋ/ が子音 /r/ に先行</li></ul>
+<div class="kana">シ リサイツ ザ マイニング ルート タ エブリ ニュー プレイアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin <mark>recites</mark> the server rules before each season.</p>
+<p class="ja">管理者は各シーズン前にサーバールールを暗唱する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn rɪˈsaɪts ðə ˈsɜrvɚ ˈrulz bɪˈfɔr itʃ ˈsizən/</div>
+<ul class="link"><li>admin recites — 語末 /n/ が未開放で次の /r/ に先行</li><li>before each — 語末の /r/ が母音 /i/ に連結</li></ul>
+<div class="kana">ザ アドミン リサイツ ザ サーバー ルールズ ビフォア イーチ シーズン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">recited</span><span class="fl">過去形</span><span class="fi">/rɪˈsaɪ.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>recited</mark> the enchantment spell word by word yesterday.</p>
+<p class="ja">昨日、エンチャントの呪文を一言一言暗唱した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ rɪˈsaɪ.tɪd ðə ɪnˈtʃænt.mənt spɛl wɜrd baɪ wɜrd ˈjɛs.tɚˌdeɪ/</div>
+<ul class="link"></ul>
+<div class="kana">アイ リサイティド ザ インチャントメント スペル ワード バイ ワード イエスタデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder <mark>recited</mark> the base coordinates from memory.</p>
+<p class="ja">ビルダーは記憶から基地の座標を暗唱した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪl.dɚ rɪˈsaɪ.tɪd ðə ˈbeɪs ˈkoʊ.ɔːr.də.nəts frəm ˈmɛ.mə.ri/</div>
+<ul class="link"><li>builder recited — 語末 /ɚ/ が子音 /r/ に先行し流れる</li><li>from memory — 語末 /m/ が母音 /ɛ/ に連結</li></ul>
+<div class="kana">ザ ビルダー リサイティド ザ ベイス コーディネッツ フラム メモリ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">recited</span><span class="fl">過去分詞</span><span class="fi">/rɪˈsaɪ.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mining coordinates <mark>recited</mark> at the start are still accurate.</p>
+<p class="ja">開始時に暗唱された採掘座標はまだ正確である。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪ.nɪŋ ˈkoʊ.ɔːr.də.nəts rɪˈsaɪ.tɪd æt ðə stɑrt ɑr stɪl ˈæk.jə.rət/</div>
+<ul class="link"><li>the mining — 弱形 /ðə/ が母音 /m/ に連結</li><li>recited at — 語末 /d/ が母音 /æ/ に連結</li></ul>
+<div class="kana">ザ マイニング コーディネッツ リサイティド アット ザ スタート アー スティル アキュレット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Instructions <mark>recited</mark> by experienced players are essential for new members.</p>
+<p class="ja">経験豊かなプレイヤーによって暗唱された指示は新しいメンバーにとって重要である。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪnˈstrʌk.ʃənz rɪˈsaɪ.tɪd baɪ ɪkˈspɪ.ri.ənst ˈpleɪ.ɚz ɑr ɪˈsɛn.ʃəl fɔr ˈnu ˈmɛm.bɚz/</div>
+<ul class="link"></ul>
+<div class="kana">インストラクションズ リサイティド バイ イクスピーリエンスト プレイアーズ アー エッセンシャル フォア ニュー メンバーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reciting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/rɪˈsaɪ.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Reciting</mark> the blueprint details takes time and focus.</p>
+<p class="ja">ブループリントの詳細を暗唱することは時間と焦点を必要とする。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/rɪˈsaɪ.tɪŋ ðə ˈblu.ˌprɪnt dɪˈteɪlz teɪks taɪm ənd ˈfoʊ.kəs/</div>
+<ul class="link"><li>reciting the — 語末鼻音 /ŋ/ が弱形 /ðə/ に先行</li></ul>
+<div class="kana">リサイティング ザ ブループリント ディテイルズ テイクス タイム アンド フォーカス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He is <mark>reciting</mark> the redstone circuit logic right now.</p>
+<p class="ja">彼は今、レッドストーン回路のロジックを暗唱している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ɪz rɪˈsaɪ.tɪŋ ðə ˈrɛdsˌtoʊn ˈsɜr.kɪt ˈlɑ.dʒɪk raɪt naʊ/</div>
+<ul class="link"><li>reciting the — 語末鼻音 /ŋ/ が弱形 /ðə/ に先行</li></ul>
+<div class="kana">ヒ イズ リサイティング ザ レッドストウン サーキット ロジック ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is reciting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">ɪz rɪˈsaɪɾɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder is <mark>reciting</mark> the coordinates out loud.</p>
+<p class="ja">ビルダーが座標を声に出して暗唱しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbɪldər ɪz rɪˈsaɪɾɪŋ ðə koʊˈɔːrdənəts aʊt laʊd]</div>
+<ul class="link"><li>builder is — 語末 /ɚ/ が母音 /ɪ/ に連結して滑らかに [ˈbɪldər ɪz] ビルダー イズ</li><li>is reciting — is の末尾子音 /z/ が reciting の /r/ に連結 [ɪz rɪˈsaɪɾɪŋ] イズ リサイリング</li><li>the coordinates — 弱形 /ðə/ が coordinates の子音 /k/ に先行 [ðə koʊˈɔːrdənəts] ザ コウオーディネッツ</li><li>out loud — 語末 /t/ が liquid /l/ に先行 [aʊt laʊd] アウト ラウド</li></ul>
+<div class="kana">ザ ビルダー イズ リサイリング ザ コウオーディネッツ アウト ラウド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>reciting</mark> the enchantment words together.</p>
+<p class="ja">私たちは魔法の言葉を一緒に暗唱しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ɑr rɪˈsaɪɾɪŋ ðə ɪnˈtʃæntmənt wɜrdz təˈɡɛðər]</div>
+<ul class="link"><li>are reciting — are /ɑr/ の末尾子音 /r/ が reciting の /r/ に先行 [ɑr rɪˈsaɪɾɪŋ] アー リサイリング</li><li>reciting the — reciting 末尾鼻音 /ŋ/ の後に弱形 /ðə/ が続く [rɪˈsaɪɾɪŋ ðə] リサイリング ザ</li><li>enchantment words — 語末 /t/ が子音 /w/ に先行 [ɪnˈtʃæntmənt wɜrdz] エンチャントメント ワーズ</li><li>together — 第1音節が非強調音節なので /tə/ に弱化 [təˈɡɛðər] タゲザー</li></ul>
+<div class="kana">ウィ アー リサイリング ザ エンチャントメント ワーズ タゲザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was reciting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">wəz rɪˈsaɪɾɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The wizard was <mark>reciting</mark> ancient spells when the attack began.</p>
+<p class="ja">攻撃が始まったとき、魔法使いは古い呪文を暗唱していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɪzərd wəz rɪˈsaɪɾɪŋ ˈeɪntʃənt spɛlz wɛn ðə əˈtæk bɪˈɡæn]</div>
+<ul class="link"><li>was reciting — was 弱形 /wəz/、末尾 /z/ が reciting の /r/ に連結 [wəz rɪˈsaɪɾɪŋ] ワズ リサイリング</li><li>ancient spells — 語末 /t/ は /s/ の前で未開放 [ˈeɪntʃənt spɛlz] エイントシャント スペルズ</li><li>when the — 語末鼻音 /n/ の後に弱形 /ðə/ が続く [wɛn ðə] ウェン ザ</li><li>the attack — 弱形 /ðə/ の後に attack の初頭が続き hiatus を形成 [ðə əˈtæk] ザ アタック</li></ul>
+<div class="kana">ザ ウィザード ワズ リサイリング エイントシャント スペルズ ウェン ザ アタック ビガン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>reciting</mark> the mining coordinates when the server crashed.</p>
+<p class="ja">サーバーがクラッシュしたとき、私は採掘座標を暗唱していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz rɪˈsaɪɾɪŋ ðə ˈmaɪnɪŋ koʊˈɔːrdənəts wɛn ðə ˈsɜrvər kræʃt]</div>
+<ul class="link"><li>was reciting — was 弱形 /wəz/、末尾 /z/ が reciting の /r/ に連結 [wəz rɪˈsaɪɾɪŋ] ワズ リサイリング</li><li>reciting the — reciting 末尾鼻音 /ŋ/ の後に弱形 /ðə/ が続く [rɪˈsaɪɾɪŋ ðə] リサイリング ザ</li><li>the mining — 弱形 /ðə/ が母音 /m/ に連結 [ðə ˈmaɪnɪŋ] ザ マイニング</li><li>server crashed — 語末 /ɚ/ が子音 /k/ に先行 [ˈsɜrvər kræʃt] サーバー クラッシュド</li></ul>
+<div class="kana">アイ ワズ リサイリング ザ マイニング コウオーディネッツ ウェン ザ サーバー クラッシュド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been reciting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">həd bɪn rɪˈsaɪɾɪŋ</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The priest had been <mark>reciting</mark> the blessing for an hour.</p>
+<p class="ja">司祭は1時間、祝福を暗唱していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈprist həd bɪn rɪˈsaɪɾɪŋ ðə ˈblɛsɪŋ fɔr ən ˈaʊər]</div>
+<ul class="link"><li>had been — had 弱形 /həd/、been 弱形 /bɪn/、末尾 /n/ が reciting の /r/ に先行 [həd bɪn rɪˈsaɪɾɪŋ] ハド ビン リサイリング</li><li>reciting the — reciting 末尾鼻音 /ŋ/ の後に弱形 /ðə/ が続く [rɪˈsaɪɾɪŋ ðə] リサイリング ザ</li><li>the blessing — 弱形 /ðə/ が blessing の子音 /b/ に先行 [ðə ˈblɛsɪŋ] ザ ブレッシング</li><li>for an — for 弱形 /fɔr/、an 弱形 /ən/ が hour の /aʊ/ に先行 [fɔr ən ˈaʊər] フォア アン アワー</li></ul>
+<div class="kana">ザ プリスト ハド ビン リサイリング ザ ブレッシング フォア アン アワー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>reciting</mark> the prophecy all night long.</p>
+<p class="ja">彼らは夜中ずっと預言を暗唱していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd bɪn rɪˈsaɪɾɪŋ ðə ˈprɑfəsi ɔl naɪt lɔŋ]</div>
+<ul class="link"><li>had been — had 弱形 /həd/、been 弱形 /bɪn/、末尾 /n/ が reciting の /r/ に先行 [həd bɪn rɪˈsaɪɾɪŋ] ハド ビン リサイリング</li><li>reciting the — reciting 末尾鼻音 /ŋ/ の後に弱形 /ðə/ が続く [rɪˈsaɪɾɪŋ ðə] リサイリング ザ</li><li>the prophecy — 弱形 /ðə/ が prophecy の子音 /p/ に先行 [ðə ˈprɑfəsi] ザ プロフェシー</li><li>all night — 語末 /l/ が night の子音 /n/ に先行、long は末尾 /ŋ/ [ɔl naɪt lɔŋ] オール ナイト ロング</li></ul>
+<div class="kana">ゼイ ハド ビン リサイリング ザ プロフェシー オール ナイト ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has recited</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/ˈhæz rɪˈsaɪ.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin has <mark>recited</mark> the server rules to all new players.</p>
+<p class="ja">管理者はすべての新しいプレイヤーにサーバールールを暗唱した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈæd.mɪn ˈhæz rɪˈsaɪ.tɪd ðə ˈsɝ.vɚ ˈrulz tə ɔl ˈnu ˈpleɪ.ɚz/</div>
+<ul class="link"><li>admin の語末 /n/ が has の /h/ に未開放で先行 [ˈæd.mɪn̚ ˈhæz] アドミン ハズ</li><li>recited の語末 /d/ が the の /ð/ に未開放で先行 [rɪˈsaɪ.tɪd̚ ðə] リサイティッ ザ</li><li>to は弱形 /tə/ タ</li></ul>
+<div class="kana">ザ アドミン ハズ リサイティド ザ サーバー ルールズ タ オール ニュー プレイアーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>recited</mark> the mining coordinates so many times already.</p>
+<p class="ja">私たちはマイニング座標を何度も暗唱してきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈhæv rɪˈsaɪ.tɪd ðə ˈmaɪ.nɪŋ ˈkoʊ.ɔɹ.dən.əts ˈsoʊ ˈmɛ.ni ˈtaɪmz ɔlˈrɛd.i/</div>
+<ul class="link"><li>have の弱形 /əv/ が recited の /r/ に流れ [əv rɪˈsaɪ.tɪd] アヴ リ</li><li>recited の語末 /d/ が the の /ð/ に未開放で先行 [rɪˈsaɪ.tɪd̚ ðə] リサイティッ ザ</li><li>mining の語末 /ŋ/ が coordinates の /k/ に先行（子音+子音）</li></ul>
+<div class="kana">ウィー ハヴ リサイティド ザ マイニング コーディネッツ ソー メニ タイムズ オールレディ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had recited</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/ˈhæd rɪˈsaɪ.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the battle started, she had <mark>recited</mark> all the combat tactics.</p>
+<p class="ja">戦闘が始まる前に、彼女はすべての戦闘戦術を暗唱していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr ðə ˈbæt.əl ˈstɑr.tɪd ʃi ˈhæd rɪˈsaɪ.tɪd ɔl ðə ˈkɑm.bæt ˈtæk.tɪks/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>she の語末 /i/ が had の弱形 /əd/ に流れ [ʃi əd] シー アド</li><li>had の弱形 /əd/ が recited の /r/ に先行（子音+子音）[əd rɪˈsaɪ.tɪd] アド リ</li><li>recited の語末 /d/ が all の /ɔ/ に連結し流れ [rɪˈsaɪ.tɪd ɔl] リサイティド オール</li></ul>
+<div class="kana">ビフォア ザ バトル スターティド シー ハド リサイティド オール ザ カムバット タックティクス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>recited</mark> the enchantment sequence many times before the server crashed.</p>
+<p class="ja">サーバーがクラッシュする前に、彼らは魔法の呪文シーケンスを何度も暗唱していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈhæd rɪˈsaɪ.tɪd ðə ɪnˈtʃæn.tmənt ˈsi.kwəns ˈmɛ.ni ˈtaɪmz bɪˈfɔr ðə ˈsɝ.vɚ kræʃt/</div>
+<ul class="link"><li>they の語末 /eɪ/ が had の弱形 /əd/ に流れ [ðeɪ əd] ザイ アド</li><li>had の弱形 /əd/ が recited の /r/ に先行（子音+子音）[əd rɪˈsaɪ.tɪd] アド リ</li><li>recited の語末 /d/ が the の /ð/ に未開放で先行 [rɪˈsaɪ.tɪd̚ ðə] リサイティッ ザ</li><li>server の語末 /ɚ/ が crashed の /k/ に子音+子音で続く</li></ul>
+<div class="kana">ザイ ハド リサイティド ザ インチャントメント シークエンス メニ タイムズ ビフォア ザ サーバー クラッシュト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been reciting</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/ˈhæz bɪn rɪˈsaɪ.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mentor has been <mark>reciting</mark> the building techniques all morning long.</p>
+<p class="ja">その指導者は朝中建築技法を暗唱し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmɛn.tɚ ˈhæz bɪn rɪˈsaɪ.tɪŋ ðə ˈbɪl.dɪŋ tɛkˈnɪks ɔl ˈmɔr.nɪŋ lɔŋ/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>been の語末 /n/ が reciting の /r/ に流れ [bɪn rɪˈsaɪ.tɪŋ] ビン リ</li><li>building の語末 /ŋ/ が techniques の /t/ に子音+子音で続く</li></ul>
+<div class="kana">ザ メンター ハズ ビン リサイティング ザ ビルディング テクニックス オール モーニング ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have been <mark>reciting</mark> the survival strategies since the server started this season.</p>
+<p class="ja">プレイヤーたちはこのシーズンがサーバーで始まって以来、サバイバル戦略を暗唱し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪ.ɚz ˈhæv bɪn rɪˈsaɪ.tɪŋ ðə sɚˈvaɪ.vəl ˈstræ.tə.dʒiz sɪns ðə ˈsɝ.vɚ ˈstɑr.tɪd ðɪs ˈsi.zən/</div>
+<ul class="link"><li>been の語末 /n/ が reciting の /r/ に流れ [bɪn rɪˈsaɪ.tɪŋ] ビン リ</li><li>reciting の語末 /ŋ/ が the の /ð/ に子音+子音で続く</li><li>server の語末 /ɚ/ が started の /s/ に子音+子音で続く</li></ul>
+<div class="kana">プレイアーズ ハヴ ビン リサイティング ザ サーバイバル ストラテジーズ シンス ザ サーバー スターティド ディス シーズン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will recite</span><span class="fl">単純未来形</span><span class="fi">/wəl rɪˈsaɪt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>recite</mark> the mining path to everyone tomorrow.</p>
+<p class="ja">明日、すべてのプレイヤーにマイニング経路を暗唇します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəl rɪˈsaɪt ðə ˈmaɪnɪŋ pæθ tə ˈɛvriˌwʌn təˈmɑroʊ/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">アイ ウァル リサイト ザ マイニング パス タ エンリワン タモロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The expert will <mark>recite</mark> the base design rules to new players.</p>
+<p class="ja">その専門家は新しいプレイヤーに基地設計ルールを暗唇します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛkspɜrt wəl rɪˈsaɪt ðə ˈbeɪs dɪˈzaɪn ˈrulz tə ˈnu ˈpleɪərz/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">ザ エクスパート ウァル リサイト ザ ベース ディザイン ルールズ タ ニュー プレイアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be reciting</span><span class="fl">未来進行形</span><span class="fi">/wəl bɪ rɪˈsaɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will be <mark>reciting</mark> the enchantment spells while you build the base.</p>
+<p class="ja">あなたが基地を建設している間、私はエンチャント呼文を暗唇し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəl bɪ rɪˈsaɪtɪŋ ðə ɪnˈtʃæntmənt spɛlz waɪl ju bɪld ðə ˈbeɪs/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">アイ ウァル ビ リサイティング ザ インチャントメント スペルズ ワイル ユー ビルド ザ ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>reciting</mark> the enchantment list all afternoon.</p>
+<p class="ja">彼らは午後中ずっとエンチャントリストを暗唇し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wəl bɪ rɪˈsaɪtɪŋ ðə ɪnˈtʃæntmənt lɪst ɔl ˈæftərˌnun/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">ザイ ウァル ビ リサイティング ザ インチャントメント リスト オール アフタヌーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have recited</span><span class="fl">未来完了形</span><span class="fi">/wəl həv rɪˈsaɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/recite_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, I will have <mark>recited</mark> the entire spawn coordinates.</p>
+<p class="ja">明日までに、私はスポーン地点の座標をすべて暗唇してしまいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ aɪ wəl həv rɪˈsaɪtɪd ðə ɪnˈtaɪər spoʊn ˈkoʊɔːrdənəts/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">バイ タモロー アイ ウァル ハヴ リサイティド ザ インタイアー スポーン コーオーディネッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>recited</mark> all the mining tips by the end of the season.</p>
+<p class="ja">彼女はシーズン終了までにマイニング技のコツをすべて暗唇してしまいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəl həv rɪˈsaɪtɪd ɔl ðə ˈmaɪnɪŋ tɪps baɪ ðə ɛnd əv ðə ˈsizən/</div>
+<ul class="link"><li>「会示」</li></ul>
+<div class="kana">シ ウァル ハヴ リサイティド オール ザ マイニング ティップス バイ ザ エンド アヴ ザ シーズン</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">recite from memory</span><span class="im">記憶から暗唱する、覚えていることを言う</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Experts <mark>recite</mark> ore maps from memory.</p>
+<p class="ja">専門家は記憶から鉱石マップを暗唱する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛkspɜrts rɪˈsaɪt oʊr mæps frəm ˈmɛməri/</div>
+<ul class="link"><li>「recite ore」: 語末子音 /t/ が母音 /oʊ/ に連結 [saɪ toʊ] → サイトー</li><li>「from」: 弱形 /frəm/ フラム</li></ul>
+<div class="kana">エクスパーツ リサイト オー マップス フラム メモリ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">recite by heart</span><span class="im">何も見ずに暗唱する、完全に覚えている</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players <mark>recite</mark> redstone patterns by heart.</p>
+<p class="ja">プレイヤーはレッドストーンパターンを何も見ずに暗唱する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/recite_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/recite_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz rɪˈsaɪt ˈrɛdˌstoʊn ˈpætərnz baɪ hɑrt/</div>
+<ul class="link"><li>「recite redstone」: 語末子音 /t/ が母音 /ɛ/ に連結 [saɪ tɛ] → サイテ</li><li>「by」: 強形 /baɪ/ バイ、heart との間に連結なし</li></ul>
+<div class="kana">プレイヤーズ リサイト レッドストーン パターンズ バイ ハート</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="recite";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

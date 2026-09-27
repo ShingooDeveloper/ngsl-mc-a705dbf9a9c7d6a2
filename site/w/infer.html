@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>infer — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>infer</h2><span class="pos">動詞</span><span class="ipa-head">/ɪnˈfɝ/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1201</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】証拠や情報から論理的に結論を導く（～と推測する、推断する）</li><li>言葉や事実から暗に示唆される（～が含意される）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>inferred</mark> from the redstone that you're building a complex contraption.</p>
+<p class="ja">レッドストーン回路から、複雑な装置を作っていると推測しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ɪnˈfɝd fɹɑm ðə ˈɹɛdstoʊn ðæt jɔɹ ˈbɪldɪŋ ə kəmˈplɛks kənˈtræpʃən/</div>
+<ul class="link"><li>from the で、/m/ が母音に連結します [fɹɑ ˈðə]。</li><li>that you're で、/t/ が /j/ に連結し [ðæ ˈtʃɚ] ザッチュアーのように聞こえます。</li></ul>
+<div class="kana">アイ インファード フラム ザ レッストーン ザッチュアー ビルディング ア コンプレックス コントラプション</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You can <mark>infer</mark> a player's experience by observing their mining efficiency.</p>
+<p class="ja">プレイヤーの採掘効率を見ることで、その経験を推測できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː kən ɪnˈfɝ ə ˈpleɪɚz ɪkˈspɪɹiəns baɪ əbˈzɝvɪŋ ðɛɹ ˈmaɪnɪŋ ɪˈfɪʃənsi/</div>
+<ul class="link"><li>can infer で、/n/ が母音 /ɪ/ に連結 [kən ɪnˈfɝ] カンインファー。</li><li>their mining で、/ɹ/ が次の母音に連結します [ðɛɹ ˈmaɪnɪŋ]。</li></ul>
+<div class="kana">ユー カン インファー ア プレイヤーズ イクスピアリアンス バイ アブザーヴィング デア マイニング イフィシャンシー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>inferred</mark> they found diamonds because they stopped digging at that depth.</p>
+<p class="ja">その深さで掘削を止めたことから、ダイヤモンドを見つけたと推測しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ɪnˈfɝd ðeɪ ˈfaʊnd ˈdaɪəmændz bɪˈkɔz ðeɪ ˈstɑpt ˈdɪɡɪŋ æt ðæt ˈdɛpθ/</div>
+<ul class="link"><li>found diamonds で、/d/ と /d/ が接する場所。同じ子音が続き、未開放の [d] として聞こえます [ˈfaʊn̚d ˈdaɪəmændz]。</li><li>at that で、/t/ が未開放となり、次の /ð/ に続きます [æ ˈt̚ðæt]。</li></ul>
+<div class="kana">アイ インファード デイ ファウンド ダイアモンズ ビコーズ デイ ストップ ディギング アット ザット デプス</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">infers</span><span class="fl">三人称単数現在形</span><span class="fi">/ɪnˈfɝz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>From the redstone signals, she infers what the mechanism does.</p>
+<p class="ja">レッドストーン信号から、彼女は機構が何をするかを推測する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/frɑm ðə ˈrɛdˌstoʊn ˈsɪɡnəlz, ʃi ɪnˈfɝz wɑt ðə ˈmɛkənɪzəm dʌz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>infers what → infers の /z/ が what の /w/ に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">フロム ザ レッドストーン シグナルズ シー インファーズ ワット ザ メカニズム ダズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player infers that the mob behavior changes at night.</p>
+<p class="ja">プレイヤーは、モブの行動が夜に変わることを推測する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər ɪnˈfɝz ðət ðə ˈmoʊb bɪˈheɪvjər ˈtʃeɪndʒɪz æt naɪt/</div>
+<ul class="link"><li>The は弱形 /ðə/ ザ</li><li>infers that → infers の /z/ が that の /ð/ に続く（子音+子音で連結なし）</li><li>that は機能語で弱形 /ðət/ ザット</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ プレイアー インファーズ ザット ザ モブ ビヘイビアー チェンジズ アット ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">inferred</span><span class="fl">過去形</span><span class="fi">/ɪnˈfɝd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>inferred</mark> from the map that diamonds were hidden underground.</p>
+<p class="ja">地図から、ダイヤモンドが地下に隠されていると推測した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ɪnˈfɝd frɑm ðə mæp ðət ˈdaɪəˌmɑndz wər ˈhɪdən ˌʌndərˈɡraʊnd/</div>
+<ul class="link"><li>inferred from → inferred の /d/ が from の /f/ に続く（子音+子音で連結なし）</li><li>from は機能語で弱形 /frəm/ フロム</li><li>the は弱形 /ðə/ ザ</li><li>that は機能語で弱形 /ðət/ ザット</li></ul>
+<div class="kana">アイ インファード フロム ザ マップ ザット ダイアモンズ ワー ヒデン アンダーグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>inferred</mark> that the boss was defeated by the destroyed structures.</p>
+<p class="ja">破壊された構造物から、ボスが倒されたことを推測した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɪnˈfɝd ðət ðə bɔs wəz dɪˈfitəd baɪ ðə dɪˈstrojd ˈstrʌktʃərz/</div>
+<ul class="link"><li>inferred that → inferred の /d/ が that の /ð/ に連結（未開放）</li><li>that は機能語で弱形 /ðət/ ザット</li><li>the は弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ ウァズ</li></ul>
+<div class="kana">ウィ インファード ザット ザ ボス ワズ ディフィーテッド バイ ザ ディストロイド ストラクチャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">inferred</span><span class="fl">過去分詞</span><span class="fi">/ɪnˈfɝd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>inferred</mark> pattern suggests the redstone circuit works this way.</p>
+<p class="ja">推測されたパターンは、レッドストーン回路がこのように機能することを示唆している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪnˈfɝd ˈpætərn səˈdʒɛsts ðə ˈrɛdˌstoʊn ˈsɝkɪt wɝks ðɪs ˈweɪ/</div>
+<ul class="link"><li>The は弱形 /ðə/ ザ</li><li>inferred pattern → inferred の /d/ が pattern の /p/ に続く（子音+子音で連結なし）</li><li>suggests the → suggests の /s/ が the の /ð/ に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ インファード パターン サジェスツ ザ レッドストーン サーキット ワークス ディス ウェイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Based on <mark>inferred</mark> clues, the treasure room must be north.</p>
+<p class="ja">推測された手がかりに基づいて、財宝の部屋は北にあるに違いない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbeɪsɾɑn ɪnˈfɝd ˈkluːz, ðə ˈtrɛʒər rum məst bi ˈnɔrθ/</div>
+<ul class="link"><li>Based on → based の /t/ が on の /ɑ/ に連結しフラップ化 [ɾ]</li><li>inferred clues → inferred の /d/ が clues の /k/ に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/ ザ</li><li>must は弱形の可能性 /məst/</li></ul>
+<div class="kana">ベイスラン インファード クルーズ ザ トレジャー ルーム マスト ビー ノース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">inferring</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>inferring</mark> from the footprints, we tracked the creeper.</p>
+<p class="ja">足跡から推測することで、クリーパーを追跡した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ɪnˈfɝɪŋ frɑm ðə ˈfʊtˌprɪnts, wi trækt ðə ˈkripər/</div>
+<ul class="link"><li>inferring from → inferring の /ŋ/ が from の /f/ に続く（子音+子音で連結なし）</li><li>from は機能語で弱形 /frəm/ フロム</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">バイ インファーリング フロム ザ フットプリンツ ウィ トラクト ザ クリーパー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>inferring</mark> the mob spawner location from hostile spawns.</p>
+<p class="ja">敵性スポーンからモブスポーナーの位置を推測している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ɪnˈfɝɪŋ ðə ˈmoʊb ˈspoːnər ˌloʊˈkeɪʃən frɑm ˈhoʊstaɪl spoːnz/</div>
+<ul class="link"><li>are → 弱形で /ɑr/ アー</li><li>inferring the → inferring の /ŋ/ が the の /ð/ に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/ ザ</li><li>from は機能語で弱形 /frəm/</li></ul>
+<div class="kana">ウィ アー インファーリング ザ モブ スポーナー ロケーション フロム ホステイル スポーンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is inferring</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>inferring</mark> the witch's location from the potion effects.</p>
+<p class="ja">ポーション効果から魔女の位置を推測しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ɪnˈfɝɪŋ ðə ˈwɪtʃɪz ˌloʊˈkeɪʃən frəm ðə ˈpoʊʃən ɪˈfɛkts/</div>
+<ul class="link"><li>I'm inferring → I'm の語末 /m/ が inferring の /ɪ/ に連結</li><li>the は弱形 /ðə/</li><li>from は弱形 /frəm/</li></ul>
+<div class="kana">アイム インファーリング ザ ウィッチズ ロケーション フロム ザ ポーション エフェクツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players are <mark>inferring</mark> how the redstone circuit works from observation.</p>
+<p class="ja">プレイヤーたちは観察からレッドストーン回路がどのように機能するかを推測しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz ɑr ɪnˈfɝɪŋ haʊ ðə ˈrɛdˌstoʊn ˈsɝkɪt wɝks frəm ˌɑbzərˈveɪʃən/</div>
+<ul class="link"><li>are の語末 /r/ が inferring の /ɪ/ に連結</li><li>the は弱形 /ðə/</li><li>from は弱形 /frəm/</li></ul>
+<div class="kana">ザ プレイアーズ アー インファーリング ハウ ザ レッドストーン サーキット ワークス フロム オブザベーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was inferring</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>inferring</mark> the mob's behavior from its movement patterns.</p>
+<p class="ja">その動きのパターンからモブの行動を推測していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ɪnˈfɝɪŋ ðə ˈmoʊbz bɪˈheɪvjər frəm ɪts ˈmuvmənt ˈpætərnz/</div>
+<ul class="link"><li>were の語末 /r/ が inferring の /ɪ/ に連結</li><li>the は弱形 /ðə/</li><li>from は弱形 /frəm/</li></ul>
+<div class="kana">ウィ ワー インファーリング ザ モブズ ビヘイビアー フロム イッツ ムーブメント パターンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She was <mark>inferring</mark> the creeper's spawn location when it suddenly exploded.</p>
+<p class="ja">クリーパーの出現位置を推測していたとき、それが突然爆発しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəz ɪnˈfɝɪŋ ðə ˈkripərz spoʊn ˌloʊˈkeɪʃən wɛn ɪt ˈsʌdənli ɪkˈsploʊdəd/</div>
+<ul class="link"><li>was は弱形 /wəz/</li><li>the は弱形 /ðə/</li><li>/n/ が母音 /ɪ/ に連結</li></ul>
+<div class="kana">シー ワズ インファーリング ザ クリーパーズ スポーン ロケーション ウェン イット サドンリー イクスプロウデッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been inferring</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we opened the treasure room, they had been <mark>inferring</mark> the location from ancient maps.</p>
+<p class="ja">宝物の部屋を開けたときまでに、彼らは古い地図から位置を推測していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈoʊpənd ðə ˈtrɛʒər rum, ðeɪ həd bɪn ɪnˈfɝɪŋ ðə ˌloʊˈkeɪʃən frəm ˈeɪʃənt mæps/</div>
+<ul class="link"><li>had は弱形 /həd/、been も弱形 /bɪn/</li><li>the は弱形 /ðə/</li><li>from は弱形 /frəm/</li></ul>
+<div class="kana">バイ ザ タイム ウィ オープンド ザ トレジャー ルーム ザエイ ハド ビン インファーリング ザ ロケーション フロム エイシャント マップス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners had been <mark>inferring</mark> the diamond vein's location for hours before striking it.</p>
+<p class="ja">採掘者たちはそれに到達する前に何時間もダイヤモンド鉱脈の位置を推測していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz həd bɪn ɪnˈfɝɪŋ ðə ˈdaɪəˌmɑnd veɪnz ˌloʊˈkeɪʃən fɔr ˈaʊɚz bɪˈfɔr ˈstraɪkɪŋ ɪt/</div>
+<ul class="link"><li>had は弱形 /həd/、been も弱形 /bɪn/</li><li>the は弱形 /ðə/</li><li>for の語末 /r/ が母音に連結</li></ul>
+<div class="kana">ザ マイナーズ ハド ビン インファーリング ザ ダイアモンド ベインズ ロケーション フォー アワーズ ビフォー ストライキング イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will infer</span><span class="fl">単純未来形</span><span class="fi">/wɪl ɪnˈfɝ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>infer</mark> the dungeon structure from these stone patterns.</p>
+<p class="ja">これらの石のパターンからダンジョンの構造を推測します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ɪnˈfɝ ðə ˈdʌndʒən ˈstrʌktʃər frɑm ðiz stoʊn ˈpætərnz/</div>
+<ul class="link"><li>I'll の末尾 /l/ が infer の /ɪ/ に連結 [aɪl ɪnˈfɝ]「アイル インファー」</li><li>infer の末尾 /r/ が the の /ð/ に連結しない（子音+子音で未開放）</li><li>the は弱形 /ðə/ ザ、from は機能語で弱形 /frəm/ フロム</li></ul>
+<div class="kana">アイル インファー ザ ダンジャン ストラクチャー フロム ディーズ ストウン パターンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>infer</mark> the treasure's location from these ancient clues.</p>
+<p class="ja">これらの古い手がかりから宝物の位置を推測します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl ɪnˈfɝ ðə ˈtrɛʒərz loʊˈkeɪʃən frɑm ðiz ˈeɪʃənt kluːz/</div>
+<ul class="link"><li>will の末尾 /l/ が infer の /ɪ/ に連結 [wɪl ɪnˈfɝ]「ウィル インファー」</li><li>infer の末尾 /r/ が the の /ð/ に連結しない（子音+子音で未開放）</li><li>the は弱形 /ðə/ ザ、from は機能語で弱形 /frəm/ フロム</li></ul>
+<div class="kana">ウィ ウィル インファー ザ トレジャーズ ロケーション フロム ディーズ エイシャント クルーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be inferring</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Tomorrow I'll be <mark>inferring</mark> the redstone pattern from the circuit behavior.</p>
+<p class="ja">明日、私はレッドストーン回路の動作からそのパターンを推測しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/təˈmɑroʊ aɪl bi ɪnˈfɝɪŋ ðə ˈrɛdˌstoʊn ˈpætərn frɑm ðə ˈsɝkət bɪˈheɪvjər/</div>
+<ul class="link"><li>I'll be の /l/ と /b/ が続く（未開放で連結なし）[aɪl bi]「アイル ビー」</li><li>be の末尾 /i/ が inferring の /ɪ/ に連結 [bi ɪnˈfɝɪŋ]「ビー インファーリング」</li><li>inferring の末尾 /ŋ/ が from に連結しない（鼻音+子音で未開放）、from は弱形 /frəm/ フロム</li></ul>
+<div class="kana">トゥモーロウ アイル ビー インファーリング ザ レッドストウン パターン フロム ザ サーキット ビヘイビアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>inferring</mark> the mob spawner location while we explore.</p>
+<p class="ja">私たちが探索している間、彼らはモブスポーナーの位置を推測しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi ɪnˈfɝɪŋ ðə ˈmoʊb ˈspoʊnər loʊˈkeɪʃən waɪl wi ɪkˈsploɹ/</div>
+<ul class="link"><li>will の末尾 /l/ が be の /b/ に連結しない（子音+子音で未開放）[wɪl bi]「ウィル ビー」</li><li>be の末尾 /i/ が inferring の /ɪ/ に連結 [bi ɪnˈfɝɪŋ]「ビー インファーリング」</li><li>inferring の末尾 /ŋ/ が the に連結しない（鼻音+子音で未開放）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザイ ウィル ビー インファーリング ザ モブ スポーナー ロケーション ホワイル ウィ エクスプロア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have inferred</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ɪnˈfɝd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By then, we'll have <mark>inferred</mark> all the puzzle clues.</p>
+<p class="ja">その時までに、私たちはすべてのパズルの手がかりを推測しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðɛn, wil həv ɪnˈfɝd ɔl ðə ˈpʌzəl kluːz/</div>
+<ul class="link"><li>we'll have の /l/ と /h/ が続く（will の縮約形）、have は弱形 /həv/ [wil həv]「ウィル ハヴ」</li><li>have の末尾 /v/ が inferred の /ɪ/ に連結 [həv ɪnˈfɝd]「ハヴ インファード」</li><li>all の末尾 /l/ が the の /ð/ に連結しない（子音+子音で未開放）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">バイ ザン ウィル ハヴ インファード オール ザ パズル クルーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll have <mark>inferred</mark> the treasure room's location before nightfall.</p>
+<p class="ja">彼は日暮れまでに宝物の部屋の位置を推測しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil həv ɪnˈfɝd ðə ˈtrɛʒər rum loʊˈkeɪʃən bɪˈfɔr ˈnaɪtˌfɔl/</div>
+<ul class="link"><li>He'll have の /l/ と /h/ が続く（will の縮約形）、have は弱形 /həv/ [hil həv]「ヒル ハヴ」</li><li>have の末尾 /v/ が inferred の /ɪ/ に連結 [həv ɪnˈfɝd]「ハヴ インファード」</li><li>the は弱形 /ðə/ ザ、room の末尾 /m/ が location の /l/ に連結しない（子音+子音で未開放）</li></ul>
+<div class="kana">ヒル ハヴ インファード ザ トレジャー ルーム ロケーション ビフォア ナイトフォール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has inferred</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ɪnˈfɝd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>inferred</mark> that diamonds spawn at y-level 16.</p>
+<p class="ja">ダイヤモンドはy座標16でスポーンすることを推測した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ɪnˈfɝd ðæt ˈdaɪ.məndz speɪn æt waɪ ˈlɛvəl ˌsɪkˈstin/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>inferred that → inferred の /d/ が that の /ð/ に未開放で続く [ɪnˈfɝd̚ðæt]</li><li>that は機能語で弱形 /ðæt/ ザット</li></ul>
+<div class="kana">アイ ハヴ インファーザット ダイモンズ スペイン アット ワイ レベル シックスティーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>inferred</mark> the fortress is beneath this mountain.</p>
+<p class="ja">この山の下に砦があることを推測した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ɪnˈfɝd ðə ˈfɔrtrəs ɪz bɪˈniːθ ðɪs ˈmaʊntən/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>inferred the → inferred の /d/ が the の /ð/ に未開放で続く [ɪnˈfɝðə] インファーザ</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィ ハヴ インファーザ フォートレス イズ ビニース ディス マウンテン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had inferred</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ɪnˈfɝd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>inferred</mark> the treasure location before nightfall.</p>
+<p class="ja">日没前に、財宝の位置を推測していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ɪnˈfɝd ðə ˈtrɛʒər loʊˈkeɪʃən bɪˈfɔr ˈnaɪtˌfɔl/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>inferred the → inferred の /d/ が the の /ð/ に未開放で続く [ɪnˈfɝðə] インファーザ</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィ ハド インファーザ トレジャー ロウケイション ビフォー ナイトフォール</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>inferred</mark> from past patterns that endermen spawn near the portal.</p>
+<p class="ja">彼女は過去のパターンから、エンダーマンがポータル近くにスポーンすると推測していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd ɪnˈfɝd frəm pæst ˈpætərnz ðæt ˈɛndərˌmɛn speɪn nɪr ðə ˈpɔɾəl/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>inferred from → inferred の /d/ が from の /f/ に続く（子音+子音で連結なし）</li><li>from は機能語で弱形 /frəm/ フロム</li><li>that は機能語で弱形 /ðæt/ ザット</li></ul>
+<div class="kana">シー ハド インファード フロム パスト パターンズ ザット エンダーメン スペイン ニアー ザ ポーラル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been inferring</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ɪnˈfɝɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>inferring</mark> the structure of the dungeon from the blocks.</p>
+<p class="ja">ブロックからダンジョンの構造を推測し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ɪnˈfɝɪŋ ðə ˈstrʌktʃər əv ðə ˈdʌndʒən frəm ðə blɑks/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>been は弱形 /bɪn/ ビン</li><li>inferring the → inferring の /ŋ/ が the の /ð/ に続く（子音+子音で連結なし）</li><li>from は機能語で弱形 /frəm/ フロム</li></ul>
+<div class="kana">アイ ハヴ ビン インファーリング ザ ストラクチャー アヴ ザ ダンジョン フロム ザ ブロックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have been <mark>inferring</mark> mob behavior patterns all morning.</p>
+<p class="ja">彼らは朝ずっとモブの行動パターンを推測し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv bɪn ɪnˈfɝɪŋ ˈmoʊb bɪˈheɪvjər ˈpætərnz ɔl ˈmɔrnɪŋ/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>been は弱形 /bɪn/ ビン</li><li>mob behavior → mob の /b/ が behavior の /b/ に続く（同一子音で音節分離）</li><li>all morning → all は機能語で弱形 /ɔl/ オール</li></ul>
+<div class="kana">ゼイ ハヴ ビン インファーリング モブ ビヘイビアー パターンズ オール モーニング</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">infer from</span><span class="im">～から推測する、～に基づいて判断する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>inferred</mark> from your base design that you're very experienced with building.</p>
+<p class="ja">建築スタイルから、建築経験が豊富だと推測しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ɪnˈfɝd fɹəm jɔɹ ˈbeɪs dɪˈzaɪn ðæt jɔɹ ˈvɛɹi ɪkˈspɪɹiənst wɪð ˈbɪldɪŋ/</div>
+<ul class="link"><li>from your で、/m/ が /j/ に連結 [fɹɑ ˈmjɔɹ] フラムユア。</li><li>that you're で、/t/ が /j/ に連結し [ðæ ˈtʃɚ] ザッチュアーのように聞こえます。</li></ul>
+<div class="kana">アイ インファード フラム ユア ベース ディザイン ザッチュアー ベリー イクスピアリアンスト ウィズ ビルディング</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">can infer</span><span class="im">推測できる、推し測ることができる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>From the lack of crops in the farm, you can <mark>infer</mark> that the farm was recently abandoned.</p>
+<p class="ja">農場に作物がないことから、最近放置されたと推測できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/infer_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/infer_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/fɹɑm ðə læk əv ˈkɹɑps ɪn ðə fɑɹm juː kən ɪnˈfɝ ðət ðə fɑɹm wəz ɹiˈsɛntli əˈbændənd/</div>
+<ul class="link"><li>lack of で、/k/ が /ə/ に連結 [ˈlæk əv] ラックアヴ。</li><li>can infer で、/n/ が /ɪ/ に連結 [kən ɪnˈfɝ] カンインファー。</li></ul>
+<div class="kana">フラム ザ ラック ア クロップス イン ザ ファーム ユー カン インファー ザット ザ ファーム ワズ リーセントリー アバンダンド</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="infer";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

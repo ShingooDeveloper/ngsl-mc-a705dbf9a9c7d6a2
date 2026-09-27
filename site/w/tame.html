@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>tame — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>tame</h2><span class="pos">動詞・形容詞</span><span class="ipa-head">/teɪm/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1483</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】野生動物を飼い慣らす、懐かせる（犬や馬を...する）</li><li>【動詞】人の気性や感情を抑制する、落ち着かせる（感情を...する）</li><li>【形容詞】野生でない、飼い慣らされた（...な、おとなしい）</li><li>【形容詞】退屈な、単調な、つまらない（...な、つまらない）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>tame</mark> a wolf by giving it bones.</p>
+<p class="ja">私は骨を与えてオオカミを飼い慣らします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈteɪm ə ˈwʊlf baɪ ˈɡɪvɪŋ ɪt ˈboʊnz/</div>
+<ul class="link"><li>tame a で語末子音 /m/ が母音 /ə/ に連結し [ˈteɪmə] となる</li><li>giving it で語末の鼻音 /ŋ/ が次の母音 /ɪ/ に連結 [ˈɡɪvɪŋɪt]</li><li>機能語 it の弱形 /ɪt/（低ストレス）</li></ul>
+<div class="kana">アイ テイマ ウォルフ バイ ギビング イッ ボウンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I successfully <mark>tamed</mark> a cat with fish.</p>
+<p class="ja">私は魚を使ってネコを飼い慣らしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ səkˈsɛsfəli ˈteɪmd ə ˈkæt wɪð ˈfɪʃ/</div>
+<ul class="link"><li>successfully で語末 /i/ が tamed の初子音 /t/ に自然に続く [səkˈsɛsfəli ˈteɪmd]</li><li>tamed a で語末子音 /d/ が母音 /ə/ に連結 [ˈteɪmdə]</li><li>機能語 a の弱形 /ə/、with の弱形 /wɪð/</li></ul>
+<div class="kana">アイ サクセスフリ テイムダ キャット ウィズ フィッシュ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>After <mark>taming</mark> my horse, I put a saddle on it.</p>
+<p class="ja">ウマを飼い慣らしたあと、私はそれにサドルを置きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ˈteɪmɪŋ maɪ ˈhɔrs aɪ ˈpʊt ə ˈsædəl ɑn ɪt/</div>
+<ul class="link"><li>put a で語末子音 /t/ が母音 /ə/ に連結 [ˈpʊtə]</li><li>on it で語末鼻音 /n/ が母音 /ɪ/ に連結 [ɑnɪt]</li><li>after の末尾 /r/ が次音へ連結、taming の /ŋ/ が my の /m/ に先立つ</li></ul>
+<div class="kana">アフター テイミング マイ ホース アイ プッタ サドル オニッ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tames</span><span class="fl">三人称単数現在形</span><span class="fi">/teɪmz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player <mark>tames</mark> wild horses with golden apples to build a stable.</p>
+<p class="ja">そのプレイヤーは馬小屋を建設するために、黄金のリンゴで野生のウマを飼いならします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər ˈteɪmz ˈwaɪld ˈhɔrsɪz wɪð ˈɡoʊldən ˈæpəlz tu ˈbɪld ə ˈsteɪbəl/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>tames wild - /z/ が /w/ に続く（子音+子音）</li><li>horses with - /z/ が /w/ に続く（子音+子音）</li><li>golden apples - /n/ が /æ/ に連結 [ˈɡoʊldən ˈæpəlz] ゴールデン アプルズ</li></ul>
+<div class="kana">ザ プレイアー テイムズ ワイルド ホーシズ ウィズ ゴールデン アプルズ トゥ ビルド ア ステイブル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Nothing <mark>tames</mark> a Wither beast more effectively than proper preparation.</p>
+<p class="ja">適切な準備ほどウィザービーストを効果的に制御するものはありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈnʌθɪŋ ˈteɪmz ə ˈwɪðər bist moɹ ɪˈfɛktɪvli ðæn ˈproʊpər ˌprɛpəˈreɪʃən/</div>
+<ul class="link"><li>Nothing tames - /ŋ/ が /t/ に続く（子音+子音）</li><li>tames a - /z/ が /ə/ に連結 [ˈteɪmz ə] テイムズ ア</li><li>more effectively - /r/ が /ɪ/ に連結 [moɹ ɪˈfɛktɪvli] モア エフェクティブリー</li></ul>
+<div class="kana">ナッシング テイムズ ア ウィザー ビースト モア エフェクティブリー ザン プロパー プレパレーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tamed</span><span class="fl">過去形</span><span class="fi">/teɪmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>tamed</mark> the dragon by finding its weakness in the End.</p>
+<p class="ja">私はエンドでその弱点を見つけることでドラゴンを制御しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈteɪmd ðə ˈdreɪɡən baɪ ˈfaɪndɪŋ ɪts ˈwiknes ɪn ði ɛnd/</div>
+<ul class="link"><li>tamed the - /d/ が /ð/ に続く（子音+子音、未開放）、the は弱形 /ðə/ ザ</li><li>weakness in - /s/ が /ɪ/ に連結 [ˈwiknes ɪn] ウィークネス イン</li><li>the は弱形 /ði/ ディ（母音の前）</li></ul>
+<div class="kana">アイ テイムド ザ ドレイゴン バイ ファインディング イツ ウィークネス イン ディ エンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>tamed</mark> three wolves using bones from skeletons near the spawner.</p>
+<p class="ja">私たちはスポーナーの近くのスケルトンから得たボーンを使って3匹のオオカミを飼いならしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈteɪmd θri wʊlvz ˈjuzɪŋ boʊnz frəm ˈskɛlɪtənz nɪr ðə ˈspoːnər/</div>
+<ul class="link"><li>tamed three - /d/ が /θ/ に続く（子音+子音、未開放）</li><li>from skeletons - /m/ が /s/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィー テイムド スリー ウルブズ ユージング ボーンズ フラム スケレトンズ ニアー ザ スポーナー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tamed</span><span class="fl">過去分詞形</span><span class="fi">/teɪmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>tamed</mark> the beast within the machine, the redstone mechanism finally worked.</p>
+<p class="ja">機械内の野獣を制御してしまったので、そのレッドストーンメカニズムはついに機能しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæviŋ ˈteɪmd ðə bist wɪˈðɪn ðə məˈʃin ðə ˈrɛdˌstoʊn ˈmɛkənɪzəm ˈfaɪnəli ˈwɝkt/</div>
+<ul class="link"><li>tamed the - /d/ が /ð/ に続く（子音+子音、未開放）、the は弱形 /ðə/ ザ</li><li>beast within - /t/ が /w/ に続く（子音+子音）</li><li>within the - /n/ が /ð/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ、mechanism の語末 /n/ が finally の /f/ に続く（子音+子音）</li></ul>
+<div class="kana">ハヴィング テイムド ザ ビースト ウィズィン ザ マシーン ザ レッドストーン メカニズム ファイナリー ワークト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>tamed</mark> mobs stayed within our base and never escaped.</p>
+<p class="ja">飼い慣らされたモブはベース内にいて、決して逃げませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈteɪmd moʊbz steɪd wɪˈðɪn aʊr ˈbeɪs ənd ˈnɛvər ɪˈskeɪpt/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>tamed mobs - /d/ が /m/ に続く（子音+子音、未開放）</li><li>within our - /n/ が /aʊ/ に連結 [wɪˈðɪn aʊr] ウィズィン アワー</li><li>never escaped - /r/ が /ɪ/ に連結 [ˈnɛvər ɪˈskeɪpt] ネバー エスケイプド</li></ul>
+<div class="kana">ザ テイムド モーブズ ステイド ウィズィン アワー ベース アンド ネバー エスケイプド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">taming</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Taming</mark> wolves is essential for survival mode, as they protect your base.</p>
+<p class="ja">オオカミを飼いならすことはサバイバルモードに必須です。彼らはあなたのベースを保護します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈteɪmɪŋ ˈwʊlvz ɪz ɪˈsɛnʃəl fər sərˈvaɪvəl moʊd æz ðeɪ prəˈtɛkt jɔr ˈbeɪs/</div>
+<ul class="link"><li>Taming wolves - /ŋ/ が /w/ に続く（子音+子音）</li><li>wolves is - /z/ が /ɪ/ に連結 [wʊlvz ɪz] ウルブズ イズ</li><li>for survival - /r/ が /s/ に続く（子音+子音）</li><li>protect your - /t/ が /j/ に続く（子音+子音）</li></ul>
+<div class="kana">テイミング ウルブズ イズ イセンシャル ファー サーヴァイヴァル モード アズ ザイ プロテクト ユア ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server admin is <mark>taming</mark> the wild community by setting strict rules.</p>
+<p class="ja">そのサーバー管理者は厳格なルールを設定することで野生のコミュニティを制御しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜrvər ˈædmɪn ɪz ˈteɪmɪŋ ðə ˈwaɪld kəˈmjunəti baɪ ˈsɛtɪŋ ˈstrɪkt rulz/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>is taming - /z/ が /t/ に続く（子音+子音）</li><li>taming the - /ŋ/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>wild community - /d/ が /k/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ サーバー アドミン イズ テイミング ザ ワイルド コミューニティ バイ セッティング ストリクト ルールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tamer</span><span class="fl">比較級</span><span class="fi">/ˈteɪmər/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_comparative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This horse seems tamer than the one we caught yesterday.</p>
+<p class="ja">このウマは昨日捕まえたものより飼い慣らされているようです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_comparative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_comparative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs hɔrs simz ˈteɪmər ðæn ðə wʌn wi kɔt ˈjɛstərdeɪ/</div>
+<ul class="link"><li>this horse - /s/ が /h/ に続く（子音+子音）</li><li>seems tamer - /z/ が /t/ に続く（子音+子音）</li><li>tamer than - /r/ が /ð/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ディス ホース シームズ テイマー ザン ザ ワン ウィー コート イェスタァデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Rabbits are much tamer animals than wolves for new players.</p>
+<p class="ja">ウサギはあたらしいプレイヤーにとってオオカミよりはるかに飼い慣らしやすい動物です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_comparative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_comparative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈræbɪts ɑr mʌtʃ ˈteɪmər ˈænɪməlz ðæn wʊlvz fɔr nu ˈpleɪərz/</div>
+<ul class="link"><li>Rabbits are - /ts/ が /ɑ/ に連結 [ˈræbɪts ɑr] ラビッツ アー</li><li>much tamer - /tʃ/ が /t/ に続く（子音+子音）</li><li>tamer animals - /r/ が /æ/ に連結 [ˈteɪmər ˈænɪməlz] テイマー アニマルズ</li><li>for は弱形 /fər/ ファー</li></ul>
+<div class="kana">ラビッツ アー マッチ テイマー アニマルズ ザン ウルブズ ファー ニュー プレイヤーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tamest</span><span class="fl">最上級</span><span class="fi">/ˈteɪməst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_superlative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The tamest mob in the game has to be the parrot when it's on your shoulder.</p>
+<p class="ja">ゲームで最も飼い慣らされたモブは、肩に乗っているときのオウムに違いありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_superlative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_superlative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈteɪməst moʊb ɪn ðə ɡeɪm hæz tu bi ðə ˈpærət wɛn ɪts ɑn jɔr ˈʃoʊldər/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>tamest mob - /t/ が /m/ に続く（子音+子音）</li><li>in the - /n/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>has to - /z/ が /t/ に続く（子音+子音）、to は弱形 /tə/</li></ul>
+<div class="kana">ザ テイメスト モーブ イン ザ ゲイム ハズ タ ビー ザ パーラット ウェン イツ オン ユア ショルダー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Among all the villager trading partners, this merchant offers the tamest deals.</p>
+<p class="ja">すべての村人取引パートナーの中で、この商人は最も穏やかな取引を提供します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_superlative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_superlative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/əˈmʌŋ ɔl ðə ˈvɪlɪdʒər ˈtreɪdɪŋ ˈpɑrtnərz ðɪs ˈmɜrtʃənt ˈɑfərz ðə ˈteɪməst dilz/</div>
+<ul class="link"><li>all the - /l/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>villager trading - /r/ が /t/ に続く（子音+子音）</li><li>partners this - /z/ が /ð/ に続く（子音+子音）</li><li>merchant offers - /t/ が /ɑ/ に連結 [ˈmɜrtʃənt ˈɑfərz] マーチャント オファーズ</li></ul>
+<div class="kana">アモング オール ザ ヴィリジャー トレイディング パートナーズ ディス マーチャント オファーズ ザ テイメスト ディールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is taming</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>taming</mark> a wild horse with golden apples.</p>
+<p class="ja">私は黄金のリンゴを使ってワイルドホースを飼いならしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əm ˈteɪmɪŋ ə ˈwaɪld hɔrs wɪð ˈɡoʊldən ˈæpəlz/</div>
+<ul class="link"><li>am は弱形 /əm/、taming の /t/ に未開放で続く [əm ˈteɪmɪŋ] アム テイミング</li><li>taming a - 語末 /ŋ/ が母音 /ə/ に連結 [ˈteɪmɪŋ ə] テイミング ア</li><li>golden apples - 語末 /n/ が母音 /æ/ に連結 [ˈɡoʊldən ˈæpəlz] ゴールデン アプルズ</li></ul>
+<div class="kana">アイ アム テイミング ア ワイルド ホース ウィズ ゴールデン アプルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>taming</mark> wild horses every day for our new farm.</p>
+<p class="ja">私たちは新しい農場のために毎日野生のウマを飼いならしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈteɪmɪŋ ˈwaɪld ˈhɔrsɪz ˈɛvri deɪ fɔr ˈaʊɚ nu fɑrm/</div>
+<ul class="link"><li>are taming - are は弱形 /ɑr/、/r/ が /t/ に続く（子音+子音）</li><li>taming wild - 語末 /ŋ/ が /w/ に続く（子音+子音）</li><li>for our - 語末 /r/ が母音 /aʊ/ に連結 [fɔr ˈaʊɚ] フォア アワー</li></ul>
+<div class="kana">ウィ アー テイミング ワイルド ホーシズ エブリー デイ フォア アワー ニュー ファーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was taming</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>taming</mark> the dragon when the server suddenly crashed.</p>
+<p class="ja">私がドラゴンを飼いならしていた時、サーバーが急に落ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈteɪmɪŋ ðə ˈdræɡən wɛn ðə ˈsɚvɚ ˈsʌdənli kræʃt/</div>
+<ul class="link"><li>was taming - was は弱形 /wəz/、/z/ が /t/ に続く（子音+子音）</li><li>taming the - 語末 /ŋ/ が the の弱形 /ðə/ に続く（子音+子音）、the は弱形 /ðə/ ザ [ˈteɪmɪŋ ðə] テイミング ザ</li><li>when the - 語末 /n/ が弱形 the /ðə/ に連結 [wɛn ðə] ウェン ザ</li></ul>
+<div class="kana">アイ ワズ テイミング ザ ドラゴン ウェン ザ サーバー サドンリー クラッシュト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>taming</mark> wolves all afternoon near the spawner.</p>
+<p class="ja">彼らはスポーナー近くで午後中オオカミを飼いならしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈteɪmɪŋ wʊlvz ɔl ˌæftɚˈnun nɪr ðə ˈspoʊnər/</div>
+<ul class="link"><li>were taming - were は弱形 /wɚ/、/r/ が /t/ に続く（子音+子音）</li><li>all afternoon - 語末 /l/ が母音 /æ/ に連結 [ɔl ˌæftɚˈnun] オール アフターヌーン</li><li>near the - 語末 /r/ が弱形 the /ðə/ に連結 [nɪr ðə] ニア ザ</li></ul>
+<div class="kana">ゼイ ワー テイミング ウルブズ オール アフターヌーン ニア ザ スポーナー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been taming</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team had been <mark>taming</mark> the landscape for weeks before completion.</p>
+<p class="ja">チームは完成の前に何週間もその地形を飼いならしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə tim həd bɪn ˈteɪmɪŋ ðə ˈlændˌskeɪp fɔr wiks bɪˈfɔr kəmˈpliʃən/</div>
+<ul class="link"><li>had been - had は弱形 /həd/、/d/ が母音 /b/ に連結 [həd bɪn] ハド ビン</li><li>been taming - been /bɪn/ の /n/ が /t/ に未開放で続く [bɪn̚ ˈteɪmɪŋ] ビン テイミング</li><li>for weeks - for は弱形 /fər/、/r/ が母音 /w/ に連結 [fɔr wiks] フォア ウィークス</li></ul>
+<div class="kana">ザ ティーム ハド ビン テイミング ザ ランドスケイプ フォア ウィークス ビフォア コンプリーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players had been <mark>taming</mark> mobs for months before the new rules took effect.</p>
+<p class="ja">新しいルールが発効する前に、プレイヤーたちは数ヶ月間モブを飼いならしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚz həd bɪn ˈteɪmɪŋ mɑbz fɔr mʌnθz bɪˈfɔr ðə nu rulz tʊk ɪˈfɛkt/</div>
+<ul class="link"><li>had been - had は弱形 /həd/、/d/ が母音 /b/ に連結 [həd bɪn] ハド ビン</li><li>been taming - been /bɪn/ の /n/ が /t/ に未開放で続く [bɪn̚ ˈteɪmɪŋ] ビン テイミング</li><li>before the - 語末 /r/ が弱形 the /ðə/ に連結 [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">ザ プレイヤーズ ハド ビン テイミング モブズ フォア マンス ビフォア ザ ニュー ルールズ トゥク エフェクト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has tamed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈteɪmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player has <mark>tamed</mark> all the wolves near the base.</p>
+<p class="ja">そのプレイヤーはベースの近くのすべてのオオカミを飼いならしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər həz ˈteɪmd ɔl ðə wʊlvz nɪr ðə ˈbeɪs/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>has tamed - has は弱形 /həz/、/z/ が /t/ に続く（子音+子音）</li><li>near the - 語末 /r/ が弱形 the /ðə/ に連結 [nɪr ðə] ニア ザ</li></ul>
+<div class="kana">ザ プレイアー ハズ テイムド オール ザ ウルブズ ニア ザ ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>tamed</mark> a Wither with proper strategy and preparation.</p>
+<p class="ja">私は適切な戦略と準備でウィザーを制御しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈteɪmd ə ˈwɪðər wɪð ˈproʊpər ˈstrætədʒi ənd ˌprɛpəˈreɪʃən/</div>
+<ul class="link"><li>have tamed - have は弱形 /həv/、/v/ が /t/ に続く（子音+子音）</li><li>a Wither - 語末 /ə/ が /w/ に連結 [ə ˈwɪðər] ア ウィザー</li><li>proper strategy - 語末 /r/ が /s/ に続く（子音+子音）</li><li>and は弱形 /ənd/ アンド</li></ul>
+<div class="kana">アイ ハヴ テイムド ア ウィザー ウィズ プロパー ストラテジー アンド プレパレーション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had tamed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈteɪmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After they had <mark>tamed</mark> the mobs, the farm became fully automated.</p>
+<p class="ja">彼らがモブを制御した後、農場は完全に自動化されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ðeɪ həd ˈteɪmd ðə moʊbz ðə fɑrm bɪˈkeɪm ˈfuli ˌɔɾəˈmeɪɾəd/</div>
+<ul class="link"><li>After they - 語末 /r/ が /ð/ に続く（子音+子音）</li><li>had tamed - had は弱形 /həd/、/d/ が /t/ に未開放で続く [həd ˈteɪmd] ハド テイムド</li><li>the mobs - the は弱形 /ðə/ ザ、/ə/ が /m/ に連結 [ðə moʊbz] ザ モーブズ</li></ul>
+<div class="kana">アフター ザイ ハド テイムド ザ モーブズ ザ ファーム ビケイム フーリー オーラメイラッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>tamed</mark> all the wild horses before the new player joined.</p>
+<p class="ja">新しいプレイヤーが参加する前に、私たちはすべての野生のウマを飼いならしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ˈteɪmd ɔl ðə ˈwaɪld ˈhɔrsɪz bɪˈfɔr ðə nu ˈpleɪər ˈdʒɔɪnd/</div>
+<ul class="link"><li>had tamed - had は弱形 /həd/、/d/ が /t/ に未開放で続く [həd ˈteɪmd] ハド テイムド</li><li>all the - 語末 /l/ が弱形 the /ðə/ に連結 [ɔl ðə] オール ザ</li><li>before the - 語末 /r/ が弱形 the /ðə/ に連結 [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">ウィ ハド テイムド オール ザ ワイルド ホーシズ ビフォア ザ ニュー プレイアー ジョインド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been taming</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder has been <mark>taming</mark> the landscape for weeks now.</p>
+<p class="ja">その建築者は今、数週間その地形を飼いならしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldər həz bɪn ˈteɪmɪŋ ðə ˈlændˌskeɪp fɔr wiks naʊ/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>has been - has は弱形 /həz/、/z/ が /b/ に続く（子音+子音）、been は弱形 /bɪn/</li><li>been taming - been /bɪn/ の /n/ が /t/ に未開放で続く [bɪn̚ ˈteɪmɪŋ] ビン テイミング</li><li>the landscape - the は弱形 /ðə/ ザ、/ə/ が /l/ に連結 [ðə ˈlændˌskeɪp] ザ ランドスケイプ</li></ul>
+<div class="kana">ザ ビルダー ハズ ビン テイミング ザ ランドスケイプ ファー ウィークス ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>taming</mark> dragons since the update came out.</p>
+<p class="ja">アップデートが出てからずっと、私はドラゴンを制御しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈteɪmɪŋ ˈdræɡənz sɪns ðə ˈʌpˌdeɪt keɪm aʊt/</div>
+<ul class="link"><li>have been - have は弱形 /həv/、/v/ が /b/ に続く（子音+子音）、been は弱形 /bɪn/</li><li>been taming - been /bɪn/ の /n/ が /t/ に未開放で続く [bɪn̚ ˈteɪmɪŋ] ビン テイミング</li><li>since the - 語末 /s/ が弱形 the /ðə/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>the update - the は弱形 /ðə/ ザ、/ə/ が /ʌ/ に連結 [ðə ˈʌpˌdeɪt] ザ アップデイト</li></ul>
+<div class="kana">アイ ハヴ ビン テイミング ドラゴンズ シンス ザ アップデイト ケイム アウト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will tame</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl ˈteɪm/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>tame</mark> every wild animal around the base by next week.</p>
+<p class="ja">来週までに、私はベースの周りのすべての野生動物を飼いならします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈteɪm ˈɛvri ˈwaɪld ˈænɪməl əˈraʊnd ðə ˈbeɪs baɪ ˈnɛkst wik/</div>
+<ul class="link"><li>I'll - will が縮約 /əl/ に弱化し [aɪl] アイル</li><li>around the - 語末 /d/ が弱形 the /ðə/ に続く（子音+子音）</li><li>the は定冠詞で弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイル テイム エブリー ワイルド アニマル ァラウンド ザ ベース バイ ネクスト ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>tame</mark> the Nether's chaos with proper defenses and strategy.</p>
+<p class="ja">彼らは適切な防御と戦略でネザーの混乱を制御するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈteɪm ðə ˈnɛðərz ˈkeɪoʊs wɪð ˈproʊpər dɪˈfɛnsɪz ənd ˈstrætɪdʒi/</div>
+<ul class="link"><li>They'll - will が縮約 /əl/ に弱化し [ðeɪl] ゼイル</li><li>tame the - 語末 /m/ が th に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>and は弱形 /ənd/ アンド、/d/ が /s/ に続く（子音+子音）</li></ul>
+<div class="kana">ゼイル テイム ザ ネザーズ ケイオス ウィズ プロパー ディフェンシズ アンド ストラテジー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be taming</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈteɪmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next month, I will be <mark>taming</mark> wild horses for the new stables.</p>
+<p class="ja">来月までに、私は新しい馬小屋のために野生のウマを飼いならし続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst mʌnθ aɪ wɪl bə ˈteɪmɪŋ ˈwaɪld ˈhɔrsɪz fɔr ðə nu ˈsteɪbəlz/</div>
+<ul class="link"><li>be taming - be の弱形 /bə/ バ、/ə/ が /t/ に未開放で続く [bə ˈteɪmɪŋ] バ テイミング</li><li>horses for - 語末 /z/ が /f/ に続く（子音+子音）、for は弱形 /fər/ ファー</li><li>the new - 定冠詞弱形 /ðə/ ザ、/ə/ が /n/ に連結 [ðə ˈnu] ザ ニュー</li></ul>
+<div class="kana">バイ ネクスト マンス アイ ウィル バ テイミング ワイルド ホーシズ ファー ザ ニュー ステイブルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be <mark>taming</mark> the mob farm's animals while we finish the redstone.</p>
+<p class="ja">私たちがレッドストーンを完成させている間、彼女はモブファームの動物を飼いならし続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl bə ˈteɪmɪŋ ðə moʊb fɑrmz ˈænɪməlz waɪl wi ˈfɪnɪʃ ðə ˈrɛdˌstoʊn/</div>
+<ul class="link"><li>She will - will の弱形 /əl/ に縮約 [ʃil] シール</li><li>be taming - be の弱形 /bə/ バ、/ə/ が /t/ に未開放で続く [bə ˈteɪmɪŋ] バ テイミング</li><li>finish the - 語末 /ʃ/ が弱形 the /ðə/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">シー ウィル バ テイミング ザ モーブ ファームズ アニマルズ ワイル ウィ フィニッシュ ザ レッドストーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have tamed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈteɪmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/tame_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the end of the season, we will have <mark>tamed</mark> over fifty wolves for our pack.</p>
+<p class="ja">シーズンの終わりまでに、私たちはパック用に50匹以上のオオカミを飼いならしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ɛnd əv ðə ˈsizən wi wɪl həv ˈteɪmd ˈoʊvər ˈfɪfti ˈwʊlvz fɔr ˈaʊɚ pæk/</div>
+<ul class="link"><li>the end - 定冠詞弱形 /ðə/ ザ、/ə/ が /ɛ/ に連結 [ðə ɛnd] ザ エンド</li><li>have tamed - have の弱形 /əv/ アヴ、/v/ が /t/ に続く（子音+子音） [həv ˈteɪmd] ハヴ テイムド</li><li>for our - for は /fɔr/ フォア、/r/ が /aʊ/ に連結 [fɔr ˈaʊɚ] フォア アワー</li></ul>
+<div class="kana">バイ ザ エンド アヴ ザ シーズン ウィ ウィル ハヴ テイムド オーバー フィフティー ウルブズ フォア アワー パック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will have <mark>tamed</mark> every hostile mob in the End before the final victory.</p>
+<p class="ja">最終的な勝利の前に、あなたはエンドのすべての敵対的なモブを制御しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wɪl həv ˈteɪmd ˈɛvri ˈhoʊsˌtaɪl moʊb ɪn ðə ɛnd bɪˈfɔr ðə ˈfaɪnəl ˈvɪktəri/</div>
+<ul class="link"><li>will have - will の弱形、have の弱形 /əv/ ハヴ</li><li>the は定冠詞で弱形 /ðə/ ザ（appears twice）</li><li>the End - the は弱形 /ðə/ ザ、/ə/ が /ɛ/ に連結 [ðə ɛnd] ザ エンド</li></ul>
+<div class="kana">ユー ウィル ハヴ テイムド エブリー ホースタイル モーブ イン ザ エンド ビフォア ザ ファイナル ヴィクトリー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">tame the wilderness</span><span class="im">荒れ地を開拓する、未開の地をコントロール下に置く</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We worked hard to <mark>tame</mark> the wilderness and build a stone base there.</p>
+<p class="ja">私たちは荒れた土地を開拓するために努力し、そこに石のベースを建てました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈwɜrkt ˈhɑrd tə ˈteɪm ðə ˈwɪldərnəs ən ˈbɪld ə ˈstoʊn ˈbeɪs ðɛr/</div>
+<ul class="link"><li>tame the で語末子音 /m/ が機能語 the の弱形 /ðə/ に連結 [ˈteɪmðə]</li><li>wilderness and で語末の /s/ から and の弱形 /ən/ へ流れる、and は弱化 [ˈwɪldərnəsən]</li><li>stone base で /n/ が /b/ に連結 [ˈstoʊnˈbeɪs]</li></ul>
+<div class="kana">ウィー ワークト ハード タ テイムザ ウィルダネス アン ビルド ア ストウンベイス ゼア</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">tame an army</span><span class="im">（動物を）群れで飼い慣らす、大量に制御する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The player managed to <mark>tame</mark> an army of horses for the desert expedition.</p>
+<p class="ja">プレイヤーは砂漠遠征のためにたくさんのウマを飼い慣らすことに成功しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/tame_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/tame_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər ˈmænɪdʒd tə ˈteɪm ən ˈɑrmi əv ˈhɔrsɪz fər ðə ˈdɛzərt/</div>
+<ul class="link"><li>managed to で語末 /d/ が機能語 to の弱形 /tə/ に連結 [ˈmænɪdʒdtə]</li><li>an army で an の末尾 /n/ が army の初母音 /ɑ/ に連結 [ənˈɑrmi]、of は弱形 /əv/</li><li>the desert で機能語 the の弱形 /ðə/ が desert の初子音に先立つ</li></ul>
+<div class="kana">ザ プレイヤー マナジドタ テイム アナーミー アヴ ホーシズ ファー ザ デザート</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="tame";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>diagnose — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>diagnose</h2><span class="pos">動詞</span><span class="ipa-head">/ˌdaɪəɡˈnoʊz/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1419</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】医者や専門家が患者の症状や兆候から病気を特定する、診断する（diagnose an illness）</li><li>【動詞】コンピュータやシステムの不具合を調べる、原因を特定する、トラブルシューティングする（diagnose a technical problem）</li><li>【動詞】状況や情報から判断して、問題や原因を特定する、分析する（diagnose based on evidence）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>diagnose</mark> why our crops aren't growing.</p>
+<p class="ja">作物が育たない理由を診断する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd tə daɪ.əɡˈnoʊz waɪ ˈaʊɹ kɹɑps ˈɑɹənt ˈɡɹoʊɪŋ/</div>
+<ul class="link"><li>need to diagnose - 「need」の語末 /d/ が「to」の弱形 /tə/ に連結；「to」の /tə/ が「diagnose」の /d/ に連結</li><li>aren't growing - 「aren't」の -n't は弱形で /nt/；語末の /t/ は次の /ɡ/ の前で未開放 /t̚/</li></ul>
+<div class="kana">アイ ニード タ ダイアグノウズ ワイ アワー クラップス アーント グローイング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Help me <mark>diagnose</mark> a problem with the hopper circuit.</p>
+<p class="ja">ホッパー回路の問題を診断するのを手伝ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɛlp mi daɪ.əɡˈnoʊz ə ˈpɹɑbləm wɪð ðə ˈhɑpər ˈsɝːkɪt/</div>
+<ul class="link"><li>diagnose a - 語末子音 /z/ が母音 /ə/ に連結</li><li>with the hopper - 「the」は子音の前で弱形 /ðə/</li></ul>
+<div class="kana">ヘルプ ミー ダイアグノウザ プラブレム ウィズ ザ ホッパー サーキット</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>diagnosed</mark> the spawner as the source of lag.</p>
+<p class="ja">スポーナーをラグの原因として診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi daɪ.əɡˈnoʊzd ðə ˈspɔnər əz ðə ˈsoɹs əv ˈlæɡ/</div>
+<ul class="link"><li>diagnosed the - 語末子音 /d/ が「the」の /ð/ に連結；「the」は弱形 /ðə/</li><li>source of - 「source」の語末 /s/ が「of」の弱形 /əv/ に連結</li></ul>
+<div class="kana">ウィ ダイアグノウズド ザ スポーナー アズ ザ ソース アヴ ラグ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">diagnoses</span><span class="fl">三人称単数現在形</span><span class="fi">/ˌdaɪəɡˈnoʊzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The expert <mark>diagnoses</mark> a circuit problem.</p>
+<p class="ja">専門家は回路の問題を診断します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛkspɜːɹt daɪ.əɡˈnoʊzɪz ə ˈsɜːkɪt ˈpɹɑbləm/</div>
+<ul class="link"><li>The expert - 「The」は子音の前で弱形 /ðə/；自然な流れ</li><li>diagnoses a - 「diagnoses」の語末 /z/ が 「a」の /ə/ に連結 [daɪ.əɡˈnoʊzə]</li></ul>
+<div class="kana">ザ エキスパート ダイアグノウザ サーキット プラブレム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>diagnoses</mark> why the farm isn't producing.</p>
+<p class="ja">彼は農場が生産していない理由を診断します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi daɪ.əɡˈnoʊzɪz waɪ ðə ˈfɑɹm ˈɪzənt prəˈdju:sɪŋ/</div>
+<ul class="link"><li>He diagnoses - 母音 /i/ に子音 /d/ が続く、自然な流れ</li><li>diagnoses why - 「diagnoses」の語末 /z/ が半母音 /w/ に連結 [daɪ.əɡˈnoʊzwaɪ]</li></ul>
+<div class="kana">ヒー ダイアグノウズワイ ザ ファーム イズント プロデューシング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">diagnosed</span><span class="fl">過去形</span><span class="fi">/ˌdaɪəɡˈnoʊzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>diagnosed</mark> that the hopper system was broken.</p>
+<p class="ja">ホッパーシステムが壊れていることを診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ daɪ.əɡˈnoʊzd ðæt ðə ˈhɑpər ˈsɪstəm wəz ˈbroʊkən/</div>
+<ul class="link"><li>diagnosed that - 「diagnosed」の語末 /d/ と 「that」の /ð/ が連続（両方子音）</li><li>the hopper - 「the」は子音の前で弱形 /ðə/；「hopper」の /h/ が続く</li></ul>
+<div class="kana">アイ ダイアグノウズド ザット ザ ホッパー シスタム ウァズ ブロウケン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>diagnosed</mark> a water leak in the base.</p>
+<p class="ja">彼女はベース内の水漏れを診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi daɪ.əɡˈnoʊzd ə ˈwɑtɚ ˈlik ɪn ðə ˈbeɪs/</div>
+<ul class="link"><li>diagnosed a - 「diagnosed」の語末 /d/ が 「a」の /ə/ に連結 [daɪ.əɡˈnoʊzə]</li><li>in the - 「the」は子音の前で弱形 /ðə/；「base」の /b/ が続く</li></ul>
+<div class="kana">シー ダイアグノウズダ ウォーター リーク イン ザ ベース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">diagnosed</span><span class="fl">過去分詞</span><span class="fi">/ˌdaɪəɡˈnoʊzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>diagnosed</mark> the problem, we fixed the circuit.</p>
+<p class="ja">問題を診断した後、回路を修正しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ daɪ.əɡˈnoʊzd ðə ˈpɹɑbləm, wi fɪkst ðə ˈsɜːkɪt/</div>
+<ul class="link"><li>diagnosed the - 「diagnosed」の語末 /d/ と 「the」の /ð/ が連続（両方子音）</li><li>the problem - 「the」は子音の前で弱形 /ðə/；「problem」の /p/ が続く</li></ul>
+<div class="kana">ハヴィング ダイアグノウズド ザ プラブレム、ウィ フィクスト ザ サーキット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once <mark>diagnosed</mark>, the water leak was fixed.</p>
+<p class="ja">一度診断されたら、水漏れが修正されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns daɪ.əɡˈnoʊzd, ðə ˈwɑtɚ ˈlik wəz fɪkst/</div>
+<ul class="link"><li>diagnosed the - 「diagnosed」の語末 /d/ と 「the」の /ð/ が連続（両方子音）</li><li>the water - 「the」は子音の前で弱形 /ðə/；「water」の /w/ が続く</li></ul>
+<div class="kana">ワンス ダイアグノウズド ザ ウォーター リーク ウァズ フィクスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">diagnosing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While diagnosing the lag, I found the real issue.</p>
+<p class="ja">ラグを診断中に、本当の問題を見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl daɪ.əɡˈnoʊzɪŋ ðə ˈlæɡ, aɪ faʊnd ðə ˈɹil ˈɪʃu/</div>
+<ul class="link"><li>diagnosing the - 「diagnosing」の語末 /ŋ/ と 「the」の /ð/ が連続；「the」は弱形 /ðə/</li><li>found the - 「found」の語末 /d/ と 「the」の /ð/ が連続（両方子音）；「the」は弱形 /ðə/</li></ul>
+<div class="kana">ワイル ダイアグノウジング ザ ラグ、アイ ファウンド ザ リール イッシュー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He's diagnosing why the piston door won't open.</p>
+<p class="ja">彼はピストンドアが開かない理由を診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiz daɪ.əɡˈnoʊzɪŋ waɪ ðə ˈpɪstən ˈdoɹ ˈwoʊnt ˈoʊpən/</div>
+<ul class="link"><li>'s diagnosing - 「is」の弱形 /ɪz/、語末 /z/ が 「diagnosing」の /d/ に続く</li><li>diagnosing why - 「diagnosing」の語末 /ŋ/ と 「why」の /w/（子音-半母音）</li></ul>
+<div class="kana">ヒズ ダイアグノウジング ワイ ザ ピストン ドアー ウォウント オウペン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is diagnosing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The engineer is diagnosing why the farm automation system isn't working.</p>
+<p class="ja">エンジニアは農場の自動化システムがなぜ機能していないのかを診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɛndʒəˈnɪr ɪz ˌdaɪəɡˈnoʊzɪŋ waɪ ðə ˈfɑrm ˌɔtəˈmeɪʃən ˈsɪstəm ˈɪzənt ˈwɝkɪŋ/</div>
+<ul class="link"><li>the engineer - the は冠詞で弱形 /ðə/</li><li>is diagnosing - is は助動詞で弱形 /ɪz/</li><li>system isn't - system の語末 /m/ が isn't の初頭母音 /ɪ/ に連結 [ˈsɪstəm ˈɪzənt]</li></ul>
+<div class="kana">ザ エンジニア イズ ダイアグノウジング ワイ ザ ファーム オートメーション システム イズント ワーキング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm diagnosing the redstone circuit to find the malfunction.</p>
+<p class="ja">レッドストーン回路を診断して不具合を見つけています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˌdaɪəɡˈnoʊzɪŋ ðə ˈɹɛdstoʊn ˈsɝkɪt tə faɪnd ðə ˈmælfʌŋkʃən/</div>
+<ul class="link"><li>I'm diagnosing - I'm = /aɪm/</li><li>the - 冠詞で弱形 /ðə/</li><li>to find - to は機能語で弱形 /tə/</li><li>find the - the は弱形 /ðə/</li></ul>
+<div class="kana">アイム ダイアグノウジング ザ レッドストーン サーキット タ ファインド ザ マルファンクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was diagnosing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was diagnosing the piston door, a creeper exploded nearby.</p>
+<p class="ja">ピストンドアを診断している間に、クリーパーが近くで爆発しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ˌdaɪəɡˈnoʊzɪŋ ðə ˈpɪstən ˈdoɚ ə ˈkɹiːpɚ ɪkˈsploʊdɪd ˈnɪrbaɪ/</div>
+<ul class="link"><li>I was diagnosing - was は弱形 /wəz/</li><li>the piston - the は弱形 /ðə/</li><li>door a creeper - door の語末 r-色彩音 /ɚ/ が a の初頭母音 /ə/ に連結 [ˈdoɚə]；a も弱形 /ə/；creeper の語末 r-色彩音 /ɚ/ が exploded の初頭 /ɪ/ に連結 [ˈkɹiːpɚɪk]</li></ul>
+<div class="kana">ワイル アイ ワズ ダイアグノウジング ザ ピストン ドアーア クリーパーイクスプロウデッド ニアバイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She was diagnosing the hopper overflow when the server lag kicked in.</p>
+<p class="ja">ホッパーオーバーフローを診断していた時、サーバーラグが発生しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəz ˌdaɪəɡˈnoʊzɪŋ ðə ˈhɑpɚ ˌoʊvɚˈfloʊ wɛn ðə ˈsɝvɚ ˈlæɡ ˈkɪkt ɪn/</div>
+<ul class="link"><li>was diagnosing - was は弱形 /wəz/</li><li>the hopper - the は弱形 /ðə/</li><li>when the server - when の後；the は弱形 /ðə/</li></ul>
+<div class="kana">シー ワズ ダイアグノウジング ザ ホッパー オウバーフロウ ウェン ザ サーバー ラッグ キクト イン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been diagnosing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the expert arrived, we had been diagnosing the spawner issue for hours.</p>
+<p class="ja">専門家が到着した時には、スポーナーの問題を何時間も診断していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm ðə ˈɛkspɝt əˈɹaɪvd wi həd bɪn ˌdaɪəɡˈnoʊzɪŋ ðə ˈspɔnər ˈɪʃu fɔɹ ˈaʊɚz/</div>
+<ul class="link"><li>the time - the は弱形 /ðə/</li><li>the expert - the は弱形 /ðə/</li><li>had been diagnosing - had は弱形 /həd/、been は弱形 /bɪn/</li><li>the spawner - the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ザ タイム ザ エキスパート ァライヴド ウィ ハド ビン ダイアグノウジング ザ スポーナー イッシュー フォア アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been diagnosing why the beacon wasn't working before they realized the power source was off.</p>
+<p class="ja">彼らは電源がオフになっていることに気付く前に、ビーコンがなぜ機能していないのかを診断していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd bɪn ˌdaɪəɡˈnoʊzɪŋ waɪ ðə ˈbiːkən ˈwɑzənt ˈwɝkɪŋ bɪˈfoɹ ðeɪ ɹiˈæləzd ðə ˈpaʊɚ soɚs wəz ɔf/</div>
+<ul class="link"><li>had been diagnosing - had は弱形 /həd/、been は弱形 /bɪn/</li><li>the beacon - the は弱形 /ðə/</li><li>the power - the は弱形 /ðə/</li></ul>
+<div class="kana">ザイ ハド ビン ダイアグノウジング ワイ ザ ビーコン ワズント ワーキング ビフォア ザイ リアライズド ザ パワー ソース ワズ オフ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has diagnosed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˌdaɪəɡˈnoʊzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The engineer has <mark>diagnosed</mark> the hopper problem.</p>
+<p class="ja">エンジニアはホッパーの問題を診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɛndʒəˈnɪr həz ˌdaɪəɡˈnoʊzd ðə ˈhɑpər ˈpɹɑbləm/</div>
+<ul class="link"><li>the engineer - 「the」は冠詞で弱形 /ðə/</li><li>has diagnosed - has は助動詞で弱形 /həz/</li><li>the hopper - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ザ エンジニア ハズ ダイアグノウズド ザ ホッパー プラブレム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>diagnosed</mark> why the farm isn't producing.</p>
+<p class="ja">私たちは農場が生産していない理由を診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ˌdaɪəɡˈnoʊzd waɪ ðə ˈfɑːrm ˈɪzənt prəˈduːsɪŋ/</div>
+<ul class="link"><li>have diagnosed - have は助動詞で弱形 /həv/</li><li>the farm - 「the」は弱形 /ðə/</li><li>isn't producing - isn't の -n't の /t/ は未開放</li></ul>
+<div class="kana">ウィ ハヴ ダイアグノウズド ワイ ザ ファーム イズント プロデューシング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had diagnosed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˌdaɪəɡˈnoʊzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the expert came, we had <mark>diagnosed</mark> the circuit issue.</p>
+<p class="ja">専門家が来た時には、私たちは回路の問題を診断していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm ðə ˈɛkspɜːrt keɪm wi həd ˌdaɪəɡˈnoʊzd ðə ˈsɜːrkɪt ˈɪʃu/</div>
+<ul class="link"><li>the time - 「the」は弱形 /ðə/</li><li>the expert - 「the」は弱形 /ðə/</li><li>had diagnosed - had は弱形 /həd/</li></ul>
+<div class="kana">バイ ザ タイム ザ エキスパート ケイム ウィ ハド ダイアグノウズド ザ サーキット イッシュー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>diagnosed</mark> the water leak before the flooding got worse.</p>
+<p class="ja">彼らは洪水が悪化する前に、水漏れを診断していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd ˌdaɪəɡˈnoʊzd ðə ˈwɔːtər ˈlik bɪˈfoɹ ðə ˈflʌdɪŋ ɡɑt ˈwɜːrs/</div>
+<ul class="link"><li>had diagnosed - had は弱形 /həd/</li><li>the water - 「the」は弱形 /ðə/</li><li>the flooding - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ザイ ハド ダイアグノウズド ザ ウォーター リーク ビフォア ザ フラディング ガット ワース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been diagnosing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The engineer has been diagnosing the automation system since this morning.</p>
+<p class="ja">エンジニアは今朝からずっと自動化システムを診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɛndʒəˈnɪr həz bɪn ˌdaɪəɡˈnoʊzɪŋ ðə ˌɔːtəˈmeɪʃən ˈsɪstəm sɪns ðɪs ˈmoɹnɪŋ/</div>
+<ul class="link"><li>the engineer - 「the」は冠詞で弱形 /ðə/</li><li>has been diagnosing - has は弱形 /həz/、been は弱形 /bɪn/</li><li>the automation - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ザ エンジニア ハズ ビン ダイアグノウジング ザ オートメーション システム シンス ディス モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been diagnosing why the beacon won't activate for an hour.</p>
+<p class="ja">ビーコンがアクティベートされない理由を1時間ずっと診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˌdaɪəɡˈnoʊzɪŋ waɪ ðə ˈbiːkən ˈwoʊnt ˈæktɪveɪt fɔɹ ən ˈaʊər/</div>
+<ul class="link"><li>have been - have は弱形 /həv/、been は弱形 /bɪn/</li><li>the beacon - 「the」は弱形 /ðə/</li><li>for an hour - for と an は前置詞・冠詞で弱形 /fɔɹ/ と /ən/</li></ul>
+<div class="kana">アイ ハヴ ビン ダイアグノウジング ワイ ザ ビーコン ウォウント アクティベイト フォア アン アワー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will diagnose</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˌdaɪəɡˈnoʊz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The engineer will <mark>diagnose</mark> the spawner issue when they arrive.</p>
+<p class="ja">エンジニアは到着したときスポーナーの問題を診断します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛndʒəˈnɪr wɪl ˌdaɪəɡˈnoʊz ðə ˈspoʊnɚ ˈɪʃu wɛn ðeɪ əˈɹaɪv/</div>
+<ul class="link"><li>the engineer - 「the」は弱形 /ðə/</li><li>spawner の語末 r-色彩母音 /ɚ/ が issue の母音 /ɪ/ に連結</li></ul>
+<div class="kana">ザ エンジニア ウィル ダイアグノウズ ザ スポウナー イッシュー ウェン ザイ ァラアイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will <mark>diagnose</mark> the furnace problem by tonight.</p>
+<p class="ja">あなたは今夜までに炉の問題を診断します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wɪl ˌdaɪəɡˈnoʊz ðə ˈfɝnəs ˈpɹɑbləm baɪ təˈnaɪt/</div>
+<ul class="link"><li>will diagnose - will は強形 /wɪl/</li><li>the furnace - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ユー ウィル ダイアグノウズ ザ ファーナス プラブレム バイ トゥナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be diagnosing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bə ˌdaɪəɡˈnoʊzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team will be diagnosing the lag spike when the patch drops.</p>
+<p class="ja">パッチがリリースされるとき、チームはラグスパイクを診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim wɪl bə ˌdaɪəɡˈnoʊzɪŋ ðə ˈlæɡ spaɪk wɛn ðə ˈpætʃ ˈdrɑps/</div>
+<ul class="link"><li>the team - 「the」は弱形 /ðə/</li><li>will be - be は子音前で弱形 /bə/</li><li>the lag - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ザ ティーム ウィル バ ダイアグノウジング ザ ラッグ スパイク ウェン ザ パッチ ドラップス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be diagnosing the redstone circuit all evening.</p>
+<p class="ja">夜間ずっとレッドストーン回路を診断しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bə ˌdaɪəɡˈnoʊzɪŋ ðə ˈɹɛdstoʊn ˈsɝkət ˈɔl ˈivnɪŋ/</div>
+<ul class="link"><li>I'll be - 「I'll」は縮約で /aɪl/；be は子音前で弱形 /bə/</li><li>the redstone - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">アイル バ ダイアグノウジング ザ レッドストーン サーキット オール イヴニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have diagnosed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˌdaɪəɡˈnoʊzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will have <mark>diagnosed</mark> the redstone error by tomorrow morning.</p>
+<p class="ja">明日の朝までにレッドストーンエラーを診断しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl həv ˌdaɪəɡˈnoʊzd ðə ˈɹɛdstoʊn ˈɛrər baɪ təˈmɑroʊ ˈmɔrnɪŋ/</div>
+<ul class="link"><li>will have - have は弱形 /həv/</li><li>the redstone - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">ウィ ウィル ハヴ ダイアグノウズド ザ レッドストーン エラー バイ タモロウ モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>diagnosed</mark> the water leak within an hour.</p>
+<p class="ja">彼女は1時間以内に水漏れを診断しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl həv ˌdaɪəɡˈnoʊzd ðə ˈwɑtɚ ˈlik wɪˈðɪn ən ˈaʊər/</div>
+<ul class="link"><li>will have - have は弱形 /həv/</li><li>the water - 「the」は弱形 /ðə/</li></ul>
+<div class="kana">シー ウィル ハヴ ダイアグノウズド ザ ウォター リーク ウィズィン ァン アワー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">help diagnose</span><span class="im">診断を手伝う、診断するのを手伝う</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Help me <mark>diagnose</mark> the broken furnace issue.</p>
+<p class="ja">壊れた炉の問題を診断するのを手伝ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɛlp mi daɪ.əɡˈnoʊz ðə ˈbroʊkən ˈfɝːnis ˈɪʃu/</div>
+<ul class="link"><li>diagnose the - 「diagnose」の語末 /z/ が「the」の /ð/ に続く；「the」は弱形 /ðə/</li></ul>
+<div class="kana">ヘルプ ミー ダイアグノウズ ザ ブロウケン ファーネス イッシュー</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">diagnose as</span><span class="im">…として診断する、…と診断する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>diagnosed</mark> the lag spike as caused by too many mobs.</p>
+<p class="ja">ラグスパイクをモブが多すぎることが原因として診断しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/diagnose_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/diagnose_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ daɪ.əɡˈnoʊzd ðə ˈlæɡ spaɪk əz ˈkɔːzd baɪ ˈtuː ˈmeɪni ˈmɑbz/</div>
+<ul class="link"><li>diagnosed the - 語末子音 /d/ が「the」の /ð/ に連結；「the」は弱形 /ðə/</li><li>spike as - 「spike」の語末 /k/ が「as」の弱形 /əz/ に連結</li><li>too many - 「too」の語末 /u/ が「many」の /m/ に連結</li></ul>
+<div class="kana">アイ ダイアグノウズド ザ ラグ スパイク アズ コーズド バイ トゥー メニー モブズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="diagnose";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

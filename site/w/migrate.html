@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>migrate — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>migrate</h2><span class="pos">動詞</span><span class="ipa-head">/ˈmaɪɡreɪt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1120</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（新しい地域へ）移動する、移住する（…move to a new place to live, especially permanently or seasonally）</li><li>【動詞】（大規模に）ある場所から別の場所へ移る（…move in large numbers from one place to another）</li><li>【動詞】（データやシステムを）別の場所・環境へ移す、転送する（…transfer or move data and systems to a new location）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players often <mark>migrate</mark> to the Nether after collecting diamonds and building a portal.</p>
+<p class="ja">プレイヤーたちはダイヤモンドを集めてポータルを建設した後、ネザーへ移動することが多い。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz ˈɔftən ˈmaɪɡreɪt tə ðə ˈnɛðɚ ˈæftɚ kəˈlɛktɪŋ ˈdaɪəmɑndz ən ˈbɪldɪŋ ə ˈpoɚtəl/</div>
+<ul class="link"><li>Players からoftenへ：語末 /z/ が母音 /ɔ/ に連結される</li><li>to the：to が弱形 /tə/、the が弱形 /ðə/ で連結 [təðə]</li><li>diamonds and：diamonds の語末 /z/ が and の /ə/ に連結される</li></ul>
+<div class="kana">プレイヤーズ オフトン マイグレイト タザ ネザー アフター コレクティング ダイアモンズ ン ビルディング ア ポータル</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The villagers <mark>migrated</mark> to a new trading post when the old settlement was destroyed.</p>
+<p class="ja">古い集落が破壊されたとき、村人たちは新しい交易所へ移住した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒɚz ˈmaɪɡreɪtɪd tə ə nu ˈtreɪdɪŋ ˈpoʊst wɛn ðə oʊld ˈsɛtəlmənt wəz dɪˈstrɔɪd/</div>
+<ul class="link"><li>to a：to が弱形 /tə/、a が弱形 /ə/ で連結 [təə]</li><li>when the：when の語末 /n/ と the の /ð/ は子音+子音で特に変化なし</li><li>old settlement：old の語末 /d/ と settlement の /s/ は子音+子音で特に変化なし</li></ul>
+<div class="kana">ザ ビリッジャーズ マイグレイティド タア ニュー トレイディング ポースト ウェン ザ オウルド セットルメント ワズ ディストロイド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We decided to <mark>migrate</mark> our entire storage system to the underground vault for security.</p>
+<p class="ja">セキュリティのため、ストレージシステム全体を地下ボルトに移行することにした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dɪˈsaɪdɪd tə ˈmaɪɡreɪt ˈaʊɚ ɪnˈtaɪɚ ˈstɔrɪdʒ ˈsɪstəm tə ðə ˌʌndɚˈɡraʊnd vɔlt fɔr sɪˈkjʊrəti/</div>
+<ul class="link"><li>migrate our：migrate の語末 /t/ が our /ˈaʊɚ/ に続く前に未開放になる可能性あり</li><li>to the：to が弱形 /tə/、the が弱形 /ðə/ で連結 [təðə]</li><li>underground：underとgroundの間での /d/ と /ɡ/ は子音+子音で特に変化なし</li></ul>
+<div class="kana">ウィ ディサイディド トゥ マイグレイト アワー イン タイア ストーリッジ システム タザ アンダーグラウンド ボルト フォー シキュリティ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">migrates</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈmaɪɡreɪts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The parrot <mark>migrates</mark> from the jungle to the savanna during dry season.</p>
+<p class="ja">オウムは乾季にジャングルからサバンナに移動します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpærət ˈmaɪɡreɪts frəm ðə ˈdʒʌŋɡəl tu ðə səˈvænə ˈdɝɪŋ ˈdraɪ ˈsizən/</div>
+<ul class="link"><li>parrot migrates → /t/ + /m/ が続く（子音+子音）</li><li>migrates from → /s/ + /f/ が続く（子音+子音）、from は弱形 /frəm/</li><li>from the → from の末尾 /m/ が the の初期 /ð/ に続く、the は弱形 /ðə/ [frəm ðə] フラム・ザ</li><li>the jungle → the は /ðə/、jungle に続く [ðə ˈdʒʌŋɡəl] ザ・ジャングル</li><li>to the → to は弱形 /tə/、the も /ðə/ [tə ðə] タ・ザ</li><li>the savanna → the は /ðə/、savanna に続く</li><li>during dry → /ŋ/ + /d/ が続く（子音+子音）</li></ul>
+<div class="kana">ザ パレット マイグレイツ フラム ザ ジャングル トゥ ザ サヴァナ デュアリング ドライ シーズン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Every spring, the salmon population <mark>migrates</mark> upstream to spawn in cooler waters.</p>
+<p class="ja">毎年春になると、サケの個体群はより涼しい水で産卵するために上流に移動します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvri ˈsprɪŋ | ðə ˈsæmən ˌpɑpjəˈleɪʃən ˈmaɪɡreɪts ˈʌpˌstrim tu ˈspɔn ɪn ˈkulər ˈwɔtərz/</div>
+<ul class="link"><li>spring the → /ŋ/ + /ð/ が続く（子音+子音）</li><li>the salmon → the は /ðə/、salmon に続く [ðə ˈsæmən] ザ・サーモン</li><li>salmon population → /n/ + /p/ が続く（子音+子音）</li><li>population migrates → /n/ + /m/ が続く（子音+子音）</li><li>upstream to → /m/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>cooler waters → /r/ + /w/ が続く（子音+子音）</li></ul>
+<div class="kana">エヴリー スプリング、ザ サーモン ポピュレイション マイグレイツ アップストリーム トゥ スポーン イン クーラー ウォーターズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">migrated</span><span class="fl">過去形</span><span class="fi">/ˈmaɪɡreɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The wolf pack <mark>migrated</mark> south when winter arrived with heavy snow.</p>
+<p class="ja">狼の群れは大雪で冬が訪れたとき、南に移動しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwʊlf pæk ˈmaɪɡreɪtəd ˈsaʊθ wɛn ˈwɪntər əˈraɪvd wɪð ˈhɛvi ˈsnoʊ/</div>
+<ul class="link"><li>wolf pack → /f/ + /p/ が続く（子音+子音）</li><li>pack migrated → /k/ + /m/ が続く（子音+子音）</li><li>migrated south → /d/ + /s/ が続く（子音+子音）</li><li>when winter → /n/ + /w/ が続く（子音+子音）</li><li>winter arrived → /r/ + /ə/ が連結 [ˈwɪntər əˈraɪvd] ウィンター・アライヴド</li><li>arrived with → /d/ + /w/ が続く（子音+子音）</li><li>heavy snow → /i/ + /s/ が続く（母音+子音）</li></ul>
+<div class="kana">ザ ウルフ パック マイグレイティッド サウス ウェン ウィンター アライヴド ウィズ ヘビー スノー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Last year, the entire community <mark>migrated</mark> to a new server to escape server lag.</p>
+<p class="ja">去年、コミュニティ全体がサーバーラグを回避するために新しいサーバーに移動しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/læst ˈjɪr | ðə ɪnˈtaɪər kəˈmjunəti ˈmaɪɡreɪtəd tu ə ˈnu ˈsɝvər tu ɪˈskeɪp ˈsɝvər ˈlæɡ/</div>
+<ul class="link"><li>Last year → /t/ + /j/ が続く（子音+子音）</li><li>entire community → /r/ + /k/ が続く（子音+子音）</li><li>community migrated → /i/ + /m/ が続く（母音+子音）</li><li>migrated to → /d/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>to a → to と a 両方弱形 /tə ə/ [tə ə] タ・ア</li><li>new server → /u/ + /s/ が続く（母音+子音）</li><li>server to → /r/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>escape server → /p/ + /s/ が続く（子音+子音）</li></ul>
+<div class="kana">ラスト イアー、ザ エンタイアー コミュニティ マイグレイティッド トゥ ア ニュー サーバー トゥ イスケイプ サーバー ラッグ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">migrated</span><span class="fl">過去分詞</span><span class="fi">/ˈmaɪɡreɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The fish that <mark>migrated</mark> to the ocean grew much larger and stronger.</p>
+<p class="ja">海に移動した魚はより大きく、より強くなりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfɪʃ ðæt ˈmaɪɡreɪtəd tu ðɪ ˈoʊʃən ˈɡru ˈmʌtʃ ˈlɑrdʒər ənd ˈstrɑŋɡər/</div>
+<ul class="link"><li>fish that → /ʃ/ + /ð/ が続く（子音+子音）</li><li>that migrated → /t/ + /m/ が続く（子音+子音）</li><li>migrated to → /d/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>to the → to は弱形 /tə/、the も /ðə/ [tə ðə] タ・ザ</li><li>the ocean → the は /ðə/、ocean に続く [ðə ˈoʊʃən] ザ・オーション</li><li>much larger → /tʃ/ + /l/ が続く（子音+子音）</li><li>larger and → /r/ + /ə/ が連結 [ˈlɑrdʒər ənd] ラージャー・アンド</li></ul>
+<div class="kana">ザ フィッシュ ザット マイグレイティッド トゥ ザ オーション グルー マッチ ラージャー アンド ストロンガー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Villagers <mark>migrated</mark> away from the destroyed village and rebuilt their homes elsewhere.</p>
+<p class="ja">破壊された村から移動した村人たちは別の場所に家を再建しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈvɪlɪdʒərz ˈmaɪɡreɪtəd əˈweɪ frəm ðə dɪˈstrɔɪd ˈvɪlɪdʒ ənd rɪˈbɪlt ðɛr ˈhoʊmz ɛlsˈwɛr/</div>
+<ul class="link"><li>Villagers migrated → /z/ + /m/ が続く（子音+子音）</li><li>migrated away → /d/ + /ə/ が続く（子音+母音）[ˈmaɪɡreɪtəd əˈweɪ] マイグレイティッド・アウェイ</li><li>away from → /eɪ/ + /f/ が続く（母音+子音）、from は弱形 /frəm/</li><li>from the → from の末尾 /m/ が the の /ð/ に続く、the は /ðə/ [frəm ðə] フラム・ザ</li><li>the destroyed → the は /ðə/、destroyed に続く [ðə dɪˈstrɔɪd] ザ・ディストロイド</li><li>destroyed village → /d/ + /v/ が続く（子音+子音）</li><li>village and → /dʒ/ + /ə/ が続く（子音+母音）</li><li>and rebuilt → /d/ + /r/ が続く（子音+子音）</li></ul>
+<div class="kana">ビリッジャーズ マイグレイティッド アウェイ フラム ザ ディストロイド ビリッジ アンド リビルト ザイアー ホームズ エルスウェア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">migrating</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈmaɪɡreɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Migrating</mark> through the Nether requires special armor and potions for protection.</p>
+<p class="ja">ネザーを移動するには、保護のために特別な防具とポーションが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪɡreɪtɪŋ θruː ðə ˈnɛðɚ rɪˈkwaɪərz ˈspɛʃəl ˈɑrmər ənd poʊˈʃənz fər prəˈtɛkʃən/</div>
+<ul class="link"><li>Migrating through → /ŋ/ + /θ/ が続く（子音+子音）</li><li>through the → through の末尾 /u/ が the の初期 /ð/ に先行、the は /ðə/ [θruː ðə] スルー・ザ</li><li>the Nether → the は /ðə/、Nether に続く [ðə ˈnɛðɚ] ザ・ネザー</li><li>armor and → /r/ + /ə/ が連結 [ˈɑrmər ənd] アーマー・アンド</li><li>and potions → /d/ + /p/ が続く（子音+子音）</li><li>potions for → /z/ + /f/ が続く（子音+子音）、for は弱形 /fər/</li></ul>
+<div class="kana">マイグレイティング スルー ザ ネザー リクワイアーズ スペシャル アーマー アンド ポーションズ ファー プロテクション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>migrating</mark> our base to the mountains for better view and shelter.</p>
+<p class="ja">私たちはより良い眺めと避難所のために拠点を山に移動させています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈmaɪɡreɪtɪŋ ˈaʊɚ ˈbeɪs tu ðə ˈmaʊntənz fər ˈbɛtər ˈvju ənd ˈʃɛltər/</div>
+<ul class="link"><li>are migrating → /r/ + /m/ が続く（子音+子音）</li><li>our base → /r/ + /b/ が続く（子音+子音）</li><li>base to → /s/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>to the → to は弱形 /tə/、the も /ðə/ [tə ðə] タ・ザ</li><li>the mountains → the は /ðə/、mountains に続く [ðə ˈmaʊntənz] ザ・マウンテンズ</li><li>for better → for は弱形 /fər/、better に続く</li></ul>
+<div class="kana">ウィ アー マイグレイティング アワー ベース トゥ ザ マウンテンズ ファー ベター ビュー アンド シェルター</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is migrating</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈmaɪɡɾeɪɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Players are <mark>migrating</mark> to the new server because the old one is too crowded.</p>
+<p class="ja">古いサーバーが混雑しすぎているため、プレイヤーたちは新しいサーバーに移動しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz ɑr ˈmaɪɡɾeɪɾɪŋ tu ðə ˈnu ˈsɝvɚ bɪˈkɑz ðə ˈoʊld wʌn ɪz tu ˈkraʊdəd/</div>
+<ul class="link"><li>are は弱形 /ɑr/</li><li>migrating の末尾 /ŋ/ が to の /t/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ tu]</li><li>to は弱形 /tə/、the も弱形 /ðə/ [tə ðə] タ・ザ</li><li>is は弱形 /ɪz/</li></ul>
+<div class="kana">プレイアーズ アー マイグレイリング トゥ ザ ニュー サーバー ビコーズ ザ オウルド ワン イズ トゥー クラウディド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>migrating</mark> her resources before the season resets and everything is lost.</p>
+<p class="ja">シーズンがリセットされる前に、彼女はリソースを移動させています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz ˈmaɪɡɾeɪɾɪŋ hɚ ˈrɛsərsɪz bɪˈfɔr ðə ˈsizən ˈrɪsɛts ənd ˈɛvriθɪŋ ɪz ˈlɔst/</div>
+<ul class="link"><li>is は弱形 /ɪz/</li><li>migrating の末尾 /ŋ/ が her の /h/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ hɚ]</li><li>the の末尾 /ð/ が season の母音に連結 [ðə ˈsizən] ザ・シーズン</li><li>and の末尾 /d/ が everything の母音に連結 [ənd ˈɛvriθɪŋ]</li></ul>
+<div class="kana">シー イズ マイグレイリング ハー レソースィズ ビフォア ザ シーズン リセッツ アン エヴリシング イズ ロスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was migrating</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈmaɪɡɾeɪɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The animals were <mark>migrating</mark> south when the blizzard caught them unexpectedly.</p>
+<p class="ja">ブリザードが予期せず彼らを捕まえたとき、動物たちは南に移動していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈænɪməlz wɚ ˈmaɪɡɾeɪɾɪŋ ˈsaʊθ wɛn ðə ˈblɪzɚd ˈkɔt ðɛm ˌʌnɪkˈspɛktɪdli/</div>
+<ul class="link"><li>the の末尾 /ð/ が animals の母音に連結 [ðə ˈænɪməlz] ザ・アニマルズ</li><li>were は弱形 /wɚ/</li><li>migrating の末尾 /ŋ/ が south の /s/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ ˈsaʊθ]</li><li>the の末尾 /ð/ が blizzard の母音に連結 [ðə ˈblɪzɚd] ザ・ブリザード</li></ul>
+<div class="kana">ザ アニマルズ ワー マイグレイリング サウス ウェン ザ ブリザード コット ゼム アンイクスペクティッドリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>migrating</mark> my base underground when a creeper explosion destroyed months of progress.</p>
+<p class="ja">クリーパーの爆発が数ヶ月の進捗を破壊したとき、私は拠点を地下に移動させていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈmaɪɡɾeɪɾɪŋ maɪ ˈbeɪs ˌʌndɚˈɡraʊnd wɛn ə ˈkripɚ ɪkˈsploʊʒən dɪˈstrɔɪd ˈmʌnθs əv ˈprɑɡrɛs/</div>
+<ul class="link"><li>was は弱形 /wəz/</li><li>migrating の末尾 /ŋ/ が my の /m/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ maɪ]</li><li>a は弱形 /ə/（強調されない弱い母音）</li><li>destroyed の末尾 /d/ と months の /m/ は子音+子音で連続 [dɪˈstrɔɪd ˈmʌnθs]</li></ul>
+<div class="kana">アイ ワズ マイグレイリング マイ ベイス アンダーグラウンド ウェン ア クリーパー イクスプロージョン ディストロイド マンスズ アヴ プログレス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been migrating</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈmaɪɡɾeɪɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time they arrived at the settlement, the zombies had been <mark>migrating</mark> toward the village for hours.</p>
+<p class="ja">彼らが集落に到着するまでに、ゾンビは数時間村に向かって移動していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðeɪ əˈraɪvd æt ðə ˈsɛtəlmənt | ðə ˈzɑmiz həd bɪn ˈmaɪɡɾeɪɾɪŋ təˈwɔrd ðə ˈvɪlɪdʒ fɚ ˈaʊɚz/</div>
+<ul class="link"><li>by は弱形 /baɪ/、the は弱形 /ðə/ [baɪ ðə] バイ・ザ</li><li>arrived の末尾 /d/ が at の /æ/ に連結 [əˈraɪvd æt] ァライヴド アット</li><li>the の末尾 /ð/ が settlement の母音に連結 [ðə ˈsɛtəlmənt] ザ・セットルメント</li><li>had は弱形 /həd/、been は弱形 /bɪn/</li><li>migrating の末尾 /ŋ/ が toward の /t/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ təˈwɔrd]</li><li>for は弱形 /fɚ/</li></ul>
+<div class="kana">バイ ザ タイム ザイ ァライヴド アット ザ セットルメント、ザ ゾーミーズ ハド ビン マイグレイリング トゥワード ザ ビレッジ ファー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>migrating</mark> through the Nether for several weeks before finding the fortress entrance.</p>
+<p class="ja">私たちは要塞の入口を見つける前に、数週間ネザーを移動していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈmaɪɡɾeɪɾɪŋ θruː ðə ˈnɛðɚ fɚ ˈsɛvərəl wiks bɪˈfɔr ˈfaɪndɪŋ ðə ˈfɔrtrəs ˈɛntrəns/</div>
+<ul class="link"><li>had は弱形 /həd/、been は弱形 /bɪn/</li><li>migrating の末尾 /ŋ/ が through の /θ/ に続く（子音+子音） [ˈmaɪɡɾeɪɾɪŋ θruː]</li><li>through の末尾 /u/ が the の /ð/ に先行、the は弱形 /ðə/ [θruː ðə] スルー・ザ</li><li>for は弱形 /fɚ/、weeks に続く</li></ul>
+<div class="kana">ウィ ハド ビン マイグレイリング スルー ザ ネザー ファー セベラル ウィークス ビフォア ファインディング ザ フォートレス エントランス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has migrated</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/hæz ˈmaɪɡreɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The wolf pack has <mark>migrated</mark> to the snow biome seeking new hunting grounds.</p>
+<p class="ja">狼の群れは新しい狩場を求めて雪のバイオームに移動しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwʊlf pæk hæz ˈmaɪɡreɪtəd tu ðə ˈsnoʊ baɪˈoʊm ˈsikɪŋ ˈnu ˈhʌntɪŋ ˈɡraʊndz/</div>
+<ul class="link"><li>wolf pack → /f/ + /p/ が続く（子音+子音）</li><li>pack has → /k/ + /h/ が続く（子音+子音）</li><li>has migrated → has は弱形 /həz/。語末 /z/ が /m/ に続く [həz ˈmaɪɡreɪtəd] ハズ・マイグレイティッド</li><li>to the → to は弱形 /tə/、the も /ðə/ [tə ðə] タ・ザ</li></ul>
+<div class="kana">ザ ウルフ パック ハズ マイグレイティッド トゥ ザ スノー バイオーム シーキング ニュー ハンティング グラウンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>migrated</mark> my entire base to the taiga region for better wood resources.</p>
+<p class="ja">私は木材リソースをより良く得るために拠点全体をタイガ地域に移動しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ hæv ˈmaɪɡreɪtəd maɪ ɛnˈtaɪər ˈbeɪs tu ðə ˈtaɪɡə ˈridʒən fər ˈbɛtər ˈwʊd ˈɹɛsərsɪz/</div>
+<ul class="link"><li>have migrated → have は弱形 /həv/。語末 /v/ が /m/ に続く [həv ˈmaɪɡreɪtəd] ハヴ・マイグレイティッド</li><li>migrated my → /d/ + /m/ が続く（子音+子音）</li><li>entire base → /r/ + /b/ が続く（子音+子音）</li><li>base to → /s/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li></ul>
+<div class="kana">アイ ハヴ マイグレイティッド マイ エンタイアー ベース トゥ ザ タイガ リージョン ファー ベター ウッド ルエスウルスィーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had migrated</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/hæd ˈmaɪɡreɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the raid began, the monsters had <mark>migrated</mark> away from the village.</p>
+<p class="ja">レイドが始まる前に、モンスターたちは村から移動していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔɹ ðə ˈreɪd bɪˈɡæn | ðə ˈmɑnstərz hæd ˈmaɪɡreɪtəd əˈweɪ frəm ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>raid began → /d/ + /b/ が続く（子音+子音）。未開放で分離 [ˈreɪd̚ bɪˈɡæn] レイド・ビガン</li><li>the monsters → the は /ðə/、monsters に連結 [ðə ˈmɑnstərz] ザ・モンスターズ</li><li>monsters had → /z/ + /h/ が続く（子音+子音）</li><li>had migrated → had は弱形 /həd/。語末 /d/ が /m/ の前で未開放 [həd̚ ˈmaɪɡreɪtəd] ハド・マイグレイティッド</li></ul>
+<div class="kana">ビフォー ザ レイド ビガン、ザ モンスターズ ハド マイグレイティッド アウェイ フラム ザ ビリッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The animals had <mark>migrated</mark> to the mountains long before we discovered that new biome.</p>
+<p class="ja">私たちがその新しいバイオームを発見するずっと前に、動物たちは山に移動していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈænɪməlz hæd ˈmaɪɡreɪtəd tu ðə ˈmaʊntənz ˈlɔŋ bɪˈfoɹ wi dɪsˈkʌvərd ðæt ˈnu baɪˈoʊm/</div>
+<ul class="link"><li>the animals → the は /ðə/、animals に連結 [ðə ˈænɪməlz] ザ・アニマルズ</li><li>animals had → /z/ + /h/ が続く（子音+子音）</li><li>had migrated → /həd̚ ˈmaɪɡreɪtəd/ ハド・マイグレイティッド</li><li>migrated to → /d/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li></ul>
+<div class="kana">ザ アニマルズ ハド マイグレイティッド トゥ ザ マウンテンズ ロング ビフォー ウィ ディスカバード ザット ニュー バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been migrating</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/hæz bɪn ˈmaɪɡreɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The birds have been <mark>migrating</mark> through our sky farm all week, so the crops are growing well.</p>
+<p class="ja">鳥たちは1週間中ずっと私たちの空農場を移動しており、作物がよく成長しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɝdz hæv bɪn ˈmaɪɡreɪtɪŋ θruː ˈaʊr ˈskaɪ ˈfɑɹm ɔːl ˈwik | soʊ ðə ˈkɹɑps ɑr ˈɡroʊɪŋ ˈwɛl/</div>
+<ul class="link"><li>birds have → /z/ + /h/ が続く（子音+子音）</li><li>have been → have は弱形 /həv/、been も弱形 /bɪn/ [həv bɪn] ハヴ・ビン</li><li>been migrating → /n/ + /m/ が続く（子音+子音）</li><li>migrating through → /ŋ/ + /θ/ が続く（子音+子音）</li></ul>
+<div class="kana">ザ バーズ ハヴ ビン マイグレイティング スルー アワー スカイ ファーム オール ウィーク、ソー ザ クロップス アー グロウイング ウェル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My settlers have been <mark>migrating</mark> across biomes, and the entire population has doubled in size.</p>
+<p class="ja">私の入植者たちはバイオーム全体を移動しており、全人口が2倍になりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈsɛtlərz hæv bɪn ˈmaɪɡreɪtɪŋ əˈkrɑs baɪˈoʊmz | ənd ðə ɛnˈtaɪər ˌpɑpjəˈleɪʃən hæz ˈdʌbəld ɪn ˈsaɪz/</div>
+<ul class="link"><li>settlers have → /z/ + /h/ が続く（子音+子音）</li><li>have been → /həv bɪn/ ハヴ・ビン</li><li>been migrating → /n/ + /m/ が続く（子音+子音）</li><li>migrating across → /ŋ/ + /ə/ が連結 [ˈmaɪɡreɪtɪŋ əˈkrɑs] マイグレイティング・アクロス</li></ul>
+<div class="kana">マイ セトラーズ ハヴ ビン マイグレイティング アクロス バイオームズ、アンド ザ エンタイアー ポピュレイション ハズ ダブルド イン サイズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will migrate</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl ˈmaɪɡreɪt/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The tropical fish will <mark>migrate</mark> to deeper waters when the water temperature gradually changes.</p>
+<p class="ja">水温が徐々に変わると、熱帯魚は深い水に移動します。</p>
+
+<div class="ipa-line">/ðə ˈtrɑpɪkəl ˈfɪʃ wɪl ˈmaɪɡreɪt tu ˈdipər ˈwɔtərz wɛn ðə ˈwɔtər ˈtɛmpərətʃər ˈɡreɪdʒuəli ˈtʃeɪndʒəz/</div>
+<ul class="link"><li>the は弱形 /ðə/、tropical に連結 [ðə ˈtrɑpɪkəl] ザ・トロピカル</li><li>will → 単独 /wɪl/ で、fish の /ʃ/ に続く（子音+子音）</li><li>migrate to → 語末 /t/ が to の /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>the は弱形 /ðə/、water に連結 [ðə ˈwɔtər] ザ・ウォーター</li></ul>
+<div class="kana">ザ トロピカル フィッシュ ウィル マイグレイト タ ディーパー ウォーターズ ウェン ザ ウォーター テンプレイチャー グレイジュアリー チェンジズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players will <mark>migrate</mark> to the Creative mode server to build structures without survival constraints.</p>
+<p class="ja">プレイヤーたちはサバイバルの制約なしに構造物を建築するため、クリエイティブモードサーバーに移動します。</p>
+
+<div class="ipa-line">/ˈpleɪərz wɪl ˈmaɪɡreɪt tu ðə kriˌeɪtɪv ˈmoʊd ˈsɝvər tu ˈbɪld ˈstrʌktʃərz wɪðˈaʊt sɚˈvaɪvəl kənˈstreɪnts/</div>
+<ul class="link"><li>Players は /z/ で終わり、will が続く（子音+子音）</li><li>migrate to → 語末 /t/ が to の /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>to the → to は弱形 /tə/、the も弱形 /ðə/ [tə ðə] タ・ザ</li><li>build structures → /d/ + /s/ が続く（子音+子音）</li><li>structures without → /z/ + /w/ が続く（子音+子音）</li></ul>
+<div class="kana">プレイアーズ ウィル マイグレイト タ ザ クリエイティヴ モード サーバー タ ビルド ストラクチャーズ ウィザウト サーヴァイヴァル コンストレインツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be migrating</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈmaɪɡreɪɾɪŋ/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you are collecting resources, the cave mobs will be <mark>migrating</mark> deeper into the caverns.</p>
+<p class="ja">あなたが資源を集めている間、洞窟のモブはさらに深い洞窟に移動していくでしょう。</p>
+
+<div class="ipa-line">/waɪl ju ɑr kəˈlɛktɪŋ ˈrɛsərsɪz | ðə ˈkeɪv mɑbz wɪl bi ˈmaɪɡreɪɾɪŋ ˈdipər ˈɪntu ðə kəˈvɑrnz/</div>
+<ul class="link"><li>while の語末 /l/ が you の /j/ に続く（子音+子音）</li><li>are は弱形 /ɑr/ で [ɑr kəˈlɛktɪŋ] 連結</li><li>collecting の末尾 /ŋ/ が resources の /r/ に続く（子音+子音） [kəˈlɛktɪŋ ˈrɛsərsɪz]</li><li>the は弱形 /ðə/、cave に連結 [ðə ˈkeɪv] ザ・ケイヴ</li><li>be は弱形 /bi/ で [bi ˈmaɪɡreɪɾɪŋ]</li><li>migrate の /t/ は母音に挟まれているためフラップ T [ɾ] に変化し [ˈmaɪɡreɪɾɪŋ] となる</li><li>migrating の末尾 /ŋ/ が deeper の /d/ に続く（子音+子音） [ˈmaɪɡreɪɾɪŋ ˈdipər]</li></ul>
+<div class="kana">ワイル ユー アー コレクティング レソースィズ、ザ ケイヴ モーブズ ウィル ビー マイグレイリング ディーパー イントゥー ザ カヴァーンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be <mark>migrating</mark> her entire base to the mountain biome before the weather update is released.</p>
+<p class="ja">天候アップデートがリリースされる前に、彼女は拠点全体を山岳バイオームに移動させるでしょう。</p>
+
+<div class="ipa-line">/ʃi wɪl bi ˈmaɪɡreɪɾɪŋ hɚ ənˈtaɪər ˈbeɪs tu ðə ˈmaʊntən baɪˈoʊm bɪˈfɔr ðə ˈwɛðər ˌʌpˈdeɪt ɪz rɪˈlist/</div>
+<ul class="link"><li>be は弱形 /bi/ で [bi ˈmaɪɡreɪɾɪŋ]</li><li>migrate の /t/ は母音に挟まれているためフラップ T [ɾ] に変化し [ˈmaɪɡreɪɾɪŋ] となる</li><li>migrating の末尾 /ŋ/ が her の /h/ に続く（子音+子音） [ˈmaɪɡreɪɾɪŋ hɚ]</li><li>entire base → /r/ + /b/ が続く（子音+子音）</li><li>base to → /s/ + /t/ が続く（子音+子音）、to は弱形 /tə/</li><li>to the → to は弱形 /tə/、the も弱形 /ðə/ [tə ðə] タ・ザ</li><li>the は弱形 /ðə/、mountain に連結 [ðə ˈmaʊntən] ザ・マウンテン</li></ul>
+<div class="kana">シー ウィル ビー マイグレイリング ハー エンタイアー ベイス タ ザ マウンテン バイオーム ビフォア ザ ウェザー アップデイト イズ リリースト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have migrated</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈmaɪɡreɪɾəd/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the end of spring, all the wildlife will have <mark>migrated</mark> to their natural habitats across the biomes.</p>
+<p class="ja">春の終わりまでに、すべての野生動物はバイオーム全体の自然の生息地に移動しているでしょう。</p>
+
+<div class="ipa-line">/baɪ ðɪ ˈɛnd əv ˈsprɪŋ | ˈɑl ðə ˈwaɪldˌlaɪf wɪl həv ˈmaɪɡreɪɾəd tu ðɛr ˈnætʃərəl həˈbɪtæts əˈkrɑs ðə baɪˈoʊmz/</div>
+<ul class="link"><li>by は弱形 /baɪ/、the は弱形 /ðə/ [baɪ ðə] バイ・ザ</li><li>end の語末 /d/ が of の /əv/ に続く、of は弱形 /əv/</li><li>all の語末 /l/ が the の /ð/ に続く（子音+子音）</li><li>have は弱形 /həv/ で [həv ˈmaɪɡreɪɾəd]</li><li>migrate の /t/ は母音に挟まれているためフラップ T [ɾ] に変化し [ˈmaɪɡreɪɾəd] となる</li><li>migrated の末尾 /d/ が to の /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>to their → to は弱形 /tə/、their の /ð/ に続く（子音+子音）</li></ul>
+<div class="kana">バイ ザ エンド アヴ スプリング、オール ザ ワイルドライフ ウィル ハヴ マイグレイリッド タ ザイアー ナチュラル ハビタッツ アクロス ザ バイオームズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>It will have <mark>migrated</mark> all critical data to the backup storage system before the server maintenance window closes.</p>
+<p class="ja">サーバーメンテナンスウィンドウが閉じる前に、すべての重要データをバックアップストレージシステムに移動しているでしょう。</p>
+
+<div class="ipa-line">/ɪt wɪl həv ˈmaɪɡreɪɾəd ˈɑl ˈkrɪtɪkəl ˈdeɪtə tu ðə ˈbækˌʌp ˈstɔrɪdʒ ˈsɪstəm bɪˈfɔr ðə ˈsɝvər ˈmeɪntənəns ˈwɪndoʊ ˈkloʊzəz/</div>
+<ul class="link"><li>have は弱形 /həv/ で [həv ˈmaɪɡreɪɾəd]</li><li>migrate の /t/ は母音に挟まれているためフラップ T [ɾ] に変化し [ˈmaɪɡreɪɾəd] となる</li><li>migrated の末尾 /d/ が all の /ɑ/ に連結 [ˈmaɪɡreɪɾəd ˈɑl]</li><li>to the → to は弱形 /tə/、the も弱形 /ðə/ [tə ðə] タ・ザ</li><li>storage system → /dʒ/ + /s/ が続く（子音+子音）</li><li>before の語末 /r/ が the の /ð/ に連結、the は弱形 /ðə/</li></ul>
+<div class="kana">イット ウィル ハヴ マイグレイリッド オール クリティカル データ タ ザ バックアップ ストレッジ システム ビフォア ザ サーバー メインテナンス ウィンドー クローズズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">migrate to</span><span class="im">～へ移動する・移住する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Most speedrunners <mark>migrate</mark> to using a different seed when they don't get good initial spawns.</p>
+<p class="ja">ほとんどのスピードランナーは、最初のスポーン地点が良くない場合、異なるシードに移行する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/moʊst ˈspiːd ˌrʌnɚz ˈmaɪɡreɪt tə ˈjuːzɪŋ ə ˈdɪfɚənt sid wɛn ðeɪ ˈdoʊnt ɡɛt ɡʊd ɪˈnɪʃəl spɔnz/</div>
+<ul class="link"><li>speedrunners からmigrateへ：runners の語末 /z/ が migrate の /m/ に続く子音+子音で特に変化なし</li><li>migrate to：to が弱形 /tə/、using の /j/ に軽く続く</li><li>get good：get の語末 /t/ が good の /ɡ/ に未開放で続く [ɡɛt̚ ɡʊd]</li></ul>
+<div class="kana">モースト スピード ランナーズ マイグレイト タ ユージング ア ディフラント シード ウェン ゼイ ドント ゲッ グッド イニシャル スポーンズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">migrate from...to...</span><span class="im">～から～へ移動する・移住する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We're going to <mark>migrate</mark> from the valley base to a fortress design in the mountain region.</p>
+<p class="ja">私たちは谷の拠点から山岳地域の要塞デザインへ移住するつもりです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/migrate_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/migrate_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪɹ ˈɡoʊɪŋ tə ˈmaɪɡreɪt frəm ðə ˈvæli beɪs tə ə ˈfɔɚtəs dɪˈzaɪn ɪn ðə ˈmaʊntən ˈridʒən/</div>
+<ul class="link"><li>to migrate：to が弱形 /tə/、migrate の /m/ に続く子音+子音で特に変化なし</li><li>from the：from の語末 /m/ と the の /ð/ は子音+子音で特に変化なし</li><li>to a：to が弱形 /tə/、a が弱形 /ə/ で連結 [təə]</li></ul>
+<div class="kana">ウィア ゴーイング タ マイグレイト フラム ザ ヴァレー ベース タ ア フォートス ディザイン イン ザ マウンテン リージョン</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="migrate";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

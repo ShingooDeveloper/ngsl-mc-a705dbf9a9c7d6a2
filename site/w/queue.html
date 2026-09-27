@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>queue — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>queue</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/kjuː/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1067</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】一列に並んで待つ人々；行列（a line of people waiting in order）</li><li>【名詞】待機中の項目；処理待ちの順序（items or people waiting to be processed）</li><li>【動詞】列に並ぶ、順番を待つ（to form or join a line and wait）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players <mark>queue</mark> at the portal to enter the End dimension.</p>
+<p class="ja">プレイヤーたちはエンド次元に入るためにポータルで列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz kjuː æt ðə ˈpoʊɹtəl tə ˈɛntər ðə ˈɛnd dɪˈmɛnʃən/</div>
+<ul class="link"><li>「the」は弱形 /ðə/。「at the」では /t/ が未開放で続く [æt̚ ðə]</li><li>「to」は機能詞で弱形 /tə/。[tə ˈɛ] タエ</li></ul>
+<div class="kana">プレイアーズ キュー アット ザ ポータル タ エンター エンド ディメンション</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>A long <mark>queue</mark> formed as everyone waited for their turn.</p>
+<p class="ja">みんなが順番を待つ間に長い列ができました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈlɔŋ kjuː ˈfɔɹmd əz ˈɛvriwən ˈweɪtəd fɔɹ ðɛɹ ˈtɜɹn/</div>
+<ul class="link"><li>「long queue」: /ŋ/ が /k/ に連結 [ˈlɔŋkjuː] ロングキュー</li><li>「waited」: -ed の /t/ がフラップ化 /ˈweɪɾəd/</li><li>「for」は弱形 /fɚ/</li></ul>
+<div class="kana">ア ロング キュー フォームド アズ エブリワン ウェイラド フォー ザエア ターン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>queued</mark> up to fight in the hunger games tournament.</p>
+<p class="ja">私はハンガーゲーズトーナメントで戦うために列に並びました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈkjuːd ʌp tə ˈfaɪt ɪn ðə ˈhʌŋɡər ˈɡeɪmz ˈtʊɹnəmənt/</div>
+<ul class="link"><li>「queued up」: 語末子音 /d/ が母音 /ʌ/ に連結 [ˈkjuːdʌp]</li><li>「up to」: weak form /tə/。[ʌp tə] アップ タ</li></ul>
+<div class="kana">アイ キュード アップ タ ファイト イン ザ ハンガー ゲイムズ トゥーナメント</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">queues</span><span class="fl">複数形</span><span class="fi">/kjuːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>queues</mark> formed at different portals.</p>
+<p class="ja">異なるポータルで複数の列ができました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌltəpəl kjuːz ˈfɔɹmd æt̚ ˈdɪfɹənt ˈpoʊɹtəlz/</div>
+<ul class="link"><li>「multiple queues」: 語末子音 /l/ + /k/ = 無開放で分離 [ˈmʌltəpəl kjuːz]</li><li>「at different」: 語末子音 /t/ が未開放。次が子音 /d/ [æt̚ ˈdɪ]</li><li>「portals」: 最後の /z/ は複数形を示す</li></ul>
+<div class="kana">マルティプル キューズ フォームド アッ ディフレント ポールタルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server has separate <mark>queues</mark> for each game mode.</p>
+<p class="ja">サーバーは各ゲームモードに別々の列を持っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜɹvər hæz ˈsɛpɹət kjuːz fɔɹ iːtʃ ˈɡeɪm moʊd/</div>
+<ul class="link"><li>「server has」: 語末 /r/ が次の母音 /æ/ に連結 [ˈsɜɹvɚ hæz]</li><li>「separate queues」: 語末子音 /t/ + /k/ = 未開放で分離 [ˈsɛpɹət̚ kjuːz]</li><li>「queues for」: 語末 /z/ と子音 /f/ = 分離。for は弱形 /fɚ/</li></ul>
+<div class="kana">ザ サーバー ハズ セプレット キューズ フォー イーチ ゲイム モウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">queues</span><span class="fl">三人称単数現在形</span><span class="fi">/kjuːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>queues</mark> at the enchanting table every day.</p>
+<p class="ja">彼女は毎日エンチャントテーブルで列に並びます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈkjuːz æt̚ ðə ɛnˈtʃæntɪŋ ˈteɪbəl ˈɛvɹi ˈdeɪ/</div>
+<ul class="link"><li>「She queues」: 語末 /i/ + /k/ = 分離 [ʃi ˈkjuːz]</li><li>「at the」: 語末 /t/ が未開放で次が子音。the は弱形 /ðə/ [æt̚ ðə]</li><li>「table every」: 語末 /l/ + 母音 /ɛ/ = 連結</li></ul>
+<div class="kana">シー キューズ アッ ザ エンチャンティング テイブル エブリ デイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player <mark>queues</mark> up before the raid starts.</p>
+<p class="ja">そのプレイヤーはレイド開始前に列に並びます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər ˈkjuːz ʌp bɪˈfoɹ ðə ˈreɪd stɑɹts/</div>
+<ul class="link"><li>「player queues」: 語末 /r/ + 次の /k/ = 分離。英語 r-coloring あり [ˈpleɪɚ ˈkjuːz]</li><li>「queues up」: 語末子音 /z/ が母音 /ʌ/ に連結 [ˈkjuːzʌp] キューズアップ</li><li>「raid starts」: 語末 /d/ が子音 /s/ に先行。未開放 [ˈreɪd̚ stɑɹts]</li></ul>
+<div class="kana">ザ プレイヤー キューズ アップ ビフォー ザ レイド スターツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">queued</span><span class="fl">過去形</span><span class="fi">/kjuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>queued</mark> for an hour to enter the End.</p>
+<p class="ja">私たちはエンドに入るために1時間列に並びました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈkjuːd fɔɹ ən ˈaʊər tə ˈɛntər ðə ˈɛnd/</div>
+<ul class="link"><li>「We queued」: 語末 /i/ + /k/ = 分離 [wi ˈkjuːd]</li><li>「for an」: 語末 /r/ が母音 /ə/ に連結。an は弱形 [fɔɹ ən] フォーアン</li><li>「to enter」: to は機能詞で弱形 /tə/ [tə ˈɛ] タエ</li></ul>
+<div class="kana">ウィ キュード フォー アン アワー タ エンター ザ エンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players <mark>queued</mark> at the crafting station waiting for resources.</p>
+<p class="ja">プレイヤーたちはクラフトステーションで列に並んでリソースを待ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz ˈkjuːd æt̚ ðə ˈkɹæftɪŋ ˈsteɪʃən ˈweɪɾɪŋ fɔɹ ˈɹɛsɚsəz/</div>
+<ul class="link"><li>「Players queued」: 語末 /z/ + /k/ = 子音クラスタで未開放 [ˈpleɪərz ˈkjuːd]</li><li>「at the」: 語末 /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə]</li><li>「waiting」: 母音 /eɪ/ + /t/ + 母音 /ɪ/ = フラップ化して [ɾ] [ˈweɪɾɪŋ] ウェイリング</li></ul>
+<div class="kana">プレイアーズ キュード アッ ザ クラフティング ステイシャン ウェイリング フォー レソーセズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">queued</span><span class="fl">過去分詞</span><span class="fi">/kjuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>queued</mark> for the tournament, we were ready.</p>
+<p class="ja">トーナメントのために列に並んだので、私たちは準備ができていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˈkjuːd fɔɹ ðə ˈtɜɹnəmənt, wi wɚ ˈɹɛdi/</div>
+<ul class="link"><li>「Having queued」: 語末 /ŋ/ + /k/ = 分離。/ŋ/ は軟口蓋音 [ˈhævɪŋ ˈkjuːd]</li><li>「for the」: 語末 /r/ が母音に連結。the は弱形 /ðə/ [fɔɹ ðə] フォー ザ</li><li>「were ready」: were は弱形 /wɚ/ [wɚ ˈɹɛdi]</li></ul>
+<div class="kana">ハビング キュード フォー ザ ターナメント ウィ ワー レディ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players who had <mark>queued</mark> waited patiently for their turn.</p>
+<p class="ja">列に並んでいたそのプレイヤーたちは、彼らの番を忍耐強く待ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz hu hæd ˈkjuːd ˈweɪɾəd ˈpeɪʃəntli fɔɹ ðɛɹ ˈtɜɹn/</div>
+<ul class="link"><li>「players who」: 語末 /z/ + /h/ = 子音クラスタ [ˈpleɪərz hu]</li><li>「had queued」: 語末 /d/ + /k/ = 未開放で分離 [hæd̚ ˈkjuːd]</li><li>「waited」: 母音 /eɪ/ + /t/ + 母音 /ə/ = フラップ化して [ɾ] [ˈweɪɾəd] ウェイラド</li></ul>
+<div class="kana">ザ プレイアーズ フー ハド キュード ウェイラド ペイシャントリー フォー ザェア ターン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">queuing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Queuing at the mob spawner, we waited for creepers.</p>
+<p class="ja">モブスポーナーで列に並んで、私たちはクリーパーを待ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkjuːɪŋ æt̚ ðə ˈmɑb ˈspoʊnɚ, wi ˈweɪɾəd fɔɹ ˈkɹiːpərz/</div>
+<ul class="link"><li>「Queuing at」: 語末 /ŋ/ (軟口蓋鼻音) + 子音 /t/ = 分離 [ˈkjuːɪŋ æt̚]</li><li>「at the」: /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə]</li><li>「waited」: 母音 /eɪ/ + /t/ + 母音 /ə/ = フラップ化 [ˈweɪɾəd] ウェイラド</li></ul>
+<div class="kana">キューイング アッ ザ マブ スポナー ウィ ウェイラド フォー クリーパーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team is queuing for the PvP battle tournament.</p>
+<p class="ja">チームはPvPバトルトーナメントのために列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim ɪz ˈkjuːɪŋ fɔɹ ðə ˌpiːviːˈpiː ˈbæɾəl ˈtɜɹnəmənt/</div>
+<ul class="link"><li>「is queuing」: 語末 /z/ + /k/ = 子音クラスタで未開放 [ɪz ˈkjuːɪŋ]</li><li>「for the」: 語末 /r/ が母音に連結。the は弱形 /ðə/ [fɔɹ ðə]</li><li>「battle」: 母音 /æ/ + /t/ + 母音 /ə/ = フラップ化 [ˈbæɾəl] バラル</li></ul>
+<div class="kana">ザ ティーム イズ キューイング フォー ザ ピーブィーピー バラル ターナメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is queuing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm queuing at the nether portal to collect blaze rods.</p>
+<p class="ja">私はブレイズロッドを集めるためにネザーポータルで列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈkjuːɪŋ æt̚ ðə ˈnɛðər ˈpoʊɹtəl tə kəˈlɛkt ˈbleɪz ɹɑdz/</div>
+<ul class="link"><li>「I'm queuing」: 語末 /m/ が /k/ に連結 [aɪm ˈkjuːɪŋ] アイム キューイング</li><li>「at the」: /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə]</li><li>「to collect」: to は弱形 /tə/ [tə kə] タ コ</li></ul>
+<div class="kana">アイム キューイング アッ ザ ネザー ポールタル タ コレクト ブレイズ ロッズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are queuing outside the enchanting room for their turn.</p>
+<p class="ja">彼らはエンチャント部屋の外で自分たちの番のために列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑɹ ˈkjuːɪŋ ˈaʊtˌsaɪd ðə ɛnˈtʃæntɪŋ ˈɹuːm fɔɹ ðɛɹ ˈtɜɹn/</div>
+<ul class="link"><li>「are queuing」: 語末 /r/ が /k/ に連結 [ɑɹ ˈkjuːɪŋ] アー キューイング</li><li>「outside the」: 語末 /d/ が母音に連結。the は弱形 /ðə/ [aʊtˌsaɪd ə]</li><li>「for their」: 語末 /r/ が母音に連結。their は /ðɛɹ/ [fɔɹ ðɛɹ]</li></ul>
+<div class="kana">ザイ アー キューイング アウトサイド ザ エンチャンティング ルーム フォー ザェア ターン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was queuing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was queuing at the crafting table when the server crashed.</p>
+<p class="ja">サーバーがクラッシュしたとき、私はクラフトテーブルで列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈkjuːɪŋ æt̚ ðə ˈkɹæftɪŋ ˈteɪbəl wɛn ðə ˈsɜɹvər ˈkɹæʃt/</div>
+<ul class="link"><li>「was queuing」: was は弱形 /wəz/ [wəz ˈkjuːɪŋ] ワズ キューイング</li><li>「at the」: /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə]</li><li>「the server」: the は弱形 /ðə/ [ðə ˈsɜɹvər]</li></ul>
+<div class="kana">アイ ワズ キューイング アッ ザ クラフティング テイブル ウェン ザ サーバー クラッシュト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players were queuing for the raid boss fight when a lightning storm hit.</p>
+<p class="ja">プレイヤーたちは、落雷嵐が襲ったときレイドボス戦のために列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz wɚ ˈkjuːɪŋ fɔɹ ðə ˈreɪd ˈbɔs ˈfaɪt wɛn ə ˈlaɪtnɪŋ ˈstɔɹm hɪt/</div>
+<ul class="link"><li>「were queuing」: were は弱形 /wɚ/ [wɚ ˈkjuːɪŋ] ワー キューイング</li><li>「for the」: 語末 /r/ が母音に連結。the は弱形 /ðə/ [fɔɹ ðə]</li><li>「a lightning」: a は弱形 /ə/ [ə ˈlaɪt] ア ライト</li></ul>
+<div class="kana">プレイアーズ ワー キューイング フォー ザ レイド ボス ファイト ウェン ア ライトニング ストーム ヒット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been queuing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been queuing for an hour before the game finally started.</p>
+<p class="ja">ゲームがついに始まる前に、私たちは1時間列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈkjuːɪŋ fɔɹ ən ˈaʊər bɪˈfoɹ ðə ˈɡeɪm ˈfaɪnəli ˈstɑɹtəd/</div>
+<ul class="link"><li>「had been」: had は弱形 /həd/ [həd bɪn] ハド ビン。been も弱形 /bɪn/</li><li>「for an」: 語末 /r/ が母音に連結。an は弱形 /ən/ [fɔɹ ən] フォー アン</li><li>「finally started」: 語末 /i/ が /s/ に続く。started は /ˈstɑɹtəd/ スターテッド</li></ul>
+<div class="kana">ウィ ハド ビン キューイング フォー アン アワー ビフォー ザ ゲイム ファイナリー スターテッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners had been queuing at the mine entrance when the creepers exploded.</p>
+<p class="ja">クリーパーが爆発したとき、採掘者たちは鉱山の入り口で列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz həd bɪn ˈkjuːɪŋ æt̚ ðə ˈmaɪn ˈɛntɹəns wɛn ðə ˈkɹiːpərz ɪkˈsploʊdəd/</div>
+<ul class="link"><li>「had been」: had は弱形 /həd/ [həd bɪn] ハド ビン。been も弱形 /bɪn/</li><li>「at the」: /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə]</li><li>「when the」: the は弱形 /ðə/ [wɛn ðə] ウェン ザ</li></ul>
+<div class="kana">ザ マイナーズ ハド ビン キューイング アッ ザ マイン エントランス ウェン ザ クリーパーズ イクスプロウデッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has queued</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/hæz ˈkjuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>queued</mark> at the enchanting table all afternoon.</p>
+<p class="ja">彼女は午後中ずっとエンチャントテーブルで列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi hæz ˈkjuːd æt̚ ðə ɛnˈtʃæntɪŋ ˈteɪbəl ɔːl ˈæftərnuːn/</div>
+<ul class="link"><li>「has queued」: 機能詞 has は弱形 /həz/。[həz ˈkjuːd] ハズ キュード</li><li>「at the」: 語末子音 /t/ が未開放で次の子音に連結 [æt̚ ðə]。the は弱形 /ðə/</li><li>「all afternoon」: 語末子音 /l/ が次の母音に連結 [ɔːl ˈæftərnuːn] オール アフターヌーン</li></ul>
+<div class="kana">シー ハズ キュード アッ ザ エンチャンティング テイブル オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players have <mark>queued</mark> up since the portal opened.</p>
+<p class="ja">プレイヤーたちはポータルが開いてからずっと列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz hæv ˈkjuːd ʌp sɪns ðə ˈpoʊɹtəl ˈoʊpənd/</div>
+<ul class="link"><li>「players have」: 語末 /z/ が子音に先行。have は弱形 /həv/ [ˈpleɪərz həv] プレイアーズ ハヴ</li><li>「queued up」: 語末子音 /d/ が次の母音に連結 [ˈkjuːdʌp] キュード アップ</li><li>「the portal」: the は弱形 /ðə/。[ðə ˈpoʊɹtəl] ザ ポー トル</li></ul>
+<div class="kana">ザ プレイアーズ ハヴ キュード アップ シンス ザ ポー トル オープンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had queued</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/hæd ˈkjuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the raid began, everyone had <mark>queued</mark> at the fortress entrance.</p>
+<p class="ja">レイドが始まる前に、みんなが要塞の入り口で列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔɹ ðə ˈreɪd bɪˈɡæn, ˈɛvriwən hæd ˈkjuːd æt̚ ðə ˈfɔɹtrəs ˈɛntɹəns/</div>
+<ul class="link"><li>「raid began」: 語末子音 /d/ が未開放で次の子音に連結 [ˈreɪd̚ bɪˈɡæn] レイド ビガン</li><li>「had queued」: 機能詞 had は弱形 /həd/。語末 /d/ + /k/ では未開放で分離 [həd̚ ˈkjuːd] ハド キュード</li><li>「at the」: /t/ が未開放。the は弱形 /ðə/ [æt̚ ðə] アッ ザ</li></ul>
+<div class="kana">ビフォー ザ レイド ビガン エブリワン ハド キュード アッ ザ フォートレス エントランス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>queued</mark> for hours when the server maintenance interrupted everything.</p>
+<p class="ja">サーバーメンテナンスがすべてを中断したとき、彼らは何時間も列に並んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ hæd ˈkjuːd fɔɹ ˈaʊɚz wɛn ðə ˈsɜɹvər ˈmeɪntənəns ˌɪntəˈɹʌptəd ˈɛvɹiθɪŋ/</div>
+<ul class="link"><li>「had queued」: 弱形 /həd/ [həd̚ ˈkjuːd] ハド キュード</li><li>「for hours」: 語末子音 /r/ が次の母音に連結 [fɔɹ ˈaʊɚz] フォー アワーズ</li><li>「maintenance interrupted」: 内部の /t/ がフラップ化。interrupted は /ˌɪntəˈɹʌptəd/ インタラプテッド</li></ul>
+<div class="kana">ザイ ハド キュード フォー アワーズ ウェン ザ サーバー メイナナンス インタラプテッド エブリシング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been queuing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/hæz bɪn ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been queuing for the Warden boss fight all day long.</p>
+<p class="ja">彼女は1日中ウォーデンボスファイトのために列に並び続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi hæz bɪn ˈkjuːɪŋ fɔɹ ðə ˈwɔɹdən ˈbɔs ˈfaɪt ɔːl ˈdeɪ ˈlɔŋ/</div>
+<ul class="link"><li>「has been」: 機能詞 has は弱形 /həz/、been も弱形 /bɪn/ [həz bɪn] ハズ ビン</li><li>「for the」: 語末子音 /r/ が次の母音に連結。the は弱形 /ðə/ [fɔɹ ðə] フォー ザ</li><li>「all day」: 語末子音 /l/ が次の母音に連結 [ɔːl ˈdeɪ] オール デイ</li></ul>
+<div class="kana">シー ハズ ビン キューイング フォー ザ ウォーデン ボス ファイト オール デイ ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team has been queuing since the tournament announced the new rankings.</p>
+<p class="ja">チームはトーナメントが新しいランキングを発表してからずっと列に並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim hæz bɪn ˈkjuːɪŋ sɪns ðə ˈtɜɹnəmənt əˈnaʊnst ðə ˈnuː ˈɹæŋkɪŋz/</div>
+<ul class="link"><li>「has been」: 弱形 /həz bɪn/ [həz bɪn] ハズ ビン</li><li>「since the」: 語末 /s/ + 子音 /ð/ では連結なし。the は弱形 /ðə/ [sɪns ðə] シンス ザ</li><li>「the new」: the は弱形 /ðə/。自然な連結 [ðə ˈnuː] ザ ニュー</li></ul>
+<div class="kana">ザ ティーム ハズ ビン キューイング シンス ザ ターナメント アナウンスド ザ ニュー ランキングズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will queue</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈkjuː/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>queue</mark> up at the arena when the tournament starts.</p>
+<p class="ja">トーナメントが始まるとき、私はアリーナで列に並びます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈkjuː ʌp æt̚ ðə əˈɹiːnə wɛn ðə ˈtɜɹnəmənt ˈstɑɹts/</div>
+<ul class="link"><li>「I'll」: will の縮約形 /aɪl/。[aɪl] アイル</li><li>「at the」: 語末子音 /t/ が未開放で次の /ð/ に先行 [æt̚ ðə]。the は弱形 /ðə/</li><li>「tournament starts」: 語末子音 /t/ が未開放 [ˈtɜɹnəmən̚t ˈstɑɹts]</li></ul>
+<div class="kana">アイル キュー アップ アッ ザ アリーナ ウェン ザ ターナメント スターツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>queue</mark> at the spawn point when the server resets.</p>
+<p class="ja">サーバーがリセットされるとき、彼らはスポーンポイントで列に並びます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wəl ˈkjuː æt̚ ðə ˈspɔːn pɔɪnt wɛn ðə ˈsɜɹvər rɪˈsɛts/</div>
+<ul class="link"><li>「will」は機能詞で弱形 /wəl/。[ðeɪ wəl] ザェイ ウル</li><li>「at the」: /t/ 未開放 [æt̚ ðə]。the は弱形 /ðə/</li><li>「point when」: 語末子音 /t/ が未開放で次の子音に先行 [pɔɪn̚t wɛn]</li></ul>
+<div class="kana">ザェイ ウル キュー アッ ザ スポーン ポイント ウェン ザ サーバー リセッツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be queuing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈkjuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll be queuing at the mob farm all afternoon.</p>
+<p class="ja">彼は午後中ずっと、モブファームで列に並んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hiːl bi ˈkjuːɪŋ æt̚ ðə ˈmɑb ˈfɑɹm ɔːl ˌæftərˈnuːn/</div>
+<ul class="link"><li>「he'll be」: he'll /hiːl/、be /bi/。[hiːl bi] ヒール ビー</li><li>「queuing at」: 語末 /ŋ/ + 次の子音 /æ/ = 分離 [ˈkjuːɪŋ æt̚]</li><li>「at the」: /t/ 未開放 [æt̚ ðə]。the は弱形 /ðə/</li></ul>
+<div class="kana">ヒール ビー キューイング アッ ザ マブ ファーム オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be queuing for crafting supplies by tonight.</p>
+<p class="ja">私たちは今夜までに、クラフト用品のために列に並んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiːl bi ˈkjuːɪŋ fɔɹ ˈkɹæftɪŋ səˈplaɪz baɪ təˈnaɪt/</div>
+<ul class="link"><li>「we'll be」: we'll /wiːl/。[wiːl bi] ウィル ビー</li><li>「queuing for」: 語末 /ŋ/ と子音 /f/ = 分離。for は強形 /fɔɹ/ [ˈkjuːɪŋ fɔɹ]</li><li>「supplies by」: 語末 /z/ と子音 /b/ = 分離。自然な流れで [səˈplaɪz baɪ]</li></ul>
+<div class="kana">ウィル ビー キューイング フォー クラフティング サプライズ バイ トゥナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have queued</span><span class="fl">未来完了形</span><span class="fi">/wɪl hæv ˈkjuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/queue_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will have <mark>queued</mark> for hours by the time the event starts.</p>
+<p class="ja">イベントが始まるころには、私は何時間も列に並んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl hæv ˈkjuːd fɔɹ ˈaʊɹz baɪ ðə ˈtaɪm ðə ɪˈvɛnt ˈstɑɹts/</div>
+<ul class="link"><li>「will have」: /wɪl hæv/。[wɪl hæv] ウィル ハヴ</li><li>「for hours」: 語末 /r/ が母音 /ˈaʊ/ に連結 [fɔɹ ˈaʊɹz] フォー アワーズ</li><li>「event starts」: 語末子音 /t/ が未開放で次の子音に先行 [ɪˈvɛn̚t ˈstɑɹts]</li></ul>
+<div class="kana">アイ ウィル ハヴ キュード フォー アワーズ バイ ザ タイム ザ イベント スターツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, they will have <mark>queued</mark> at least once for the tournament.</p>
+<p class="ja">明日までに、彼らはトーナメントのために少なくとも1回は列に並んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑːɹoʊ, ðeɪ wəl əv ˈkjuːd æt̚ ˈliːst wʌns fɔɹ ðə ˈtɜɹnəmənt/</div>
+<ul class="link"><li>「will have」: will は弱形 /wəl/、have は弱形 /əv/ [wəl əv] ウル アヴ</li><li>「at least」: 語末子音 /t/ が未開放で次の /l/ に先行 [æt̚ ˈliːst]</li><li>「for the」: 語末 /r/ が母音に連結 [fɔɹ ðə] フォー ザ</li></ul>
+<div class="kana">バイ トゥモロー ザェイ ウル アヴ キュード アッ リースト ワンス フォー ザ ターナメント</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">queue up</span><span class="im">列に並ぶ、順番を待つ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We all <mark>queued</mark> up to enter the final battle.</p>
+<p class="ja">私たちはみな最終戦に入るために列に並びました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ɔːl ˈkjuːd ʌp tə ˈɛntər ðə ˈfaɪnəl ˈbæɾəl/</div>
+<ul class="link"><li>「all queued」: 語末子音 /l/ が /k/ に連結 [ɔːl kjuːd] オール キュード</li><li>「queued up」: /d/ が /ʌ/ に連結 [ˈkjuːdʌp]</li></ul>
+<div class="kana">ウィー オール キュード アップ タ エンター ザ ファイナル バラル</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">jump the queue</span><span class="im">列を割る、順番を抜かす</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't jump the <mark>queue</mark> or you'll get banned from the server!</p>
+<p class="ja">列を割るなよ、さもないとサーバーからバンされるぞ！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/queue_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/queue_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdoʊnt ˈdʒʌmp ðə ˈkjuː ɔɹ juːl ɡɛt ˈbænd frəm ðə ˈsɜɹvər/</div>
+<ul class="link"><li>「jump the」: 語末子音 /p/ が未開放で /ð/ に先行 [ˈdʒʌm̚ ðə]</li><li>「from」は弱形 /frəm/</li></ul>
+<div class="kana">ドーント ジャンプ ザ キュー オア ユール ゲット バンド フラム ザ サーバー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="queue";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

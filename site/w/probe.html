@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>probe — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>probe</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/proʊb/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1671</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】調査する、探究する、ある物事を徹底的に調べる（investigate or explore thoroughly）</li><li>【動詞】質問などで探る、聞き出そうとする（ask questions to find out something）</li><li>【名詞】探査機、探査装置（a spacecraft or device sent to explore or investigate）</li><li>【名詞】調査、検査、追及（an investigation or examination）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>probed</mark> deep into the cave to find diamonds and ancient ruins.</p>
+<p class="ja">ダイヤと古代遺跡を見つけるため、私は洞窟の奥深くを探った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈproʊbd ˈdip ˈɪntuː ðə ˈkeɪv tə ˈfaɪnd ˈdaɪmənðz ənd ˈeɪnʃənt ˈruːɪnz/</div>
+<ul class="link"><li>probed の語末 /d/ が未開放で deep の /d/ に続く、1つのdに聞こえる [ˈproʊb̚ ˈdip]</li><li>to, the, and は弱形 /tə/, /ðə/, /ənd/ で短縮</li></ul>
+<div class="kana">アイ プロウブディープ イントゥー ザ ケイヴ タ ファインド ダイモンズ エン エイシェント ルーインズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The redstone <mark>probe</mark> detected a player entering the base.</p>
+<p class="ja">レッドストーンプローブはプレイヤーが基地に入るのを検知した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛdˌstoʊn ˈproʊb dɪˈtɛktəd ə ˈpleɪər ˈɛntərɪŋ ðə ˈbeɪs/</div>
+<ul class="link"><li>detected の語末 /d/ が a の /ə/ に連結、一体化 [dɪˈtɛktə]</li><li>the の弱形 /ðə/：ザ</li></ul>
+<div class="kana">ザ レッドストウン プロウブ ディテクタ プレイアー エンタリング ザ ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to <mark>probe</mark> for ores with the mining equipment.</p>
+<p class="ja">採掘機器を使って鉱石を探査する必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈniːd tə ˈproʊb fɔr ˈɔrz wɪð ðə ˈmaɪnɪŋ ɪˈkwɪpmənt/</div>
+<ul class="link"><li>need の /d/ が未開放のまま to の weak form /tə/ に続く [ˈniːd̚ə]</li><li>to, the は弱形で短縮</li></ul>
+<div class="kana">ウィ ニード タ プロウブ フォー オーズ ウィズ ザ マイニング イクウィップメント</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">probes</span><span class="fl">三人称単数現在形</span><span class="fi">/proʊbz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>probes</mark> a deep cavern looking for valuable ores.</p>
+<p class="ja">彼女は貴重な鉱石を探すために深い洞窟を調べています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ˈproʊbzə ˈdip ˈkævɚn ˈlʊkɪŋ fɚ ˈvæljuəbəl ˈɔɹz]</div>
+<ul class="link"><li>「probes a」—語末子音 /z/ が母音 /ə/ に連結 [ˈproʊbzə] プロウブザ</li><li>「for」機能語の弱形 /fɔɹ/ → /fɚ/ ファー</li></ul>
+<div class="kana">シー プロウブザ ディープ キャバーン ルッキング ファー ヴァリュアブル オアーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Every player <mark>probes</mark> ore carefully to maximize resource collection.</p>
+<p class="ja">すべてのプレイヤーが資源採集を最大化するために鉱石を注意深く調査します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈɛvɹi ˈpleɪɚ ˈproʊbz ˈɔɹ ˈkɛɹfəli tə ˈmæksəmaɪz ɹɪˈsɔɹs kəˈlɛkʃən]</div>
+<ul class="link"><li>「probes ore」—語末子音 /z/ が母音 /ɔ/ に連結 [ˈproʊbzɔɹ] プロウゾアー</li><li>「to」機能語の弱形 /tu/ → /tə/ タ</li><li>「player probes」間の /ɹ/ と /p/ は連結しない</li></ul>
+<div class="kana">エヴリ プレイアー プロウゾアー ケアフリー タ マクサマイズ リソース コレクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">probed</span><span class="fl">過去形</span><span class="fi">/proʊbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>probed</mark> deep underground and discovered an ancient stronghold.</p>
+<p class="ja">私は深く地下を調べて、古代の砦を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈproʊbd ˈdip ˌʌndɚˈɡraʊnd ənd dɪˈskʌvɚd ən ˈeɪnʃənt ˈstrɔŋhoʊld]</div>
+<ul class="link"><li>「probed deep」—語末子音 /d/ が子音 /d/ に先行、/d/ は未開放で発音 [ˈproʊb̚ˈdip] プロウッディープ</li><li>「and」弱形 /ænd/ → /ənd/ アンド</li><li>「an ancient」—冠詞 an は弱形で /ən/、古代の /eɪ/ に連結</li></ul>
+<div class="kana">アイ プロウッディープ アンダーグラウンド エンド ディスカヴァー エン エイシェント ストロングホウルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>probed</mark> the nether fortress for netherite last week.</p>
+<p class="ja">彼らは先週、ネザー要塞からネザライトを求めて調査しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ ˈproʊbd ðə ˈnɛðɚ ˈfɔɹtɹɪs fɚ ˈnɛðɚaɪt læst wik]</div>
+<ul class="link"><li>「probed the」—語末子音 /d/ が子音 /ð/ に先行、未開放で発音 [ˈproʊb̚ðə] プロウッザ</li><li>「the」弱形 /ðə/ → ザ</li><li>「for」機能語の弱形 /fɔɹ/ → /fɚ/ ファー</li></ul>
+<div class="kana">ザイ プロウッザ ネザー フォーテス ファー ネザーライト ラスト ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">probed</span><span class="fl">過去分詞</span><span class="fi">/proʊbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>probed</mark> the ruins, we found several valuable artifacts hidden underground.</p>
+<p class="ja">廃墟を調査した後、私たちは地下に隠された貴重な工芸品をいくつか見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˈproʊbd ðə ˈruːɪnz wi faʊnd ˈsɛvɚəl ˈvæljuəbəl ˈɑɹtɪfækts ˈhɪdən ˌʌndɚˈɡraʊnd]</div>
+<ul class="link"><li>「Having probed」—語末子音 /ŋ/ が子音 /p/ に先行、未開放で発音 [ˈhævɪŋ̚ ˈproʊbd] ハービングプロウブド</li><li>「probed the」—語末子音 /d/ が子音 /ð/ に先行、未開放で発音 [ˈproʊb̚ðə] プロウッザ</li><li>「the」弱形 /ðə/ → ザ</li></ul>
+<div class="kana">ハービングプロウブド ザ ルーインズ ウィー ファウンド セヴァラル ヴァリュアブル アーティファックツ ヒデン アンダーグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The cave we <mark>probed</mark> contained countless diamonds and rare gems.</p>
+<p class="ja">私たちが調査した洞窟は数え切れないほどのダイヤモンドと珍しい宝石を含んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈkeɪv wi ˈproʊbd kənˈteɪnd ˈkaʊntləs ˈdaɪmənðz ənd ˈrɛɹ dʒɛmz]</div>
+<ul class="link"><li>「probed contained」—語末子音 /d/ が子音 /k/ に先行、未開放で発音 [ˈproʊb̚kənˈteɪnd] プロウッコンテインド</li><li>「and」弱形 /ənd/ → アンド</li></ul>
+<div class="kana">ザ ケイヴ ウィー プロウッコンテインド カウントレス ダイモンズ エン レアー ジェムズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">probing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Probing for ancient debris in the nether requires special equipment and patience.</p>
+<p class="ja">ネザーで古代の破片を求めて調査することは特別な機器と忍耐力が必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈproʊbɪŋ fɚ ˈeɪnʃənt dɪˈbɹis ɪn ðə ˈnɛðɚ rɪˈkwaɪɚz ˈspɛʃəl ɪˈkwɪpmənt ənd ˈpeɪʃəns]</div>
+<ul class="link"><li>「Probing for」—語末子音 /ŋ/ が子音 /f/ に先行、/ŋ/ は鼻音で未開放 [ˈproʊbɪŋ̚fɚ] プロウビングファー</li><li>「for」機能語の弱形 /fɔɹ/ → /fɚ/ ファー</li><li>「in the」—弱形 /ðə/ → ザ</li></ul>
+<div class="kana">プロウビングファー エイシェント デブリース イン ザ ネザー リクワイアーズ スペシャル イクウィップメント エン ペイシェンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By probing systematically, we discovered three hidden dungeons in one day.</p>
+<p class="ja">体系的に調査することで、私たちは1日で3つの隠されたダンジョンを発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ˈproʊbɪŋ ˌsɪstəˈmætɪkli wi dɪˈskʌvɚd θri ˈhɪdən ˈdʌndʒənz ɪn wʌn deɪ]</div>
+<ul class="link"><li>「probing systematically」—語末子音 /ŋ/ が子音 /s/ に先行、未開放で発音 [ˈproʊbɪŋ̚sɪs] プロウビングシス</li><li>「we discovered」—弱形や連結なし、通常の連結</li></ul>
+<div class="kana">バイ プロウビング シスタマティカリー ウィー ディスカヴァード スリー ヒデン ダンジョンズ イン ワン デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">probes</span><span class="fl">複数形</span><span class="fi">/proʊbz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>These electronic <mark>probes</mark> automatically detect ore deposits within the mining region.</p>
+<p class="ja">これらの電子プローブは採掘地域内の鉱床を自動的に検出します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðiz ɪˌlɛkˈtrɑnɪk ˈproʊbz ˌɔtəˈmætɪkli dɪˈtɛkt ˈɔɹ dɪˈpoʊzɪts wɪðɪn ðə ˈmaɪnɪŋ ˈɹidʒən]</div>
+<ul class="link"><li>「These electronic」—語末子音 /k/ が子音 /p/ に先行、未開放で発音 [ɪˌlɛkˈtrɑnɪk̚ ˈproʊbz] エレクトロニック プロウブズ</li><li>「probes automatically」—語末子音 /z/ が母音 /ɔ/ に連結 [ˈproʊbz ˌɔtə] プロウズオー オートマティカリー</li><li>「the mining」—弱形 /ðə/ → ザ</li></ul>
+<div class="kana">ディーズ イレクトロニック プロウズオー オートマティカリー ディテクト オアー ディポジッツ ウィザイン ザ マイニング リージョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple sensor <mark>probes</mark> are scattered throughout the base to monitor intruders.</p>
+<p class="ja">複数のセンサープローブは侵入者を監視するためにベース全体に散在しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈmʌltɪpəl ˈsɛnsɚ ˈproʊbz ɑɹ ˈskætɚd θɹuːˈaʊt ðə ˈbeɪs tu ˈmɑnɪtɚ ɪnˈtɹuːdɚz]</div>
+<ul class="link"><li>「sensor probes」—語末子音 /ɹ/ が子音 /p/ に先行、通常の子音-子音境界 [ˈsɛnsɚ ˈproʊbz]</li><li>「probes are」—語末子音 /z/ が母音 /ɑ/ に連結 [ˈproʊbz ɑɹ] プロウズアー</li><li>「throughout the」—語末 /t/ が子音 /ð/ に先行、弱形 /ðə/ → ザ</li></ul>
+<div class="kana">マルティプル センサー プロウズアー アー スキャタード スルーアウト ザ ベイス トゥー モニター インデューダーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is probing</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The archaeologist is probing the cave system for valuable ores and ancient ruins.</p>
+<p class="ja">考古学者は貴重な鉱石と古代遺跡を求めて洞窟システムを調査しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˌɑɹkiˈɑlədʒɪst ɪz ˈproʊbɪŋ ðə ˈkeɪv ˈsɪstəm fɔɹ ˈvæljuəbəl ˈɔɹz ənd ˈeɪnʃənt ˈɹuːɪnz]</div>
+<ul class="link"><li>「is probing」—弱形 is /ɪz/ が子音 /p/ に先行</li><li>「probing the」—語末子音 /ŋ/ が子音 /ð/ に先行、/ŋ/ は未開放で発音</li><li>「for」機能語の弱形 /fɔɹ/ → /fɚ/</li></ul>
+<div class="kana">ザ アーキーアラジスト イズ プロウビング ザ ケイヴ システム ファー ヴァリュアブル オアーズ エン エイシェント ルーインズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I am probing the redstone circuit right now to understand how it activates.</p>
+<p class="ja">私は今、それがどのように起動するかを理解するためにレッドストーン回路を調査しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ əm ˈproʊbɪŋ ðə ˈrɛdˌstoʊn ˈsɚkɪt ɹaɪt naʊ tə ˌʌndɚˈstænd haʊ ɪt ˈæktɪveɪts]</div>
+<ul class="link"><li>「am probing」—弱形 am /əm/ が子音 /p/ に先行</li><li>「probing the」—語末子音 /ŋ/ が子音 /ð/ に先行、未開放で /ŋ̚/、弱形 /ðə/</li><li>「to understand」—to の弱形 /tə/ → タ</li></ul>
+<div class="kana">アイ アム プロウビング ザ レッストウン サーキット ライト ナウ タ アンダースタンド ハウ イット アクティヴェイツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was probing</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She was probing the nether fortress when a ghast attacked her position.</p>
+<p class="ja">彼女がネザー要塞を調査していた時、ガストが彼女の位置を攻撃しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi wəz ˈproʊbɪŋ ðə ˈnɛðɚ ˈfɔɹtɹɪs wɛn ə ˈɡæst əˈtækt hɚ pəˈzɪʃən]</div>
+<ul class="link"><li>「was probing」—弱形 was /wəz/ が子音 /p/ に先行</li><li>「probing the」—語末子音 /ŋ/ が子音 /ð/ に先行、未開放で /ŋ̚/、弱形 /ðə/</li><li>「when a」—弱形 a /ə/ が子音 /ɡ/ に先行</li></ul>
+<div class="kana">シー ワズ プロウビング ザ ネザー フォーテス ウェン ア ガスト アタクト ハー ポジション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were probing for deepslate ore when the cave system suddenly collapsed.</p>
+<p class="ja">彼らがディープスレート鉱石を探査していた時、洞窟システムが突然崩壊しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɚ ˈproʊbɪŋ fɔɹ ˈdipˌsleɪt ˈɔɹ wɛn ðə ˈkeɪv ˈsɪstəm ˈsʌdənli kəˈlæpst]</div>
+<ul class="link"><li>「were probing」—弱形 were /wɚ/ が子音 /p/ に先行</li><li>「probing for」—語末子音 /ŋ/ が子音 /f/ に先行、未開放で /ŋ̚/</li><li>「for」機能語の弱形 /fɔɹ/ → /fɚ/</li></ul>
+<div class="kana">ザエイ ワー プロウビング ファー ディープスレイト オアー ウェン ザ ケイヴ システム サデンリー コラプスド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been probing</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before we discovered the stronghold, we had been probing that area for over three hours.</p>
+<p class="ja">我々が要塞を発見する前に、その地域を3時間以上調査していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[bɪˈfɔɹ wi dɪsˈkʌvɚd ðə ˈstrɔŋˌhoʊld wi həd bɪn ˈproʊbɪŋ ðæt ˈɛɹiə fɔɹ ˈoʊvɚ θri ˈaʊɚz]</div>
+<ul class="link"><li>「had been」—弱形 had /həd/ が子音 /b/ に先行、弱形 been /bɪn/ が子音 /p/ に先行</li><li>「been probing」—語末子音 /n/ が子音 /p/ に先行、未開放で /n̚/</li><li>「for over」—機能語 for の弱形 /fɚ/</li></ul>
+<div class="kana">ビフォア ウィー ディスカヴァード ザ ストロングホウルド ウィー ハド ビン プロウビング ザット エリア ファー オウバー スリー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been probing the ancient temple when they suddenly found the treasure vault.</p>
+<p class="ja">彼らが古代寺院を調査していた時、突然宝物庫を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd bɪn ˈproʊbɪŋ ðə ˈeɪnʃənt ˈtɛmpəl wɛn ðeɪ ˈsʌdənli faʊnd ðə ˈtɹɛʒɚ vɔlt]</div>
+<ul class="link"><li>「had been」—弱形 had /həd/ が子音 /b/ に先行、弱形 been /bɪn/ が子音 /p/ に先行</li><li>「been probing」—語末子音 /n/ が子音 /p/ に先行、未開放で /n̚/</li><li>「the ancient」—弱形 the /ðə/ が母音 /eɪ/ に先行し連結</li></ul>
+<div class="kana">ザエイ ハド ビン プロウビング ザ エイシェント テンプル ウェン ザエイ サデンリー ファウンド ザ トレジャー ヴォルト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has probed</span><span class="fl">現在完了形</span><span class="fi">/həz ˈproʊbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team has <mark>probed</mark> deep into the cave system to find diamonds.</p>
+<p class="ja">チームは深い洞窟システムを調査してダイヤモンドを見つけています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtim həz ˈproʊb̚ ˈdip ˈɪntuː ðə ˈkeɪv ˈsɪstəm tə ˈfaɪnd ˈdaɪmənθz]</div>
+<ul class="link"><li>has probed deep—弱形 has /həz/、probed の語末 /d/ が未開放で deep の /d/ に続く [həz ˈproʊb̚ˈdip] ハズ プロウッディープ</li><li>into the—to は弱形 /tə/ → タ、the は弱形 /ðə/ → ザ</li></ul>
+<div class="kana">ザ ティーム ハズ プロウッディープ イントゥー ザ ケイヴ システム タ ファインド ダイモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>probed</mark> multiple locations and discovered ancient ruins.</p>
+<p class="ja">彼女は複数の場所を調査して古代遺跡を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi həz ˈproʊb̚ ˈmʌltɪpəl loʊˈkeɪʃənz ənd dɪˈskʌvɚd ˈeɪnʃənt ˈruːɪnz]</div>
+<ul class="link"><li>has probed multiple—弱形 has /həz/、probed の語末 /d/ が未開放で multiple の /m/ に先行 [həz ˈproʊb̚ ˈmʌltɪpəl] ハズ プロウッマルティプル</li><li>locations and—and は弱形 /ənd/ → エン</li></ul>
+<div class="kana">シー ハズ プロウッマルティプル ローケイションズ エン ディスカヴァード エイシェント ルーインズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had probed</span><span class="fl">過去完了形</span><span class="fi">/həd ˈproʊbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before we built the base, we had <mark>probed</mark> the terrain thoroughly.</p>
+<p class="ja">基地を建築する前に、私たちは地形を十分に調査していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[bɪˈfɔɹ wi ˈbɪlt ðə ˈbeɪs wi həd ˈproʊb̚ðə təˈreɪn ˈθʌɹoʊli]</div>
+<ul class="link"><li>had probed the—弱形 had /həd/ が子音 /p/ に先行、probed の語末 /d/ が未開放で the の /ð/ に続く [həd ˈproʊb̚ðə] ハド プロウッザ</li><li>the terrain—弱形 the /ðə/ → ザ、terrain に連結</li></ul>
+<div class="kana">ビフォア ウィー ビルト ザ ベイス ウィー ハド プロウッザ タレイン スルーリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the trap was triggered, they had <mark>probed</mark> the mechanism.</p>
+<p class="ja">トラップが起動する頃までに、彼らはメカニズムを調査していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm ðə ˈtræp wəz ˈtrɪɡɚd ðeɪ həd ˈproʊb̚ðə ˈmɛkənɪzəm]</div>
+<ul class="link"><li>had probed the—弱形 had /həd/ が子音 /p/ に先行、probed の語末 /d/ が未開放で the の /ð/ に続く [həd ˈproʊb̚ðə] ハド プロウッザ</li><li>the mechanism—弱形 the /ðə/ → ザ、mechanism に先行</li></ul>
+<div class="kana">バイ ザ タイム ザ トラップ ワズ トリガード ザイ ハド プロウッザ メカニズム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been probing</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sensor has been probing for intruders all morning.</p>
+<p class="ja">センサーは朝中ずっと侵入者を探査し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɛnsɚ həz bɪn ˈproʊbɪŋ̚ fɔɹ ɪnˈtɹuːdɚz ɔl ˈmɔɹnɪŋ]</div>
+<ul class="link"><li>has been—弱形 has /həz/、弱形 been /bɪn/ が子音 /p/ に先行 [həz bɪn] ハズ ビン</li><li>been probing for—been の語末 /n/ が未開放で probing の /p/ に先行、probing の語末 /ŋ/ が未開放で for の /f/ に先行 [bɪn̚ ˈproʊbɪŋ̚ fɔɹ] ビン プロウビングファー</li></ul>
+<div class="kana">ザ センサー ハズ ビン プロウビングファー イントゥルーダーズ オール モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been probing the nether fortress for hidden passages.</p>
+<p class="ja">私たちはネザー要塞の隠されたルートを探査し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi həv bɪn ˈproʊbɪŋ̚ðə ˈnɛðɚ ˈfɔɹtɹɪs fɚ ˈhɪdən ˈpæsɪdʒɪz]</div>
+<ul class="link"><li>have been—弱形 have /həv/、弱形 been /bɪn/ が子音 /p/ に先行 [həv bɪn] ハヴ ビン</li><li>been probing the—been の語末 /n/ が未開放で probing の /p/ に先行、probing の語末 /ŋ/ が未開放で the の /ð/ に先行 [bɪn̚ ˈproʊbɪŋ̚ðə] ビン プロウビングザ</li></ul>
+<div class="kana">ウィー ハヴ ビン プロウビングザ ネザー フォートレス ファー ヒデン パッシジズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will probe</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈproʊb/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>probe</mark> the cave system for diamonds this weekend.</p>
+<p class="ja">私は週末に、ダイヤを探して洞窟システムを調査します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wɪl ˈproʊb ðə ˈkeɪv ˈsɪstəm fɚ ˈdaɪmənz ðɪs ˈwikˌɛnd]</div>
+<ul class="link"><li>「will probe」—will は機能語で弱化傾向。[wɪl ˈproʊb] ウィル プロウブ</li><li>「probe the」—probe の語末子音 /b/ の後、the の弱形 /ðə/ が続く</li><li>「for diamonds」—機能語 for の弱形 /fɚ/、diamonds の /d/ に連結</li></ul>
+<div class="kana">アイ ウィル プロウブ ザ ケイヴ システム ファー ダイモンズ ディス ウィークエンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>probe</mark> for deepslate ore after the mining update.</p>
+<p class="ja">彼らは採掘アップデート後、ディープスレート鉱石を探査します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɪl ˈproʊb fɚ ˈdipˌsleɪt ˈɔɹ ˈæftɚ ðə ˈmaɪnɪŋ ˈʌpˌdeɪt]</div>
+<ul class="link"><li>「will probe」—will の弱化。[wɪl ˈproʊb] ウィル プロウブ</li><li>「for deepslate」—for の弱形 /fɚ/、deepslate の /d/ に連結</li></ul>
+<div class="kana">ザイ ウィル プロウブ ファー ディープスレイト オアー アフター ザ マイニング アップデイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be probing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈproʊbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be probing the nether fortress when you arrive at the base.</p>
+<p class="ja">あなたが基地に着いた時、私たちはネザー要塞を調査しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi wɪl bi ˈproʊbɪŋ̚ ðə ˈnɛðɚ ˈfɔɹtɹɪs wɛn ju əˈraɪv ət ðə ˈbeɪs]</div>
+<ul class="link"><li>「will be probing」—will, be は機能語で弱化。be の /i/ の後 probing の /p/ が続く</li><li>「probing the」—probing の語末 /ŋ/ が子音 /ð/ に先行、鼻音で未開放 [ˈproʊbɪŋ̚ðə] プロウビングザ。the は弱形 /ðə/</li><li>「when you」—when の語末 /n/ が you の /j/ に続く。滑らかな連結</li></ul>
+<div class="kana">ウィー ウィル ビー プロウビングザ ネザー フォーテス ウェン ユー アライヴ エット ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be probing the ancient temple for hidden treasures.</p>
+<p class="ja">彼女は古代寺院の隠された宝物を探査しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi wɪl bi ˈproʊbɪŋ̚ ðɪ ˈeɪnʃənt ˈtɛmpəl fɚ ˈhɪdən ˈtrɛʒɚz]</div>
+<ul class="link"><li>「will be probing」—will, be 弱化。be /bi/ の後 probing /p/ が続く</li><li>「probing the」—probing の語末 /ŋ/ が子音 /ð/ に先行、未開放で発音 [ˈproʊbɪŋ̚ðɪ] プロウビングザ</li><li>「the ancient」—the の弱形 /ðɪ/、ancient の /eɪ/ に連結し滑らかに繋がる</li></ul>
+<div class="kana">シー ウィル ビー プロウビングザ エイシェント テンプル ファー ヒデン トレジャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have probed</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈproʊbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/probe_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tonight, we will have <mark>probed</mark> the entire cave system.</p>
+<p class="ja">今夜までに、私たちは洞窟システム全体を調査します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ təˈnaɪt wi wɪl həv ˈproʊb̚ðɪ ɪnˈtaɪɚ ˈkeɪv ˈsɪstəm]</div>
+<ul class="link"><li>「will have」—will /wɪl/, have 弱形 /həv/。両者ともに子音で終わり、クラスタ形成</li><li>「probed the」—probed の語末子音 /d/ が子音 /ð/ に先行、未開放で発音 [ˈproʊb̚ðɪ] プロウッザ。the は弱形 /ðɪ/</li></ul>
+<div class="kana">バイ タナイト ウィー ウィル ハヴ プロウッザ イン タイアー ケイヴ システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>probed</mark> three dungeons by the end of the week.</p>
+<p class="ja">週末までに、彼らは3つのダンジョンを調査します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɪl həv ˈproʊb̚ðɹi ˈdʌndʒənz baɪ ðə ˈɛnd əv ðə ˈwik]</div>
+<ul class="link"><li>「will have」—will, have 弱形で子音クラスタ /wɪl həv/</li><li>「probed three」—probed の語末 /d/ が子音クラスタ /ðɹ/ に先行、未開放で発音 [ˈproʊb̚ðɹi] プロウッスリー</li></ul>
+<div class="kana">ザイ ウィル ハヴ プロウッスリー ダンジョンズ バイ ザ エンド アヴ ザ ウィーク</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">probe into</span><span class="im">〜を詳しく調査する、〜について探る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The admin <mark>probed</mark> into the player's suspicious activities.</p>
+<p class="ja">管理者はプレイヤーの疑わしい活動を詳しく調査した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/probe_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/probe_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn ˈproʊbd ˈɪntuː ðə ˈpleɪərz səˈspɪʃəs ækˈtɪvətiz/</div>
+<ul class="link"><li>probed の /d/ が into の /ɪ/ に連結 [ˈproʊbɪntuː]</li><li>the の弱形 /ðə/</li></ul>
+<div class="kana">ザ アドミン プロウビントゥー ザ プレイアーズ サスピシャス アクティヴィティーズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="probe";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>cram — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>cram</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/kræm/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1422</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】詰め込む、無理やり詰める（～をぎゅうぎゅうに押し込む）</li><li>【動詞】一夜漬けで勉強する（試験に向けて短期集中で学ぶ）</li><li>【名詞】詰め込み、満杯の状態</li><li>【名詞】一夜漬けの勉強、臨時の詰め込み学習</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>crammed</mark> the furnace with coal and started a massive smelting operation.</p>
+<p class="ja">私たちは炉に石炭をいっぱい詰め込んで、大規模な製錬作業を始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪ ˈkræmd̚ðə ˈfɜɹnɪs wɪð koʊl ən ˈstɑɹtəd ə ˈmæsɪv ˈsmɛltɪŋ ˌɑpəˈɹeɪʃən/</div>
+<ul class="link"><li>crammed the → 語末子音 /d/ が無声音 /ð/ の前で未開放 [kræmd̚ðə] クラムッ ザ</li><li>and started → 機能語 and は弱形 /ən/ で /d/ が脱落 [ən ˈstɑɹtəd] アン スターテッド</li><li>a massive → 冠詞 a は弱形 /ə/ で、m に自然に続く [ə ˈmæsɪv] ア マッシヴ</li></ul>
+<div class="kana">ウィ クラムッ ザ ファーニス ウィズ コウル アン スターテッド ア マッシヴ スメルティング オペレーション</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>crammed</mark> every valuable item into my emergency backup chest.</p>
+<p class="ja">私は貴重なアイテムをすべて緊急バックアップチェストに詰め込みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈkræmd ˈɛvɜɹi ˈvæljuəbəl ˈaɪɾəm ˈɪnɾə maɪ ɪˈmɜɹdʒənsi ˈbækəp̚ tʃɛst/</div>
+<ul class="link"><li>item into → t が母音に挟まれフラップ化し連結 [ˈaɪɾəm ˈɪnɾə] アイラム インラ</li><li>into my → into の弱形 /ə/ が /m/ に連結 [ˈɪnɾə maɪ] インラ マイ</li><li>backup chest → 語末子音 /p/ が無声子音前で未開放 [ˈbækəp̚ tʃɛst] バックアップ チェスト</li></ul>
+<div class="kana">アイ クラムド エヴリ ヴァリュアブル アイラム インラ マイ イマージェンシー バックアップ チェスト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She's been <mark>cramming</mark> redstone knowledge for tomorrow's build challenge.</p>
+<p class="ja">彼女は明日のビルド大会に向けてレッドストーンの知識を詰め込み勉強してきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiz bɪn ˈkræmɪŋ ˈɹɛdstoʊn ˈnɑlɪdʒ fɚ təˈmɑɹoʊz bɪld ˈtʃælɪndʒ/</div>
+<ul class="link"><li>for tomorrow's → 前置詞 for は弱形 /fɚ/ に弱化、r が母音に連結 [fɚ təˈmɑɹoʊz] ファー タモローズ</li><li>redstone build → 語末 /n/ と次の /b/ が続く（特に変化なし） [ˈɹɛdstoʊn bɪld] レッドストウン ビルッ チャレンジ</li></ul>
+<div class="kana">シーズ ビン クラミング レッドストウン ナリッジ ファー タモローズ ビルッ チャレンジ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">crams</span><span class="fl">複数形（名詞）</span><span class="fi">/kræmz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The late-night <mark>crams</mark> before exams help players prepare for the Redstone test.</p>
+<p class="ja">試験前の夜間の詰め込み勉強は、プレイヤーがレッドストーン試験に備えるのに役立ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈleɪt ˈnaɪt ˈkræmz bɪˈfɔr ɪɡˈzæmz ˈhɛlp ˈpleɪərz prɪˈpɛr fɔr ðə ˈrɛdˌstoʊn ˈtɛst/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>crams の s が before に続く（子音+子音、連結なし）[ˈkræmz bɪˈfɔr] クラムズ ビフォア</li><li>before の r が exams に連結 [bɪˈfɔr ɪɡˈzæmz] ビフォア イグザムズ</li><li>for は弱形 /fɔr/ or /fɚ/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ レイト ナイト クラムズ ビフォア イグザムズ ヘルプ プレイヤーズ プリペアー フォー ザ レッドストーン テスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Several <mark>crams</mark> throughout the season improved our team's skills.</p>
+<p class="ja">シーズン中の複数の詰め込み勉強期間が、チームのスキルを向上させました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɛvɚəl ˈkræmz θruːˈaʊt ðə ˈsizən ɪmˈpruːvd aʊər ˈtim skɪlz/</div>
+<ul class="link"><li>crams の s が throughout に続く（子音+子音、連結なし）</li><li>throughout は強形で /θruːˈaʊt/</li><li>the は弱形 /ðə/</li><li>improved の d が our に連結 [ɪmˈpruːvd aʊər] インプルーブド アワー</li><li>team の m が skills に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">セヴラル クラムズ スルーアウト ザ シーズン インプルーフド アワー ティーム スキルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">crams</span><span class="fl">三人称単数現在形</span><span class="fi">/kræmz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>crams</mark> as many items as possible into her backpack before exploring.</p>
+<p class="ja">彼女は探索する前に、できるだけ多くのアイテムをバックパックに詰め込みます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈkræmz əz ˈmɛni ˈaɪtəmz əz ˈpɑsəbəl ˈɪntu hər ˈbækˌpæk bɪˈfɔr ɪkˈsplɔrɪŋ/</div>
+<ul class="link"><li>crams の s が as に連結 [ˈkræmz əz] クラムズ アズ。as は弱形 /əz/</li><li>as の z が many に続く（子音+子音、連結なし）[əz ˈmɛni] アズ メニー</li><li>items の z が as に連結 [ˈaɪtəmz əz] アイテムズ アズ</li><li>into の o が her に弱化 [ɪntu hər] インチュ ハー</li><li>before の r が exploring に連結 [bɪˈfɔr ɪkˈsplɔrɪŋ] ビフォア イクスプロアリング</li></ul>
+<div class="kana">シー クラムズ アズ メニー アイテムズ アズ ポッスィブル イントゥ ハー バックパック ビフォア イクスプロアリング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>crams</mark> the storage room with supplies from the farm harvest.</p>
+<p class="ja">彼は農場の収穫から物資でストレージルームをぎゅうぎゅう詰めにします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈkræmz ðə ˈstɔrɪdʒ ˈrum wɪð səˈplaɪz frəm ðə ˈfɑrm ˈhɑrvɪst/</div>
+<ul class="link"><li>crams の s が the に続く（子音+子音、連結なし）[ˈkræmz ðə] クラムズ ザ</li><li>room の m が with に続く（子音+子音、連結なし）</li><li>with は /wɪð/</li><li>supplies の z が from に続く（子音+子音、連結なし）</li><li>from は弱形 /frəm/</li><li>farm の m が harvest に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">ヒー クラムズ ザ ストレッジ ルーム ウィズ サプライズ フラム ザ ファーム ハーベスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">crammed</span><span class="fl">過去形</span><span class="fi">/kræmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>crammed</mark> all our mining equipment into the base before the Creeper explosion.</p>
+<p class="ja">クリーパーの爆発の前に、すべての採掘装備をベースに詰め込みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈkræmd ɔːl aʊər ˈmaɪnɪŋ ɪˈkwɪpmənt ˈɪntu ðə ˈbeɪs bɪˈfɔr ðə ˈkriːpər ɪkˈsploʊʒən/</div>
+<ul class="link"><li>crammed の d が all に連結 [ˈkræmd ɔːl] クラムド オール</li><li>our の r が mining に続く（子音+子音、連結なし）[aʊər ˈmaɪnɪŋ] アワー マイニング</li><li>into の o が the に弱化 [ɪntu ðə] インチュ ザ</li><li>before の r が the に連結 [bɪˈfɔr ðə] ビフォア ザ</li><li>Creeper の r が explosion に連結 [ˈkriːpər ɪkˈsploʊʒən] クリーパー イクスプロージョン</li></ul>
+<div class="kana">ウィ クラムド オール アワー マイニング イクイップメント イントゥ ザ ベイス ビフォア ザ クリーパー エクスプロージョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>crammed</mark> the chest with enchanted books before the server maintenance.</p>
+<p class="ja">サーバーメンテナンスの前に、彼らはエンチャント本をチェストに詰め込みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈkræmd ðə tʃɛst wɪð ɛnˈtʃɑntɪd ˈbʊks bɪˈfɔr ðə ˈsɝːvər ˈmeɪntənəns/</div>
+<ul class="link"><li>crammed の d が the に連結 [ˈkræmd ðə] クラムド ザ</li><li>chest の t が with に続く（子音+子音、連結なし）</li><li>with は /wɪð/</li><li>books の s が before に続く（子音+子音、連結なし）</li><li>before の r が the に連結 [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">ザイ クラムド ザ チェスト ウィズ エンチャンティッド ブックス ビフォア ザ サーバー メイントナンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">crammed</span><span class="fl">過去分詞</span><span class="fi">/kræmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>crammed</mark> everything into one chest, we finally had space for more blocks.</p>
+<p class="ja">すべてを1つのチェストに詰め込んだので、ようやくより多くのブロックのスペースができました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˈkræmd ˈɛvriθɪŋ ˈɪntu wʌn tʃɛst | wi ˈfaɪnəli hæd ˈspeɪs fɔr ˈmoʊr blɑks/</div>
+<ul class="link"><li>Having の g が crammed に未開放で続く [ˈhævɪŋ ˈkræmd] ハービング クラムド</li><li>crammed の d が everything に連結 [ˈkræmd ˈɛvriθɪŋ] クラムド エヴリシング</li><li>into の o が one に弱化 [ˈɪntu wʌn] インチュ ワン</li><li>had は弱形 /hæd/ or /həd/</li><li>for は弱形 /fɔr/ or /fɚ/</li></ul>
+<div class="kana">ハービング クラムド エヴリシング イントゥ ワン チェスト、ウィ ファイナリー ハド スペイス フォア モア ブロックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies we had <mark>crammed</mark> into the shelter lasted us through the night.</p>
+<p class="ja">シェルターに詰め込んだ物資は、私たちを夜中ずっと持ちこたえさせました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz wi hæd ˈkræmd ˈɪntu ðə ˈʃɛltər ˈlæstɪd əs θruː ðə ˈnaɪt/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>supplies の z が we に続く（子音+子音、連結なし）</li><li>had の d が crammed に未開放で続く [hæd ˈkræmd] ハド クラムド</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li><li>shelter の r が lasted に連結 [ˈʃɛltər ˈlæstɪd] シェルター ラスティッド</li><li>through の h が the に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">ザ サプライズ ウィ ハド クラムド イントゥ ザ シェルター ラスティッド アス スルー ザ ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">cramming</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Cramming</mark> resources into the inventory before a boss fight is a survival strategy.</p>
+<p class="ja">ボス戦の前にインベントリにリソースを詰め込むことは生存戦略です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkræmɪŋ rɪˈsɔrsəz ˈɪntu ðə ɪnˈvɛntəri bɪˈfɔr ə bɔs ˈfaɪt ɪz ə sərˈvaɪvəl ˈstrætədʒi/</div>
+<ul class="link"><li>cramming の ŋ が resources に未開放で続く [ˈkræmɪŋ rɪˈsɔrsəz] クラミング リソーシズ</li><li>into の o が the に弱化 [ɪntu ðə] インチュ ザ</li><li>before の r が a に連結 [bɪˈfɔr ə] ビフォア ア</li><li>a は弱形 /ə/ or /eɪ/</li><li>is は弱形 /ɪz/</li></ul>
+<div class="kana">クラミング リソーシズ イントゥ ザ インベントリー ビフォア ア ボス ファイト イズ ア サーバイバル ストラテジー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>cramming</mark> our base with decorations to make it look beautiful.</p>
+<p class="ja">私たちはベースを美しく見せるために装飾でいっぱいにしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈkræmɪŋ aʊər ˈbeɪs wɪð ˌdɛkəˈreɪʃənz tu meɪk ɪt ˈlʊk ˈbjuːtɪfəl/</div>
+<ul class="link"><li>are の r が cramming に連結 [ɑr ˈkræmɪŋ] アー クラミング</li><li>cramming の ŋ が our に未開放で続く [ˈkræmɪŋ aʊər] クラミング アワー</li><li>our の r が base に連結 [aʊər ˈbeɪs] アワー ベイス</li><li>with は /wɪð/</li><li>to は弱形 /tə/</li><li>it の t が look に未開放で続く [ɪt ˈlʊk] イット ルック</li></ul>
+<div class="kana">ウィ アー クラミング アワー ベイス ウィズ デコレーションズ トゥ メイク イット ルック ビューティフル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is cramming</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>cramming</mark> supplies into the storage room as fast as possible.</p>
+<p class="ja">彼女はできるだけ早く物資をストレージルームに詰め込んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz ˈkræmɪŋ səˈplaɪz ˈɪntu ðə ˈstɔrɪdʒ ˈrum əz ˈfæst əz ˈpɑsəbəl/</div>
+<ul class="link"><li>is は弱形 /ɪz/</li><li>cramming の ŋ が supplies に未開放で続く [ˈkræmɪŋ səˈplaɪz] クラミング サプライズ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li><li>as は弱形 /əz/（2度出現）</li></ul>
+<div class="kana">シー イズ クラミング サプライズ イントゥ ザ ストレッジ ルーム アズ ファスト アズ ポサバル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>cramming</mark> enchanted items into the vault before the raid event starts.</p>
+<p class="ja">レイドイベントが始まる前に、彼らはエンチャント済みアイテムを金庫に詰め込んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈkræmɪŋ ɛnˈtʃɑntɪd ˈaɪtəmz ˈɪntu ðə ˈvɔlt bɪˈfɔr ðə ˈreɪd ɪˈvɛnt ˈstɑrts/</div>
+<ul class="link"><li>are は /ɑr/、cramming の k が続く（子音+子音、連結なし）</li><li>cramming の ŋ が enchanted に未開放で続く [ˈkræmɪŋ ɛnˈtʃɑntɪd] クラミング エンチャンティッド</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li></ul>
+<div class="kana">ザイ アー クラミング エンチャンティッド アイテムズ イントゥ ザ ヴォルト ビフォア ザ レイド イベント スターツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was cramming</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>cramming</mark> blocks into my inventory when the enderman appeared.</p>
+<p class="ja">エンダーマンが現れたとき、ブロックをインベントリに詰め込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈkræmɪŋ blɑks ˈɪntu maɪ ɪnˈvɛntəri wɛn ðə ˈɛndərmən əˈpɪrd/</div>
+<ul class="link"><li>was は弱形 /wəz/</li><li>cramming の ŋ が blocks に未開放で続く [ˈkræmɪŋ blɑks] クラミング ブロックス</li><li>into の o が my に弱化 [ˈɪntu maɪ] インチュ マイ</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ワズ クラミング ブロックス イントゥ マイ インベントリー ウェン ザ エンダーマン アピアード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>cramming</mark> materials into the construction site all afternoon.</p>
+<p class="ja">彼らは午後ずっと建設現場に材料を詰め込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈkræmɪŋ məˈtɪriəlz ˈɪntu ðə kənˈstrʌkʃən ˈsaɪɾ ɔːl ˌæftərˈnun/</div>
+<ul class="link"><li>were は弱形 /wɚ/</li><li>cramming の ŋ が materials に未開放で続く [ˈkræmɪŋ məˈtɪriəlz] クラミング マテリアルズ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li><li>site の t が all に連結し、フラップ /ɾ/ となる [ˈsaɪɾ ɔːl] サイル オール</li></ul>
+<div class="kana">ザイ ワー クラミング マテリアルズ イントゥ ザ コンストラクション サイル オール アフターヌーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been cramming</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>cramming</mark> items into chests for hours before the server reset.</p>
+<p class="ja">サーバーリセットの前に、何時間もアイテムをチェストに詰め込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈkræmɪŋ ˈaɪtəmz ˈɪntu tʃɛsts fɚ ˈaʊrz bɪˈfoɚ ðə ˈsɝvər ˈriːsɛt/</div>
+<ul class="link"><li>had は弱形 /həd/、had の d が been に未開放で続く [həd bɪn] ハド ビン</li><li>been は弱形 /bɪn/、been の n が cramming に連結 [bɪn ˈkræmɪŋ] ビン クラミング</li><li>cramming の ŋ が items に未開放で続く [ˈkræmɪŋ ˈaɪtəmz] クラミング アイテムズ</li><li>into の u が chests に直接続く [ˈɪntu tʃɛsts] インチュ チェスツ、for は弱形 /fɚ/</li></ul>
+<div class="kana">アイ ハド ビン クラミング アイテムズ イントゥ チェスツ ファー アワーズ ビフォア ザ サーバー リーセット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>cramming</mark> resources into the shelter all week when the storm hit.</p>
+<p class="ja">嵐が来たとき、1週間ずっとリソースをシェルターに詰め込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈkræmɪŋ rɪˈsɔrsəz ˈɪntu ðə ˈʃɛltər ɔːl wik wɛn ðə ˈstɔrm ˈhɪt/</div>
+<ul class="link"><li>had は弱形 /həd/、had の d が been に未開放で続く [həd bɪn] ハド ビン</li><li>been は弱形 /bɪn/、been の n が cramming に連結 [bɪn ˈkræmɪŋ] ビン クラミング</li><li>cramming の ŋ が resources に未開放で続く [ˈkræmɪŋ rɪˈsɔrsəz] クラミング リソーシズ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li></ul>
+<div class="kana">ウィ ハド ビン クラミング リソーシズ イントゥ ザ シェルター オール ウィック ウェン ザ ストーム ヒット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has crammed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈkræmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>crammed</mark> so many items into the storage that we can barely close the chest.</p>
+<p class="ja">彼女はストレージにこんなにたくさんのアイテムを詰め込んだので、チェストをほとんど閉じられません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz ˈkræmd soʊ ˈmɛni ˈaɪtəmz ˈɪntu ðə ˈstɔrɪdʒ ðæt wi kən ˈbɛrli ˈkloʊz ðə tʃɛst/</div>
+<ul class="link"><li>has は弱形 /həz/、has の z が crammed の k に続く（子音+子音、連結なし）</li><li>crammed の d が so に連結 [ˈkræmd soʊ] クラムド ソウ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ</li><li>barely は /ˈbɛrli/ で /i/ で終わり、close の /k/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">シー ハズ クラムド ソウ メニー アイテムズ イントゥ ザ ストレッジ ザット ウィ カン ベアリー クロウズ ザ チェスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players have <mark>crammed</mark> their base with decorations, making it look incredible.</p>
+<p class="ja">プレイヤーたちはベースを装飾で詰め込んで、それを信じられないほど美しく見せています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz həv ˈkræmd ðɛr ˈbeɪs wɪð ˌdɛkəˈreɪʃənz ˈmeɪkɪŋ ɪt ˈlʊk ɪnˈkrɛdəbəl/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>players の z が have に続く（子音+子音、連結なし）</li><li>have は弱形 /həv/</li><li>crammed の d が their に連結 [ˈkræmd ðɛr] クラムド ザイヤー</li><li>making の ŋ が it に未開放で続く [ˈmeɪkɪŋ ɪt] メイキング イット、it の t が look に未開放で続く [ɪt ˈlʊk] イット ルック</li></ul>
+<div class="kana">ザ プレイヤーズ ハヴ クラムド ザイヤー ベイス ウィズ デコレーションズ メイキング イット ルック インクレディブル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had crammed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈkræmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid started, we had <mark>crammed</mark> all our best weapons into the vault.</p>
+<p class="ja">レイドが始まるまでに、私たちは最高の武器すべてを金庫に詰め込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈreɪd ˈstɑrtɪd | wi həd ˈkræmd ɔːl aʊər ˈbɛst ˈwɛpənz ˈɪntu ðə vɔlt/</div>
+<ul class="link"><li>by の y が the に連結 [baɪ ðə] バイ ザ</li><li>time の m が the に続く（子音+子音、連結なし）</li><li>the は弱形 /ðə/</li><li>raid の d が started に連結 [ˈreɪd ˈstɑrtɪd] レイド スターティッド、had は弱形 /həd/、d が crammed に未開放で続く [həd ˈkræmd] ハド クラムド</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド スターティッド、ウィ ハド クラムド オール アワー ベスト ウェポンズ イントゥ ザ ヴォルト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After they had <mark>crammed</mark> everything into the chest, the server crashed unexpectedly.</p>
+<p class="ja">彼らがすべてをチェストに詰め込んだ後、サーバーが予期せずクラッシュしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ðeɪ həd ˈkræmd ˈɛvriθɪŋ ˈɪntu ðə tʃɛst | ðə ˈsɝvər kræʃt ˌʌnɪkˈspɛktɪdli/</div>
+<ul class="link"><li>after の r が they に連結 [ˈæftər ðeɪ] アフター ザイ</li><li>had は弱形 /həd/、d が crammed に未開放で続く [həd ˈkræmd] ハド クラムド</li><li>crammed の d が everything に連結 [ˈkræmd ˈɛvriθɪŋ] クラムド エヴリシング</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ、server の r が crashed に連結 [ˈsɝvər kræʃt] サーバー クラッシュト</li></ul>
+<div class="kana">アフター ザイ ハド クラムド エヴリシング イントゥ ザ チェスト、ザ サーバー クラッシュト アンイクスペクティッドリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been cramming</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>cramming</mark> supplies into the base all afternoon, and she's still going.</p>
+<p class="ja">彼女は午後ずっとベースに物資を詰め込んでいて、まだ続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz bɪn ˈkræmɪŋ səˈplaɪz ˈɪntu ðə ˈbeɪs ɔːl ˌæftərˈnun | ənd ʃiz ˈstɪl ˈɡoʊɪŋ/</div>
+<ul class="link"><li>has は弱形 /həz/</li><li>been は弱形 /bɪn/、n が cramming に連結 [bɪn ˈkræmɪŋ] ビン クラミング</li><li>cramming の ŋ が supplies に未開放で続く [ˈkræmɪŋ səˈplaɪz] クラミング サプライズ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ、afternoon の n が and に連結 [ˌæftərˈnun ənd] アフターヌーン アンド、still は /ˈstɪl/ で /l/ で終わり、going の /g/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">シー ハズ ビン クラミング サプライズ イントゥ ザ ベイス オール アフターヌーン、アンド シーズ スティル ゴーイング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>cramming</mark> resources into the mining facility since early morning.</p>
+<p class="ja">私たちは早朝からマイニング施設にリソースを詰め込んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈkræmɪŋ rɪˈsɔrsəz ˈɪntu ðə ˈmaɪnɪŋ fəˈsɪləti sɪns ˈɜrli ˈmɔrnɪŋ/</div>
+<ul class="link"><li>have は弱形 /həv/</li><li>been は弱形 /bɪn/、n が cramming に連結 [bɪn ˈkræmɪŋ] ビン クラミング</li><li>cramming の ŋ が resources に未開放で続く [ˈkræmɪŋ rɪˈsɔrsəz] クラミング リソーシズ</li><li>into の o が the に弱化 [ˈɪntu ðə] インチュ ザ、facility と since は /fəˈsɪləti sɪns/（連結なし）</li></ul>
+<div class="kana">ウィ ハヴ ビン クラミング リソーシズ イントゥ ザ マイニング ファシリティー シンス アーリー モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will cram</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈkræm/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>cram</mark> all my materials into the storage before the building competition starts.</p>
+<p class="ja">ビルディング大会が始まる前に、すべての材料をストレージに詰め込みます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈkræm ɔːl maɪ məˈtɪriəlz ˈɪntu ðə ˈstɔrɪdʒ bɪˈfɔr ðə ˈbɪldɪŋ ˌkɑmˈpɪtɪʃən ˈstɑrts/</div>
+<ul class="link"><li>cram の m が all に連結 [ˈkræm ɔːl] クラム オール</li></ul>
+<div class="kana">アイル クラム オール マイ マテリアルズ イントゥ ザ ストレッジ ビフォア ザ ビルディング コンペティション スターツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>cram</mark> supplies into the shelter before nightfall comes.</p>
+<p class="ja">夜間の到来の前に、物資をシェルターに詰め込みます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl ˈkræm səˈplaɪz ˈɪntu ðə ˈʃɛltər bɪˈfɔr ˈnaɪtfɔl ˈkʌmz/</div>
+<ul class="link"></ul>
+<div class="kana">ウィル クラム サプライズ イントゥ ザ シェルター ビフォア ナイトフォル カムズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be cramming</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈkræmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be <mark>cramming</mark> chests with resources all evening to prepare.</p>
+<p class="ja">準備するために、彼女は夕方ずっとチェストをリソースで詰め込むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈwɪl bi ˈkræmɪŋ tʃɛsts wɪð rɪˈsɔrsəz ɔːl ˈɪvnɪŋ tu prɪˈpɛr/</div>
+<ul class="link"><li>all の l が evening に連結 [ɔːl ˈɪvnɪŋ] オール イヴニング</li></ul>
+<div class="kana">シー ウィル ビー クラミング チェスツ ウィズ リソーシズ オール イヴニング トゥ プリペアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>cramming</mark> decorations into the building all day tomorrow during the festival.</p>
+<p class="ja">明日のフェスティバル中、彼らは1日中建物に装飾を詰め込むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈwɪl bi ˈkræmɪŋ ˌdɛkəˈreɪʃənz ˈɪntu ðə ˈbɪldɪŋ ɔːl ˈdeɪ təˈmɑroʊ ˈdʊrɪŋ ðə ˈfɛstɪvəl/</div>
+<ul class="link"><li>all の l が day に連結（tomorrow に先行） [ɔːl ˈdeɪ] オール デイ</li></ul>
+<div class="kana">ザイ ウィル ビー クラミング デコレーションズ イントゥ ザ ビルディング オール デイ トゥモーロウ ドゥーリング ザ フェスティバル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have crammed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈkræmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/cram_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By midnight, I will have <mark>crammed</mark> all valuable items into the vault safely.</p>
+<p class="ja">真夜中までに、すべての貴重なアイテムを安全に金庫に詰め込んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈmɪdˌnaɪt | aɪ ˈwɪl həv ˈkræmd ɔːl ˈvæljuəbəl ˈaɪtəmz ˈɪntu ðə vɔlt ˈseɪfli/</div>
+<ul class="link"><li>by の y が midnight に連結 [baɪ ˈmɪdˌnaɪt] バイ ミッドナイト</li><li>have は弱形 /həv/</li><li>crammed の d が all に連結 [ˈkræmd ɔːl] クラムド オール</li></ul>
+<div class="kana">バイ ミッドナイト、アイ ウィル ハヴ クラムド オール ヴァリュアブル アイテムズ イントゥ ザ ヴォルト セイフリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>crammed</mark> everything into the chests before the server maintenance window closes tomorrow.</p>
+<p class="ja">明日のサーバーメンテナンスウィンドウが閉じる前に、彼らはすべてをチェストに詰め込んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈwɪl həv ˈkræmd ˈɛvriθɪŋ ˈɪntu ðə tʃɛsts bɪˈfɔr ðə ˈsɝvər ˈmeɪntənəns ˈwɪndoʊ ˈkloʊzɪz təˈmɑroʊ/</div>
+<ul class="link"><li>have は弱形 /həv/</li><li>crammed の d が everything に連結 [ˈkræmd ˈɛvriθɪŋ] クラムド エヴリシング</li></ul>
+<div class="kana">ザイ ウィル ハヴ クラムド エヴリシング イントゥ ザ チェスツ ビフォア ザ サーバー メイントナンス ウィンドウ クロウジズ トゥモーロウ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">cram in</span><span class="im">～を無理やり（押し）込む、無理に詰め込む</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Can we <mark>cram</mark> in one more furnace in this room?</p>
+<p class="ja">この部屋にもう一つの炉を無理やり詰め込むことができますか？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kæn wi ˈkræm ɪn wʌn mɔɹ ˈfɜɹnɪs ɪn ðɪs ɹum/</div>
+<ul class="link"><li>cram in → 語末子音 /m/ が母音 /ɪ/ に連結 [ˈkræm ɪn] クラム イン</li><li>in one → /n/ から /w/ への自然な連続 [ɪn wʌn] イン ワン</li><li>in this → 語末 /n/ が /ð/ に先行 [ɪn ðɪs] イン ディス</li></ul>
+<div class="kana">キャン ウィ クラム イン ワン モア ファーニス イン ディス ルーム</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">cram for</span><span class="im">～に向けて詰め込み勉強する、一夜漬けで準備する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm <mark>cramming</mark> for tomorrow's redstone build competition.</p>
+<p class="ja">私は明日のレッドストーンビルド大会に向けて詰め込み勉強をしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/cram_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/cram_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈkræmɪŋ fɚ təˈmɑɹoʊz ˈɹɛdstoʊn bɪld ˌkɑmpəˈtɪʃən/</div>
+<ul class="link"><li>cramming for → -ing の /ŋ/ が /f/ に先行し、for は弱形 /fɚ/ に弱化 [ˈkræmɪŋ fɚ] クラミング ファー</li><li>for tomorrow's → for の /ɹ/ が母音に連結 [fɚ təˈmɑɹoʊz] ファー タモローズ</li><li>redstone build → 語末 /n/ と次の /b/ が続く（特に変化なし） [ˈɹɛdstoʊn bɪld] レッドストウン ビルド</li></ul>
+<div class="kana">アイム クラミング ファー タモローズ レッドストウン ビルド コンペティション</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="cram";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

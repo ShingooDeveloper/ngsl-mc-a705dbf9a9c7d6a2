@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>sneeze — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>sneeze</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/sniːz/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1712</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】鼻と口から息を反射的に素早く吐き出す</li><li>【名詞】くしゃみ、くしゃみをする行為</li><li>【名詞】くしゃみの音（擬音）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>sneezed</mark> when I walked through clouds of dust.</p>
+<p class="ja">ほこりの雲を歩いて通ったとき、私はくしゃみをした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ sniːzd wɛn aɪ wɔkt θɹuː klaʊdz əv dʌst/</div>
+<ul class="link"><li>walked through で /t/ が未開放 /t̚/ となり、次の /θ/ に接近する [wɔk̚θɹuː]、ウォクスルー</li><li>clouds の /z/ が弱形 of に連結 [klaʊzəv]、クラウザヴ</li><li>of の /v/ と dust の /d/ が続き、/d/ は未開放 [əvd̚ʌst]、アヴダッ</li></ul>
+<div class="kana">アイ スニーズド ウェン アイ ウォクスルー クラウザヴ アヴダッ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Why do you <mark>sneeze</mark> when you go out in a sandstorm?</p>
+<p class="ja">砂嵐の中では、どうしてくしゃみが出るのですか？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪ duː juː sniːz wɛn juː ɡoʊ aʊt ɪn ə ˈsændstɔɹm/</div>
+<ul class="link"><li>go out で /t/ が未開放 /t̚/ となる [ɡoʊaʊt̚]、ゴウ アウ</li><li>out in で未開放の /t̚/ が /ɪn/ に続き [aʊt̚ɪn]、アウ イン</li><li>in a で /n/ が弱形 a /ə/ に連結 [ɪnə]、イナ</li></ul>
+<div class="kana">ワイ ドゥー ユー スニーズ ウェン ユー ゴウ アウ イナ サンドストーム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't <mark>sneeze</mark> on the food in the chest!</p>
+<p class="ja">チェストの食べ物に向かってくしゃみをしないで！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/doʊnt sniːz ɑn ðə ˈfuːd ɪn ðə tʃɛst/</div>
+<ul class="link"><li>sneeze on で語末 /z/ が on の /ɑ/ に連結 [sniːzɑn]、スニーザン</li><li>on the で /n/ が弱形 the /ðə/ に連結 [ɑnðə]、オンザ</li><li>food in で /d/ が /ɪ/ に連結し、in the で /n/ が /ðə/ に連結 [ˈfuːdɪnðə]、フーディンザ</li></ul>
+<div class="kana">ドウント スニーザン ザ フーディンザ チェスト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sneezes</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈsniːzɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone engineer <mark>sneezes</mark> every time he works near the dust trap.</p>
+<p class="ja">レッドストーンエンジニアはダストトラップの近くで作業するたびにくしゃみをします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdstoʊn ˌɛndʒɪˈnɪɚ ˈsniːzɪz ˈɛvri taɪm hi wɚks nɪɹ ðə dʌst træp/</div>
+<ul class="link"><li>「sneezes every」で sneezes の語末子音 /z/ が母音 /ɛ/ に連結「スニーズィズ エブリ」</li></ul>
+<div class="kana">ザ レッドストウン エンジニアー スニーズィズ エブリ タイム ヒー ワークス ニアー ザ ダスト トラップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Whenever someone <mark>sneezes</mark> in the quiet cave, the whole mining team hears it.</p>
+<p class="ja">静かな洞窟で誰かがくしゃみをするたびに、採掘チーム全体がそれを聞きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛnˈɛvɚ ˈsʌmwən ˈsniːzɪz ɪn ðə ˈkwaɪət keɪv ðə hoʊl ˈmaɪnɪŋ tim hɪɹz ɪt/</div>
+<ul class="link"><li>「sneezes in」で sneezes の語末子音 /z/ が母音 /ɪ/ に連結「スニーズィズ イン」</li></ul>
+<div class="kana">ウェンエヴァー サムワン スニーズィズ イン ザ クワイエット ケイブ ザ ホウル マイニング ティーム ヒアーズ イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sneezed</span><span class="fl">過去形</span><span class="fi">/sniːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The miner <mark>sneezed</mark> unexpectedly when cobweb particles flew into his face.</p>
+<p class="ja">くも糸の粒子が顔に飛び込んできたとき、鉱夫は予期せずくしゃみをしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnɚ sniːzd ʌnɪkˈspɛktɪdli wɛn ˈkɑbwɛb ˈpɑɹtɪkəlz flu ˈɪntu hɪz feɪs/</div>
+<ul class="link"><li>「sneezed unexpectedly」で sneezed の語末子音 /d/ が母音に連結「スニーズド アニクスペク」</li><li>「flew into」で flew の語末 /u/ が into の /ɪ/ に続く「フルー イントゥ」</li></ul>
+<div class="kana">ザ マイナー スニーズド アニクスペクティッドリー ウェン コブウェブ パーティクルズ フルー イントゥ ヒズ フェイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>sneezed</mark> three times in a row after passing through the pollen-filled air.</p>
+<p class="ja">彼女は花粉でいっぱいの空気を通り抜けた後、連続して3回くしゃみをしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi sniːzd θri taɪmz ɪn ə roʊ ˈæftɚ ˈpæsɪŋ θru ðə ˈpɑlən fɪld ɛɹ/</div>
+<ul class="link"><li>「She sneezed」で she は弱形 /ʃi/「シー」で sneezed に続く</li><li>「in a」で in の語末 /n/ が母音に連結「イン ア」、a は弱形 /ə/「ア」</li></ul>
+<div class="kana">シー スニーズド スリー タイムズ イン ア ロウ アフター パッシング スルー ザ ポレン フィルド エアー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sneezed</span><span class="fl">過去分詞</span><span class="fi">/sniːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>sneezed</mark> loudly in the middle of the dungeon, the player gave away their position.</p>
+<p class="ja">ダンジョンの真ん中で大きくくしゃみをしたことで、プレイヤーは自分の位置を明かしてしまいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ sniːzd ˈlaʊdli ɪn ðə ˈmɪdəl əv ðə ˈdʌndʒən ðə ˈpleɪɚ ɡeɪv əˈweɪ ðɛɚ pəˈzɪʃən/</div>
+<ul class="link"><li>「of the」で of は弱形 /əv/「アヴ」、the は弱形 /ðə/「ザ」に弱化</li><li>「gave away」で gave の語末 /v/ が母音に連結「ゲイブ アウェイ」</li></ul>
+<div class="kana">ハービング スニーズド ラウドリー イン ザ ミドゥル アヴ ザ ダンジョン ザ プレイヤー ゲイブ アウェイ ゼア ポジション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once he had <mark>sneezed</mark>, the hostile mobs immediately detected him in the darkness.</p>
+<p class="ja">一度彼がくしゃみをすると、敵性モブはすぐに暗闇の中で彼を検出しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns hi hæd sniːzd ðə ˈhɑstaɪl moʊbz ɪˈmiːdiətli dɪˈtɛktɪd hɪm ɪn ðə ˈdɑɹknəs/</div>
+<ul class="link"><li>「had sneezed」で had は弱形 /həd/「ハド」に弱化して sneezed に続く</li></ul>
+<div class="kana">ワンス ヒー ハド スニーズド ザ ホスタイル モブズ イミーディエットリー ディテクティド ヒム イン ザ ダークネス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sneezing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Sneezing</mark> constantly while building in the flower forest makes it hard to focus.</p>
+<p class="ja">花の森で建築している間、絶えずくしゃみをすることは集中するのを難しくします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsniːzɪŋ ˈkɑnstəntli waɪl ˈbɪldɪŋ ɪn ðə ˈflaʊɚ ˈfɑɹəst meɪks ɪt hɑɹd tu ˈfoʊkəs/</div>
+<ul class="link"><li>「Sneezing constantly」で sneezing の語末 /ŋ/ が子音に続き「スニーズィング」</li></ul>
+<div class="kana">スニーズィング コンスタントリー ホワイル ビルディング イン ザ フラワー フォレスト メイクス イット ハード トゥー フォウカス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player kept <mark>sneezing</mark> during the entire raid, giving away the ambush plan.</p>
+<p class="ja">プレイヤーはレイド全体の間、くしゃみをし続け、待ち伏せ計画を明かしてしまいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚ kɛpt ˈsniːzɪŋ ˈdʊɹɪŋ ði ənˈtaɪɚ ˈreɪd ˈɡɪvɪŋ əˈweɪ ði əmˈbʊʃ plæn/</div>
+<ul class="link"><li>「sneezing during」で sneezing の語末 /ŋ/ が子音 /d/ に続き未開放「スニーズィング」</li><li>「giving away」で giving の語末 /ŋ/ が母音に連結「ギヴィング アウェイ」</li></ul>
+<div class="kana">ザ プレイヤー ケプト スニーズィング デューリング ディー エンタイアー レイド ギヴィング アウェイ ディー アンブッシュ プラン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is sneezing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>sneezing</mark> from all the cave dust right now.</p>
+<p class="ja">今、洞窟のほこりからくしゃみが止まりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈsniːzɪŋ frəm ɔl ðə ˈkeɪv dʌst ˈraɪt ˈnaʊ/</div>
+<ul class="link"><li>「I'm」の語末 /m/ が「sneezing」の /s/ に続く（子音+子音）</li><li>「from」の語末 /m/ が「all」の /ɔ/ に連結 [ˈfrəmɔl]</li><li>「the」は弱形 /ðə/</li></ul>
+<div class="kana">アイム スニーズィング フラム オール ザ ケイヴ ダスト ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The player is <mark>sneezing</mark> near the hay bales.</p>
+<p class="ja">プレイヤーがわらの近くでくしゃみをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər ɪz ˈsniːzɪŋ nɪr ðə ˈheɪ ˈbeɪlz/</div>
+<ul class="link"><li>「The」は弱形 /ðə/</li><li>「player」の語末 /r/ が「is」の /ɪ/ に連結</li><li>「near」の語末 /r/ が「the」の /ð/ に続く</li></ul>
+<div class="kana">ザ プレイア イズ スニーズィング ニア ザ ヘイ ベイルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was sneezing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>sneezing</mark> when I found the diamond ore.</p>
+<p class="ja">ダイヤモンド鉱石を見つけた時、くしゃみをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈsniːzɪŋ wɛn aɪ faʊnd ðə ˈdaɪmənd ˈɔr/</div>
+<ul class="link"><li>「was」は弱形 /wəz/</li><li>「the」は弱形 /ðə/</li><li>「when」の語末 /n/ が「I」の /aɪ/ に続く（n + 母音で自然な連結）</li></ul>
+<div class="kana">アイ ワズ スニーズィング ウェン アイ ファウンド ザ ダイモンド オアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>sneezing</mark> from the powder all afternoon.</p>
+<p class="ja">午後中ずっと、粉からくしゃみが出ていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wər ˈsniːzɪŋ frəm ðə ˈpaʊdər ɔl ˈæftərˌnun/</div>
+<ul class="link"><li>「were」は弱形 /wər/</li><li>「from」の語末 /m/ が「the」の /ə/ に連結 [ˈfrəmðə] フラムザ</li><li>「afternoon」は複合語として /ˌæftərˌnun/</li></ul>
+<div class="kana">ウィ ワー スニーズィング フラムザ パウダー オール アフターヌーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been sneezing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>sneezing</mark> for hours before we finally left the cave.</p>
+<p class="ja">洞窟を出る前に、何時間もくしゃみが止まりませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈsniːzɪŋ fɔr ˈaʊərz bɪˈfɔr wi ˈfaɪnəli lɛft ðə ˈkeɪv/</div>
+<ul class="link"><li>「had」は弱形 /həd/、「been」も弱形 /bɪn/</li><li>「before」の語末 /r/ が「we」の /w/ に続く</li><li>「the」は弱形 /ðə/</li></ul>
+<div class="kana">アイ ハド ビン スニーズィング フォー アワーズ ビフォア ウィ ファイナリー レフト ザ ケイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>sneezing</mark> from the dust before the rain started.</p>
+<p class="ja">雨が降り始める前に、彼女はほこりからくしゃみをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd bɪn ˈsniːzɪŋ frəm ðə dʌst bɪˈfɔr ðə ˈreɪn ˈstɑrtəd/</div>
+<ul class="link"><li>「had」は弱形 /həd/、「been」も弱形 /bɪn/</li><li>「from」の語末 /m/ が「the」の /ə/ に連結 [ˈfrəmðə] フラムザ</li><li>「the」は2回出現、ともに弱形 /ðə/</li></ul>
+<div class="kana">シー ハド ビン スニーズィング フラムザ ダスト ビフォア ザ レイン スターテッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has sneezed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈsniːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone engineer has <mark>sneezed</mark> three times since we entered the dust trap chamber.</p>
+<p class="ja">レッドストーンエンジニアはダストトラップチャンバーに入った後、3回くしゃみをしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdstoʊn ˌɛndʒɪˈnɪɚ həz ˈsniːzd ˈθri taɪmz sɪns wi ɛnˈtɚd ðə dʌst træp ˈtʃeɪmbɚ/</div>
+<ul class="link"><li>the redstone → the は弱形 /ðə/、/ə/ + /r/ が連結 [ðə ˈɹɛdstoʊn] ザ レッドストウン</li><li>has sneezed → has は弱形 /həz/、/z/ + /s/（子音+子音、連結なし）</li><li>since we → since の語末 /s/ が母音 /w/ に連結 [sɪns wi] シンス ウィー</li><li>the dust → the は弱形 /ðə/、/ə/ + /d/ が連結 [ðə dʌst] ザ ダスト</li></ul>
+<div class="kana">ザ レッドストウン エンジニアー ハズ スニーズド スリー タイムズ シンス ウィー エンタード ザ ダスト トラップ チェイムバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>sneezed</mark> so much from the pollen that their faces are completely covered in dust.</p>
+<p class="ja">プレイヤーは花粉からそんなに多くくしゃみをしたので、彼らの顔は完全にほこりで覆われています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz həv ˈsniːzd soʊ mʌtʃ frəm ðə ˈpɑlən ðæt ðɛɹ ˈfeɪsɪz ɑr kəmˈplitli ˈkʌvɚd ɪn dʌst/</div>
+<ul class="link"><li>have sneezed → have は弱形 /həv/、/v/ + /s/（子音+子音、連結なし）</li><li>from the → from は弱形 /frəm/、/m/ + /ð/ が連結 [frəm ðə] フラムザ、the は弱形 /ðə/</li><li>the pollen → the は弱形 /ðə/、/ə/ + /p/ が連結 [ðə ˈpɑlən] ザ ポレン</li><li>covered in → /d/ + /ɪ/ が連結 [ˈkʌvɚd ɪn] カヴァード イン</li></ul>
+<div class="kana">プレイアーズ ハヴ スニーズド ソー マッチ フラムザ ポレン ザット ゼア フェーシーズ アー コンプリートリー カヴァード イン ダスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had sneezed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈsniːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Once the scout had <mark>sneezed</mark> loudly, the hostile mobs detected our entire position within seconds.</p>
+<p class="ja">スカウトが大きくくしゃみをすると、敵対的なモブは数秒以内に私たちの全ポジションを検出しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðə ˈskaʊt həd ˈsniːzd ˈlaʊdli ðə ˈhɑstəl ˈmoʊbz dɪˈtɛktɪd ˈaʊɚ ɪnˈtaɪɚ pəˈzɪʃən wɪðɪn ˈsɛkəndz/</div>
+<ul class="link"><li>the scout → the は弱形 /ðə/、/ə/ + /s/ が連結 [ðə ˈskaʊt] ザ スカウト</li><li>had sneezed → had は弱形 /həd/、/d/ + /s/（子音+子音、連結なし）</li><li>the hostile → the は弱形 /ðə/、/ə/ + /h/（子音+子音、連結なし）</li><li>our entire → /ɚ/ + /ɪ/ が連結 [ˈaʊɚ ɪnˈtaɪɚ] アワー インタイアー</li></ul>
+<div class="kana">ワンス ザ スカウト ハド スニーズド ラウドリー、ザ ハステル モウブズ ディテクティド アワー インタイアー ポジション ウィズイン セカンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>sneezed</mark> from the cave dust for hours before we finally located the underground lake.</p>
+<p class="ja">地下湖を見つける前に、私たちは洞窟のほこりからいくつか時間くしゃみをしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ˈsniːzd frəm ðə ˈkeɪv dʌst fɚ ˈaʊɚz bɪˈfɔr wi ˈfaɪnəli ˈloʊkeɪtɪd ðə ˌʌndɚˈɡraʊnd ˈleɪk/</div>
+<ul class="link"><li>had sneezed → had は弱形 /həd/、/d/ + /s/（子音+子音、連結なし）</li><li>from the → from は弱形 /frəm/、/m/ + /ð/ が連結 [frəm ðə] フラムザ、the は弱形 /ðə/</li><li>the cave → the は弱形 /ðə/、/ə/ + /k/ が連結 [ðə ˈkeɪv] ザ ケイヴ</li><li>for hours → for は弱形 /fɚ/</li></ul>
+<div class="kana">ウィー ハド スニーズド フラムザ ケイヴ ダスト ファー アワーズ ビフォア ウィー ファイナリー ロウケイティド ザ アンダーグラウンド レイク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been sneezing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder has been <mark>sneezing</mark> all morning while constructing the tower in the flower meadow.</p>
+<p class="ja">建築者は花の草原にタワーを建設しながら、朝中ずっとくしゃみをし続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚ həz bɪn ˈsniːzɪŋ ɔl ˈmɔrnɪŋ waɪl kənˈstrʌktɪŋ ðə ˈtaʊər ɪn ðə ˈflaʊɚ ˈmɛdoʊ/</div>
+<ul class="link"><li>the builder → the は弱形 /ðə/、/ə/ + /b/ が連結 [ðə ˈbɪldɚ] ザ ビルダー</li><li>has been → has は弱形 /həz/、/z/ + /b/（子音+子音、連結なし）、been は弱形 /bɪn/</li><li>been sneezing → /n/ + /s/（子音+子音、連結なし）</li><li>the flower → the は弱形 /ðə/、/ə/ + /f/ が連結 [ðə ˈflaʊɚ] ザ フラワー</li></ul>
+<div class="kana">ザ ビルダー ハズ ビン スニーズィング オール モーニング ホワイル コンストラクティング ザ タウアー イン ザ フラワー メドウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>sneezing</mark> constantly since we entered the ancient temple filled with dust and cobwebs.</p>
+<p class="ja">私たちはほこりとくも糸でいっぱいの古代寺院に入った後、絶えずくしゃみをし続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈsniːzɪŋ ˈkɑnstəntli sɪns wi ɛnˈtɚd ðɪ ˈɛɪnʃənt ˈtɛmpəl fɪld wɪð dʌst‿ənd ˈkɑbwɛbz/</div>
+<ul class="link"><li>have been → have は弱形 /həv/、/v/ + /b/（子音+子音、連結なし）、been は弱形 /bɪn/</li><li>been sneezing → /n/ + /s/（子音+子音、連結なし）</li><li>since we → since の語末 /s/ が母音 /w/ に連結 [sɪns wi] シンス ウィー</li><li>the ancient → the は弱形、/ə/ + /ɛ/ が連結して /ðɪ/ に変わる [ðɪ ˈɛɪnʃənt] ジ エインシェント</li></ul>
+<div class="kana">ウィー ハヴ ビン スニーズィング コンスタントリー シンス ウィー エンタード ジ エインシェント テンプル フィルド ウィズ ダスト アンド コブウェブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will sneeze</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl sniːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>sneeze</mark> when I enter the flower forest tomorrow.</p>
+<p class="ja">明日、花の森に入るときくしゃみをするだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl sniːz wɛn aɪ ˈɛntɚ ðə ˈflaʊɚ ˈfɑɹəst təˈmɑroʊ/</div>
+<ul class="link"><li>「I will」で I /aɪ/ と will が連結して縮約形 I'll [aɪl]「アイル」となり、スニーズに続く</li><li>「when I」で when の語末 /n/ が I の /aɪ/ に連結 [ˈwɛnaɪ]「ウェン アイ」</li><li>「the flower」で the は弱形 /ðə/、/ə/ + /f/ が連結 [ðə ˈflaʊɚ]「ザ フラワー」</li><li>「forest tomorrow」で forest の語末 /t/ と tomorrow の /t/ が連接し未開放で1つに聞こえる</li></ul>
+<div class="kana">アイル スニーズ ウェン アイ エンター ザ フラワー フォレスト トゥモロウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He will <mark>sneeze</mark> if we pass through the pollen cloud.</p>
+<p class="ja">彼は花粉クラウドを通るとくしゃみをするだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wɪl sniːz ɪf wi pæs θru ðə ˈpɑlən klaʊd/</div>
+<ul class="link"><li>「He will」で he は弱形 /hi/、will に続く（母音+子音）</li><li>「will sneeze」で will の語末 /l/ が sneeze の /s/ に続く（子音+子音、連結なし）</li><li>「if we」で if の語末 /f/ が we の /w/ に続く（子音+子音、連結なし）</li><li>「through the」で through の語末 /u/ が the の /ð/ に続き、the は弱形 /ðə/「ザ」に弱化</li></ul>
+<div class="kana">ヒー ウィル スニーズ イフ ウィー パス スルー ザ ポレン クラウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be sneezing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈsniːzɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder will be <mark>sneezing</mark> while constructing the tall tower in the flower meadow.</p>
+<p class="ja">ビルダーは花の草原に背の高いタワーを建設しながら、くしゃみをし続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚ wɪl bi ˈsniːzɪŋ waɪl kənˈstrʌktɪŋ ðə tɔl ˈtaʊɚ ɪn ðə ˈflaʊɚ ˈmɛdoʊ/</div>
+<ul class="link"><li>「the builder」で the は弱形 /ðə/、/ə/ + /b/ が連結 [ðə ˈbɪldɚ]「ザ ビルダー」</li><li>「builder will」で builder の語末 /r/ が will の /w/ に続く（子音+子音、連結なし）</li><li>「will be」で will の語末 /l/ が be の /b/ に続く（子音+子音、連結なし）、be は弱形 /bi/</li><li>「while constructing」で while の語末 /l/ が constructing の /k/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">ザ ビルダー ウィル ビー スニーズィング ホワイル コンストラクティング ザ トール タウアー イン ザ フラワー メドウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>sneezing</mark> continuously as they explore the dusty ancient mine.</p>
+<p class="ja">彼らは古い鉱山を探索しながら、継続的にくしゃみをするだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi ˈsniːzɪŋ kənˈtɪnjuəsli əz ðeɪ ɪkˈsplɔr ðə ˈdʌsti ˈeɪnʃənt ˈmaɪn/</div>
+<ul class="link"><li>「They will」で they は弱形 /ðeɪ/、will に続く（母音+子音）</li><li>「will be」で will の語末 /l/ が be の /b/ に続く（子音+子音、連結なし）、be は弱形 /bi/</li><li>「be sneezing」で be の語末 /i/ が sneezing の /s/ に続く（母音+子音）</li><li>「as they」で as の語末 /z/ が they の /ð/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">ゼイ ウィル ビー スニーズィング コンティニュアスリー アズ ゼイ イクスプロア ザ ダスティー エインシェント マイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have sneezed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈsniːzd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we leave the flower forest, I will have <mark>sneezed</mark> at least fifty times.</p>
+<p class="ja">私たちが花の森を出る時までに、少なくとも50回はくしゃみをしているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi liv ðə ˈflaʊɚ ˈfɑɹəst aɪ wɪl həv ˈsniːzd ət lɪst ˈfɪfti taɪmz/</div>
+<ul class="link"><li>「By the」で by の語末 /aɪ/ が the に続き、the は弱形 /ðə/「ザ」に弱化</li><li>「the time」で the は弱形 /ðə/、/ə/ + /t/ が連結 [ðə ˈtaɪm]「ザ タイム」</li><li>「time we」で time の語末 /m/ が we の /w/ に続く（子音+子音、連結なし）</li><li>「will have」で will の語末 /l/ が have の /h/ に続く（子音+子音、連結なし）、have は弱形 /həv/</li></ul>
+<div class="kana">バイ ザ タイム ウィー リーヴ ザ フラワー フォレスト アイル ハヴ スニーズド アット リスト フィフティー タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The scout will have <mark>sneezed</mark> so loudly that everyone knows we are coming.</p>
+<p class="ja">スカウトは非常に大きくくしゃみをするので、みんなが私たちが来ることを知るだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskaʊt wɪl həv ˈsniːzd soʊ ˈlaʊdli ðæt ˈɛvriˌwʌn noʊz wi ɑr ˈkʌmɪŋ/</div>
+<ul class="link"><li>「the scout」で the は弱形 /ðə/、/ə/ + /s/ が連結 [ðə ˈskaʊt]「ザ スカウト」</li><li>「scout will」で scout の語末 /t/ が will の /w/ に続く（子音+子音、未開放）</li><li>「will have」で will の語末 /l/ が have の /h/ に続く（子音+子音、連結なし）、have は弱形 /həv/</li><li>「have sneezed」で have は弱形 /həv/、/v/ + /s/（子音+子音、連結なし）</li></ul>
+<div class="kana">ザ スカウト ウィル ハヴ スニーズド ソー ラウドリー ザット エブリワン ノウズ ウィー アー カミング</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">not to be sneezed at</span><span class="im">ばかにしたものではない、価値がある</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>That enchanted diamond pickaxe is not to be <mark>sneezed</mark> at!</p>
+<p class="ja">そのエンチャント付きダイヤモンドツルハシはばかにしたものではない！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/sneeze_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/sneeze_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ɪnˈtʃɑntɪd ˈdaɪmənd ˈpɪkæks ɪz nɑt tə bi ˈsniːzd æt/</div>
+<ul class="link"><li>not to で /t/ が未開放 /t̚/ となり、弱形 to /tə/ が続く [nɑt̚tə]、ナッ タ</li><li>to be で弱形 to /tə/ が /b/ に連結 [təbi]、タビー</li></ul>
+<div class="kana">ザット インチャンティド ダイマンド ピックアックス イズ ナッ タビー スニーズド アッ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="sneeze";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

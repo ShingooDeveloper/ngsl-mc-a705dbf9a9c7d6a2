@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>bug — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>bug</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/bʌg/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1900 #1270</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】昆虫や小さな生き物（silverfish など）</li><li>【名詞】プログラムやゲームの不具合（a bug in the code など）</li><li>【動詞】～を悩ませたり、～にしつこく言いかけたりする</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Silverfish <mark>bugs</mark> are attacking me inside the mine.</p>
+<p class="ja">シルバーフィッシュが鉱山の中で私を攻撃している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɪlvɚfɪʃ bʌɡz ɑr əˈtækɪŋ mi ɪnˈsaɪd ðə maɪn/</div>
+<ul class="link"><li>bugs are - 語末の子音 /z/ が母音 /ɑ/ に連結 [ˈbʌɡz ɑr] バッグズアー</li><li>are attacking - 語末の /r/ が母音 /ə/ に連結 [ɑr əˈtækɪŋ] アー アタッキング</li></ul>
+<div class="kana">シルバーフィッシュ バッグズアーアタッキング ミー インサイド ザ マイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>There is a <mark>bug</mark> in the game code.</p>
+<p class="ja">ゲームのコードにバグがあります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛr ɪz ə bʌɡ ɪn ðə ɡeɪm koʊd/</div>
+<ul class="link"><li>there is - 語末の /r/ が母音 /ɪ/ に連結 [ðɛr ɪz] ゼアリズ</li><li>is a - 語末の /z/ が母音 /ə/ に連結 [ɪz ə] イズア</li><li>in the - 語末の /n/ が母音 /ə/ に連結 [ɪn ðə] インザ</li></ul>
+<div class="kana">ゼアリズアバッグ インザ ゲイムコウド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't <mark>bug</mark> me, I'm trying to mine diamonds.</p>
+<p class="ja">邪魔をするな。ダイヤモンドを採掘しているんだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/doʊnt bʌɡ mi aɪm ˈtraɪɪŋ tə maɪn ˈdaɪəmɑndz/</div>
+<ul class="link"><li>Don't bug - 語末の /t/ は次の子音 /b/ の前で未開放 [doʊnt̚ bʌɡ] ドウンッ バッグ</li><li>trying to - 語末の /ŋ/ の直後に弱形 'to' の /tə/ が続く [ˈtraɪɪŋ tə] トライング タ</li><li>to mine - 機能語 'to' の弱形 /tə/ が子音 /m/ に続く [tə ˈmaɪn] タ マイン</li></ul>
+<div class="kana">ドウンッ バッグ ミー アイム トライング タ マイン ダイアモンズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bugs</span><span class="fl">複数形</span><span class="fi">/bʌɡz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>There are many <mark>bugs</mark> in this deep cave system.</p>
+<p class="ja">この深い洞窟システムにはたくさんのバグがあります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛr ɑr ˈmɛni bʌɡz ɪn ðɪs ˈdip ˈkeɪv ˈsɪstəm/</div>
+<ul class="link"><li>there are - 語末の /r/ が母音 /ɑ/ に連結 [ðɛr ɑr] ゼアアー</li><li>bugs in - 語末の /z/ が母音 /ɪ/ に連結 [bʌɡz ɪn] バッグズイン</li></ul>
+<div class="kana">ゼアアー メニ バッグズイン ディス ディープ ケイヴ システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These <mark>bugs</mark> are destroying my farm right now.</p>
+<p class="ja">これらのバグが私の農場を今すぐ破壊しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz bʌɡz ɑr dɪˈstrɔɪɪŋ maɪ ˈfɑrm ˈraɪt naʊ/</div>
+<ul class="link"><li>bugs are - 語末の /z/ が母音 /ɑ/ に連結 [bʌɡz ɑr] バッグズアー</li></ul>
+<div class="kana">ディーズ バッグズアー ディストロイング マイ ファーム ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bugs</span><span class="fl">三人称単数形</span><span class="fi">/bʌɡz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It <mark>bugs</mark> me when I lose my diamonds to lava.</p>
+<p class="ja">溶岩でダイヤモンドを失うときは本当に邪魔だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt bʌɡz mi wɛn aɪ luz maɪ ˈdaɪəmɑndz tə ˈlɑvə/</div>
+<ul class="link"><li>It bugs - 語末の /t/ は次の /b/ の前で未開放 [ɪt̚ bʌɡz] イッ バッグズ</li><li>bugs me - 語末の /z/ が母音 /i/ に連結 [bʌɡz mi] バッグズミー</li><li>to - 機能語は弱形 /tə/ で発音される</li></ul>
+<div class="kana">イッ バッグズミー ウェン アイ ルーズ マイ ダイアモンズ タ ラバ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Nothing <mark>bugs</mark> Steve more than a server lag spike.</p>
+<p class="ja">何もスティーブをサーバーラグスパイクより邪魔しない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈnʌθɪŋ bʌɡz ˈstiv moɹ ðæn ə ˈsɝvɚ læɡ spaɪk/</div>
+<ul class="link"><li>Nothing bugs - 語末の /ŋ/ は次の /b/ の前で未開放 [ˈnʌθɪŋ̚ bʌɡz] ナッシング バッグズ</li><li>the - 冠詞は弱形 /ə/ で発音される</li></ul>
+<div class="kana">ナッシング バッグズ スティーヴ モア ザン ア サーバー ラッグ スパイク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bugged</span><span class="fl">過去形</span><span class="fi">/bʌɡd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That glitch bugged me for the entire session.</p>
+<p class="ja">そのバグはセッション全体を邪魔にしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ɡlɪtʃ bʌɡd mi fɔr ðiː ɪnˈtaɪr ˈsɛʃən/</div>
+<ul class="link"><li>glitch bugged - 語末の /tʃ/ は次の /b/ の前で未開放 [ɡlɪtʃ̚ bʌɡd] グリッチ バッグド</li><li>bugged me - 語末の /d/ が母音 /i/ に連結 [bʌɡd mi] バッグドミー</li></ul>
+<div class="kana">ザット グリッチ バッグドミー フォー ジー インタイア セッション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper explosion bugged our base construction.</p>
+<p class="ja">クリーパー爆発が私たちの基地建設を邪魔にしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkripər ɪkˈsploʊʒən bʌɡd ˈaʊɚ ˈbeɪs kənˈstrʌkʃən/</div>
+<ul class="link"><li>The は定冠詞の弱形 /ðə/ ザ</li><li>explosion bugged - 語末の /ən/ は次の /b/ の前で未開放 [ɪkˈsploʊʒən̚ bʌɡd] エクスプロージャン バッグド</li><li>bugged our - 語末の /d/ が母音 /aʊ/ に連結 [bʌɡd aʊɚ] バッグドアワー</li></ul>
+<div class="kana">ザ クリーパー エクスプロージャン バッグドアワー ベイス コンストラクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bugged</span><span class="fl">過去分詞</span><span class="fi">/bʌɡd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was bugged by the unexpected spawner malfunction.</p>
+<p class="ja">予期しないスポーナーの不具合に邪魔されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz bʌɡd baɪ ðə ʌnɪkˈspɛktɪd ˈspɔnər ˌmælˈfʌŋkʃən/</div>
+<ul class="link"><li>was - 助動詞は弱形 /wəz/ で発音される</li><li>bugged by - 語末の /d/ が子音 /b/ の前で未開放 [bʌɡd̚ baɪ] バッグッバイ</li></ul>
+<div class="kana">アイ ウァズ バッグッバイ ザ アニクスペクティド スポーナー マルファンクション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having been bugged by lag issues, we switched servers.</p>
+<p class="ja">ラグの問題に邪魔されてきたので、私たちはサーバーを切り替えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ bɪn bʌɡd baɪ læɡ ˈɪʃuz wi ˈswɪtʃt ˈsɝvɚz/</div>
+<ul class="link"><li>been bugged - 語末の /n/ は次の /b/ の前で未開放 [bɪn̚ bʌɡd] ビン バッグド</li><li>bugged by - 語末の /d/ が子音 /b/ の前で未開放 [bʌɡd̚ baɪ] バッグッバイ</li><li>lag issues - 語末の /ɡ/ が母音 /ɪ/ に連結 [læɡ ˈɪʃuz] ラッグ イシューズ</li></ul>
+<div class="kana">ハービング ビン バッグッバイ ラッグ イシューズ ウィー スウィッチド サーバーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bugging</span><span class="fl">現在分詞形</span><span class="fi">/ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Stop bugging me, I'm trying to focus on mining diamonds!</p>
+<p class="ja">邪魔をするなよ。ダイヤモンドの採掘に集中しようとしているんだ！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stɑp ˈbʌɡɪŋ mi aɪm ˈtraɪɪŋ tə ˈfoʊkəs ɑn ˈmaɪnɪŋ ˈdaɪəmɑndz/</div>
+<ul class="link"><li>bugging me - 語末の /ŋ/ の直後に母音 /i/ が続く [ˈbʌɡɪŋ mi] バッギング ミー</li><li>trying to - 語末の /ŋ/ の直後に弱形 'to' の /tə/ が続く [ˈtraɪɪŋ tə] トライング タ</li><li>on - 前置詞は弱形で発音される</li></ul>
+<div class="kana">ストップ バッギング ミー アイム トライング タ フォーカス オン マイニング ダイアモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>His constant bugging about the rules is really annoying.</p>
+<p class="ja">彼のルールについての絶えまないうるさい指摘は本当に不快だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɪz ˈkɑnstənt ˈbʌɡɪŋ əˈbaʊt ðə rulz ɪz ˈrɪli əˈnɔɪɪŋ/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ ザ</li><li>is - 助動詞は弱形 /ɪz/ で発音される</li><li>really - 副詞は通常の強形で発音される</li></ul>
+<div class="kana">ヒズ コンスタント バッギング アバウト ザ ルールズ イズ リリー アノイング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is bugging</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That zombie is bugging me constantly in the cave!</p>
+<p class="ja">そのゾンビが洞窟で絶えず私を邪魔している！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈzɑmbi ɪz ˈbʌɡɪŋ mi ˈkɑnstəntli ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>is は助動詞で弱形 /ɪz/ に弱化 [ɪz ˈbʌɡɪŋ] イズ バッギング</li><li>bugging me - 語末の /ŋ/ が母音 /i/ に連結 [ˈbʌɡɪŋ mi] バッギング ミー</li><li>constantly in - 語末の /i/ から /ɪ/ へ、the は弱形 /ðə/ [ɪn ðə ˈkeɪv] イン ザ ケイヴ</li></ul>
+<div class="kana">ザット ゾンビー イズ バッギング ミー コンスタントリー イン ザ ケイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server lag is bugging everyone right now.</p>
+<p class="ja">サーバーラグが今すぐ誰もを邪魔している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɝvɚ læɡ ɪz ˈbʌɡɪŋ ˈɛvriwʌn ˈraɪt naʊ/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/ [ザ] ; lag は /læɡ/</li><li>is は助動詞で弱形 /ɪz/ に弱化、lag の /ɡ/ が is の /ɪ/ に連結 [læɡ ɪz ˈbʌɡɪŋ] ラッグ イズ バッギング</li><li>bugging everyone - 語末の /ŋ/ が母音 /ɛ/ に連結 [ˈbʌɡɪŋ ˈɛvriwʌn] バッギング エヴリワン</li></ul>
+<div class="kana">ザ サーバー ラッグ イズ バッギング エヴリワン ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was bugging</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper was bugging us all afternoon before it exploded.</p>
+<p class="ja">クリーパーが爆発する前の午後ずっと私たちを邪魔していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkripər wəz ˈbʌɡɪŋ əs ɔl ˌæftərˈnun bɪˈfɔr ɪt ɪkˈsploʊdəd/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/ [ザ] ; creeper の /r/ は rhotic で連結なし</li><li>was は助動詞で弱形 /wəz/ に弱化、creeper の語末 /r/ が was の /w/ に続く子音+子音で未開放 [ˈkripər wəz] クリーパー ワズ</li><li>bugging us - 語末の /ŋ/ が母音 /ə/ に連結 [ˈbʌɡɪŋ əs] バッギング アス</li></ul>
+<div class="kana">ザ クリーパー ワズ バッギング アス オール アフターヌーン ビフォア イット イクスプロウディッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While I was mining, that enderman was bugging me the whole time.</p>
+<p class="ja">私がマイニングしている間、そのエンダーマンずっと私を邪魔していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl aɪ wəz ˈmaɪnɪŋ ðæt ˈɛndərˌmæn wəz ˈbʌɡɪŋ mi ðə ˈhoʊl ˈtaɪm/</div>
+<ul class="link"><li>was は助動詞で弱形 /wəz/ に弱化 [wəz ˈmaɪnɪŋ] ワズ マイニング</li><li>enderman was - enderman の語末 /n/ が was の /w/ に続く鼻音+子音で未開放 [ˈɛndərˌmæn̚ wəz] エンダーマン ワズ</li><li>was bugging - was は弱形 /wəz/、bugging の /ɪ/ に連結 [wəz ˈbʌɡɪŋ] ワズ バッギング</li></ul>
+<div class="kana">ワイル アイ ワズ マイニング ザット エンダーマン ワズ バッギング ミー ザ ホウル タイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been bugging</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The lag had been bugging us for hours when we finally switched servers.</p>
+<p class="ja">サーバーを切り替える時までに、ラグが何時間も私たちを邪魔していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə læɡ həd bɪn ˈbʌɡɪŋ əs fɔr ˈaʊərz wɛn wi ˈfaɪnəli ˈswɪtʃt ˈsɝvɚz/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/ [ザ] ; lag は /læɡ/</li><li>had は助動詞で弱形 /həd/ に弱化、lag の /ɡ/ が had の /ə/ に連結 [læɡ həd bɪn] ラッグ ハド ビン</li><li>been は弱形 /bɪn/ に弱化、bugging の /ɪ/ に連結 [bɪn ˈbʌɡɪŋ] ビン バッギング</li></ul>
+<div class="kana">ザ ラッグ ハド ビン バッギング アス フォア アワーズ ウェン ウィ ファイナリー スウィッチド サーバーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we found her, that phantom had been bugging her all night.</p>
+<p class="ja">私たちが彼女を見つけるまでに、そのファントムが一晩中彼女を邪魔していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi faʊnd hɝ ðæt ˈfæntəm həd bɪn ˈbʌɡɪŋ hɚ ɔl ˈnaɪt/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/ [ザ] ; time の /m/ は次の /w/ の前で未開放 [ˈtaɪm̚ wi] タイム ウィ</li><li>had は助動詞で弱形 /həd/ に弱化、phantom の語末 /m/ が had の /h/ の前で未開放 [ˈfæntəm̚ həd] ファントム ハド</li><li>been は弱形 /bɪn/ に弱化、bugging の /ɪ/ に連結 [bɪn ˈbʌɡɪŋ] ビン バッギング</li></ul>
+<div class="kana">バイ ザ タイム ウィ ファウンド ハー ザット ファントム ハド ビン バッギング ハー オール ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has bugged</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz bʌɡd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That glitch has bugged my entire playthrough.</p>
+<p class="ja">そのバグが私のプレイ全体を邪魔にしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ɡlɪtʃ həz bʌɡd maɪ ɪnˈtaɪr ˈpleɪθruː/</div>
+<ul class="link"><li>has - 助動詞は弱形 /həz/ で発音される</li><li>has bugged - 語末の /z/ は次の子音 /b/ の前で未開放 [ˈhəz̚ bʌɡd] ハズ バッグド</li><li>bugged my - 語末の /d/ は次の子音 /m/ の前で未開放 [bʌɡd̚ maɪ] バッグッ マイ</li></ul>
+<div class="kana">ザット グリッチ ハズ バッグッ マイ インタイア プレイスルー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have bugged the admins about this server issue for weeks.</p>
+<p class="ja">このサーバーの問題について数週間管理者に文句を言い続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bʌɡd ðə ˈɑdmɪnz əˈbaʊt ðɪs ˈsɝvɚ ˈɪʃu fɔr wiks/</div>
+<ul class="link"><li>have - 助動詞は弱形 /həv/ で発音される</li><li>have bugged - 語末の /v/ は次の子音 /b/ の前で未開放 [ˈhəv̚ bʌɡd] ハヴ バッグド</li><li>the - 定冠詞は弱形 /ðə/ で発音される</li></ul>
+<div class="kana">アイ ハヴ バッグッ ザ アドミンズ アバウト ディス サーバー イシュー フォー ウィークス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had bugged</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd bʌɡd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The spawner malfunction had bugged me before I finally fixed it.</p>
+<p class="ja">スポーナーの不具合が、私が最終的にそれを直すまでずっと邪魔にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspɔnər ˌmælˈfʌŋkʃən həd bʌɡd mi bɪˈfɔr aɪ ˈfaɪnəli ˈfɪkst ɪt/</div>
+<ul class="link"><li>had - 助動詞は弱形 /həd/ で発音される</li><li>had bugged - 語末の /d/ は次の子音 /b/ の前で未開放 [ˈhəd̚ bʌɡd] ハド バッグド</li><li>bugged me - 語末の /d/ が母音 /i/ に連結 [bʌɡd mi] バッグドミー</li></ul>
+<div class="kana">ザ スポーナー マルファンクション ハド バッグドミー ビフォア アイ ファイナリー フィクスト イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By then, that creeper had bugged our base construction for too long.</p>
+<p class="ja">その時までに、そのクリーパーが私たちの基地建設をあまりにも長く邪魔にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðɛn ðæt ˈkripər həd bʌɡd ˈaʊɚ ˈbeɪs kənˈstrʌkʃən fɔr tu lɔŋ/</div>
+<ul class="link"><li>had - 助動詞は弱形 /həd/ で発音される</li><li>had bugged - 語末の /d/ は次の子音 /b/ の前で未開放 [ˈhəd̚ bʌɡd] ハド バッグド</li><li>bugged our - 語末の /d/ が母音 /aʊ/ に連結 [bʌɡd aʊɚ] バッグドアワー</li></ul>
+<div class="kana">バイ ゼン ザット クリーパー ハド バッグドアワー ベイス コンストラクション フォー トゥー ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been bugging</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>That lag spike has been bugging everyone all day long.</p>
+<p class="ja">そのラグスパイクが一日中すべての人を邪魔にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt læɡ spaɪk həz bɪn ˈbʌɡɪŋ ˈɛvriwʌn ɔl deɪ lɔŋ/</div>
+<ul class="link"><li>has - 助動詞は弱形 /həz/ で発音される</li><li>has been - 語末の /z/ は次の子音 /b/ の前で未開放 [ˈhəz̚ bɪn] ハズ ビン</li><li>been bugging - 語末の /n/ は次の子音 /b/ の前で未開放 [bɪn̚ ˈbʌɡɪŋ] ビン バッギング</li></ul>
+<div class="kana">ザット ラッグ スパイク ハズ ビン バッギング エヴリワン オール デイ ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The creepers have been bugging me throughout this whole mining expedition.</p>
+<p class="ja">クリーパーたちがこのマイニング遠征全体を通じて私を邪魔にしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkripərz həv bɪn ˈbʌɡɪŋ mi θruːˈaʊt ðɪs ˈhoʊl ˈmaɪnɪŋ ˌɛkspəˈdɪʃən/</div>
+<ul class="link"><li>have - 助動詞は弱形 /həv/ で発音される</li><li>have been - 語末の /v/ は次の子音 /b/ の前で未開放 [ˈhəv̚ bɪn] ハヴ ビン</li><li>been bugging - 語末の /n/ は次の子音 /b/ の前で未開放 [bɪn̚ ˈbʌɡɪŋ] ビン バッギング</li></ul>
+<div class="kana">ザ クリーパーズ ハヴ ビン バッギング ミー スルーアウト ディス ホール マイニング エクスペディション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will bug</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl bʌɡ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I know this lag will <mark>bug</mark> us for hours.</p>
+<p class="ja">このラグは何時間も私たちを邪魔することを知っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ noʊ ðɪs læɡ wɪl bʌɡ əs fə ˈaʊərz/</div>
+<ul class="link"><li>lag will - 語末の /ɡ/ が母音 /ɪ/ に連結 [læɡ wɪl] ラッグ ウィル</li><li>will bug - 語末の /l/ が母音 /ʌ/ に連結 [wɪl bʌɡ] ウィル バッグ</li><li>bug us - 語末の /ɡ/ が母音 /ə/ に連結 [bʌɡ əs] バッグ アス</li><li>for は前置詞の弱形 /fə/ ファ</li></ul>
+<div class="kana">アイ ノウ ディス ラッグ ウィル バッグ アス ファ アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server issues will <mark>bug</mark> everyone eventually.</p>
+<p class="ja">サーバーの問題は最終的に皆を邪魔するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɝvɚ ˈɪʃuz wɪl bʌɡ ˈɛvriwʌn ɪˈvɛntʃuəli/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ ザ</li><li>issues will - 語末の /z/ が母音 /ɪ/ に連結 [ˈɪʃuz wɪl] イシューズ ウィル</li><li>will bug - 語末の /l/ が母音 /ʌ/ に連結 [wɪl bʌɡ] ウィル バッグ</li><li>bug everyone - 語末の /ɡ/ が母音 /ɛ/ に連結 [bʌɡ ˈɛvriwʌn] バッグ エヴリワン</li></ul>
+<div class="kana">ザ サーバー イシューズ ウィル バッグ エヴリワン イヴェンチュアリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be bugging</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈbʌɡɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The phantom will be bugging us all night long.</p>
+<p class="ja">ファントムは一晩中私たちを邪魔し続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfæntəm wɪl bi ˈbʌɡɪŋ əs ɔl ˈnaɪt lɔŋ/</div>
+<ul class="link"><li>the は定冠詞の弱形 /ðə/ ザ</li><li>phantom will - 語末の /m/ が未開放 [ˈfæntəm̚ wɪl] ファントム ウィル</li><li>will be - 語末の /l/ が母音 /i/ に連結、be は弱形 /bi/ [wɪl bi] ウィル ビー</li><li>bugging us - 語末の /ŋ/ が母音 /ə/ に連結 [ˈbʌɡɪŋ əs] バッギング アス</li></ul>
+<div class="kana">ザ ファントム ウィル ビー バッギング アス オール ナイト ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be bugging the admins for lag fixes by tomorrow.</p>
+<p class="ja">明日までに、私たちはラグ修正について管理者を邪魔し続けているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈbʌɡɪŋ ðə ˈædmɪnz fə læɡ ˈfɪksɪz baɪ təˈmɑroʊ/</div>
+<ul class="link"><li>We'll be - 縮約形 /wil/、be は弱形 /bi/、語末の /l/ が母音 /i/ に連結 [wil bi] ウィル ビー</li><li>bugging the - 語末の /ŋ/ が /ð/ に連結 [ˈbʌɡɪŋ ðə] バッギング ザ</li><li>for lag - for は弱形 /fə/、lag は /læɡ/ [fə læɡ] ファ ラッグ</li><li>lag fixes - 語末の /ɡ/ が母音 /ɪ/ に連結 [læɡ ˈfɪksɪz] ラッグ フィクシーズ</li></ul>
+<div class="kana">ウィル ビー バッギング ザ アドミンズ ファ ラッグ フィクシーズ バイ トゥモロウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have bugged</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl əv bʌɡd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bug_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, this <mark>bug</mark> will have bugged everyone on the server.</p>
+<p class="ja">明日までに、このバグはサーバー上のすべての人を邪魔しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ ðɪs bʌɡ wɪl əv bʌɡd ˈɛvriwʌn ɑn ðə ˈsɝvɚ/</div>
+<ul class="link"><li>this は /ðɪs/、bug は /bʌɡ/</li><li>bug will - 語末の /ɡ/ が次の /w/ の前で未開放 [bʌɡ̚ wɪl] バッグ ウィル</li><li>will have - 語末の /l/ が母音 /ə/ に連結 [wɪl əv] ウィル アヴ</li><li>bugged everyone - 語末の /d/ が母音 /ɛ/ に連結 [bʌɡd ˈɛvriwʌn] バッグド エヴリワン</li><li>on は弱形 /ɑn/ で発音される</li></ul>
+<div class="kana">バイ トゥモロウ ディス バッグ ウィル アヴ バッグド エヴリワン オン ザ サーバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll have bugged the code with errors before Friday's release.</p>
+<p class="ja">彼らは金曜日のリリースまでにコードをエラーで邪魔しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl əv bʌɡd ðə koʊd wɪð ˈɛrərz bɪˈfɔr ˈfraɪdeɪz rɪˈlis/</div>
+<ul class="link"><li>They'll have - 縮約形 /ðeɪl/、will の /l/ が母音 /ə/ に連結 [ðeɪl əv] ゼイル アヴ</li><li>bugged the - 語末の /d/ が定冠詞 /ð/ の前で未開放 [bʌɡd̚ ðə] バッグッ ザ</li><li>with code - with は弱形 /wɪð/、code は /koʊd/ [wɪð koʊd] ウィズ コウド</li><li>Friday's は所有格 /ˈfraɪdeɪz/、release は /rɪˈlis/ リリース</li></ul>
+<div class="kana">ゼイル アヴ バッグッ ザ コウド ウィズ エラーズ ビフォア フライデイズ リリース</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bug out</span><span class="im">逃げ出す、その場から慌ただしく立ち去る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Bug</mark> out! The creeper is about to explode!</p>
+<p class="ja">逃げろ！クリーパーが爆発しようとしている！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bug_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bug_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bʌɡ ˈaʊt ðə ˈkripər ɪz əˈbaʊt tə ɪkˈsploʊd/</div>
+<ul class="link"><li>out the - 語末の /t/ は次の子音 /ð/ の前で未開放 [ˈaʊt̚ ðə] アウッ ザ</li><li>about to - 語末の /t/ は次の /t/ の前で未開放、弱形 'to' は /tə/ [əˈbaʊt̚ tə] アバウッ タ</li></ul>
+<div class="kana">バッグ アウッ ザ クリーパー イズ アバウッ タ イクスプロウド</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="bug";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

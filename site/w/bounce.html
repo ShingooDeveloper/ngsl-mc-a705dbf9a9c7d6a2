@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>bounce — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>bounce</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/baʊns/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1631</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】弾む、はね返る（a ball bounces on the ground）</li><li>【動詞】反発する、跳ね返る（bounce back from a wall）</li><li>【動詞】弾みをつけて移動する、素早く進む（bounce the water bucket to travel）</li><li>【名詞】弾み、反発の動き、跳ねる動作（the bounce of an object）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The slime ball <mark>bounced</mark> off the stone floor.</p>
+<p class="ja">スライムボールが石の床から弾んで落ちた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈslaɪm bɔl ˈbaʊnst ɔf ðə ˈstoʊn flɔr/</div>
+<ul class="link"><li>The は機能語で弱形 /ðə/。子音 /s/ 前で [ザ スライム]</li><li>the は再び弱形 /ðə/。stone の子音 /s/ 前で [ザ ストーン]</li></ul>
+<div class="kana">ザ スライム ボール バウンスト オフ ザ ストーン フロー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My arrow <mark>bounced</mark> back from the obsidian wall.</p>
+<p class="ja">私の矢が黒曜石の壁から跳ね返った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈæɹoʊ ˈbaʊnst bæk fɹəm ðə əbˈsɪdiən wɔl/</div>
+<ul class="link"><li>bounced の語末 /t/ が子音 /b/ 前で未開放。back に続く [バウンスト バック]</li><li>from は弱形 /fɹəm/、the も弱形 /ðə/ で [フラム ザ アプスィディアン]</li></ul>
+<div class="kana">マイ エロー バウンスト バック フラム ザ アプスィディアン ウォール</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Bounce</mark> the water bucket to travel faster downhill.</p>
+<p class="ja">水バケツを弾ませて使い、下り坂を素早く進む。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbaʊns ðə ˈwɔɾɚ ˈbʌkɪt tə ˈtɹæv.əl ˈfæstɚ ˈdaʊnhɪl/</div>
+<ul class="link"><li>the は弱形 /ðə/ で [ザ]</li><li>water の /t/ が母音に挟まれ /ɾ/ にフラップ化し、/ɚ/ で終わり [ウォーラー]</li><li>to は機能語で弱形 /tə/ に弱化、travel に連なり [タ トラヴェル]</li></ul>
+<div class="kana">バウンス ザ ウォーラー バケット タ トラヴェル ファスター ダウンヒル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bounces</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈbaʊnsɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The rubber ball <mark>bounces</mark> high when dropped on the obsidian floor.</p>
+<p class="ja">ゴムボールは黒曜石の床に落とすと高く跳ねます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrʌbər ˈbɔl ˈbaʊnsɪz ˈhaɪ wɛn ˈdrɑpt ɑn ðiː ɑbˈsɪdiən ˈflɔr/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>ball の末尾 /l/ が bounces の /b/ に連結</li><li>the は /ðiː/ 母音の前</li></ul>
+<div class="kana">ザ ラバー ボール バウンシズ ハイ ウェン ドロップト オン ジー オブシディアン フロア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This slime block <mark>bounces</mark> players upward with incredible force.</p>
+<p class="ja">このスライムブロックは信じられない力でプレイヤーを上向きに跳ね上げます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈslaɪm ˈblɑk ˈbaʊnsɪz ˈpleɪɚz ˈʌpwərd wɪð ɪnˈkrɛdəbəl ˈfɔrs/</div>
+<ul class="link"><li>with の語末 /ð/ が incredible の /ɪ/ に連結</li></ul>
+<div class="kana">ディス スライム ブロック バウンシズ プレイアーズ アップワード ウィディ インクレダブル フォース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bounced</span><span class="fl">過去形</span><span class="fi">/baʊnst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The projectile <mark>bounced</mark> off the wall and hit the creeper behind us.</p>
+<p class="ja">発射体は壁から跳ね返り、私たちの後ろにいるクリーパーに当たった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈproʊdʒəkˌtaɪl ˈbaʊnst ɔf ðə ˈwɔl ənd ˈhɪt ðə ˈkripər bɪˈhɪnd əs/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>bounced の語末 /t/ が off の /ɔ/ に連結 [baʊnst ɔf] バウンスト オフ</li><li>and は弱形 /ənd/</li></ul>
+<div class="kana">ザ プロジェクタイル バウンスト オフ ザ ウォール アンド ヒット ザ クリーパー ビハインド アス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>bounced</mark> on the honey block repeatedly until we gained enough momentum to escape.</p>
+<p class="ja">十分な勢いを得てエスケープするまで、私たちはハニーブロックの上を何度も跳ねた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈbaʊnst ɑn ðə ˈhʌni ˈblɑk rɪˈpɪɾədli ənˈtɪl wi ˈɡeɪnd ɪˈnʌf moʊˈmɛntəm tu ɪˈskeɪp/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィ バウンスト オン ザ ハニー ブロック リピラッドリー アンティル ウィ ゲインド イナフ モウメンタム トゥ エスケイプ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bounced</span><span class="fl">過去分詞形</span><span class="fi">/baʊnst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The items that had <mark>bounced</mark> away from the explosion were scattered across the landscape.</p>
+<p class="ja">爆発から跳ね飛んだアイテムは、風景全体に散らばっていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈaɪtəmz ðæt hæd ˈbaʊnst əˈweɪ frəm ðiː ɪkˈsploʊʒən wər ˈskætərd əˈkrɔs ðə ˈlændˌskeɪp/</div>
+<ul class="link"><li>from は弱形 /frəm/ フラム</li></ul>
+<div class="kana">ザ アイテムズ ザット ハッド バウンスト ァウェイ フラム ジー イクスプロウジャン ワー スキャタード ァクロス ザ ランドスケイプ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once the ball had <mark>bounced</mark> three times, it would disappear in our mini-game.</p>
+<p class="ja">ボールが3回跳ねたら、私たちのミニゲームで消えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðə ˈbɔl hæd ˈbaʊnst ˈθri ˈtaɪmz ɪt wʊd dɪsəˈpɪr ɪn aʊɚ ˈmɪniɡeɪm/</div>
+<ul class="link"></ul>
+<div class="kana">ワンス ザ ボール ハッド バウンスト スリー タイムズ イット ウッド ディサピア イン アワー ミニゲイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bouncing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Bouncing</mark> on slime blocks is the fastest way to travel vertically in creative mode.</p>
+<p class="ja">スライムブロックで跳ねることは、クリエイティブモードで垂直に移動する最速の方法です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbaʊnsɪŋ ɑn ˈslaɪm ˈblɑks ɪz ðə ˈfæstəst ˈweɪ tu ˈtrævəl ˈvɝtɪkli ɪn kriˈeɪtɪv ˈmoʊd/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>to は機能語の弱形 /tə/</li></ul>
+<div class="kana">バウンシング オン スライム ブロックス イズ ザ ファステスト ウェイ タ トラベル ヴァーティカリー イン クリエイティヴ モウド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>bouncing</mark> motion of the slime platform launches us toward the sky island.</p>
+<p class="ja">スライムプラットフォームの跳躍運動は、私たちを空の島へ向かわせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbaʊnsɪŋ ˈmoʊʃən əv ðə ˈslaɪm ˈplætˌfɔrm ˈlɔntʃəz əs təˈwɔrd ðə ˈskaɪ ˈaɪlənd/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>of は弱形 /əv/ アブ</li></ul>
+<div class="kana">ザ バウンシング モウション アブ ザ スライム プラットフォーム ローンチャーズ アス タワード ザ スカイ アイランド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bounces</span><span class="fl">複数形</span><span class="fi">/ˈbaʊnsɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>bounces</mark> from the slime blocks reach incredible heights when stacked correctly.</p>
+<p class="ja">スライムブロックからの跳ねは、正しく積み重ねると信じられない高さに達します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbaʊnsɪz frəm ðə ˈslaɪm ˈblɑks ritʃ ɪnˈkrɛdəbəl ˈhaɪts wɛn ˈstækt ˈkɛrɪktli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>from は弱形 /frəm/ フラム</li></ul>
+<div class="kana">ザ バウンシズ フラム ザ スライム ブロックス リーチ インクレダブル ハイツ ウェン スタクト ケリクトリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Each of the <mark>bounces</mark> in our jump course is measured precisely for the speedrun challenge.</p>
+<p class="ja">私たちのジャンプコースの各跳ねは、スピードラン チャレンジのために正確に測定されます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/itʃ əv ðə ˈbaʊnsɪz ɪn aʊɚ ˈdʒʌmp ˈkɔrs ɪz ˈmɛʒərd prɪˈsaɪsli fɔr ðə ˈspidrʌn ˈtʃælɪndʒ/</div>
+<ul class="link"><li>of は弱形 /əv/</li></ul>
+<div class="kana">イーチ アブ ザ バウンシズ イン アワー ジャンプ コース イズ メジャード プリサイスリー ファー ザ スピードラン チャレンジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is bouncing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The slimeball is <mark>bouncing</mark> all over the place right now!</p>
+<p class="ja">スライムボールが今、あちこちで跳ねています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈslaɪmˌbɔl ɪz ˈbaʊnsɪŋ ˈɔl ˈoʊvɚ ðə ˈpleɪs ˈraɪt ˈnaʊ/</div>
+<ul class="link"><li>is：機能語（助動詞）は弱形 /ɪz/ に弱化</li><li>ball is：語末 /l/ が母音 /ɪ/ に連結 [bɔˈlɪz] ボーリズ</li><li>all over：語末 /l/ が母音 /oʊ/ に連結 [ɔˈloʊvɚ]</li></ul>
+<div class="kana">ザ スライムボーリズ バウンシング オーロー ザ プレイス ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Look! The mobs are <mark>bouncing</mark> around the arena like they're going crazy!</p>
+<p class="ja">見て。モブたちはアリーナの周りで狂ったように跳ねています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈlʊk ðə ˈmoʊbz ɑr ˈbaʊnsɪŋ əˈraʊnd ðə əˈrinə ˈlaɪk ðeɪər ˈɡoʊɪŋ ˈkreɪzi/</div>
+<ul class="link"><li>are：機能語（助動詞）は弱形 /ɑr/ に弱化</li><li>around の語末 /d/ が the の /ð/ に続くが、子音+子音のため連結ではない</li></ul>
+<div class="kana">ルック ザ モーブズ アー バウンシング アラウンド ザ アリーナ ライク ゼアー ゴーイング クレイジー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was bouncing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ball was <mark>bouncing</mark> high when I accidentally hit it again with my sword.</p>
+<p class="ja">ボールが高く跳ねていた時、うっかり剣で再び叩いてしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɔl wəz ˈbaʊnsɪŋ ˈhaɪ wɛn aɪ ˌæksɪˈdɛntəli ˈhɪt ɪt əˈɡɛn wɪð maɪ ˈsɔrd/</div>
+<ul class="link"><li>was：機能語（助動詞）は弱形 /wəz/ に弱化</li><li>ball was：ball の語末 /l/ が was の /w/ に続くが、子音+子音のため連結ではない</li><li>when I：when は /wɛn/、I は /aɪ/。/n/ が母音に連結 [wɛˈnaɪ]</li></ul>
+<div class="kana">ザ ボール ワズ バウンシング ハイ ウェナイ アイ アクシデンタリー ヒット イット アゲイン ウィズ マイ ソード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Several mobs were <mark>bouncing</mark> around rapidly when the explosion went off.</p>
+<p class="ja">爆発が起きた時、複数のモブが急速に跳ねていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɛvɚəl ˈmoʊbz wɚ ˈbaʊnsɪŋ əˈraʊnd ˈræpɪdli wɛn ðɪ ɪkˈsploʊʒən ˈwɛnt ˈɔf/</div>
+<ul class="link"><li>were：機能語（助動詞）は弱形 /wɚ/ に弱化（r-colored schwa）</li><li>rapidly の語末 /i/ が when の /w/ に連結</li><li>went の語末 /t/ が off の /ɔ/ に連結</li></ul>
+<div class="kana">セバラル モーブズ ワー バウンシング アラウンド ラピリー ウェン ザ イクスプロウジャン ウェノフ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been bouncing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone ball had been <mark>bouncing</mark> for several minutes before the mechanism finally shut down.</p>
+<p class="ja">メカニズムが最終的にシャットダウンする前に、レッドストーンボールは数分間跳ねていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛdˌstoʊn ˈbɔl həd bɪn ˈbaʊnsɪŋ fɚ ˈsɛvɚəl ˈmɪnɪts bɪˈfɔr ðə ˈmɛkəˌnɪzəm ˈfaɪnəli ˈʃʌt ˈdaʊn/</div>
+<ul class="link"><li>had：機能語（助動詞）は弱形 /həd/ に弱化</li><li>been：機能語（助動詞）は弱形 /bɪn/ に弱化、for の /f/ に続くが連結はなし（子音+子音）</li><li>for：機能語（前置詞）は弱形 /fɚ/ に弱化（r-colored schwa）</li><li>before の語末 /r/ が the の /ð/ に続くが、子音+子音のため連結ではない</li></ul>
+<div class="kana">ザ レッドストーン ボール ハド ビン バウンシング ファー セバラル ミニッツ ビフォー ザ メカニズム ファイナリー シャット ダウン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I didn't realize the slimes had been <mark>bouncing</mark> in that corner the entire time!</p>
+<p class="ja">ずっとの間、スライムたちがそのコーナーで跳ねていたことに気づきませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈdɪdn̩t rɪˈælaɪz ðə ˈslaɪmz həd bɪn ˈbaʊnsɪŋ ɪn ˈðæt ˈkɔrnɚ ðə ənˈtaɪr ˈtaɪm/</div>
+<ul class="link"><li>had：機能語（助動詞）は弱形 /həd/ に弱化</li><li>been bouncing：been の /n/ が bouncing の /b/ に続く（子音+子音のため連結ではない）</li><li>in that：in は /ɪn/、that は /ðæt/。/n/ が /ð/ に続くが連結はなし（子音+子音）</li><li>corner の語末 /r/ が the の /ð/ に続くが、子音+子音のため連結ではない</li></ul>
+<div class="kana">アイ ディドゥント リァライズ ザ スライムズ ハド ビン バウンシング イン ザット コーナー ザ エンタイア タイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has bounced</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈbaʊnst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The fireball has <mark>bounced</mark> off the obsidian walls several times during this intense combat.</p>
+<p class="ja">火の玉はこの激しい戦闘中、黒曜石の壁から何度も跳ね返っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfaɪərˌbɔl həz ˈbaʊnst ɔf ðə ɑbˈsɪdiən ˈwɔlz ˈsɛvɚəl ˈtaɪmz ˈdʊrɪŋ ðɪs ɪnˈtɛns ˈkɑmbæt/</div>
+<ul class="link"><li>the：弱形 /ðə/ ザ</li><li>has：機能語（助動詞）は弱形 /həz/ に弱化</li><li>bounced off：語末 /t/ が /ɔ/ に連結（未開放で続く）[baʊns̚t ɔf] バウンスト オフ</li></ul>
+<div class="kana">ザ ファイアボール ハズ バウンスト オフ ザ オブシディアン ウォールズ セバラル タイムズ ドゥーリング ディス インテンス コンバット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>bounced</mark> on these slime platforms more than any player I know in the whole server!</p>
+<p class="ja">私はサーバー全体で知っているどのプレイヤーよりも、このスライムプラットフォームで何度も跳ねた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈbaʊnst ɑn ðiz ˈslaɪm ˈplætˌfɔrmz ˈmɔr ðən ˈɛni ˈpleɪər aɪ ˈnoʊ ɪn ðə ˈhoʊl ˈsɝvər/</div>
+<ul class="link"><li>have：機能語（助動詞）は弱形 /həv/ に弱化</li><li>more than：語末 /r/ が弱形 /ðən/ に続く（子音+子音のため連結なし）</li></ul>
+<div class="kana">アイ ハヴ バウンスト オン ディーズ スライム プラットフォームズ モア ザン エニー プレイアー アイ ノー イン ザ ホール サーバー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had bounced</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈbaʊnst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The projectiles had <mark>bounced</mark> away before I could intercept them with my shield spell.</p>
+<p class="ja">発射体は、シールド呪文で遮る前に跳ね飛んでしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈproʊdʒəkˌtaɪlz həd ˈbaʊnst əˈweɪ bɪˈfɔr aɪ ˈkʊd ˌɪntɚˈsɛpt ðɛm wɪð maɪ ˈʃild spɛl/</div>
+<ul class="link"><li>the：弱形 /ðə/ ザ</li><li>had：機能語（助動詞）は弱形 /həd/ に弱化</li><li>before I：弱形 /bɪˈfɔr/ と /aɪ/。/r/ が /aɪ/ に続く（子音+母音のため連結可能）[bɪˈfɔraɪ] ビフォア アイ</li></ul>
+<div class="kana">ザ プロジェクタイルズ ハド バウンスト ァウェイ ビフォア アイ クド インターセプト ゼム ウィズ マイ シールド スペル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived at the arena, the slimes had <mark>bounced</mark> around destroying all our traps.</p>
+<p class="ja">私たちがアリーナに到着したころには、スライムはすべてのトラップを破壊してあちこち跳ね回っていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪvd æt ðə əˈrinə ðə ˈslaɪmz həd ˈbaʊnst əˈraʊnd dɪˈstrɑɪɪŋ ˈɔl aʊɚ ˈtræps/</div>
+<ul class="link"><li>had：機能語（助動詞）は弱形 /həd/ に弱化</li><li>all our：語末 /l/ が /aʊ/ に連結 [ɔˈlaʊɚ] オラウー</li></ul>
+<div class="kana">バイ ザ タイム ウィ ァライド アット ザ アリーナ ザ スライムズ ハド バウンスト アラウンド ディストロイング オラウー トラップス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been bouncing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This slime ball has been <mark>bouncing</mark> on the platform nonstop since I activated the redstone circuit.</p>
+<p class="ja">このスライムボールは、私がレッドストーン回路を起動してから、ずっとプラットフォームの上で跳ねて続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈslaɪm ˈbɔl həz bɪn ˈbaʊnsɪŋ ɑn ðə ˈplætˌfɔrm ˈnɑnˌstɑp sɪns aɪ ˌæktɪˈveɪtəd ðə ˈrɛdˌstoʊn ˈsɝkɪt/</div>
+<ul class="link"><li>has：機能語（助動詞）は弱形 /həz/ に弱化</li><li>been：機能語（助動詞）は弱形 /bɪn/ に弱化</li><li>since I：/s/ が /aɪ/ に続く（子音+母音のため連結可能）</li></ul>
+<div class="kana">ディス スライム ボール ハズ ビン バウンシング オン ザ プラットフォーム ノンストップ シンス アイ アクティベイテッド ザ レッドストーン サーキット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mobs have been <mark>bouncing</mark> around in circles for over an hour trying to escape our pen!</p>
+<p class="ja">モブたちが私たちのペンを逃げようと1時間以上、ぐるぐる回って跳ねており続けている！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊbz həv bɪn ˈbaʊnsɪŋ əˈraʊnd ɪn ˈsɝkəlz fɔr ˈoʊvɚ ən ˈaʊər ˈtraɪɪŋ tu ɪˈskeɪp aʊɚ ˈpɛn/</div>
+<ul class="link"><li>have：機能語（助動詞）は弱形 /həv/ に弱化</li><li>been：機能語（助動詞）は弱形 /bɪn/ に弱化</li><li>for over：弱形 /fɔr/ と /ˈoʊvɚ/。/r/ が /oʊ/ に続く（子音+母音のため連結可能）[fɔrˈoʊvɚ] ファー オーバー</li></ul>
+<div class="kana">ザ モーブズ ハヴ ビン バウンシング アラウンド イン サーカルズ ファー オーバー アン アワー トライング トゥ エスケイプ アワー ペン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will bounce</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈbaʊns/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This slime block will <mark>bounce</mark> players into the air when they step on it.</p>
+<p class="ja">このスライムブロックは、プレイヤーが踏むと、プレイヤーを空中に跳ね上げます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈslaɪm ˈblɑk wɪl ˈbaʊns ˈpleɪɚz ˈɪntu ðə ˈɛr wɛn ðeɪ ˈstɛp ɑn ɪt/</div>
+<ul class="link"><li>will：助動詞として弱化。自然な会話では縮約形（it'll 等）で表現される</li><li>the：弱形 /ðə/</li><li>into：弱形 /ɪntə/</li></ul>
+<div class="kana">ディス スライム ブロック ウィル バウンス プレイアーズ イントゥ ザ エアー ウェン ゼイ ステップ オン イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>bounce</mark> higher and higher as the redstone mechanism speeds up.</p>
+<p class="ja">レッドストーン機構が加速するにつれ、私たちはますます高く跳ねるようになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil ˈbaʊns ˈhaɪər ənd ˈhaɪər əz ðə ˈrɛdˌstoʊn ˈmɛkəˌnɪzəm ˈspiːdz ʌp/</div>
+<ul class="link"><li>we'll：we + will の縮約 /wil/</li><li>higher and higher：higher の語末 /r/ が and の弱形 /ənd/ の母音に連結</li><li>as the：as は弱形 /əz/、the は弱形 /ðə/</li></ul>
+<div class="kana">ウィル バウンス ハイアー アンド ハイアー アズ ザ レッドストーン メカニズム スピーズ アップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be bouncing</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈbaʊnsɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Players will be <mark>bouncing</mark> on this platform while dodging falling debris.</p>
+<p class="ja">プレイヤーは落ちてくるがれきを回避しながら、このプラットフォームで跳ねています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz wɪl bi ˈbaʊnsɪŋ ɑn ðɪs ˈplætˌfɔrm ˈwaɪl ˈdɑdʒɪŋ ˈfɔlɪŋ dəˈbriː/</div>
+<ul class="link"><li>will：助動詞として弱化。縮約形で表現される</li><li>be bouncing：be は /bi/、bouncing に続く</li></ul>
+<div class="kana">プレイアーズ ウィル ビー バウンシング オン ディス プラットフォーム ワイル ダージング フォーリング デブリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>bouncing</mark> around the arena frantically trying to escape.</p>
+<p class="ja">彼らは逃げようとしながら、熱狂的にアリーナの中で跳ね回っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈbaʊnsɪŋ əˈraʊnd ðiː əˈrinə ˈfræntɪkli ˈtraɪɪŋ tə ɪˈskeɪp/</div>
+<ul class="link"><li>they'll：they + will の縮約 /ðeɪl/</li><li>be bouncing：be は /bi/、bouncing に続く</li><li>the：母音の前で /ðiː/</li><li>to escape：to は機能語の弱形 /tə/、escape に続く</li></ul>
+<div class="kana">ゼイル ビー バウンシング アラウンド ザー アリーナ フラントゥックリー トライング タ エスケイプ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have bounced</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈbaʊnst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bounce_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we reach the summit, the slime block will have <mark>bounced</mark> us up hundreds of times.</p>
+<p class="ja">私たちが頂上に到達するまでに、スライムブロックは何百回も私たちを跳ね上げているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈritʃ ðə ˈsʌmɪt ðə ˈslaɪm ˈblɑk wɪl həv ˈbaʊnst əs ʌp ˈhʌndrədz əv ˈtaɪmz/</div>
+<ul class="link"><li>will：助動詞として弱化。縮約形で表現される</li><li>have：弱形 /həv/</li><li>us up：us の語末 /z/ が up の /ʌ/ に続く（弱形の /əs/ では /z/ が母音 /ə/ に連結）</li></ul>
+<div class="kana">バイ ザ タイム ウィ リーチ ザ サミット ザ スライム ブロック ウィル ハヴ バウンスト アス アップ ハンドレッズ アブ タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll have <mark>bounced</mark> on every trampoline platform before completing this parkour challenge.</p>
+<p class="ja">このパルクール チャレンジを完了する前に、あらゆるトランポリンプラットフォームで跳ねているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl həv ˈbaʊnst ɑn ˈɛvri ˈtræmpəˌlin ˈplætˌfɔrm bɪˈfɔr kəmˈpliːtɪŋ ðɪs ˈpɑrkʊr ˈtʃælɪndʒ/</div>
+<ul class="link"><li>I'll：I + will の縮約 /aɪl/</li><li>have：弱形 /həv/</li><li>before：語末 /r/ が completing の /k/ に続く（子音+子音のため連結なし）</li></ul>
+<div class="kana">アイル ハヴ バウンスト オン エブリー トランポリーン プラットフォーム ビフォア コンプリーティング ディス パークール チャレンジ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bounce back</span><span class="im">回復する、立ち直る、復帰する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The player <mark>bounced</mark> back from the lava damage.</p>
+<p class="ja">プレイヤーは溶岩ダメージから回復した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚ ˈbaʊnst bæk fɹəm ðə ˈlɑvə ˈdæmɪdʒ/</div>
+<ul class="link"><li>bounced の語末 /t/ が子音 /b/ 前で未開放 [バウンスト バック]</li><li>from は弱形 /fɹəm/、the も弱形 /ðə/ で [フラム ザ ラヴァ]</li></ul>
+<div class="kana">ザ プレイヤー バウンスト バック フラム ザ ラヴァ ダメージ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bounce around</span><span class="im">跳ね回る、ぴょんぴょん動く</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Ghast fireballs <mark>bounce</mark> around in the Nether sky.</p>
+<p class="ja">ガストの火の玉がネザーの空を跳ね回る。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bounce_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bounce_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɡæst ˈfaɪɚbɔlz ˈbaʊns əˈɹaʊnd ɪn ðə ˈnɛðɚ skaɪ/</div>
+<ul class="link"><li>ghast の語末 /t/ が fireballs の /f/ 前で未開放 [ガスト ファイラーボールズ]</li><li>bounce の語末 /s/ が around の /ə/ に連結 [バウンス アラウンド]</li><li>the は弱形 /ðə/ で、Nether の /n/ 前で [ザ ネザー]</li></ul>
+<div class="kana">ガスト ファイラーボールズ バウンス アラウンド イン ザ ネザー スカイ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="bounce";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

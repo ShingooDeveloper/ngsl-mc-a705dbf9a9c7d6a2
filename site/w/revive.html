@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>revive — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>revive</h2><span class="pos">動詞</span><span class="ipa-head">/rɪˈvaɪv/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1303</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】(人・生物を)蘇生させる、生き返らせる、意識を取り戻させる（bring back to life…）</li><li>【動詞】(事業・習慣・感情などを)復活させる、復興させる、活気づける（restore to use…）</li><li>【動詞】(気力・精神・興味を)取り戻す、元気づける、喚起する（renew…）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>revived</mark> my teammate before the creepers attacked us.</p>
+<p class="ja">クリーパーが襲い掛かる前に、私はチームメイトを蘇生させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ rɪˈvaɪvd maɪ ˈtimmeɪt bɪˈfɔr ðə ˈkripərz əˈtækt əs/</div>
+<ul class="link"><li>revived と my で、revived の語末子音 /d/ が未開放で my の /m/ に先立つ</li><li>creepers と attacked で、creepers の語末子音 /z/ が attacked の弱形 /ə/ に連結 [ˈkripərz ə] クリーパーズ ア</li></ul>
+<div class="kana">アイ リヴァイド マイ ティムメイト ビフォー ザ クリーパーズ ア タクト アス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>revived</mark> the ancient village by rebuilding all its structures.</p>
+<p class="ja">すべての建造物を再建することで、古い村を復興させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi rɪˈvaɪvd ðə ˈeɪnʃənt ˈvɪlɪdʒ baɪ ˌriˈbɪldɪŋ ɔl ɪts ˈstrʌktʃərz/</div>
+<ul class="link"><li>We と revived で、we の /i/ が revived の /r/ に続く（母音+子音）</li><li>the は弱形 /ðə/ に弱化し、ancient の /eɪ/ に続く（子音+母音）</li><li>all と its で、all の語末 /l/ が its の /ɪ/ に連結 [ɔl ɪts] オール イッツ</li></ul>
+<div class="kana">ウィ リヴァイド ザ エインシャント ヴィリッジ バイ リビルディング オール イッツ ストラクチャーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>After discovering the treasure, our spirits were <mark>revived</mark>.</p>
+<p class="ja">宝物を発見した後、私たちの士気が回復した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər dɪˈskʌvərɪŋ ðə ˈtrɛʒər aʊr ˈspɪrɪts wər rɪˈvaɪvd/</div>
+<ul class="link"><li>treasure の語末 /r/ が our の /aʊ/ に連結 [ˈtrɛʒɚ aʊr] トレジャー アワー</li></ul>
+<div class="kana">アフター ディスカヴァリング ザ トレジャー アワー スピリッツ ワー リヴァイド</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">revives</span><span class="fl">三人称単数現在形</span><span class="fi">/rɪˈvaɪvz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>revives</mark> her teammates whenever they fall in lava.</p>
+<p class="ja">彼女は、チームメイトが溶岩で倒れるたびに蘇生させる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi rɪˈvaɪvz hɚ ˈtimmeɪts ˌwɛnˈɛvɚ ðeɪ fɔl ɪn ˈlɑvə/</div>
+<ul class="link"><li>revives の語末子音 /z/ が her の /h/ に続く子音+子音で未開放 [rɪˈvaɪvz̚ hɚ] リヴァイズ ハー</li><li>teammates の語末 /s/ が whenever の /w/ に続く子音+子音で未開放 [ˈtimmeɪts̚ wɛn] ティムメイツ ウェン</li><li>they は弱化して /ðeɪ/、fall の /f/ に続く</li></ul>
+<div class="kana">シー リヴァイズ ハー ティムメイツ ウェンエヴァー ゼイ フォール イン ラーバ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The potion <mark>revives</mark> drowning players instantly.</p>
+<p class="ja">そのポーションは、おぼれているプレイヤーをすぐに蘇生させる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpoʊʃən rɪˈvaɪvz ˈdraʊnɪŋ ˈpleɪərz ˈɪnstəntli/</div>
+<ul class="link"><li>the は弱形 /ðə/、potion の /p/ に先立つ母音+子音で [ðə ˈpoʊʃən] ザ ポーション</li><li>revives の語末 /z/ が drowning の /d/ に続く子音+子音で未開放 [rɪˈvaɪvz̚ ˈdraʊnɪŋ] リヴァイズ ドラウニング</li><li>players の語末 /z/ が instantly の /ɪ/ に連結 [ˈpleɪərz ˈɪnstəntli] プレイアーズ インスタントリー</li></ul>
+<div class="kana">ザ ポーション リヴァイズ ドラウニング プレイアーズ インスタントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">revived</span><span class="fl">過去形</span><span class="fi">/rɪˈvaɪvd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>revived</mark> the fortress after months of abandonment.</p>
+<p class="ja">数ヶ月の放置の後、砦を復興させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi rɪˈvaɪvd ðə ˈfɔrtrəs ˈæftər ˈmʌnθs əv əˈbændənmənt/</div>
+<ul class="link"><li>we、revived の /r/ に続く [wi rɪˈvaɪvd] ウィ・リヴァイド</li><li>revived の語末 /d/ が the の弱形 /ðə/ に連結 [rɪˈvaɪvd ðə] リヴァイド ザ</li><li>of は弱形 /əv/、abandonment の /ə/ に連結 [əv ə] アヴ ア</li></ul>
+<div class="kana">ウィ リヴァイド ザ フォートリス アフター マンスズ アヴ ア バンドンメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After finding ancient books, scholars <mark>revived</mark> the lost knowledge.</p>
+<p class="ja">古い本を見つけた後、学者たちは失われた知識を復活させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ˈfaɪndɪŋ ˈeɪnʃənt ˈbʊks ˈskoʊlərz rɪˈvaɪvd ðə lɔst ˈnɑlɪdʒ/</div>
+<ul class="link"><li>finding の語末子音 /ŋ/ が ancient の /eɪ/ に先行鼻音+母音で平滑 [ˈfaɪndɪŋ ˈeɪnʃənt] ファインディング エイシャント</li><li>books の語末 /ks/ が scholars の /sk/ に先立つ子音+子音で未開放 [ˈbʊks̚ ˈskoʊlərz] ブックス スコーラーズ</li><li>revived の語末 /d/ が the の弱形 /ðə/ に連結 [rɪˈvaɪvd ðə] リヴァイド ザ</li></ul>
+<div class="kana">アフター ファインディング エイシャント ブックス スコーラーズ リヴァイド ザ ロスト ナレッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">revived</span><span class="fl">過去分詞</span><span class="fi">/rɪˈvaɪvd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>revived</mark> the lost city in the mountains.</p>
+<p class="ja">私たちは山の中で失われた都市を復興させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd rɪˈvaɪvd ðə lɔst ˈsɪɾi ɪn ðə ˈmaʊntənz/</div>
+<ul class="link"><li>we、had の /h/ に続く [wi həd] ウィ・ハッド</li><li>had は弱形 /həd/、revived の /r/ に先立つ子音+子音で [həd̚ rɪˈvaɪvd] ハッド リヴァイド</li><li>the は弱形 /ðə/、lost の /l/ に先立つ母音+子音で [ðə lɔst] ザ ロスト</li></ul>
+<div class="kana">ウィ ハッド リヴァイド ザ ロスト シリ イン ザ マウンテンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Revived</mark> by ancient magic, the team's strength returned.</p>
+<p class="ja">古い魔法で蘇生して、チームの強さが戻ってきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/rɪˈvaɪvd baɪ ˈeɪnʃənt ˈmædʒɪk ðə ˈtimz ˈstrɛŋθ rɪˈtɝnd/</div>
+<ul class="link"><li>revived の語末 /d/ が by の /b/ に先立つ子音+子音で未開放 [rɪˈvaɪvd̚ baɪ] リヴァイド バイ</li><li>the は弱形 /ðə/、team's の /t/ に先立つ母音+子音で [ðə ˈtimz] ザ ティームズ</li><li>magic の語末 /k/ が the の /ðə/ に連結 [ˈmædʒɪk ðə] マジック ザ</li></ul>
+<div class="kana">リヴァイド バイ エイシャント マジック ザ ティームズ ストレングス リターンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">reviving</span><span class="fl">現在分詞・動名詞</span><span class="fi">/rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Reviving</mark> the village took weeks of mining and building.</p>
+<p class="ja">村を復興させるのに採掘と建築に数週間かかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/rɪˈvaɪvɪŋ ðə ˈvɪlɪdʒ ˈtʊk wiks əv ˈmaɪnɪŋ ænd ˈbɪldɪŋ/</div>
+<ul class="link"><li>reviving の語末子音 /ŋ/ が the の弱形 /ðə/ に先行鼻音+子音で平滑 [rɪˈvaɪvɪŋ ðə] リヴァイビング ザ</li><li>of は弱形 /əv/、mining の /m/ に先立つ子音+子音で未開放</li><li>mining の語末 /ŋ/ が and の /æ/ に先行鼻音+母音で平滑 [ˈmaɪnɪŋ ænd] マイニング アンド</li></ul>
+<div class="kana">リヴァイビング ザ ヴィリッジ トゥック ウィークス アヴ マイニング アンド ビルディング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>reviving</mark> old structures, players preserve Minecraft history.</p>
+<p class="ja">古い構造物を復興させることで、プレイヤーたちはマインクラフトの歴史を保存する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ rɪˈvaɪvɪŋ oʊld ˈstrʌktʃərz ˈpleɪərz prɪˈzɝrv ˈmaɪnˌkræft ˈhɪstri/</div>
+<ul class="link"><li>by の /aɪ/ が reviving の /r/ に続く二重母音+子音で連結なし</li><li>reviving の語末 /ŋ/ が old の /oʊ/ に先行鼻音+母音で平滑 [rɪˈvaɪvɪŋ oʊld] リヴァイビング オウルド</li><li>preserve の語末 /v/ が Minecraft の /m/ に先立つ子音+子音で未開放</li></ul>
+<div class="kana">バイ リヴァイビング オウルド ストラクチャーズ プレイアーズ プリザーブ マインクラフト ヒストリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is reviving</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>reviving</mark> all our teammates right now.</p>
+<p class="ja">彼女は今、私たちのチームメイト全員を蘇生させている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz rɪˈvaɪvɪŋ ɔl aʊr ˈtimmeɪts raɪt naʊ/</div>
+<ul class="link"><li>is /ɪz/ weak form [ɪz rɪˈvaɪvɪŋ] イズ リヴァイビング</li><li>all our で、all の語末子音 /l/ が our の母音 /aʊ/ に連結 [ɔl aʊr] オル アワー</li></ul>
+<div class="kana">シー イズ リヴァイビング オール アワー ティムメイツ ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>reviving</mark> the old fortress together.</p>
+<p class="ja">彼らは古い砦を一緒に復興させている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr rɪˈvaɪvɪŋ ðə oʊld ˈfɔrtrəs təˈɡɛðɚ/</div>
+<ul class="link"><li>are /ɑr/ [ɑr rɪˈvaɪvɪŋ] オー リヴァイビング</li><li>the の弱形 /ðə/ [ðə oʊld] ザ オウルド</li></ul>
+<div class="kana">ゼイ オー リヴァイビング ザ オウルド フォートレス タゲザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was reviving</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>reviving</mark> players when the Ender Dragon appeared.</p>
+<p class="ja">エンダードラゴンが現れたとき、私はプレイヤーたちを蘇生させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz rɪˈvaɪvɪŋ ˈpleɪərz wɛn ðə ˈɛndər ˈdræɡən əˈpɪrd/</div>
+<ul class="link"><li>was /wəz/ weak form [wəz rɪˈvaɪvɪŋ] ワズ リヴァイビング</li><li>players の語末 /z/ と when の語頭 /w/ の子音連続 [ˈpleɪərz wɛn] プレイアーズ ウェン</li></ul>
+<div class="kana">アイ ワズ リヴァイビング プレイアーズ ウェン ザ エンダー ドラゴン ア ピアード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>reviving</mark> the village when night fell.</p>
+<p class="ja">夜が落ちたとき、私たちは村を復興させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ rɪˈvaɪvɪŋ ðə ˈvɪlɪdʒ wɛn naɪt fɛl/</div>
+<ul class="link"><li>were /wɚ/ [wɚ rɪˈvaɪvɪŋ] ワー リヴァイビング</li><li>the の弱形 /ðə/ [ðə ˈvɪlɪdʒ] ザ ヴィリッジ</li></ul>
+<div class="kana">ウィ ワー リヴァイビング ザ ヴィリッジ ウェン ナイト フェル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been reviving</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>reviving</mark> teammates for hours before we won.</p>
+<p class="ja">私たちが勝つ前に、彼女は何時間もチームメイトを蘇生させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd bɪn rɪˈvaɪvɪŋ ˈtimmeɪts fɚ ˈaʊərz bɪˈfɔr wi wʌn/</div>
+<ul class="link"><li>had /həd/ weak form、been /bɪn/ weak form [həd bɪn rɪˈvaɪvɪŋ] ハッド ビン リヴァイビング</li><li>teammates の語末 /ts/ と for の語頭 /f/ の子音連続 [ˈtimmeɪts fɚ] ティムメイツ ファー</li></ul>
+<div class="kana">シー ハッド ビン リヴァイビング ティムメイツ ファー アワーズ ビフォア ウィ ワン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>reviving</mark> the fortress all month before the raid.</p>
+<p class="ja">レイドが来る前に、私たちは1ヶ月間、砦を復興させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn rɪˈvaɪvɪŋ ðə ˈfɔrtrəs ɔl ˈmʌnθ bɪˈfɔr ðə ˈreɪd/</div>
+<ul class="link"><li>had /həd/ weak form、been /bɪn/ weak form [həd bɪn rɪˈvaɪvɪŋ] ハッド ビン リヴァイビング</li><li>the の弱形 /ðə/ [ðə ˈfɔrtrəs] ザ フォートレス</li><li>all month で、all /l/ と month /m/ の子音連続 [ɔl ˈmʌnθ] オール マンス</li></ul>
+<div class="kana">ウィ ハッド ビン リヴァイビング ザ フォートレス オール マンス ビフォア ザ レイド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has revived</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/əz rɪˈvaɪvd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>revived</mark> three teammates this round.</p>
+<p class="ja">彼女はこのラウンドで3人のチームメイトを蘇生させている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əz rɪˈvaɪvd ˈθri ˈtimmeɪts ðɪs ˈraʊnd/</div>
+<ul class="link"><li>has は助動詞の弱形 /əz/、revived の /r/ に先立つ子音+子音で子音クラスター /z̚ r/ [əz̚ rɪˈvaɪvd] ス リヴァイド</li><li>revived の語末 /d/ が three の /θ/ に先立つ子音+子音で未開放 /d̚ θ/ [rɪˈvaɪvd̚ ˈθri] リヴァイド スリー</li><li>teammates の語末 /z/ が this の /ð/ に先立つ子音+子音で未開放 /z̚ ð/</li></ul>
+<div class="kana">シー ス リヴァイド スリー ティムメイツ ディス ラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The magic potion has <mark>revived</mark> the fallen heroes.</p>
+<p class="ja">その魔法のポーションは倒れた英雄たちを蘇生させている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmædʒɪk ˈpoʊʃən əz rɪˈvaɪvd ðə ˈfɔlən ˈhɪroʊz/</div>
+<ul class="link"><li>the は弱形 /ðə/、magic の /m/ に続く母音+子音で滑らかに移行 [ðə ˈmædʒɪk]</li><li>potion の語末 /n/ が has の /əz/ に先立つ子音+子音で [ˈpoʊʃən əz] ポーション ス</li><li>has は弱形 /əz/、revived の /r/ に先立つ子音+子音で子音クラスター /z̚ r/</li><li>the は弱形 /ðə/、fallen の /f/ に続く母音+子音で滑らかに移行</li></ul>
+<div class="kana">ザ マジック ポーション ス リヴァイド ザ フォーレン ヒロウズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had revived</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/əd rɪˈvaɪvd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>revived</mark> the fortress before night fell.</p>
+<p class="ja">彼らは夜が訪れる前に砦を復興させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ əd rɪˈvaɪvd ðə ˈfɔrtrəs bɪˈfɔr naɪt fɛl/</div>
+<ul class="link"><li>had は弱形 /əd/、revived の /r/ に先立つ子音+子音で子音クラスター /d̚ r/ [əd̚ rɪˈvaɪvd] ド リヴァイド</li><li>the は弱形 /ðə/、fortress の /f/ に続く母音+子音で滑らかに移行</li><li>night の語末 /t/ が fell の /f/ に先立つ子音+子音で未開放 /t̚ f/ [naɪt̚ fɛl] ナイト フェル</li></ul>
+<div class="kana">ゼイ ド リヴァイド ザ フォートレス ビフォー ナイト フェル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>revived</mark> all fallen players by the time dawn broke.</p>
+<p class="ja">夜明けが訪れるまでに、私たちはすべての倒れたプレイヤーを蘇生させていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi əd rɪˈvaɪvd ɔl ˈfɔlən ˈpleɪərz baɪ ðə ˈtaɪm dɔn ˈbroʊk/</div>
+<ul class="link"><li>had は弱形 /əd/、revived の /r/ に先立つ子音+子音で子音クラスター /d̚ r/</li><li>all の語末 /l/ が fallen の /f/ に先立つ子音+子音で未開放 /l̚ f/ [ɔl̚ ˈfɔlən] オール フォーレン</li><li>the は弱形 /ðə/、time の /t/ に続く母音+子音で滑らかに移行</li></ul>
+<div class="kana">ウィ ド リヴァイド オール フォーレン プレイアーズ バイ ザ タイム ドーン ブロウク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been reviving</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/əz bɪn rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has been <mark>reviving</mark> teammates throughout the entire battle.</p>
+<p class="ja">彼女はこの戦闘全体を通じてチームメイトを蘇生させ続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əz bɪn rɪˈvaɪvɪŋ ˈtimmeɪts ˈθruaʊt ðə ɪnˈtaɪr ˈbætəl/</div>
+<ul class="link"><li>has は弱形 /əz/、been の /b/ に先立つ子音+子音で子音クラスター /z̚ b/ [əz̚ bɪn] ス ビン</li><li>been は弱形 /bɪn/、reviving の /r/ に先立つ子音+子音で子音クラスター /n̚ r/</li><li>the は弱形 /ðə/、entire の /ɪ/ に続く母音+母音で滑らかに移行（母音間）</li></ul>
+<div class="kana">シー ス ビン リヴァイビング ティムメイツ スルーアウト ザ エンタイアー バトル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The healing magic has been <mark>reviving</mark> our strength this entire game.</p>
+<p class="ja">その治癒魔法はこのゲーム全体を通じて私たちの力を復活させ続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhilɪŋ ˈmædʒɪk əz bɪn rɪˈvaɪvɪŋ ɑr ˈstrɛŋθ ðɪs ɪnˈtaɪr ˈɡeɪm/</div>
+<ul class="link"><li>the は弱形 /ðə/、healing の /h/ に続く母音+子音で滑らかに移行</li><li>has は弱形 /əz/、been の /b/ に先立つ子音+子音で子音クラスター /z̚ b/</li><li>been は弱形 /bɪn/、reviving の /r/ に先立つ子音+子音で子音クラスター /n̚ r/</li></ul>
+<div class="kana">ザ ヒーリング マジック ス ビン リヴァイビング アー ストレングス ディス エンタイアー ゲイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will revive</span><span class="fl">単純未来形</span><span class="fi">/wəl rɪˈvaɪv/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>revive</mark> my teammate once we reach the respawn anchor.</p>
+<p class="ja">リスポーンアンカーに到着したら、私はチームメイトを蘇生させるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəl rɪˈvaɪv maɪ ˈtɪmmeɪt wʌnz wi ritʃ ðə rɪˈspoʊn ˈæŋkər/</div>
+<ul class="link"><li>will は弱形 /wəl/、revive の /r/ に先立つ子音+子音で未開放 [wəl̚ rɪˈvaɪv] ウル リヴァイブ</li><li>revive の語末子音 /v/ が my の /m/ に先立つ子音+子音で未開放 [vaɪv̚ maɪ] ヴァイ マイ</li></ul>
+<div class="kana">アイ ウル リヴァイブ マイ ティムメイト ワンス ウィ リーチ ザ リスポウン アンカー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will <mark>revive</mark> all fallen players during the raid tonight.</p>
+<p class="ja">今夜のレイド中に、彼女はすべての倒れたプレイヤーを蘇生させるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəl rɪˈvaɪv ɔl ˈfɔlən ˈpleɪərz ˈdʊrɪŋ ðə ˈreɪd təˈnaɪt/</div>
+<ul class="link"><li>will は弱形 /wəl/、revive の /r/ に先立つ子音+子音で未開放 [wəl̚ rɪˈvaɪv] ウル リヴァイブ</li><li>all の語末子音 /l/ が fallen の /f/ に先立つ子音+子音で未開放 [ɔl̚ ˈfɔlən] オール フォーレン</li><li>the は弱形 /ðə/、raid に滑らかに連結 [ðə ˈreɪd] ザ・レイド</li></ul>
+<div class="kana">シー ウル リヴァイブ オール フォーレン プレイアーズ デュアリング ザ レイド トゥナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be reviving</span><span class="fl">未来進行形</span><span class="fi">/wəl bi rɪˈvaɪvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be <mark>reviving</mark> teammates while you gather resources.</p>
+<p class="ja">あなたがリソースを集めている間に、私たちはチームメイトを蘇生させ続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wəl bi rɪˈvaɪvɪŋ ˈtɪmmeɪts waɪl ju ˈɡæðər rɪˈsɔrsɪz/</div>
+<ul class="link"><li>will は弱形 /wəl/、be の /b/ に先立つ子音+子音で未開放 [wəl̚ bi] ウル ビー</li><li>reviving の語末 /ŋ/ が teammates の /t/ に先立つ子音+子音で未開放 [rɪˈvaɪvɪŋ ˈtɪmmeɪts] リヴァイビング ティムメイツ</li></ul>
+<div class="kana">ウィ ウル ビー リヴァイビング ティムメイツ ワイル ユー ギャザー リソースズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The healing potion will be <mark>reviving</mark> everyone for the next hour.</p>
+<p class="ja">その治癒ポーションは次の1時間、皆を復活させ続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhilɪŋ ˈpoʊʃən wəl bi rɪˈvaɪvɪŋ ˈɛvriˌwʌn fər ðə ˈnɛkst ˈaʊər/</div>
+<ul class="link"><li>will は弱形 /wəl/、be の /b/ に先立つ子音+子音で未開放 [wəl̚ bi] ウル ビー</li><li>reviving の語末 /ŋ/ が everyone の /ɛ/ に先立つ時、鼻音+母音で滑らかに連結 [rɪˈvaɪvɪŋ ˈɛvriˌwʌn] リヴァイビング エブリワン</li></ul>
+<div class="kana">ザ ヒーリング ポーション ウル ビー リヴァイビング エブリワン ファー ザ ネクスト アワー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have revived</span><span class="fl">未来完了形</span><span class="fi">/wəl əv rɪˈvaɪvd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/revive_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, I will have <mark>revived</mark> all the lost villagers.</p>
+<p class="ja">明日までに、私は失われたすべての村人を蘇生させているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ aɪ wəl əv rɪˈvaɪvd ɔl ðə loʊst ˈvɪlɪdʒərz/</div>
+<ul class="link"><li>will は弱形 /wəl/、have の /h/ に先立つ子音+子音で未開放 [wəl̚ əv] ウル ハヴ</li><li>have は弱形 /əv/、revived の /r/ に先立つ子音+子音で未開放 [əv̚ rɪˈvaɪvd] ハヴ リヴァイド</li><li>the は弱形 /ðə/、lost に滑らかに連結 [ðə loʊst] ザ・ロウスト</li></ul>
+<div class="kana">バイ トゥモロウ アイ ウル ハヴ リヴァイド オール ザ ロウスト ヴィリッジャーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>revived</mark> the entire fortress before nightfall.</p>
+<p class="ja">彼らは夜の来る前に砦全体を復興させているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wəl əv rɪˈvaɪvd ðə ɪnˈtaɪr ˈfɔrtrəs bɪˈfɔr ˈnaɪtfɔl/</div>
+<ul class="link"><li>will は弱形 /wəl/、have の /h/ に先立つ子音+子音で未開放 [wəl̚ əv] ウル ハヴ</li><li>have は弱形 /əv/、revived の /r/ に先立つ子音+子音で未開放 [əv̚ rɪˈvaɪvd] ハヴ リヴァイド</li><li>the は弱形 /ðə/、entire に滑らかに連結 [ðə ɪn...] ザ・エンタイアー</li></ul>
+<div class="kana">ゼイ ウル ハヴ リヴァイド ザ エンタイアー フォートレス ビフォー ナイトフォール</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">revive one's hope</span><span class="im">希望を取り戻す、誰かの希望を復活させる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The discovery of diamonds <mark>revived</mark> our hope of building a grand mansion.</p>
+<p class="ja">ダイヤモンドの発見は、壮大な邸宅を建てるという私たちの希望を復活させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌdɪskʌvəri əv ˈdaɪməndz rɪˈvaɪvd aʊr ˈhoʊp əv ˈbɪldɪŋ ə ˈɡrænd məˈnʃən/</div>
+<ul class="link"><li>revived と our で、revived の語末子音 /d/ が our の /aʊ/ に連結 [rɪˈvaɪvd aʊr] リヴァイド アワー</li></ul>
+<div class="kana">ザ ディスカヴァリー アヴ ダイモンズ リヴァイド アワー ホープ アヴ ビルディング ア グランド メンション</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">revive a tradition</span><span class="im">伝統を復活させる、昔からの習慣をよみがえらせる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our community <mark>revived</mark> the ancient tradition of monthly building competitions.</p>
+<p class="ja">私たちのコミュニティは、毎月の建築大会という古い伝統を復活させた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/revive_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/revive_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aʊr kəˈmjunəti rɪˈvaɪvd ðə ˈeɪnʃənt trəˈdɪʃən əv ˈmʌnθli ˈbɪldɪŋ ˌkɑmpɪˈtɪʃənz/</div>
+<ul class="link"><li>community の語末 /i/ が revived の /r/ に続く（母音+子音）</li></ul>
+<div class="kana">アワー コミューニティ リヴァイド ザ エインシャント トラディション アヴ マンスリー ビルディング コンペティションズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="revive";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

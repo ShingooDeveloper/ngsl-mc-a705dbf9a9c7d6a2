@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>roam — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>roam</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/roʊm/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1618</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】(人や動物が)広い範囲をあてもなく歩き回る、放浪する（walk or travel aimlessly over a large area）</li><li>【動詞】(生物が)生息地を移動する、さまよう（wander about searching for food or activity）</li><li>【動詞】(通信信号などが)複数の領域に接続する（of mobile phones, connect to foreign networks）</li><li>【名詞】放浪、ぶらぶら歩き（a walk with no fixed purpose or destination）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Creepers <mark>roam</mark> the dark caves at night.</p>
+<p class="ja">クリーパーが夜間に暗い洞窟をあちこち歩き回っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈkriːpərz roʊm ðə ˈdɑrk keɪvzæt̚ ˈnaɪt]</div>
+<ul class="link"><li>the は機能語の弱形 /ðə/</li><li>caves at → caves の語末 /z/ が at の /æ/ に連結 [keɪvzæt̚]</li><li>at night → at の語末 /t/ は未開放で次の /n/ に続く [æt̚ ˈnaɪt]</li></ul>
+<div class="kana">クリーパーズ ロウム ザ ダーク ケイブザッ ナイト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I like to <mark>roam</mark> around the forest looking for rare blocks.</p>
+<p class="ja">珍しいブロックを探すために、森の中をあちこち歩き回るのが好きです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈlaɪk tə roʊm əˈraʊnd ðə ˈfɔrəst ˈlʊkɪŋ fər ˈrɛɹ blɑks]</div>
+<ul class="link"><li>to は機能語の弱形 /tə/</li><li>roam around → roam の語末 /m/ が around の /ə/ に連結 [roʊmə ˈraʊnd]</li><li>the は機能語の弱形 /ðə/</li></ul>
+<div class="kana">アイ ライク タ ロウマ ラウンド ザ フォレスト ルキング フ レア ブロックス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>While I <mark>roamed</mark> through the mountains, I found diamonds.</p>
+<p class="ja">山々をさまよい歩いている間に、ダイヤモンドを見つけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈwaɪl aɪ ˈroʊmd θruː ðə ˈmaʊntənzaɪ ˈfaʊnd ˈdaɪmənz]</div>
+<ul class="link"><li>the は機能語の弱形 /ðə/</li><li>mountains I → mountains の語末 /z/ が I の /aɪ/ に連結 [ˈmaʊntənzaɪ]</li></ul>
+<div class="kana">ワイル アイ ロウムド スルー ザ マウンテンザイ ファウンド ダイモンズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">roams</span><span class="fl">三人称単数現在形</span><span class="fi">/roʊmz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The wandering trader <mark>roams</mark> through our village every few days.</p>
+<p class="ja">放浪する商人は数日ごとに私たちの村を歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɑndərɪŋ ˈtreɪdər roʊmz θru ˈaʊər ˈvɪlɪdʒ ˈɛvri ˈfju ˈdeɪz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>trader roams → trader の語末 /r/ が roams に続き [ˈtreɪdər roʊmz] トレイダー ロウムズ</li><li>every は弱形 /ˈɛvri/ エブリー</li></ul>
+<div class="kana">ザ ワンダーリング トレイダー ロウムズ スルー アワー ヴィリッジ エブリー フュー デイズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>roams</mark> across the mountains searching for rare ores.</p>
+<p class="ja">彼はレアなオアを探して山々を歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi roʊmz əˈkrɔs ðə ˈmaʊntənz ˈsɝtʃɪŋ fɔr ˈrɛr ˈɔrz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>for rare → for の語末 /r/ が rare に続き [fɔr ˈrɛr] フォー レアー</li></ul>
+<div class="kana">ヒー ロウムズ アクロス ザ マウンテンズ サーチング フォー レアー オアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">roamed</span><span class="fl">過去形</span><span class="fi">/roʊmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>roamed</mark> the nether for hours before finding a fortress.</p>
+<p class="ja">要塞を見つける前に、私たちはネザーを何時間も歩き回りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi roʊmd ðə ˈnɛðər fɔr ˈaʊɚz bɪˈfɔr ˈfaɪndɪŋ ə ˈfɔrtrɪs/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>for hours → for の語末 /r/ が hours に続き [fɔr ˈaʊɚz] フォー アワーズ</li></ul>
+<div class="kana">ウィ ロウムド ザ ネザー フォー アワーズ ビフォア ファインディング ア フォートリス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob <mark>roamed</mark> around the forest all night long.</p>
+<p class="ja">そのモブは一晩中森の周りを歩き回りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊb roʊmd əˈraʊnd ðə ˈfɔrɪst ɔl ˈnaɪt lɔŋ/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">ザ モウブ ロウムド アラウンド ザ フォレスト オール ナイト ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">roamed</span><span class="fl">過去分詞</span><span class="fi">/roʊmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>roamed</mark> for days, the travelers finally reached the base.</p>
+<p class="ja">数日間歩き回った後、旅人たちはようやくベースに到達しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ roʊmd fɔr ˈdeɪz ðə ˈtræv.ə.lɚz ˈfaɪn.əl.i ˈritʃt ðə ˈbeɪs/</div>
+<ul class="link"><li>for は弱形 /fɔr/ フォー</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">ハービング ロウムド フォー デイズ ザ トラベラーズ ファイナリー リーチド ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The lands they <mark>roamed</mark> were filled with ancient ruins.</p>
+<p class="ja">彼らが歩き回った土地は古代の遺跡で満ちていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlændz ðeɪ roʊmd wər ˈfɪld wɪð ˈeɪn.ʃənt ˈru.ɪnz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ ランズ ザイ ロウムド ワー フィルド ウィズ エイシャント ルーインズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">roaming</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Roaming</mark> through the jungle biome, we discovered exotic trees and plants.</p>
+<p class="ja">ジャングルバイオームを歩き回ることで、私たちは珍しい木と植物を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈroʊmɪŋ θru ðə ˈdʒʌŋɡəl ˈbaɪoʊm wi dɪsˈkʌvərd ɪɡˈzɑtɪk ˈtriz ənd ˈplænts/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ロウミング スルー ザ ジャングル バイオーム ウィ ディスカバード イグゾティック トリーズ アンド プランツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>roaming</mark> different servers, players can experience unique gameplay styles.</p>
+<p class="ja">異なるサーバーを歩き回ることで、プレイヤーはユニークなゲームプレイスタイルを経験できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈroʊmɪŋ ˈdɪfərənt ˈsɚvɚz ˈpleɪɚz kæn ɪksˈpɪrienθ ˈjunɪk ˈɡeɪmˌpleɪ ˈstaɪlz/</div>
+<ul class="link"><li>特に連結なし</li></ul>
+<div class="kana">バイ ロウミング ディファレント サーヴァーズ プレイヤーズ キャン イクスピアリエンス ユニック ゲームプレイ スタイルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is roaming</span><span class="fl">現在進行形（is/are + -ing）</span><span class="fi">/ɪz ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob is <mark>roaming</mark> around the cave looking for prey.</p>
+<p class="ja">そのモブは洞窟の周りを歩き回り、獲物を探しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊb ɪz ˈroʊmɪŋ əˈraʊnd ðə keɪv ˈlʊkɪŋ fɔr preɪ/</div>
+<ul class="link"><li>is は機能語（助動詞）で弱形 /ɪz/ イズ</li><li>is の語末子音 /z/ が roaming の初頭 /r/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ（2回）</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ザ モウブ イズ ロウミング アラウンド ザ ケイブ ルッキング フォー プレイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>roaming</mark> the desert searching for a village.</p>
+<p class="ja">私たちは村を探して、砂漠を歩き回っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ər ˈroʊmɪŋ ðə ˈdɛzərt ˈsɝtʃɪŋ fɔr ə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>are は機能語（助動詞）で弱形 /ər/ アー</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔr/ フォー</li><li>a は弱形 /ə/ ア</li></ul>
+<div class="kana">ウィ アー ロウミング ザ デザート サーチング フォー ア ヴィリッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was roaming</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob was <mark>roaming</mark> the forest when we attacked it.</p>
+<p class="ja">私たちがそのモブを攻撃したとき、モブは森を歩き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊb wəz ˈroʊmɪŋ ðə ˈfɔrɪst wɛn wi əˈtækt ɪt/</div>
+<ul class="link"><li>was は機能語（助動詞）で弱形 /wəz/ ワズ</li><li>was の語末子音 /z/ が roaming の初頭 /r/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">ザ モウブ ワズ ロウミング ザ フォレスト ウェン ウィ アタクト イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>roaming</mark> the plains before I found the village.</p>
+<p class="ja">村を見つける前に、私は平原を歩き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈroʊmɪŋ ðə ˈpleɪnz bɪˈfɔr aɪ ˈfaʊnd ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>was は機能語（助動詞）で弱形 /wəz/ ワズ</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">アイ ワズ ロウミング ザ プレインズ ビフォア アイ ファウンド ザ ヴィリッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been roaming</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd ˈbɪn ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob had been <mark>roaming</mark> the plains for hours before we defeated it.</p>
+<p class="ja">私たちがそのモブを倒す前に、モブは数時間平原を歩き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊb həd ˈbɪn ˈroʊmɪŋ ðə ˈpleɪnz fɔr ˈaʊɚz bɪˈfɔr wi dɪˈfitɪd ɪt/</div>
+<ul class="link"><li>had は機能語（助動詞）で弱形 /həd/ ハド</li><li>been は機能語（過去分詞）で弱形 /bɪn/ ビン</li><li>had been → had の語末子音 /d/ が been の初頭 /b/ に続き未開放停止 [həd̚ ˈbɪn] ハド ビン</li><li>been roaming → been の語末子音 /n/ が roaming の初頭 /r/ に続き（子音+子音）</li><li>the は弱形 /ðə/ ザ（2回）</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ザ モウブ ハド ビン ロウミング ザ プレインズ フォー アワーズ ビフォア ウィ ディフィティド イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>roaming</mark> the nether for days before finding the fortress.</p>
+<p class="ja">要塞を見つける前に、私たちはネザーを何日も歩き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ˈbɪn ˈroʊmɪŋ ðə ˈnɛðər fɔr ˈdeɪz bɪˈfɔr ˈfaɪndɪŋ ðə ˈfɔrtrɪs/</div>
+<ul class="link"><li>had は機能語（助動詞）で弱形 /həd/ ハド</li><li>been は機能語（過去分詞）で弱形 /bɪn/ ビン</li><li>had been → had の語末子音 /d/ が been の初頭 /b/ に続き未開放停止 [həd̚ ˈbɪn] ハド ビン</li><li>the は弱形 /ðə/ ザ（2回）</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ウィ ハド ビン ロウミング ザ ネザー フォー デイズ ビフォア ファインディング ザ フォートリス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has roamed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈroʊmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>roamed</mark> the desert for hours searching for diamonds.</p>
+<p class="ja">彼女は何時間もダイヤモンドを探して砂漠を歩き回っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz ˈroʊmd ðə ˈdɛzərt fɔr ˈaʊɚz ˈsɝtʃɪŋ fɔr ˈdaɪməndz/</div>
+<ul class="link"><li>has は機能語（助動詞）で弱形 /həz/ ハズ</li><li>has roamed → has の語末子音 /z/ が roamed の初頭 /r/ に連結 [həz ˈroʊmd] ハズ ロウムド</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">シー ハズ ロウムド ザ デザート フォー アワーズ サーチング フォー ダイモンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have <mark>roamed</mark> across multiple biomes to find the best location for their base.</p>
+<p class="ja">彼らは彼らのベースに最適な場所を見つけるために、複数のバイオームを歩き回りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv ˈroʊmd əˈkrɔs ˈmʌltɪpəl ˈbaɪoʊmz tə ˈfaɪnd ðə ˈbɛst loʊˈkeɪʃən fɔr ðɛr ˈbeɪs/</div>
+<ul class="link"><li>have は機能語（助動詞）で弱形 /həv/ ハヴ</li><li>have roamed → have の語末子音 /v/ が roamed の初頭 /r/ に連結 [həv ˈroʊmd] ハヴ ロウムド</li><li>to は機能語で弱形 /tə/ タ</li><li>the は弱形 /ðə/ ザ（2回）</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ザイ ハヴ ロウムド アクロス マルティプル バイオームズ タ ファインド ザ ベスト ロケイション フォー ザイア ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had roamed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈroʊmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After the mobs had <mark>roamed</mark> the forest all night, we could finally build our shelter.</p>
+<p class="ja">モブが一晩中森を歩き回った後、やっと私たちは避難所を建設できました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ðə moʊbz həd ˈroʊmd ðə ˈfɔrɪst ɔl ˈnaɪt wi ˈkʊd ˈfaɪnəli ˈbɪld ˈaʊər ˈʃɛltər/</div>
+<ul class="link"><li>had は機能語（助動詞）で弱形 /həd/ ハド</li><li>had roamed → had の語末子音 /d/ が roamed の初頭 /r/ に続き未開放停止 [həd̚ ˈroʊmd] ハド ロウムド</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">アフター ザ モウブズ ハド ロウムド ザ フォレスト オール ナイト ウィ クッド ファイナリー ビルド アワー シェルター</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, the traders had <mark>roamed</mark> through the village already.</p>
+<p class="ja">私たちが到着した時点で、商人たちはすでに村を歩き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪvd ðə ˈtreɪdərz həd ˈroʊmd θru ðə ˈvɪlɪdʒ ɔlˈrɛdi/</div>
+<ul class="link"><li>had は機能語（助動詞）で弱形 /həd/ ハド</li><li>had roamed → had の語末子音 /d/ が roamed の初頭 /r/ に続き未開放停止 [həd̚ ˈroʊmd] ハド ロウムド</li><li>the は弱形 /ðə/ ザ（3回）</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライブド ザ トレイダーズ ハド ロウムド スルー ザ ヴィリッジ オールレディ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been roaming</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz ˈbɪn ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The wandering trader has been <mark>roaming</mark> through the villages all week.</p>
+<p class="ja">放浪する商人は1週間中、村を通じて歩き回っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɑndərɪŋ ˈtreɪdər həz ˈbɪn ˈroʊmɪŋ θru ðə ˈvɪlɪdʒəz ɔl ˈwik/</div>
+<ul class="link"><li>has は機能語（助動詞）で弱形 /həz/ ハズ</li><li>has been → has の語末子音 /z/ が been の初頭 /b/ に連結 [həz ˈbɪn] ハズ ビン</li><li>been は機能語（過去分詞）で弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">ザ ワンダーリング トレイダー ハズ ビン ロウミング スルー ザ ヴィリッジーズ オール ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>roaming</mark> the mountains trying to find a ravine with exposed ore.</p>
+<p class="ja">私は露出したオアを持つ渓谷を見つけようとして山々を歩き回っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈbɪn ˈroʊmɪŋ ðə ˈmaʊntənz ˈtraɪɪŋ tə ˈfaɪnd ə rəˈvin wɪð ɪkˈspoʊzd ˈɔr/</div>
+<ul class="link"><li>have は機能語（助動詞）で弱形 /həv/ ハヴ</li><li>have been → have の語末子音 /v/ が been の初頭 /b/ に連結 [həv ˈbɪn] ハヴ ビン</li><li>the は弱形 /ðə/ ザ</li><li>to は機能語で弱形 /tə/ タ</li><li>a は弱形 /ə/ ア</li></ul>
+<div class="kana">アイ ハヴ ビン ロウミング ザ マウンテンズ トライイング タ ファインド ア ラヴィーン ウィズ イクスポウズド オア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will roam</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl roʊm/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>roam</mark> the mountains tomorrow searching for rare ore deposits.</p>
+<p class="ja">明日、私たちはレアなオア鉱床を探して山々を歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil roʊm ðə ˈmaʊntənz təˈmɑroʊ ˈsɝtʃɪŋ fɔr ˈrɛr ˈɔr dɪˈpɑzɪts/</div>
+<ul class="link"><li>will は機能語で縮約形 I'll/we'll/you'll 等に使われる。we'll = /wil/ ウィル</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ウィル ロウム ザ マウンテンズ トゥモロウ サーチング フォー レアー オア ディポジッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mobs will <mark>roam</mark> around the plains at nightfall.</p>
+<p class="ja">モブは夜間に平原の周りを歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə moʊbz wɪl roʊm əˈraʊnd ðə ˈpleɪnz æt ˈnaɪtˌfɔl/</div>
+<ul class="link"><li>will は基本形 /wɪl/ ウィル（縮約されない場合）</li><li>the は弱形 /ðə/ ザ（2回）</li><li>will roam → will の語末子音 /l/ が roam の初頭 /r/ に連結 [wɪl roʊm] ウィル ロウム</li></ul>
+<div class="kana">ザ モウブズ ウィル ロウム アラウンド ザ プレインズ アット ナイットフォール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be roaming</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈroʊmɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While we build the base, they'll be <mark>roaming</mark> the desert looking for villages.</p>
+<p class="ja">私たちがベースを建設している間に、彼らは村を探して砂漠を歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl wi ˈbɪld ðə ˈbeɪs ðeɪl bi ˈroʊmɪŋ ðə ˈdɛzərt ˈlʊkɪŋ fɔr ˈvɪlɪdʒəz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ（2回）</li><li>they'll = /ðeɪl/ ザイル（will の縮約）</li><li>be は機能語（助動詞）で弱形 /bi/ ビー</li><li>for は弱形 /fɔr/ フォー</li></ul>
+<div class="kana">ワイル ウィ ビルド ザ ベイス ザイル ビー ロウミング ザ デザート ルッキング フォー ヴィリッジーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be <mark>roaming</mark> the nether for hours hunting for blazes.</p>
+<p class="ja">私は何時間もブレイズを狩ってネザーを歩き回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈroʊmɪŋ ðə ˈnɛðər fɔr ˈaʊɚz ˈhʌntɪŋ fɔr ˈbleɪzɪz/</div>
+<ul class="link"><li>I'll = /aɪl/ アイル（will の縮約）</li><li>be は機能語（助動詞）で弱形 /bi/ ビー</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔr/ フォー（2回）</li></ul>
+<div class="kana">アイル ビー ロウミング ザ ネザー フォー アワーズ ハンティング フォー ブレイジーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have roamed</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv roʊmd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/roam_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, we'll have <mark>roamed</mark> every single biome on the server.</p>
+<p class="ja">来週までに、私たちはサーバー上のすべてのバイオームを歩き回ったことになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik wil həv ˈroʊmd ˈɛvri ˈsɪŋɡəl ˈbaɪoʊm ɑn ðə ˈsɝvər/</div>
+<ul class="link"><li>will は基本形 /wɪl/ ウィル。will have では will が有音 /l/ が保持される</li><li>have は機能語（助動詞）で弱形 /həv/ ハヴ</li><li>will have → will の語末 /l/ が have の初頭 /h/ に続くが接続なし（子音+子音）</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">バイ ネクスト ウィーク ウィル ハヴ ロウムド エブリー シングル バイオーム オン ザ サーバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He will have <mark>roamed</mark> through the jungle for days by the time he finds a temple.</p>
+<p class="ja">彼が寺院を見つけるまでに、何日もジャングルを歩き回ったことになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wɪl həv ˈroʊmd θru ðə ˈdʒʌŋɡəl fɔr ˈdeɪz baɪ ðə ˈtaɪm hi ˈfaɪndz ə ˈtɛmpəl/</div>
+<ul class="link"><li>will は基本形 /wɪl/ ウィル</li><li>have は機能語で弱形 /həv/ ハヴ</li><li>the は弱形 /ðə/ ザ（2回）</li><li>for は弱形 /fɔr/ フォー</li><li>a は弱形 /ə/ ア</li></ul>
+<div class="kana">ヒー ウィル ハヴ ロウムド スルー ザ ジャングル フォー デイズ バイ ザ タイム ヒー ファインズ ア テンプル</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">roam free</span><span class="im">自由に放浪する、（生物が）自由に歩き回る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mobs <mark>roam</mark> free in the night.</p>
+<p class="ja">夜間に怪物が自由に歩き回っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/roam_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/roam_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈmɑbz roʊm ˈfriː ɪn ðə ˈnaɪt̚]</div>
+<ul class="link"><li>the は機能語の弱形 /ðə/</li><li>night の語末 /t/ は未開放 [naɪt̚]</li></ul>
+<div class="kana">モブズ ロウム フリー イン ザ ナイッ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="roam";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

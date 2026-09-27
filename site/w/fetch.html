@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>fetch — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>fetch</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/fetʃ/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1900 #1737</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】〜を取ってくる、持ってくる（…to go and get something and bring it back…）</li><li>【動詞】（商品が）〜の値段で売れる、〜の値段がする（…to sell for a particular price…）</li><li>【名詞】取ってくる行為、持ってきた物（…the act of fetching or something fetched…）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Go <mark>fetch</mark> some wood for the furnace!</p>
+<p class="ja">かまどのために木を取ってきて！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɡoʊ ˈfɛtʃ səm wʊd fɔr ðə ˈfɝːnɪs]</div>
+<ul class="link"><li>the が弱形 /ðə/</li></ul>
+<div class="kana">ゴー フェッチ サム ウッド フォー ザ ファーニス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>fetched</mark> iron ore from the mine.</p>
+<p class="ja">私は鉱山から鉄鉱石を取ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈfɛtʃt ˈaɪrən ɔr frəm ðə maɪn]</div>
+<ul class="link"><li>fetched の /t/ が未開放</li><li>the が弱形 /ðə/</li></ul>
+<div class="kana">アイ フェッチ アイアン オア フラム ザ マイン</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>That enchanted sword <mark>fetches</mark> a great price.</p>
+<p class="ja">その魔法の剣はいい値段で売れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðæt ɪnˈtʃɑntɪd sɔrd ˈfɛtʃɪz ə ɡreɪt praɪs]</div>
+<ul class="link"><li>fetches の /z/ が a の /ə/ に連結</li></ul>
+<div class="kana">ザット インチャンティド ソード フェッチーズ ア グレイト プライス</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fetches</span><span class="fl">三人称単数現在形（動詞）</span><span class="fi">/ˈfɛtʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The hopper <mark>fetches</mark> items from the input slot very quickly.</p>
+<p class="ja">ホッパーは入力スロットからアイテムを素早く取ってきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈhɑpɚ ˈfɛtʃɪz ˈaɪtəmz frəm ðə ˈɪnpʊt slɑt ˈvɛri ˈkwɪkli]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/。hopper に連結 [ðə ˈhɑpɚ]</li><li>fetches items の /z/ が items の /aɪ/ に連結 [ˈfɛtʃɪz aɪtəmz]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">ザ ハッパー フェッチーズ アイテムズ フラム ザ インプット スロット ヴェリ クウィックリ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This command <mark>fetches</mark> all player data from the server instantly.</p>
+<p class="ja">このコマンドはサーバーからすべてのプレイヤーデータを即座に取ってきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðɪs ˈkɑmænd ˈfɛtʃɪz ˈɔl ˈpleɪər ˈdeɪtə frəm ðə ˈsɚvər ˈɪnstəntli]</div>
+<ul class="link"><li>command fetches の /d/ が fetches の /f/ の前で未開放 [ˈkɑmæn̚d ˈfɛtʃɪz]</li><li>fetches all の /z/ が all の /ɔ/ に連結 [ˈfɛtʃɪz ɔl]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">ディス コマンド フェッチーズ オール プレイアー デイタ フラム ザ サーヴァー インスタントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fetched</span><span class="fl">過去形（動詞）</span><span class="fi">/ˈfɛtʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>fetched</mark> iron ore from the deep cave yesterday.</p>
+<p class="ja">昨日、深い洞窟から鉄鉱石を取ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈfɛtʃt ˈaɪrən ˈɔr frəm ðə ˈdip keɪv ˈjɛstərdi]</div>
+<ul class="link"><li>fetched iron の /tʃt/ が iron の /aɪ/ に続き、/t/ が未開放で詰まる [ˈfɛtʃt̚ ˈaɪrən]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">アイ フェッチ アイアン オー フラム ザ ディープ ケイブ イェスターデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>fetched</mark> supplies and materials for the expansion project.</p>
+<p class="ja">拡張プロジェクト用に供給品と材料を取ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈfɛtʃt səˈplaɪz ənd məˈtɪriəlz fɔr ðə ɪkˈspænʃən ˈprɑdʒɛkt]</div>
+<ul class="link"><li>fetched supplies の /t/ が supplies の /s/ の前で未開放 [ˈfɛtʃt̚ səˈplaɪz]</li><li>and は機能語で弱形 /ənd/。materials に連結</li><li>for the の /r/ が weak form the /ðə/ に連結 [fɔr ðə]</li></ul>
+<div class="kana">ウィー フェッチ サプライズ アンド マテリアルズ フォー ザ イクスパンション プロジェクト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fetched</span><span class="fl">過去分詞（動詞）</span><span class="fi">/ˈfɛtʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The resources <mark>fetched</mark> from the mine were used for crafting tools.</p>
+<p class="ja">鉱山から取ってきたリソースはツール作成に使われました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈrɛsɚsɪz ˈfɛtʃt frəm ðə maɪn wɚ ˈjuzd fɔr ˈkræftɪŋ ˈtulz]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/。resources に連結 [ðə ˈrɛsɚsɪz]</li><li>fetched from の /t/ が from の /f/ の前で未開放 [ˈfɛtʃt̚ frəm]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li><li>for の /r/ が弱化</li></ul>
+<div class="kana">ザ レソースィーズ フェッチ フラム ザ マイン ワー ユースド フォー クラフティング トゥールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>fetched</mark> all the materials, we immediately started the construction.</p>
+<p class="ja">すべての材料を取ってきたので、すぐに建設を始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈheɪvɪŋ ˈfɛtʃt ˈɔl ðə məˈtɪriəlz wi ɪˈmɛdʒətli ˈstɑrtɪd ðə kənˈstrʌkʃən]</div>
+<ul class="link"><li>all the の /l/ が weak form the /ðə/ に連結 [ˈɔl ðə]</li><li>started the の /d/ が weak form the /ðə/ の前で未開放 [ˈstɑrtɪd̚ ðə]</li></ul>
+<div class="kana">ヘイヴィング フェッチ オール ザ マテリアルズ ウィー イメディアトリー スターティド ザ コンストラクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fetching</span><span class="fl">現在分詞・動名詞（動詞）</span><span class="fi">/ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>fetching</mark> supplies from the storage, I spotted rare diamonds in the walls.</p>
+<p class="ja">ストレージから供給品を取ってきている間に、壁に珍しいダイヤモンドを見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ˈfɛtʃɪŋ səˈplaɪz frəm ðə ˈstɔrɪdʒ aɪ ˈspɑɾɪd ˈrɛr ˈdaɪmənz ɪn ðə wɔlz]</div>
+<ul class="link"><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li><li>in the の /n/ が weak form the /ðə/ に連結 [ɪn ðə]</li></ul>
+<div class="kana">ワイル フェッチング サプライズ フラム ザ ストレッジ アイ スポリド レア ダイマンズ イン ザ ウォールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Fetching</mark> items is the main function of this redstone contraption.</p>
+<p class="ja">アイテムを取ってくることはこのレッドストーン装置の主な機能です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈfɛtʃɪŋ ˈaɪtəmz ɪz ðə ˈmeɪn ˈfʌŋkʃən əv ðɪs ˈrɛdˌstoʊn kənˈtræpʃən]</div>
+<ul class="link"><li>fetching が items の /aɪ/ に連結 [ˈfɛtʃɪŋ ˈaɪtəmz]</li><li>is の /z/ が the の弱形 /ðə/ に連結 [ɪz ðə]</li><li>of the の /v/ が weak form the /ðə/ に連結 [əv ðə]</li></ul>
+<div class="kana">フェッチング アイテムズ イズ ザ メイン ファンクション アヴ ディス レッドストーン コントラプション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fetches</span><span class="fl">複数形（名詞）</span><span class="fi">/ˈfɛtʃɪz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>fetches</mark> from different locations ensure efficiency in our inventory system.</p>
+<p class="ja">異なる場所からの複数回の取得は、私たちのインベントリシステムの効率を保証します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈmʌltɪpəl ˈfɛtʃɪz frəm ˈdɪfərənt ləˈkeɪʃənz ɛnˈʃɝː ɪˈfɪʃənsi ɪn ˈaʊər ɪnˈvɛntri ˈsɪstəm]</div>
+<ul class="link"><li>from different の /m/ が /d/ に先行（子音同士、通常の連結ではない）</li><li>locations ensure の /z/ が /ɛ/ に連結 [ləˈkeɪʃənz ɛnˈʃɝː]</li><li>in our の /n/ が /aʊ/ に連結 [ɪn ˈaʊər]</li></ul>
+<div class="kana">マルチプル フェッチーズ フラム ディファレント ロケイションズ エンシュア イフィシェンシー イン アワー インヴェントリー システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These rapid <mark>fetches</mark> improve the hopper's throughput significantly.</p>
+<p class="ja">これらの高速な取得はホッパーのスループットを大幅に改善します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðiːz ˈræpɪd ˈfɛtʃɪz ɪmˈpruːv ðə ˈhɑpərz ˈθruːpʊt sɪɡˈnɪfɪkəntli]</div>
+<ul class="link"><li>fetches improve の /z/ が improve の /ɪ/ に連結 [ˈfɛtʃɪz ɪmˈpruːv]</li><li>the は冠詞で弱形 /ðə/。hopper に連結 [ðə ˈhɑpərz]</li></ul>
+<div class="kana">ディーズ ラッピド フェッチーズ インプルーブ ザ ハッパーズ スループット シグニフィカントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is fetching</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The hopper is <mark>fetching</mark> items from the chest very efficiently.</p>
+<p class="ja">ホッパーはチェストからアイテムを非常に効率的に取ってきています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈhɑpɚ ɪz ˈfɛtʃɪŋ ˈaɪtəmz frəm ðə tʃɛst ˈvɛri ɪˈfɪʃəntli]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、hopper に連結 [ðə ˈhɑpɚ]</li><li>from の語末 /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">ザ ハッパー イズ フェッチング アイテムズ フラム ザ チェスト ヴェリ イフィシェントリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve is <mark>fetching</mark> coal from the deep mine right now.</p>
+<p class="ja">スティーブは今、深い鉱山から石炭を取ってきています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈstiv ɪz ˈfɛtʃɪŋ ˈkoʊl frəm ðə ˈdip maɪn ˈraɪt naʊ]</div>
+<ul class="link"><li>from の語末 /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">スティーブ イズ フェッチング コール フラム ザ ディープ マイン ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was fetching</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>fetching</mark> wood when a creeper suddenly appeared.</p>
+<p class="ja">木を取ってきていたとき、クリーパーが突然現れました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz ˈfɛtʃɪŋ wʊd wɛn ə ˈkriːpɚ səˈdɛnli əˈpɪrd]</div>
+<ul class="link"></ul>
+<div class="kana">アイ ワズ フェッチング ウッド ウェン ア クリーパー サドゥンリー アピアード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While the miners were <mark>fetching</mark> supplies, the sun went down.</p>
+<p class="ja">鉱夫たちが供給品を取ってきている間に、太陽が沈みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ðə ˈmaɪnərz wɚ ˈfɛtʃɪŋ səˈplaɪz ðə sʌn wɛnt ˈdaʊn]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、miners に連結 [ðə ˈmaɪnərz]</li></ul>
+<div class="kana">ワイル ザ マイナーズ ワー フェッチング サプライズ ザ サン ウェント ダウン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been fetching</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>fetching</mark> diamonds for hours before the storm arrived.</p>
+<p class="ja">嵐が到着する前に、私は何時間もダイヤモンドを取ってきていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həd bɪn ˈfɛtʃɪŋ ˈdaɪmənz fɚ ˈaʊərz bɪˈfɔr ðə ˈstɔrm əˈraɪvd]</div>
+<ul class="link"><li>had の語末 /d/ が been の /b/ で unreleased になる [həd̚ bɪn]</li><li>before の語末 /r/ が weak form the /ðə/ に連結 [bɪˈfɔr ðə]</li></ul>
+<div class="kana">アイ ハッビン フェッチング ダイマンズ ファー アワーズ ビフォー ザ ストーム アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time you logged in, we had been <mark>fetching</mark> resources all day.</p>
+<p class="ja">あなたがログインしたとき、私たちは一日中リソースを取ってきていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə taɪm ju ˈlɑɡd ɪn wi həd bɪn ˈfɛtʃɪŋ ˈrɛsɚsɪz ɔl ˈdeɪ]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、time に連結 [ðə taɪm]</li><li>had の語末 /d/ が been の /b/ で unreleased になる [həd̚ bɪn]</li></ul>
+<div class="kana">バイ ザ タイム ユー ロッディン ウィー ハッビン フェッチング リソースィズ オール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has fetched</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈfɛtʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>fetched</mark> enough obsidian from the Nether for our portal.</p>
+<p class="ja">私はポータル用にネザーから十分なオブシディアンを持ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv ˈfɛtʃt ɪˈnʌf ɑbˈsɪdiən frəm ðə ˈnɛðər fɔr ˈaʊər ˈpɔɾəl]</div>
+<ul class="link"><li>have は機能語で弱形 /həv/ に弱化</li><li>fetched の /t/ が enough に続き、/t/ が未開放で詰まる [ˈfɛtʃt̚ ɪˈnʌf]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">アイ ハヴ フェッチ イナフ オブシディアン フラム ザ ネザー フォー アワー ポーラル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>fetched</mark> all the rare materials from the deep underground caves.</p>
+<p class="ja">彼女は地下深い洞窟からすべてのレアな材料を持ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi həz ˈfɛtʃt ɔl ðə ˈrɛr məˈtɪriəlz frəm ðə ˈdip ˈʌndərɡraʊnd ˈkeɪvz]</div>
+<ul class="link"><li>has は機能語で弱形 /həz/ に弱化</li><li>all the の /l/ が weak form the /ðə/ に連結 [ˈɔl ðə]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">シー ハズ フェッチ オール ザ レア マテリアルズ フラム ザ ディープ アンダーグラウンド ケイヴズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had fetched</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈfɛtʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By noon, we had <mark>fetched</mark> enough wood and stone for the foundation.</p>
+<p class="ja">正午までに、基礎用に十分な木と石を持ってきていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ˈnun wi həd ˈfɛtʃt ɪˈnʌf ˈwʊd ənd ˈstoʊn fɔr ðə faʊnˈdeɪʃən]</div>
+<ul class="link"><li>had は機能語で弱形 /həd/ に弱化</li><li>and は機能語で弱形 /ənd/ に弱化、stone に連結</li><li>for the の /r/ が weak form the /ðə/ に連結 [fɔr ðə]</li></ul>
+<div class="kana">バイ ヌーン ウィー ハド フェッチ イナフ ウッド アンド ストーン フォー ザ ファウンデイション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners had <mark>fetched</mark> hundreds of diamonds before the night creatures attacked.</p>
+<p class="ja">夜間の生物が攻撃する前に、鉱夫たちは何百個のダイヤモンドを持ってきていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈmaɪnərz həd ˈfɛtʃt ˈhʌndrədz əv ˈdaɪmənz bɪˈfɔr ðə ˈnaɪt ˈkriːtʃərz əˈtækt]</div>
+<ul class="link"><li>had は機能語で弱形 /həd/ に弱化</li><li>hundreds の /z/ が of の弱形 /əv/ に連結 [ˈhʌndrədz əv]</li><li>before the の /r/ が weak form the /ðə/ に連結 [bɪˈfɔr ðə]</li></ul>
+<div class="kana">ザ マイナーズ ハド フェッチ ハンドレッズ アヴ ダイマンズ ビフォー ザ ナイト クリーチャーズ アタクト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been fetching</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has been <mark>fetching</mark> supplies for the expansion all morning long.</p>
+<p class="ja">彼は朝中、拡張用に物資を持ってき続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi həz bɪn ˈfɛtʃɪŋ səˈplaɪz fɔr ðə ɪkˈspænʃən ɔl ˈmɔrnɪŋ ˈlɔŋ]</div>
+<ul class="link"><li>has は機能語で弱形 /həz/ に弱化</li><li>been は機能語で弱形 /bɪn/ に弱化</li><li>for the の /r/ が weak form the /ðə/ に連結 [fɔr ðə]</li></ul>
+<div class="kana">ヒー ハズ ビン フェッチング サプライズ フォー ザ イクスパンション オール モーニング ロング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The hopper has been <mark>fetching</mark> items from the input chest continuously.</p>
+<p class="ja">ホッパーは入力チェストからアイテムを継続的に取ってき続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈhɑpɚ həz bɪn ˈfɛtʃɪŋ ˈaɪtəmz frəm ðə ˈɪnpʊt ˈtʃɛst kənˈtɪnjuəsli]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、hopper に連結 [ðə ˈhɑpɚ]</li><li>has は機能語で弱形 /həz/ に弱化、been の /b/ に続く</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">ザ ハッパー ハズ ビン フェッチング アイテムズ フラム ザ インプット チェスト コンティニューアスリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will fetch</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈfɛtʃ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>fetch</mark> more obsidian from the Nether for our portal gate.</p>
+<p class="ja">私はネザーからポータルゲート用にもっとオブシディアンを取ってくるよ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪl̚ ˈfɛtʃ mɔr ɑbˈsɪdiən frəm ðə ˈnɛðər fɔr ˈaʊər ˈpɔrəl ˈɡeɪt]</div>
+<ul class="link"><li>I'll は I + will の縮約 /aɪl/、fetch の /f/ の前で未開放 [aɪl̚ ˈfɛtʃ]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li><li>for our の /r/ が /aʊ/ に連結 [fɔr ˈaʊər]</li></ul>
+<div class="kana">アイル フェッチ モア アブシディアン フラム ザ ネザー フォー アワー ポーラル ゲイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>fetch</mark> supplies and materials for the expansion later.</p>
+<p class="ja">彼らは後で拡張用に物資と材料を取ってくるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɪl ˈfɛtʃ səˈplaɪz ənd məˈtɪriəlz fɔr ðə ɪkˈspænʃən ˈleɪɾɚ]</div>
+<ul class="link"><li>will の /l/ が fetch の /f/ の前で未開放 [wɪl̚ ˈfɛtʃ]</li><li>and は機能語で弱形 /ənd/ に弱化、materials に連結</li><li>for the の /r/ が weak form the /ðə/ に連結 [fɔr ðə]</li></ul>
+<div class="kana">ザイ ウィル フェッチ サプライズ アンド マテリアルズ フォー ザ イクスパンション レイラー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be fetching</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈfɛtʃɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you explore the cave, I'll be <mark>fetching</mark> coal and iron from the mine.</p>
+<p class="ja">あなたが洞窟を探索している間、私は鉱山から石炭と鉄を取ってくるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ju ɪkˈsplɔr ðə keɪv aɪl bi ˈfɛtʃɪŋ ˈkoʊl ənd ˈaɪrən frəm ðə maɪn]</div>
+<ul class="link"><li>I'll be の /l/ が be の /i/ に連結 [aɪl bi]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">ワイル ユー イクスプロア ザ ケイヴ アイル ビー フェッチング コール アンド アイアン フラム ザ マイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>fetching</mark> resources all day while we build the base.</p>
+<p class="ja">私たちが基地を建設する間、彼らは一日中リソースを取ってくるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wɪl bi ˈfɛtʃɪŋ ˈrɛsɚsɪz ɔl ˈdeɪ waɪl wi bɪld ðə ˈbeɪs]</div>
+<ul class="link"><li>will be の /l/ が be の /i/ に連結 [wɪl bi]</li><li>while we の /l/ が we の /i/ に連結 [waɪl wi]</li><li>the は冠詞で弱形 /ðə/、base に連結 [ðə ˈbeɪs]</li></ul>
+<div class="kana">ザイ ウィル ビー フェッチング レソースィーズ オール デイ ワイル ウィー ビルド ザ ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have fetched</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl əv ˈfɛtʃt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fetch_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow morning, we will have <mark>fetched</mark> all the obsidian needed for the Nether portal.</p>
+<p class="ja">明日の朝までに、ネザーポータル用に必要なすべてのオブシディアンを取ってきているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ təˈmɑroʊ ˈmɔrnɪŋ wi wɪl əv ˈfɛtʃt ɔl ðə ɑbˈsɪdiən ˈnidəd fɔr ðə ˈnɛðər ˈpɔrəl]</div>
+<ul class="link"><li>will have の /l/ が未開放、have は弱形 /əv/ に弱化 [wɪl̚ əv]</li><li>all the の /l/ が weak form the /ðə/ に連結 [ɔl ðə]</li><li>for the の /r/ が weak form the /ðə/ に連結 [fɔr ðə]</li></ul>
+<div class="kana">バイ トゥモロー モーニング ウィー ウィラヴ フェッチ オール ザ アブシディアン ニーディド フォー ザ ネザー ポーラル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the hopper fills, it will have <mark>fetched</mark> hundreds of items from the input.</p>
+<p class="ja">ホッパーが満杯になるまでに、入力スロットから数百個のアイテムを取ってきているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə taɪm ðə ˈhɑpɚ ˈfɪlz ɪt wɪl əv ˈfɛtʃt ˈhʌndrədz əv ˈaɪtəmz frəm ðə ˈɪnpʊt]</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/、hopper に連結 [ðə ˈhɑpɚ]</li><li>will have の /l/ が未開放、have は弱形 /əv/ に弱化 [wɪl̚ əv]</li><li>hundreds の /z/ が of の弱形 /əv/ に連結 [ˈhʌndrədz əv]</li><li>from the の /m/ が weak form the /ðə/ に連結 [frəm ðə]</li></ul>
+<div class="kana">バイ ザ タイム ザ ハッパー フィルズ イット ウィラヴ フェッチ ハンドレッズ アヴ アイテムズ フラム ザ インプット</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">fetch water</span><span class="im">水を汲む、水を取ってくる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to <mark>fetch</mark> water from the river for our base.</p>
+<p class="ja">基地のために川から水を取ってくる必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fetch_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fetch_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi niːd tə ˈfɛtʃ ˈwɔɾər frəm ðə ˈrɪvər fɔr ˈaʊr beɪs]</div>
+<ul class="link"><li>to が弱形 [tə]</li><li>water の /t/ がフラップ化 [ˈwɔɾər]</li><li>from が弱形 [frəm]、the が弱形 [ðə]</li></ul>
+<div class="kana">ウィー ニード タ フェッチ ウォーラー フラム ザ リヴァー フォー アワー ベイス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="fetch";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

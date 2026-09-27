@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>fake — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>fake</h2><span class="pos">形容詞・動詞・名詞</span><span class="ipa-head">/feɪk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #994</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【形容詞】本物でない、ニセの、模造の（fake diamonds are not real gems）</li><li>【形容詞】本当ではない、偽りの、見せかけの（fake health bar）</li><li>【動詞】〜になりすます、〜を装う、〜を見せかける（fake an illness）</li><li>【名詞】偽物、ニセ物、詐欺的な人（this emerald is a fake）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'll <mark>fake</mark> out the creepers by moving fast.</p>
+<p class="ja">素早く動いてクリーパーをだまします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈfeɪk aʊt ðə ˈkripɚz baɪ ˈmuvɪŋ ˈfæst/</div>
+<ul class="link"><li>I'll は I + will の縮約形。will は弱形 /əl/ に弱化 [aɪl] アイル</li><li>fake の末尾 /k/ が out の /aʊ/ に連結 [ˈfeɪkaʊt] フェイカウト</li><li>the は弱形 /ðə/ に弱化 [ðə] ザ</li></ul>
+<div class="kana">アイル フェイカウト ザ クリーパーズ バイ ムービング ファースト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>fake</mark> diamonds in my cave weren't real.</p>
+<p class="ja">私の洞窟で見つけたニセのダイヤモンドは本物ではなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfeɪk ˈdaɪəmʌndz ɪn maɪ keɪv ˌwɚnt ˈril/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化 [ðə] ザ</li><li>fake の末尾 /k/ が diamonds の /d/ の前で未開放 [ˈfeɪk̚ ˈdaɪəmʌndz] フェイク ダイモンズ</li><li>weren't の /t/ が real の /r/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ フェイク ダイモンズ イン マイ ケイヴ ワーント リール</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>All these <mark>fake</mark> armor sets look identical.</p>
+<p class="ja">このニセのアーマーセットはすべて同じに見える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ðiz ˈfeɪk ˈɑrmɚ sɛts lʊk aɪˈdɛntɪkəl/</div>
+<ul class="link"><li>fake の末尾 /k/ が armor の /ɑ/ に連結 [ˈfeɪk ˈɑrmɚ] フェイカルマー</li><li>look の末尾 /k/ が identical の /aɪ/ に連結 [lʊkaɪ ˈdɛntɪkəl] ルーカイ デンティカル</li></ul>
+<div class="kana">オール ディーズ フェイカルマー セッツ ルーカイ デンティカル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fakes</span><span class="fl">複数形</span><span class="fi">/feɪks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>All these diamond <mark>fakes</mark> must go.</p>
+<p class="ja">このニセのダイヤモンドはすべて処分しなければなりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ðiz ˈdaɪmənd feɪks məst ɡoʊ/</div>
+<ul class="link"></ul>
+<div class="kana">オール ディーズ ダイモンド フェイクス マスト ゴウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>fakes</mark> are scattered all over the nether.</p>
+<p class="ja">ニセ物はネザー中に散らばっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfeɪks ɑr ˈskætɚd ɔl ˈoʊvɚ ðə ˈnɛðɚ/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化 [ðə] ザ</li><li>scattered の /t/ が flapping され母音に挟まれ [ˈskæɾɚd] スキャッタード</li></ul>
+<div class="kana">ザ フェイクス アー スキャッタード オール オウバー ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fakes</span><span class="fl">三人称単数現在形</span><span class="fi">/feɪks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He always <mark>fakes</mark> his inventory count to hide resources.</p>
+<p class="ja">彼はいつもインベントリーのカウントを装って資源を隠します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈɔlweɪz ˈfeɪks hɪz ɪnˈvɛntəri kaʊnt tu haɪd ˈrɛsərsɪz/</div>
+<ul class="link"><li>to は弱形 /tə/ に弱化</li></ul>
+<div class="kana">ヒー オールウェイズ フェイクス ヒズ インベントリー カウント タ ハイド レソースィズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>fakes</mark> being AFK to avoid the hostile mobs.</p>
+<p class="ja">彼女はホスタイルモブを避けるためにAFK（退出中）のふりをします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈfeɪks ˈbiːɪŋ ˌeɪˈɛfˈkeɪ tu əˈvɔɪd ðə ˈhɑːstəl ˈmɑbz/</div>
+<ul class="link"><li>to は弱形 /tə/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">シー フェイクス ビーイング エイ エフ ケイ タ ァボイド ザ ホースタル モブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">faked</span><span class="fl">過去形</span><span class="fi">/feɪkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>faked</mark> an emergency signal to gather the whole team quickly.</p>
+<p class="ja">チーム全体をすばやく集めるために、緊急信号のふりをしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈfeɪkt ən ɪˈmɜrdʒənsi ˈsɪɡnəl tu ˈɡæðɚ ðə ˈhoʊl tim ˈkwɪkli/</div>
+<ul class="link"><li>to は弱形 /tə/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ フェイクト アン イマージェンシー シグナル タ ガザー ザ ホウル ティーム クイックリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>faked</mark> a distress call in the nether last night.</p>
+<p class="ja">昨夜、ネザーで遭難信号のふりをしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈfeɪkt ə ˈdɪstrɛs kɔl ɪn ðə ˈnɛðɚ læst ˈnaɪt/</div>
+<ul class="link"><li>a は弱形 /ə/</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィ フェイクタ ディストレス コール イン ザ ネザー ラスト ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">faked</span><span class="fl">過去分詞</span><span class="fi">/feɪkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The attack they <mark>faked</mark> was actually quite convincing.</p>
+<p class="ja">彼らが装った攻撃は実際にはかなり説得力がありました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə əˈtæk ðeɪ ˈfeɪkt wəz ˈæktʃuəli ˈkwaɪt kənˈvɪnsɪŋ/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ に弱化</li></ul>
+<div class="kana">ザ アタック ザイ フェイクト ワズ アクチュアリー クワイト コンビンシング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>faked</mark> his coordinates, he was never found by the team.</p>
+<p class="ja">彼は自分の座標を偽ったので、チームに見つかることはありませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈheɪvɪŋ ˈfeɪkt hɪz koʊˈɔrdənɛts hi wəz ˈnɛvɚ ˈfaʊnd baɪ ðə ˈtim/</div>
+<ul class="link"><li>was は弱形 /wəz/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ヘイビング フェイクト ヒズ コーディネッツ ヒー ワズ ネバー ファウンド バイ ザ ティーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">faking</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Stop faking damage when the boss arrives at your location.</p>
+<p class="ja">ボスがあなたの場所に着いたときにダメージを装うのをやめてください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stɑp ˈfeɪkɪŋ ˈdæmɪdʒ wɛn ðə ˈbɔs əˈraɪvz æt jɚ loʊˈkeɪʃən/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ストップ フェイキング ダメッジ ウェン ザ ボス ァライヴズ アット ユア ロケーション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He's faking his level to join the advanced dungeon quest.</p>
+<p class="ja">彼はアドバンスダンジョンクエストに参加するためにレベルを装っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɪz ˈfeɪkɪŋ hɪz ˈlɛvəl tu ˈdʒɔɪn ði ədˈvænst ˈdʌndʒən ˈkwɛst/</div>
+<ul class="link"><li>He's は /hɪz/ で is の弱形</li><li>to は弱形 /tə/ に弱化</li><li>the は /ði/（advanced が母音で始まる）</li></ul>
+<div class="kana">ヒズ フェイキング ヒズ レベル タ ジョイン ザ アドバンスト ダンジョン クエスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">faker</span><span class="fl">比較級</span><span class="fi">/ˈfeɪkɚ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_comparative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This ore looks <mark>faker</mark> than the one I mined yesterday.</p>
+<p class="ja">この鉱石は昨日採掘したものより本物らしくありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_comparative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_comparative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈɔr ˈlʊks ˈfeɪkɚ ðæn ðə ˈwʌn aɪ ˈmaɪnd ˈjɛstɚdeɪ/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ディス オア ルックス フェイカー ザン ザ ワン アイ マインド イェスタデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>That emerald is <mark>faker</mark> than any genuine gem I've found.</p>
+<p class="ja">そのエメラルドは私が見つけた本物の宝石よりもニセのものです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_comparative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_comparative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt ˈɛmərəld ɪz ˈfeɪkɚ ðæn ˈɛni ˈdʒɛnjuɪn ˈdʒɛm aɪv ˈfaʊnd/</div>
+<ul class="link"><li>that の末尾 /t/ が emerald の /ɛ/ に連結 [ðæt ˈɛmərəld]</li><li>is は弱形 /ɪz/ に弱化</li></ul>
+<div class="kana">ザット エメラルド イズ フェイカー ザン エニー ジェンュイン ジェム アイヴ ファウンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">fakest</span><span class="fl">最上級</span><span class="fi">/ˈfeɪkɪst/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_superlative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This is the fakest diamond ever placed in our base.</p>
+<p class="ja">これは私たちのベースに設置されたことのある最もニセのダイヤモンドです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_superlative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_superlative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɪz ðə ˈfeɪkɪst ˈdaɪmənd ˈɛvɚ ˈpleɪst ɪn ˈaʊr ˈbeɪs/</div>
+<ul class="link"><li>this の末尾 /s/ が is の /ɪ/ に連結 [ðɪs ɪz]</li><li>the は弱形 /ðə/ ザ</li><li>diamond の末尾 /d/ が ever の /ɛ/ に連結 [ˈdaɪmənd ˈɛvɚ]</li></ul>
+<div class="kana">ディス イズ ザ フェイキスト ダイモンド エバー プレイスト イン アワー ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>That was the fakest survival attempt I've ever witnessed in hardcore mode.</p>
+<p class="ja">ハードコアモードで私が見てきた最もニセのサバイバル試みでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_superlative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_superlative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðæt wəz ðə ˈfeɪkɪst sɚˈvaɪvəl əˈtɛmpt aɪv ˈɛvɚ ˈwɪtnəst ɪn ˈhɑrdˌkoʊr ˈmoʊd/</div>
+<ul class="link"><li>was は弱形 /wəz/ に弱化</li><li>the は弱形 /ðə/ ザ</li><li>I've の末尾 /v/ が ever の /ɛ/ に連結 [aɪv ˈɛvɚ]</li></ul>
+<div class="kana">ザット ワズ ザ フェイキスト サーヴァイバル アテンプト アイヴ エバー ウィットネスト イン ハードコア モード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is faking</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He is faking his endurance level to join the raid.</p>
+<p class="ja">彼はレイドに参加するために耐久度レベルを装っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ɪz ˈfeɪkɪŋ hɪz ɛnˈdʊrəns ˈlɛvəl tə ˈdʒɔɪn ðə ˈreɪd/</div>
+<ul class="link"><li>is は弱形 /ɪz/、直前の代名詞に弱形が反映される</li><li>faking の末尾 /ŋ/ が his の /h/ に続く（鼻音+子音）[ˈfeɪkɪŋ hɪz]</li><li>to は弱形 /tə/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ヒー イズ フェイキング ヒズ エンデュアランス レベル タ ジョイン ザ レイド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are faking an attack near the village to divert the guards.</p>
+<p class="ja">彼らはガードを迂回させるために村の近くで攻撃を装っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈfeɪkɪŋ ən əˈtæk nɪr ðə ˈvɪlɪdʒ tə daɪˈvɜrt ðə ˈɡɑrdz/</div>
+<ul class="link"><li>are は弱形 /ɑr/</li><li>faking の末尾 /ŋ/ が an の /ə/ に続く（鼻音+母音）[ˈfeɪkɪŋ ən]</li><li>an は弱形 /ən/</li><li>near の末尾 /r/ が the の /ð/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ</li><li>to は弱形 /tə/ に弱化</li></ul>
+<div class="kana">ザイ アー フェイキング アン アタック ニア ザ ビレッジ タ ダイバート ザ ガーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was faking</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She was faking damage to escape the hostile mob.</p>
+<p class="ja">彼女はホスタイルモブから逃げるためにダメージを装っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəz ˈfeɪkɪŋ ˈdæmɪdʒ tə ɪˈskeɪp ðə ˈhɑˌstaɪl ˈmɑb/</div>
+<ul class="link"><li>was は弱形 /wəz/ に弱化</li><li>faking の末尾 /ŋ/ が damage の /d/ に続く（鼻音+子音）[ˈfeɪkɪŋ ˈdæmɪdʒ]</li><li>to は弱形 /tə/ に弱化</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">シー ワズ フェイキング ダメッジ タ イスケイプ ザ ホースタイル モブ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players were faking their resources while the admin inspected the base.</p>
+<p class="ja">管理者がベースを検査している間、プレイヤーたちは資源を装っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚz wɚ ˈfeɪkɪŋ ðeɪr ˈrɛsərsɪz waɪl ðə ˈædmɪn ɪnˈspɛktɪd ðə ˈbeɪs/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>were は弱形 /wɚ/</li><li>faking の末尾 /ŋ/ が their の /ð/ に続く（鼻音+子音）[ˈfeɪkɪŋ ðeɪr]</li><li>their は弱形で /ðeɪr/、the は弱形 /ðə/ ザ</li><li>while の末尾 /l/ が the の /ð/ に続く（子音+子音）</li><li>admin の末尾 /n/ が inspected の /ɪ/ に連結 [ˈædmɪn ɪnˈspɛktɪd]</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ プレイヤーズ ワー フェイキング ザイア レソースィズ ワイル ザ アドミン インスペクティド ザ ベイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been faking</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the moderator arrived, they had been faking their mining progress for weeks.</p>
+<p class="ja">モデレーターが到着するまでに、彼らは数週間採掘の進捗を装っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈmɑdəreɪtɚ əˈraɪvd ðeɪ həd bɪn ˈfeɪkɪŋ ðeɪr ˈmaɪnɪŋ ˈprɑɡrɛs fər wikz/</div>
+<ul class="link"><li>by は弱形 /baɪ/</li><li>the は弱形 /ðə/ ザ（2回）</li><li>moderator の末尾 /ɚ/ が arrived の /ə/ に連結 [ˈmɑdəreɪtɚ əˈraɪvd]</li><li>had は弱形 /həd/ に弱化</li><li>been は弱形 /bɪn/ に弱化</li><li>faking の末尾 /ŋ/ が their の /ð/ に続く（鼻音+子音）[ˈfeɪkɪŋ ðeɪr]</li><li>for は弱形 /fər/</li></ul>
+<div class="kana">バイ ザ タイム ザ マダレイター ァライフド ザイ ハド ビン フェイキング ザイア マイニング プログレス ファー ウィークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been faking our coordinates in the redstone laboratory since last season.</p>
+<p class="ja">私たちは先シーズンからレッドストーン研究所で座標を装い続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈfeɪkɪŋ ɑɹ ˌkoʊˈɔɹdɪnəts ɪn ðə ˈɹɛdˌstoʊn ˈlæbɚˌtɔɹi sɪns læst ˈsizən/</div>
+<ul class="link"><li>had は弱形 /həd/ に弱化</li><li>been は弱形 /bɪn/ に弱化</li><li>faking の末尾 /ŋ/ が our の /ɑ/ に続く（鼻音+母音）[ˈfeɪkɪŋ ɑɹ]</li><li>in は弱形 /ɪn/</li><li>the は弱形 /ðə/ ザ</li><li>since の末尾 /s/ が last の /l/ に続く（子音+子音）</li><li>last の末尾 /t/ が season の /s/ に続く（子音+子音）</li></ul>
+<div class="kana">ウィ ハド ビン フェイキング アー コーディネッツ イン ザ レッドストーン ラボラトリー シンス ラスト シーズン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has faked</span><span class="fl">現在完了形</span><span class="fi">/həz ˈfeɪkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>faked</mark> the map coordinates to trick the raiders.</p>
+<p class="ja">レイダーをだますために地図座標を装いました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈfeɪkt ðə ˈmæp koʊˈɔrdənɛts tu ˈtrɪk ðə ˈreɪdərz/</div>
+<ul class="link"><li>have は弱形 /həv/ に弱化 [ハヴ]</li><li>faked の末尾 /t/ が the の /ð/ に続く（子音+子音）[ˈfeɪkt ðə] フェイクト ザ</li><li>to は弱形 /tə/ に弱化（機能語）</li></ul>
+<div class="kana">アイ ハヴ フェイクト ザ マップ コーディネッツ タ トリック ザ レイダーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have <mark>faked</mark> their ranks to access the exclusive vault.</p>
+<p class="ja">彼らは排他的なボルトにアクセスするために彼らのランクを装っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv ˈfeɪkt ðɛr ˈræŋks tu ˈæksɛs ðə ɪkˈsklusɪv ˈvɔlt/</div>
+<ul class="link"><li>they は /ðeɪ/、have は弱形 /həv/ に弱化 [ザイ ハヴ]</li><li>faked の末尾 /t/ が their の /ð/ に続く（子音+子音）[ˈfeɪkt ðɛr] フェイクト ザル</li><li>to は弱形 /tə/ に弱化</li></ul>
+<div class="kana">ザイ ハヴ フェイクト ザル ランクス タ アクセス ザ イクスクルーシブ ボルト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had faked</span><span class="fl">過去完了形</span><span class="fi">/həd ˈfeɪkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After he had <mark>faked</mark> his health status, the server discovered the lie.</p>
+<p class="ja">彼が健康状態を装った後、サーバーは嘘を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər hi həd ˈfeɪkt hɪz ˈhɛlθ ˈsteɪtəs ðə ˈsɚvɚ dɪsˈkʌvərd ðə ˈlaɪ/</div>
+<ul class="link"><li>had は弱形 /həd/ に弱化 [ハド]</li><li>faked の末尾 /t/ が his の /h/ に続く（子音+子音）[ˈfeɪkt hɪz] フェイクト ヒズ</li><li>discovered の /d/ が the の /ð/ に続く（子音+子音）[dɪsˈkʌvərd ðə]</li></ul>
+<div class="kana">アフター ヒー ハド フェイクト ヒズ ヘルス ステイタス ザ サーバー ディスカバード ザ ライ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>faked</mark> building progress before the leader inspected the base.</p>
+<p class="ja">リーダーがベースを検査する前に、彼女は建設進捗を装っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd ˈfeɪkt ˈbɪldɪŋ ˈprɑɡrɛs bɪˈfɔr ðə ˈlidər ɪnˈspɛktɪd ðə ˈbeɪs/</div>
+<ul class="link"><li>had は弱形 /həd/ に弱化 [ハド]</li><li>faked の末尾 /t/ が building の /b/ に続く（子音+子音）[ˈfeɪkt ˈbɪldɪŋ] フェイクト ビルディング</li><li>before の末尾 /r/ と leader の /l/ が続く（子音+子音）[bɪˈfɔr ðə ˈlidər]</li></ul>
+<div class="kana">シー ハド フェイクト ビルディング プログレス ビフォア ザ リーダー インスペクティド ザ ベース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been faking</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has been faking his skill level during the tournament.</p>
+<p class="ja">トーナメント中、彼は自分のスキルレベルを装い続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz bɪn ˈfeɪkɪŋ hɪz ˈskɪl ˈlɛvəl ˈdʊrɪŋ ðə ˈtɚnəmənt/</div>
+<ul class="link"><li>has は弱形 /həz/ に弱化 [ハズ]、been は弱形 /bɪn/ に弱化 [ビン]</li><li>faking の末尾 /ŋ/ が his の /h/ に続く（鼻音+子音）[ˈfeɪkɪŋ hɪz] フェイキング ヒズ</li><li>the は弱形 /ðə/ に弱化 [ザ]</li></ul>
+<div class="kana">ヒー ハズ ビン フェイキング ヒズ スキル レベル デューリング ザ トーナメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The raiders have been faking friendliness to infiltrate our community.</p>
+<p class="ja">レイダーはコミュニティに潜入するために友好を装い続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈreɪdərz həv bɪn ˈfeɪkɪŋ ˈfrɛndlinəs tu ɪnˈfɪltreɪt ˈaʊər kəˈmjunəti/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化 [ザ]、have は弱形 /həv/ に弱化 [ハヴ]、been は弱形 /bɪn/ に弱化 [ビン]</li><li>faking の末尾 /ŋ/ が friendliness の /f/ に続く（鼻音+子音）[ˈfeɪkɪŋ ˈfrɛndlinəs] フェイキング フレンドリネス</li><li>to は弱形 /tə/ に弱化</li></ul>
+<div class="kana">ザ レイダーズ ハヴ ビン フェイキング フレンドリネス タ インフィルトレイト アワー コミュニティ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will fake</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈfeɪk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>fake</mark> my health bar so the witch thinks I'm weak.</p>
+<p class="ja">ウィッチが私が弱いと思うようにヘルスバーを装います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈfeɪk maɪ ˈhɛlθ bɑr soʊ ðə ˈwɪtʃ ˈθɪŋks aɪm wik/</div>
+<ul class="link"><li>I'll は I + will の縮約。will は弱形 /əl/ に弱化 [aɪl] アイル</li><li>fake の末尾 /k/ が my の /m/ に続く（子音+子音）で未開放 [ˈfeɪk̚ maɪ] フェイク マイ</li><li>the は弱形 /ðə/ に弱化 ザ</li><li>witch の末尾 /tʃ/ が thinks の /θ/ に続く（子音+子音）で未開放 [ˈwɪtʃ̚ ˈθɪŋks] ウィッチ スィングクス</li></ul>
+<div class="kana">アイル フェイク マイ ヘルス バー ソウ ザ ウィッチ スィングクス アイム ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>fake</mark> their equipment status to avoid the creepers.</p>
+<p class="ja">クリーパーを避けるために彼らは装備ステータスを装います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈfeɪk ðɛr ɪˈkwɪpmənt ˈstætəs tə əˈvɔɪd ðə ˈkripɚz/</div>
+<ul class="link"><li>They'll は they + will の縮約。will は弱形 /əl/ に弱化 [ðeɪl] ザイル</li><li>fake の末尾 /k/ が their の /ð/ に続く（子音+子音）で未開放 [ˈfeɪk̚ ðɛr] フェイク ザエア</li><li>to は弱形 /tə/ に弱化</li><li>the は弱形 /ðə/ に弱化 ザ</li></ul>
+<div class="kana">ザイル フェイク ザエア イクウィップメント スタータス タ ァボイド ザ クリーパーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be faking</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈfeɪkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be faking our position when the rival team attacks.</p>
+<p class="ja">ライバルチームが攻撃してくるとき、私たちは位置を装います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈfeɪkɪŋ ˈaʊr pəˈzɪʃən wɛn ðə ˈraɪvəl tim əˈtæks/</div>
+<ul class="link"><li>We'll は we + will の縮約。will は弱形 /əl/ に弱化 [wil] ウィル</li><li>be の末尾 /i/ が faking の /f/ に続く（母音+子音）[bi ˈfeɪkɪŋ] ビー フェイキング</li><li>when の末尾 /n/ が the の /ð/ に続く</li><li>the は弱形 /ðə/ に弱化 ザ</li></ul>
+<div class="kana">ウィル ビー フェイキング アワー ポジション ウェン ザ ライバル ティーム ァタックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll be faking illness to avoid mining duty in the nether.</p>
+<p class="ja">彼はネザーの採掘作業を避けるために病気を装います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil bi ˈfeɪkɪŋ ˈɪlnəs tə əˈvɔɪd ˈmaɪnɪŋ ˈduti ɪn ðə ˈnɛðɚ/</div>
+<ul class="link"><li>He'll は he + will の縮約。will は弱形 /əl/ に弱化 [hil] ヒル</li><li>be の末尾 /i/ が faking の /f/ に続く [bi ˈfeɪkɪŋ] ビー フェイキング</li><li>mining の末尾 /ŋ/ が duty の /d/ に続く（鼻音+子音） [ˈmaɪnɪŋ ˈduti] マイニング デューティー</li><li>the は弱形 /ðə/ に弱化 ザ</li></ul>
+<div class="kana">ヒル ビー フェイキング イルネス タ ァボイド マイニング デューティー イン ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have faked</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈfeɪkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/fake_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll have <mark>faked</mark> her coordinates by the time you arrive at spawn.</p>
+<p class="ja">あなたがスポーンに到着するまでに、彼女は自分の座標を偽っているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil həv ˈfeɪkt hɚ koʊˈɔrdənɪts baɪ ðə ˈtaɪm ju əˈraɪv ət ˈspɔn/</div>
+<ul class="link"><li>She'll は she + will の縮約。will は弱形 /əl/ に弱化 [ʃil] シル</li><li>have は弱形 /əv/ に弱化。will have で will の末尾 /l/ が have の /ə/ に連結</li><li>faked の末尾 /t/ が her の /h/ に続く（子音+子音）で未開放 [ˈfeɪkt̚ hɚ] フェイクト ハー</li><li>the は弱形 /ðə/ に弱化 ザ</li></ul>
+<div class="kana">シル ハヴ フェイクト ハー コーディネッツ バイ ザ タイム ユー ァライヴ アット スポーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By next weekend, they'll have <mark>faked</mark> several cargo shipments to the outpost.</p>
+<p class="ja">来週末までに、彼らはアウトポストへのいくつかの荷物輸送を装ったことになるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/fake_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/fake_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ nɛkst ˈwikɛnd ðeɪl həv ˈfeɪkt ˈsɛvərəl ˈkɑrɡoʊ ˈʃɪpməns tə ðə ˈaʊtpoʊst/</div>
+<ul class="link"><li>weekend の末尾 /d/ が they の /ð/ に続く（子音+子音）で未開放 [ˈwikɛnd̚ ðeɪl] ウィークエンド ザイル</li><li>They'll は they + will の縮約。will は弱形 /əl/ に弱化 [ðeɪl] ザイル</li><li>have は弱形 /əv/ に弱化</li><li>faked の末尾 /t/ が several の /s/ に続く（子音+子音）で未開放 [ˈfeɪkt̚ ˈsɛvərəl] フェイクト セベラル</li></ul>
+<div class="kana">バイ ネクスト ウィークエンド ザイル ハヴ フェイクト セベラル カルゴウ シップメンツ タ ザ アウトポースト</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="fake";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

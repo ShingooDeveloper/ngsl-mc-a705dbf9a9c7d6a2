@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>flip — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>flip</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/flɪp/</span><span class="lvl">CEFR A1</span><span class="tagbadge">ターゲット1900 #1335</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】ひっくり返す；物を反対向きにして置く（flip a block over）</li><li>【動詞】（スイッチ・レバーを）切り替える；オン/オフを切り替える（flip a lever）</li><li>【動詞】ぱらぱらめくる；素早く通す（flip through a guide）</li><li>【動詞】（俗語）興奮する；激怒する（flip out）</li><li>【名詞】ひっくり返す動作；回転アクション</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>flip</mark> this lever to open the door.</p>
+<p class="ja">このレバーをひっくり返してドアを開ける必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd tu ˈflɪp ðɪs ˈliːvər tu ˈoʊpən ðə ˈdɔr/</div>
+<ul class="link"><li>need to - need の語末子音 /d/ が to の弱形母音 /ə/ に連結 [ˈniːdə]</li><li>flip this - flip の語末子音 /p/ が次の子音 /ð/ の前で未開放</li></ul>
+<div class="kana">アイ ニーダ フリップ ディス リーバー タ オウプン ザ ドア</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Flip</mark> the switch to activate the redstone mechanism!</p>
+<p class="ja">レッドストーン機構を起動するためにスイッチをひっくり返してください！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈflɪp ðə ˈswɪtʃ tu ˈæktɪveɪt ðə ˈrɛdˌstoʊn ˈmɛkənɪzəm/</div>
+<ul class="link"><li>Flip the - flip の語末 /p/ が子音 /ð/ の前で未開放 [ˈflɪp̚]</li><li>the - 機能語で弱形 /ðə/</li><li>to activate - to は弱形 /tə/</li></ul>
+<div class="kana">フリップ ザ スウィッチ タ アクティベイト ザ レッドストウン メカニズム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>When you <mark>flip</mark> that lever, the piston door opens.</p>
+<p class="ja">そのレバーをひっくり返すと、ピストンドアが開きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ju ˈflɪp ðæt ˈliːvər ðə ˈpɪstən ˈdɔr ˈoʊpənz/</div>
+<ul class="link"><li>when you - you は弱形 /jə/、when の語末 /n/ へ自然に続く</li><li>flip that - flip の /p/ が子音 /ð/ の前で未開放</li><li>the - 機能語で弱形 /ðə/</li></ul>
+<div class="kana">ウェン ヤ フリップ ザッ リーバー ザ ピスタン ドア オウペンズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flips</span><span class="fl">複数形（名詞）</span><span class="fi">/flɪps/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>flips</mark> on that trampoline in the park are amazing!</p>
+<p class="ja">その公園のトランポリンでのターンは素晴らしい！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈflɪps ɑn ðæt ˈtræmpəˌlin ɪn ðə pɑɹk ɑɹ əˈmeɪzɪŋ/</div>
+<ul class="link"><li>The は弱形 /ðə/ ザ</li><li>flips on: 語末 /s/ が次の母音 /ɑ/ に連結</li><li>trampoline in: 語末 /n/ が次の母音 /ɪ/ に連結</li><li>park are: 語末 /k/ が次の母音 /ɑ/ に連結</li></ul>
+<div class="kana">ザ フリップスオン ザット トラムポリン イン ザ パーク アー アメイジング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These lever <mark>flips</mark> activate different mechanisms in the redstone machine.</p>
+<p class="ja">これらのレバー反転はレッドストーン機械の異なるメカニズムをアクティブにします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiːz ˈlɛvɚ ˈflɪps ˈæktɪˌveɪt ˈdɪfɹənt ˈmɛkənɪzəmz ɪn ðə ˈrɛdˌstoʊn məˈʃin/</div>
+<ul class="link"><li>These は /ðiːz/ ディーズ</li><li>flips activate: 語末 /s/ が次の母音 /æ/ に連結</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ディーズ レバー フリップスアクティベイト ディファレント メカニズムズ イン ザ レッドストウン マシーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flips</span><span class="fl">三人称単数現在形</span><span class="fi">/flɪps/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>flips</mark> the switch to turn on all the lights in the base.</p>
+<p class="ja">彼女はスイッチを反転させてベース内のすべてのライトをオンにします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈflɪps ðə swɪtʃ tə tɝn ɑn ɔl ðə laɪts ɪn ðə ˈbeɪs/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ（2回）</li><li>to は弱形 /tə/ タ</li></ul>
+<div class="kana">シー フリップス ザ スウィッチ タ ターン オン オール ザ ライツ イン ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone mechanism <mark>flips</mark> the door open every time someone walks on the pressure plate.</p>
+<p class="ja">レッドストーンメカニズムは誰かが圧力プレートの上を歩くたびにドアを開けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛdˌstoʊn ˈmɛkənɪzəm ˈflɪps ðə dɔɹ ˈoʊpən ˈɛvri taɪm ˈsʌmwʌn wɔks ɑn ðə ˈprɛʃɚ ˈpleɪt/</div>
+<ul class="link"><li>The は弱形 /ðə/ ザ</li><li>the (door 前) は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ レッドストウン メカニズム フリップス ザ ドアー オウペン エブリ タイム サムワン ウォークス オン ザ プレッシャー プレイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flipped</span><span class="fl">過去形</span><span class="fi">/flɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>flipped</mark> the lever and the piston door opened immediately.</p>
+<p class="ja">レバーを反転させたら、ピストンドアがすぐに開きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈflɪpt ðə ˈlɛvɚ ənd ðə ˈpɪstən dɔɹ ˈoʊpənd ɪˈmiːdʒɚɾli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ（2回）</li><li>and は弱形 /ənd/ アン</li><li>immediately: /dʒ/ 後の /t/ は母音の前のため、フラップ [ɾ] になる</li></ul>
+<div class="kana">アイ フリップト ザ レバー アン ザ ピストン ドアー オウペンド イミーディラリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>flipped</mark> the chest lid to find diamonds inside.</p>
+<p class="ja">彼はチェストの蓋をひっくり返してダイヤモンドを見つけました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈflɪpt ðə tʃɛst lɪd tə ˈfaɪnd ˈdaɪməndz ɪnˈsaɪd/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>to は弱形 /tə/ タ</li></ul>
+<div class="kana">ヒー フリップト ザ チェスト リッド タ ファインド ダイモンズ インサイド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flipped</span><span class="fl">過去分詞</span><span class="fi">/flɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>flipped</mark> switch activated the trap that everyone had forgotten about.</p>
+<p class="ja">反転されたスイッチは、みんなが忘れていたトラップをアクティブにしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈflɪpt swɪtʃ ˈæktɪˌveɪɾəd ðə træp ðæt ˈɛvriˌwʌn həd fərˈɡɑtən əˈbaʊt/</div>
+<ul class="link"><li>The は弱形 /ðə/ ザ</li><li>the (trap 前) は弱形 /ðə/ ザ</li><li>activated: veɪt の /t/ は /ə/ の前にあり、フラップ [ɾ] になる</li></ul>
+<div class="kana">ザ フリップト スウィッチ アクティベイラッド ザ トラップ ザット エブリワン ハッド ファーガトゥン ア バウト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>With the lever <mark>flipped</mark>, the secret passage was finally revealed to us.</p>
+<p class="ja">レバーが反転されたので、秘密の通路がついに私たちに明かされました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪð ðə ˈlɛvɚ ˈflɪpt ðə ˈsɪkrɚɾ ˈpæsɪdʒ wəz ˈfaɪnəli rɪˈvild tə əs/</div>
+<ul class="link"><li>with は /wɪð/ ウィズ</li><li>the は弱形 /ðə/ ザ（2回）</li><li>was は弱形 /wəz/ ワズ</li><li>secret: /krə/ の /t/ は /ə/ の前にあり、フラップ [ɾ] になる</li><li>to は弱形 /tə/ タ、us は弱形 /əs/ アス</li></ul>
+<div class="kana">ウィズ ザ レバー フリップト ザ シクラー パッセッジ ワズ ファイナリー リビールド タ アス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">flipping</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈflɪpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Keep <mark>flipping</mark> the lever until the door opens completely.</p>
+<p class="ja">ドアが完全に開くまでレバーを反転し続けてください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/kip ˈflɪpɪŋ ðə ˈlɛvɚ ənˈtɪl ðə dɔɹ ˈoʊpənz kəmˈpliːɾli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ（2回）</li><li>until は /ənˈtɪl/ アンティル</li><li>completely: /iː/ の後の /t/ は /l/ の前にあり、フラップ [ɾ] になる</li></ul>
+<div class="kana">キープ フリッピング ザ レバー アンティル ザ ドアー オウペンズ コンプリーリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>flipping</mark> switches in sequence, we triggered the complex redstone puzzle.</p>
+<p class="ja">順番にスイッチを反転させることで、複雑なレッドストーンパズルを起動しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈflɪpɪŋ ˈswɪtʃəz ɪn ˈsikwəns wi ˈtrɪɡərd ðə ˈkɑmplɛks ˈrɛdˌstoʊn ˈpʌzəl/</div>
+<ul class="link"><li>switches の語末 /z/ が in の初頭 /ɪ/ に連結される</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">バイ フリッピング スウィッチェズイン シークエンス ウィ トリガード ザ コンプレックス レッドストウン パズル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is flipping</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈflɪ.pɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>flipping</mark> the redstone switch to open the piston door.</p>
+<p class="ja">ピストンドアを開くためにレッドストーンスイッチを反転させています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈflɪ.pɪŋ ðə ˈrɛd.stoʊn swɪtʃ tə ˈoʊ.pən ðə ˈpɪs.tən dɔr/</div>
+<ul class="link"><li>「the」は冠詞として弱形 /ðə/ で redstone に続く</li><li>「to」は不定詞として弱形 /tə/</li><li>「the piston」では「the」は弱形 /ðə/</li></ul>
+<div class="kana">アイム フリッピング ザ レッド ストウン スウィッチ タ オウペン ザ ピストン ドアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>flipping</mark> through the chests to find diamonds.</p>
+<p class="ja">彼女はダイヤモンドを探すためにチェストをめくっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɪz ˈflɪ.pɪŋ θruː ðə ˈtʃɛsts tə ˈfaɪnd ˈdaɪ.məndz/</div>
+<ul class="link"><li>「is flipping」で is が弱形 /ɪz/</li><li>「through the」では through の語末 /uː/ に続く the は弱形 /ðə/</li></ul>
+<div class="kana">シー イズ フリッピング スルー ザ チェスツ タ ファインド ダイモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was flipping</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈflɪ.pɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>flipping</mark> the lever when the creeper suddenly exploded.</p>
+<p class="ja">レバーを反転させていた時、クリーパーが突然爆発しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈflɪ.pɪŋ ðə ˈlɛ.vɚ wɛn ðə ˈkri.pɚ səˈdɛn.li ɪkˈsploʊ.dɪd/</div>
+<ul class="link"><li>「was flipping」で was が弱形 /wəz/</li><li>「the」は冠詞として弱形 /ðə/（2回）</li></ul>
+<div class="kana">アイ ワズ フリッピング ザ レバー ウェン ザ クリーパー サデンリー エクスプローディッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players were <mark>flipping</mark> switches when the server crashed.</p>
+<p class="ja">プレイヤーたちがスイッチを反転させていた時、サーバーが落ちました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪ.ɚz wɚ ˈflɪ.pɪŋ ˈswɪ.tʃɪz wɛn ðə ˈsɜr.vɚ ˈkræʃt/</div>
+<ul class="link"><li>「the」は冠詞として弱形 /ðə/（2回）</li><li>「were flipping」で were が弱形 /wɚ/</li><li>「switches when」では語末 /z/ が次の子音に接近</li></ul>
+<div class="kana">ザ プレイアーズ ワー フリッピング スウィッチーズ ウェン ザ サーバー クラッシュト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been flipping</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈflɪ.pɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time I escaped, I had been <mark>flipping</mark> that lever for an hour.</p>
+<p class="ja">逃げるまでに、その1時間ずっとレバーを反転させていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm aɪ ɪˈskeɪpt aɪ həd bɪn ˈflɪ.pɪŋ ðæt ˈlɛ.vɚ fɔr ən ˈaʊ.ɚ/</div>
+<ul class="link"><li>「had been」で had が弱形 /həd/ で been に続く</li><li>「been flipping」で been が弱形 /bɪn/ で flipping に続く</li><li>「for an」では for の語末子音 /r/ が母音 /ə/ に連結</li></ul>
+<div class="kana">バイ ザ タイム アイ エスケイプト アイ ハド ビン フリッピング ザット レバー フォー アン アワー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She realized she had been <mark>flipping</mark> the wrong switch all along.</p>
+<p class="ja">彼女はずっと間違ったスイッチを反転させていたことに気づきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈriː.ə.ˌlaɪzd ʃi həd bɪn ˈflɪ.pɪŋ ðə ˈrɔŋ swɪtʃ ɔl əˈlɔŋ/</div>
+<ul class="link"><li>「had been」で had が弱形 /həd/ で been に続く</li><li>「been flipping」で been が弱形 /bɪn/ で flipping に続く</li><li>「the」は冠詞として弱形 /ðə/</li></ul>
+<div class="kana">シー リアライズド シー ハド ビン フリッピング ザ ロング スウィッチ オール ア ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has flipped</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈflɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team has <mark>flipped</mark> the master switch to activate all the redstone circuits.</p>
+<p class="ja">チームはすべてのレッドストーン回路をアクティブにするためにマスタースイッチを反転させました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim həz ˈflɪpt ðə ˈmæstɚ swɪtʃ tə ˈæktɪˌveɪt ɔl ðə ˈrɛdstoʊn ˈsɝkɪts/</div>
+<ul class="link"><li>has の末 /z/ が flipped の /f/ に続く（子音+子音）[həz ˈflɪpt] ハズ フリップト</li><li>flipped の末 /t/ が the の弱形 /ðə/ に語間で続く [ˈflɪpt ðə] フリップト ザ</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">ザ ティーム ハズ フリップト ザ マスター スウィッチ タ アクティベイト オール ザ レッドストウン サーキッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have <mark>flipped</mark> the puzzle switches in the correct order to solve the riddle.</p>
+<p class="ja">彼らはなぞなぞを解くために、正しい順番でパズルスイッチを反転させました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv ˈflɪpt ðə ˈpʌzəl ˈswɪtʃɪz ɪn ðə kəˈrɛkt ˈɔɹdɚ tə ˈsɑlv ðə ˈrɪdəl/</div>
+<ul class="link"><li>have の末 /v/ が flipped の /f/ に続く（子音+子音）[həv ˈflɪpt] ハヴ フリップト</li><li>flipped の末 /t/ が the の弱形 /ðə/ に語間で続く [ˈflɪpt ðə] フリップト ザ</li><li>switches の末 /z/ が in の初頭 /ɪ/ に連結 [ˈswɪtʃɪz ɪn] スウィッチィズ イン</li></ul>
+<div class="kana">ザイ ハヴ フリップト ザ パズル スウィッチィズ イン ザ コレクト オーダー タ ソルヴ ザ リドゥル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had flipped</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈflɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Once they had <mark>flipped</mark> the final lever, the vault door began to open slowly.</p>
+<p class="ja">最後のレバーを反転させた後、金庫のドアはゆっくり開き始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðeɪ həd ˈflɪpt ðə ˈfaɪnəl ˈlɛvɚ ðə vɔlt dɔɹ bɪˈɡæn tə ˈoʊpən ˈsloʊli/</div>
+<ul class="link"><li>had の末 /d/ が flipped の /f/ に続く（子音+子音）[həd ˈflɪpt] ハド フリップト</li><li>flipped の末 /t/ が the の弱形 /ðə/ に語間で続く [ˈflɪpt ðə] フリップト ザ</li><li>lever の末 /r/ が the の弱形 /ðə/ に続く（子音+子音）[ˈlɛvɚ ðə] レバー ザ</li></ul>
+<div class="kana">ワンス ザイ ハド フリップト ザ ファイナル レバー ザ ヴォールト ドアー ビガン タ オウペン スロウリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builder realized he had <mark>flipped</mark> the wrong switch before the trap mechanism activated.</p>
+<p class="ja">ビルダーはトラップメカニズムが起動する前に、間違ったスイッチを反転させていたことに気づきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚ ˈriːəˌlaɪzd hi həd ˈflɪpt ðə ˈrɔŋ swɪtʃ bɪˈfɔɹ ðə træp ˈmɛkənɪzəm ˈæktɪˌveɪtəd/</div>
+<ul class="link"><li>had の末 /d/ が flipped の /f/ に続く（子音+子音）[həd ˈflɪpt] ハド フリップト</li><li>flipped の末 /t/ が the の弱形 /ðə/ に語間で続く [ˈflɪpt ðə] フリップト ザ</li><li>switch の末 /tʃ/ が before の初頭 /b/ に語間で続く</li></ul>
+<div class="kana">ザ ビルダー リアライズド ヒー ハド フリップト ザ ロング スウィッチ ビフォア ザ トラップ メカニズム アクティベイティッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been flipping</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈflɪpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The engineers have been <mark>flipping</mark> the test switches all morning to calibrate the mechanisms.</p>
+<p class="ja">エンジニアたちはメカニズムを調整するために一晩中テストスイッチを反転させ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɛndʒɪˈnɪrz həv bɪn ˈflɪpɪŋ ðə ˈtɛst ˈswɪtʃɪz ɔl ˈmɔɹnɪŋ tə ˈkælɪˌbreɪt ðə ˈmɛkənɪzəmz/</div>
+<ul class="link"><li>have の末 /v/ が been の弱形 /bɪn/ に続く（子音+子音）[həv bɪn] ハヴ ビン</li><li>been の末 /n/ が flipping の /f/ に続く（子音+子音）[bɪn ˈflɪpɪŋ] ビン フリッピング</li><li>the は弱形 /ðə/ ザ（2回）</li></ul>
+<div class="kana">ザ エンジニアーズ ハヴ ビン フリッピング ザ テスト スウィッチィズ オール モーニング タ キャリブレイト ザ メカニズムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>flipping</mark> puzzle switches since the beginning of the competition.</p>
+<p class="ja">競争の始まりからずっとパズルスイッチを反転させ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈflɪpɪŋ ˈpʌzəl ˈswɪtʃɪz sɪns ðə bɪˈɡɪnɪŋ əv ðə ˌkɑmpəˈtɪʃən/</div>
+<ul class="link"><li>have の末 /v/ が been の弱形 /bɪn/ に続く（子音+子音）[həv bɪn] ハヴ ビン</li><li>been の末 /n/ が flipping の /f/ に続く（子音+子音）[bɪn ˈflɪpɪŋ] ビン フリッピング</li><li>since の末 /s/ が the の初頭 /ð/ に続く（子音+子音）</li></ul>
+<div class="kana">アイ ハヴ ビン フリッピング パズル スウィッチィズ シンス ザ ビギニング アヴ ザ コンペティション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will flip</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˈflɪp/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>flip</mark> the switch when I reach the redstone chamber.</p>
+<p class="ja">レッドストーン部屋に着いたらスイッチを反転させます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈflɪp ðə swɪtʃ wɛn aɪ riːtʃ ðə ˈrɛdstoʊn ˈtʃeɪmbɚ/</div>
+<ul class="link"><li>「will flip」—will の弱形 /wɪl/、flip の /f/ に子音+子音で続く [wɪl ˈflɪp]「ウィル フリップ」</li><li>「the switch」—the は弱形 /ðə/ ザ、switch は /swɪtʃ/</li><li>「reach the」—reach の語末 /tʃ/ が the の初頭 /ð/ に続く（子音+子音で未開放）[riːtʃ ðə]「リーチ ザ」</li></ul>
+<div class="kana">アイ ウィル フリップ ザ スウィッチ ウェン アイ リーチ ザ レッドストーン チェンバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>flip</mark> these lever switches at the same time to open the vault door.</p>
+<p class="ja">彼らは同時にこれらのレバースイッチを反転させて金庫のドアを開けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈflɪp ðiːz ˈlɛvɚ ˈswɪtʃɪz æt ðə ˈseɪm taɪm tə ˈoʊpən ðə vɔːlt dɔɹ/</div>
+<ul class="link"><li>「They'll」—they と will の縮約で /ðeɪl/「ゼイル」</li><li>「flip these」—flip の /p/ が these の /ð/ に子音+子音で続く [ˈflɪp ðiːz]「フリップ ディーズ」</li><li>「same time」—same の語末 /m/ が time の /t/ に続く（鼻音+子音で未開放）</li></ul>
+<div class="kana">ゼイル フリップ ディーズ レバー スウィッチィズ アット ザ セイム タイム タ オウペン ザ ヴォールト ドアー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be flipping</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈflɪpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team will be <mark>flipping</mark> the redstone switches all night to test the trap system.</p>
+<p class="ja">チームは一晩中レッドストーンスイッチを反転させてトラップシステムをテストします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim wɪl bi ˈflɪpɪŋ ðə ˈrɛdstoʊn ˈswɪtʃɪz ɔːl naɪt tə ˈtɛst ðə ˈtræp ˈsɪstəm/</div>
+<ul class="link"><li>「will be」—will の弱形 /wɪl/、be は短形 /bi/ [wɪl bi]「ウィル ビー」</li><li>「be flipping」—be の /i/ が flipping の /f/ に連結、ただし /f/ は子音なので重なり気味に発音</li><li>「all night」—all は /ɔːl/ オール、night は /naɪt/ ナイト。語末 /l/ が /n/ に続く（子音+子音で自然な移行）</li></ul>
+<div class="kana">ザ ティーム ウィル ビー フリッピング ザ レッドストーン スウィッチィズ オール ナイト タ テスト ザ トラップ システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While you're mining ore, I'll be <mark>flipping</mark> the mechanisms to lock the main entrance.</p>
+<p class="ja">あなたが鉱石をマイニングしている間、私はメイン入口をロックするためにメカニズムを反転させます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl jɚ ˈmaɪnɪŋ ɔːɹ aɪl bi ˈflɪpɪŋ ðə ˈmɛkənɪzəmz tə lɑːk ðə ˈmeɪn ˈɛntrəns/</div>
+<ul class="link"><li>「I'll」—I と will の縮約で /aɪl/「アイル」</li><li>「I'll be」—/l/ が be の /b/ に続く（子音+子音で未開放）[aɪl bi]「アイル ビー」</li><li>「be flipping」—be の短形 /bi/ が flipping の /f/ に続く（母音から子音への遷移）</li><li>「mechanisms to」—mechanisms の語末 /z/ が to の弱形 /tə/ に連結 [ˈmɛkənɪzəmz tə]「メカニズムズ タ」</li></ul>
+<div class="kana">ワイル ユアー マイニング オアー アイル ビー フリッピング ザ メカニズムズ タ ロック ザ メイン エントランス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have flipped</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈflɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/flip_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow morning, we will have <mark>flipped</mark> all the mechanism switches to reset the dungeon.</p>
+<p class="ja">明日の朝までに、ダンジョンをリセットするためにすべてのメカニズムスイッチを反転させておきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑːɹoʊ ˈmɔɹnɪŋ wi wɪl həv ˈflɪpt ɔːl ðə ˈmɛkənɪzəm ˈswɪtʃɪz tə ˈrɛsɛt ðə ˈdʌndʒən/</div>
+<ul class="link"><li>「will have」—will の弱形 /wɪl/、have も弱形 /həv/（または /əv/）[wɪl həv]「ウィル ハヴ」</li><li>「have flipped」—have の語末 /v/ が flipped の /f/ に連結 [həv ˈflɪpt]「ハヴ フリップト」</li><li>「flipped all」—flipped の語末 /t/ が all の初頭 /ɔː/ に連結 [ˈflɪpt ɔːl]「フリップト オール」</li></ul>
+<div class="kana">バイ タモーロー モーニング ウィ ウィル ハヴ フリップト オール ザ メカニズム スウィッチィズ タ リセット ザ ダンジョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will have <mark>flipped</mark> the necessary levers before the water fills this chamber.</p>
+<p class="ja">水がこの部屋を満たす前に、必要なレバーを反転させておきます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː wɪl həv ˈflɪpt ðə ˈnɛsəˌsɛɹi ˈlɛvɚz bɪˈfoːɹ ðə ˈwɔːɾɚ fɪlz ðɪs ˈtʃeɪmbɚ/</div>
+<ul class="link"><li>「will have」—will の弱形 /wɪl/、have の弱形 /həv/ [wɪl həv]「ウィル ハヴ」</li><li>「have flipped」—have の語末 /v/ が flipped の /f/ に連結 [həv ˈflɪpt]「ハヴ フリップト」</li><li>「flipped the」—flipped の語末 /t/ が the の初頭 /ð/ に続く（子音+子音で未開放）[ˈflɪpt ðə]「フリップト ザ」</li><li>「water fills」—water の /t/ が母音に挟まれてフラップ化し /ɾ/ となる [ˈwɔːɾɚ]「ウォーラー」</li></ul>
+<div class="kana">ユー ウィル ハヴ フリップト ザ ネセセリー レバーズ ビフォー ザ ウォーラー フィルズ ディス チェンバー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">flip the switch</span><span class="im">決定を下す；事態が急変する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span><mark>Flip</mark> the switch and let the redstone show begin!</p>
+<p class="ja">スイッチをひっくり返してレッドストーンショーを始めましょう！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈflɪp ðə ˈswɪtʃ ənd ˈlɛt ðə ˈrɛdˌstoʊn ˈʃoʊ bɪˈɡɪn/</div>
+<ul class="link"><li>flip the - flip の /p/ が子音前で未開放 [ˈflɪp̚]</li><li>and - 弱形 /ənd/</li></ul>
+<div class="kana">フリップ ザ スウィッチ アンド レット ザ レッドストウン ショウ ビギン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">flip out</span><span class="im">興奮する；激怒する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>flipped</mark> out when I found the ancient city!</p>
+<p class="ja">古代都市を見つけたときに大興奮しました！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈflɪpt aʊt wɛn aɪ ˈfaʊnd ðə ˈeɪnʃənt ˈsɪti/</div>
+<ul class="link"><li>flipped out - flipped の語末子音 /t/ が out の母音 /aʊ/ に連結</li><li>the ancient - the は弱形 /ðə/</li></ul>
+<div class="kana">アイ フリップト アウト ウェン アイ ファウンド ザ エインシャント シティー</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">flip a coin</span><span class="im">コインを投げて運で決める</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Let's <mark>flip</mark> a coin to decide who explores the deep cave!</p>
+<p class="ja">深い洞窟を探検するのは誰か、コインで決めましょう！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/flip_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/flip_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/lɛts ˈflɪp ə ˈkɔɪn tu dɪˈsaɪd ˈhuː ɪkˈsplɔrz ðə ˈdiːp ˈkeɪv/</div>
+<ul class="link"><li>flip a - flip の語末 /p/ が a の弱形 /ə/ に連結 [ˈflɪpə]</li><li>to decide - to は弱形 /tə/</li></ul>
+<div class="kana">レッツ フリッパ コイン タ ディサイド フー イクスプロアーズ ザ ディープ ケイブ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="flip";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

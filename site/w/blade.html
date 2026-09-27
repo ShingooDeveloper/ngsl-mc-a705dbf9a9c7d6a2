@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>blade — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>blade</h2><span class="pos">名詞</span><span class="ipa-head">/bleɪd/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1471</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blade.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】（ナイフ・剣などの）刃、刀身、ブレード（the cutting edge of a knife or sword）</li><li>【名詞】（草・穀物などの）葉、細長い板状の部分（a long thin leaf of grass or grain）</li><li>【名詞】スケート靴やスキー板などの滑走する部分（the metal runner on the bottom of a skate or ski）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need a diamond <mark>blade</mark> to mine obsidian blocks efficiently.</p>
+<p class="ja">オブシディアンブロックを効率的に採掘するには、ダイヤの刃が必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈnid ə ˈdaɪəmənd bleɪd tə ˈmaɪn ɑbˈsɪdiən ˈblɑks ɪˈfɪʃənɾli]</div>
+<ul class="link"><li>need a - 語末子音 /d/ が母音 /ə/ に連結 [ˈniːdə] ニーダ</li><li>to mine - 機能語 to は弱形 /tə/、/tə/ が /m/ に連結 [tə ˈmaɪn] タ マイン</li><li>obsidian blocks - 語末 /n/ が /b/ に続く（子音+子音）</li></ul>
+<div class="kana">アイ ニーダ ダイアモンド ブレイド タ マイン アブシディアン ブロックス イフィシェンリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Grass <mark>blades</mark> sway gently when the wind blows through the meadow.</p>
+<p class="ja">風が草原を通るとき、草の葉は優しく揺れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɡræs bleɪdz ˈsweɪ ˈdʒɛnɾli wɛn ðə ˈwɪnd bloʊz θɹuː ðə ˈmɛdoʊ]</div>
+<ul class="link"><li>grass blades - grass の語末 /s/ が blades の初頭 /b/ に続く（子音+子音、未開放）[ɡræs̚ bleɪdz] グラッ ブレイズ</li><li>when the - /n/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>wind blows - wind の語末 /d/ が未開放、blows の初頭 /b/ に続く（子音+子音）[ˈwɪnd̚ bloʊz] ウィンド ブローズ</li></ul>
+<div class="kana">グラッ ブレイズ スウェイ ジェンリー ウェン ザ ウィンド ブローズ スルー ザ メドウ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My sword <mark>blade</mark> is made of diamond and stays sharp for combat.</p>
+<p class="ja">私の剣の刃はダイヤでできており、戦闘用に常に鋭いままです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[maɪ ˈsɔɹd bleɪd ɪz ˈmeɪd əv ˈdaɪəmənd ænd ˈsteɪz ʃɑrp fɔɹ ˈkɑmbæt]</div>
+<ul class="link"><li>blade is - 語末子音 /d/ が母音 /ɪ/ に連結 [bleɪdɪz] ブレイディズ</li><li>made of - 語末子音 /d/ が母音 /ə/ に連結、of は弱形 /əv/ [ˈmeɪdəv] メイダヴ</li><li>and stays - /d/ が /s/ に続く（子音+子音）、stays は /ˈsteɪz/</li></ul>
+<div class="kana">マイ ソード ブレイディズ メイダヴ ダイアモンド アンド ステイズ シャープ フォー コンバット</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blades</span><span class="fl">複数形</span><span class="fi">/bleɪdz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blade_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Diamond <mark>blades</mark> cut through obsidian very efficiently.</p>
+<p class="ja">ダイヤモンドの刃はオブシディアンを非常に効率的に切ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈdaɪəmənd bleɪdz kʌt θɹuː əbˈsɪdiən ˈvɛɹi ɪˈfɪʃəntli]</div>
+<ul class="link"><li>diamond blades - 語末 /d/ が子音 /b/ に続く（子音+子音、未開放）[ˈdaɪəmənd̚ bleɪdz] ダイアモンド ブレイズ</li></ul>
+<div class="kana">ダイアモンド ブレイズ カット スルー アブシディアン ベリー イフィシェントリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The grass <mark>blades</mark> in this meadow grow very slowly in shade.</p>
+<p class="ja">この草原の草の葉は日陰では非常にゆっくり成長します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ɡræs bleɪdz ɪn ðɪs ˈmɛdoʊ ɡɹoʊ ˈvɛɹi ˈsloʊli ɪn ʃeɪd]</div>
+<ul class="link"><li>grass blades - 語末 /s/ が子音 /b/ に続く（子音+子音、未開放）[ɡræs̚ bleɪdz] グラス ブレイズ</li></ul>
+<div class="kana">ザ グラス ブレイズ イン ディス メドウ グロウ ベリー スローリー イン シェイド</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">blade of grass</span><span class="im">1本の草、単一の草の葉</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Every <mark>blade</mark> of grass in this biome seems perfectly green.</p>
+<p class="ja">このバイオームの1本1本の草がすべて完璧に緑色に見えます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈɛvri bleɪd əv ɡræs ɪn ðɪs baɪˈoʊm sim ˈpɚfɪkɾli ɡɹin]</div>
+<ul class="link"><li>blade of - 語末子音 /d/ が母音 /ə/ に連結 [bleɪdəv] ブレイダヴ</li><li>of grass - 弱形 of は /əv/、grass は /ɡ/ で始まる [əv ɡræs] アヴ グラス</li><li>in this - /n/ が /ð/ に続く（子音+子音）、this は /ðɪs/</li></ul>
+<div class="kana">エヴリ ブレイダヴ グラス イン ディス バイオーム シーム パーフェクリー グリーン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">double-edged blade</span><span class="im">諸刃の剣、一長一短の状況、良い面と悪い面の両方がある</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Using the nether portal is a double-edged <mark>blade</mark>—fast travel but dangerous.</p>
+<p class="ja">ネザーポータルの使用は諸刃の剣です。移動は速いですが、危険です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blade_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blade_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈdʌbəl ˈɛdʒd bleɪd]</div>
+<ul class="link"><li>double-edged - /l/ が /ɛ/ に連結 [ˈdʌbəl ˈɛdʒd] ダブル エッジド</li><li>edged blade - 語末子音 /d/ が未開放で、blade の /b/ に続く（子音+子音）[ˈɛdʒd̚ bleɪd] エッジッ ブレイド</li></ul>
+<div class="kana">ダブル エッジド ブレイド</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="blade";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

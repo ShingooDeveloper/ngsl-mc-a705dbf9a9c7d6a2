@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>mill — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>mill</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/mɪl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #951</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】穀物や他の物質を粉にするための建物や機械、工場（a building or machine for grinding grain or other substances into powder, or a factory）</li><li>【名詞】研削や加工をする機械や装置（a machine or device used for grinding or processing）</li><li>【動詞】穀物や物質を粉にする、挽く（to grind grain or other material into powder）</li><li>【動詞】回転運動をする、ぐるぐら回る（to move around in circles or in an aimless way）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We built a water <mark>mill</mark> to grind wheat into flour automatically.</p>
+<p class="ja">小麦を自動的に粉に挽くための水車小屋を建設しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈbɪlt ə ˈwɔɾɚ ˈmɪl tə ɡɹaɪnd ˈwiːt ˈɪntə ˈflaʊɚ ˌɔɾəˈmæɾɪkli/</div>
+<ul class="link"><li>to は機能語で弱形 /tə/ に弱化</li></ul>
+<div class="kana">ウィ ビルト ア ウォーラー ミル タ グラインド ウィート イントゥ フラワー オーラマーライクリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The grindstone <mark>mill</mark> processes ore efficiently in our underground factory.</p>
+<p class="ja">地下工場のグラインドストーン製粉機は鉱石を効率的に処理します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɹaɪndˌstoʊn ˈmɪl ˈprɑsɛsɪz ˈɔr ɪˈfɪʃəntli ɪn ˈaʊɚ ˌʌndɚˈɡɹaʊnd ˈfæktəɹi/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/</li><li>grindstone の末尾子音 /n/ と mill の /m/ は子音+子音で未開放 [ˈstoʊn̚ ˈmɪl]</li><li>ore の末尾 /r/ が efficiently の初頭 /ɪ/ に連結</li></ul>
+<div class="kana">ザ グラインドストーン ミル プロセシーズ オー イフィシェントリー イン アワー アンダーラーグラウンド ファクトリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Mobs <mark>mill</mark> around the spawner before the grinder activates.</p>
+<p class="ja">グラインダーが起動する前に、モブはスポーナーの周りをぐるぐら回ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmoʊbz ˈmɪl əˈɹaʊnd ðə ˈspɑnɚ bɪˈfoɹ ðə ˈɡɹaɪndɚ ˈæktɪveɪts/</div>
+<ul class="link"><li>mill の末尾子音 /l/ が around の初頭 /ə/ に連結 [ˈmɪl əˈɹaʊnd]</li><li>the は冠詞で弱形 /ðə/</li></ul>
+<div class="kana">モーブズ ミル アラウンド ザ スパナー ビフォー ザ グラインダー アクティベイツ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mills</span><span class="fl">複数形</span><span class="fi">/mɪlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The three <mark>mills</mark> grind wheat and ore simultaneously.</p>
+<p class="ja">3つの製粉所は小麦と鉱石を同時に挽きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈθɻiː ˈmɪlz ɡɻaɪnd ˈwiːt ənd ˈɔr ˌsiəməlˈteɪniəsli/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/。three に連結 [ðə ˈθɻiː] ザ スリー</li><li>mills の末尾子音 /z/ と grind の初颠 /ɡ/ は子音+子音で未開放 [ˈmɪlz ɡɻaɪnd] ミルズ グラインド</li><li>and は接続詞で弱形 /ənd/ に弱化 [ənd ˈɔr] アンド オー</li><li>simultaneously は /ˌsiəməlˈteɪniəsli/。内部で /l/ が /t/ に続く</li></ul>
+<div class="kana">ザ スリー ミルズ グラインド ウィート アンド オー シマルテイニアスリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Water <mark>mills</mark> line the river like production facilities.</p>
+<p class="ja">水車小屋が川沿いに生産施設のように並んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔtə ˈmɪlz laɪn ðə ˈɻɪvə ˈlaɪk ə pɻəˈdʌckʃən fəˈsɪlətiːz/</div>
+<ul class="link"><li>water の末尾 /r/ が mills の初颠 /m/ に r-linking で連結 [ˈwɔtə ˈmɪlz] ウォーラー ミルズ</li><li>mills の末尾 /z/ が line の初颠 /l/ に続く（子音+子音） [ˈmɪlz laɪn] ミルズ ライン</li><li>the は弱形 /ðə/。river に連結 [ðə ˈɻɪvə] ザ リバー</li><li>a は弱形 /ə/。production に続く [ə pɻəˈdʌckʃən] ア プロダクション</li></ul>
+<div class="kana">ウォーラー ミルズ ライン ザ リバー ライク ア プロダクション ファシリティーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">mills</span><span class="fl">三人称単数現在形</span><span class="fi">/mɪlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>mills</mark> the ores into dust for smelting operations.</p>
+<p class="ja">彼女は製錬作業のために鉱石を粉に挽きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiː ˈmɪlz ðə ˈɔrz ˈɪntə ˈdʌst fə ˈsmɛltɪŋ ˌɑpəˈeɪʃənz/</div>
+<ul class="link"><li>she は /ʃiː/。mills に続く [ʃiː ˈmɪlz] シー ミルズ</li><li>the は弱形 /ðə/。ores に連結 [ðə ˈɔrz] ザ オーズ</li><li>into は /ˈɪntə/。dust に続く [ˈɪntə ˈdʌst] イントゥ ダスト</li><li>for は弱形 /fə/。smelting に続く [fə ˈsmɛltɪŋ] ファー スメルティング</li></ul>
+<div class="kana">シー ミルズ ザ オーズ イントゥ ダスト ファー スメルティング オパレイションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The machine <mark>mills</mark> stone blocks for construction every hour.</p>
+<p class="ja">その機械は毎時間、建築用の石ブロックを粉にします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə məˈʃiːn ˈmɪlz stoʊn ˈblɑks fə kənˈstɼʌkʃən ˈɛvəi ˈaʊə/</div>
+<ul class="link"><li>the は弱形 /ðə/。machine に連結 [ðə məˈšiːn] ザ マシーン</li><li>machine の末尾 /n/ と mills の初颠 /m/ は子音+子音で未開放 [ˈmɪlz] マシーン ミルズ</li><li>for は弱形 /fə/。construction に続く [fə kənˈstɼʌkʃən] ファー コンストラクション</li><li>every の末尾 /i/ が hour の初颠 /aʊ/ に先行 [ˈɛvəi ˈaʊə] エブリ アワー</li></ul>
+<div class="kana">ザ マシーン ミルズ ストーン ブロックス ファー コンストラクション エブリ アワー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">milled</span><span class="fl">過去形</span><span class="fi">/mɪld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>milled</mark> the wheat kernels into fine flour yesterday.</p>
+<p class="ja">昨日、私たちは小麦粒を細かい粉に挽きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ˈmɪld ðə ˈwiːt ˈkɛːnəlz ˈɪntə ˈfaɪn ˈflaʊə ˈjɛstədeɪ/</div>
+<ul class="link"><li>we は /wiː/。milled に続く [wiː ˈmɪld] ウィ ミルド</li><li>the は弱形 /ðə/。wheat に連結 [ðə ˈwiːt] ザ ウィート</li><li>kernels の末尾 /z/ が into の初颠 /ɪ/ に連結 [ˈkɛːnəlz ˈɪ] カーネルズ イ</li><li>fine flour → /n/ が /f/ に先行（子音+子音）。flour の末尾 /ə/ が yesterday に r-linking</li></ul>
+<div class="kana">ウィ ミルド ザ ウィート カーネルズ イントゥ ファイン フラワー イェスタラデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>milled</mark> tons of materials during the entire night shift.</p>
+<p class="ja">彼らは夜勤全体を通じて大量の材料を粉にしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈmɪld ˈtʌnz əv məˈtɪɻiəlz ˈdʊɻiŋ ðə ənˈtaɪə naɪt ˈʃɪft/</div>
+<ul class="link"><li>they は /ðeɪ/。milled に続く [ðeɪ ˈmɪld] ザェイ ミルド</li><li>tons の末尾 /z/ が of の初颠 /ə/ に連結 [ˈtʌnz əv] タンズ アブ</li><li>during は /ˈdʊɻiŋ/。the は弱形 /ðə/ [ˈdʊɻiŋ ðə] ドゥーリング ザ</li><li>entire の末尾 /ə/ が night の初颠 /n/ に先行。night の末尾 /t/ が shift の /ʃ/ に先行（未開放）</li></ul>
+<div class="kana">ザェイ ミルド タンズ アブ マテリアルズ ドゥーリング ザ エンタイアー ナイト シフト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">milled</span><span class="fl">過去分詞</span><span class="fi">/mɪld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ore had been <mark>milled</mark> before we started the smelting process.</p>
+<p class="ja">製錬プロセスを開始しる前に、鉱石は粉にされていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɔr ˈhæd bɪn ˈmɪld bɪˈfɔɼ wi ˈstɑɽtəd ðə ˈsmɛltɪŋ ˈpɼoʊsɛs/</div>
+<ul class="link"><li>the は弱形 /ðə/。ore に連結 [ðə ˈɔr] ザ オー</li><li>had は弱形 /əd/ に弱化。been は弱形 /bɪn/ [ˈhæd bɪn] ハッ ビン</li><li>milled は /ˈmɪld/。before に続く [ˈmɪld bɪˈfɔɼ] ミルド ビフォー</li><li>started の内部で /t/ がフラップ化し /ɼ/ に。process の末尾 /s/ が変わらず</li></ul>
+<div class="kana">ザ オー ハッ ビン ミルド ビフォー ウィ スターテッド ザ スメルティング プロセス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Using <mark>milled</mark> powder, we crafted stronger magic potions for raids.</p>
+<p class="ja">粉にされた粉末を使用して、レイド用のより強い魔法ポーションを作成しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈjuːzɪŋ ˈmɪld ˈpaʊdə wi ˈkɼæftəd ˈstɼɔŋə ˈmædʒɪk ˈpoʊʃənz fə ˈeɪdz/</div>
+<ul class="link"><li>using は /ˈjuːzɪŋ/。milled に続く [ˈjuːzɪŋ ˈmɪld] ユージング ミルド</li><li>milled の末尾 /d/ が powder の初颠 /p/ に先行（子音+子音） [ˈmɪld ˈpaʊdə] ミルド パウダー</li><li>powder の末尾 /ə/ が we の初颠 /w/ に r-linking で連結 [ˈpaʊdə wiː] パウダー ウィ</li><li>for は弱形 /fə/。raids に続く [fə ˈeɪdz] ファー レイズ</li></ul>
+<div class="kana">ユージング ミルド パウダー ウィ クラフテッド ストロンガー マジック ポーションズ ファー レイズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">milling</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Milling</mark> ores is the primary function of our automated farm.</p>
+<p class="ja">鉱石の粉砕は、私たちの自動化農場の主な機能です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmɪlɪŋ ˈɔrz ɪz ðə ˈpɼaɪmɛɼi ˈfʌŋkʃən əv ɑtəˈmeɪtəd ˈfɑm/</div>
+<ul class="link"><li>milling は /ˈmɪlɪŋ/。ores に続く [ˈmɪlɪŋ ˈɔrz] ミリング オーズ</li><li>ores の末尾 /z/ が is の初颠 /ɪ/ に連結 [ˈɔrz ɪz] オーズ イズ</li><li>the は弱形 /ðə/。primary に連結 [ðə ˈpɼaɪmɛɼi] ザ プライマリ</li><li>of は弱形 /əv/。automated は /ɑtəˈmeɪtəd/。末尾 /d/ が farm の初颠 /f/ に先行（未開放）</li></ul>
+<div class="kana">ミリング オーズ イズ ザ プライマリ ファンクション アブ オートメイテッド ファーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The grinder is currently <mark>milling</mark> stone at full capacity all day.</p>
+<p class="ja">そのグラインダーは現在、一日中最大容量で石を粉にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɼaɪndɛ ɪz ˈkɛɽəntli ˈmɪlɪŋ stoʊn æt ˈfʊl kəˈpæsəti ˈɔl deɪ/</div>
+<ul class="link"><li>the は弱形 /ðə/。grinder に連結 [ðə ˈɡɼaɪndɛ] ザ グラインダー</li><li>grinder の末尾 /ɜ/ が is の初颠 /ɪ/ に r-linking で連結 [ˈɡɼaɪndɛ ɪz] グラインダー イズ</li><li>currently は /ˈkɛɽəntli/。milling に続く [li ˈmɪlɪŋ] リー ミリング</li><li>at は /æt/。full に続く [æt ˈfʊl] アッ フル</li></ul>
+<div class="kana">ザ グラインダー イズ カレントリー ミリング ストーン アッ フル キャパシティ オール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is milling</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The automatic <mark>mill</mark> is <mark>milling</mark> iron ore continuously for our production line.</p>
+<p class="ja">自動製粉所は私たちの製造ラインのために鉄鉱石を継続的に粉にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌɔtəˈmætɪk ˈmɪl ɪz ˈmɪlɪŋ ˈaɪɹən ˈɔr kənˈtɪnjuəsli fɚ ɑɚ pɹəˈdʌkʃən ˈlaɪn/</div>
+<ul class="link"><li>mill の末尾 /l/ が is に連結 [ˈmɪl ɪz] ミル イズ</li><li>is は弱形 /ɪz/。milling に連結 [ɪz ˈmɪlɪŋ] イズ ミリング</li><li>for は弱形 /fɚ/。our に連結 [fɚ ɑɚ] ファー アワー</li></ul>
+<div class="kana">ザ オートマティック ミル イズ ミリング アイアーン オー コンティニュアスリー ファー アワー プロダクション ライン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>milling</mark> grains while the water wheel turns steadily.</p>
+<p class="ja">水車が着実に回転している間に、私たちは穀物を粉にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ɑɹ ˈmɪlɪŋ ɡɹeɪnz ˈwaɪl ðə ˈwɔtɚ ˈwiːl ˈtɝnz ˈstɛdɪli/</div>
+<ul class="link"><li>are の末尾 /r/ が milling に r-linking で連結 [ɑɹ ˈmɪlɪŋ] アー ミリング</li><li>wheel の末尾 /l/ が turns に連結 [ˈwiːl ˈtɝnz] ウィール ターンズ</li></ul>
+<div class="kana">ウィ アー ミリング グレインズ ホワイル ザ ウォーター ウィール ターンズ ステディリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was milling</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The stone <mark>mill</mark> was <mark>milling</mark> slowly when the redstone signal suddenly failed.</p>
+<p class="ja">レッドストーン信号が突然失敗したとき、石の製粉所はゆっくり粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə stoʊn ˈmɪl wəz ˈmɪlɪŋ ˈsloʊli ˈwɛn ðə ˈɹɛdˌstoʊn ˈsɪɡnəl ˈsʌdənli ˈfeɪld/</div>
+<ul class="link"><li>stone の末尾 /n/ が mill に続く（未開放）[stoʊn̚ ˈmɪl] ストーン ミル</li><li>mill の末尾 /l/ が was に連結、was は弱形 /wəz/ [mɪl wəz] ミル ワズ</li><li>was の末尾 /z/ が milling に続く [wəz ˈmɪlɪŋ] ワズ ミリング</li></ul>
+<div class="kana">ザ ストーン ミル ワズ ミリング スロウリー ウェン ザ レッドストーン シグナル サドゥンリー フェイルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>milling</mark> materials in the factory all through the night.</p>
+<p class="ja">彼らは夜通し工場で材料を粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈmɪlɪŋ məˈtɪɹiəlz ɪn ðə ˈfæktəɹi ˈɔl θɹuː ðə naɪt/</div>
+<ul class="link"><li>were の末尾 /r/ が milling に r-linking で連結 [wɚ ˈmɪlɪŋ] ワー ミリング</li><li>in は弱形 /ɪn/。the は弱形 /ðə/</li></ul>
+<div class="kana">ザェイ ワー ミリング マテリアルズ イン ザ ファクトリー オール スルー ザ ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been milling</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The grain <mark>mill</mark> had been <mark>milling</mark> for three hours before the power shut down unexpectedly.</p>
+<p class="ja">穀物製粉所は電力が予期せずシャットダウンする前に3時間粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɹeɪn ˈmɪl ˈhæd bɪn ˈmɪlɪŋ fɚ ˈθɹiː ˈaʊɚz bɪˈfoɹ ðə ˈpaʊɚ ˈʃʌt ˈdaʊn ˌʌnɪkˈspɛktɪdli/</div>
+<ul class="link"><li>mill の末尾 /l/ が had に連結、had は弱形 /həd/ [mɪl ˈhæd] ミル ハッド</li><li>had の末尾 /d/ が been に続く、been は弱形 /bɪn/ [ˈhæd bɪn] ハッド ビン</li><li>been の末尾 /n/ が milling に連結 [bɪn ˈmɪlɪŋ] ビン ミリング</li><li>for は弱形 /fɚ/</li></ul>
+<div class="kana">ザ グレイン ミル ハッド ビン ミリング ファー スリー アワーズ ビフォア ザ パウアー シャット ダウン アンエクスペクティッドリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, the automatic system had been <mark>milling</mark> ore non-stop.</p>
+<p class="ja">私たちが到着したとき、自動システムは途切れず鉱石を粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wiː əˈɹaɪvd | ðə ˌɔtəˈmætɪk ˈsɪstəm ˈhæd bɪn ˈmɪlɪŋ ˈɔr ˌnɑnˈstɑp/</div>
+<ul class="link"><li>time の末尾 /m/ が we に続く [ˈtaɪm wiː] タイム ウィ</li><li>system の末尾 /m/ が had に続く、had は弱形 /həd/ [ˈsɪstəm ˈhæd] システム ハッド</li><li>had の末尾 /d/ が been に続く、been は弱形 /bɪn/ [ˈhæd bɪn] ハッド ビン</li><li>been の末尾 /n/ が milling に連結 [bɪn ˈmɪlɪŋ] ビン ミリング</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライヴド ザ オートマティック システム ハッド ビン ミリング オー ノンストップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has milled</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈmɪld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The ore grinder has <mark>milled</mark> thousands of blocks since this morning.</p>
+<p class="ja">その鉱石グラインダーは今朝からずっと何千ものブロックを粉にしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɔr ˈɡɹaɪndɚ həz ˈmɪld ˈθaʊzənz əv ˈblɑks sɪns ðɪs ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>the は冠詞で弱形 /ðə/。ore に連結 [ðə ˈɔr] ザ オー</li><li>ore の末尾 /r/ と grinder の初頭 /ɡ/ は子音+子音で続く [ˈɔr ˈɡɹaɪndɚ] オー グラインダー</li><li>grinder の末尾 /r/ と has の初頭 /h/ は子音+子音。has は助動詞で弱形 /həz/ に弱化 [ˈɡɹaɪndɚ həz] グラインダー ハズ</li><li>of は弱形 /əv/。blocks に続く [əv ˈblɑks] アヴ ブロックス</li></ul>
+<div class="kana">ザ オー グラインダー ハズ サウザンズ アヴ ブロックス シンス ディス モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have <mark>milled</mark> resources enough to craft all the tools we need.</p>
+<p class="ja">プレイヤーたちは、私たちが必要なすべてのツールを作成するのに十分なリソースを粉にしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz həv ˈmɪld ɹɪˈsɔɹsɪz ɪˈnʌf tə ˈkræft ɔl ðə ˈtulz wiː ˈniːd/</div>
+<ul class="link"><li>players の末尾 /z/ が have の初頭 /h/ に先行（子音+子音）。have は助動詞で弱形 /həv/ に弱化 [ˈpleɪɚz həv] プレイアーズ ハヴ</li><li>resources の末尾 /z/ が enough の初頭 /ɪ/ に連結 [ɹɪˈsɔɹsɪz ɪˈnʌf] リソースィズ イナフ</li><li>to は機能語で弱形 /tə/ に弱化 [tə ˈkræft] タ クラフト</li><li>all は /ɔl/。the は弱形 /ðə/。末尾 /l/ と初頭 /ð/ は子音+子音 [ɔl ðə] オール ザ</li></ul>
+<div class="kana">プレイアーズ ハヴ リソースィズ イナフ タ クラフト オール ザ トゥールズ ウィ ニード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had milled</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈmɪld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the furnace powered up, we had <mark>milled</mark> all the ore into fine dust.</p>
+<p class="ja">炉が起動する前に、私たちはすべての鉱石を細かい粉に粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfoɹ ðə ˈfɝnɪs ˈpaʊərd ˈʌp | wiː həd ˈmɪld ɔl ðə ˈɔr ˈɪntə ˈfaɪn ˈdʌst/</div>
+<ul class="link"><li>the は弱形 /ðə/。furnace に連結 [ðə ˈfɝnɪs] ザ ファーニス</li><li>furnace の末尾 /s/ が powered の初頭 /p/ に先行（子音+子音）[ˈfɝnɪs ˈpaʊərd] ファーニス パワアード</li><li>had は助動詞で弱形 /əd/ に弱化 [wiː əd ˈmɪld] ウィ ハッド</li><li>the は弱形 /ðə/。ore に連結 [ðə ˈɔr] ザ オー</li></ul>
+<div class="kana">ビフォー ザ ファーニス パワアード アップ ウィ ハッド ミルド オール ザ オー イントゥ ファイン ダスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The automated system had <mark>milled</mark> materials into powder before players even noticed.</p>
+<p class="ja">自動化システムは、プレイヤーが気づく前に、材料を粉末に粉にしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɔtəmeɪtəd ˈsɪstəm həd ˈmɪld məˈtɪɹiəlz ˈɪntə ˈpaʊdɚ bɪˈfoɹ ˈpleɪɚz ˈiːvən ˈnoʊtɪst/</div>
+<ul class="link"><li>the は弱形 /ðə/。automated に連結 [ðə ˈɔtəmeɪtəd] ザ オートメイティッド</li><li>system の末尾 /m/ と had の初頭 /h/ は子音+子音で未開放 [ˈsɪstəm həd] システム ハッド</li><li>materials の末尾 /z/ が into の初頭 /ɪ/ に連結 [məˈtɪɹiəlz ˈɪntə] マテリアルズ イントゥ</li><li>before は /bɪˈfoɹ/。players に続く [bɪˈfoɹ ˈpleɪɚz] ビフォー プレイアーズ</li></ul>
+<div class="kana">ザ オートメイティッド システム ハッド ミルド マテリアルズ イントゥ パウダー ビフォー プレイアーズ イーヴン ノウティスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been milling</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The grinder has been <mark>milling</mark> stone blocks all day for the building project.</p>
+<p class="ja">そのグラインダーは建築プロジェクト用に、一日中石ブロックを粉にしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɹaɪndɚ həz bɪn ˈmɪlɪŋ stoʊn ˈblɑks ɔl ˈdeɪ fɚ ðə ˈbɪldɪŋ ˈpɹɑdʒɛkt/</div>
+<ul class="link"><li>the は弱形 /ðə/。grinder に連結 [ðə ˈɡɹaɪndɚ] ザ グラインダー</li><li>grinder の末尾 /r/ と has の初頭 /h/ は子音+子音。has は助動詞で弱形 /həz/、been は弱形 /bɪn/ [ˈɡɹaɪndɚ həz bɪn] グラインダー ハズ ビン</li><li>been の末尾 /n/ が milling の初頭 /m/ に先行（子音+子音）[bɪn ˈmɪlɪŋ] ビン ミリング</li><li>for は弱形 /fɚ/。the は弱形 /ðə/ [fɚ ðə] ファー ザ</li></ul>
+<div class="kana">ザ グラインダー ハズ ビン ミリング ストーン ブロックス オール デイ ファー ザ ビルディング プロジェクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>milling</mark> ores for hours trying to meet the production quota.</p>
+<p class="ja">私たちは生産割当量を達成しようとして、何時間も鉱石を粉にしてきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː həv bɪn ˈmɪlɪŋ ˈɔrz fɚ ˈaʊɚz ˈtɹaɪɪŋ tə ˈmiːt ðə pɹəˈdʌkʃən ˈkwoʊtə/</div>
+<ul class="link"><li>have は助動詞で弱形 /həv/ に弱化 [wiː həv] ウィ ハヴ</li><li>have の末尾 /v/ が been の初頭 /b/ に先行（子音+子音）[həv bɪn] ハヴ ビン</li><li>milling は /ˈmɪlɪŋ/。ores に続く [ˈmɪlɪŋ ˈɔrz] ミリング オーズ</li><li>for は弱形 /fɚ/。hours に続く [fɚ ˈaʊɚz] ファー アワーズ</li></ul>
+<div class="kana">ウィ ハヴ ビン ミリング オーズ ファー アワーズ トライイング タ ミート ザ プロダクション クォータ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will mill</span><span class="fl">単純未来形</span><span class="fi">/wɪl mɪl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>mill</mark> wheat in the new grinder next week.</p>
+<p class="ja">来週、新しいグラインダーで小麦を粉にします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː wɪl ˈmɪl ˈwiːt ɪn ðə ˈnjuː ˈɡɹaɪndɚ ˈnɛkst ˈwiːk/</div>
+<ul class="link"><li>we は /wiː/。will に続く [wiː wɪl] ウィ ウィル</li><li>will の末尾 /l/ が mill の初頭 /m/ に先行（子音+子音で未開放）[wɪl ˈmɪl] ウィル ミル</li><li>the は弱形 /ðə/。new に連結 [ðə ˈnjuː] ザ ニュー</li><li>grinder の末尾 /r/ が next の初頭 /n/ に先行（子音+子音で未開放）[ˈɡɹaɪndɚ ˈnɛkst] グラインダー ネクスト</li></ul>
+<div class="kana">ウィ ウィル ミル ウィート イン ザ ニュー グラインダー ネクスト ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll <mark>mill</mark> the ores after the collection phase ends.</p>
+<p class="ja">採集段階が終わった後、彼女は鉱石を粉にするでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil ˈmɪl ðə ˈɔrz ˈæftɚ ðə kəˈlɛkʃən ˈfeɪz ˈɛndz/</div>
+<ul class="link"><li>she'll は /ʃil/（縮約形）。mill に続く [ʃil ˈmɪl] シル ミル</li><li>mill の末尾 /l/ が the の初頭 /ð/ に先行（子音+子音で未開放）[ˈmɪl ðə] ミル ザ</li><li>ores の末尾 /z/ が after の初頭 /æ/ に連結 [ˈɔrz ˈæftɚ] オーズ アフター</li><li>the は弱形 /ðə/。collection に連結 [ðə kəˈlɛkʃən] ザ コレクション</li></ul>
+<div class="kana">シル ミル ザ オーズ アフター ザ コレクション フェイズ エンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be milling</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈmɪlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The automated system will be <mark>milling</mark> stone blocks all night during raid prep.</p>
+<p class="ja">自動化されたシステムは、レイド準備中、夜通し石ブロックを粉にしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɑtəˈmeɪtəd ˈsɪstəm wɪl bi ˈmɪlɪŋ stoʊn ˈblɑks ˈɔl naɪt ˈdʊɹɪŋ ˈreɪd ˈpɹɛp/</div>
+<ul class="link"><li>the は弱形 /ðə/。automated に連結 [ðə ɑtəˈmeɪtəd] ザ オートメイテッド</li><li>system の末尾 /m/ が will の初頭 /w/ に先行（子音+子音で未開放）[ˈsɪstəm wɪl] システム ウィル</li><li>will の末尾 /l/ が be の初頭 /b/ に先行（子音+子音で未開放）[wɪl bi] ウィル ビー</li><li>be の末尾 /i/ が milling の初頭 /m/ に連結 [bi ˈmɪlɪŋ] ビー ミリング</li></ul>
+<div class="kana">ザ オートメイテッド システム ウィル ビー ミリング ストーン ブロックス オール ナイト ドゥーリング レイド プレップ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>milling</mark> materials when we arrive at the factory.</p>
+<p class="ja">私たちが工場に到着するとき、彼らは材料を粉にしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈmɪlɪŋ məˈtɪɹiəlz ˈwɛn wiː əˈɹaɪv æt ðə ˈfæktəɹi/</div>
+<ul class="link"><li>they'll は /ðeɪl/（縮約形）。be に続く [ðeɪl bi] ザェイル ビー</li><li>be の末尾 /i/ が milling の初頭 /m/ に連結 [bi ˈmɪlɪŋ] ビー ミリング</li><li>milling の末尾 /ŋ/ が materials の初頭 /m/ に先行（子音+子音で未開放）[ˈmɪlɪŋ məˈtɪɹiəlz] ミリング マテリアルズ</li><li>when の末尾 /n/ が we の初頭 /i/ に連結 [ˈwɛn wiː] ウェン ウィー</li></ul>
+<div class="kana">ザェイル ビー ミリング マテリアルズ ウェン ウィー アライブ アット ザ ファクトリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have milled</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv mɪld/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/mill_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow morning, we will have <mark>milled</mark> enough flour for the entire week.</p>
+<p class="ja">明朝までに、私たちは一週間分の十分な粉を粉にしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑɹoʊ ˈmɔɹnɪŋ wiː wɪl həv ˈmɪld ɪˈnʌf ˈflaʊɚ fɚ ðə ɪnˈtaɪɚ ˈwiːk/</div>
+<ul class="link"><li>by は /baɪ/。tomorrow に続く [baɪ təˈmɑɹoʊ] バイ トゥモロー</li><li>morning の末尾 /ŋ/ が we の初頭 /w/ に先行（子音+子音で未開放）[ˈmɔɹnɪŋ wiː] モーニング ウィー</li><li>we の末尾 /i/ が will の初頭 /w/ に先行 [wiː wɪl] ウィー ウィル</li><li>will の末尾 /l/ が have の初頭 /h/ に先行（子音+子音で未開放）[wɪl həv] ウィル ハヴ</li></ul>
+<div class="kana">バイ トゥモロー モーニング ウィー ウィル ハヴ ミルド イナフ フラワー ファー ザ エンタイアー ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The machines will have <mark>milled</mark> tons of ore before the inventory reset happens.</p>
+<p class="ja">インベントリーのリセットが起こる前に、機械は大量の鉱石を粉にしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə məˈʃiːnz wɪl həv mɪld ˈtʌnz əv ˈɔr bɪˈfoɹ ðə ɪnˈvɛntəɹi ˈɹɛsɛt ˈhæpənz/</div>
+<ul class="link"><li>the は弱形 /ðə/。machines に連結 [ðə məˈʃiːnz] ザ マシーンズ</li><li>machines の末尾 /z/ が will の初頭 /w/ に先行（子音+子音で未開放）[ˈʃiːnz wɪl] マシーンズ ウィル</li><li>will の末尾 /l/ が have の初頭 /h/ に先行（子音+子音で未開放）[wɪl həv] ウィル ハヴ</li><li>ore の末尾 /r/ が before の初頭 /b/ に先行（子音+子音で未開放）[ˈɔr bɪˈfoɹ] オー ビフォー</li></ul>
+<div class="kana">ザ マシーンズ ウィル ハヴ ミルド タンズ アヴ オー ビフォー ザ インベントリー リセット ハプンズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">run of the mill</span><span class="im">ありふれた、普通の、つまらない</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This is just a run of the <mark>mill</mark> stone house, nothing special.</p>
+<p class="ja">これはありふれた石造りの家です、何も特別ではありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɪz ˈdʒʌst ə ˈɹʌn əv ðə ˈmɪl stoʊn ˈhaʊs | ˈnʌθɪŋ ˈspɛʃəl/</div>
+<ul class="link"><li>a は弱形 /ə/</li><li>of と the は子音が続く（未開放）</li></ul>
+<div class="kana">ディス イズ ジャスト ア ラン アヴ ザ ミル ストーン ハウス、ナッシング スペシャル</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">mill around</span><span class="im">ぐるぐら回る、うろうろする</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Players <mark>mill</mark> around the trading post looking for rare items.</p>
+<p class="ja">プレイヤーは取引所の周りをぐるぐら回り、レアアイテムを探しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/mill_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/mill_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz ˈmɪl əˈɹaʊnd ðə ˈtɹeɪdɪŋ poʊst ˈlʊkɪŋ fɚ ˈɹɛr ˈaɪɾəmz/</div>
+<ul class="link"><li>mill の末尾子音 /l/ が around の初頭 /ə/ に連結 [ˈmɪl əˈɹaʊnd]</li><li>the は冠詞で弱形 /ðə/</li><li>for は機能語で弱形 /fɚ/</li></ul>
+<div class="kana">プレイヤーズ ミル アラウンド ザ トレイディング ポウスト ルッキング ファー レアー アイラムズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="mill";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

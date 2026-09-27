@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>blink — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>blink</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/blɪŋk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1220</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】目を瞬く、ぱちぱちさせる（to close and open eyes quickly）</li><li>【動詞】一瞬で消える、消え去る、点滅する（to disappear or appear briefly, to flash）</li><li>【名詞】瞬き、瞬くこと、ほんの一瞬（the action of blinking, a brief moment）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The Wither's eyes don't <mark>blink</mark> during the fight.</p>
+<p class="ja">ウィザーの目は戦闘中に瞬きしません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɪðərz aɪz doʊnt blɪŋk ˈdʊrɪŋ ðə faɪt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>Wither's の末尾 /z/ が eyes に連結 [ˈwɪðərz aɪz] ウィザーズ アイズ</li><li>during は /ˈdʊrɪŋ/ で特に変化なし</li></ul>
+<div class="kana">ザ ウィザーズ アイズ ドント ブリンク ドゥーリング ザ ファイト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>blinked</mark> and the creeper exploded my base!</p>
+<p class="ja">瞬きした途端、クリーパーが私のベースを爆発させました！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ blɪŋkt ənd ðə ˈkriːpər ɪkˈsploʊdəd maɪ beɪs]</div>
+<ul class="link"><li>blinked の末尾 /t/ が and の初頭 /ə/ に連結 [blɪŋkt ənd] ブリンクト アンド</li><li>and は弱形 /ənd/</li><li>the は弱形 /ðə/</li><li>creeper の末尾 /r/ が exploded に連結 [ˈkriːpər ɪkˈsploʊdəd] クリーパー イクスプロウデッド</li></ul>
+<div class="kana">アイ ブリンクト アンド ザ クリーパー イクスプロウデッド マイ ベイス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The beacon light <mark>blinks</mark> when you place it briefly.</p>
+<p class="ja">ビーコンライトは、短く置くと点滅します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən laɪt blɪŋks wɛn ju ˈpleɪs ɪt ˈbriːfli]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>blinks の末尾 /z/ が when に続く（子音+子音で連結なし）</li><li>you は弱形 /ju/</li><li>it は弱形 /ɪt/</li></ul>
+<div class="kana">ザ ビーコン ライト ブリンクス ウェン ユー プレイス イット ブリーフリー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blinks</span><span class="fl">三人称単数現在形</span><span class="fi">/blɪŋks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone lamp <mark>blinks</mark> when the signal changes.</p>
+<p class="ja">信号が変わるとレッドストーン lamp が点滅します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈrɛdˌstoʊn læmp blɪŋks wɛn ðə ˈsɪɡnəl ˈtʃeɪndʒɪz]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>lamp の末尾 /p/ が blinks に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ レッドストーン ランプ ブリングクス ウェン ザ シグナル チェンジィズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Every mob's eye <mark>blinks</mark> differently when it spots you.</p>
+<p class="ja">あなたを見つけたとき、すべてのモブの目は異なる方法で瞬きします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈɛvri moʊbz aɪ blɪŋks ˈdɪfərəntli wɛn ɪt spɑts ju]</div>
+<ul class="link"><li>mob's の末尾 /z/ が eye に連結 [moʊbz aɪ] モブズ アイ</li><li>when の末尾 /n/ が it に続く（子音+子音で連結なし）</li><li>it の末尾 /t̚/ が spots に続く（未開放）</li></ul>
+<div class="kana">エブリー モブズ アイ ブリングクス ディファレントリー ウェン イット スポッツ ユー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blinked</span><span class="fl">過去形</span><span class="fi">/blɪŋkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>blinked</mark> when the TNT exploded.</p>
+<p class="ja">TNTが爆発したとき、私は瞬きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ blɪŋkt wɛn ðə ˈtiːɛnˈtiː ɪkˈsploʊdəd]</div>
+<ul class="link"><li>blinked の末尾 /t/ が when に続く（子音+子音で連結なし。未開放）[blɪŋkt wɛn] ブリンクト ウェン</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">アイ ブリンクト ウェン ザ ティーエヌティー イクスプロウデッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian <mark>blinked</mark> at the player approaching the monument.</p>
+<p class="ja">紀念碑に近づくプレイヤーを見て、ガーディアンは瞬きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɡɑrdiən blɪŋkt æt ðə ˈpleɪər əˈproʊtʃɪŋ ðə ˈmɑnjəmənt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>blinked の末尾 /t/ が at に続く（子音+子音で連結なし。未開放）[blɪŋkt æt] ブリンクト アット</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ガーディアン ブリンクト アット ザ プレイアー アプローチング ザ モニュメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blinked</span><span class="fl">過去分詞</span><span class="fi">/blɪŋkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>With the flash <mark>blinked</mark> in the sky, the storm was coming.</p>
+<p class="ja">空に光が点滅して、嵐がやってきていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɪð ðə flæʃ blɪŋkt ɪn ðə skaɪ ðə stɔrm wəz ˈkʌmɪŋ]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>in の末尾 /n/ が the に連結 [ɪn ðə] イン ザ</li><li>the は弱形 /ðə/</li><li>was は弱形 /wəz/</li></ul>
+<div class="kana">ウィズ ザ フラッシュ ブリンクト イン ザ スカイ ザ ストーム ワズ カミング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon <mark>blinked</mark> and then vanished from our sight.</p>
+<p class="ja">ビーコンが点滅してから、私たちの視界から消えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən blɪŋkt ənd ðɛn ˈvænɪʃt frəm aʊər saɪt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>and は弱形 /ənd/</li><li>from の末尾 /m/ が our に続く（子音+子音で連結なし）</li><li>our の末尾 /r/ が sight に連結 [aʊər saɪt] アワー サイト</li></ul>
+<div class="kana">ザ ビーコン ブリンクト アンド ゼン ヴァニシト フラム アワー サイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blinking</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈblɪŋkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Blinking</mark> is a sign that the mob has detected you.</p>
+<p class="ja">瞬きはそのモブがあなたを検出した証拠です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈblɪŋkɪŋ ɪz ə saɪn ðæt ðə moʊb həz dɪˈtɛktəd ju]</div>
+<ul class="link"><li>is は弱形 /ɪz/</li><li>a は弱形 /ə/</li><li>the は弱形 /ðə/</li><li>detected の末尾 /ɪd/ が you に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">ブリンキング イズ ア サイン ザット ザ モブ ハズ ディテクテッド ユー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Watch the redstone circuit <mark>blinking</mark> in the night.</p>
+<p class="ja">夜間のレッドストーン回路の点滅を見てください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɑtʃ ðə ˈrɛdˌstoʊn ˈsɝkɪt ˈblɪŋkɪŋ ɪn ðə naɪt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>circuit の末尾 /t̚/ が blinking に続く（未開放）</li><li>in の末尾 /n/ が the に連結 [ɪn ðə] イン ザ</li></ul>
+<div class="kana">ウォッチ ザ レッドストーン サーキット ブリンキング イン ザ ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">blinks</span><span class="fl">複数形</span><span class="fi">/blɪŋks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>In the cavern, three <mark>blinks</mark> of the redstone lamp signaled the treasure location.</p>
+<p class="ja">洞窟では、レッドストーン lamp の3回の点滅が宝の場所を示していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɪn ðə kəˈvɝn θriː blɪŋks əv ðə ˈrɛdˌstoʊn læmp ˈsɪɡnəld ðə ˈtrɛʒər loʊˈkeɪʃən]</div>
+<ul class="link"><li>in の末尾 /n/ が the に連結 [ɪn ðə] イン ザ</li><li>the は弱形 /ðə/</li><li>blinks の末尾 /z/ が of に続く（子音+子音で連結なし）</li><li>of は弱形 /əv/</li></ul>
+<div class="kana">イン ザ カヴァーン スリー ブリングクス アヴ ザ レッドストーン ランプ シグナルド ザ トレジャー ロケイション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Several <mark>blinks</mark> appeared on the radar before the mob disappeared.</p>
+<p class="ja">モブが消える前に、レーダーにいくつかの点滅が現れました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈsɛvərəl blɪŋks əˈpɪrd ɑn ðə ˈreɪˌdɑr bɪˈfɔr ðə moʊb dɪsəˈpɪrd]</div>
+<ul class="link"><li>several の末尾 /l/ が blinks に続く（子音+子音で連結なし）</li><li>on の末尾 /n/ が the に連結 [ɑn ðə] オン ザ</li><li>the は弱形 /ðə/</li><li>before の末尾 /r/ が the に連結 [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">セブラル ブリングクス アピアド オン ザ レイダー ビフォア ザ モブ ディサピアド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been blinking</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈblɪŋkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper had been <mark>blinking</mark> its eyes for seconds before it exploded.</p>
+<p class="ja">クリーパーは爆発する数秒前まで目を瞬かせていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈkriːpər həd bɪn ˈblɪŋkɪŋ ɪts aɪz fər ˈsɛkəndz bɪˈfɔr ɪt ɪkˈsploʊdəd]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /həd/</li><li>been は弱形 /bɪn/</li><li>been末尾 /n/ が blinking に連結 [bɪn ˈblɪŋkɪŋ] ビン ブリンキング</li><li>its は弱形 /ɪts/</li><li>before末尾 /r/ が it に連結 [bɪˈfɔr ɪt] ビフォア イット</li><li>it末尾 /t̚/ が exploded に続く（未開放）</li></ul>
+<div class="kana">ザ クリーパー ハド ビン ブリンキング イッツ アイズ フ セコンズ ビフォア イット イクスプロウデッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon had been <mark>blinking</mark> red and green before the redstone circuit malfunctioned.</p>
+<p class="ja">レッドストーン回路に不具合が生じる前まで、ビーコンが赤と緑で点滅していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən həd bɪn ˈblɪŋkɪŋ rɛd ənd ɡrin bɪˈfɔr ðə ˈrɛdˌstoʊn ˈsɝkɪt ˌmælˈfʌŋkʃənd]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /həd/</li><li>been は弱形 /bɪn/</li><li>been末尾 /n/ が blinking に連結 [bɪn ˈblɪŋkɪŋ] ビン ブリンキング</li><li>red末尾 /d/ が and に連結 [rɛd ənd] レッド アンド</li><li>and は弱形 /ənd/</li><li>before末尾 /r/ が the に連結 [bɪˈfɔr ðə] ビフォア ザ</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ビーコン ハド ビン ブリンキング レッド アンド グリーン ビフォア ザ レッドストーン サーキット マルファンクションド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been blinking</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈblɪŋkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon has been <mark>blinking</mark> red since we activated the full pyramid.</p>
+<p class="ja">完全なピラミッドを起動してから、ビーコンが赤で点滅し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən həz bɪn ˈblɪŋkɪŋ rɛd sɪns wi ˈæktɪˌveɪtəd ðə fʊl ˈpɪrəˌmɪd]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>has は弱形 /həz/</li><li>we は弱形 /wi/</li></ul>
+<div class="kana">ザ ビーコン ハズ ビン ブリンキング レッド シンス ウィー アクティベイテッド ザ フル ピラミッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The creeper's eyes have been <mark>blinking</mark> faster as it gets closer.</p>
+<p class="ja">クリーパーの目はより近くなるにつれて、より速く点滅し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈkriːpərz aɪz həv bɪn ˈblɪŋkɪŋ ˈfæstər əz ɪt ɡɛts ˈkloʊsər]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>creeper's の末尾 /z/ が eyes に連結 [ˈkriːpərz aɪz] クリーパーズ アイズ</li><li>have は弱形 /həv/、been は弱形 /bɪn/</li></ul>
+<div class="kana">ザ クリーパーズ アイズ ハヴ ビン ブリンキング ファスター アズ イット ゲッツ クローサー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will blink</span><span class="fl">単純未来形</span><span class="fi">/wɪl blɪŋk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The warning light will <mark>blink</mark> when the mob detector senses danger.</p>
+<p class="ja">モブディテクターが危険を感知すると、警告灯が点滅します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɔrnɪŋ laɪt wɪl blɪŋk wɛn ðə moʊb dɪˈtɛktər ˈsɛnsɪz ˈdeɪndʒər]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>will は弱形 /wɪl/</li><li>senses の末尾 /z/ が danger に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">ザ ウォーニング ライト ウィル ブリンク ウェン ザ モブ ディテクター センシズ デンジャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Your beacon will <mark>blink</mark> until you activate the full pyramid.</p>
+<p class="ja">完全なピラミッドを起動するまで、あなたのビーコンが点滅します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[jɔr ˈbiːkən wɪl blɪŋk ənˈtɪl ju ˈæktɪˌveɪt ðə fʊl ˈpɪrəˌmɪd]</div>
+<ul class="link"><li>will は弱形 /wɪl/</li><li>beacon の末尾 /n/ が will に続く（子音+子音で連結なし）</li><li>until の末尾 /l/ が you に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ヨア ビーコン ウィル ブリンク アンティル ユー アクティベイト ザ フル ピラミッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be blinking</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈblɪŋkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon will be <mark>blinking</mark> throughout the night to guide us home.</p>
+<p class="ja">ビーコンは帰路を照らすために、夜通し点滅し続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən wɪl bi ˈblɪŋkɪŋ θruːˈaʊt ðə naɪt tə ɡaɪd əs hoʊm]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>will は弱形 /wɪl/</li><li>be の末尾 /i/ が blinking に続く（母音+子音で連結なし）</li><li>throughout の末尾 /t/ が the に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li><li>to の末尾 /tə/（弱形）が guide に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">ザ ビーコン ウィル ビー ブリンキング スルーアウト ザ ナイト タ ガイド アス ホーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>blinking</mark> the warning signal while we escape the lava.</p>
+<p class="ja">私たちが溶岩から逃げている間、警告信号が点滅しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪl bi ˈblɪŋkɪŋ ðə ˈwɔrnɪŋ ˈsɪɡnəl waɪl wi ɪˈskeɪp ðə ˈlɑvə]</div>
+<ul class="link"><li>They'll は /ðeɪl/（they will の縮約）</li><li>be の末尾 /i/ が blinking に続く（母音+子音で連結なし）</li><li>the は弱形 /ðə/</li><li>while の末尾 /l/ が we に続く（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ゼイル ビー ブリンキング ザ ウォーニング シグナル ワイル ウィー イスケイプ ザ ラーヴァ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have blinked</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv blɪŋkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blink_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time you read this, the portal will have <mark>blinked</mark> away.</p>
+<p class="ja">このテキストを読む頃には、ポータルはすでに消え去っているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə taɪm ju rɛd ðɪs ðə ˈpoʊrtəl wɪl həv blɪŋkt əˈweɪ]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>will は弱形 /wɪl/</li><li>have は弱形 /həv/</li><li>away の末尾 /ə/ が the に続く（母音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ザ タイム ユー レッド ディス ザ ポータル ウィル ハヴ ブリンクト アウェイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon will have <mark>blinked</mark> fifty times before we return.</p>
+<p class="ja">私たちが戻ってくるまでに、ビーコンは50回点滅しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbiːkən wɪl həv blɪŋkt ˈfɪfti taɪmz bɪˈfɔr wi rɪˈtɝn]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>will は弱形 /wɪl/</li><li>have は弱形 /həv/</li><li>before の末尾 /r/ が we に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">ザ ビーコン ウィル ハヴ ブリンクト フィフティー タイムズ ビフォア ウィー リターン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is blinking</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈblɪŋkɪŋ/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>blinking</mark> and it's hard to see.</p>
+<p class="ja">目を瞬いていて、見えにくいんです。</p>
+
+<div class="ipa-line">/aɪm ˈblɪŋkɪŋ ənd ɪts hɑrd tə siː/</div>
+<ul class="link"><li>短縮形 &quot;I'm&quot; は &quot;I am&quot; の短縮 /aɪm/。短縮形 &quot;it's&quot; は &quot;it is&quot; の短縮 /ɪts/。</li><li>&quot;and it's&quot; は /d/ が母音 /ɪ/ に連結 [ənˈdɪts] アンディッツ。</li><li>機能語 to は弱形 /tə/ に弱化。</li></ul>
+<div class="kana">アイム ブリンキン アンディッツ ハード タ シー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mob is <mark>blinking</mark> from the sand.</p>
+<p class="ja">モブが砂で目を瞬かせている。</p>
+
+<div class="ipa-line">/ðə ˈmoʊb ɪz ˈblɪŋkɪŋ frəm ðə sænd/</div>
+<ul class="link"><li>冠詞 the は弱形 /ðə/。助動詞 is は弱形 /ɪz/。</li><li>前置詞 from は弱形 /frəm/。</li><li>&quot;is blinking&quot; は /z/ と /b/ で子音+子音、連結なし。</li></ul>
+<div class="kana">ザ モウブ イズ ブリンキン フラム ザ サンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was blinking</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈblɪŋkɪŋ/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>blinking</mark> rapidly from the blast.</p>
+<p class="ja">爆発で素早く目を瞬かせていた。</p>
+
+<div class="ipa-line">/aɪ wəz ˈblɪŋkɪŋ ˈræpɪdli frəm ðə blæst/</div>
+<ul class="link"><li>助動詞 was は弱形 /wəz/。</li><li>前置詞 from は弱形 /frəm/、冠詞 the も弱形 /ðə/。</li><li>副詞 rapidly の語末 -ly は /li/。</li></ul>
+<div class="kana">アイ ワズ ブリンキン ラピッドリー フラム ザ ブラスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You were <mark>blinking</mark> and everyone noticed.</p>
+<p class="ja">君は瞬いていて、みんなが気づいた。</p>
+
+<div class="ipa-line">/juː wɚ ˈblɪŋkɪŋ ənd ˈɛvriˌwʌn ˈnoʊtɪst/</div>
+<ul class="link"><li>助動詞 were は弱形 /wɚ/。</li><li>&quot;and everyone&quot; は /d/ が母音 /ɛ/ に連結 [əndɛ] アンデヴリワン。</li></ul>
+<div class="kana">ユー ワー ブリンキン アンデヴリワン ノウティスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has blinked</span><span class="fl">現在完了形</span><span class="fi">/həz blɪŋkt/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The light has <mark>blinked</mark> several times since the power came back.</p>
+<p class="ja">電力が戻ってきてから、光は何度も瞬きました。</p>
+
+<div class="ipa-line">[ðə laɪt həz blɪŋkt ˈsɛvərəl taɪmz sɪns ðə ˈpaʊər keɪm bæk]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>has は弱形 /həz/、末尾 /z/ が blinked の /b/ に先行（子音+子音で連結なし）</li><li>since の末尾 /s/ が the の弱形に先行（子音+子音で連結なし）</li><li>came の末尾 /m/ が back の /b/ に先行（子音+子音で連結なし）</li></ul>
+<div class="kana">ザ ライト ハズ ブリンクト セブラル タイムズ シンス ザ パウア ケイム バック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My eye has <mark>blinked</mark> away the dust from the mining.</p>
+<p class="ja">採掘からの塵を払い落とすために、私の目が瞬きました。</p>
+
+<div class="ipa-line">[maɪ aɪ həz blɪŋkt əˈweɪ ðə dʌst frəm ðə ˈmaɪnɪŋ]</div>
+<ul class="link"><li>has は弱形 /həz/、末尾 /z/ が blinked の /b/ に先行（子音+子音で連結なし）</li><li>blinked の末尾 /t/ が away の /ə/ に先行（未開放）[blɪŋkt̚ əˈweɪ]</li><li>from は弱形 /frəm/、末尾 /m/ が the の弱形に先行（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">マイ アイ ハズ ブリンクト アウェイ ザ ダスト フラム ザ マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had blinked</span><span class="fl">過去完了形</span><span class="fi">/həd blɪŋkt/</span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The portal had <mark>blinked</mark> away before we could step through it.</p>
+<p class="ja">私たちがそこを通ることができる前に、ポータルは消え去りました。</p>
+
+<div class="ipa-line">[ðə ˈpoʊrtəl həd blɪŋkt əˈweɪ bɪˈfɔr wi kəd stɛp θruː ɪt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /həd/、末尾 /d/ が blinked に先行（子音+子音で未開放）[həd̚ blɪŋkt]</li><li>before の末尾 /r/ が we の /w/ に先行（子音+子音で連結なし）</li><li>could は弱形 /kəd/</li></ul>
+<div class="kana">ザ ポータル ハド ブリンクト アウェイ ビフォア ウィー クッド ステップ スルー イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The beacon light had <mark>blinked</mark> three times before the server shut down.</p>
+<p class="ja">サーバーがシャットダウンする前に、ビーコンライトは3回点滅していました。</p>
+
+<div class="ipa-line">[ðə ˈbiːkən laɪt həd blɪŋkt θriː taɪmz bɪˈfɔr ðə ˈsɝvər ʃʌt daʊn]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /həd/、末尾 /d/ が blinked に先行（子音+子音で未開放）[həd̚ blɪŋkt]</li><li>before の末尾 /r/ が the の /ð/ に先行（子音+子音で連結なし）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ビーコン ライト ハド ブリンクト スリー タイムズ ビフォア ザ サーヴァー シャット ダウン</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">in the blink of an eye</span><span class="im">ほんの一瞬で、瞬く間に</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>In the <mark>blink</mark> of an eye, the creeper destroyed our entire farm!</p>
+<p class="ja">瞬く間に、クリーパーが私たちの農場全体を破壊しました！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ɪn ðə blɪŋk əv ən aɪ ðə ˈkriːpər dɪˈstrɔɪd aʊər ənˈtaɪər fɑrm]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>blink の末尾 /k/ が of に連結 [blɪŋk əv] ブリンク アヴ</li><li>of は弱形 /əv/</li><li>an は弱形 /ən/</li><li>eye の末尾 /aɪ/ が the に続く（母音+子音で連結なし）[aɪ ðə] アイ ザ</li></ul>
+<div class="kana">イン ザ ブリンク アヴ アン アイ ザ クリーパー ディストロイド アワー エンタイアー ファーム</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">blink and you'll miss it</span><span class="im">瞬きするとそれを見逃す、あっという間に過ぎ去る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The Ender Pearl <mark>blinks</mark> away so fast—<mark>blink</mark> and you'll miss it!</p>
+<p class="ja">エンダーパールはとても速く消えていきます。瞬きすると見逃します！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blink_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blink_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɛndər pɝl blɪŋks əˈweɪ soʊ fæst blɪŋk ənd juːl mɪs ɪt]</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>Pearl の末尾 /l/ が blinks に続く（子音+子音で連結なし）</li><li>away の末尾 /eɪ/ が so に続く（母音+子音で連結なし）</li><li>so は /soʊ/ で特に変化なし</li><li>fast は /fæst/</li><li>you'll は /juːl/ で特に変化なし</li><li>miss の末尾 /s/ が it に続く（子音+子音で連結なし）</li></ul>
+<div class="kana">ザ エンダー パール ブリンクス アウェイ ソー ファスト ブリンク アンド ユール ミス イット</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="blink";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

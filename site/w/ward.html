@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ward — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>ward</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/wɔrd/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1664</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】危険や危害から保護する、遠ざける（to protect or keep away from danger or harm）</li><li>【動詞】（…に対して）警戒する、防ぐ（to guard against or protect oneself from）</li><li>【名詞】都市や建物の一区画、部門（a division or section of a city, building, or institution）</li><li>【名詞】保護されている人、特に被後見人（a person under protection or guardianship）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Torches <mark>ward</mark> off hostile mobs near your base.</p>
+<p class="ja">懐中電灯はあなたの基地の近くの敵対的なモブを遠ざけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtɔrtʃəz wɔrd ɔf ˈhɑstəl ˈmoʊbz nɪr jɚ ˈbeɪs/</div>
+<ul class="link"><li>ward の末尾 /d/ が off の /ɔ/ に連結、フラップ化して [wɔɹɾɔf]</li><li>your は機能語で弱形 /jɚ/ に弱化</li></ul>
+<div class="kana">トーチーズ ウォーロフ ハスタル モウブズ ニア ユア ベース</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The castle has three <mark>wards</mark> for storage, crafting, and defense.</p>
+<p class="ja">城には保管、クラフト、防衛用の3つの区画があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkæsəl hæz ˈθri wɔrdz fɚ ˈstɔrɪdʒ ˈkræftɪŋ ænd dɪˈfɛns/</div>
+<ul class="link"><li>has の末尾 /z/ が three の /θ/ の前で分離、明確に発音</li><li>for は機能語で弱形 /fɚ/ に弱化</li><li>and は機能語で弱形 /ən/ に弱化</li></ul>
+<div class="kana">ザ キャッスル ハズ スリー ウォーズ ファー ストレッジ クラフティング アンド ディフェンス</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>warded</mark> off the creeper attack with water and quick thinking.</p>
+<p class="ja">私たちは水と素早い思考力でクリーパーの攻撃を防ぎました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈwɔrdɪd ɔf ðə ˈkripər əˈtæk wɪð ˈwɔtər ænd kwɪk ˈθɪŋkɪŋ/</div>
+<ul class="link"><li>warded の末尾 /d/ が off の /ɔ/ に連結、フラップ化して [ˈwɔɹdɪɾɔf]</li><li>water の /t/ が母音に挟まれてフラップ化 [ˈwɔɾər]</li><li>and は弱形 /ən/ または /n/ に弱化</li></ul>
+<div class="kana">ウィ ウォーディロフ ザ クリーパー アタック ウィズ ウォーラー アンド クウィック スィンキング</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">wards</span><span class="fl">複数形（名詞）</span><span class="fi">/wɔrdz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The castle has three separate <mark>wards</mark> for storage, crafting, and defense.</p>
+<p class="ja">城には保管、クラフト、防衛用の3つの別々の区画があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkæsəl hæz ˈθri ˈsɛpərɪt wɔrdz fɚ ˈstɔrɪdʒ ˈkræftɪŋ‿ənd dɪˈfɛns/</div>
+<ul class="link"><li>the castle → the は弱形 /ðə/</li><li>has three → /z/ + /θ/（子音+子音、連結なし）</li><li>crafting and → /ŋ/ + /ə/ が連結、and は弱形 /ənd/ [ˈkræftɪŋ‿ənd] クラフティング アンド</li><li>for storage → for は弱形 /fɚ/</li></ul>
+<div class="kana">ザ キャッスル ハズ スリー セッパレット ウォーズ ファー ストレッジ クラフティング アンド ディフェンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Hospital <mark>wards</mark> in the village are where injured travelers can heal and rest.</p>
+<p class="ja">村の医療区画は怪我をした旅人が治癒して休むことができる場所です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhɑspɪtəl wɔrdz ɪn ðə ˈvɪlɪdʒ ɑr wɛr ɪnˈdʒɚd ˈtrævəlɚz kən ˈhil‿ənd ˈrɛst/</div>
+<ul class="link"><li>Hospital wards → /l/ + /w/（子音+子音、連結なし）</li><li>wards in → /z/ + /ɪ/ が連結 [wɔrdz ɪn] ウォーズ イン</li><li>the village → the は弱形 /ðə/、/ə/ + /v/ が連結 [ðə ˈvɪlɪdʒ] ザ ヴィレッジ</li><li>can heal → can は弱形 /kən/、/n/ + /h/（子音+子音、連結なし）</li></ul>
+<div class="kana">ハスピタル ウォーズ イン ザ ヴィレッジ アー ウェア インジャード トラベラーズ キャン ヒール アンド レスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">wards</span><span class="fl">三人称単数現在形</span><span class="fi">/wɔrdz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Torch light <mark>wards</mark> off most hostile mobs in the Overworld near your base.</p>
+<p class="ja">懐中電灯の光はオーバーワールドであなたの拠点の近くのほとんどの敵対的なモブを遠ざけます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtɔrtʃ ˈlaɪt wɔrdz ɔf ˈmoʊst ˈhɑstəl ˈmoʊbz ɪn ðə ˈoʊvɚˌwɝld nɪr jɚ ˈbeɪs/</div>
+<ul class="link"><li>Torch light → /tʃ/ + /l/（子音+子音、連結なし）</li><li>light wards → /t/ + /w/（子音+子音、連結なし）</li><li>wards off → /z/ + /ɔ/ が連結 [wɔrdz ɔf] ウォーズ オフ</li><li>in the → /n/ + /ð/（子音+子音、連結なし）、the は弱形 /ðə/</li></ul>
+<div class="kana">トーチ ライト ウォーズ オフ モースト ホスタイル モウブズ イン ザ オーヴァーワールド ニア ユア ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>A stone barrier <mark>wards</mark> against the danger of mobs wandering into your farm.</p>
+<p class="ja">石の障壁はモブがあなたの農場に迷い込む危険から防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈstoʊn ˈbæriɚ wɔrdz əˈɡɛnst ðə ˈdeɪndʒər əv ˈmoʊbz ˈwɑndɚɪŋ ˈɪntu jɚ ˈfɑrm/</div>
+<ul class="link"><li>a stone → a は弱形 /ə/、/ə/ + /s/ が連結 [ə ˈstoʊn] ア ストーン</li><li>stone barrier → /n/ + /b/（子音+子音、連結なし）</li><li>barrier wards → /r/ + /w/（子音+子音、連結なし）</li><li>wards against → /z/ + /ə/ が連結 [wɔrdz əˈɡɛnst] ウォーズ ァゲンスト</li></ul>
+<div class="kana">ア ストーン バリアー ウォーズ ァゲンスト ザ デンジャー アヴ モウブズ ワンダリング インタ ユア ファーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">warded</span><span class="fl">過去形</span><span class="fi">/ˈwɔrdɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>warded</mark> off the zombie horde with arrows and water trenches.</p>
+<p class="ja">私たちは矢と水の溝でゾンビの群れを防ぎました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈwɔrdɪd ɔf ðə ˈzoʊmbi ˈhɔrd wɪð ˈæroʊz‿ənd ˈwɔɾɚ ˈtrɛntʃɪz/</div>
+<ul class="link"><li>we warded → /i/ + /w/ が連結 [wi ˈwɔrdɪd] ウィー ウォーディド</li><li>warded off → /d/ + /ɔ/ が連結 [ˈwɔrdɪd ɔf] ウォーディド オフ</li><li>the zombie → the は弱形 /ðə/、/ə/ + /z/ が連結 [ðə ˈzoʊmbi] ザ ゾンビ</li><li>arrows and → /z/ + /ə/ が連結、and は弱形 /ənd/ [ˈæroʊz‿ənd] アローズ アンド</li><li>water trenches → water の /t/ は母音に挟まれてフラップT [ˈwɔɾɚ] ウォーラー</li></ul>
+<div class="kana">ウィー ウォーディド オフ ザ ゾンビ ホード ウィズ アローズ アンド ウォーラー トレンチーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The iron golem <mark>warded</mark> off the creeper attack that threatened the village.</p>
+<p class="ja">アイアンゴーレムは村を脅かしたクリーパーの攻撃を防ぎました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈaɪərn ˈɡoʊləm ˈwɔrdɪd ɔf ðə ˈkripər əˈtæk ðæt ˈθrɛtənd ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>The iron → the は弱形 /ðə/、/ə/ + /aɪ/ が連結（弱形+二重母音）[ðə ˈaɪərn] ザ アイアン</li><li>iron golem → /n/ + /ɡ/（子音+子音、連結なし）</li><li>warded off → /d/ + /ɔ/ が連結 [ˈwɔrdɪd ɔf] ウォーディド オフ</li><li>the creeper → the は弱形 /ðə/、/ə/ + /k/ が連結 [ðə ˈkripər] ザ クリーパー</li></ul>
+<div class="kana">ザ アイアン ゴーレム ウォーディド オフ ザ クリーパー ァタック ザット スレットンド ザ ヴィレッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">warded</span><span class="fl">過去分詞</span><span class="fi">/ˈwɔrdɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>warded</mark> off the initial attack, we began to fortify our base.</p>
+<p class="ja">初期の攻撃を防いだ後、私たちは拠点を強化し始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈheɪvɪŋ ˈwɔrdɪd ɔf ðə ɪˈnɪʃəl əˈtæk | wi bɪˈɡæn tu ˈfɔrtɪˌfaɪ ˈaʊɚ ˈbeɪs/</div>
+<ul class="link"><li>Having warded → /ŋ/ + /w/（子音+子音、連結なし）</li><li>warded off → /d/ + /ɔ/ が連結 [ˈwɔrdɪd ɔf] ウォーディド オフ</li><li>the initial → the は弱形 /ðə/、/ə/ + /ɪ/ が連結 [ðə ɪˈnɪʃəl] ザ イニシャル</li><li>we began → /i/ + /b/ が連結 [wi bɪˈɡæn] ウィー ビガン</li></ul>
+<div class="kana">ハヴィング ウォーディド オフ ザ イニシャル ァタック、ウィー ビガン トゥ フォーティファイ アワー ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The wall, having been <mark>warded</mark> against decay, stood strong for many years.</p>
+<p class="ja">腐敗から守られた壁は何年も強く立っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwɔl ˈheɪvɪŋ bɪn ˈwɔrdɪd əˈɡɛnst dɪˈkeɪ | ˈstʊd ˈstrɑŋ fɚ ˈmɛni ˈjɪrz/</div>
+<ul class="link"><li>The wall → the は弱形 /ðə/、/ə/ + /w/ が連結 [ðə ˈwɔl] ザ ウォール</li><li>wall having → /l/ + /ə/ が連結 [ˈwɔl ˈheɪvɪŋ] ウォール ハヴィング</li><li>warded against → /d/ + /ə/ が連結 [ˈwɔrdɪd əˈɡɛnst] ウォーディド ァゲンスト</li><li>stood strong → /d/ は語末で不開放 [ˈstʊd̚ ˈstrɑŋ]</li></ul>
+<div class="kana">ザ ウォール ハヴィング ビン ウォーディド ァゲンスト ディケイ、スタッド ストロング ファー メニー イヤーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">warding</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Warding</mark> against zombies is essential for surviving the first night.</p>
+<p class="ja">ゾンビから守ることは最初の夜を生き残るために必須です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔrdɪŋ əˈɡɛnst ˈzoʊmbiz ɪz ɪˈsɛnʃəl fɚ sɚˈvaɪvɪŋ ðə ˈfɝst ˈnaɪt/</div>
+<ul class="link"><li>Warding against → /ŋ/ + /ə/ が連結 [ˈwɔrdɪŋ əˈɡɛnst] ウォーディング ァゲンスト</li><li>against zombies → /t/ + /z/（子音+子音、連結なし）</li><li>zombies is → /z/ + /ɪ/ が連結 [ˈzoʊmbiz ɪz] ゾンビーズ イズ</li><li>for surviving → for は弱形 /fɚ/</li></ul>
+<div class="kana">ウォーディング ァゲンスト ゾンビーズ イズ エッセンシャル ファー サーバイビング ザ ファースト ナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The villagers benefit from our <mark>warding</mark> efforts and feel safe in the settlement.</p>
+<p class="ja">村人は私たちの防衛努力の恩恵を受け、集落で安全を感じます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒɚz ˈbɛnɪfɪt frəm ˈaʊɚ ˈwɔrdɪŋ ˈɛfɚts‿ənd ˈfil ˈseɪf ɪn ðə ˈsɛtəlmənt/</div>
+<ul class="link"><li>The villagers → the は弱形 /ðə/、/ə/ + /v/ が連結 [ðə ˈvɪlɪdʒɚz] ザ ヴィレッジャーズ</li><li>villagers benefit → /z/ + /b/（子音+子音、連結なし）</li><li>from our → /m/ + /aʊ/ が連結 [frəm ˈaʊɚ] フラム アワー</li><li>warding efforts → /ŋ/ + /ɛ/ が連結 [ˈwɔrdɪŋ ˈɛfɚts] ウォーディング エファーツ</li></ul>
+<div class="kana">ザ ヴィレッジャーズ ベネフィット フラム アワー ウォーディング エファーツ アンド フィール セイフ イン ザ セットルメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is warding</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The tower is <mark>warding</mark> off creepers that approach from the dark forest.</p>
+<p class="ja">その塔は暗い森から近づいてくるクリーパーを防ぎています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtaʊər ɪz ˈwɔrdɪŋ ɔf ˈkripərz ðæt əˈproʊtʃ frəm ðə ˈdɑrk ˈfɑrɪst/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>tower is → /r/ + /ɪ/ が連結 [ˈtaʊər ɪz] タウアー イズ</li></ul>
+<div class="kana">ザ タウアー イズ ウォーディング オフ クリーパーズ ザット ァプロウチ フラム ザ ダーク フォレスト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>warding</mark> the north gate against the skeleton army marching through the valley.</p>
+<p class="ja">彼らは谷を行進してくるスケルトン軍に対して北門を防いでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈwɔrdɪŋ ðə ˈnɔrθ ɡeɪt əˈɡɛnst ðə ˈskɛlətn ˈɑrmi ˈmɑrtʃɪŋ θruː ðə ˈvæli/</div>
+<ul class="link"><li>are → 弱形 /ə/ before consonant</li><li>warding the → /ŋ/ + /ð/（子音+子音、連結なし）</li></ul>
+<div class="kana">ゼイ アー ウォーディング ザ ノース ゲート ァゲンスト ザ スケレトン アーミー マーチング スルー ザ ヴァレー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was warding</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>warding</mark> off the zombie siege when my friend suddenly logged in to help.</p>
+<p class="ja">ゾンビの包囲を防いでいる時、友人が突然ログインして助けてくれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈwɔrdɪŋ ɔf ðə ˈzoʊmbi sˈidʒ wɛn maɪ ˈfrɛnd ˈsʌdənli ˈlɑɡd ɪn tə ˈhɛlp/</div>
+<ul class="link"><li>was → 弱形 /wəz/</li><li>to help → to は弱形 /tə/</li></ul>
+<div class="kana">アイ ワズ ウォーディング オフ ザ ゾンビ シージ ウェン マイ フレンド サドゥンリー ログド イン タ ヘルプ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She was <mark>warding</mark> the cave entrance all night until the sun rose and the mobs retreated.</p>
+<p class="ja">彼女は太陽が昇ってモブが退却するまで、一晩中洞窟の入り口を守り続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wəz ˈwɔrdɪŋ ðə ˈkeɪv ˈɛntrəns ɔl naɪt ənˈtɪl ðə sʌn roʊz ænd ðə ˈmoʊbz rɪˈtritɪd/</div>
+<ul class="link"><li>was → 弱形 /wəz/</li><li>warding the → /ŋ/ + /ð/（子音+子音、連結なし）</li></ul>
+<div class="kana">シー ワズ ウォーディング ザ ケイヴ エントランス オール ナイト アンティル ザ サン ロウズ アンド ザ モウブズ リトリーティド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been warding</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian had been <mark>warding</mark> the sacred temple for centuries before the first players arrived.</p>
+<p class="ja">守護者は最初のプレイヤーが到着する前に何世紀も聖なるテンプルを守り続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑːrdiən həd bɪn ˈwɔrdɪŋ ðə ˈseɪkrɪd ˈtɛmpəl fɚ ˈsɛntʃəriz bɪˈfɔːr ðə ˈfɝst ˈpleɪərz əˈraɪvd/</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>been → 弱形 /bɪn/</li><li>warding the → /ŋ/ + /ð/（子音+子音、連結なし）</li><li>for centuries → for は弱形 /fɚ/</li></ul>
+<div class="kana">ザ ガーディアン ハド ビン ウォーディング ザ セイクリド テンプル ファー センチュリーズ ビフォア ザ ファースト プレイアーズ ァライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>warding</mark> the perimeter for hours before we discovered the hidden breach in the wall.</p>
+<p class="ja">壁の隠れた裂け目を発見する前に、私たちは周囲を何時間も守り続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈwɔrdɪŋ ðə pərɪˈmɪtər fɚ ˈaʊərz bɪˈfɔːr wi dɪˈskʌvərd ðə ˈhɪdn briːtʃ ɪn ðə ˈwɔl/</div>
+<ul class="link"><li>had → 弱形 /həd/</li><li>been → 弱形 /bɪn/</li><li>warding the → /ŋ/ + /ð/（子音+子音、連結なし）</li><li>for hours → for は弱形 /fɚ/</li></ul>
+<div class="kana">ウィ ハド ビン ウォーディング ザ パリメター ファー アワーズ ビフォア ウィー ディスカヴァード ザ ヒドゥン ブリーチ イン ザ ウォール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has warded</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈwɔrdɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This enchantment has <mark>warded</mark> off countless hostile mobs throughout the mine.</p>
+<p class="ja">この魔法は鉱山全体で無数の敵対的なモブを防いできました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɪnˈtʃæntmənt həz ˈwɔrdɪd ɔf ˈkaʊntləs ˈhɑstəl ˈmoʊbz θruːˈaʊt ðə ˈmaɪn/</div>
+<ul class="link"><li>has → 機能語で弱形 /həz/</li><li>has warded → /z/ + /w/（子音+子音、連結なし）</li><li>warded off → /d/ が off の /ɔ/ に連結 [ˈwɔrdɪd ɔf] ウォーディド オフ</li><li>the mine → the は弱形 /ðə/、/ə/ + /m/ が連結 [ðə ˈmaɪn] ザ マイン</li></ul>
+<div class="kana">ディス イントチャントメント ハズ ウォーディド オフ カウントレス ホスタイル モウブズ スルーアウト ザ マイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders have <mark>warded</mark> the eastern wall against all attacks for many seasons.</p>
+<p class="ja">建築者たちは何シーズンもの間、東の壁をすべての攻撃から守ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldərz həv ˈwɔrdɪd ði ˈistɚn wɔl əˈɡɛnst ɔl əˈtæks fɚ ˈmɛni ˈsizənz/</div>
+<ul class="link"><li>the → 弱形 /ðə/</li><li>the builders → /ə/ + /b/ が連結 [ðə ˈbɪldərz] ザ ビルダーズ</li><li>builders have → /z/ + /h/（子音+子音、連結なし）、have は弱形 /həv/</li><li>have warded → /v/ + /w/（子音+子音、連結なし）</li><li>the eastern → the は弱形 /ði/、/i/ + /ɪ/ の境界 [ði ˈistɚn] ジ イースターン</li></ul>
+<div class="kana">ザ ビルダーズ ハヴ ウォーディド ジ イースターン ウォール ァゲンスト オール ァタックス ファー メニー シーズンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had warded</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈwɔrdɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time reinforcements arrived, we had <mark>warded</mark> off the initial wave of creepers.</p>
+<p class="ja">援軍が到着する頃には、私たちはクリーパーの初期の波を防いでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ˌriːɪnˈfɔrsmənts əˈraɪvd | wi həd ˈwɔrdɪd ɔf ði ɪˈnɪʃəl weɪv əv ˈkripərz/</div>
+<ul class="link"><li>the time → the は弱形 /ðə/、/ə/ + /t/ が連結 [ðə ˈtaɪm] ザ タイム</li><li>had warded → had は弱形 /həd/、/d/ + /w/（子音+子音、連結なし）</li><li>warded off → /d/ が off の /ɔ/ に連結 [ˈwɔrdɪd ɔf] ウォーディド オフ</li><li>the initial → the は弱形 /ði/、/i/ + /ɪ/ の境界 [ði ɪˈnɪʃəl] ジ イニシャル</li></ul>
+<div class="kana">バイ ザ タイム リーインフォースメンツ ァライヴド、ウィー ハド ウォーディド オフ ジ イニシャル ウェイヴ ァヴ クリーパーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The ancient spell had <mark>warded</mark> these ruins against decay and destruction for millennia.</p>
+<p class="ja">古い魔法は何千年もの間、これらの遺跡を衰退と破壊から守ってきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ði ˈeɪnʃənt spɛl həd ˈwɔrdɪd ðiz ˈruːɪnz əˈɡɛnst dɪˈkeɪ ænd dɪˈstrʌkʃən fɚ məˈlɛniə/</div>
+<ul class="link"><li>the ancient → the は弱形 /ði/、/i/ + /eɪ/ の境界 [ði ˈeɪnʃənt] ジ エインシェント</li><li>ancient spell → /t/ + /s/（子音+子音、連結なし）</li><li>had warded → had は弱形 /həd/、/d/ + /w/（子音+子音、連結なし）</li><li>warded these → /d/ + /ð/（子音+子音、連結なし）</li></ul>
+<div class="kana">ジ エインシェント スペル ハド ウォーディド ディーズ ルーインズ ァゲンスト ディケイ アンド ディストラクション ファー ミレニア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been warding</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>My friend has been <mark>warding</mark> the perimeter while we gather resources for the new settlement.</p>
+<p class="ja">私の友人は新しい集落のための資源を集める間、周囲を守り続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈfrɛnd həz bɪn ˈwɔrdɪŋ ðə pərɪˈmɪtər waɪl wi ˈɡæðɚ ˈrɛsɚsɪz fɚ ðə ˈnuː ˈsɛtəlmənt/</div>
+<ul class="link"><li>has → 機能語で弱形 /həz/</li><li>has been → /z/ + /b/（子音+子音、連結なし）、been は弱形 /bɪn/</li><li>been warding → /n/ + /w/（子音+子音、連結なし）</li><li>the perimeter → the は弱形 /ðə/、/ə/ + /p/ が連結 [ðə pərɪˈmɪtər] ザ パリメター</li></ul>
+<div class="kana">マイ フレンド ハズ ビン ウォーディング ザ パリメター ホワイル ウィー ガザー レソーシーズ ファー ザ ヌー セットルメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The tower has been <mark>warding</mark> against flying mobs and skeletons all morning without rest.</p>
+<p class="ja">その塔は朝中ずっと、空飛ぶモブとスケルトンに対して絶え間なく防衛し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtaʊər həz bɪn ˈwɔrdɪŋ əˈɡɛnst ˈflaɪɪŋ ˈmoʊbz ənd ˈskɛlɪtnz ɔl ˈmɔrnɪŋ wɪˈaʊt ˈrɛst/</div>
+<ul class="link"><li>the tower → the は弱形 /ðə/、/ə/ + /t/ が連結 [ðə ˈtaʊər] ザ タウアー</li><li>tower has → /r/ + /h/（子音+子音、連結なし）、has は弱形 /həz/</li><li>has been → /z/ + /b/（子音+子音、連結なし）、been は弱形 /bɪn/</li><li>warding against → /ŋ/ + /ə/ が連結 [ˈwɔrdɪŋ əˈɡɛnst] ウォーディング ァゲンスト</li></ul>
+<div class="kana">ザ タウアー ハズ ビン ウォーディング ァゲンスト フライイング モウブズ アンド スケレトンズ オール モーニング ウィザウト レスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will ward</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wəl wɔrd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>ward</mark> off the creepers that spawn near our base at night.</p>
+<p class="ja">私たちは夜にあなたの拠点の近くにスポーンするクリーパーを防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wəl wɔrd ɔf ðə ˈkripərz ðæt spæn nɪr ɑr ˈbeɪs æt naɪt/</div>
+<ul class="link"><li>will: weak form /wəl/</li><li>ward off: /d/ + /ɔ/ linked</li></ul>
+<div class="kana">ウィ ウァル ウォード オフ ザ クリパーズ ザット スパン ニア アー ベース アット ナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The new enchantment will <mark>ward</mark> against any hostile mobs within the protected zone.</p>
+<p class="ja">新しい魔法は保護されたゾーン内のすべての敵対的なモブに対して防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈnju ɪnˈtʃæntmənt wəl wɔrd əˈɡɛnst ˈɛni ˈhɑstəl ˈmoʊbz wɪˈðɪn ðə prəˈtɛktɪd ˈzoʊn/</div>
+<ul class="link"><li>the new: /ə/ + /n/ linked</li><li>will ward: /l/ + /w/ no link</li><li>ward against: /d/ + /ə/ linked</li></ul>
+<div class="kana">ザ ニュー インチャントメント ウァル ウォード ァゲンスト エニー ホスタイル モウブズ ウィザイン ザ プロテクティド ゾーン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be warding</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wəl bɪ ˈwɔrdɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you gather resources, I will be <mark>warding</mark> the north entrance against the skeleton army.</p>
+<p class="ja">あなたが資源を集める間、私は北の入り口をスケルトン軍に対して防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ju ˈɡæðər ˈrɛsɚsɪz | aɪ wəl bɪ ˈwɔrdɪŋ ðə ˈnɔrθ ˈɛntrəns əˈɡɛnst ðə ˈskɛlətn ˈɑrmi/</div>
+<ul class="link"><li>will be: weak /wəl/, /l/+/b/ no link</li><li>be warding: /bɪ/, /ɪ/+/w/ no link</li><li>the north: /ə/+/n/ linked</li><li>the skeleton: /ə/+/s/ linked</li></ul>
+<div class="kana">ホワイル ユー ガザー レソーシーズ | アイ ウァル ビ ウォーディング ザ ノース エントランス ァゲンスト ザ スケレトン アーミー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>warding</mark> the perimeter as we build the new defense tower.</p>
+<p class="ja">私たちが新しい防衛塔を建設する際、彼らは周囲を防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wəl bɪ ˈwɔrdɪŋ ðə pərɪˈmɪɾər æz wi bɪld ðə ˈnju dɪˈfɛns ˈtaʊər/</div>
+<ul class="link"><li>will be: weak /wəl/, /l/+/b/ no link</li><li>be warding: /bɪ/, /ɪ/+/w/ no link</li><li>the perimeter: /ə/+/p/ linked</li><li>the new: /ə/+/n/ linked</li></ul>
+<div class="kana">ゼイ ウァル ビ ウォーディング ザ パリメター アズ ウィ ビルド ザ ニュー ディフェンス タウアー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have warded</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wəl həv ˈwɔrdɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/ward_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow morning, this enchantment will have <mark>warded</mark> off thousands of hostile mobs.</p>
+<p class="ja">明朝までに、この魔法は何千もの敵対的なモブを防いでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ ˈmɔrnɪŋ | ðɪs ɪnˈtʃæntmənt wəl həv ˈwɔrdɪd ɔf ˈθaʊznz əv ˈhɑstəl ˈmoʊbz/</div>
+<ul class="link"><li>will have: weak /wəl/, /l/+/h/ no link, have weak /həv/</li><li>have warded: /v/+/w/ no link</li><li>warded off: /d/+/ɔ/ linked</li><li>of hostile: /v/+/h/ no link</li></ul>
+<div class="kana">バイ タモロー モーニング | ディス インチャントメント ウァル ハヴ ウォーディド オフ サウザンズ ァヴ ホスタイル モウブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once the barrier is raised, we will have <mark>warded</mark> this entire settlement from all danger.</p>
+<p class="ja">バリアが上がったら、私たちはこの全体の集落をすべての危険から防いでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns ðə ˈbæriər ɪz ˈreɪzd | wi wəl həv ˈwɔrdɪd ðɪs ɛnˈtaɪər ˈsɛɾəlmənt frəm ɔl ˈdeɪndʒər/</div>
+<ul class="link"><li>the barrier: /ə/+/b/ linked</li><li>will have: weak /wəl/, /l/+/h/ no link, have weak /həv/</li><li>have warded: /v/+/w/ no link</li><li>this entire: /s/+/ɛ/ linked</li></ul>
+<div class="kana">ワンス ザ バリアー イズ レイズド | ウィー ウァル ハヴ ウォーディド ディス エンタイアー セットルメント フラム オール デンジャー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">ward off</span><span class="im">～を遠ざける、防ぐ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Use iron bars to <mark>ward</mark> off unwanted visitors at your base entrance.</p>
+<p class="ja">基地の入口で不要な訪問者を遠ざけるにはアイアンバーを使用してください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːz ˈaɪɚn bɑrz tu wɔrd ɔf ʌnˈwɑntɪd ˈvɪzɪtɚz æt jɚ beɪs ˈɛntrəns/</div>
+<ul class="link"><li>ward の末尾 /d/ が off の /ɔ/ に連結、フラップ化 [wɔɹɾɔf]</li><li>to は機能語で弱形 /tə/ に弱化</li><li>your は弱形 /jɚ/</li></ul>
+<div class="kana">ユーズ アイアン バーズ タ ウォーロフ アンウォンティド ビジターズ アット ユア ベース エントランス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">ward against</span><span class="im">～に対して防ぐ、警戒する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stone walls <mark>ward</mark> against the danger of mobs wandering into your farm.</p>
+<p class="ja">石の壁はモブがあなたの農場に迷い込む危険に対して防ぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/ward_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/ward_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stoʊn wɔlz wɔrd əˈɡɛnst ðə ˈdeɪndʒər əv moʊbz ˈwɑndɚɪŋ ˈɪntu jɚ fɑrm/</div>
+<ul class="link"><li>walls の末尾 /z/ が ward の /w/ の前では明確に分離</li><li>against の末尾 /t/ は未開放 [əˈɡɛnst̚]</li><li>into の /ɪ/ が your の /j/ の前で分離</li></ul>
+<div class="kana">ストーン ウォールズ ウォード アゲンスト ザ デンジャー アヴ モウブズ ワンダリング インタ ユア ファーム</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="ward";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>populate — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>populate</h2><span class="pos">動詞</span><span class="ipa-head">/ˈpɑpjəˌleɪt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1514</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（ある地域に）人間や生き物を住ませる、～に住む、～を占有する（…populate a region）</li><li>【動詞】（ある場所を）人や生き物でいっぱいにする、～を埋める、満たす（…populate with mobs）</li><li>【動詞】（データベースやフォームなどに）情報を入力する、～にデータを充填する（…populate a database）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Villagers naturally <mark>populate</mark> the village every night.</p>
+<p class="ja">村人は毎晩、村に自然と住み着く。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈvɪlɪdʒərz ˈnætʃərəli ˈpɑpjəˌleɪt ðə ˈvɪlɪdʒ ˈɛvri naɪt/</div>
+<ul class="link"><li>village の語末の破擦音 /dʒ/ が every の母音 /ɛ/ に連結。/dʒ ɛ/ で「リジ エヴ」のように滑らかに流れ込む</li></ul>
+<div class="kana">ヴィリジャーズ ナッチャラリ ポピュレット ザ ヴィリジ エヴリ ナイト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We decided to <mark>populate</mark> the new biome with different mobs.</p>
+<p class="ja">私たちは新しいバイオームにいろいろなモブを配置することにした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dɪˈsaɪdɪd tə ˈpɑpjəˌleɪt ðə ˈnu ˈbaɪˌoʊm wɪð ˈdɪfərənt mɑbz/</div>
+<ul class="link"><li>decided の語末の有声破裂音 /d/ と to の初頭 /t/ が連続し、/d/ が未開放のまま /t/ に続く。/d̚ t/ で「ディッタ」のように聞こえる</li><li>to は機能語として弱形 /tə/。助詞や前置詞では大幅に弱化する</li><li>populate の語末の無声破裂音 /t/ が the の摩擦音 /ð/ の前で未開放。/t̚ ð/ で止音がリリースされない</li></ul>
+<div class="kana">ウィ ディサイディッタ ポピュレット ザ ニュー バイオーム ウィズ ディフレント モーブズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This spawn area is <mark>populated</mark> by spiders and creepers at night.</p>
+<p class="ja">このスポーン地域は夜間、クモとクリーパーで満ちている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs spoʊn ˈɛɹiə ɪz ˈpɑpjəˌleɪtɪd baɪ ˈspaɪdərz ən ˈkɹipərz æt naɪt/</div>
+<ul class="link"><li>populated の語末の有声破裂音 /d/ が by の初頭 /b/ と連続し、/d/ が未開放のまま /b/ に続く。/d̚ b/ で「ティッバイ」のように、2つの止音が素早く連結される</li><li>spiders の語末の摩擦音 /z/ が and の弱形 /ən/ に連結。/z ən/ で「スパイダーズン」と聞こえ、z が e に滑らかに流れ込む</li><li>at は機能語として弱形 /ət/。語末の /t/ は next の night の /n/ の前で未開放となり /t̚ n/</li></ul>
+<div class="kana">ディス スポーン エリア イズ ポピュレイティッバイ スパイダーズン クリーパーズ アット ナイト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">populates</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈpɑpjəˌleɪts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>It <mark>populates</mark> open areas with creatures quickly.</p>
+<p class="ja">それは、開いている地域に生き物をすばやく配置する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪt̚ ˈpɑpjəˌleɪts ˈoʊpən ˈɛɹiəz wɪð ˈkritʃərz ˈkwɪkli/</div>
+<ul class="link"><li>It の語末の無声破裂音 /t/ が populates の初頭 /p/ に先行し、/t/ は未開放のまま /p/ に続く。/t̚ p/ で「イット」のように、破裂音がリリースされずに続く</li><li>populates の語末の摩擦音 /ts/ が open の母音 /oʊ/ に連結。/ts oʊ/ で「ツォ」と滑らかに流れる</li><li>with は機能語として弱形 /wɪð/ で発音される。creatures の初頭 /k/ に先行し、/ð k/ で「ウィズ」と続く</li></ul>
+<div class="kana">イット ポピュレイツ オープン エリアズ ウィズ クリーチャーズ クウィックリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This spawn pool <mark>populates</mark> nether biomes effectively.</p>
+<p class="ja">このスポーンプールは、ネザーのバイオームに効果的に生き物を配置する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈspoʊn ˈpul ˈpɑpjəˌleɪts ˈnɛðər ˈbaɪˌoʊmz ɪˈfɛktɪvli/</div>
+<ul class="link"><li>This の語末の摩擦音 /s/ が spawn の初頭 /s/ に先行。/s s/ で長めの /s/ 音に聞こえる</li><li>pool の語末の側音 /l/ が populates の初頭 /p/ に先行する。/l p/ で「プール ポピュ」と続く</li><li>populates の語末の摩擦音 /ts/ が nether の母音 /ɛ/ に連結。/ts ɛ/ で「ツェ」と流れる</li></ul>
+<div class="kana">ディス スポーン プール ポピュレイツ ネザー バイオームズ イフェクティヴリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">populated</span><span class="fl">過去形</span><span class="fi">/ˈpɑpjəˌleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>populated</mark> the island with different animals yesterday.</p>
+<p class="ja">私たちは昨日、その島にいろいろな動物を配置した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈpɑpjəˌleɪtɪd ðə ˈaɪlənd wɪð ˈdɪfərənt ˈænɪməlz ˈjɛstərˌdeɪ/</div>
+<ul class="link"><li>We の語末の近似音 /w/ が populated の初頭 /p/ に先行し、/w/ はセミ子音として機能する。/w p/ で「ウィ」と続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に連結。/d ðə/ で「ドザ」と続く</li><li>the は定冠詞として弱形 /ðə/ で発音される。island の初頭 /a/ に先行し、/ðə aɪ/ で「ザ」と流れ込む</li></ul>
+<div class="kana">ウィ ポピュレイティッド ドザ アイランド ウィズ ディフレント アニマルズ イェスターデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin <mark>populated</mark> that desert region with villages.</p>
+<p class="ja">その管理者は、その砂漠地域に村を配置した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn ˈpɑpjəˌleɪtɪd ðæt ˈdɛzərt ˈɹiːdʒən wɪð ˈvɪlɪdʒɪz/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/。admin の初頭 /æ/ に先行し、/ðə æ/ で「ザ」と流れ込む</li><li>populated の語末の有声破裂音 /d/ が that の初頭 /ðæ/ に連結。/d ðæ/ で「ドザット」と続く</li><li>region の語末の /n/ が with の初頭 /w/ に先行。/n w/ で「ジオン ウィズ」と続く</li></ul>
+<div class="kana">ザ アドミン ポピュレイティッド ドザット デザート リージョン ウィズ ヴィリジズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">populated</span><span class="fl">過去分詞</span><span class="fi">/ˈpɑpjəˌleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Once <mark>populated</mark>, the kingdom became very thriving.</p>
+<p class="ja">一度配置されると、その王国は非常に繁栄した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwʌns ˈpɑpjəˌleɪtɪd ðə ˈkɪŋdəm bɪˈkeɪm ˈvɛri ˈθɹaɪvɪŋ/</div>
+<ul class="link"><li>Once の語末の摩擦音 /s/ が populated の初頭 /p/ に先行。/s p/ で「ワンス」と子音が続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に連結。/d ðə/ で「ドザ」と続く</li><li>kingdom の語末の鼻音 /m/ が became の初頭 /b/ に先行。/m b/ で「ダム ビケーム」と続く</li></ul>
+<div class="kana">ワンス ポピュレイティッド ドザ キングダム ビケイム ベリー スライビング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>A well-<mark>populated</mark> area attracts many players.</p>
+<p class="ja">よく配置された地域は多くのプレイヤーを引き付ける。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈwɛl ˈpɑpjəˌleɪtɪd ˈɛɹiə əˈtræks ˈmɛni ˈpleɪərz/</div>
+<ul class="link"><li>A は冠詞として弱形 /ə/ で発音される。well の初頭 /w/ に先行し、/ə w/ で「ア」と流れ込む</li><li>populated の語末の有声破裂音 /d/ が area の母音 /ɛ/ に連結。/d ɛ/ で「デエ」と続く</li><li>area の語末の /ə/ が attracts の初頭に先行。滑らかに流れ込む</li></ul>
+<div class="kana">ア ウェル ポピュレイティッド デエリア アトラクツ メニー プレイアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">populating</span><span class="fl">現在分詞/動名詞</span><span class="fi">/ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The server is <mark>populating</mark> new chunks with terrain.</p>
+<p class="ja">そのサーバーは、新しいチャンクに地形を配置している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜɹvər ɪz ˈpɑpjəˌleɪtɪŋ ˈnu ˈtʃʌŋks wɪð təˈreɪn/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/。server の初頭 /s/ に先行し、/ðə s/ で「ザ」と流れ込む</li><li>server の語末の近似音 /r/ が is の初頭 /ɪ/ に連結。/r ɪ/ で「サーバー イズ」のように滑らかに流れる</li><li>is は弱形 /ɪz/ で発音される。populating の初頭 /p/ に先行し、/z p/ で「イズ ポピュ」と続く</li></ul>
+<div class="kana">ザ サーバー イズ ポピュレイティング ニュー チャンクス ウィズ テレイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Populating</mark> the world with structures takes considerable time.</p>
+<p class="ja">世界に構造物を配置することは、かなりの時間がかかる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpɑpjəˌleɪtɪŋ ðə ˈwɜɹld wɪð ˈstrʌktʃərz ˈteɪks kənˈsɪdərəbəl ˈtaɪm/</div>
+<ul class="link"><li>Populating の語末の鼻音 /ŋ/ が the の弱形 /ðə/ に先行し、/ŋ ðə/ で「ポピュレイティング ザ」と続く</li><li>The は定冠詞として弱形 /ðə/。world の初頭 /w/ に先行し、/ðə w/ で「ザ」と流れ込む</li><li>structures の語末の摩擦音 /z/ が takes の初頭 /t/ に先行。/z t/ で「チャーズ テイクス」と子音同士が続く</li></ul>
+<div class="kana">ポピュレイティング ザ ワールド ウィズ ストラクチャーズ テイクス コンシデラバル タイム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is populating</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The village is <mark>populating</mark> with villagers from the camp.</p>
+<p class="ja">その村は、キャンプから村人が住み着いている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒ ɪz ˈpɑpjəˌleɪtɪŋ wɪð ˈvɪlɪdʒərz frəm ðə kæmp/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/ ザ</li><li>village の語末の破擦音 /dʒ/ が is の初頭 /ɪ/ に連結。[ˈvɪlɪdʒɪz]「リジ イズ」のように流れる</li><li>from は機能語として弱形 /frəm/ フラム</li></ul>
+<div class="kana">ザ ヴィリジ イズ ポピュレイティング ウィズ ヴィリジャーズ フラム ザ キャンプ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>populating</mark> this desert with temples and structures.</p>
+<p class="ja">私たちは、この砂漠に寺院と構造物を配置している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈpɑpjəˌleɪtɪŋ ðɪs ˈdɛzərt wɪð ˈtɛmpəlz ənd ˈstrʌktʃərz/</div>
+<ul class="link"><li>are は弱形 /ɑr/ で populating に続く</li><li>and は機能語として弱形 /ənd/ で発音される</li></ul>
+<div class="kana">ウィ アー ポピュレイティング ディス デザート ウィズ テンパルズ エンド ストラクチャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was populating</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The biome was <mark>populating</mark> with hostile mobs when we arrived.</p>
+<p class="ja">私たちが到着した時、そのバイオームは敵対的なモブで満たされていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbaɪˌoʊm wəz ˈpɑpjəˌleɪtɪŋ wɪð ˈhɑstəl ˈmoʊbz ʍɛn wi əˈraɪvd/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ ワズ で populating に続く</li></ul>
+<div class="kana">ザ バイオーム ワズ ポピュレイティング ウィズ ハステル モウブズ フェン ウィ アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>populating</mark> the fortress area all night long.</p>
+<p class="ja">彼らは一晩中、その要塞地域を配置していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wər ˈpɑpjəˌleɪtɪŋ ðə ˈfɔɹtrəs ˈɛɹiə ɔl naɪt lɔŋ/</div>
+<ul class="link"><li>They の語末の近似音 /eɪ/ が were の初頭 /w/ に連結。[ðeɪwər]「ゼイ ウェア」のように流れる</li><li>were は弱形 /wər/ で発音される</li><li>the は定冠詞として弱形 /ðə/ ザ</li></ul>
+<div class="kana">ゼイ ウェア ポピュレイティング ザ フォートレス エリア オール ナイト ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been populating</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/əd bɪn ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, they had been <mark>populating</mark> the region.</p>
+<p class="ja">私たちが到着した時には、彼らはずっとその地域を配置していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪvd ðeɪ əd bɪn ˈpɑpjəˌleɪtɪŋ ðə ˈɹidʒən/</div>
+<ul class="link"><li>By の語末の近似音 /aɪ/ が the の弱形 /ðə/ に連結。/aɪ ðə/ で「バイ ザ」のように流れる</li><li>had は弱形 /əd/ ハド で been に続く</li><li>been は弱形 /bɪn/ ビン</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライヴド ゼイ ハド ビン ポピュレイティング ザ リージョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The settlement had been <mark>populating</mark> with villagers for several weeks.</p>
+<p class="ja">その集落は、数週間にわたって村人が住み着いていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɛtəlmənt əd bɪn ˈpɑpjəˌleɪtɪŋ wɪð ˈvɪlɪdʒərz fər ˈsɛvərəl wiks/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/ ザ</li><li>had は弱形 /əd/ ハド で been に続く</li><li>been は弱形 /bɪn/ ビン で populating に続く</li><li>for は機能語として弱形 /fər/ ファー</li></ul>
+<div class="kana">ザ セットルメント ハド ビン ポピュレイティング ウィズ ヴィリジャーズ ファー セヴラル ウィークス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has populated</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈpɑpjəˌleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>populated</mark> the village with many villagers.</p>
+<p class="ja">私たちはその村に多くの村人を配置した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ˈpɑpjəˌleɪtɪd ðə ˈvɪlɪdʒ wɪð ˈmɛni ˈvɪlɪdʒərz/</div>
+<ul class="link"><li>have は弱形 /həv/。populated の初頭 /p/ に先行し、/v p/ で「ハヴ」と続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に連結。/d ðə/ で「ティッザ」のように未開放で続く</li></ul>
+<div class="kana">ウィ ハヴ ポピュレイティッド ザ ヴィリジ ウィズ メニー ヴィリジャーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>populated</mark> the desert with temples over the past month.</p>
+<p class="ja">私たちはこの1ヶ月間で砂漠に寺院を配置した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ˈpɑpjəˌleɪtɪd ðə ˈdɛzərt wɪð ˈtɛmpəlz ˈoʊvər ðə ˈpæst ˈmʌnθ/</div>
+<ul class="link"><li>have は弱形 /həv/。populated の初頭 /p/ に先行し、/v p/ で「ハヴ」と続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に連結。/d ðə/ で「ティッザ」のように流れる</li></ul>
+<div class="kana">ウィ ハヴ ポピュレイティッド ザ デザート ウィズ テンパルズ オーバー ザ パスト マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had populated</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈpɑpjəˌleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the update, the server had <mark>populated</mark> those biomes automatically.</p>
+<p class="ja">アップデート前に、そのサーバーはそれらのバイオームを自動的に配置していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔɹ ðə ˈʌpˌdeɪt ðə ˈsɜɹvər həd ˈpɑpjəˌleɪtɪd ðoʊz ˈbaɪˌoʊmz ɔˌtɑmæˈtɪkli/</div>
+<ul class="link"><li>Before の語末の摩擦音 /r/ が the の弱形 /ðə/ に連結。/r ðə/ で「ビフォー ザ」のように流れ込む</li><li>had は弱形 /həd/。populated の初頭 /p/ に先行し、/d p/ で「ハド」と続く</li><li>populated の語末の有声破裂音 /d/ が those の初頭 /ðoʊ/ に連結。/d ðoʊ/ で「ティッゾーズ」のように流れる</li></ul>
+<div class="kana">ビフォー ザ アップデイト ザ サーバー ハド ポピュレイティッド ゾーズ バイオームズ オートマティカリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>populated</mark> the fortress region with structures before we joined the realm.</p>
+<p class="ja">私たちがレルムに参加する前に、彼らはその要塞地域に構造物を配置していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd ˈpɑpjəˌleɪtɪd ðə ˈfɔɹtrəs ˈɹidʒən wɪð ˈstrʌktʃərz bɪˈfɔɹ wi ˈdʒɔɪnd ðə ˈɹɛlm/</div>
+<ul class="link"><li>They の語末の二重母音 /eɪ/ が had の初頭 /h/ に連結。/eɪ h/ で「ゼイ」のように流れ込む</li><li>had は弱形 /həd/。populated の初頭 /p/ に先行し、/d p/ で「ハド」と続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に連結。/d ðə/ で「ティッザ」のように流れる</li><li>Before の語末の摩擦音 /r/ が we の初頭 /w/ に連結。/r w/ で「ビフォア ウィ」のように流れる</li></ul>
+<div class="kana">ゼイ ハド ポピュレイティッド ザ フォートレス リージョン ウィズ ストラクチャーズ ビフォア ウィ ジョインド ザ レルム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been populating</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The admin has been <mark>populating</mark> the new world with structures all week.</p>
+<p class="ja">その管理者は1週間中、新しい世界に構造物を配置し続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn həz bɪn ˈpɑpjəˌleɪtɪŋ ðə ˈnu ˈwɜɹld wɪð ˈstrʌktʃərz ɔl ˈwik/</div>
+<ul class="link"><li>The は定冠詞として弱形 /ðə/。admin の初頭 /æ/ に先行し、/ðə æ/ で「ザ」と流れ込む</li><li>has は弱形 /həz/。been の初頭 /b/ に先行し、/z b/ で「ハズ」と続く</li><li>been は弱形 /bɪn/。populating の初頭 /p/ に先行し、/n p/ で「ビン」と続く</li></ul>
+<div class="kana">ザ アドミン ハズ ビン ポピュレイティング ザ ニュー ワールド ウィズ ストラクチャーズ オール ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>populating</mark> this biome for hours to create a thriving ecosystem.</p>
+<p class="ja">私たちは数時間、このバイオームに生き物を配置して、繁栄したエコシステムを作っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈpɑpjəˌleɪtɪŋ ðɪs ˈbaɪˌoʊm fər ˈaʊərz tə kriˈeɪt ə ˈθɹaɪvɪŋ ɛˈkoʊˌsɪstəm/</div>
+<ul class="link"><li>have は弱形 /həv/。been の初頭 /b/ に先行し、/v b/ で「ハヴ」と続く</li><li>been は弱形 /bɪn/。populating の初頭 /p/ に先行し、/n p/ で「ビン」と続く</li><li>to は機能語として弱形 /tə/。create の初頭 /k/ に先行し、/tə k/ で「タ」のように流れ込む</li></ul>
+<div class="kana">ウィ ハヴ ビン ポピュレイティング ディス バイオーム ファー アワーズ タ クリエイト ア スラビング エコシステム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will populate</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl ˈpɑpjəˌleɪt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>populate</mark> the new island with different creatures.</p>
+<p class="ja">私たちは新しい島に様々な生き物を配置するだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl ˈpɑpjəˌleɪt ðə ˈnu ˈaɪlənd wɪð ˈdɪfərənt ˈkɹitʃərz/</div>
+<ul class="link"><li>will の語末の側音 /l/ が populate の初頭 /p/ に先行。/l p/ で「ウィル ポピュ」と続く</li><li>populate の語末の無声破裂音 /t/ が the の弱形 /ðə/ に先行し、/t/ は未開放のまま摩擦音に続く。/t̚ ðə/ で「ット ザ」のように聞こえる</li><li>the は定冠詞として弱形 /ðə/。new の初頭 /n/ に先行し「ザ ニュー」と続く</li><li>different の語末の無声破裂音 /t/ が creatures の初頭 /k/ に先行し、/t/ は未開放のまま続く。/t̚ k/ で「ント クリー」と詰まった音になる</li></ul>
+<div class="kana">ウィ ウィル ポピュレット ザ ニュー アイランド ウィズ ディフレント クリーチャーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He'll <mark>populate</mark> that region over the next month.</p>
+<p class="ja">彼は来月その地域に生き物を配置するだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hil ˈpɑpjəˌleɪt ðæt ˈɹidʒən ˈoʊvər ðə ˈnɛkst ˈmʌnθ/</div>
+<ul class="link"><li>He'll は he will の縮約形。populate の初頭 /p/ に先行し、/l p/ で「ヒール ポピュ」と側音が続く</li><li>populate の語末の無声破裂音 /t/ が that の初頭 /ð/ に先行し、/t/ は未開放のまま続く。/t̚ ð/ で「ット ザット」のように詰まって聞こえる</li><li>that の語末の無声摩擦音 /t/ が region の初頭 /ɹ/ に先行。/t ɹ/ で「ザット リージョン」と続く</li><li>over の語末の摩擦音 /r/ が the の弱形 /ðə/ に連結。/r ðə/ で「オーバー ザ」のように流れ込む</li></ul>
+<div class="kana">ヒール ポピュレット ザット リージョン オーバー ザ ネクスト マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be populating</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈpɑpjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be <mark>populating</mark> the deep dark while you're building.</p>
+<p class="ja">あなたが建築している間、私はディープダークに生き物を配置しているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈpɑpjəˌleɪtɪŋ ðə ˈdip ˈdɑɹk ˈwaɪl ˈjɔɹ ˈbɪldɪŋ/</div>
+<ul class="link"><li>I'll は I will の縮約形 /aɪl/。be の初頭 /b/ に先行し、/l b/ で「アイル ビー」と側音が続く</li><li>be は /bi/ で populating の初頭 /p/ に先行し、/i p/ で「ビー ポピュ」と続く</li><li>populating の語末の鼻音 /ŋ/ が the の弱形 /ðə/ に先行し、/ŋ ðə/ で「ティング ザ」と続く</li><li>dark の語末の摩擦音 /k/ が while の初頭 /w/ に先行。/k w/ で「ダーク ワイル」と続く</li></ul>
+<div class="kana">アイル ビー ポピュレイティング ザ ディープ ダーク ワイル ユアー ビルディング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>populating</mark> the nether with structures tomorrow.</p>
+<p class="ja">彼らは明日、ネザーに構造物を配置しているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi ˈpɑpjəˌleɪtɪŋ ðə ˈnɛðər wɪð ˈstrʌktʃərz təˈmɑɹoʊ/</div>
+<ul class="link"><li>They の語末の二重母音 /eɪ/ が will の初頭 /w/ に滑らかに続く。/eɪ w/ で「ゼイ ウィル」と流れ込む</li><li>will の語末の側音 /l/ が be の初頭 /b/ に先行。/l b/ で「ウィル ビー」と続く</li><li>be は /bi/ で populating の初頭 /p/ に先行し、/i p/ で「ビー ポピュ」と続く</li><li>the は定冠詞として弱形 /ðə/。nether の初頭 /n/ に先行し「ザ ネザー」と続く</li></ul>
+<div class="kana">ゼイ ウィル ビー ポピュレイティング ザ ネザー ウィズ ストラクチャーズ トゥモロー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have populated</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl əv ˈpɑpjəˌleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/populate_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will have <mark>populated</mark> the entire realm by next week.</p>
+<p class="ja">私たちは来週までに全レルムに生き物を配置し終えているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl əv ˈpɑpjəˌleɪtɪd ðə ɪnˈtaɪɹ ˈɹɛlm baɪ ˈnɛkst ˈwik/</div>
+<ul class="link"><li>will の語末の側音 /l/ が have の弱形 /əv/ に先行。/l əv/ で「ウィル ハヴ」と続く</li><li>have は弱形 /əv/ で populated の初頭 /p/ に先行し、/v p/ で「ハヴ ポピュ」と続く</li><li>populated の語末の有声破裂音 /d/ が the の弱形 /ðə/ に先行し、/d/ は未開放のまま続く。/d̚ ðə/ で「ティッザ」のように聞こえる</li><li>entire の語末の側音 /r/ が realm の初頭 /ɹ/ に先行。/r ɹ/ で「インタイアー レルム」と続く</li></ul>
+<div class="kana">ウィ ウィル ハヴ ポピュレイティッド ザ インタイアー レルム バイ ネクスト ウィーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll have <mark>populated</mark> five biomes by the time the event starts.</p>
+<p class="ja">彼女はイベント開始までに5つのバイオームに生き物を配置し終えているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil əv ˈpɑpjəˌleɪtɪd ˈfaɪv ˈbaɪˌoʊmz baɪ ðə ˈtaɪm ðə ɪˈvɛnt ˈstɑɹts/</div>
+<ul class="link"><li>She'll は she will の縮約形 /ʃil/。have の弱形 /əv/ に先行し、/l əv/ で「シール ハヴ」と側音が続く</li><li>have は弱形 /əv/ で populated の初頭 /p/ に先行し、/v p/ で「ハヴ ポピュ」と続く</li><li>populated の語末の有声破裂音 /d/ が five の初頭 /f/ に先行。/d f/ で「ティッファイブ」のように詰まった音になる</li><li>the は定冠詞として弱形 /ðə/。time の初頭 /t/ に先行し「ザ タイム」と続く</li></ul>
+<div class="kana">シール ハヴ ポピュレイティッド ファイブ バイオームズ バイ ザ タイム ザ イベント スターツ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">densely populated</span><span class="im">人口密度が高い、たくさんの人/生き物でいっぱいの</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The nether fortress is densely <mark>populated</mark> with piglins and magma cubes.</p>
+<p class="ja">ネザーの要塞は、ピグリンとマグマキューブがたくさんいる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈnɛðər ˈfɔɹtrəs ɪz ˈdɛnsli ˈpɑpjəˌleɪtɪd wɪð ˈpɪɡlɪnz ənd ˈmɑɡmə ˈkjubz/</div>
+<ul class="link"><li>the の弱形 /ðə/ が nether の /n/ に自然に流れ込む</li><li>populated の語末 /d/ が with の初頭 /w/ の前で未開放。/d̚ w/ で「ティッウ」のように、破裂音がリリースされずに続く</li></ul>
+<div class="kana">ザ ネザー フォートレス イズ デンスリー ポピュレイティッウィズ ピグリンズ アンド マグマ キューブズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">sparsely populated</span><span class="im">人口が少ない、疎らな</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The deep dark was sparsely <mark>populated</mark> until the warden awakened.</p>
+<p class="ja">ディープダークは、ウォーデンが目覚めるまで、ほとんど生き物がいなかった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/populate_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/populate_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdip dɑɹk wəz ˈspɑɹsli ˈpɑpjəˌleɪtɪd ənˈtɪl ðə ˈwɔɹdən əˈweɪkənd/</div>
+<ul class="link"><li>was の語末の摩擦音 /z/ に sparsely の初頭 /s/ が続く。子音同士が連続し、/z s/ で z が未開放のまま s に続く</li><li>populated の語末の有声破裂音 /d/ が until の初頭 /ə/ に連結され開放される</li><li>until の語末の側音 /l/ が the の弱形 /ðə/ に連結。/l ðə/ で「ルザ」のように流れ込む</li><li>awakened の語末の有声破裂音 /d/ はリリースされる。過去形の語尾として通常に発音される</li></ul>
+<div class="kana">ザ ディープ ダーク ワズ スパースリー ポピュレイティッド アンティル ザ ウォーデン アウェイケンド</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="populate";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

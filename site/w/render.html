@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>render — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>render</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/ˈrɛndər/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1718</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】（援助・サービスなど）を与える、提供する（to provide or give something；to furnish）</li><li>【動詞】（音楽・作品など）を演奏する、表現する、上演する（to perform or present a musical or dramatic work）</li><li>【動詞】（言葉や文章）を別の言語や形式に訳す、表現する（to translate or express in another language or form）</li><li>【動詞】コンピュータグラフィックスで画像を生成・表示する；ブロックやテクスチャを画面に描画する（to generate and display an image in computer graphics）</li><li>【動詞】（壁など）に漆喰や塗料を塗る（to coat a surface with plaster or mortar）</li><li>【名詞】壁や建物の表面に塗られた漆喰、左官塗り（a coat of plaster or mortar applied to a surface）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>render</mark> this scene with better lighting for my custom resource pack.</p>
+<p class="ja">カスタムリソースパック用に、より良い照明でこのシーンをレンダリングする必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd tə ˈrɛndər ðɪs ˈsin wɪð ˈbɛtər ˈlaɪtɪŋ fər maɪ ˈkʌstəm rɪˈsɔrs ˌpæk/</div>
+<ul class="link"><li>need to - need の語末 /d/ が弱形 to /tə/ の母音 /ə/ に連結 [ˈniːdə] ニーダ</li><li>to render - to は弱形 /tə/；render /ˈrɛndər/ へ /r/ が語末から連結 [tə ˈrɛndər] タ レンダー</li><li>render this - render の語末 /ər/ が this の /ð/ に未開放接続 レンダー ディス</li><li>for my - for は弱形 /fər/；my /maɪ/ へ /r/ が連結 [fər maɪ] ファ マイ</li></ul>
+<div class="kana">アイ ニーダ タ レンダー ディス シーン ウィズ ベラー ライリング ファ マイ カスタム リソース パック</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Increasing the <mark>render</mark> distance helps us see dangerous mobs approaching from far away.</p>
+<p class="ja">レンダー距離を増やすことで、遠くから近づいてくる危険なモブが見えるようになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪnˈkrisɪŋ ðə ˈrɛndər ˈdɪstəns ˈhɛlps əs ˈsi ˈdeɪndʒərəs ˈmɑbz əˈproʊtʃɪŋ frəm ˈfɑr əˈweɪ/</div>
+<ul class="link"><li>the render - the は弱形 /ðə/；render /ˈrɛndər/ へ自然に流れる [ðə ˈrɛndər] ザ レンダー</li><li>render distance - render の語末 /ər/ が distance /ˈdɪstəns/ の /d/ に未開放接続 レンダー ディスタンス</li><li>helps us - helps の語末 /ps/ が us の母音 /ə/ に連結 ヘルプス アス</li><li>from far - from は弱形 /frəm/；far /fɑr/ へ /m/ が未開放接続 フラム ファー</li></ul>
+<div class="kana">インクリーシング ザ レンダー ディスタンス ヘルプス アス シー デンジャラス モブズ アプローチング フラム ファー アウェイ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The senior builders <mark>rendered</mark> invaluable advice to the newcomers building their first structures.</p>
+<p class="ja">経験豊かなビルダーは、初めて構造物を建築する新人プレイヤーに貴重なアドバイスを提供しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsiniər ˈbɪldərz ˈrɛndərd ɪnˈvæljuəbəl ədˈvaɪs tu ðə ˈnjuˌkʌmərz ˈbɪldɪŋ ðɛr ˈfɝst ˈstrʌktʃərz/</div>
+<ul class="link"><li>senior builders - senior の語末 /r/ が builders /ˈbɪldərz/ へ連結 シニアー ビルダーズ</li><li>rendered invaluable - rendered の語末 /ərd/ が invaluable の /ɪ/ に連結 レンダード インヴァリュアブル</li><li>advice to - advice の語末 /s/ が to の /t/ に未開放接続；to は弱形 /tə/ アドヴァイス タ</li><li>to the newcomers - to は弱形 /tə/；the は弱形 /ðə/ に連結 タ ザ ニューカマーズ</li></ul>
+<div class="kana">ザ シニアー ビルダーズ レンダード インヴァリュアブル アドヴァイス タ ザ ニューカマーズ ビルディング ゼア ファースト ストラクチャーズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">renders</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈrɛndərz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The server <mark>renders</mark> terrain chunks dynamically as players explore new regions.</p>
+<p class="ja">サーバーはプレイヤーが新しい地域を探索する際に、地形チャンクを動的にレンダリングしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɝvɚ ˈrɛndərz ˈtɛɹɪn ˈtʃʌŋks daɪˈnæmɪkli æz ˈpleɪɚz ɪkˈsploʊr nju ˈridʒənz]</div>
+<ul class="link"><li>「The server」—「the」は弱形 /ðə/；server /ˈsɝvɚ/ へ自然に流れる</li><li>「server renders」—server の語末 /ɚ/ が renders へ連結 [ˈsɝvɚ ˈrɛndərz]</li></ul>
+<div class="kana">ザ サーバー レンダーズ テレイン チャンクス ダイナミカリー アズ プレイアーズ エクスプロア ニュー リージョンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>High <mark>render</mark> distance <mark>renders</mark> distant mountains visible from the base, helping players spot landmarks.</p>
+<p class="ja">高いレンダー距離は、遠くの山をベースから見えるようにレンダリングしており、プレイヤーがランドマークを見つけるのに役立ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhaɪ ˈrɛndɚ ˈdɪstəns ˈrɛndərz ˈdɪstənt ˈmaʊnɪnz ˈvɪzəbəl frəm ðə ˈbeɪs ˈhɛlpɪŋ ˈpleɪɚz spɑt ˈlændmɑɹks]</div>
+<ul class="link"><li>「High render」—High の語末 /aɪ/ が render へ続く [ˈhaɪ ˈrɛndɚ]</li><li>「from the」—from は弱形 /frəm/；the は弱形 /ðə/ [frəm ðə]</li></ul>
+<div class="kana">ハイ レンダー ディスタンス レンダーズ ディスタント マウンテンズ ヴィジブル フラム ザ ベイス ヘルピング プレイアーズ スパット ランドマークス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">rendered</span><span class="fl">過去形</span><span class="fi">/ˈrɛndərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders <mark>rendered</mark> the medieval castle walls with stone bricks and dark oak wood.</p>
+<p class="ja">ビルダーたちは石レンガとダークオークの木で中世の城の壁をレンダリング（描画）しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈbɪldɚz ˈrɛndərd ðə ˌmiːdiːˈvæl ˈkæsəl wɔlz wɪð stoʊn brɪks ənd dɑɹk ˈoʊk wʊd]</div>
+<ul class="link"><li>「the medieval」—the は弱形 /ðə/；medieval の /m/ へ [ðə ˌmiːdiːˈvæl]</li></ul>
+<div class="kana">ザ ビルダーズ レンダード ザ ミーディーヴァル キャッスル ウォールズ ウィス ストウン ブリックス アンド ダーク オウク ウッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>rendered</mark> assistance to the new players who were struggling with their first survival structure.</p>
+<p class="ja">私たちは、初めてのサバイバル構造物で苦労していた新しいプレイヤーに援助を提供しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈrɛndərd əˈsɪstəns tu ðə ˈnu ˈpleɪɚz hu wɚ ˈstrʌɡəlɪŋ wɪð ðɛr ˈfɝst sərˈvaɪvəl ˈstrʌktʃɚ]</div>
+<ul class="link"><li>「We rendered」—We の語末 /i/ が rendered へ流れる [wi ˈrɛndərd]</li><li>「rendered assistance」—rendered の語末 /d/ が assistance の /ə/ に連結 [ˈrɛndərd əˈsɪstəns]</li><li>「to the」—to は弱形 /tə/；the は弱形 /ðə/ [tə ðə]</li></ul>
+<div class="kana">ウィー レンダード アシスタンス トゥー ザ ニュー プレイアーズ フー ワー ストラッグリング ウィス ゼア ファースト サーヴァイヴル ストラクチャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">rendered</span><span class="fl">過去分詞</span><span class="fi">/ˈrɛndərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>rendered</mark> countless structures in this world, the master builder became a legend.</p>
+<p class="ja">この世界で無数の構造物をレンダリング（描画）してきたので、マスタービルダーは伝説になりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˈrɛndərd ˈkaʊntləs ˈstrʌktʃɚz ɪn ðɪs wɝld ðə ˈmæstɚ ˈbɪldɚ bɪˈkeɪm ə ˈlɛdʒənd]</div>
+<ul class="link"><li>「the master」—the は弱形 /ðə/；master /m/ へ [ðə ˈmæstɚ]</li></ul>
+<div class="kana">ハービング レンダード カウントレス ストラクチャーズ イン ディス ワールド ザ マスター ビルダー ビケイム ア レジェンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The plaster <mark>rendered</mark> on the building's exterior remained intact after the harsh storm.</p>
+<p class="ja">建物の外部にレンダリング（塗装）された漆喰は、厳しい嵐の後も無傷のままでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈplæstɚ ˈrɛndərd ɑn ðə ˈbɪldɪŋz ɪkˈstɪɹiɚ rɪˈmeɪnd ɪnˈtækt ˈæftɚ ðə hɑɹʃ stɔɹm]</div>
+<ul class="link"><li>「The plaster」—The は弱形 /ðə/；plaster /p/ へ [ðə ˈplæstɚ]</li><li>「plaster rendered」—plaster の語末 /ɚ/ が rendered へ連結 [ˈplæstɚ ˈrɛndərd]</li><li>「rendered on」—rendered の語末 /d/ が on の /ɑ/ に連結 [ˈrɛndərd ɑn]</li></ul>
+<div class="kana">ザ プラスター レンダード オン ザ ビルディングズ エクステリアー リメインド インタクト アフター ザ ハーシュ ストォーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">rendering</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈrɛndərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Rendering</mark> high-quality graphics requires a powerful computer and optimized settings.</p>
+<p class="ja">高品質のグラフィックスをレンダリングするには、強力なコンピュータと最適化されたセッティングが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈrɛndərɪŋ ˈhaɪ ˈkwɑləti ˈɡræfɪks rɪˈkwaɪɚz ə ˈpaʊɚfəl kəmˈpjuːtɚ ənd ˈɑptɪmaɪzd ˈsɛtɪŋz]</div>
+<ul class="link"><li>「requires a」—requires の語末 /z/ が a の弱形 /ə/ に連結 [rɪˈkwaɪɚz ə]</li></ul>
+<div class="kana">レンダリング ハイ クワリティ グラフィックス リクワイアーズ ア パウアフル コンピューター アンド オプティマイズド セッティングス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>rendering</mark> the massive resource pack texture, the artist decided to take a break.</p>
+<p class="ja">巨大なリソースパックテクスチャをレンダリング中に、アーティストは休憩することにしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ˈrɛndərɪŋ ðə ˈmæsɪv rɪˈsɔɹs pæk ˈtɛkstʃɚ ðə ˈɑɹtɪst dɪˈsaɪdəd tu ˈteɪk ə ˈbreɪk]</div>
+<ul class="link"><li>「rendering the」—rendering の語末 /ŋ/ が the の弱形 /ðə/ に続き [ˈrɛndərɪŋ ðə]</li><li>「to take」—to は弱形 /tə/；take /t/ へ [tə ˈteɪk]</li></ul>
+<div class="kana">ワイル レンダリング ザ マッシブ リソース パック テクスチャー ザ アーティスト ディサイデッド トゥー テイク ア ブレイク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is rendering</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈrɛndərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I think the server is <mark>rendering</mark> new chunks as we fly forward.</p>
+<p class="ja">サーバーが前に飛び進むにつれて新しいチャンクをレンダリングしていると思います。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈθɪŋk ðə ˈsɝvɚ ɪz ˈrɛndərɪŋ ˈnu ˈtʃʌŋks æz wi ˈflaɪ ˈfɔɹwɚd]</div>
+<ul class="link"><li>I think - I の語末 /aɪ/ が think の /θ/ に続く [aɪ ˈθɪŋk] アイ シンク</li><li>think the - think の語末 /k/ が the の弱形 /ðə/ に連結 [ˈθɪŋk ðə] シンク ザ</li><li>is rendering - is は弱形 /ɪz/；rendering へ /z/ が母音に連結 [ɪz ˈrɛndərɪŋ] イズ レンダリング</li><li>as we - as の語末 /z/ が we へ続く；we は /wi/ [æz wi] アズ ウィー</li></ul>
+<div class="kana">アイ シンク ザ サーバー イズ レンダリング ニュー チャンクス アズ ウィー フライ フォーワード</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>rendering</mark> the castle walls with stone and wood.</p>
+<p class="ja">彼女が石と木で城の壁をレンダリング（描画）しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ɪz ˈrɛndərɪŋ ðə ˈkæsəl wɔlz wɪð stoʊn ənd wʊd]</div>
+<ul class="link"><li>She is - She /ʃi/ の語末が is /ɪz/ へ流れる [ʃi ɪz] シー イズ</li><li>is rendering - is は弱形 /ɪz/；rendering へ /z/ が連結 [ɪz ˈrɛndərɪŋ] イズ レンダリング</li><li>the castle - the は弱形 /ðə/；castle の /k/ へ [ðə ˈkæsəl] ザ キャッスル</li><li>with stone - with の語末 /θ/ が stone の /s/ に続く；未開放で接続 [wɪθ stoʊn] ウィス ストウン</li></ul>
+<div class="kana">シー イズ レンダリング ザ キャッスル ウォールズ ウィス ストウン アンド ウッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was rendering</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈrɛndərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The graphics were <mark>rendering</mark> very slowly because of the high resolution setting.</p>
+<p class="ja">高い解像度設定のため、グラフィックスは非常に遅くレンダリングしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɡræfɪks wɚ ˈrɛndərɪŋ ˈvɛri ˈsloʊli bɪˈkɔz əv ðə ˈhaɪ ˌrɛzəˈluʃən ˈsɛtɪŋ]</div>
+<ul class="link"><li>The graphics - the は弱形 /ðə/；graphics の /g/ へ [ðə ˈɡræfɪks] ザ グラフィックス</li><li>graphics were - graphics の語末 /s/ が were へ続く；were は弱形 /wɚ/ [ˈɡræfɪks wɚ] グラフィックス ワー</li><li>were rendering - were は弱形 /wɚ/；rendering の /ɛ/ へ続く [wɚ ˈrɛndərɪŋ] ワー レンダリング</li><li>of the - of は弱形 /əv/；the は弱形 /ðə/ [əv ðə] アヴ ザ</li></ul>
+<div class="kana">ザ グラフィックス ワー レンダリング ベリー スロウリー ビコーズ アヴ ザ ハイ レゾリューション セッティング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While the server was <mark>rendering</mark>, we explored the new biome area.</p>
+<p class="ja">サーバーがレンダリングしている間、私たちは新しいバイオーム地域を探索しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ðə ˈsɝvɚ wəz ˈrɛndərɪŋ wi ɪkˈsploʊrd ðə ˈnu baɪˈoʊm ˈɛriə]</div>
+<ul class="link"><li>the server - the は弱形 /ðə/；server の /s/ へ [ðə ˈsɝvɚ] ザ サーバー</li><li>server was - server の語末 /ɚ/ が was へ連結；was は弱形 /wəz/ [ˈsɝvɚ wəz] サーバー ワズ</li><li>was rendering - was は弱形 /wəz/；rendering へ /z/ が連結 [wəz ˈrɛndərɪŋ] ワズ レンダリング</li><li>the new - the は弱形 /ðə/；new の /n/ へ [ðə ˈnu] ザ ニュー</li></ul>
+<div class="kana">ワイル ザ サーバー ワズ レンダリング ウィー エクスプロアード ザ ニュー バイオーム エリア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been rendering</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/ˈhæd bɪn ˈrɛndərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The server had been <mark>rendering</mark> new terrain features for an hour before it finally loaded.</p>
+<p class="ja">サーバーが1時間新しい地形機能をレンダリングしていた後、ようやく読み込まれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɝvɚ ˈhæd bɪn ˈrɛndərɪŋ ˈnu ˈtɛɹən ˈfitʃɚz fər ən ˈaʊɚ bɪˈfɔr ɪt ˈfaɪnəli ˈloʊdəd]</div>
+<ul class="link"><li>The server - the は弱形 /ðə/；server の /s/ へ [ðə ˈsɝvɚ] ザ サーバー</li><li>server had - server の語末 /ɚ/ が had へ連結 [ˈsɝvɚ ˈhæd] サーバー ハッド</li><li>had been - had の語末 /d/ が been へ続く；been は弱形 /bɪn/、未開放で接続 [ˈhæd bɪn] ハッド ビン</li><li>for an - for は弱形 /fər/；an の弱形 /ən/ へ /r/ が連結 [fər ən] ファー アン</li></ul>
+<div class="kana">ザ サーバー ハッド ビン レンダリング ニュー テレイン フィーチャーズ ファー アン アワー ビフォア イット ファイナリー ロウディッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>rendering</mark> the resource pack textures for weeks before releasing the update.</p>
+<p class="ja">彼らはアップデートをリリースする前に数週間リソースパックのテクスチャをレンダリングしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ ˈhæd bɪn ˈrɛndərɪŋ ðə ˈrɛsɔɹs pæk ˈtɛkstʃɚz fər wiks bɪˈfɔr rɪˈlisɪŋ ðə əpˈdeɪt]</div>
+<ul class="link"><li>They had - they の語末 /eɪ/ が had へ続く [ðeɪ ˈhæd] ゼイ ハッド</li><li>had been - had の語末 /d/ が been へ続く；been は弱形 /bɪn/、未開放で接続 [ˈhæd bɪn] ハッド ビン</li><li>been rendering - been の語末 /n/ が rendering へ続く；/n/ は鼻音 [bɪn ˈrɛndərɪŋ] ビン レンダリング</li><li>the resource - the は弱形 /ðə/；resource の /r/ へ [ðə ˈrɛsɔɹs] ザ レソース</li></ul>
+<div class="kana">ゼイ ハッド ビン レンダリング ザ レソース パック テクスチャーズ ファー ウィークス ビフォア リリーシング ザ アップデイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has rendered</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈrɛndərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>rendered</mark> this fortress with reinforced stone and dark oak timber, making it look strong and imposing.</p>
+<p class="ja">私はこの要塞を補強された石とダークオークの木材でレンダリングしており、強そうで印象的に見えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv ˈrɛndərd ðɪs ˈfɔɹtɪs wɪð ˌrɪnˈfɔɹst stoʊn ənd dɑɹk ˈoʊk ˈtɪmbɚ ˈmeɪkɪŋ ɪt ˈlʊk ˈstɹɔŋ ənd ɪmˈpoʊzɪŋ]</div>
+<ul class="link"><li>have rendered - have は弱形 /həv/；rendered /ˈrɛndərd/ に /v/ が続く [həv ˈrɛndərd] ハヴ レンダード</li><li>rendered this - rendered の語末 /d/ が this の /ð/ に続く [ˈrɛndərd ðɪs] レンダード ジス</li><li>fortress with - fortress の語末 /s/ が with の /w/ に続く [ˈfɔɹtɪs wɪð] フォーティス ウィズ</li><li>stone and - stone の語末 /n/ が and の母音 /ə/ に連結；and は弱形 /ən/ [stoʊn ənd] ストウン アンド</li></ul>
+<div class="kana">アイ ハヴ レンダード ジス フォーティス ウィズ リインフォースト ストウン アンド ダーク オウク ティンバー メイキング イット ルック ストロング アンド インポウジング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The designers have <mark>rendered</mark> every cave system with detailed stalactites and unique geological formations.</p>
+<p class="ja">デザイナーたちは、すべての洞窟システムを詳細なつらら石と独特の地質学的な構造でレンダリングしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə dɪˈzaɪnɚz həv ˈrɛndərd ˈɛvɹi ˈkeɪv ˈsɪstəm wɪð dɪˈteɪld stəˈlæktaɪts ənd juˈnik dʒiːəˈlɑdʒɪkəl fɔɹˈmeɪʃənz]</div>
+<ul class="link"><li>designers have - designers の語末 /z/ が have に続く；have は弱形 /həv/ [dɪˈzaɪnɚz həv] ディザイナーズ ハヴ</li><li>have rendered - have は弱形 /həv/；rendered に /v/ が続く [həv ˈrɛndərd] ハヴ レンダード</li><li>rendered every - rendered の語末 /d/ が every の母音 /ɛ/ に連結 [ˈrɛndərd ˈɛvɹi] レンダード エヴリ</li><li>with detailed - with の語末 /θ/ が detailed の /d/ に続く [wɪθ dɪˈteɪld] ウィス ディテイルド</li></ul>
+<div class="kana">ザ ディザイナーズ ハヴ レンダード エヴリ ケイヴ システム ウィズ ディテイルド スタラクタイツ アンド ユニーク ジオロジカル フォーメイションズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had rendered</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈrɛndərd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the server crashed, we had <mark>rendered</mark> the entire coastline with custom beach textures and driftwood.</p>
+<p class="ja">サーバーがクラッシュする前に、私たちはカスタムビーチテクスチャと流木で海岸線全体をレンダリングしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[bɪˈfɔr ðə ˈsɝvɚ kræʃt wi həd ˈrɛndərd ðə ɪnˈtaɪɚ ˈkoʊstˌlaɪn wɪð ˈkʌstəm ˈbitʃ ˈtɛkstʃɚz ənd ˈdrɪftˌwʊd]</div>
+<ul class="link"><li>Before the - before の語末 /r/ が the の母音 /ə/ に連結；the は弱形 /ðə/ [bɪˈfɔr ðə] ビフォア ザ</li><li>had rendered - had の語末 /d/ が rendered に続く [ˈhæd ˈrɛndərd] ハッド レンダード</li><li>rendered the - rendered の語末 /d/ が the の母音 /ə/ に連結；the は弱形 /ðə/ [ˈrɛndərd ðə] レンダード ザ</li><li>with custom - with の語末 /θ/ が custom の /k/ に続く [wɪθ ˈkʌstəm] ウィス カスタム</li></ul>
+<div class="kana">ビフォア ザ サーバー クラッシュド ウィー ハッド レンダード ザ インタイアー コウストライン ウィス カスタム ビーチ テクスチャーズ アンド ドリフトウッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the patch was released, the team had <mark>rendered</mark> all the new enchantment effects with stunning visuals.</p>
+<p class="ja">パッチがリリースされるまでに、チームはすべての新しいエンチャント効果を見事なビジュアルでレンダリングしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm ðə ˈpætʃ wəz rɪˈlist ðə ˈtim həd ˈrɛndərd ˈɔl ðə ˈnu ɪnˈtʃɑntmənt ɪˈfɛkts wɪð ˈstʌndɪŋ ˈvɪʒuəlz]</div>
+<ul class="link"><li>by the - by の語末 /aɪ/ が the に続く；the は弱形 /ðə/ [baɪ ðə] バイ ザ</li><li>had rendered - had の語末 /d/ が rendered に続く [ˈhæd ˈrɛndərd] ハッド レンダード</li><li>rendered all - rendered の語末 /d/ が all の母音 /ɔ/ に連結 [ˈrɛndərd ˈɔl] レンダード オール</li><li>with stunning - with の語末 /θ/ が stunning の /s/ に続く [wɪθ ˈstʌndɪŋ] ウィス スタンディング</li></ul>
+<div class="kana">バイ ザ タイム ザ パッチ ワズ リリースト ザ ティーム ハッド レンダード オール ザ ニュー インチャントメント イフェクツ ウィス スタンディング ヴィジュアルズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been rendering</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈrɛndərɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The artist has been <mark>rendering</mark> intricate details on the main hall's ceiling for three weeks straight.</p>
+<p class="ja">アーティストはメインホールの天井に複雑な詳細をレンダリングしている状態が3週間続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɑɹtɪst həz bɪn ˈrɛndərɪŋ ɪnˈtrɪkət dɪˈteɪlz ɑn ðə ˈmeɪn hɔl's ˈsilɪŋ fər ˈθri wiks ˈstɹeɪt]</div>
+<ul class="link"><li>has been - has は弱形 /həz/；been は弱形 /bɪn/、/z/ が続く [həz bɪn] ハズ ビン</li><li>been rendering - been の語末 /n/ が rendering の /r/ に続く；子音+子音 [bɪn ˈrɛndərɪŋ] ビン レンダリング</li><li>on the - on の語末 /n/ が the の母音 /ə/ に連結；the は弱形 /ðə/ [ɑn ðə] オン ザ</li><li>hall's ceiling - hall's の語末 /z/ が ceiling の /s/ に続く；子音+子音 [hɔlz ˈsilɪŋ] ホールズ シーリング</li></ul>
+<div class="kana">ザ アーティスト ハズ ビン レンダリング イントリケット ディテイルズ オン ザ メイン ホールズ シーリング ファー スリー ウィークス ストレイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our server has been <mark>rendering</mark> the landscape with seasonal weather effects since the winter update.</p>
+<p class="ja">私たちのサーバーは冬のアップデート以来、季節の天気エフェクトで風景をレンダリングしている状態が続いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈaʊɚ ˈsɝvɚ həz bɪn ˈrɛndərɪŋ ðə ˈlændskeɪp wɪð ˈsiːzənəl ˈwɛðɚ ɪˈfɛkts sɪns ðə ˈwɪntɚ əpˈdeɪt]</div>
+<ul class="link"><li>has been - has は弱形 /həz/；been は弱形 /bɪn/、/z/ が続く [həz bɪn] ハズ ビン</li><li>been rendering - been の語末 /n/ が rendering の /r/ に続く；子音+子音 [bɪn ˈrɛndərɪŋ] ビン レンダリング</li><li>rendering the - rendering の語末 /ŋ/ が the の母音 /ə/ に連結；the は弱形 /ðə/ [ˈrɛndərɪŋ ðə] レンダリング ザ</li><li>since the - since の語末 /s/ が the の母音 /ə/ に連結；the は弱形 /ðə/ [sɪns ðə] シンス ザ</li></ul>
+<div class="kana">アワー サーバー ハズ ビン レンダリング ザ ランドスケイプ ウィズ シーズナル ウェザー イフェクツ シンス ザ ウィンター アップデイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will render</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wəl ˈrɛndɚ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>render</mark> this castle design in the creative world before we begin the survival challenge.</p>
+<p class="ja">サバイバルチャレンジを始める前に、創作モードでこの城のデザインをレンダリングします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəl ˈrɛndɚ ðɪs ˈkæsəl dɪˈzaɪn ɪn ðə kriːˈeɪtɪv wɝld bɪˈfɔr wi bɪˈɡɪn ðə sɚˈvaɪvəl ˈtʃælɪndʒ]</div>
+<ul class="link"><li>I will - I の語末 /aɪ/ が will へ続く；will は弱形 /wəl/ [aɪ wəl] アイ ウル</li><li>will render - will の /l/ が render の /r/ へ続く；弱形連結 [wəl ˈrɛndɚ] ウル レンダー</li><li>render this - render の語末 /ɚ/ が this へ連結；this の /ð/ [ˈrɛndɚ ðɪs] レンダー ディス</li><li>creative world - creative の語末 /v/ が world へ続く；未開放で接続 [kriːˈeɪtɪv wɝld] クリエイティヴ ワールド</li></ul>
+<div class="kana">アイ ウル レンダー ディス キャッスル ディザイン イン ザ クリエイティヴ ワールド ビフォア ウィー ビギン ザ サーヴァイヴル チャレンジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>render</mark> the fortress walls with stone bricks and dark oak to make it look imposing.</p>
+<p class="ja">彼らは要塞の壁を石レンガとダークオークでレンダリングして、威圧的に見えるようにします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ wəl ˈrɛndɚ ðə ˈfɔɹtɪs wɔlz wɪð stoʊn brɪks ənd dɑɹk ˈoʊk tu ˈmeɪk ɪt ˈlʊk ɪmˈpoʊzɪŋ]</div>
+<ul class="link"><li>They will - They の語末 /eɪ/ が will へ続く；will は弱形 /wəl/ [ðeɪ wəl] ゼイ ウル</li><li>will render - will の /l/ が render の /r/ へ続く；弱形連結 [wəl ˈrɛndɚ] ウル レンダー</li><li>render the - render の語末 /ɚ/ が the の弱形 /ðə/ に連結 [ˈrɛndɚ ðə] レンダー ザ</li><li>stone bricks - stone の語末 /n/ が bricks へ続く；bricks の /b/ に [stoʊn brɪks] ストウン ブリックス</li></ul>
+<div class="kana">ゼイ ウル レンダー ザ フォーティス ウォールズ ウィス ストウン ブリックス アンド ダーク オウク トゥー メイク イット ルック インポウジング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be rendering</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wəl bɪ ˈrɛndɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While the update downloads, the graphics engine will be <mark>rendering</mark> the new biome terrain in the background.</p>
+<p class="ja">アップデートがダウンロードしている間、グラフィックスエンジンはバックグラウンドで新しいバイオームの地形をレンダリングしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[waɪl ðə əpˈdeɪt ˈdaʊnloʊdz ðə ˈɡræfɪks ˈɛndʒən wəl bɪ ˈrɛndɚɪŋ ðə ˈbaɪoʊm tɛɹˈeɪn ɪn ðə ˈbækɡraʊnd]</div>
+<ul class="link"><li>While the - While の語末 /l/ が the の /ð/ に続く；the は弱形 /ðə/ [waɪl ðə] ワイル ザ</li><li>will be - will は弱形 /wəl/；be は弱形 /bɪ/、/l/ が /b/ に続く [wəl bɪ] ウル ビー</li><li>be rendering - be の /i/ が rendering へ流れる；rendering の語末 /ŋ/ へ [bɪ ˈrɛndɚɪŋ] ビー レンダリング</li><li>in the - in の語末 /n/ が the へ続く；the は弱形 /ðə/ [ɪn ðə] イン ザ</li></ul>
+<div class="kana">ワイル ザ アップデイト ダウンロウズ ザ グラフィックス エンジン ウル ビー レンダリング ザ バイオーム テレイン イン ザ バックグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>When you join the server tomorrow, she will be <mark>rendering</mark> custom textures for the new structures.</p>
+<p class="ja">明日サーバーに参加するとき、彼女は新しい構造のためのカスタムテクスチャをレンダリングしている最中です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɛn ju dʒɔɪn ðə ˈsɝvɚ təˈmɑroʊ ʃi wəl bɪ ˈrɛndɚɪŋ ˈkʌstəm ˈtɛkstʃɚz fər ðə ˈnu ˈstrʌktʃɚz]</div>
+<ul class="link"><li>you join - you の語末 /u/ が join へ流れる；/j/ が次に続く [ju dʒɔɪn] ユー ジョイン</li><li>will be - will は弱形 /wəl/；be は弱形 /bɪ/、/l/ が /b/ に続く [wəl bɪ] ウル ビー</li><li>be rendering - be の /i/ が rendering へ流れる [bɪ ˈrɛndɚɪŋ] ビー レンダリング</li><li>for the - for は弱形 /fər/；the は弱形 /ðə/、/r/ が連結 [fər ðə] ファー ザ</li></ul>
+<div class="kana">ウェン ユー ジョイン ザ サーバー トゥモロウ シー ウル ビー レンダリング カスタム テクスチャーズ ファー ザ ニュー ストラクチャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have rendered</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wəl həv ˈrɛndɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/render_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next Friday, we will have <mark>rendered</mark> all the custom blocks needed for the mega-base construction.</p>
+<p class="ja">来週の金曜日までに、メガベースの建設に必要なすべてのカスタムブロックをレンダリングし終わります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ˈnɛkst ˈfraɪdeɪ wi wəl həv ˈrɛndɚd ˈɔl ðə ˈkʌstəm ˈblɑks ˈnidəd fər ðə ˈmeɪɡə ˈbeɪs kənˈstrʌkʃən]</div>
+<ul class="link"><li>By next - by の語末 /aɪ/ が next へ続く；/ɛ/ に流れる [baɪ ˈnɛkst] バイ ネクスト</li><li>will have - will は弱形 /wəl/；have は弱形 /həv/、/l/ が /h/ に続く [wəl həv] ウル ハヴ</li><li>have rendered - have の /ə/ が rendered へ連結；rendered は /ˈrɛndɚd/ [həv ˈrɛndɚd] ハヴ レンダード</li><li>for the - for は弱形 /fər/；the は弱形 /ðə/、/r/ が連結 [fər ðə] ファー ザ</li></ul>
+<div class="kana">バイ ネクスト フライデイ ウィー ウル ハヴ レンダード オール ザ カスタム ブロックス ニーデッド ファー ザ メガ ベイス コンストラクション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The dev team will have <mark>rendered</mark> every dungeon variation and cave system before the patch launches.</p>
+<p class="ja">パッチがリリースされる前に、開発チームはすべてのダンジョンバリエーションと洞窟システムをレンダリングし終わります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈdɛv tim wəl həv ˈrɛndɚd ˈɛvɹi ˈdʌndʒən ˌvæɹiˈeɪʃən ənd ˈkeɪv ˈsɪstəm bɪˈfɔr ðə ˈpætʃ ˈlɔntʃɪz]</div>
+<ul class="link"><li>dev team - dev の語末 /v/ が team へ続く；/t/ に未開放で接続 [ˈdɛv tim] デヴ ティーム</li><li>will have - will は弱形 /wəl/；have は弱形 /həv/、/l/ が /h/ に続く [wəl həv] ウル ハヴ</li><li>have rendered - have の /ə/ が rendered へ連結 [həv ˈrɛndɚd] ハヴ レンダード</li><li>before the - before の語末 /r/ が the へ連結；the は弱形 /ðə/ [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">ザ デヴ ティーム ウル ハヴ レンダード エヴリ ダンジョン バリエーション アンド ケイヴ システム ビフォア ザ パッチ ローンチィズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">render assistance</span><span class="im">援助・支援を提供する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Experienced players often <mark>render</mark> assistance to their teammates in difficult raids.</p>
+<p class="ja">経験豊かなプレイヤーは、難しいレイド中にチームメイトに援助を提供することが多いです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪkˈspɪriənst ˈpleɪərz ˈɔfən ˈrɛndər əˈsɪstəns tu ðɛr ˈtimˌmeɪts ɪn ˈdɪfɪkəlt ˈreɪdz/</div>
+<ul class="link"><li>players often - players /ˈpleɪərz/ の /z/ が often /ˈɔfən/ に連結 プレイアーズ オフン</li><li>render assistance - render の語末 /ər/ が assistance /əˈsɪstəns/ の /ə/ に連結 レンダー アシスタンス</li><li>assistance to - assistance の語末 /s/ が to の /t/ に未開放接続；to は弱形 /tə/ アシスタンス タ</li><li>to their - to は弱形 /tə/；their /ðɛr/ へ /r/ が連結 タ ゼア</li></ul>
+<div class="kana">イクスピアリエンスト プレイアーズ オフン レンダー アシスタンス タ ゼア ティームメイツ イン ディフィカルト レイドズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">render service</span><span class="im">サービス・役務を提供する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The admin team <mark>renders</mark> a valuable service by keeping the server running smoothly.</p>
+<p class="ja">管理者チームはサーバーをスムーズに運用することで、貴重なサービスを提供しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈædmɪn tim ˈrɛndərz ə ˈvæljuəbəl ˈsɝvɪs baɪ ˈkipɪŋ ðə ˈsɝvər ˈrunɪŋ ˈsmuzli/</div>
+<ul class="link"><li>admin team - admin の語末 /n/ が team の /t/ に未開放接続 アドミン ティーム</li><li>renders a - renders の語末 /z/ が a の弱形 /ə/ に連結 レンダーズ ア</li><li>by keeping - by /baɪ/ の語末と keeping の /k/ が未開放接続 バイ キーピング</li><li>keeping the - keeping の語末 /ŋ/ が the の弱形 /ðə/ に未開放接続 キーピング ザ</li></ul>
+<div class="kana">ザ アドミン ティーム レンダーズ ア ヴァリュアブル サービス バイ キーピング ザ サーバー ラニング スムーズリー</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">render judgment</span><span class="im">判定・判決を下す</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The tournament judges had to <mark>render</mark> judgment on whether the structure met all the competition rules.</p>
+<p class="ja">トーナメント審査員は、その構造物が競争のすべてのルールを満たしているかどうかについて判定を下さなければなりませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/render_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/render_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtɔrnəmənt ˈdʒʌdʒɪz ˈhæd tə ˈrɛndər ˈdʒʌdʒmənt ɑn ˈwɛðər ðə ˈstrʌktʃər ˈmɛt ˈɔl ðə ˌkɑmpɪˈtɪʃən ˈrulz/</div>
+<ul class="link"><li>had to - had の語末 /d/ が to の /t/ に未開放接続；to は弱形 /tə/ ハッ タ</li><li>to render - to は弱形 /tə/；render /ˈrɛndər/ へ /r/ が連結 タ レンダー</li><li>render judgment - render の語末 /ər/ が judgment /ˈdʒʌdʒmənt/ の /dʒ/ に未開放接続 レンダー ジャッジメント</li><li>judgment on - judgment の語末 /t/ が on の /ɑ/ に未開放接続 ジャッジメン トン</li></ul>
+<div class="kana">ザ トーナメント ジャッジズ ハッ タ レンダー ジャッジメント オン ウェザー ザ ストラクチャー メット オール ザ コンペティション ルールズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="render";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

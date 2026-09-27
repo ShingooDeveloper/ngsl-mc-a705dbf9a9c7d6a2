@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>overlap — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>overlap</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/ˌoʊvɚˈlæp/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1715</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】(2つのもの/領域が)部分的に重なる（...to partly cover or occupy the same area）</li><li>【動詞】(時間や活動が)重複する、かぶる（...for periods of time to be the same for two events）</li><li>【名詞】重なった部分、共有領域（...the part or area where things overlap）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stack these bricks so they <mark>overlap</mark> and create a stronger wall.</p>
+<p class="ja">これらのレンガを重ねて、より強い壁を作ってください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stæk ðiz ˈbrɪks soʊ ðeɪ ˌoʊvɚˈlæp ænd kriˈeɪt ə ˈstɹɔŋɡɚ wɔl/</div>
+<ul class="link"><li>create a: 語末子音 /t/ が母音 /ə/ に連結 [kriˈeɪtə] クリエイタ</li></ul>
+<div class="kana">スタック ディーズ ブリックス ソー ザイ オウバーラップ アンド クリエイタ ストロンガー ウォール</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our mining tunnels <mark>overlap</mark> with the nearby cave system.</p>
+<p class="ja">私たちの採掘トンネルが近くの洞窟システムと重なっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈmaɪnɪŋ ˈtʌnəlz ˌoʊvɚˈlæp wɪð ðə ˈneɚbaɪ keɪv ˈsɪstəm/</div>
+<ul class="link"><li>tunnels overlap: 語末 /z/ が母音 /oʊ/ に連結 [ˈtʌnəlz ˌoʊvɚˈlæp] タンネルズ オウバーラップ</li><li>the は弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">アワー マイニング タンネルズ オウバーラップ ウィズ ザ ネアーバイ ケイヴ システム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Player territories don't <mark>overlap</mark> on the server, so there's no conflict.</p>
+<p class="ja">サーバー上ではプレイヤーの領土が重ならないので、紛争はありません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚ ˈtɛrətɔriz ˈdoʊnt ˌoʊvɚˈlæp ɑn ðə ˈsɜrvɚ, soʊ ðɛrz noʊ ˈkɑnflɪkt/</div>
+<ul class="link"><li>don't overlap: /t/ が母音 /oʊ/ に連結 [ˈdoʊnt ˌoʊvɚˈlæp] ドートゥ オウバーラップ</li><li>the は弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">プレイアー テリトリーズ ドートゥ オウバーラップ アン ザ サーバー、 ソー ゼアーズ ノー コンフリクト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">overlaps</span><span class="fl">三人称単数現在形</span><span class="fi">/ˌoʊvɚˈlæps/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>When the mining claim <mark>overlaps</mark> with another player's territory, disputes often arise.</p>
+<p class="ja">採掘クレームが他のプレイヤーの領土と重なると、紛争が発生することが多い。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn ðə ˈmaɪnɪŋ kleɪm ˌoʊvɚˈlæps wɪð əˈnʌðɚ ˈpleɪɚz ˈtɛrətɔri dɪˈspjuːts ˈɔfən əˈraɪz/</div>
+<ul class="link"><li>overlaps with: 語末子音 /ps/ が弱形 /wɪð/ の /w/ に続き未開放 [ˌoʊvɚˈlæps̚ wɪð] オウバーラップス ウィズ</li><li>another player's: 語末 /ðɚ/ が mother音 /p/ に続く、player's の弱形 [əˈnʌðɚ ˈpleɪɚz] アナザー プレイアーズ</li></ul>
+<div class="kana">ウェン ザ マイニング クレイム オウバーラップス ウィズ アナザー プレイアーズ テリトリー ディスピューツ オーフン アライズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>His base <mark>overlaps</mark> the nearby village, so he must build carefully to avoid damage.</p>
+<p class="ja">彼のベースは近くの村と重なっているので、ダメージを避けるために慎重に建築する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hɪz beɪs ˌoʊvɚˈlæps ðə ˈnɪrbaɪ ˈvɪlɪdʒ soʊ hi məst bɪld ˈkeɹfəli tu əˈvɔɪd ˈdæmɪdʒ/</div>
+<ul class="link"><li>base overlaps: 語末子音 /s/ が母音 /oʊ/ に連結 [beɪs ˌoʊvɚˈlæps] ベイス オウバーラップス</li><li>overlaps the: 語末 /ps/ が弱形 /ðə/ の /ð/ に続き、the は弱形 /ðə/「ザ」に弱化</li><li>to avoid: to は弱形 /tə/「トゥー」に弱化 [tu əˈvɔɪd] トゥー アボイド</li></ul>
+<div class="kana">ヒズ ベイス オウバーラップス ザ ニアバイ ビレッジ ソー ヒー マスト ビルド ケアフリー トゥー アボイド ダメッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">overlapped</span><span class="fl">過去形</span><span class="fi">/ˌoʊvɚˈlæpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Last season, our building zones overlapped with a rival faction's territory.</p>
+<p class="ja">先シーズン、私たちの建築ゾーンはライバルファクションの領土と重なっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/læst ˈsizən ˈaʊɚ ˈbɪldɪŋ zoʊnz ˌoʊvɚˈlæpt wɪð ə ˈraɪvəl ˈfækʃənz ˈtɛrətɔri/</div>
+<ul class="link"><li>zones overlapped: 語末子音 /z/ が母音 /oʊ/ に連結 [zoʊnz ˌoʊvɚˈlæpt] ゾーンズ オウバーラップト</li><li>overlapped with: 語末 /pt/ が弱形 /w/ に続き未開放 [ˌoʊvɚˈlæpt̚ wɪð] オウバーラップト ウィズ</li><li>a rival: 弱形 /ə/ と子音 /r/ が繋がる [ə ˈraɪvəl] ア ライバル</li></ul>
+<div class="kana">ラスト シーズン アワー ビルディング ゾーンズ オウバーラップト ウィズ ア ライバル ファクションズ テリトリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The underground tunnels overlapped with the spawn chunks, creating unexpected mob spawns.</p>
+<p class="ja">地下トンネルがスポーンチャンクと重なり、予期しないモブのスポーンが発生しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌʌndɚˈɡraʊnd ˈtʌnəlz ˌoʊvɚˈlæpt wɪð ðə ˈspoʊn tʃʌŋks kriˈeɪtɪŋ ʌnɪkˈspɛktəd moʊb ˈspoʊnz/</div>
+<ul class="link"><li>tunnels overlapped: 語末子音 /z/ が母音 /oʊ/ に連結 [ˈtʌnəlz ˌoʊvɚˈlæpt] タンネルズ オウバーラップト</li><li>overlapped with: 語末 /pt/ が弱形 /w/ に続き未開放 [ˌoʊvɚˈlæpt̚ wɪð] オウバーラップト ウィズ</li><li>the spawn: the は弱形 /ðə/「ザ」に弱化、/ð/ が /s/ に続く [ðə ˈspoʊn] ザ スポーン</li></ul>
+<div class="kana">ザ アンダーグラウンド タンネルズ オウバーラップト ウィズ ザ スポーン チャンクス クリエイティング アニクスペクテッド モウブ スポーンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">overlapped</span><span class="fl">過去分詞</span><span class="fi">/ˌoʊvɚˈlæpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having overlapped their claims, both players had to negotiate new boundaries.</p>
+<p class="ja">クレームが重なってしまったので、両プレイヤーは新しい境界について交渉する必要がありました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˌoʊvɚˈlæpt ðɛɹ kleɪmz boʊθ ˈpleɪɚz hæd tu nɪˈɡoʊʃieɪt nu ˈbaʊndəriz/</div>
+<ul class="link"><li>Having overlapped: 語末 /ŋ/ が母音 /oʊ/ に連結 [ˈhævɪŋ ˌoʊvɚˈlæpt] ハービング オウバーラップト</li><li>overlapped their: 語末 /pt/ が弱形 /ðɛɹ/ の /ð/ に続き未開放 [ˌoʊvɚˈlæpt̚ ðɛɹ] オウバーラップト ゼア</li><li>to negotiate: to は弱形 /tə/「トゥー」に弱化 [tu nɪˈɡoʊʃieɪt] トゥー ニゴウシエイト</li></ul>
+<div class="kana">ハービング オウバーラップト ゼア クレイムズ ボウス プレイアーズ ハド トゥー ニゴウシエイト ニュー バウンダリーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The areas that had overlapped were marked clearly on the server map.</p>
+<p class="ja">重なっていた領域はサーバーマップで明確にマークされていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛriəz ðæt hæd ˌoʊvɚˈlæpt wɚ mɑrkt ˈklɪrli ɑn ðə ˈsɜrvɚ mæp/</div>
+<ul class="link"><li>had overlapped: 語末 /d/ が母音 /oʊ/ に連結 [hæd ˌoʊvɚˈlæpt] ハド オウバーラップト</li><li>overlapped were: 語末 /pt/ が母音 /w/ に続き未開放、were の弱形 [ˌoʊvɚˈlæpt̚ wɚ] オウバーラップト ワー</li><li>the server: the は弱形 /ðə/「ザ」に弱化 [ðə ˈsɜrvɚ] ザ サーバー</li></ul>
+<div class="kana">ザ エリアズ ザット ハド オウバーラップト ワー マークト クリアリー オン ザ サーバー マップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">overlapping</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Overlapping builds can cause confusion about who owns which section of land.</p>
+<p class="ja">重なり合っている建築は、誰がどの土地を所有しているのかについて混乱を招く可能性があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˌoʊvɚˈlæpɪŋ bɪldz kæn kəz ˈkənfjuʒən əˈbaʊt hu oʊnz wɪtʃ ˈsɛkʃən əv lænd/</div>
+<ul class="link"><li>Overlapping builds: 語末 /ŋ/ が母音 /b/ に連結 [ˌoʊvɚˈlæpɪŋ bɪldz] オウバーラッピング ビルズ</li><li>can cause: 弱形 /kən/ として /n/ が子音 /k/ に続き未開放 [kæn kəz] キャン コーズ</li><li>about who: 語末 /t/ が母音 /w/ に連結、about の弱形 [əˈbaʊt hu] アバウト フー</li></ul>
+<div class="kana">オウバーラッピング ビルズ キャン コーズ コンフューション アバウト フー オウンズ ウィッチ セクション アヴ ランド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By overlapping their base designs, the team created a larger, more efficient settlement.</p>
+<p class="ja">ベースのデザインを重ねることで、チームはより大きく、より効率的な居住地を作成しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˌoʊvɚˈlæpɪŋ ðɛɹ beɪs dɪˈzaɪnz ðə tim kriˈeɪtəd ə ˈlɑrdʒɚ mɔr ɪˈfɪʃənt ˈsɛtəlmənt/</div>
+<ul class="link"><li>By overlapping: 語末 /aɪ/ が overlapping に続く [baɪ ˌoʊvɚˈlæpɪŋ] バイ オウバーラッピング</li><li>overlapping their: 語末 /ŋ/ が弱形 /ðɛɹ/ の /ð/ に続き未開放 [ˌoʊvɚˈlæpɪŋ̚ ðɛɹ] オウバーラッピング ゼア</li><li>the team: the は弱形 /ðə/「ザ」に弱化、/ə/ から /t/ へ [ðə tim] ザ ティーム</li></ul>
+<div class="kana">バイ オウバーラッピング ゼア ベイス ディザインズ ザ ティーム クリエイテッド ア ラージャー モア イフィシェント セットルメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">overlaps</span><span class="fl">複数形</span><span class="fi">/ˌoʊvɚˈlæps/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>overlaps</mark> between adjacent builds need to be resolved before the construction deadline.</p>
+<p class="ja">隣接する建築物間の重なりは、建設期限までに解決する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌoʊvɚˈlæps bɪˈtwin ədˈdʒeɪsənt bɪldz nid tu bi rɪˈzɑlvd bɪˈfɔr ðə kənˈstrʌkʃən ˈdɛdˌlaɪn/</div>
+<ul class="link"><li>adjacent builds: 語末 /t/ が子音 /b/ に続き未開放 [ədˈdʒeɪsənt̚ bɪldz] アジェイセント ビルズ</li><li>to be: to は弱形 /tə/「トゥー」に弱化、be の弱形 [tu bi] トゥー ビー</li></ul>
+<div class="kana">ザ オウバーラップス ビトゥウィン アジェイセント ビルズ ニード トゥー ビー リゾルブド ビフォア ザ コンストラクション デッドライン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>overlaps</mark> in resource claims created disputes that required admin intervention.</p>
+<p class="ja">リソースクレーム内の複数の重複は、管理者の介入が必要な紛争を引き起こしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌltɪpəl ˌoʊvɚˈlæps ɪn rɪˈsɔrs kleɪmz kriˈeɪtəd dɪˈspjuːts ðæt rɪˈkwaɪɚd ˈædmɪn ɪnˈtɛrvənʃən/</div>
+<ul class="link"><li>overlaps in: 語末子音 /ps/ が母音 /ɪ/ に連結 [ˌoʊvɚˈlæps ɪn] オウバーラップス イン</li><li>claims created: 語末子音 /z/ が母音 /k/ に連結 [kleɪmz kriˈeɪtəd] クレイムズ クリエイテッド</li><li>admin intervention: 語末 /n/ が母音 /ɪ/ に連結 [ˈædmɪn ɪnˈtɛrvənʃən] アドミン インターベンション</li></ul>
+<div class="kana">マルティプル オウバーラップス イン リソース クレイムズ クリエイテッド ディスピューツ ザット リクワイアード アドミン インターベンション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is overlapping</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>My base is overlapping with the spawn chunks, which could cause lag.</p>
+<p class="ja">私のベースはスポーンチャンクと重なっており、ラグを引き起こす可能性があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ beɪs ɪz ˌoʊvɚˈlæpɪŋ wɪð ðə ˈspoʊn tʃʌŋks wɪtʃ kʊd kɔz læg/</div>
+<ul class="link"><li>base is: 語末子音 /s/ が母音 /ɪ/ に連結 [beɪs ɪz] ベイス イズ</li><li>is overlapping: is は弱形 /ɪz/、/z/ が母音 /oʊ/ に連結 [ɪz ˌoʊvɚˈlæpɪŋ] イズ オウバーラッピング</li><li>chunks which: 語末 /ŋks/ が未開放で /w/ に続く [tʃʌŋks̚ wɪtʃ] チャンクス ウィッチ</li></ul>
+<div class="kana">マイ ベイス イズ オウバーラッピング ウィズ ザ スポーン チャンクス ウィッチ クッド コーズ ラグ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The neighboring claims are overlapping, so both teams need to negotiate boundaries.</p>
+<p class="ja">隣接するクレームが重なっているので、両チームが境界線を交渉する必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈneɪbɚɪŋ kleɪmz ɑr ˌoʊvɚˈlæpɪŋ soʊ boʊθ timz nid tu nɪˈɡoʊʃieɪt ˈbaʊndəriz/</div>
+<ul class="link"><li>claims are: 語末子音 /z/ が母音 /ɑ/ に連結 [kleɪmz ɑr] クレイムズ アー</li><li>are overlapping: 語末の /r/ が母音 /oʊ/ に連結 [ɑr ˌoʊvɚˈlæpɪŋ] アー オウバーラッピング</li><li>to negotiate: 通常 /tu/ で発音。negotiate は /nɪˈɡoʊʃieɪt/ で第2音節にストレス [tu nɪˈɡoʊʃieɪt] トゥー ニゴウシエイト</li></ul>
+<div class="kana">ザ ネイバーリング クレイムズ アー オウバーラッピング ソー ボース ティーム ニード トゥー ニゴウシエイト バウンダリーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was overlapping</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The farm systems were overlapping when we first connected the two bases.</p>
+<p class="ja">2つのベースを最初に接続したとき、農場システムが重なっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə fɑrm ˈsɪstəmz wɚ ˌoʊvɚˈlæpɪŋ wɛn wi fɚst kəˈnɛktəd ðə tu ˈbeɪsɪz/</div>
+<ul class="link"><li>were overlapping: 語末の /r/ が母音 /oʊ/ に連結 [wɚ ˌoʊvɚˈlæpɪŋ] ワー オウバーラッピング</li><li>when we: 語末の /n/ が母音 /i/ に連結 [wɛn wi] ウェン ウィー</li><li>the two: the は弱形 /ðə/「ザ」に弱化 [ðə tu] ザ トゥー</li></ul>
+<div class="kana">ザ ファーム システムズ ワー オウバーラッピング ウェン ウィー ファースト コネクテッド ザ トゥー ベイシズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The tunnel systems were overlapping for months, creating connection problems.</p>
+<p class="ja">トンネルシステムが数ヶ月間重なっており、接続の問題が発生していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtʌnəl ˈsɪstəmz wɚ ˌoʊvɚˈlæpɪŋ fɔr mʌnθz kriˈeɪtɪŋ kəˈnɛkʃən ˈprɑbləmz/</div>
+<ul class="link"><li>systems were: 語末子音 /z/ が子音 /w/ に続き未開放 [ˈsɪstəmz̚ wɚ] システムズ ワー</li><li>were overlapping: 語末の /r/ が母音 /oʊ/ に連結 [wɚ ˌoʊvɚˈlæpɪŋ] ワー オウバーラッピング</li><li>for months: 語末の /r/ が子音 /m/ に続き未開放 [fɔr̚ mʌnθz] フォア マンス</li></ul>
+<div class="kana">ザ タンネル システムズ ワー オウバーラッピング フォア マンス クリエイティング コネクション プラブラムズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been overlapping</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The base sections had been overlapping for weeks before anyone noticed the problem.</p>
+<p class="ja">誰かが問題に気づく前に、ベースセクションは数週間重なっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbeɪs ˈsɛkʃənz həd bɪn ˌoʊvɚˈlæpɪŋ fɔr wiks bɪˈfɔr ˈɛniˌwʌn ˈnoʊtɪst ðə ˈprɑbləm/</div>
+<ul class="link"><li>had been: had 弱形 /həd/、/d/ が母音 /b/ に連結 [həd bɪn] ハド ビン</li><li>been overlapping: been 弱形 /bɪn/、/n/ が母音 /oʊ/ に連結 [bɪn ˌoʊvɚˈlæpɪŋ] ビン オウバーラッピング</li><li>for weeks: 語末の /r/ が子音 /w/ に続き未開放 [fɔr̚ wiks] フォア ウィークス</li></ul>
+<div class="kana">ザ ベイス セクションズ ハド ビン オウバーラッピング フォア ウィークス ビフォア エニワン ノウティスト ザ プラブラム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Resources in that zone had been overlapping with the administrative depot for months.</p>
+<p class="ja">そのゾーンのリソースは数ヶ月間、管理者デポと重なっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/rɪˈsɔrsəz ɪn ðæt zoʊn həd bɪn ˌoʊvɚˈlæpɪŋ wɪð ðə ˌædmɪnɪˈstreɪtɪv ˈdɛpoʊ fɔr mʌnθz/</div>
+<ul class="link"><li>had been: had 弱形 /həd/、/d/ が母音 /b/ に連結 [həd bɪn] ハド ビン</li><li>been overlapping: been 弱形 /bɪn/、/n/ が母音 /oʊ/ に連結 [bɪn ˌoʊvɚˈlæpɪŋ] ビン オウバーラッピング</li><li>with the: the は弱形 /ðə/「ザ」に弱化、/ð/ が継続 [wɪð ðə] ウィズ ザ</li></ul>
+<div class="kana">リソーシズ イン ザット ゾーン ハド ビン オウバーラッピング ウィズ ザ アドミニストレイティヴ デポー フォア マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has overlapped</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˌoʊvɚˈlæpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Our base has overlapped with the spawn chunks, causing unexpected mob spawns.</p>
+<p class="ja">私たちのベースはスポーンチャンクと重なり、予期しないモブのスポーンが発生しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈbeɪs həz ˌoʊvɚˈlæpt wɪð ðə ˈspoʊn tʃʌŋks ˈkɔzɪŋ ʌnɪkˈspɛktəd moʊb ˈspoʊnz/</div>
+<ul class="link"><li>has overlapped: has は弱形 /həz/、/z/ が母音 /oʊ/ に連結 [həz ˌoʊvɚˈlæpt] ハズ オウバーラップト</li><li>with the: the は弱形 /ðə/ [wɪð ðə] ウィズ ザ</li><li>spawn chunks: 語末の /n/ が子音 /tʃ/ に続き未開放 [ˈspoʊn̚ tʃʌŋks] スポーン チャンクス</li></ul>
+<div class="kana">アワー ベイス ハズ オウバーラップト ウィズ ザ スポーン チャンクス コージング アニクスペクテッド モウブ スポーンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The neighboring mining zones have overlapped before; it always causes disputes.</p>
+<p class="ja">隣接する採掘ゾーンは以前重なっています。いつも紛争が発生します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈneɪbɚɪŋ ˈmaɪnɪŋ zoʊnz həv ˌoʊvɚˈlæpt bɪˈfɔr ɪt ˈɔlwɪz ˈkɔzɪz dɪˈspjuːts/</div>
+<ul class="link"><li>zones have: 語末子音 /z/ が弱形 /həv/ の /ə/ に連結 [zoʊnz həv] ゾーンズ ハヴ</li><li>have overlapped: have 弱形 /həv/、/v/ が母音 /oʊ/ に連結 [həv ˌoʊvɚˈlæpt] ハヴ オウバーラップト</li><li>always causes: 語末の /z/ が子音 /k/ に続き未開放 [ˈɔlwɪz ˈkɔzɪz] オールウェイズ コージズ</li></ul>
+<div class="kana">ザ ネイバーリング マイニング ゾーンズ ハヴ オウバーラップト ビフォア イット オールウェイズ コージズ ディスピューツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had overlapped</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˌoʊvɚˈlæpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before we noticed the problem, the two builds had overlapped for several weeks.</p>
+<p class="ja">問題に気づく前に、2つの建築物は数週間重なっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr wi ˈnoʊtəst ðə ˈprɑbləm ðə tu bɪldz həd ˌoʊvɚˈlæpt fɔr ˈsɛvərəl wiks/</div>
+<ul class="link"><li>had overlapped: had 弱形 /həd/、/d/ が母音 /oʊ/ に連結 [həd ˌoʊvɚˈlæpt] ハド オウバーラップト</li><li>the two: the は弱形 /ðə/ [ðə tu] ザ トゥー</li><li>for several: 語末の /r/ が子音 /s/ に続き未開放 [fɔr̚ ˈsɛvərəl] フォア セヴラル</li></ul>
+<div class="kana">ビフォア ウィー ノウティスト ザ プラブラム ザ トゥー ビルズ ハド オウバーラップト フォア セヴラル ウィークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The resource zones had overlapped with the protected area, which violated the server rules.</p>
+<p class="ja">リソースゾーンが保護エリアと重なっており、サーバールールに違反していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə rɪˈsɔrs zoʊnz həd ˌoʊvɚˈlæpt wɪð ðə prəˈtɛktəd ˈɛriə wɪtʃ ˈvaɪəleɪtəd ðə ˈsɜrvɚ rulz/</div>
+<ul class="link"><li>had overlapped: had 弱形 /həd/、/d/ が母音 /oʊ/ に連結 [həd ˌoʊvɚˈlæpt] ハド オウバーラップト</li><li>with the: the は弱形 /ðə/ [wɪð ðə] ウィズ ザ</li><li>protected area: 語末 /d/ が母音 /ɛ/ に連結 [prəˈtɛktəd ˈɛriə] プロテクテッド エリア</li></ul>
+<div class="kana">ザ リソース ゾーンズ ハド オウバーラップト ウィズ ザ プロテクテッド エリア ウィッチ ヴァイオレイテッド ザ サーバー ルールズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been overlapping</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The two factions' territories have been overlapping for months, causing ongoing disputes.</p>
+<p class="ja">2つの派閥の領土が数ヶ月間重なっており、継続的な紛争が発生しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə tu ˈfækʃənz ˈtɛrətɔriz həv bɪn ˌoʊvɚˈlæpɪŋ fɔr mʌnθz ˈkɔzɪŋ ˌɑnˈɡoʊɪŋ dɪˈspjuːts/</div>
+<ul class="link"><li>have been: have 弱形 /həv/、/v/ が母音 /b/ に連結 [həv bɪn] ハヴ ビン</li><li>been overlapping: been 弱形 /bɪn/、/n/ が母音 /oʊ/ に連結 [bɪn ˌoʊvɚˈlæpɪŋ] ビン オウバーラッピング</li><li>for months: 語末の /r/ が子音 /m/ に続き未開放 [fɔr̚ mʌnθz] フォア マンス</li></ul>
+<div class="kana">ザ トゥー ファクションズ テリトリーズ ハヴ ビン オウバーラッピング フォア マンス コージング オンゴーイング ディスピューツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The spawn zone has been overlapping with our base since the new update.</p>
+<p class="ja">スポーンゾーンは新しいアップデート以来、私たちのベースと重なっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspoʊn zoʊn həz bɪn ˌoʊvɚˈlæpɪŋ wɪð ˈaʊɚ ˈbeɪs sɪns ðə nu ˈʌpdeɪt/</div>
+<ul class="link"><li>has been: has 弱形 /əz/、/z/ が母音 /b/ に連結、been 弱形 /bɪn/ [həz bɪn] ハズ ビン</li><li>been overlapping: been 弱形 /bɪn/、/n/ が母音 /oʊ/ に連結 [bɪn ˌoʊvɚˈlæpɪŋ] ビン オウバーラッピング</li><li>since the: the は弱形 /ðə/ [sɪns ðə] シンス ザ</li></ul>
+<div class="kana">ザ スポーン ゾーン ハズ ビン オウバーラッピング ウィズ アワー ベイス シンス ザ ニュー アップデイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will overlap</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl ˌoʊvɚˈlæp/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>overlap</mark> my base with the new expansion if the terrain allows it.</p>
+<p class="ja">地形が許すなら、新しい拡張領域と私のベースを重ね合わせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˌoʊvɚˈlæp maɪ beɪs wɪð ðə nu ɪkˈspænʃən ɪf ðə təˈreɪn əˈlaʊz ɪt/</div>
+<ul class="link"><li>I'll overlap: I'll 縮約形 /aɪl/ の /l/ が母音 /oʊ/ に連結</li><li>overlap my: overlap の /p/ が my の /m/ に続く</li><li>with the: the は弱形 /ðə/</li></ul>
+<div class="kana">アイル オウバーラップ マイ ベイス ウィズ ザ ニュー イクスペンション イフ ザ タレイン アロウズ イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team will <mark>overlap</mark> their storage areas with the central warehouse by next week.</p>
+<p class="ja">チームは来週までに、ストレージ領域を中央倉庫と重ね合わせるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə tim wɪl ˌoʊvɚˈlæp ðɛɹ ˈstɔrɪdʒ ˈɛriəz wɪð ðə ˈsɛntrəl ˈwɛɹhaʊs baɪ nɛkst wik/</div>
+<ul class="link"><li>team will: team の /m/ が will の /w/ に続く</li><li>will overlap: /l/ が母音 /oʊ/ に連結</li><li>with the: the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ティーム ウィル オウバーラップ ゼア ストレッジ エリアズ ウィズ ザ セントラル ウェアハウス バイ ネクスト ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be overlapping</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˌoʊvɚˈlæpɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Our bases will be overlapping for a while until we finish the redistricting.</p>
+<p class="ja">区分け直しが完了するまで、私たちのベースはしばらく重なった状態になります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈbeɪsɪz wɪl bi ˌoʊvɚˈlæpɪŋ fɔr ə waɪl ənˈtɪl wi ˈfɪnɪʃ ðə ˌridɪˈstrɪktɪŋ/</div>
+<ul class="link"><li>will be: will の /l/ が be の /i/ に連結</li><li>be overlapping: /b/ が母音 /oʊ/ に連結</li><li>for a: 語末の /r/ が母音 /ə/ に連結</li></ul>
+<div class="kana">アワー ベイシズ ウィル ビー オウバーラッピング フォア ア ワイル アンティル ウィー フィニッシュ ザ リディストリクティング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be overlapping the spawn chunks with our new build, so there could be issues.</p>
+<p class="ja">新しい建築でスポーンチャンクと重ね合わせることになるので、問題が発生する可能性があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˌoʊvɚˈlæpɪŋ ðə ˈspoʊn tʃʌŋks wɪð ˈaʊɚ nu bɪld soʊ ðɛɹ kʊd bi ˈɪʃuːz/</div>
+<ul class="link"><li>We'll be: We'll の /l/ が be の /i/ に連結</li><li>be overlapping: /b/ が母音 /oʊ/ に連結</li><li>the spawn: the は弱形 /ðə/</li></ul>
+<div class="kana">ウィル ビー オウバーラッピング ザ スポーン チャンクス ウィズ アワー ニュー ビルド ソー ゼア クッド ビー イシューズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have overlapped</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˌoʊvɚˈlæpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/overlap_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time construction ends, we will have overlapped at least three different zones.</p>
+<p class="ja">建設が終わるまでに、私たちは少なくとも3つの異なるゾーンを重ね合わせることになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm kənˈstrʌkʃən ɛndz wi wɪl həv ˌoʊvɚˈlæpt æt list θri ˈdɪfərənt zoʊnz/</div>
+<ul class="link"><li>will have: have 弱形 /həv/、/l/ が /h/ に続く</li><li>have overlapped: /v/ が母音 /oʊ/ に連結</li><li>at least: 語末 /t/ が子音 /l/ に続き未開放</li></ul>
+<div class="kana">バイ ザ タイム コンストラクション エンズ ウィー ウィル ハヴ オウバーラップト アット リースト スリー ディフラント ゾーンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>If they don't reach an agreement soon, the territories will have overlapped for months.</p>
+<p class="ja">もし彼らが間もなく合意に達しなければ、その領土は数ヶ月間重なったままになるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪf ðeɪ doʊnt ritʃ ən əˈɡrimənt sun ðə ˈtɛrətɔriz wɪl həv ˌoʊvɚˈlæpt fɔr mʌnθz/</div>
+<ul class="link"><li>will have: will の /l/ が have の /h/ に続く</li><li>have overlapped: /v/ が母音 /oʊ/ に連結</li><li>for months: 語末の /r/ が子音 /m/ に続き未開放</li></ul>
+<div class="kana">イフ ザイ ドーント リーチ アン ア グリーメント スーン ザ テリトリーズ ウィル ハヴ オウバーラップト フォア マンス</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">overlap with</span><span class="im">～と重なる、～と重複する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our base's build zone <mark>overlaps</mark> with the neighboring claim.</p>
+<p class="ja">私たちのベースの建築ゾーンが隣接するクレームと重なっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/overlap_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/overlap_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈbeɪsɪz bɪld zoʊn ˌoʊvɚˈlæpz wɪð ðə ˈneɪbɚɪŋ kleɪm/</div>
+<ul class="link"><li>zone overlaps: /n/ が母音 /oʊ/ に連結 [zoʊn ˌoʊvɚˈlæpz] ゾーン オウバーラップス</li><li>the は弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">アワー ベイシズ ビルド ゾーン オウバーラップス ウィズ ザ ネイバーリング クレイム</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="overlap";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

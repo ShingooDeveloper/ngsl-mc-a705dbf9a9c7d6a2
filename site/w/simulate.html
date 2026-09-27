@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>simulate — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>simulate</h2><span class="pos">動詞</span><span class="ipa-head">/ˈsɪm.jə.leɪt/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1802</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】真似する、機械などの動作をシミュレートする</li><li>【動詞】再現する、状況などを模擬する</li><li>【動詞】装う、ふるまう、になりすます</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>simulated</mark> the Nether in creative mode.</p>
+<p class="ja">私はクリエイティブモードでネザーをシミュレートした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈsɪm.jə.leɪ.ɾɪd ðə ˈnɛðɚ ɪn kɹi.ˈeɪ.ɾɪv ˈmoʊd/</div>
+<ul class="link"><li>「simulated the」語末子音 /d/ が弱形 /ðə/ の /ə/ に連結：[ˈsɪm.jə.leɪ.ɾɪ.ðə]</li><li>機能詞の弱形：「the」= /ðə/（子音の前）</li></ul>
+<div class="kana">アイ シミュレイリダ ネザー イン クリエイリヴ モード</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>simulated</mark> a Nether portal in our building project.</p>
+<p class="ja">私たちは建築プロジェクトでネザーポータルをシミュレートした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈsɪm.jə.leɪ.ɾɪd ə ˈnɛðɚ ˈpoɹ.ɾəl ɪn ˈaʊɚ ˈbɪl.dɪŋ ˈpɹɑ.dʒɛkt/</div>
+<ul class="link"><li>「simulated a」語末子音 /d/ が弱形 /ə/ に連結：[ˈsɪm.jə.leɪ.ɾɪ.də]</li><li>機能詞の弱形：「a」= /ə/</li></ul>
+<div class="kana">ウィ シミュレイリダ ネザー ポーラル イン アワ ビルディング プラジェクト</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I want to <mark>simulate</mark> building a village from scratch.</p>
+<p class="ja">一から村の建設をシミュレートしたい。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈwɑnt tə ˈsɪm.jə.leɪt ˈbɪl.dɪŋ ə ˈvɪl.ɪdʒ ˈfɹʌm ˈskrætʃ/</div>
+<ul class="link"><li>機能詞の弱形：「to」= /tə/</li><li>「building a」語末子音 /ŋ/ が /ə/ に連結：[ˈbɪl.dɪŋ.ə]</li></ul>
+<div class="kana">アイ ワント タ シミュレイト ビルディンガ ヴィリッジ フラム スクラッチ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">simulates</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈsɪmjəleɪts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This plugin <mark>simulates</mark> real physics for all mob movements.</p>
+<p class="ja">このプラグインはすべてのモブの動きに対してリアルな物理エンジンをシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈplʌɡɪn ˈsɪmjəleɪts ˈril ˈfɪzɪks fɔr ɔːl moʊb ˈmuvmənts/</div>
+<ul class="link"><li>plugin の語末 /n/ が simulates の /s/ に後続（子音+子音）で分かれる</li><li>simulates の語末 /z/ が real の /r/ に後続（子音+子音）で分かれる</li><li>all の語末 /l/ が mob の /m/ に後続（子音+子音）で分かれる</li></ul>
+<div class="kana">ディス プラギン シミュレイツ リアル フィジックス フォー オール モウブ ムーブメンツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The mod <mark>simulates</mark> weather changes across the entire map.</p>
+<p class="ja">そのモッドはマップ全体での天気の変化をシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə mɑd ˈsɪmjəleɪts ˈwɛðər ˈtʃeɪndʒɪz əˈkrɔs ðə ɪnˈtaɪər mæp/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ [ðə] ザ</li><li>mod の語末 /d/ が simulates の /s/ に後続（子音+子音）で分かれる</li><li>simulates の語末 /z/ が weather の /w/ に後続（子音+子音）で分かれる</li></ul>
+<div class="kana">ザ マド シミュレイツ ウェザー チェインジズ アクロス ザ インタイアー マップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">simulated</span><span class="fl">過去形</span><span class="fi">/ˈsɪmjəleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>simulated</mark> a complete cave collapse to test our survival skills.</p>
+<p class="ja">生存技能をテストするために、完全な洞窟の崩壊をシミュレートしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈsɪmjəleɪtɪd ə kəmˈplit keɪv kəˈlæps tə tɛst aʊɚ sərˈvaɪvəl skɪlz/</div>
+<ul class="link"><li>simulated の語末 /d/ が a の /ə/ に連結 [ˈsɪmjəleɪtɪd ə] シミュレイティド ア</li><li>complete の語末 /t/ が cave の /k/ に後続（子音+子音）で分かれる</li><li>to は機能語で弱形 /tə/ に弱化 [tə tɛst] タ テスト</li></ul>
+<div class="kana">ウィー シミュレイティド ア コンプリート ケイブ コラップス タ テスト アウアー サーヴァイヴァル スキルズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The experiment <mark>simulated</mark> what happens when mobs encounter barriers.</p>
+<p class="ja">その実験は、モブがバリアーに遭遇したときに何が起きるかをシミュレートしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪkˈspɛrɪmənt ˈsɪmjəleɪtɪd wʌt ˈhæpənz wɛn moʊbz ɪnˈkaʊntər ˈbæriərz/</div>
+<ul class="link"><li>experiment の語末 /t/ が simulated の /s/ に後続（子音+子音）で分かれる</li><li>happens の語末 /z/ が when の /w/ に後続（子音+子音）で分かれる</li><li>mobs の語末 /z/ が encounter の /ɪ/ に連結 [moʊbz ɪnˈkaʊntər] モウブズ インカウンター</li></ul>
+<div class="kana">ザ エクスペリメント シミュレイティド ワット ハペンズ ウェン モウブズ インカウンター バリアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">simulated</span><span class="fl">過去分詞</span><span class="fi">/ˈsɪmjəleɪtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The disaster that was <mark>simulated</mark> proved incredibly realistic.</p>
+<p class="ja">シミュレートされた災害は信じられないほどリアルであることが判明しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə dɪˈzæstər ðæt wəz ˈsɪmjəleɪtɪd pруːvd ɪnˈkrɛdəbli ˈrɛəlɪstɪk/</div>
+<ul class="link"><li>that の語末 /t/ は未開放で次の /w/ に続く [ðæt̚ wəz] ザット ワズ</li><li>was は助動詞で弱形 /wəz/ に弱化</li><li>simulated の語末 /d/ が proved の /p/ に後続（子音+子音）で分かれる</li></ul>
+<div class="kana">ザ ディザスター ザット ワズ シミュレイティド プルーヴド インクレディブリー リアリスティック</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Scenarios <mark>simulated</mark> by the developers showed major performance issues.</p>
+<p class="ja">開発者がシミュレートしたシナリオは、主要なパフォーマンスの問題を示しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɛnəriːoʊz ˈsɪmjəleɪtɪd baɪ ðə dɪˈvɛləpərz ʃoʊd ˈmeɪdʒər pərˈfɔrməns ˈɪʃuːz/</div>
+<ul class="link"><li>scenarios の語末 /z/ が simulated の /s/ に後続（子音+子音）で分かれる</li><li>by は機能語で弱形 /baɪ/ に保たれる</li><li>the は機能語で弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">セナリオズ シミュレイティド バイ ザ ディベロパーズ ショウド メイジャー パーフォーマンス イシューズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">simulating</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈsɪmjəleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>simulating</mark> different scenarios, we can predict how players will react.</p>
+<p class="ja">異なるシナリオをシミュレートすることで、プレイヤーがどう反応するかを予測できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈsɪmjəleɪtɪŋ ˈdɪfərənt ˈsɛnəriːoʊz wi kæn prɪˈdɪkt haʊ ˈpleɪərz wɪl ˈriækt/</div>
+<ul class="link"><li>by は機能語で弱形 /baɪ/、simulating の /s/ に後続（子音+子音）</li><li>simulating の語末 /ŋ/ が different の /d/ に後続（子音+子音）で分かれる</li><li>players の語末 /z/ が will の /w/ に後続（子音+子音）で分かれる</li></ul>
+<div class="kana">バイ シミュレイティング ディファレント セナリオズ ウィー キャン プリディクト ハウ プレイアーズ ウィル リアクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server is <mark>simulating</mark> realistic weather and climate systems.</p>
+<p class="ja">そのサーバーはリアルな気象と気候システムをシミュレートしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜːrvər ɪz ˈsɪmjəleɪtɪŋ ˈrɛəlɪstɪk ˈwɛðər ənd ˈklaɪmət ˈsɪstəmz/</div>
+<ul class="link"><li>the は機能語で弱形 /ðə/ [ðə] ザ</li><li>server の語末 /r/ が is の /ɪ/ に連結 [ˈsɜːrvər ɪz] サーバー イズ</li><li>simulating の語末 /ŋ/ が realistic の /r/ に後続（子音+子音）で分かれる</li></ul>
+<div class="kana">ザ サーバー イズ シミュレイティング リアリスティック ウェザー アンド クライメット システムズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is simulating</span><span class="fl">現在進行形（is/are + -ing）</span><span class="fi">/ɪz ˈsɪmjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone computer is <mark>simulating</mark> a complex farm automation system right now.</p>
+<p class="ja">レッドストーンコンピューターは今、複雑な農場オートメーションシステムを模擬しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛdstoʊn kəmˈpjuːtər ɪz ˈsɪmjəˌleɪtɪŋ ə ˈkɑmplɛks fɑrm ˌɔːtəˈmeɪʃən ˈsɪstəm ˈraɪt ˈnaʊ/</div>
+<ul class="link"><li>「is simulating」で is は弱形 /ɪz/ → [ɪz ˈsɪmjəˌleɪtɪŋ] イズ シミュレイティング</li><li>「simulating a」で /ŋ/ が /ə/ に連結 → [ˈsɪmjəˌleɪtɪŋ ə] シミュレイティング ア</li><li>「farm automation」で /m/ が /ɔ/ に先行 → [fɑrm ˌɔːtəˈmeɪʃən] ファーム オートメーション</li></ul>
+<div class="kana">ザ レッドストウン コンピューター イズ シミュレイティング ア コンプレックス ファーム オートメーション システム ライト ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>simulating</mark> the wither boss fight mechanics to prepare for the battle.</p>
+<p class="ja">私は戦闘に備えるためにウィザーボスの戦闘メカニクスを模擬しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈsɪmjəˌleɪtɪŋ ðə ˈwɪðər bɔs ˈfaɪt ˈmɛkənɪks tə prɪˈpɛr fɔr ðə ˈbætəl/</div>
+<ul class="link"><li>「I'm simulating」で I'm /aɪm/ と simulating /s/ が先行 → [aɪm ˈsɪmjəˌleɪtɪŋ] アイム シミュレイティング</li><li>「simulating the」で /ŋ/ が /ð/ に先行 → [ˈsɪmjəˌleɪtɪŋ ðə] シミュレイティング ザ</li><li>「to prepare」で to は弱形 /tə/ → [tə prɪˈpɛr] タ プリペア</li></ul>
+<div class="kana">アイム シミュレイティング ザ ウィザー ボス ファイト メカニックス タ プリペア フォア ザ バットル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was simulating</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈsɪmjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>simulating</mark> mining patterns when the server suddenly lagged.</p>
+<p class="ja">サーバーが急に遅くなったとき、私たちは採掘パターンを模擬していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wər ˈsɪmjəˌleɪtɪŋ ˈmaɪnɪŋ ˈpætərnz wɛn ðə ˈsɜːrvər səˈdɛnli ˈlæɡd/</div>
+<ul class="link"><li>「were simulating」で were は弱形 /wər/ → [wər ˈsɪmjəˌleɪtɪŋ] ワー シミュレイティング</li><li>「simulating mining」で /ŋ/ が /m/ に先行（未開放）→ [ˈsɪmjəˌleɪtɪŋ̚ ˈmaɪnɪŋ] シミュレイティング マイニング</li><li>「when the」で when /wɛn/, the は弱形 /ðə/ → [wɛn ðə] ウェン ザ</li></ul>
+<div class="kana">ウィー ワー シミュレイティング マイニング パターンズ ウェン ザ サーバー サッデンリー ラッグド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The testing arena was <mark>simulating</mark> different difficulty levels throughout the night.</p>
+<p class="ja">テスト用アリーナは夜通し異なるdifficulty レベルを模擬していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtɛstɪŋ əˈɹiːnə wəz ˈsɪmjəˌleɪtɪŋ ˈdɪfərənt ˈdɪfɪkəlti ˈlɛvəlz θruːˈaʊt ðə ˈnaɪt/</div>
+<ul class="link"><li>「testing arena」で /ŋ/ が /ə/ に連結 → [ˈtɛstɪŋ əˈɹiːnə] テスティング アリーナ</li><li>「was simulating」で was は弱形 /wəz/ → [wəz ˈsɪmjəˌleɪtɪŋ] ワズ シミュレイティング</li><li>「the night」で the は弱形 /ðə/, night は /n/ で始まる → [ðə ˈnaɪt] ザ ナイト</li></ul>
+<div class="kana">ザ テスティング アリーナ ワズ シミュレイティング ディファレント ディフィカルティー レベルズ スルーアウト ザ ナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been simulating</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈsɪmjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we started the event, we had been <mark>simulating</mark> the game mechanics for weeks.</p>
+<p class="ja">イベントを始めるまでに、私たちはゲームメカニクスを数週間シミュレートしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈstɑɹtəd ðə ɪˈvɛnt wi həd bɪn ˈsɪmjəˌleɪtɪŋ ðə ˈɡeɪm ˈmɛkənɪks fɔr wiks/</div>
+<ul class="link"><li>「had been」で had は弱形 /həd/, been は弱形 /bɪn/ → [həd bɪn] ハッド ビン</li><li>「been simulating」で /n/ が /s/ に先行（未開放）→ [bɪn ˈsɪmjəˌleɪtɪŋ] ビン シミュレイティング</li><li>「the game」で the は弱形 /ðə/, game は /ɡ/ で始まる → [ðə ˈɡeɪm] ザ ゲイム</li></ul>
+<div class="kana">バイ ザ タイム ウィー スターテッド ザ イベント ウィー ハッド ビン シミュレイティング ザ ゲイム メカニックス フォア ウィークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The developers had been <mark>simulating</mark> player behavior before releasing the update.</p>
+<p class="ja">開発者たちはアップデートをリリースする前に、プレイヤーの行動をシミュレートしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə dɪˈvɛləpərz həd bɪn ˈsɪmjəˌleɪtɪŋ ˈpleɪər bɪˈheɪvjər bɪˈfɔr rɪˈliːsɪŋ ðə ʌpˈdeɪt/</div>
+<ul class="link"><li>「had been」で had は弱形 /həd/, been は弱形 /bɪn/ → [həd bɪn] ハッド ビン</li><li>「been simulating」で /n/ が /s/ に先行（未開放）→ [bɪn ˈsɪmjəˌleɪtɪŋ] ビン シミュレイティング</li><li>「before releasing」で /ə/ が /r/ に連結 → [bɪˈfɔr rɪˈliːsɪŋ] ビフォア リリーシング</li></ul>
+<div class="kana">ザ ディベロッパーズ ハッド ビン シミュレイティング プレイヤー ビヘイビア ビフォア リリーシング ザ アップデイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has simulated</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈsɪmjəˌleɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>simulated</mark> countless redstone contraptions to master the advanced mechanics.</p>
+<p class="ja">高度なメカニクスをマスターするために、私たちは無数のレッドストーン装置をシミュレートしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv ˈsɪmjəˌleɪtəd ˈkaʊntləs ˈrɛdstoʊn kənˈtræpʃənz tə ˈmæstər ðə ədˈvænst məˈkænɪks/</div>
+<ul class="link"><li>「have simulated」で have は弱形 /həv/ → [həv ˈsɪmjəˌleɪtəd] ハヴ シミュレイテッド</li><li>「to master」で to は弱形 /tə/ → [tə ˈmæstər] タ マスター</li></ul>
+<div class="kana">ウィー ハヴ シミュレイテッド カウントレス レッドストウン コントラプションズ タ マスター ザ アドバンスト メカニックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server has <mark>simulated</mark> weather and day-night cycles for the players to experience.</p>
+<p class="ja">サーバーはプレイヤーが体験するための天気と昼夜のサイクルをシミュレートしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜːrvər həz ˈsɪmjəˌleɪtəd ˈwɛðər ənd ˈdeɪˈnaɪt ˈsaɪkəlz fɔr ðə ˈpleɪərz tə ɪkˈspiːriəns/</div>
+<ul class="link"><li>「has simulated」で has は弱形 /həz/ → [həz ˈsɪmjəˌleɪtəd] ハズ シミュレイテッド</li><li>「to experience」で to は弱形 /tə/ → [tə ɪkˈspiːriəns] タ イクスピアリエンス</li></ul>
+<div class="kana">ザ サーバー ハズ シミュレイテッド ウェザー アンド デイナイト サイクルズ フォア ザ プレイヤーズ タ イクスピアリエンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had simulated</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈsɪmjəˌleɪtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the players arrived, they had <mark>simulated</mark> every possible outcome of the puzzle.</p>
+<p class="ja">プレイヤーが到着する前に、彼らはパズルの考えられるすべての結果をシミュレートしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr ðə ˈpleɪərz əˈraɪvd ðeɪ həd ˈsɪmjəˌleɪtəd ˈɛvri ˈpɑsəbəl ˈaʊtkəm əv ðə ˈpʌzəl/</div>
+<ul class="link"><li>「before the」で before は /r/ で終わり the は弱形 /ðə/ → [bɪˈfɔr ðə] ビフォア ザ</li><li>「had simulated」で had は弱形 /həd/ → [həd ˈsɪmjəˌleɪtəd] ハッド シミュレイテッド</li><li>「of the」で of は弱形 /əv/, the は弱形 /ðə/ → [əv ðə] アブ ザ</li></ul>
+<div class="kana">ビフォア ザ プレイヤーズ アライヴド ゼイ ハッド シミュレイテッド エブリー パサベル アウトカム アブ ザ パズル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team had <mark>simulated</mark> the mining operation thoroughly before sending workers underground.</p>
+<p class="ja">チームは労働者を地下に送る前に、採掘作業を徹底的にシミュレートしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtiːm həd ˈsɪmjəˌleɪtəd ðə ˈmaɪnɪŋ ˌɑːpəˈreɪʃən ˈθɜːroʊli bɪˈfɔr ˈsɛndɪŋ ˈwɜːrkərz ˌʌndərˈɡraʊnd/</div>
+<ul class="link"><li>「had simulated」で had は弱形 /həd/ → [həd ˈsɪmjəˌleɪtəd] ハッド シミュレイテッド</li><li>「simulated the」で /d/ が /ð/ に先行 → [ˈsɪmjəˌleɪtəd ðə] シミュレイテッド ザ</li></ul>
+<div class="kana">ザ ティーム ハッド シミュレイテッド ザ マイニング オペレーション スゥオウリー ビフォア センディング ワーカーズ アンダーグラウンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been simulating</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈsɪmjəˌleɪtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Our crew has been <mark>simulating</mark> the economy system for the last three months.</p>
+<p class="ja">私たちのクルーはここ3ヶ月間、経済システムをシミュレートしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈkru həz bɪn ˈsɪmjəˌleɪtɪŋ ðə ɪˈkɑnəmi ˈsɪstəm fɔr ðə ˈlæst ˈθri ˈmʌnθz/</div>
+<ul class="link"><li>「has been」で has は弱形 /həz/, been は弱形 /bɪn/ → [həz bɪn] ハズ ビン</li><li>「the economy」で the は弱形 /ðə/, economy は /ɪ/ で始まる → [ðə ɪˈkɑnəmi] ザ イコノミー</li></ul>
+<div class="kana">アワー クルー ハズ ビン シミュレイティング ザ イコノミー システム フォア ザ ラスト スリー マンスズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>simulating</mark> different building techniques to find the most efficient design.</p>
+<p class="ja">最も効率的なデザインを見つけるために、私は異なる建築技術をシミュレートしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈsɪmjəˌleɪtɪŋ ˈdɪfərənt ˈbɪldɪŋ tɛkˈniːks tə ˈfaɪnd ðə ˈmoʊst ɪˈfɪʃənt dɪˈzaɪn/</div>
+<ul class="link"><li>「have been」で have は弱形 /həv/, been は弱形 /bɪn/ → [həv bɪn] ハヴ ビン</li><li>「to find」で to は弱形 /tə/ → [tə ˈfaɪnd] タ ファインド</li></ul>
+<div class="kana">アイ ハヴ ビン シミュレイティング ディファレント ビルディング テクニークス タ ファインド ザ モウスト イフィシェント ディザイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will simulate</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈsɪmjəˌleɪt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>simulate</mark> the cave-in scenario to test our backup tunnel system.</p>
+<p class="ja">バックアップトンネルシステムをテストするために、洞窟崩落シナリオをシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈsɪmjəˌleɪt ðə ˈkeɪv ɪn ˌsɛnˈɑːrioʊ tə ˈtɛst ˈaʊɚ ˈbækʌp ˈtʌnəl ˈsɪstəm/</div>
+<ul class="link"><li>「to test」で to は弱形 /tə/</li></ul>
+<div class="kana">アイル シミュレイト ザ ケイブ イン シナリオ タ テスト アワー バックアップ トンネル システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>simulate</mark> the redstone pressure plate mechanism before finalizing the trap design.</p>
+<p class="ja">トラップデザインを最終確定する前に、彼らはレッドストーン感圧プレートメカニズムをシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl ˈsɪmjəˌleɪt ðə ˈrɛdstoʊn ˈprɛʃər pleɪt ˈmɛkənɪzəm bɪˈfɔr ˌfaɪnəˈlaɪzɪŋ ðə ˈtræp dɪˈzaɪn/</div>
+<ul class="link"><li>「the redstone」で the は弱形 /ðə/</li></ul>
+<div class="kana">ゼイ ウィル シミュレイト ザ レッドストウン プレッシャー プレイト メカニズム ビフォア ファイナライジング ザ トラップ ディザイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be simulating</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈsɪmjəˌleɪɾɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While we're building the farm, the system will be <mark>simulating</mark> growth cycles automatically.</p>
+<p class="ja">農場を建築している間、システムは自動的に成長サイクルをシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl wɪr ˈbɪldɪŋ ðə fɑrm ðə ˈsɪstəm wɪl bi ˈsɪmjəˌleɪɾɪŋ ɡroʊθ ˈsaɪkəlz ˌɔːtəˈmætɪkli/</div>
+<ul class="link"><li>「the farm」で the は弱形 /ðə/</li></ul>
+<div class="kana">ワイル ウィア ビルディング ザ ファーム ザ システム ウィル ビ シミュレイリング グロウス サイクルズ オートマティカリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The server will be <mark>simulating</mark> weather effects all night to prepare the environment.</p>
+<p class="ja">環境を準備するために、サーバーは夜中ずっと天気エフェクトをシミュレートします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɜːrvər wɪl bi ˈsɪmjəˌleɪɾɪŋ ˈwɛðər ɪˈfɛkts ˈɔl naɪt tə prɪˈpɛr ðə ɪnˈvaɪrənmənt/</div>
+<ul class="link"><li>「to prepare」で to は弱形 /tə/</li></ul>
+<div class="kana">ザ サーバー ウィル ビ シミュレイリング ウェザー イフェクツ オール ナイト タ プリペア ザ エンバイアンメント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have simulated</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈsɪmjəˌleɪɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/simulate_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, we will have <mark>simulated</mark> every possible mining scenario for the new players.</p>
+<p class="ja">来週までに、私たちは新しいプレイヤーのために考えられるあらゆる採掘シナリオをシミュレートしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ nɛkst wiːk wi wɪl həv ˈsɪmjəˌleɪɾəd ˈɛvri ˈpɑsəbəl ˈmaɪnɪŋ səˈnæɹioʊ fɔr ðə ˈnu ˈpleɪərz/</div>
+<ul class="link"><li>「the new」で the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ネクスト ウィーク ウィー ウィル ハヴ シミュレイレッド エブリー パサベル マイニング シナリオ フォア ザ ニュー プレイヤーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll have <mark>simulated</mark> the entire wither boss fight before the actual event happens.</p>
+<p class="ja">実際のイベントが起こる前に、私はウィザーボスとの戦いをすべてシミュレートしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/simulate_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/simulate_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl həv ˈsɪmjəˌleɪɾəd ði ənˈtaɪr ˈwɪðər bɑs ˈfaɪt bɪˈfɔr ði ˈæktʃuəl ɪˈvɛnt ˈhæpənz/</div>
+<ul class="link"><li>「the entire」で the は弱形 /ði/</li></ul>
+<div class="kana">アイル ハヴ シミュレイレッド ザ エンタイアー ウィザー ボス ファイト ビフォア ザ アクチュアル イベント ハペンズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="simulate";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

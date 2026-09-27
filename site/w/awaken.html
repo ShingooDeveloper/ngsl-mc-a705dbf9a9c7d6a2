@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>awaken — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>awaken</h2><span class="pos">動詞</span><span class="ipa-head">/əˈweɪkən/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1539</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞（自動詞）】目覚める、目を覚ます（睡眠から目が覚めること）</li><li>【動詞（他動詞）】～を目覚めさせる、～を起こす</li><li>【動詞】（比喩的）～を活性化させる、～の感情や関心を呼び覚ます</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>When I <mark>awaken</mark> at my base, I check the surroundings for mobs.</p>
+<p class="ja">自分の拠点で目覚めたとき、周囲のモブをチェックする。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɛn aɪ əˈweɪkənæt̚ maɪ ˈbeɪs aɪ tʃɛk ðə səˈraʊndɪŋz fɔɹ ˈmɑbz]</div>
+<ul class="link"><li>awaken at: 語末 /n/ が次の母音 /æ/ に連結し [əˈweɪkənæ]、アウェイカナと聞こえる</li><li>the: 定冠詞の弱形 /ðə/（通常の /ðiː/ ではなく）</li></ul>
+<div class="kana">ウェン アイ アウェイカナッ マイ ベイス アイ チェック ザ サラウンディングズ フォー マブズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The warden <mark>awakens</mark> if you make too much noise near the deep dark.</p>
+<p class="ja">深いダークで大きな音を立てるとウォーデンが目を覚ます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈwɔːrdən əˈwekənz ɪf ju meɪk tuː ˈmʌtʃ nɔɪz nɪr ðə ˈdiːp dɑːrk]</div>
+<ul class="link"><li>warden awakens: 語末 /n/ が次の母音 /ə/ に連結</li><li>the: 弱形 /ðə/（複数出現）</li></ul>
+<div class="kana">ザ ウォーデナウェケンズ イフ ユー メイク トゥマッチ ノイズ ニア ザ ディープ ダーク</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>awaken</mark> early to gather resources before night.</p>
+<p class="ja">夜が来る前に資源を集めるため、早く目覚める必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈniːd̚ tə əˈweɪkən ˈɜːrli tə ˈɡæðər ɹɪˈsoɚsəz bɪˈfoɚ naɪt]</div>
+<ul class="link"><li>need to: need の /d/ が未開放で to /tə/（弱形）に直結 [ˈniːd̚tə]</li><li>awaken early: 語末 /n/ が early の語頭の母音 /ɜː/ に連結</li></ul>
+<div class="kana">アイ ニード タ アウェイカナーリー タ ギャザー リソーセズ ビフォー ナイト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">awakens</span><span class="fl">三人称単数現在形</span><span class="fi">/əˈweɪkənz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sun <mark>awakens</mark> the day with brilliant light across the biome.</p>
+<p class="ja">太陽はバイオームを横切る素晴らしい光で1日を目覚めさせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə sʌn əˈweɪkənz ðə deɪ wɪð ˈbrɪljənt laɪt əˈkɹɔs ðə ˈbaɪoʊm/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>awakens the - /z/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>day with - /t/ が /w/ に続く（子音+子音）</li><li>across は語末 /s/ が次の音に続く</li></ul>
+<div class="kana">ザ サン アウェイクンズ ザ デイ ウィズ ブリリャント ライト アクロス ザ バイオーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The hopper mechanism <mark>awakens</mark> every time a player walks past the pressure plate.</p>
+<p class="ja">ホッパーメカニズムは、プレイヤーが圧力プレートを歩き過ぎるたびに目覚めます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhɑpər ˈmɛkənɪzəm əˈweɪkənz ˈɛvri taɪm ə ˈpleɪər wɔks pæst ðə ˈpɹɛʃər pleɪt/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>hopper mechanism - /r/ が /m/ に続く（子音+子音）</li><li>awakens every - /z/ が /ɛ/ に連結 [əˈweɪkənz ˈɛvri] アウェイクンズ エヴリー</li><li>player walks - /r/ が /w/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ ホッパー メカニズム アウェイクンズ エヴリー タイム ア プレイアー ウォークス パスト ザ プレッシャー プレイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">awoke</span><span class="fl">過去形</span><span class="fi">/əˈwoʊk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I awoke to realize that a creeper had destroyed half of my house.</p>
+<p class="ja">私は目を覚まして、クリーパーが私の家の半分を破壊したことに気づきました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əˈwoʊk tə ɹɪˈælaɪz ðæt ə ˈkɹipər həd dɪˈstɹɔɪd hæf əv maɪ haʊs/</div>
+<ul class="link"><li>awoke to - /k/ が /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>realize that - /z/ が /ð/ に続く（子音+子音）</li><li>of は弱形 /əv/ アヴ</li><li>creeper had - /r/ が /h/ に続く（子音+子音）</li></ul>
+<div class="kana">アイ アウォーク タ リアライズ ザット ア クリーパー ハド ディストロイド ハーフ アヴ マイ ハウス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The skeleton awoke from sleep when the torch light touched the darkness.</p>
+<p class="ja">スケルトンは、松明の光が暗さに触れたときに睡眠から目覚めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɛlɪtən əˈwoʊk frəm slip wɛn ðə tɔrʃ laɪt ˈtʌtʃd ðə ˈdɑrknəs/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>awoke from - /k/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>torch light - /tʃ/ が /l/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ、touched the - /t/ が /ð/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ スケレトン アウォーク フラム スリープ ウェン ザ トーチ ライト タッチド ザ ダークネス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">awoken</span><span class="fl">過去分詞形</span><span class="fi">/əˈwoʊkən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having awoken from the nightmare, the player built walls to keep themselves safe.</p>
+<p class="ja">悪夢から目覚めたので、そのプレイヤーは自分たちを安全に保つために壁を建設しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæviŋ əˈwoʊkən frəm ðə ˈnaɪtˌmɛr ðə ˈpleɪər bɪlt wɔlz tə kip ðɛmˈsɛlvz seɪf/</div>
+<ul class="link"><li>Having awoken - /ŋ/ が /ə/ に連結 [ˈhæviŋ əˈwoʊkən] ハヴィング アウォーケン</li><li>awoken from - /n/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>the は弱形 /ðə/ ザ</li><li>to は弱形 /tə/、keep themselves - /p/ が /ð/ に続く（子音+子音）</li></ul>
+<div class="kana">ハヴィング アウォーケン フラム ザ ナイトメア ザ プレイアー ビルト ウォールズ タ キープ ザムセルブズ セイフ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once awoken, the ancient golem began its patrol around the village.</p>
+<p class="ja">一度目覚めたら、古代のゴーレムは村の周りをパトロールし始めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns əˈwoʊkən ðə ˈeɪnʃənt ˈɡoʊləm bɪˈɡæn ɪts pəˈtɹoʊl əˈɹaʊnd ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>once awoken - /s/ が /ə/ に連結 [wʌns əˈwoʊkən] ワンス アウォーケン</li><li>the は定冠詞で弱形 /ðə/ ザ</li><li>ancient golem - /t/ が /ɡ/ に続く（子音+子音）</li><li>patrol around - /l/ が /ə/ に連結 [pəˈtɹoʊl əˈɹaʊnd] パトロール アラウンド</li></ul>
+<div class="kana">ワンス アウォーケン ザ エインシェント ゴーレム ビガン イツ パトロール アラウンド ザ ヴィリジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">awakening</span><span class="fl">現在分詞・動名詞</span><span class="fi">/əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Awakening</mark> the dragon is dangerous and requires careful planning to survive.</p>
+<p class="ja">ドラゴンを目覚めさせることは危険であり、生き残るために慎重な計画が必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/əˈweɪkənɪŋ ðə ˈdɹæɡən ɪz ˈdeɪndʒərəs ənd rɪˈkwaɪrz ˈkɛrfəl ˈplænɪŋ tə sərˈvaɪv/</div>
+<ul class="link"><li>Awakening the - /ŋ/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li><li>dragon is - /n/ が /ɪ/ に連結 [ˈdɹæɡən ɪz] ドラゴン イズ</li><li>and requires - /d/ が /ɹ/ に続く（子音+子音）</li><li>to は弱形 /tə/、survive の末尾 /v/ は文末なので未開放</li></ul>
+<div class="kana">アウェイクニング ザ ドラゴン イズ デインジャラス アンド リクワイアーズ ケアフル プランニング タ サーヴァイヴ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Awakening</mark> to the sounds of mobs, the builder abandoned their night project.</p>
+<p class="ja">モブの音に目覚めながら、ビルダーは彼らの夜のプロジェクトを放棄しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/əˈweɪkənɪŋ tə ðə saʊndz əv moʊbz ðə ˈbɪldər əˈbændənd ðɛɚ naɪt ˈpɹɑdʒɛkt/</div>
+<ul class="link"><li>Awakening to - /ŋ/ が /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>the は弱形 /ðə/ ザ</li><li>sounds of - /z/ が /ə/ に連結 [saʊndz əv] サウンズ アヴ、of は弱形 /əv/</li><li>builder abandoned - /r/ が /ə/ に連結 [ˈbɪldər əˈbændənd] ビルダー アバンダンド</li></ul>
+<div class="kana">アウェイクニング タ ザ サウンズ アヴ モーブズ ザ ビルダー アバンダンド ゼア ナイト プロジェクト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is awakening</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I am <mark>awakening</mark> from sleep; mobs are gathering outside.</p>
+<p class="ja">私は眠りから目覚めています。モブが外に集まっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əm əˈweɪkənɪŋ frəm slip mɑbz ɑr ˈɡæðərɪŋ ˈaʊtˌsaɪd/</div>
+<ul class="link"><li>am は助動詞で弱形 /əm/ ム</li><li>awakening from - 語末 /ŋ/ が from の /f/ に続く（子音+子音）, from は弱形 /frəm/ フラム</li><li>sleep mobs - 語末 /p/ が mobs の /m/ に続く（子音+子音）</li><li>mobs are - 語末の /z/ が are の /ɑ/ に連結 [mɑbz ɑr] モブズ アー, are は弱形 /ɑr/</li></ul>
+<div class="kana">アイ ム アウェイクニング フラム スリープ モブズ アー ギャザリング アウトサイド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian is <mark>awakening</mark> in the deep ocean temple.</p>
+<p class="ja">そのガーディアンは深いオーシャンテンプルで目覚めています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑrdiən ɪz əˈweɪkənɪŋ ɪn ðə ˈdip ˈoʊʃən ˈtɛmpəl/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>guardian is - 語末 /n/ が is の /ɪ/ に続く（子音+子音）, is は弱形 /ɪz/ イズ</li><li>awakening in - 語末 /ŋ/ が in の /ɪ/ に続く（子音+子音）, in は弱形 /ɪn/</li><li>ocean temple - 語末 /n/ が temple の /t/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ ガーディアン イズ アウェイクニング イン ザ ディープ オーシャン テンプル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was awakening</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>awakening</mark> when the Ender Dragon appeared in the sky.</p>
+<p class="ja">エンダードラゴンが空に現れたとき、私たちは目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wər əˈweɪkənɪŋ wɛn ðə ˈɛndər ˈdɹæɡən əˈpɪrd ɪn ðə skaɪ/</div>
+<ul class="link"><li>were は助動詞で弱形 /wər/ ワー</li><li>awakening when - 語末 /ŋ/ が when の /w/ に続く（子音+子音）</li><li>The は弱形 /ðə/ ザ</li><li>appeared in - 語末 /d/ が in の /ɪ/ に続く（子音+子音）, in は弱形 /ɪn/</li></ul>
+<div class="kana">ウィー ワー アウェイクニング ウェン ザ エンダー ドラゴン アピアード イン ザ スカイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The villagers were <mark>awakening</mark> as the sun rose over the mountains.</p>
+<p class="ja">太陽が山々の上に昇るにつれて、村人たちは目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈvɪlɪdʒərz wər əˈweɪkənɪŋ æz ðə sʌn roʊz ˈoʊvər ðə ˈmaʊntənz/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>were は助動詞で弱形 /wər/ ワー</li><li>awakening as - 語末 /ŋ/ が as の /æ/ に続く（子音+子音）</li><li>sun rose - 語末 /n/ が rose の /ɹ/ に続く（子音+子音）, over the - 語末 /r/ が the の /ð/ に続く（子音+子音）, the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ヴィリジャーズ ワー アウェイクニング アズ ザ サン ローズ オーバー ザ マウンテンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been awakening</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>awakening</mark> gradually before the alarm sounded.</p>
+<p class="ja">警報が鳴る前に、私たちは徐々に目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn əˈweɪkənɪŋ ˈɡɹæduəli bɪˈfɔr ðə əˈlɑrm ˈsaʊndəd/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/ ハド, been は弱形 /bɪn/ ビン</li><li>awakening gradually - 語末 /ŋ/ が gradually の /ɡ/ に続く（子音+子音）</li><li>before the - 語末 /r/ が the の /ð/ に続く（子音+子音）, the は弱形 /ðə/ ザ</li><li>alarm sounded - 語末 /m/ が sounded の /s/ に続く（子音+子音）</li></ul>
+<div class="kana">ウィー ハド ビン アウェイクニング グラジュアリー ビフォア ザ アラーム サウンデッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian had been <mark>awakening</mark> slowly when we discovered the temple.</p>
+<p class="ja">私たちが寺院を発見したとき、ガーディアンはゆっくりと目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑrdiən həd bɪn əˈweɪkənɪŋ ˈsloʊli wɛn wi dɪˈskʌvərd ðə ˈtɛmpəl/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>had は助動詞で弱形 /həd/ ハド, been は弱形 /bɪn/ ビン</li><li>awakening slowly - 語末 /ŋ/ が slowly の /s/ に続く（子音+子音）</li><li>when we - 語末 /n/ が we の /w/ に続く（子音+子音）, discovered the - 語末 /d/ が the の /ð/ に続く（子音+子音）, the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ガーディアン ハド ビン アウェイクニング スロウリー ウェン ウィー ディスカバード ザ テンプル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has awakened</span><span class="fl">現在完了形</span><span class="fi">/həz əˈweɪkənd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian has <mark>awakened</mark> in the deep water temple.</p>
+<p class="ja">ガーディアンは深いオーシャンテンプルで目覚めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑrdiən həz əˈweɪkənd ɪn ðə ˈdip ˈwɔtər ˈtɛmpəl/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>guardian has - /n/ が /h/ に続く（子音+子音）、has は弱形 /həz/</li><li>awakened in - /d/ が /ɪ/ に連結 [əˈweɪkənd ɪn] アウェイクンド イン、in は弱形 /ɪn/</li><li>the は弱形 /ðə/ ザ、water temple - /r/ が /t/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ ガーディアン ハズ アウェイクンド イン ザ ディープ ウォーター テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>awakened</mark> before sunrise to mine diamonds in the deep caves.</p>
+<p class="ja">私たちは深いケーブでダイヤモンドを採掘するために、日の出前に目覚めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv əˈweɪkənd bɪˈfɔr ˈsʌnˌɹaɪz tu maɪn ˈdaɪməndz ɪn ðə ˈdip keɪvz/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>awakened before - /d/ が /b/ に続く（子音+子音）</li><li>sunrise to - /z/ が /t/ に続く（子音+子音）、to は弱形 /tə/</li><li>deep caves - /p/ が /k/ に続く（子音+子音）</li></ul>
+<div class="kana">ウィー ハヴ アウェイクンド ビフォア サンライズ タ マイン ダイモンズ イン ザ ディープ ケイブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had awakened</span><span class="fl">過去完了形</span><span class="fi">/həd əˈweɪkənd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The player had <mark>awakened</mark> just before the Ender Dragon destroyed the sanctuary.</p>
+<p class="ja">プレイヤーはエンダードラゴンが聖域を破壊する直前に目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪər həd əˈweɪkənd dʒʌst bɪˈfɔr ðə ˈɛndər ˈdɹæɡən dɪˈstɹɔɪd ðə ˈsæŋkˌtʃuːˌɛri/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>had は助動詞で弱形 /həd/ ハド</li><li>awakened just - /d/ が /dʒ/ に続く（子音+子音）</li><li>before the - /r/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ プレイアー ハド アウェイクンド ジャスト ビフォア ザ エンダー ドラゴン ディストロイド ザ サンクチュアリ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had <mark>awakened</mark> from their sleep when the warning bell rang in the village.</p>
+<p class="ja">警鐘が村で鳴ったとき、彼らは睡眠から目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd əˈweɪkənd frəm ðɛr slip wɛn ðə ˈwɔrnɪŋ bɛl ɹæŋ ɪn ðə ˈvɪlɪdʒ/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/ ハド</li><li>awakened from - /d/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>the は弱形 /ðə/ ザ、warning bell - /ŋ/ が /b/ に続く（子音+子音）</li><li>rang in - /ŋ/ が /ɪ/ に連結 [ɹæŋ ɪn] ラング イン、in は弱形 /ɪn/</li></ul>
+<div class="kana">ゼイ ハド アウェイクンド フラム ゼア スリープ ウェン ザ ウォーニング ベル ラング イン ザ ヴィリジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been awakening</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian has been <mark>awakening</mark> slowly since we entered the ocean temple.</p>
+<p class="ja">私たちがオーシャンテンプルに入ってから、ガーディアンはゆっくりと目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑrdiən həz bɪn əˈweɪkənɪŋ ˈsloʊli sɪns wi ˈɛntərd ðə ˈoʊʃən ˈtɛmpəl/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>has は弱形 /həz/ ハズ、been は弱形 /bɪn/ ビン</li><li>awakening slowly - /ŋ/ が /s/ に続く（子音+子音）</li><li>since we - /s/ が /w/ に続く（子音+子音）、entered the - /d/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/</li></ul>
+<div class="kana">ザ ガーディアン ハズ ビン アウェイクニング スロウリー シンス ウィー エンタード ザ オーシャン テンプル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>awakening</mark> from nightmares about creeper explosions all week.</p>
+<p class="ja">私は一週間中、クリーパー爆発についての悪夢から目覚めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn əˈweɪkənɪŋ frəm ˈnaɪtˌmɛrz əˈbaʊt ˈkɹipər ɪkˈsploʊʒənz ɔl wik/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ、been は弱形 /bɪn/ ビン</li><li>awakening from - /ŋ/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>nightmares about - /z/ が /ə/ に連結 [ˈnaɪtˌmɛrz əˈbaʊt] ナイトメアーズ アバウト</li><li>creeper explosions - /r/ が /ɪ/ に連結</li></ul>
+<div class="kana">アイ ハヴ ビン アウェイクニング フラム ナイトメアーズ アバウト クリーパー イクスプロージャンズ オール ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will awaken</span><span class="fl">単純未来形</span><span class="fi">/wɪl əˈweɪkən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>awaken</mark> before dawn to gather supplies from the mine.</p>
+<p class="ja">私は夜明け前に鉱山から補給品を集めるために目覚めます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl əˈweɪkən bɪˈfɔr dɔn tu ˈɡæðər səˈplaɪz frəm ðə maɪn/</div>
+<ul class="link"><li>will awaken - /l/ が /ə/ に続く（子音+子音）</li><li>awaken before - /n/ が /b/ に続く（子音+子音）</li><li>to は弱形 /tə/、supplies from - /z/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ ウィル アウェイクン ビフォア ドーン タ ギャザー サプライズ フラム ザ マイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We will <mark>awaken</mark> and begin our quest to reach the Nether fortress.</p>
+<p class="ja">私たちは目覚めてネザー砦に到達する探求を始めます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl əˈweɪkən ənd bɪˈɡɪn ˈaʊər kwɛst tu ɹitʃ ðə ˈnɛðər ˈfɔɹtɪs/</div>
+<ul class="link"><li>will awaken - /l/ が /ə/ に続く（子音+子音）、awaken and - /n/ が /æ/ に続く（子音+子音）、and は弱形 /ənd/</li><li>begin our - /n/ が /ˈaʊ/ に続く（子音+母音の連結）[bɪˈɡɪn ˈaʊər] ビギン アワー</li><li>quest to - /t/ が /t/ に続く（子音+子音、未開放）[kwɛst̚ tu] クウェスト タ</li><li>the は弱形 /ðə/ ザ、fortress の語末 /s/</li></ul>
+<div class="kana">ウィー ウィル アウェイクン アンド ビギン アワー クウェスト タ リーチ ザ ネザー フォーティス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be awakening</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi əˈweɪkənɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The guardian will be <mark>awakening</mark> as we approach the ocean temple entrance.</p>
+<p class="ja">私たちがオーシャンテンプルの入口に近づくにつれて、ガーディアンが目覚めます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡɑrdiən wɪl bi əˈweɪkənɪŋ æz wi əˈproʊtʃ ðə ˈoʊʃən ˈtɛmpəl ˈɛntrəns/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>will be - /l/ が /b/ に続く（子音+子音）、be は弱形 /bi/</li><li>awakening as - /ŋ/ が /æ/ に続く（子音+母音の連結）</li><li>approach the - /tʃ/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ ガーディアン ウィル ビー アウェイクニング アズ ウィー アプローチ ザ オーシャン テンプル エントランス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will be <mark>awakening</mark> throughout the night due to the creepers outside.</p>
+<p class="ja">外のクリーパーのために、彼女は夜通し目覚めています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl bi əˈweɪkənɪŋ θruˈaʊt ðə naɪt du tu ðə ˈkɹipərz ˈaʊtˌsaɪd/</div>
+<ul class="link"><li>will be - /l/ が /b/ に続く（子音+子音）、be は弱形 /bi/</li><li>awakening throughout - /ŋ/ が /θ/ に続く（子音+子音）</li><li>night due - /t/ が /d/ に続く（子音+子音）、to は弱形 /tə/</li><li>the は弱形 /ðə/ ザ、creepers outside - /z/ が /ˈaʊ/ に続く（子音+母音の連結）</li></ul>
+<div class="kana">シー ウィル ビー アウェイクニング スルアウト ザ ナイト デュー トゥ ザ クリーパーズ アウトサイド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have awakened</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv əˈweɪkənd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/awaken_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By sunrise, they will have <mark>awakened</mark> and collected enough wood.</p>
+<p class="ja">日の出までに、彼らは目覚めて十分な木を集めたことになります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈsʌnˌɹaɪz ðeɪ wɪl həv əˈweɪkənd ənd kəˈlɛktɪd ɪˈnʌf wʊd/</div>
+<ul class="link"><li>will have - /l/ が /h/ に続く（子音+子音）、have は弱形 /həv/ ハヴ</li><li>awakened and - /d/ が /æ/ に連結 [əˈweɪkənd ənd] アウェイクンド アンド、and は弱形 /ənd/</li><li>collected enough - /d/ が /ɪ/ に続く（子音+母音の連結）</li><li>enough wood - /f/ が /w/ に続く（子音+子音）</li></ul>
+<div class="kana">バイ サンライズ ゼイ ウィル ハヴ アウェイクンド アンド コレクティド イナフ ウッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will have <mark>awakened</mark> from your respawn point before the next raid arrives.</p>
+<p class="ja">次のレイドが到着する前に、あなたはあなたのリスポーンポイントから目覚めているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wɪl həv əˈweɪkənd frəm jɔr rɪˈspoʊn pɔɪnt bɪˈfɔr ðə nɛkst reɪd əˈɹaɪvz/</div>
+<ul class="link"><li>will have - /l/ が /h/ に続く（子音+子音）、have は弱形 /həv/ ハヴ</li><li>awakened from - /d/ が /f/ に続く（子音+子音）、from は弱形 /frəm/</li><li>respawn point - /n/ が /p/ に続く（子音+子音）</li><li>before the - /r/ が /ð/ に続く（子音+子音）、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ユー ウィル ハヴ アウェイクンド フラム ユア リスポーン ポイント ビフォア ザ ネクスト レイド アライブズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">awaken to</span><span class="im">気付く、認識する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>awakened</mark> to the danger of mining alone in the deep dark.</p>
+<p class="ja">深いダークで1人で採掘することの危険性に気付いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ əˈweɪkənd tuː ðə ˈdeɪndʒər əv ˈmaɪnɪŋ əˈloʊn ɪn ðə ˌdiːp dɑːrk]</div>
+<ul class="link"><li>awakened to: /d/ が未開放で to /tu/+弱形 /ə/ に直結 [əˈweɪkənd̚ tə]</li><li>the danger: the は弱形 /ðə/</li></ul>
+<div class="kana">アイ アウェイケンド トゥ ザ デインジャー アヴ マイニング アローン イン ザ ディープ ダーク</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">awaken from</span><span class="im">～から目覚める、～から覚める</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>awakened</mark> from a nightmare about creepers destroying my house.</p>
+<p class="ja">クリーパーが家を破壊する悪夢から覚めた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/awaken_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/awaken_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ əˈweɪkənd frəm ə ˈnaɪtmɛr əˈbaʊt ˈkriːpərz dɪˈstrɔɪɪŋ maɪ haʊs]</div>
+<ul class="link"><li>awakened from: /d/ が未開放で from の弱形 /frəm/ に直結</li><li>a nightmare: a は弱形 /ə/</li></ul>
+<div class="kana">アイ アウェイケンド フラム ア ナイトメア アバウト クリーパーズ ディストロイング マイ ハウス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="awaken";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

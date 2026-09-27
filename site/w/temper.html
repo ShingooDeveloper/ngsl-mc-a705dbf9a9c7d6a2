@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>temper — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#dc2626">
+<div class="wordhead"><h2>temper</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈtɛmpɚ/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1247</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】気質、気性、生まれつきの性質や性格傾向（disposition; temperament）</li><li>【名詞】一時的な怒りの状態、激怒の発作（a fit of anger; an outburst）</li><li>【名詞】心の平静、沈着、落ち着き（calmness; equanimity）</li><li>【動詞】和らげる、弱める、抑える；感情や力を控える（to moderate; to reduce intensity）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I definitely lost my <mark>temper</mark> after that creeper attack.</p>
+<p class="ja">あのクリーパーの攻撃の後、私は確実に激怒してしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈdɛfənətli ˈloʊst maɪ ˈtɛmpɚ æftɚ ðæt ˈkriːpɚ əˈtæk]</div>
+<ul class="link"><li>temper after の連結：temper の語末音 /r/ が after の /æ/ に連結 [ˈtɛmpɚæftɚ] テンパーアフター</li><li>a creeper：a は弱形 /ə/ で creeper に続く</li></ul>
+<div class="kana">アイ デフィナトゥリー ロースト マイ テンパーアフター ザット クリーパー アタック</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Keeping your <mark>temper</mark> is essential when surrounded by mobs.</p>
+<p class="ja">モブに囲まれているときは、落ち着きを保つことが重要だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈkipɪŋ jɚ ˈtɛmpɚɪz ɛˈsɛnʃəl wɛn səˈraʊndɪd baɪ ˈmoʊbz]</div>
+<ul class="link"><li>your：弱形 /jɚ/</li><li>temper is の連結：temper の語末音 /r/ が is の /ɪ/ に連結 [ˈtɛmpɚɪz] テンパーイズ</li></ul>
+<div class="kana">キーピング ジャー テンパーイズ エッセンシャル ウェン サラウンディド バイ モウブズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You should <mark>temper</mark> your excitement before opening that chest.</p>
+<p class="ja">その宝箱を開ける前に、興奮を抑えるべきだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ju ʃəd ˈtɛmpɚ jɚ ɪkˈsaɪtmənt bɪˈfɔroʊpənɪŋ ðæt ˈtʃɛst]</div>
+<ul class="link"><li>before opening の連結：before の語末 /r/ が opening の /oʊ/ に連結 [bɪˈfɔroʊpənɪŋ] ビフォアロープニング</li></ul>
+<div class="kana">ユー シャド テンパー ジャー イクサイトメント ビフォアロープニング ザット チェスト</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tempers</span><span class="fl">複数形</span><span class="fi">/ˈtɛmpɚz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Different <mark>tempers</mark> emerge when mining diamonds gets tough.</p>
+<p class="ja">ダイヤモンド採掘が難しくなると、異なる気質が現れる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈdɪfɚənt ˈtɛmpɚz ɪˈmɝdʒ wɛn ˈmaɪnɪŋ ˈdaɪmɑndz ˈgɛts ˈtʌf]</div>
+<ul class="link"><li>tempers emerge の連結：tempers の語末音 /z/ が emerge の /ɪ/ に連結 [ˈtɛmpɚzɪ] テンパーズィ。voiced音のスムーズな接続</li><li>gets tough の未開放と連結：gets の語末 /s/ が tough の /t/ に先立つ未開放 [ˈgɛts̚ ˈtʌf] ゲッツ タフ</li></ul>
+<div class="kana">ディフラント テンパーズィ イマージ ウェン マイニング ダイマンズ ゲッツ タフ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players with calmer <mark>tempers</mark> last longer in survival mode.</p>
+<p class="ja">より穏やかな気質を持つプレイヤーはサバイバルモードで長く生き残る。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈpleɪɚz wɪð ˈkɑːmɚ ˈtɛmpɚz ˈlæst ˈlɔŋɡɚ ɪn sɚˈvaɪvəl ˈmoʊd]</div>
+<ul class="link"><li>tempers last の連結：tempers の語末音 /z/ が last の /l/ に連結。/z/ は voiced fricative で /l/ に自然に流れる [ˈtɛmpɚz ˈlæst] テンパーズ ラスト</li><li>in survival の連結：in は機能語 /ɪn/ で survival の /s/ に先立つ未開放 [ɪn̚ sɚˈvaɪvəl] イン サーヴァイヴァル</li></ul>
+<div class="kana">プレイヤーズ ウィズ カーマー テンパーズ ラスト ロンガー イン サーヴァイヴァル モウド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tempers</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈtɛmpɚz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>tempers</mark> her speed when exploring dangerous caves.</p>
+<p class="ja">彼女は危険な洞窟を探索するときに速度を抑える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ˈtɛmpɚz hɚ ˈspiːd wɛn ɪkˈsplɔːrɪŋ ˈdeɪndʒɚəs ˈkeɪvz]</div>
+<ul class="link"><li>tempers her の連結：tempers の語末音 /z/ が her の /h/ に連結。her は弱形 /hɚ/ [ˈtɛmpɚz hɚ] テンパーズ ハー</li><li>when exploring の連結：when の語末 /n/ が exploring の /ɪ/ に連結 [wɛn ɪkˈsplɔːrɪŋ] ウェン イクスプロアリング</li></ul>
+<div class="kana">シー テンパーズ ハー スピード ウェン イクスプロアリング デインジャラス ケイブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miner <mark>tempers</mark> his excitement before opening the treasure chest.</p>
+<p class="ja">マイナーはトレジャーチェストを開ける前に興奮を抑える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈmaɪnɚ ˈtɛmpɚz hɪz ɪkˈsaɪtmənt bɪˈfɔːr ˈoʊpənɪŋ ðə ˈtɹɛʒɚ ˈtʃɛst]</div>
+<ul class="link"><li>The miner の弱形連結：the は弱形 /ðə/ で miner に続き、miner の語末 /r/ が tempers の /t/ に先立つ未開放 [ðə ˈmaɪnɚ̚ ˈtɛmpɚz] ザ マイナー テンパーズ</li><li>opening the の弱形連結：opening の語末 /ŋ/ が the の /ðə/ に続き、the は弱形 /ðə/ [ˈoʊpənɪŋ ðə] オープニング ザ</li></ul>
+<div class="kana">ザ マイナー テンパーズ ヒズ イクサイトメント ビフォアー オープニング ザ トレジャー チェスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tempered</span><span class="fl">過去形</span><span class="fi">/ˈtɛmpɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>tempered</mark> my hopes after losing all my items.</p>
+<p class="ja">すべてのアイテムを失った後、私は希望を抑えた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈtɛmpɚd maɪ ˈhoʊps ˈæftɚ ˈluːzɪŋ ɔːl maɪ ˈaɪtəmz]</div>
+<ul class="link"><li>tempered my の連結：tempered の語末音 /d/ が my の /m/ に先立つ未開放で、my は弱形 /mi/ [ˈtɛmpɚd̚ mi] テンパード マイ。/d/ と /m/ の両者とも調音点が異なるため未開放</li><li>all my の連結：all の語末 /l/ が my の /m/ に先立つ未開放で連結 [ɔːl̚ mi] オール マイ</li></ul>
+<div class="kana">アイ テンパード マイ ホープス アフター ルーズィング オール マイ アイテムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>tempered</mark> our pace when the mob waves intensified.</p>
+<p class="ja">モブの波が激しくなったとき、私たちはペースを抑えた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ˈtɛmpɚd ˈaʊɚ ˈpeɪs wɛn ðə ˈmoʊb ˈweɪvz ɪnˈtɛnsɪfaɪd]</div>
+<ul class="link"><li>tempered our の連結：tempered の語末音 /d/ が our の /aʊ/ に連結 [ˈtɛmpɚd ˈaʊɚ] テンパード アワー。our は弱形 /ɚ/ で続く</li><li>when the の弱形：when の語末 /n/ が the の /ðə/ に先立つ未開放で、the は弱形 /ðə/ [wɛn̚ ðə] ウェン ザ</li></ul>
+<div class="kana">ウィー テンパード アワー ペイス ウェン ザ モウブ ウェイブズ インテンシファイド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tempered</span><span class="fl">過去分詞</span><span class="fi">/ˈtɛmpɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>tempered</mark> their strategies, the team faced the dragon.</p>
+<p class="ja">戦略を調整したチームはドラゴンに立ち向かった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈhævɪŋ ˈtɛmpɚd ðɛɚ ˈstrætɪdʒəz ðə ˈtiːm ˈfeɪst ðə ˈdræɡən]</div>
+<ul class="link"><li>having tempered の連結：having の語末 /ŋ/ が tempered の /t/ に先立つ未開放で連結 [ˈhævɪŋ̚ ˈtɛmpɚd] ハービング テンパード。鼻音 /ŋ/ の後に無声音 /t/ が続く</li><li>faced the の弱形：faced の語末 /t/ が the の /ðə/ に先立つ未開放で、the は弱形 /ðə/ [ˈfeɪst̚ ðə] フェイスト ザ</li></ul>
+<div class="kana">ハービング テンパード ゼアー ストラテジーズ ザ ティーム フェイスト ザ ドラゴン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Materials <mark>tempered</mark> in the furnace become more resilient.</p>
+<p class="ja">炉で焼き入れされた材料はより弾力的になる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[məˈtɪɹiəlz ˈtɛmpɚd ɪn ðə ˈfɝːnɪs bɪˈkʌm ˈmoːɹ rɪˈzɪliənt]</div>
+<ul class="link"><li>tempered in の連結：tempered の語末音 /d/ が in の /ɪ/ に連結 [ˈtɛmpɚd ɪn] テンパード イン。/d/ は voiced alveolar stop で /ɪ/ に自然に流れる</li><li>in the の弱形：in は /ɪn/ で the の /ðə/ に先立つ未開放で、the は弱形 /ðə/ [ɪn̚ ðə] イン ザ</li></ul>
+<div class="kana">マテリアルズ テンパード イン ザ ファーニス ビカム モア リジリアント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">tempering</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Tempering</mark> your enthusiasm keeps you alive longer.</p>
+<p class="ja">あなたの熱意を抑えることがより長く生き残ることに役立つ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈtɛmpɚɪŋ jɚ ɛnˈθuːziæzəm ˈkiːps juː əˈlaɪv ˈlɔŋɡɚ]</div>
+<ul class="link"><li>Tempering your の連結：tempering の語末 /ŋ/ が your の /j/ に先立つ未開放で、your は弱形 /jɚ/ [ˈtɛmpɚɪŋ̚ jɚ] テンパーリング ジャー。鼻音 /ŋ/ の後に半母音 /j/ が続く</li><li>keeps you の弱形：you は弱形 /jə/ で keeps に続き、keeps の語末 /s/ が you に先立つ未開放 [ˈkiːps̚ jə] キープス ユー</li></ul>
+<div class="kana">テンパーリング ジャー エンスージアズム キープス ユー アライブ ロンガー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>tempering</mark> impulses, you make better building decisions.</p>
+<p class="ja">衝動を抑えることで、より良い建築の決定ができる。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ˈtɛmpɚɪŋ ˈɪmpəlsɪz juː ˈmeɪk ˈbɛtɚ ˈbɪldɪŋ dɪˈsɪʒənz]</div>
+<ul class="link"><li>tempering impulses の連結：tempering の語末 /ŋ/ が impulses の /ɪ/ に連結 [ˈtɛmpɚɪŋ ˈɪmpəlsɪz] テンパーリング インパルシーズ。鼻音 /ŋ/ の後の /ɪ/ へのスムーズな移行</li><li>building decisions の未開放：building の語末 /ŋ/ が decisions の /d/ に先立つ未開放 [ˈbɪldɪŋ̚ dɪˈsɪʒənz] ビルディング ディシジョンズ</li></ul>
+<div class="kana">バイ テンパーリング インパルシーズ ユー メイク ベター ビルディング ディシジョンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is tempering</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She is <mark>tempering</mark> her speed through this narrow canyon path.</p>
+<p class="ja">彼女はこの狭い峡谷の道を通るときにスピードを抑えている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi ɪz ˈtɛmpɚɪŋ hɚ ˈspiːd θruː ðɪs ˈnæroʊ ˈkænjən ˈpæθ]</div>
+<ul class="link"><li>is tempering の連結：is は弱形 /ɪz/ で、語末の /z/ が tempering の /t/ に先立つ未開放で [ɪz̚ ˈtɛmpɚɪŋ] イッ テンパーリング</li><li>tempering her の連結：tempering の語末 /ŋ/ が her の /h/ に連結。her は弱形 /hɚ/ [ˈtɛmpɚɪŋ hɚ] テンパーリング ハー</li><li>through this の連結：through の語末 /uː/ が this の /ð/ に連結で [θruː ðɪs] スルー ディス</li></ul>
+<div class="kana">シー イッ テンパーリング ハー スピード スルー ディス ナロウ キャニオン パス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>tempering</mark> our enthusiasm after the failed attempt.</p>
+<p class="ja">失敗した試みの後、私たちは熱意を抑えている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi ɑːr ˈtɛmpɚɪŋ ˈaʊɚ ɛnˈθuːziæzəm ˈæftɚ ðə ˈfeɪld əˈtɛmpt]</div>
+<ul class="link"><li>are tempering の連結：are の弱形 /ɑːr/ で、語末の /r/ が tempering の /t/ に先立つ未開放で [ɑːr̚ ˈtɛmpɚɪŋ] アー テンパーリング</li><li>tempering our の連結：tempering の語末 /ŋ/ が our の /aʊ/ に連結 [ˈtɛmpɚɪŋ ˈaʊɚ] テンパーリング アワー</li><li>after the の弱形：after の語末 /r/ が the の /ðə/ に連結。the は弱形 /ðə/ [ˈæftɚ ðə] アフター ザ</li></ul>
+<div class="kana">ウィー アー テンパーリング アワー エンスージアズム アフター ザ フェイルド アテンプト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was tempering</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>tempering</mark> my expectations as I mined deeper into the mountain.</p>
+<p class="ja">山をさらに深く採掘するときに期待を抑えていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ wəz ˈtɛmpɚɪŋ maɪ ɪkˈspɛktʃənz æz aɪ ˈmaɪnd ˈdiːpɚ ɪntuː ðə ˈmaʊntən]</div>
+<ul class="link"><li>was tempering の連結：was は弱形 /wəz/ で、語末の /z/ が tempering の /t/ に先立つ未開放で [wəz̚ ˈtɛmpɚɪŋ] ワッ テンパーリング</li><li>tempering my の連結：tempering の語末 /ŋ/ が my の /m/ に先立つ未開放で、my は弱形 /mi/ [ˈtɛmpɚɪŋ̚ mi] テンパーリング マイ</li><li>into the の連結：into の語末 /uː/ が the の /ðə/ に連結。the は弱形 /ðə/ [ɪntuː ðə] インツー ザ</li></ul>
+<div class="kana">アイ ワッ テンパーリング マイ イクスペクテーションズ アズ アイ マインド ディーパー インツー ザ マウンテン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was <mark>tempering</mark> his excitement when he spotted the rare ore.</p>
+<p class="ja">珍しい鉱石を見つけたときに興奮を抑えていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[hi wəz ˈtɛmpɚɪŋ hɪz ɪkˈsaɪtmənt wɛn hi ˈspɑtəd ðə ˈrɛr ˈɔr]</div>
+<ul class="link"><li>was tempering の連結：was は弱形 /wəz/ で、語末の /z/ が tempering の /t/ に先立つ未開放で [wəz̚ ˈtɛmpɚɪŋ] ワッ テンパーリング</li><li>tempering his の連結：tempering の語末 /ŋ/ が his の /h/ に連結。his は弱形 /hɪz/ [ˈtɛmpɚɪŋ hɪz] テンパーリング ヒズ</li><li>spotted the の弱形：spotted の語末 /d/ が the の /ðə/ に連結。the は弱形 /ðə/ [ˈspɑtəd ðə] スパーティド ザ</li></ul>
+<div class="kana">ヒー ワッ テンパーリング ヒズ イクサイトメント ウェン ヒー スパーティド ザ レアー オア</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been tempering</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>tempering</mark> her aggressive tactics before the final battle.</p>
+<p class="ja">最終戦闘の前に、彼女は攻撃的な戦術を抑えていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi həd bɪn ˈtɛmpɚɪŋ hɚ əˈɡrɛsɪv ˈtæktɪks bɪˈfɔr ðə ˈfaɪnəl ˈbætəl]</div>
+<ul class="link"><li>had been の弱形連結：had は弱形 /həd/、been は弱形 /bɪn/。had の /d/ が been の /b/ に先立つ未開放で [həd̚ bɪn] ハッ ビン</li><li>been tempering の連結：been の語末 /n/ が tempering の /t/ に先立つ未開放で [bɪn̚ ˈtɛmpɚɪŋ] ビン テンパーリング</li><li>tempering her の連結：tempering の語末 /ŋ/ が her の /h/ に連結。her は弱形 /hɚ/ [ˈtɛmpɚɪŋ hɚ] テンパーリング ハー</li></ul>
+<div class="kana">シー ハッ ビン テンパーリング ハー アグレッシブ タクティクス ビフォア ザ ファイナル バトル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>tempering</mark> their consumption of resources when the disaster struck.</p>
+<p class="ja">災害が起きたとき、彼らはリソースの消費を抑えていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həd bɪn ˈtɛmpɚɪŋ ðɛɚ kənˈsʌmpʃən əv rɪˈsɔrsɪz wɛn ðə dɪˈzæstɚ ˈstrʌk]</div>
+<ul class="link"><li>had been の弱形連結：had は弱形 /həd/、been は弱形 /bɪn/。had の /d/ が been の /b/ に先立つ未開放で [həd̚ bɪn] ハッ ビン</li><li>been tempering の連結：been の語末 /n/ が tempering の /t/ に先立つ未開放で [bɪn̚ ˈtɛmpɚɪŋ] ビン テンパーリング</li><li>of resources の弱形：of は弱形 /əv/ で resources に続き [əv rɪˈsɔrsɪz] アヴ リソーシーズ</li></ul>
+<div class="kana">ゼイ ハッ ビン テンパーリング ゼアー コンサンプション アヴ リソーシーズ ウェン ザ ディザスター ストラック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has tempered</span><span class="fl">現在完了形</span><span class="fi">/həz ˈtɛmpɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>tempered</mark> our expectations after multiple failed attempts at the dragon fight.</p>
+<p class="ja">複数回のドラゴン戦の失敗の後、私たちは期待を抑えている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi həv ˈtɛmpɚd ˌaʊɚ ˌɛkspɛkˈteɪʃənz ˈæftɚ ˈmʌltɪpəl ˈfeɪld əˈtɛmpts æt ðə ˈdræɡən ˈfaɪt]</div>
+<ul class="link"><li>have tempered の子音クラスタ：have は弱形 /həv/。tempered の /t/ に先立つ。/v/ と /t/ は両子音で直続 [həv ˈtɛmpɚd] ハヴ テンパード</li><li>tempered our の連結：tempered の語末音 /d/ が our の /aʊ/ に連結 [ˈtɛmpɚd ˈaʊɚ] テンパード アワー</li><li>after multiple の子音境界：after の語末 /r/ が multiple の /m/ に先立つ。/r/ と /m/ は両子音で連続 [ˈæftɚ ˈmʌltɪpəl] アフター マルティプル</li><li>at the の弱形：at の語末 /t/ が the の /ðə/ に先立つ未開放で、the は弱形 [æt̚ ðə] アッ ザ</li></ul>
+<div class="kana">ウィー ハヴ テンパード アワー エクスペクテイションズ アフター マルティプル フェイルド アテンプツ アッ ザ ドラゴン ファイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>tempered</mark> her excitement since learning about the next update delay.</p>
+<p class="ja">次のアップデート遅延を知ってから、彼女は興奮を抑えている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi həz ˈtɛmpɚd hɚ ɪkˈsaɪtmənt sɪns ˈlɝːnɪŋ əˈbaʊt ðə ˈnɛkst əpˈdeɪt dɪˈleɪ]</div>
+<ul class="link"><li>has tempered の子音クラスタ：has は弱形 /həz/。tempered の /t/ に先立つ。/z/ と /t/ は両子音で直続 [həz ˈtɛmpɚd] ハズ テンパード</li><li>tempered her の子音境界：tempered の /d/ と her の /h/ は子音-子音の境界。her は弱形 /hɚ/ [ˈtɛmpɚd hɚ] テンパード ハー</li><li>learning about の未開放：learning の語末 /ŋ/ が about の /ə/ に先立つ未開放 [ˈlɝːnɪŋ̚ əˈbaʊt] ラーニング アバウト</li><li>the next の弱形：the は弱形 /ðə/ で next に続き、next の語末 /t/ が update の /ə/ に先立つ未開放 [ðə ˈnɛkst̚ əpˈdeɪt] ザ ネクスト アップデイト</li></ul>
+<div class="kana">シー ハズ テンパード ハー イクサイトメント シンス ラーニング アバウト ザ ネクスト アップデイト ディレイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had tempered</span><span class="fl">過去完了形</span><span class="fi">/həd ˈtɛmpɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid began, they had <mark>tempered</mark> their aggressive building plans.</p>
+<p class="ja">レイドが始まるまでに、彼らは積極的な建築計画を抑えていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[baɪ ðə ˈtaɪm ðə ˈreɪd bɪˈɡæn ðeɪ həd ˈtɛmpɚd ðɛɚ əˈɡrɛsɪv ˈbɪldɪŋ ˈplænz]</div>
+<ul class="link"><li>By the time の弱形連結：the は弱形 /ðə/ で time に続き、time の語末 /m/ が次の the に先立つ未開放 [baɪ ðə ˈtaɪm̚ ðə] バイ ザ タイム ザ</li><li>had tempered の子音クラスタ：had は弱形 /həd/。tempered の /t/ に先立つ。/d/ と /t/ は両子音で直続 [həd ˈtɛmpɚd] ハド テンパード</li><li>tempered their の子音境界：tempered の /d/ と their の /ð/ は子音-子音の境界。their は弱形 /ðɛɚ/ [ˈtɛmpɚd ðɛɚ] テンパード ゼアー</li><li>building plans の未開放：building の語末 /ŋ/ が plans の /p/ に先立つ未開放 [ˈbɪldɪŋ̚ ˈplænz] ビルディング プランズ</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド ビゴン ゼイ ハド テンパード ゼアー アグレッシブ ビルディング プランズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After he had <mark>tempered</mark> his strategy, the team finally succeeded against the wither.</p>
+<p class="ja">彼が戦略を調整した後、チームはついにウィザーに勝った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈæftɚ hi həd ˈtɛmpɚd hɪz ˈstrætɪdʒi ðə ˈtiːm ˈfaɪnəli səkˈsiːdɪd əˈɡɛnst ðə ˈwɪðɚ]</div>
+<ul class="link"><li>After he の子音境界：after の語末 /r/ と he の /h/ は子音の連続。[ˈæftɚ hi] アフター ヒー</li><li>had tempered の子音クラスタ：had は弱形 /həd/。tempered の /t/ に先立つ。/d/ と /t/ は両子音で直続 [həd ˈtɛmpɚd] ハド テンパード</li><li>tempered his の子音境界：tempered の /d/ と his の /h/ は子音-子音の境界。his は弱形 /hɪz/ [ˈtɛmpɚd hɪz] テンパード ヒズ</li><li>succeeded against の未開放：succeeded の語末 /d/ が against の /ə/ に先立つ未開放で、against は弱形 [səkˈsiːdɪd̚ əˈɡɛnst] サクシーディド アゲンスト</li></ul>
+<div class="kana">アフター ヒー ハド テンパード ヒズ ストラテジー ザ ティーム ファイナリー サクシーディド アゲンスト ザ ウィザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been tempering</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>tempering</mark> my resource gathering to avoid attracting too many mobs.</p>
+<p class="ja">リソース収集を抑えながら、モブを多く引き付けないようにしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həv bɪn ˈtɛmpɚɪŋ maɪ ˈɹɛsɔːrs ˈɡæðɚɪŋ tə əˈvɔɪd əˈtɹæktɪŋ tuː ˈmɛni ˈmoʊbz]</div>
+<ul class="link"><li>have been の弱形連結：have /həv/ は弱形で been /b/ に先立つ未開放 [həv̚ bɪn] ハヴ ビン</li><li>been tempering の未開放：been の語末 /n/ が tempering の /t/ に先立つ未開放 [bɪn̚ ˈtɛmpɚɪŋ] ビン テンパーリング</li><li>tempering my の未開放：tempering の語末 /ŋ/ が my の /m/ に先立つ未開放で、my は弱形 /mi/ [ˈtɛmpɚɪŋ̚ mi] テンパーリング マイ</li><li>gathering to の弱形：gathering の語末 /ŋ/ が to の /ə/ に先立つ未開放で、to は弱形 [ˈɡæðɚɪŋ̚ tə] ガザリング タ</li></ul>
+<div class="kana">アイ ハヴ ビン テンパーリング マイ レソース ガザリング タ アヴォイド アトラクティング トゥー メニー モウブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have been <mark>tempering</mark> their mining speed to preserve the ancient structure below.</p>
+<p class="ja">マイニング速度を抑えながら、下の古い構造を保全している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðeɪ həv bɪn ˈtɛmpɚɪŋ ðɛɚ ˈmaɪnɪŋ ˈspiːd tə prɪˈzɝːv ðɪ ˈeɪnʃənt ˈstrʌktʃɚ bɪˈloʊ]</div>
+<ul class="link"><li>have been の弱形連結：have /həv/ は弱形で been /b/ に先立つ未開放 [həv̚ bɪn] ハヴ ビン</li><li>been tempering の未開放：been の語末 /n/ が tempering の /t/ に先立つ未開放 [bɪn̚ ˈtɛmpɚɪŋ] ビン テンパーリング</li><li>tempering their の子音連続：tempering の語末 /ŋ/ と their の /ð/ は子音-子音の連続。their は弱形 /ðɛɚ/ [ˈtɛmpɚɪŋ ðɛɚ] テンパーリング ゼアー</li><li>mining speed の未開放：mining の語末 /ŋ/ が speed の /s/ に先立つ未開放、speed の語末 /d/ が to に先立つ未開放で、to は弱形 [ˈmaɪnɪŋ̚ ˈspiːd̚ tə] マイニング スピード タ</li></ul>
+<div class="kana">ゼイ ハヴ ビン テンパーリング ゼアー マイニング スピード タ プリザーヴ ザ エンシェント ストラクチャー ビロウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will temper</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈtɛmpɚ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>temper</mark> the lava flow before we build the bridge.</p>
+<p class="ja">橋を建てる前に、溶岩の流れを抑える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈtɛmpɚ ðə ˈlɑːvə ˈfloʊ bɪˈfɔːr wi ˈbɪld ðə ˈbrɪdʒ/</div>
+<ul class="link"><li>I'll temper の縮約連結：「I'll」は /aɪl/ アイル、temper の /t/ に先立つ未開放で連結。will は you/we/they と縮約されるが、I は I'll</li><li>temper の語末 /r/ が lava の /l/ に先立つ子音 [ˈtɛmpɚ̚ ˈlɑːvə] テンパー ラーヴァ。/r/ と /l/ は両者とも子音で連結なし</li><li>before we の弱形：before の語末 /r/ が we の /w/ に先立つ未開放 [bɪˈfɔːr̚ wi] ビフォア ウィ</li><li>the bridge：the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイル テンパー ザ ラーヴァ フロウ ビフォア ウィ ビルド ザ ブリッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll <mark>temper</mark> their excitement once they encounter the wither.</p>
+<p class="ja">彼らはウィザーに遭遇したら興奮を抑えるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl ˈtɛmpɚ ðɛɚ ɪkˈsaɪtmənt ˈwʌns ðeɪ ɪnˈkaʊntɚ ðə ˈwɪðɚ/</div>
+<ul class="link"><li>They'll temper の縮約連結：「They'll」は /ðeɪl/ ゼイル、temper の /t/ に先立つ未開放で連結。will の標準的な縮約形</li><li>temper their の連結：temper の語末 /r/ が their の /ð/ に先立つ未開放。their は弱形 /ðɛɚ/ [ˈtɛmpɚ̚ ðɛɚ] テンパー ゼアー</li><li>encounter the：encounter の語末 /r/ が the の /ð/ に先立つ未開放で、the は弱形 /ðə/ [ɪnˈkaʊntɚ̚ ðə] インカウンター ザ</li></ul>
+<div class="kana">ゼイル テンパー ゼアー イクサイトメント ワンス ゼイ インカウンター ザ ウィザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be tempering</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈtɛmpɚɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>tempering</mark> the water flow throughout the next session.</p>
+<p class="ja">次のセッションを通じて水の流れを調整し続ける。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈtɛmpɚɪŋ ðə ˈwɔːɾɚ ˈfloʊ θruːˈaʊt ðə ˈnɛkst ˈsɛʃən/</div>
+<ul class="link"><li>We'll be の縮約連結：「We'll」は /wil/ ウィル、be の /b/ に先立つ未開放で連結 [wil̚ bi] ウィル ビー</li><li>be tempering の連結：be の語末 /i/ が tempering の /t/ に先立つ未開放で、すぐに /ɪŋ/ に続く [bi̚ ˈtɛmpɚɪŋ] ビー テンパーリング。弱形 /bi/ での連結</li><li>the water：the は弱形 /ðə/ ザ、water /ˈwɔːɾɚ/ に続く。/t/ はフラップ [ɾ] で米語自然な連続音</li><li>the next：the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ウィル ビー テンパーリング ザ ウォーラー フロウ スルーアウト ザ ネクスト セッション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll be <mark>tempering</mark> your strategy as we progress through the mines.</p>
+<p class="ja">鉱山を進むにつれて、あなたは戦略を調整し続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːl bi ˈtɛmpɚɪŋ jɔɹ ˈstrærɪdʒi əz wi ˈprɑːɡrɛs θruː ðə ˈmaɪnz/</div>
+<ul class="link"><li>You'll be の縮約連結：「You'll」は /juːl/ ユール、be の /b/ に先立つ未開放 [juːl̚ bi] ユール ビー</li><li>be tempering の弱形連結：be /bi/ から tempering への移行。未開放で続く [bi ˈtɛmpɚɪŋ] ビー テンパーリング</li><li>strategy as：strategy の /dʒi/ が as の /əz/ に連結 [ˈstrærɪdʒi əz] ストラリジー アズ。strategy の /t/ はフラップ [ɾ] で自然な米語発音</li><li>as we：we は弱形 /wi/ で progress に続く</li></ul>
+<div class="kana">ユール ビー テンパーリング ユア ストラリジー アズ ウィ プログレス スルー ザ マインズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have tempered</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈtɛmpɚd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/temper_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, we will have <mark>tempered</mark> all the mob spawning rates.</p>
+<p class="ja">来週までに、すべてのモブスポーン率を調整する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst ˈwik wi ˈwɪl həv ˈtɛmpɚd ˈɔːl ðə ˈmoʊb ˈspɔːnɪŋ ˈreɪts/</div>
+<ul class="link"><li>will have の弱形連結：will は /wɪl/ で have の /h/ に先立つ未開放。have は弱形 /həv/ ハヴで続く [ˈwɪl̚ həv] ウィル ハヴ</li><li>have tempered の弱形連結：have の /v/ が tempered の /t/ に先立つ未開放。tempered は /ˈtɛmpɚd/ [həv ˈtɛmpɚd] ハヴ テンパード</li><li>tempered all の連結：tempered の語末 /d/ が all の /ɔː/ に連結 [ˈtɛmpɚd ˈɔːl] テンパード オール</li><li>the mob：the は弱形 /ðə/ ザ、mob /ˈmoʊb/ に続く</li></ul>
+<div class="kana">バイ ネクスト ウィーク ウィ ウィル ハヴ テンパード オール ザ モウブ スポーニング レイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>tempered</mark> the flames by the time the team arrives.</p>
+<p class="ja">チームが到着するまでに、彼らは炎を抑えるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈwɪl həv ˈtɛmpɚd ðə ˈfleɪmz baɪ ðə ˈtaɪm ðə ˈtiːm əˈraɪvz/</div>
+<ul class="link"><li>will have の弱形連結：will /wɪl/ が have の /h/ に先立つ未開放で、have は弱形 /həv/ ハヴ [ˈwɪl̚ həv] ウィル ハヴ</li><li>have tempered の弱形連結：have の /v/ が tempered の /t/ に先立つ未開放。tempered /ˈtɛmpɚd/ [həv ˈtɛmpɚd] ハヴ テンパード</li><li>tempered the の連結：tempered の語末 /d/ が the の /ð/ に先立つ未開放で、the は弱形 /ðə/ [ˈtɛmpɚd̚ ðə] テンパード ザ</li><li>by the time：the は弱形 /ðə/ ザ、time に続く。by は /baɪ/ バイで the に先立つ未開放 [baɪ̚ ðə]</li></ul>
+<div class="kana">ゼイ ウィル ハヴ テンパード ザ フレイムズ バイ ザ タイム ザ ティーム アライブズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">lose one's temper</span><span class="im">激怒する、怒りを爆発させる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>When the wither destroyed my house, I lost my <mark>temper</mark> for a moment.</p>
+<p class="ja">ウィザーが私の家を破壊したとき、一瞬激怒してしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wɛn ðə ˈwɪðɚ dɪˈstrɔɪd maɪ ˈhaʊs aɪ ˈloʊst maɪ ˈtɛmpɚ fɔrə ˈmoʊmənt]</div>
+<ul class="link"><li>the wither：the は弱形 /ðə/</li><li>for a moment の連結：for の語末 /r/ が a の /ə/ に連結 [fɔrə] フォアア</li></ul>
+<div class="kana">ウェン ザ ウィザー ディストロイド マイ ハウス アイ ロースト マイ テンパー フォアア モウメント</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">keep one's temper</span><span class="im">冷静を保つ、怒りを抑える</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Keeping your <mark>temper</mark> is the key to surviving the Nether.</p>
+<p class="ja">冷静を保つことがネザーで生き残るための鍵だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/temper_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/temper_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈkipɪŋ jɚ ˈtɛmpɚɪz ðə ˈki tə sərˈvaɪvɪŋ ðə ˈnɛðɚ]</div>
+<ul class="link"><li>temper is の連結：temper の語末 /r/ が is の /ɪ/ に連結 [ˈtɛmpɚɪz] テンパーイズ</li><li>the key：the は弱形 /ðə/、to は弱形 /tə/</li></ul>
+<div class="kana">キーピング ジャー テンパーイズ ザ キー タ サーヴァイヴィング ザ ネザー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="temper";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

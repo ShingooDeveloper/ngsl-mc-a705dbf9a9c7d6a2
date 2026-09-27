@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>bob — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>bob</h2><span class="pos">動詞・名詞</span><span class="ipa-head">/bɑb/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1900 #918</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】上下に揺れる、ぷかぷか浮く、浮き沈みする（…up and down など）</li><li>【動詞】（頭や身体を）軽く上下に動かす、こっくりと下げる</li><li>【名詞】（女性の髪の）ボブカット、肩までの長さの短い髪型</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Items <mark>bob</mark> up and down in water when you throw them.</p>
+<p class="ja">アイテムを水に投げ込むと、上下に浮き沈みします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɪtəmz bɑbʌp ən ˈdaʊn ɪn ˈwɔɾɚ wɛn ju θroʊ ðəm/</div>
+<ul class="link"><li>bob upで bob の語末 /b/ が up の母音 /ʌ/ に連結 [bɑbʌp] ボバップ</li><li>and downで and が弱形 /ən/ となり down の /d/ に未開放で接続</li><li>in waterで in の語末 /n/ が water の半母音 /w/ に連結 [ɪnˈwɔɾɚ]</li></ul>
+<div class="kana">アイテムズ ボバップ アン ダウン イン ウォーラー ウェン ユー スロウ ザム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The tall grass <mark>bobs</mark> back and forth when you walk through it.</p>
+<p class="ja">背の高い草が、あなたが歩くときに前後に揺れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtɔl ɡɹæs bɑbz ˈbæk ən ˈfɔrθ wɛn ju wɔk θru ɪt/</div>
+<ul class="link"><li>grass bobsで grass の /s/ が bob の /b/ に未開放で接続</li><li>and forthで and が弱形 /ən/</li><li>walk throughで walk の語末 /k/ が through の /θ/ に未開放で接続</li></ul>
+<div class="kana">ザ トール グラース ボブズ バック アン フォルス ウェン ユー ウォーク スルー イット</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Lily pads <mark>bob</mark> gently on the surface of a swamp.</p>
+<p class="ja">スイレンが沼地の水面でゆらゆら揺れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈlɪli pædz bɑb ˈdʒɛntli ɑn ðə ˈsɝfɪs əv ə swɑmp/</div>
+<ul class="link"><li>pads bobで pads の /z/ が bob の /b/ に未開放で接続</li><li>bob gentlyで bob の /b/ が gently の /dʒ/ に未開放で接続</li><li>the surfaceで the が弱形 /ðə/</li></ul>
+<div class="kana">リリー パッズ ボブ ジェントリー オン ザ サーフィス アヴァ スワンプ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bobs</span><span class="fl">三人称単数現在形</span><span class="fi">/bɑbz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Water <mark>bobs</mark> the cork up and down.</p>
+<p class="ja">水がコルクを上下に浮かべます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwɔɾɚ bɑbz ðə ˈkɔrk ʌp ən ˈdaʊn/</div>
+<ul class="link"><li>water bobsで water の語末 /ɚ/ が bobs の /b/ に未開放で接続</li><li>cork upで cork の語末 /k/ が up の母音 /ʌ/ に連結 [kɔrk ʌp]</li><li>and downで and が弱形 /ən/</li></ul>
+<div class="kana">ウォーラー ボブズ ザ コーク アップ エン ダウン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The wood <mark>bobs</mark> in the river near the bridge.</p>
+<p class="ja">木が橋の近くの川で浮きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwʊd bɑbz ɪn ðə ˈrɪvɚ nɪr ðə ˈbrɪdʒ/</div>
+<ul class="link"><li>the woodで the が弱形 /ðə/</li><li>bobs inで bobs の /z/ が in の /ɪ/ に連結 [bɑbzɪn]</li><li>river nearで river の語末の /ɚ/ が near の /n/ に連結</li></ul>
+<div class="kana">ザ ウッド ボブズ イン ザ リヴァー ニアー ザ ブリッジ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bobbed</span><span class="fl">過去形</span><span class="fi">/bɑbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The log <mark>bobbed</mark> in the water during the rainfall.</p>
+<p class="ja">雨の中、丸太が水で浮きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlɔɡ ˈbɑbd ɪn ðə ˈwɔɾɚ ˈdʊrɪŋ ðə ˈreɪnfɔl/</div>
+<ul class="link"><li>log bobbedで log の /g/ が bobbed の /b/ に未開放で接続</li><li>bobbed inで bobbed の /d/ が in の /ɪ/ に連結 [bɑbd ɪn]</li><li>during theで during の /ŋ/ が the の /ð/ に未開放で接続</li></ul>
+<div class="kana">ザ ロッグ ボビッド イン ザ ウォーラー ドゥーリング ザ レインフォール</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Items <mark>bobbed</mark> up when you released them in the stream.</p>
+<p class="ja">小川に放したアイテムが浮き上がりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɪtəmz ˈbɑbd ʌp wɛn ju rɪˈlist ðəm ɪn ðə strim/</div>
+<ul class="link"><li>bobbed upで bobbed の /d/ が up の母音 /ʌ/ に連結 [bɑbd ʌp] ボビッダップ</li><li>when youで when の /n/ が you の /j/ に未開放で接続</li><li>them inで them の /m/ が in の /ɪ/ に連結</li></ul>
+<div class="kana">アイテムズ ボビッダップ ウェン ユー リリースト ザム イン ザ ストリーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bobbed</span><span class="fl">過去分詞</span><span class="fi">/bɑbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The item, <mark>bobbed</mark> by the current, moved downstream.</p>
+<p class="ja">水流で浮かされたアイテムは下流に流れました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɪtəm ˈbɑbd baɪ ðə ˈkɝənt ˈmuvd ˈdaʊnstrim/</div>
+<ul class="link"><li>item bobbedで item の /m/ が bobbed の /b/ に未開放で接続</li><li>by theで by が /baɪ/、the が弱形 /ðə/</li><li>current movedで current の /nt/ が moved の /m/ に未開放で接続</li></ul>
+<div class="kana">ザ アイテム ボビッド バイ ザ カーレント ムーブド ダウンストリーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>bobbed</mark> in the water, the fish disappeared.</p>
+<p class="ja">水で浮いた後、魚は消えました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈheɪvɪŋ ˈbɑbd ɪn ðə ˈwɔɾɚ ðə ˈfɪʃ ˌdɪsəˈpɪrd/</div>
+<ul class="link"><li>Having bobbedで having の /ŋ/ が bobbed の /b/ に未開放で接続</li><li>bobbed inで bobbed の /d/ が in の /ɪ/ に連結</li><li>the waterで the が弱形 /ðə/</li></ul>
+<div class="kana">ヘイビング ボビッド イン ザ ウォーラー ザ フィッシュ ディサピアード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bobbing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The cork was <mark>bobbing</mark> up and down in the stream.</p>
+<p class="ja">コルクが小川で上下に浮いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɔrk wəz ˈbɑbɪŋ ʌp ən ˈdaʊn ɪn ðə strim/</div>
+<ul class="link"><li>the corkで the が弱形 /ðə/</li><li>was bobbingで was が弱形 /wəz/、bobbing に未開放で接続</li><li>bobbing upで bobbing の /ŋ/ が up の /ʌ/ に連結 [bɑbɪŋ ʌp]</li></ul>
+<div class="kana">ザ コーク ウズ ボビング アップ エン ダウン イン ザ ストリーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Bobbing</mark> on the surface, items drift along the river.</p>
+<p class="ja">水面で浮きながら、アイテムは川に沿って流れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbɑbɪŋ ɑn ðə ˈsɝfɪs ˈɪtəmz drɪft əˈlɔŋ ðə ˈrɪvɚ/</div>
+<ul class="link"><li>on theで on が /ɑn/、the が弱形 /ðə/</li><li>surface itemsで surface の /s/ が items の /ɪ/ に連結</li><li>drift alongで drift の /t/ が along の /ə/ に連結</li></ul>
+<div class="kana">ボビング オン ザ サーフィス アイテムズ ドリフト アロング ザ リヴァー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bobs</span><span class="fl">複数形（名詞）</span><span class="fi">/bɑbz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>bobs</mark> for fishing floats are made of cork.</p>
+<p class="ja">釣り浮きのボブはコルクでできています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɑbz fər ˈfɪʃɪŋ ˈfloʊts ɑr ˈmeɪd əv ˈkɔrk/</div>
+<ul class="link"><li>the bobsで the が弱形 /ðə/</li><li>bobs forで bobs の /z/ が for の /f/ に未開放で接続、for が弱形 /fər/</li><li>are madeで are が弱形 /ɑr/、made の /m/ に連結</li></ul>
+<div class="kana">ザ ボブズ ファー フィッシング フロウツ アー メイド アヴ コーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Several <mark>bobs</mark> <mark>bobbed</mark> on the surface near the dock.</p>
+<p class="ja">数個のボブがドックの近くの水面で浮いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈsɛvərəl ˈbɑbz ˈbɑbd ɑn ðə ˈsɝfɪs nɪr ðə ˈdɑk/</div>
+<ul class="link"><li>Several bobsで several の /l/ が bobs の /b/ に未開放で接続</li><li>bobs bobbedで bobs の /z/ が bobbed の /b/ に未開放で接続</li><li>on theで on が /ɑn/、the が弱形 /ðə/</li></ul>
+<div class="kana">セヴラル ボブズ ボビッド オン ザ サーフィス ニアー ザ ダック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is bobbing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The item is <mark>bobbing</mark> in the water while we work.</p>
+<p class="ja">水の中でアイテムが浮いているあいだ、私たちは作業しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɪtəm ɪz ˈbɑbɪŋ ɪn ðə ˈwɔɾɚ waɪl wi wɝk/</div>
+<ul class="link"><li>is bobbingで is が弱形 /ɪz/、/z/ が bobbing の /b/ に未開放で接続</li><li>the waterで the が弱形 /ðə/</li><li>waterで /t/ がフラップして /ɾ/ となり、母音に連結 [ˈwɔɾɚ] ウォーラー</li></ul>
+<div class="kana">ザ アイテム イズ ボビング イン ザ ウォーラー ワイル ウィ ワーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Corks are <mark>bobbing</mark> on the pond surface as we wait.</p>
+<p class="ja">私たちが待つあいだ、コルクが池の水面に浮いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈkɔrks ə ˈbɑbɪŋ ɑn ðə ˈpɑnd ˈsɝfɪs æz wi ˈweɪt/</div>
+<ul class="link"><li>are bobbingで are が弱形 /ə/</li><li>on theで the が弱形 /ðə/</li><li>pond surfaceで pond の /d/ が surface の /s/ に未開放で接続</li></ul>
+<div class="kana">コークス ア ボビング オン ザ パンド サーフィス エズ ウィ ウェイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was bobbing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wɑz ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The cork was <mark>bobbing</mark> in the current when we collected it.</p>
+<p class="ja">流れの中でコルクが浮いていて、私たちがそれを集めました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɔrk wəz ˈbɑbɪŋ ɪn ðə ˈkɝənt wɛn wi kəˈlɛkɾɪd ɪt/</div>
+<ul class="link"><li>was bobbingで was が弱形 /wəz/、/z/ が bobbing の /b/ に未開放で接続</li><li>when weで when の /n/ が we の /w/ に未開放で接続</li><li>in theで the が弱形 /ðə/</li></ul>
+<div class="kana">ザ コーク ウズ ボビング イン ザ カーレント ウェン ウィ コレクリッド イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Items were <mark>bobbing</mark> around in the flooded cave.</p>
+<p class="ja">浸水した洞窟の中でアイテムが浮き回っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɪtəmz wɚ ˈbɑbɪŋ əˈraʊnd ɪn ðə ˈflʌdəd keɪv/</div>
+<ul class="link"><li>were bobbingで were が弱形 /wɚ/、/r/ が bobbing の /b/ に未開放で接続</li><li>bobbing aroundで bobbing の /ŋ/ が around の /ə/ に連結 [ˈbɑbɪŋ əˈraʊnd]</li><li>in theで the が弱形 /ðə/</li></ul>
+<div class="kana">アイテムズ ワー ボビング アラウンド イン ザ フラッディド ケイヴ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been bobbing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/hæd bɪn ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After it had been <mark>bobbing</mark> for a while, the item finally reached us.</p>
+<p class="ja">しばらく浮いていた後、そのアイテムはついに私たちに届きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftɚ ɪt həd bɪn ˈbɑbɪŋ fər ə waɪl ðə ˈɪtəm ˈfaɪnəli ˈritʃt ʌs/</div>
+<ul class="link"><li>had beenで had が弱形 /həd/、/d/ が been の /b/ に未開放で接続。been が弱形 /bɪn/</li><li>been bobbingで /n/ が bobbing の /b/ に未開放で接続</li><li>for aで for が弱形 /fər/、/r/ が a の /ə/ に連結</li></ul>
+<div class="kana">アフター イット ハド ビン ボビング フォー ア ワイル ザ アイテム ファイナリー リーチト アス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The float had been <mark>bobbing</mark> on the water when we built the dock.</p>
+<p class="ja">私たちがドックを建てた時、浮きは水に浮いていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈfloʊt həd bɪn ˈbɑbɪŋ ɑn ðə ˈwɔɾɚ wɛn wi ˈbɪlt ðə ˈdɑk/</div>
+<ul class="link"><li>float hadで float の /t/ が had の /h/ に未開放で接続、had が弱形 /həd/</li><li>had beenで /d/ が been の /b/ に未開放で接続、been が弱形 /bɪn/</li><li>been bobbingで /n/ が bobbing の /b/ に未開放で接続</li></ul>
+<div class="kana">ザ フロウト ハド ビン ボビング オン ザ ウォーラー ウェン ウィ ビルト ザ ダック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has bobbed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈbɑbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The cork has <mark>bobbed</mark> up and down in the stream many times.</p>
+<p class="ja">コルクが流れの中で何度も上下に浮きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɔrk həz ˈbɑbd ʌp ən ˈdaʊn ɪn ðə strim ˈmɛni taɪmz/</div>
+<ul class="link"><li>cork hasで cork の /k/ が has の弱形 /h/ に未開放で接続。has は /həz/</li><li>bobbed upで bobbed の /d/ が up の母音 /ʌ/ に連結 [ˈbɑbd ʌp] ボビッダップ</li><li>and downで and が弱形 /ən/、down の /d/ に未開放で接続</li><li>stream manyで stream の /m/ が many の /m/ に未開放で接続</li></ul>
+<div class="kana">ザ コーク ハズ ボビッダップ エン ダウン イン ザ ストリーム メニー タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Items have <mark>bobbed</mark> to the surface after being dropped.</p>
+<p class="ja">ドロップされたアイテムが水面に浮き上がってきた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɪtəmz həv ˈbɑbd tə ðə ˈsɝfɪs ˈæftɚ ˈbiːɪŋ ˈdrɑpt/</div>
+<ul class="link"><li>items haveで items の /z/ が have の弱形 /h/ に未開放で接続。have は /həv/</li><li>bobbed toで bobbed の /d/ が to の弱形 /t/ に未開放で接続。to は /tə/</li></ul>
+<div class="kana">アイテムズ ハヴ ボビッド タ ザ サーフィス アフター ビーイング ドラプト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had bobbed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈbɑbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The logs had <mark>bobbed</mark> downstream before we built the dam.</p>
+<p class="ja">ダムを建設する前に丸太は下流に流れてしまった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlɔɡz həd ˈbɑbd ˈdaʊnstrim bɪˈfɔr wi bɪlt ðə ˈdæm/</div>
+<ul class="link"><li>logs hadで logs の /z/ が had の弱形 /h/ に未開放で接続。had は /həd/</li><li>built damで built の /t/ が dam の /d/ に未開放で接続</li></ul>
+<div class="kana">ザ ログズ ハド ボビッド ダウンストリーム ビフォー ウィ ビルト ザ ダム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By morning, the flotsam had <mark>bobbed</mark> away on the current.</p>
+<p class="ja">朝までに、漂流物は流れで流れ去っていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈmɔrnɪŋ ðə ˈflɑtsəm həd ˈbɑbd əˈweɪ ɑn ðə ˈkɝənt/</div>
+<ul class="link"><li>morning theで morning の /ŋ/ が the の弱形 /ð/ に未開放で接続。the は /ðə/</li><li>had bobbedで had の /d/ が bobbed の /b/ に未開放で接続。had は /həd/</li><li>bobbed awayで bobbed の /d/ が away の母音 /ə/ に連結 [ˈbɑbd əˈweɪ] ボビッダウェイ</li></ul>
+<div class="kana">バイ モーニング ザ フラッサム ハド ボビッダウェイ オン ザ カーレント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been bobbing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The items have been <mark>bobbing</mark> in the water for hours.</p>
+<p class="ja">アイテムは数時間ずっと水で浮いている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɪtəmz həv bɪn ˈbɑbɪŋ ɪn ðə ˈwɔɾɚ fɚ ˈaʊɚz/</div>
+<ul class="link"><li>items haveで items の /z/ が have の弱形 /h/ に未開放で接続。have は /həv/</li><li>have beenで have の /v/ が been の弱形 /b/ に未開放で接続。been は /bɪn/</li><li>bobbing inで bobbing の /ŋ/ が in の母音 /ɪ/ に連結 [ˈbɑbɪŋ ɪn] ボビング イン</li></ul>
+<div class="kana">ザ アイテムズ ハヴ ビン ボビング イン ザ ウォーラー ファー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The lily pad has been <mark>bobbing</mark> up and down since morning.</p>
+<p class="ja">スイレンは朝からずっと上下に浮いている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈlɪli pæd həz bɪn ˈbɑbɪŋ ʌp ən ˈdaʊn ˈsɪns ˈmɔrnɪŋ/</div>
+<ul class="link"><li>pad hasで pad の /d/ が has の弱形 /h/ に未開放で接続。has は /həz/</li><li>has beenで has の /z/ が been の弱形 /b/ に未開放で接続。been は /bɪn/</li><li>bobbing upで bobbing の /ŋ/ が up の母音 /ʌ/ に連結 [ˈbɑbɪŋ ʌp] ボビング アップ</li></ul>
+<div class="kana">ザ リリー パド ハズ ビン ボビング アップ エン ダウン シンス モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will bob</span><span class="fl">単純未来形</span><span class="fi">/wɪl bɑb/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>bob</mark> for apples in the water while you gather wood.</p>
+<p class="ja">木を集めている間に、私は水でリンゴをボブします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bɑb fər ˈæpəlz ɪn ðə ˈwɔɾɚ waɪl ju ˈɡæðɚ ˈwʊd/</div>
+<ul class="link"><li>I'll bobで I'll が /aɪl/、bob の /b/ に未開放で接続</li></ul>
+<div class="kana">アイル ボブ ファー アップルズ イン ザ ウォーラー ワイル ユー ガザー ウッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The apples will <mark>bob</mark> on the surface of the water for hours.</p>
+<p class="ja">リンゴは何時間も水面で浮きます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈæpəlz wɪl bɑb ɑn ðə ˈsɝfɪs əv ðə ˈwɔɾɚ fər ˈaʊrz/</div>
+<ul class="link"><li>will bobで will の /l/ が bob の /b/ に未開放で接続</li><li>on theで on が /ɑn/、the が弱形 /ðə/</li><li>of theで of が弱形 /əv/、the が弱形 /ðə/</li></ul>
+<div class="kana">ザ アップルズ ウィル ボブ オン ザ サーフィス アヴ ザ ウォーラー ファー アワーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be bobbing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈbɑbɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The cork will be <mark>bobbing</mark> when the fish starts biting.</p>
+<p class="ja">魚が食いつき始めたとき、コルクは上下に浮いています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɔrk wɪl bi ˈbɑbɪŋ wɛn ðə ˈfɪʃ ˈstɑrts ˈbaɪɾɪŋ/</div>
+<ul class="link"><li>will beで will の /l/ が be の /b/ に未開放で接続</li><li>be bobbingで be の /i/ が bobbing の /b/ に連結 [biˈbɑbɪŋ]</li></ul>
+<div class="kana">ザ コーク ウィル ビ ボビング ウェン ザ フィッシュ スターツ バイリング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Items will be <mark>bobbing</mark> downstream when you break the dam.</p>
+<p class="ja">ダムを壊したとき、アイテムが下流に浮いて流れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɪtəmz wɪl bi ˈbɑbɪŋ ˈdaʊnstrim wɛn ju ˈbreɪk ðə ˈdæm/</div>
+<ul class="link"><li>will beで will の /l/ が be の /b/ に未開放で接続</li><li>be bobbingで be の /i/ が bobbing の /b/ に連結</li></ul>
+<div class="kana">アイテムズ ウィル ビ ボビング ダウンストリーム ウェン ユー ブレイク ザ ダム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have bobbed</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈbɑbd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bob_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, those apples will have <mark>bobbed</mark> all the way downstream.</p>
+<p class="ja">明日までに、それらのリンゴはすべて下流に流れているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑroʊ ðoʊz ˈæpəlz wɪl həv ˈbɑbd ɔl ðə ˈweɪ ˈdaʊnstrim/</div>
+<ul class="link"><li>will haveで will の /l/ が have の /h/ に未開放で接続、have が弱形 /həv/</li><li>have bobbedで have の /v/ が bobbed の /b/ に未開放で接続</li><li>all theで all が /ɔl/、the が弱形 /ðə/</li></ul>
+<div class="kana">バイ トゥモロウ ドウズ アップルズ ウィル ハヴ ボビッド オール ザ ウェイ ダウンストリーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrive, the fishing cork will have <mark>bobbed</mark> up several times.</p>
+<p class="ja">私たちが到着する頃には、釣り浮きは何度も浮き上がっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi əˈraɪv ðə ˈfɪʃɪŋ ˈkɔrk wɪl həv ˈbɑbd ʌp ˈsɛvərəl ˈtaɪmz/</div>
+<ul class="link"><li>by theで by が /baɪ/、the が弱形 /ðə/</li><li>will haveで will の /l/ が have の /h/ に未開放で接続、have が弱形 /həv/</li><li>have bobbedで have の /v/ が bobbed の /b/ に未開放で接続</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライヴ ザ フィッシング コーク ウィル ハヴ ボビッド アップ セヴラル タイムズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bob up</span><span class="im">浮き上がる、急に現れる、浮き出す</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The item will <mark>bob</mark> up to the surface.</p>
+<p class="ja">そのアイテムは水面に浮き上がります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɪtəm wɪl bɑbʌp tə ðə ˈsɝfɪs/</div>
+<ul class="link"><li>bob upで bob の語末 /b/ が up の母音 /ʌ/ に連結 [bɑbʌp]</li><li>to theで to が弱形 /tə/、the が弱形 /ðə/</li></ul>
+<div class="kana">ザ アイテム ウィル ボバップ タ ザ サーフィス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bob along</span><span class="im">ゆらゆら進む、ぷかぷか動く</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Watch the mobs <mark>bob</mark> along as they walk.</p>
+<p class="ja">モブたちが歩くときにゆらゆら動くのを見てください。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bob_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bob_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɑtʃ ðə ˈmoʊbz bɑbəˈlɔŋ æz ðeɪ wɔk/</div>
+<ul class="link"><li>mobs bobで mobs の /z/ が bob の /b/ に未開放で接続、bob の /b/ が along の /ə/ に連結 [bɑbə]</li><li>as theyで as が /æz/、they が /ðeɪ/</li></ul>
+<div class="kana">ウォッチ ザ モブズ ボバロング エズ ザイ ウォーク</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="bob";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

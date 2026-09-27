@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>weave — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>weave</h2><span class="pos">動詞</span><span class="ipa-head">/wiːv/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1437</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】糸や繊維を交差させることで布を作る（interlace threads to create woven fabric）</li><li>【動詞】蛇行しながら進む、複数の障害物の間を曲がりくねった経路で動く（move in a winding or zigzag path through obstacles）</li><li>【動詞】複数の要素を組み合わせて一つのまとまりにする、統合する（combine or intertwine different elements together）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>weave</mark> a shelter out of wool before sunset.</p>
+<p class="ja">日が沈む前に羊毛で避難所を編む。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈwiːv ə ˈʃɛltər ˈaʊt əv ˈwʊl bɪˈfɔɹ ˈsʌnˌsɛt/</div>
+<ul class="link"><li>weave a：語末子音 /v/ が母音 /ə/ に連結 [ˈwiːvə]</li><li>out of：t音が母音に挟まれフラップ化し連結 [ˈaʊɾəv]、of は弱形 /əv/</li></ul>
+<div class="kana">アイ ウィーヴァ シェルター アウラヴ ウール ビフォー サンセット</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She <mark>wove</mark> intricate patterns into the tapestry.</p>
+<p class="ja">彼女は複雑なパターンをタペストリーに織り込んだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃiː ˈwoʊv ˈɪntrɪkət ˈpætərnz ˈɪntə ðə ˈtæpəstri/</div>
+<ul class="link"><li>wove intricate：語末子音 /v/ が母音 /ɪ/ に連結 [ˈwoʊvɪ]</li><li>into the：into と the は共に弱形で自然に流れる /ˈɪntə ðə/</li></ul>
+<div class="kana">シー ウォーヴィ イントリケット パターンズ イント ザ タペストリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The path <mark>weaves</mark> through the mountains like a snake.</p>
+<p class="ja">その小道は蛇のように山々の中をうねって通っている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpæθ ˈwiːvz θɹuː ðə ˈmaʊntənz ˈlaɪk ə ˈsneɪk/</div>
+<ul class="link"><li>like a：語末子音 /k/ が母音 /ə/ に連結 [ˈlaɪkə]、a は弱形 /ə/</li><li>the mountains：the は弱形で /ðə/、mountain に流れ込む</li></ul>
+<div class="kana">ザ パス ウィーヴズ スルー ザ マウンテンズ ライカ スネイク</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">weaves</span><span class="fl">三人称単数現在形</span><span class="fi">/wiːvz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>weaves</mark> intricate patterns into the castle walls using colored wool blocks.</p>
+<p class="ja">彼女は色付きウールブロックを使用して、城壁に複雑なパターンを織ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wiːvz ɪnˈtrɪkət ˈpætərnz ˈɪntu ðə ˈkæsəl wɔlz ˈjuzɪŋ ˈkʌlərd ˈwʊl blɑks/</div>
+<ul class="link"><li>weaves intricate → /z/ が /ɪ/ に連結 [wiːvz ɪnˈtrɪkət] ウィーブズ イントリケット</li><li>into the → into の末尾 /oʊ/ が the の初頭 /ð/（子音）に先行（母音+子音、連結なし）。the は弱形 /ðə/ ザ</li><li>wool blocks → /l/ が /b/ に続く（子音+子音）</li></ul>
+<div class="kana">シー ウィーブズ イントリケット パターンズ イント ザ キャッセル ウォールズ ユージング カラード ウール ブラックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The master builder <mark>weaves</mark> together different architectural elements into a harmonious design.</p>
+<p class="ja">マスタービルダーはさまざまな建築要素を調和的なデザインに編み合わせます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmæstər ˈbɪldər wiːvz təˈɡɛðər ˌdɪfərənt ˌɑrkɪˈtɛktʃərəl ˈɛləmənts ˈɪntu ə ˌhɑrˈmoʊniəs dɪˈzaɪn/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>weaves together → /z/ が /t/ に続く（子音+子音）、together の末尾 /r/ が different の初頭 /d/（子音）に先行（子音+子音）</li><li>into a → into の末尾 /oʊ/ が a の初頭母音 /ə/ に連結 [ˈɪntuː ə] イントゥー ア</li></ul>
+<div class="kana">ザ マスター ビルダー ウィーブズ トゥゲザー ディファレント アーキテクチャラル エレメンツ イントゥー ア ハーモウニアス ディザイン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">wove</span><span class="fl">過去形</span><span class="fi">/woʊv/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>wove</mark> through the mountain passage to escape the pursuing mobs without taking damage.</p>
+<p class="ja">彼はダメージを受けずに追跡するモブから逃げるために、山のパッセージを縫うように進みました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi woʊv θru ðə ˈmaʊntn ˈpæsɪdʒ tu ɪˈskeɪp ðə pərˈsuːɪŋ ˈmoʊbz wɪˈðaʊt ˈteɪkɪŋ ˈdæmɪdʒ/</div>
+<ul class="link"><li>wove through → /v/ が /θ/ に続く（子音+子音）、through の末尾 /θru/ が mountain の初頭 /m/（子音）に先行（子音+子音）</li><li>pursuing mobs → /ŋ/ が /m/ に続く（鼻音+子音）</li><li>without taking → /t/ が /t/ に続く（子音+子音、未開放） [wɪˈðaʊt̚ ˈteɪkɪŋ]</li></ul>
+<div class="kana">ヒー ウォーブ スルー ザ マウンテン パッセージ トゥ エスケイプ ザ パースューイング モーブズ ウィザウット テイキング ダメッジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>wove</mark> a rope ladder out of string and vines to climb down the cliff face.</p>
+<p class="ja">彼女は絶壁を下るために、糸とツルからロープはしごを織りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi woʊv ə ˈroʊp ˈlædər aʊt əv ˈstrɪŋ ənd ˈvaɪnz tu ˈklaɪm ˈdaʊn ðə ˈklɪf ˈfeɪs/</div>
+<ul class="link"><li>wove a → /v/ が /ə/ に連結 [woʊv ə] ウォーヴ ア</li><li>string and → string の末尾 /ŋ/ が and の初頭 /æn/（フラップ化またはリンク）。and は弱形 /ən/ または /ənd/</li><li>climb down → /m/ が /d/ に続く（子音+子音）</li></ul>
+<div class="kana">シー ウォーヴ ア ロープ ラダー アウト アヴ ストリング アンド ヴァインズ トゥ クライム ダウン ザ クリフ フェイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">woven</span><span class="fl">過去分詞形</span><span class="fi">/ˈwoʊvən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>woven</mark> tapestry adorning the grand hall depicted scenes from the realm's ancient history.</p>
+<p class="ja">壮大なホールを飾った織られたタペストリーは、その領域の古い歴史からのシーンを描写しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwoʊvən ˈtæpəstri əˈdɔrnɪŋ ðə ɡrænd ˈhɔl dɪˈpɪktəd ˈsinz frəm ðə ˈrɛlmz ˈeɪnʃənt ˈhɪstəri/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>woven tapestry → /n/ が /t/ に続く（子音+子音）</li><li>adorning the → adorning の末尾 /ŋ/ が the の初頭 /ð/（子音）に続く（鼻音+子音）。the は弱形 /ðə/ ザ</li><li>from the → from は弱形 /frəm/ フラム、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ ウォーヴン タペストリー アドーニング ザ グラン ホール ディピクティッド シーンズ フラム ザ レルムズ エインシェント ヒストリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>woven</mark> the protective barrier, the villagers felt secure against the approaching storm.</p>
+<p class="ja">保護バリアを織り終えたので、村人たちは接近する嵐に対して安全に感じました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæviŋ ˈwoʊvən ðə prəˈtɛktɪv ˈbæriər ðə ˈvɪlɪdʒərz ˈfɛlt sɪˈkjʊr əˈɡɛnst ðə əˈproʊtʃɪŋ ˈstɔrm/</div>
+<ul class="link"><li>Having woven → woven の末尾 /n/ が the の初頭 /ð/（子音）に続く（鼻音+子音）</li><li>the は定冠詞で弱形 /ðə/ ザ</li><li>barrier the → barrier の末尾 /r/ が the の初頭 /ð/（子音）に先行（子音+子音）。the は弱形 /ðə/ ザ</li><li>against the → against の末尾 /t/ が the の初頭 /ð/（子音）に先行（子音+子音、未開放）。the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ハヴィング ウォーヴン ザ プロテクティヴ バリアー ザ ヴィリジャーズ フェルト シキュア アゲンスト ザ アプローチング ストーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">weaving</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Weaving</mark> intricate designs is a meditative activity that helps builders relax after intense mining sessions.</p>
+<p class="ja">複雑なデザインを織ることは、激しい採掘セッションの後、ビルダーをリラックスさせるのに役立つ瞑想的な活動です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwiːvɪŋ ɪnˈtrɪkət dɪˈzaɪnz ɪz ə ˈmɛdɪteɪtɪv ækˈtɪvɪti ðæt ˈhɛlps ˈbɪldərz rɪˈlæks ˈæftər ɪnˈtɛns ˈmaɪnɪŋ ˈsɛʃənz/</div>
+<ul class="link"><li>Weaving intricate → /ŋ/ が /ɪ/ に連結 [ˈwiːvɪŋ ɪnˈtrɪkət] ウィーヴィング イントリケット</li><li>designs is → designs の末尾 /z/ が is の初頭 /ɪ/ に連結 [dɪˈzaɪnz ɪz] ディザインズ イズ</li><li>meditative activity → meditative の末尾 /v/ が activity の初頭 /æ/ に連結 [ˈmɛdɪteɪtɪv ækˈtɪvɪti] メディテイティヴ アクティヴィティ</li></ul>
+<div class="kana">ウィーヴィング イントリケット ディザインズ イズ ア メディテイティヴ アクティヴィティ ザット ヘルプス ビルダーズ リラックス アフター インテンス マイニング セッションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>weaving</mark> through the bamboo forest, I discovered a hidden temple of ancient origin.</p>
+<p class="ja">竹の森を縫うように進んでいる間に、古い起源の隠された寺院を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ˈwiːvɪŋ θru ðə bæmˈbu ˈfɑrəst aɪ dɪsˈkʌvərd ə ˈhɪdən ˈtɛmpəl əv ˈeɪnʃənt ˈɔrɪdʒən/</div>
+<ul class="link"><li>While weaving → /l/ が /w/ に続く（子音+子音）</li><li>weaving through → /ŋ/ が /θ/ に続く（鼻音+子音）、through は /θru/</li><li>bamboo forest → /u/ が /f/ に先行（母音+子音、連結なし）</li><li>hidden temple → /n/ が /t/ に続く（子音+子音）</li></ul>
+<div class="kana">ホワイル ウィーヴィング スルー ザ バンブー フォレスト アイ ディスカヴァード ア ヒッデン テンプル アヴ エインシェント オリジン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is weaving</span><span class="fl">現在進行形（is/are + -ing）</span><span class="fi">/ɪz ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The master builder is <mark>weaving</mark> protective patterns into the fortress walls.</p>
+<p class="ja">マスタービルダーは、要塞の壁に保護パターンを織り込んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmæstər ˈbɪldər ɪz ˈwiːvɪŋ prəˈtɛktɪv ˈpætərnz ˈɪntu ðə ˈfɔɹtres wɔlz/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>is weaving - is の弱形 /ɪz/ が weaving の初頭 /w/ に続く（子音+子音）[ɪz̚ ˈwiːvɪŋ] イズ ウィーヴィング</li><li>patterns into - patterns の末尾 /z/ が into の初頭母音 /ɪ/ に連結 [ˈpætərnz ˈɪntu] パターンズ イント</li><li>fortress walls - fortress の末尾 /s/ が walls の初頭 /w/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ マスター ビルダー イズ ウィーヴィング プロテクティヴ パターンズ イント ザ フォートレス ウォールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>weaving</mark> rope ladders from vines to build our defenses.</p>
+<p class="ja">私たちはツルからロープはしごを織り、防御を構築しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː ɑɚ ˈwiːvɪŋ ˈroʊp ˈlædərz frəm ˈvaɪnz tu ˈbɪld aʊɚ dɪˈfɛnsəz/</div>
+<ul class="link"><li>are weaving - are の弱形 /ɑɚ/ が weaving の初頭 /w/ に続く（子音+子音）[ɑɚ̚ ˈwiːvɪŋ] アー ウィーヴィング</li><li>rope ladders - rope の末尾 /p/ が ladders の初頭 /l/ に続く（子音+子音）</li><li>from vines - from は弱形 /frəm/ フラム</li><li>to build - to は弱形 /tə/ が build の初頭 /b/ に続く [tə ˈbɪld] タ ビルド</li></ul>
+<div class="kana">ウィー アー ウィーヴィング ロープ ラダーズ フラム ヴァインズ タ ビルド アワー ディフェンセズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was weaving</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>weaving</mark> a rope bridge when the rain started.</p>
+<p class="ja">雨が始まったとき、私はロープ橋を織っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈwiːvɪŋ ə ˈroʊp ˈbrɪdʒ wɛn ðə ˈreɪn ˈstɑɹtəd/</div>
+<ul class="link"><li>was weaving - was の弱形 /wəz/ が weaving の初頭 /w/ に続く（子音+子音、未開放気味）[wəz̚ ˈwiːvɪŋ] ワズ ウィーヴィング</li><li>a rope - a の弱形 /ə/ が rope の初頭 /r/ に連結 [ə ˈroʊp] ア ロープ</li><li>when the - when の末尾 /n/ が the の初頭 /ð/（子音）に続く（鼻音+子音）。the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ ワズ ウィーヴィング ア ロープ ブリッジ ウェン ザ レイン スターテッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>weaving</mark> protective walls around our base when the mobs arrived.</p>
+<p class="ja">モブが到着したとき、私たちはベースの周りに保護壁を織っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiː wɚ ˈwiːvɪŋ prəˈtɛktɪv wɔlz əˈraʊnd aʊɚ ˈbeɪs wɛn ðə ˈmoʊbz əˈraɪvd/</div>
+<ul class="link"><li>were weaving - were の弱形 /wɚ/ が weaving の初頭 /w/ に続く（子音+子音）[wɚ ˈwiːvɪŋ] ワー ウィーヴィング</li><li>around our - around の末尾 /d/ が our の初頭母音 /aʊ/ に連結 [əˈraʊnd aʊɚ] アラウンド アワー</li><li>mobs arrived - mobs の末尾 /z/ が arrived の初頭母音 /ə/ に連結 [ˈmoʊbz əˈraɪvd] モウブズ アライヴド</li></ul>
+<div class="kana">ウィー ワー ウィーヴィング プロテクティヴ ウォールズ アラウンド アワー ベース ウェン ザ モウブズ アライヴド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been weaving</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd ˈbɪn ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time sunset arrived, she had been <mark>weaving</mark> the large tapestry for most of the day.</p>
+<p class="ja">日没が到着するまでに、彼女は大きなタペストリーをほぼ一日中織っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ˈsʌnset əˈraɪvd ʃi həd ˈbɪn ˈwiːvɪŋ ðə ˈlɑɹdʒ təˈpɛstri fər ˈmoʊst əv ðə ˈdeɪ/</div>
+<ul class="link"><li>had been - had の弱形 /həd/ が been の弱形 /bɪn/ に接続（d が b 前で未開放）[həd̚ bɪn] ハド ビン</li><li>been weaving - been の弱形 /bɪn/ が weaving の初頭 /w/ に連結 [bɪn ˈwiːvɪŋ] ビン ウィーヴィング</li><li>for most - for は弱形 /fər/ ファー、most の初頭 /m/ に続く（子音+子音）</li><li>most of the - most の末尾 /t/ が of の弱形 /əv/ に連結、of の末尾 /v/ が the の初頭 /ð/（子音）に続く（子音+子音）</li></ul>
+<div class="kana">バイ ザ タイム サンセット アライヴド シー ハド ビン ウィーヴィング ザ ラージ タペストリー ファー モウスト アヴ ザ デイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The team had been <mark>weaving</mark> decorative patterns all afternoon by the time the rain began.</p>
+<p class="ja">雨が始まるまでに、チームは午後中装飾的なパターンを織っていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtim həd ˈbɪn ˈwiːvɪŋ ˌdɛkəˈreɪtɪv ˈpætərnz ɔl ˌæftərˈnun baɪ ðə ˈtaɪm ðə ˈreɪn bɪˈɡæn/</div>
+<ul class="link"><li>had been - had の弱形 /həd/ が been の弱形 /bɪn/ に接続（d が b 前で未開放）[həd̚ bɪn] ハド ビン</li><li>been weaving - been の弱形 /bɪn/ が weaving の初頭 /w/ に連結 [bɪn ˈwiːvɪŋ] ビン ウィーヴィング</li><li>patterns all - patterns の末尾 /z/ が all の初頭 /ɔ/ に連結 [ˈpætərnz ɔl] パターンズ オール</li></ul>
+<div class="kana">ザ ティーム ハド ビン ウィーヴィング デコレイティヴ パターンズ オール アフターヌーン バイ ザ タイム ザ レイン ビガン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has woven</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈwoʊvən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>woven</mark> a protective barrier around our base using decorative blocks.</p>
+<p class="ja">彼女は装飾的なブロックを使用して、ベースの周りに保護バリアを織りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz ˈwoʊvən ə prəˈtɛktɪv ˈbæriər əˈraʊnd aʊər ˈbeɪs ˈjuzɪŋ ˌdɛkəˈreɪtɪv blɑks/</div>
+<ul class="link"><li>has は弱形 /həz/、woven a への連結：woven の末尾 /n/ が a の弱形 /ə/ に連結 [ˈwoʊvən ə] ウォーヴン ア</li><li>barrier around - barrier の末尾 /r/ が around の弱形 /əˈraʊnd/ に連結 [ˈbæriər əˈraʊnd] バリアー アラウンド</li><li>around our - around の末尾 /d/ が our の初頭母音 /aʊ/ に連結 [əˈraʊnd aʊər] アラウンド アワー</li><li>using decorative - using の末尾 /ŋ/ が decorative の初頭 /d/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">シー ハズ ウォーヴン ア プロテクティヴ バリアー アラウンド アワー ベース ユージング デコレイティヴ ブラックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders have <mark>woven</mark> together several different architectural styles into their masterpiece.</p>
+<p class="ja">ビルダーたちはいくつかの異なった建築スタイルを彼らの傑作に織り合わせました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldərz həv ˈwoʊvən təˈɡɛðər ˈsɛvərəl ˌdɪfərənt ˌɑrkɪˈtɛktʃərəl ˈstaɪlz ˈɪntu ðɛr ˈmeɪstərˌpis/</div>
+<ul class="link"><li>the は弱形 /ðə/、builders の末尾 /z/ が have の初頭 /h/ に続く（子音+子音、連結なし）[ˈbɪldərz həv] ビルダーズ ハヴ</li><li>have は弱形 /həv/、woven の末尾 /n/ が together の初頭子音 /t/ に続く（子音+子音、連結なし）</li><li>together の末尾 /r/ が several の初頭 /s/ に続く（子音+子音、連結なし）</li><li>styles into - styles の末尾 /z/ が into の初頭母音 /ɪ/ に連結 [ˈstaɪlz ˈɪntu] スタイルズ イント</li><li>into their - into の末尾 /u/ と their の初頭 /ð/ に先行（母音+子音、連結なし）、their は /ðɛr/ ザー</li></ul>
+<div class="kana">ザ ビルダーズ ハヴ ウォーヴン トゥゲザー セヴラル ディファレント アーキテクチャラル スタイルズ イント ザー メイスターピース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had woven</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈwoʊvən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid started, we had <mark>woven</mark> all the defensive traps into the fortress walls.</p>
+<p class="ja">レイドが始まるまでに、私たちはすべての防御的なトラップを要塞の壁に織り込んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈreɪd ˈstɑrtɪd | wi həd ˈwoʊvən ɔːl ðə dɪˈfɛnsɪv træps ˈɪntu ðə ˈfɔɹtres wɔlz/</div>
+<ul class="link"><li>by の末尾 /aɪ/ が the の初頭 /ð/（子音）に先行（母音+子音、連結なし）、the は弱形 /ðə/ ザ</li><li>raid の末尾 /d/ が started の初頭 /s/ に続く（子音+子音、連結なし）。started の末尾 /d/ が we の初頭 /w/ に続く（子音+子音、連結なし）</li><li>had は弱形 /həd/、had の末尾 /d/ が woven の初頭 /w/ に続く（子音+子音、連結なし）[həd ˈwoʊvən] ハド ウォーヴン</li><li>all の末尾 /l/ が the の初頭 /ð/（子音）に続く（子音+子音、連結なし）。the は弱形 /ðə/ ザ</li><li>traps の末尾 /s/ が into の初頭母音 /ɪ/ に連結 [træps ˈɪntu] トラップス イント</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド スターティッド、ウィ ハド ウォーヴン オール ザ ディフェンシヴ トラップス イント ザ フォートレス ウォールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After the artisans had <mark>woven</mark> the magnificent tapestry, the castle felt truly majestic.</p>
+<p class="ja">職人たちが壮大なタペストリーを織った後、城は本当に雄大に感じました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ðə ɑɹˈtɪzənz həd ˈwoʊvən ðə mæɡˈnɪfəsənt ˈtæpəstri ðə ˈkæsəl ˈfɛlt ˈtruːli məˈdʒɛstɪk/</div>
+<ul class="link"><li>after の末尾 /r/ と the の初頭 /ð/ に先行（子音+子音、連結なし）、the は弱形 /ðə/ ザ</li><li>artisans の末尾 /z/ が had の初頭 /h/ に続く（子音+子音、連結なし）[ɑɹˈtɪzənz həd] アーティザンズ ハド</li><li>had は弱形 /həd/、woven の初頭 /w/ に続く（子音+子音、連結なし）[həd ˈwoʊvən] ハド ウォーヴン</li><li>the は弱形 /ðə/。tapestry の末尾 /i/ が the の初頭 /ð/（子音）に先行（母音+子音、連結なし）</li><li>castle の末尾 /l/ が felt の初頭 /f/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">アフター ザ アーティザンズ ハド ウォーヴン ザ マグニフィセント タペストリー ザ キャッセル フェルト トゥルーリー マジェスティック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been weaving</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The artist has been <mark>weaving</mark> intricate patterns all day in preparation for the building competition.</p>
+<p class="ja">アーティストはビルディング大会の準備として、一日中複雑なパターンを織っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɑɹtɪst həz bɪn ˈwiːvɪŋ ɪnˈtrɪkət ˈpætərnz ɔːl ˈdeɪ ɪn ˌprɛpəˈreɪʃən fɔr ðə ˈbɪldɪŋ ˌkɑmpɪˈtɪʃən/</div>
+<ul class="link"><li>the は弱形 /ðə/。artist の末尾 /t/ が has の初頭 /h/ に続く（子音+子音、連結なし）</li><li>has は弱形 /həz/、been の初頭 /b/ に続く（子音+子音、連結なし）[həz bɪn] ハズ ビン</li><li>been は弱形 /bɪn/、weaving の初頭 /w/ に続く（子音+子音、連結なし）[bɪn ˈwiːvɪŋ] ビン ウィーヴィング</li><li>weaving の末尾 /ŋ/ が intricate の初頭 /ɪ/ に続く（鼻音+母音、連結なし）[ˈwiːvɪŋ ɪnˈtrɪkət] ウィーヴィング イントリケット</li><li>for は弱形 /fɔr/、the は弱形 /ðə/</li></ul>
+<div class="kana">ザ アーティスト ハズ ビン ウィーヴィング イントリケット パターンズ オール デイ イン プレパレーション フォア ザ ビルディング コンペティション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>weaving</mark> protective walls around the village since early morning to defend against mobs.</p>
+<p class="ja">私たちはモブから防御するために、早朝から村の周りに保護壁を織っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈwiːvɪŋ prəˈtɛktɪv wɔlz əˈraʊnd ðə ˈvɪlɪdʒ sɪns ˈɜrli ˈmɔrnɪŋ tu dɪˈfɛnd əˈɡɛnst ˈmoʊbz/</div>
+<ul class="link"><li>have は弱形 /həv/、been の初頭 /b/ に続く（子音+子音、連結なし）[həv bɪn] ハヴ ビン</li><li>been は弱形 /bɪn/、weaving の初頭 /w/ に続く（子音+子音、連結なし）[bɪn ˈwiːvɪŋ] ビン ウィーヴィング</li><li>weaving の末尾 /ŋ/ が protective の初頭 /p/ に続く（鼻音+子音、連結なし）[ˈwiːvɪŋ prəˈtɛktɪv] ウィーヴィング プロテクティヴ</li><li>walls の末尾 /z/ が around の初頭母音 /ə/ に連結 [wɔlz əˈraʊnd] ウォールズ アラウンド</li><li>to は弱形 /tə/、defend の初頭 /d/ に続く（子音+子音、連結なし）</li></ul>
+<div class="kana">ウィ ハヴ ビン ウィーヴィング プロテクティヴ ウォールズ アラウンド ザ ヴィリッジ シンス アーリー モーニング トゥ ディフェンド アゲンスト モウブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will weave</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl wiːv/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>weave</mark> a protective barrier around the base before sunset tomorrow.</p>
+<p class="ja">明日の日没前に、私はベースの周りに保護バリアを織ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl wiːv ə prəˈtɛktɪv ˈbæriər əˈraʊnd ðə ˈbeɪs bɪˈfɔr ˈsʌnset təˈmɑroʊ/</div>
+<ul class="link"><li>will weave - will の末尾 /l/ が weave の初頭 /w/ に続く（子音+子音）</li><li>weave a - weave の末尾 /v/ が a の弱形 /ə/ に連結 [wiːv ə] ウィーヴ ア</li><li>around the - around の末尾 /d/ が the の初頭 /ð/（子音）に続く（子音+子音）。the は弱形 /ðə/ ザ</li><li>before sunset - before の末尾 /r/ が sunset の初頭 /s/ に続く（子音+子音）</li></ul>
+<div class="kana">アイ ウィル ウィーヴ ア プロテクティヴ バリアー アラウンド ザ ベース ビフォア サンセット トゥモロー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The master builders will <mark>weave</mark> intricate designs using precious blocks to create a breathtaking masterpiece.</p>
+<p class="ja">マスタービルダーたちは貴重なブロックを使用して、息をのむような傑作を作成するために複雑なデザインを織ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmæstər ˈbɪldərz wɪl wiːv ɪnˈtrɪkət dɪˈzaɪnz ˈjuzɪŋ ˈprɛʃəs blɑks tə kriˈeɪt ə ˈbrɛθˌteɪkɪŋ ˈmeɪstərˌpis/</div>
+<ul class="link"><li>The は定冠詞で弱形 /ðə/ ザ</li><li>will weave - will の末尾 /l/ が weave の初頭 /w/ に続く（子音+子音）</li><li>weave intricate - weave の末尾 /v/ が intricate の初頭 /ɪ/ に連結 [wiːv ɪnˈtrɪkət] ウィーヴ イントリケット</li><li>to create - to は弱形 /tə/ タ、create の初頭 /k/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ マスター ビルダーズ ウィル ウィーヴ イントリケット ディザインズ ユージング プレシャス ブラックス タ クリエイト ア ブレスティキング マスターピース</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be weaving</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bɪ ˈwiːvɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you're mining diamonds, we will be <mark>weaving</mark> the reinforced walls around the village perimeter.</p>
+<p class="ja">あなたがダイヤモンドを採掘している間、私たちは村の周辺の周りに強化壁を織ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl jɔr ˈmaɪnɪŋ ˈdaɪməndz | wi wɪl bɪ ˈwiːvɪŋ ðə ɹɪnˈfɔrst wɔlz əˈraʊnd ðə ˈvɪlɪdʒ pəˈrɪmɪtər/</div>
+<ul class="link"><li>will be - will の末尾 /l/ が be の初頭 /b/ に続く（子音+子音）</li><li>be weaving - be の弱形 /bɪ/ が weaving の初頭 /w/ に続く（子音+子音）[bɪ ˈwiːvɪŋ] ビ ウィーヴィング</li><li>weaving the - weaving の末尾 /ŋ/ が the の初頭 /ð/（子音）に続く（鼻音+子音）。the は弱形 /ðə/ ザ</li><li>around the - around の末尾 /d/ が the の初頭 /ð/（子音）に続く（子音+子音）。the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ホワイル ユアー マイニング ダイモンズ。ウィ ウィル ビ ウィーヴィング ザ リンフォースト ウォールズ アラウンド ザ ヴィリッジ パリメター</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>At sunset, the team will be <mark>weaving</mark> rope bridges to connect all the scattered islands across the ocean.</p>
+<p class="ja">日没時に、チームは海全体に散らばっているすべての島を接続するために、ロープ橋を織ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/æt ˈsʌnset | ðə ˈtim wɪl bɪ ˈwiːvɪŋ ˈroʊp ˈbrɪdʒəz tə kəˈnɛkt ɔːl ðə ˈskætərd ˈaɪləndz əˈkrɔs ðə ˈoʊʃən/</div>
+<ul class="link"><li>at sunset - at の末尾 /t/ が sunset の初頭 /s/ に続く（子音+子音、未開放）[æt̚ ˈsʌnset] アッ サンセット</li><li>will be - will の末尾 /l/ が be の初頭 /b/ に続く（子音+子音）</li><li>be weaving - be の弱形 /bɪ/ が weaving の初頭 /w/ に連結 [bɪ ˈwiːvɪŋ] ビ ウィーヴィング</li><li>to connect - to は弱形 /tə/ タ、connect の初頭 /k/ に続く（子音+子音）</li></ul>
+<div class="kana">アッ サンセット。ザ ティーム ウィル ビ ウィーヴィング ロープ ブリッジズ タ コネクト オール ザ スキャタード アイランズ アクロス ザ オーシャン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have woven</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈwoʊvən/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/weave_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid begins, she will have <mark>woven</mark> protective cloth barriers throughout the fortress.</p>
+<p class="ja">レイドが始まるまでに、彼女は要塞全体に保護布バリアを織り終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈreɪd bɪˈɡɪnz | ʃi wɪl həv ˈwoʊvən prəˈtɛktɪv klɔθ ˈbæriərz θruːˈaʊt ðə ˈfɔɹtres/</div>
+<ul class="link"><li>by the - by の末尾 /aɪ/（母音）が the の初頭 /ð/（子音）に続く（母音→子音）。the は弱形 /ðə/ ザ</li><li>will have - will の末尾 /l/ が have の初頭 /h/ に続く（子音+子音）</li><li>have woven - have の弱形 /həv/ の末尾 /v/ が woven の初頭 /w/ に続く（子音+子音）[həv ˈwoʊvən] ハヴ ウォーヴン</li><li>throughout the - throughout の末尾 /t/ が the の初頭 /ð/（子音）に続く（子音+子音、未開放）[θruːt̚ ðə] スルーアウト ザ</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド ビギンズ。シー ウィル ハヴ ウォーヴン プロテクティヴ クロス バリアーズ スルーアウト ザ フォートレス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will have <mark>woven</mark> the entire tapestry by sunset if they work continuously without taking breaks.</p>
+<p class="ja">彼らが途切れずに働き続ければ、日没までに全体のタペストリーを織り終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl həv ˈwoʊvən ðə ɪnˈtaɪər təˈpɛstri baɪ ˈsʌnset ɪf ðeɪ wɝk kənˈtɪnjuəsli wɪˈðaʊt ˈteɪkɪŋ ˈbreɪks/</div>
+<ul class="link"><li>will have - will の末尾 /l/ が have の初頭 /h/ に続く（子音+子音）</li><li>have woven - have の弱形 /həv/ の末尾 /v/ が woven の初頭 /w/ に続く（子音+子音）[həv ˈwoʊvən] ハヴ ウォーヴン</li><li>woven the - woven の末尾 /n/ が the の初頭 /ð/（子音）に続く（子音+子音）。the は弱形 /ðə/ ザ</li><li>without taking - without の末尾 /t/ が taking の初頭 /t/ に続く（子音+子音、未開放）[wɪˈðaʊt̚ ˈteɪkɪŋ] ウィザウット テイキング</li></ul>
+<div class="kana">ザイ ウィル ハヴ ウォーヴン ザ インタイアー タペストリー バイ サンセット イフ ザイ ワーク コンティニュアスリー ウィザウット テイキング ブレイクス</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">weave in and out of</span><span class="im">～の間を蛇行して進む、複雑に通り抜ける</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You need to <mark>weave</mark> in and out of the pillars to reach the dragon egg safely.</p>
+<p class="ja">ドラゴンの卵に安全に到達するために、柱の間を蛇行して進まなければならない。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː ˈniːd tə ˈwiːv ɪn ənd ˈaʊt əv ðə ˈpɪlərz tə ˈriːtʃ ðə ˈdræɡən ˈɛɡ ˈseɪfli/</div>
+<ul class="link"><li>need to：to は弱形 /tə/ で、weave に自然に流れ込む</li><li>out of：t音がフラップ化し連結 [ˈaʊɾəv]、of は弱形 /əv/</li></ul>
+<div class="kana">ユー ニード タ ウィーヴ イン アンド アウラヴ ザ ピラーズ タ リーチ ザ ドラゴン エッグ セイフリー</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">weave together</span><span class="im">～を組み合わせる、組み上げる、統合する</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The builders <mark>wove</mark> together different materials to create a unique fortress.</p>
+<p class="ja">ビルダーたちはユニークな砦を作るために、異なる素材を組み合わせて構築した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldərz ˈwoʊv təˈɡɛðər ˈdɪfərənt məˈtɪriəlz tə kriˈeɪt ə ˈjuːnik ˈfɔɹtɹəs/</div>
+<ul class="link"><li>wove together：語末子音 /v/ と together の先頭子音 /t/ が自然に流れる（子音クラスター、特別な連結変化なし）</li><li>create a：t音がフラップ化し /ə/ に連結 [kriˈeɪɾə]</li></ul>
+<div class="kana">ザ ビルダーズ ウォーヴ トゥゲザー ディフラント マテリアルズ タ クリエイラ ユニーク フォートレス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">weave a web</span><span class="im">～の罠を仕掛ける、複雑な計画やパターンを組み立てる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The engineer <mark>wove</mark> a web of redstone circuits to protect the base.</p>
+<p class="ja">エンジニアは基地を守るために、レッドストーン回路の複雑な網を組み上げた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/weave_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/weave_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛndʒɪˌnɪr ˈwoʊv ə ˈwɛb əv ˈrɛdˌstoʊn ˈsɜɹkɪts tə prəˈtɛkt ðə ˈbeɪs/</div>
+<ul class="link"><li>wove a：語末子音 /v/ が母音 /ə/ に連結 [ˈwoʊvə]</li><li>of redstone：of は弱形 /əv/、redstone に流れ込む</li></ul>
+<div class="kana">ザ エンジニア ウォーヴァ ウェブ アヴ レッドストーン サーキッツ タ プロテクト ザ ベース</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="weave";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

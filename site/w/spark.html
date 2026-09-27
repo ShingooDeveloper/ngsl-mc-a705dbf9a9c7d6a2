@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>spark — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>spark</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/spɑɹk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1426</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】小さな火や光の粒子、火の粉（flint and steel で火をつけるときなど）</li><li>【名詞】電火花、電気の閃光、きらめき（redstone 回路が活動するときの光）</li><li>【名詞】ひらめき、兆候、きっかけ（創造性や希望のひとかけら、a spark of hope など）</li><li>【動詞】（何かを）引き起こす、火をつける、活動を始める</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I strike flint and steel, creating <mark>sparks</mark> for the campfire.</p>
+<p class="ja">私はflint and steelを打ち、焚き火のための火の粉を作る。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈstɹaɪk ˈflɪnt ən ˈstil kɹiˈeɪɾɪŋ ˈspɑɹks fɚ ðə ˈkæmpfaɪɹ/</div>
+<ul class="link"><li>flint の語末子音 /t/ と and の初頭音が連結し、and は弱形 /ən/ で発音される</li><li>creating では /t/ が前の母音 /eɪ/ と次の母音 /ɪ/ に挟まれてフラップ化 [kɹiˈeɪɾɪŋ] クリエイリング</li><li>for は機能語で弱形 /fɚ/ に還元される</li><li>the は弱形 /ðə/ で軽く発音</li></ul>
+<div class="kana">アイ ストライク フリント エン スティール クリエイリング スパークス ファー ザ キャンプファイヤー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>A <mark>spark</mark> of hope kept me searching deeper in the cave.</p>
+<p class="ja">希望のひらめきが、私をより深い洞窟の探索を続けさせた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈspɑɹk əv ˈhoʊp kɛpt mi ˈsɝːtʃɪŋ ˈdipɚ ɪn ðə ˈkeɪv/</div>
+<ul class="link"><li>spark の語末子音 /k/ が of の弱形 /əv/ に連結 [ˈspɑɹk əv]</li><li>A の弱形 /ə/ が軽く発音され、spark の /s/ に続く</li><li>searching では /ɝː/（r-colored schwa）で「サー」と発音</li><li>deeper の語末 /ɚ/ も r-colored で、次の in の /ɪ/ に続く</li></ul>
+<div class="kana">ア スパーク アヴ ホウプ ケプト ミー サーチング ディーパー イン ザ ケイヴ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>One small mistake <mark>sparks</mark> a chain of disasters in my redstone circuit.</p>
+<p class="ja">1つの小さなミスが私のレッドストーン回路で災害の連鎖を引き起こす。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌn smɔl mɪsˈteɪk ˈspɑɹks ə ˈtʃeɪn əv dɪˈzæstɚz ɪn maɪ ˈɹɛdˌstoʊn ˈsɝːkɪt/</div>
+<ul class="link"><li>mistake の語末子音 /k/ が sparks の /s/ に続く（子音-子音、連結なし）</li><li>sparks の語末子音クラスタ /ks/ と a の弱形 /ə/ が続く</li><li>my の語末 /aɪ/ から redstone の /ɹ/ への自然な連結</li><li>circuit では /ɝː/（r-colored）で「サー」、全体的に自然な連続</li></ul>
+<div class="kana">ワン スモール ミステイク スパークス ア チェイン アヴ ディザスターズ イン マイ レッドストーン サーキット</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sparks</span><span class="fl">複数形</span><span class="fi">/spɑɹks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I see bright <mark>sparks</mark> flying from my flint and steel.</p>
+<p class="ja">私のflint and steelから明るい火の粉が飛んでいるのが見える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈsi ˈbraɪt ˈspɑɹks ˈflaɪɪŋ fɹəm maɪ ˈflɪnt ən ˈstil/</div>
+<ul class="link"><li>from の語末子音 /m/ が my の /m/ に続く</li><li>flint の語末子音 /t/ が and の弱形 /ən/ に連結</li><li>and は機能語で弱形に還元される</li></ul>
+<div class="kana">アイ シー ブライト スパークス フライング フラム マイ フリント エン スティール</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>sparks</mark> scattered everywhere when the TNT exploded.</p>
+<p class="ja">TNTが爆発したとき、火の粉があちこちに散った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈspɑɹks ˈskætɚd ɪˈvɛɹiwɛɹ wɛn ðə ˈti ɛn ˈti ɪkˈsploʊdɪd/</div>
+<ul class="link"><li>the は弱形で軽く、sparks の /s/ に続く</li><li>scattered の語末 /d/ が everywhere の /ɪ/ に連結</li><li>when の語末 /n/ が the の弱形に続く</li></ul>
+<div class="kana">ザ スパークス スキャタード イヴェリウェア ウェン ザ ティ エン ティ イクスプロウディド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sparks</span><span class="fl">三人称単数現在形</span><span class="fi">/spɑɹks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>One small mistake <mark>sparks</mark> a chain reaction in my redstone.</p>
+<p class="ja">1つの小さなミスが私のレッドストーンで連鎖反応を引き起こす。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌn smɔl mɪsˈteɪk ˈspɑɹks ə ˈtʃeɪn ɹiˈækʃən ɪn maɪ ˈɹɛdˌstoʊn/</div>
+<ul class="link"><li>mistake の語末子音 /k/ が sparks の /s/ に続く</li><li>a は弱形で軽く、chain の /tʃ/ に続く</li><li>in の弱形が my の /m/ に続く</li></ul>
+<div class="kana">ワン スモール ミステイク スパークス ア チェイン リアクション イン マイ レッドストーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>This enchanted diamond <mark>sparks</mark> magical energy when you hold it.</p>
+<p class="ja">このエンチャントされたダイアモンドを持つと、魔法のエネルギーが放出される。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ɛnˈtʃɑntɪd ˈdaɪmənd ˈspɑɹks ˈmædʒɪkəl ˈɛnɚdʒi wɛn ju ˈhoʊld ɪt/</div>
+<ul class="link"><li>diamond の語末子音 /d/ が sparks の /s/ に続く</li><li>magical の語末 /l/ が energy の /ɛ/ に連結</li><li>when の語末 /n/ が you の /j/ に続く</li></ul>
+<div class="kana">ディス エンチャンティド ダイモンド スパークス マジカル エナジー ウェン ユー ホウルド イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sparked</span><span class="fl">過去形</span><span class="fi">/spɑɹkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>sparked</mark> the furnace with flint and steel to smelt the ore.</p>
+<p class="ja">flint and steelでかまどに火をつけて鉱石を精錬した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈspɑɹkt ðə ˈfɝːnəs wɪð flɪnt ən ˈstil tu smɛlt ðiː ˈɔɹ/</div>
+<ul class="link"><li>sparked の語末子音 /t/ が the の弱形に連結</li><li>flint の語末 /t/ が and の弱形に連結</li><li>to と the は弱形に還元</li></ul>
+<div class="kana">アイ スパークド ザ ファーネス ウィズ フリント エン スティール トゥ スメルト ディー オアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The explosion <mark>sparked</mark> a terrible fire that spread across the forest.</p>
+<p class="ja">爆発により、森全体に広がる恐ろしい火が引き起こされた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɪkˈsploʊʒən ˈspɑɹkt ə ˈtɛɹəbəl ˈfaɪɚ ðət spɹɛd əˈkɹɔs ðə ˈfɔɹəst/</div>
+<ul class="link"><li>sparked の語末 /t/ が a の弱形に連結</li><li>that の語末子音 /t/ が spread に続き、同化される</li><li>across の語末が the の弱形に続く</li></ul>
+<div class="kana">ザ イクスプロウジョン スパークド ア テラブル ファイアー ザッ スプレッド アクロス ザ フォレスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sparked</span><span class="fl">過去分詞</span><span class="fi">/spɑɹkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>A careless mistake <mark>sparked</mark> by my neglect ruined the entire contraption.</p>
+<p class="ja">私の怠慢により起こされた不注意なミスが全体の装置を台無しにした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə ˈkɛɹləs mɪsˈteɪk ˈspɑɹkt baɪ maɪ nɪˈglɛkt ˈɹuːɪnd ðiː ɪnˈtaɪɚ kənˈtɹæpʃən/</div>
+<ul class="link"><li>careless の語末子音 /s/ が mistake の /m/ に続く（母音間で /s/ は濁って /z/）</li><li>sparked の語末 /t/ が by に続く（先行音として保持される）</li><li>neglect の語末子音 /t/ が entire の /ɪ/ に連結</li></ul>
+<div class="kana">ア ケアレス ミステイク スパークド バイ マイ ニグレクト ルーインド ディー インタイアー コントラプション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone circuit <mark>sparked</mark> by my invention activated the secret door.</p>
+<p class="ja">私の発明により活動化されたレッドストーン回路が秘密のドアを開いた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdˌstoʊn ˈsɝːkɪt ˈspɑɹkt baɪ maɪ ɪnˈvɛnʃən ˈæktɪveɪtəd ðə ˈsikɹət ˈdɔɹ/</div>
+<ul class="link"><li>the は弱形、redstone の /r/ に続く</li><li>sparked の語末 /t/ が by に続く（先行音として保持される）</li><li>invention の語末が activated に連結</li></ul>
+<div class="kana">ザ レッドストーン サーキット スパークド バイ マイ インヴェンション アクティベイテド ザ シークレット ドアー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">sparking</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I can see <mark>sparking</mark> magical effects coming from the enchanted stone.</p>
+<p class="ja">エンチャントされた石から来る、きらめく魔法の効果が見える。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ kæn ˈsi ˈspɑɹkɪŋ ˈmædʒɪkəl ɪˈfɛkts ˈkʌmɪŋ fɹəm ðiː ɛnˈtʃɑntɪd ˈstoʊn/</div>
+<ul class="link"><li>can は弱形で see に続く</li><li>magical の語末 /l/ が effects に連結</li><li>coming の語末 /ŋ/ が from の /f/ に続く</li></ul>
+<div class="kana">アイ キャン シー スパーキング マジカル イフェクツ カミング フラム ディー エンチャンティド ストーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone mechanism is <mark>sparking</mark> with intense energy right now.</p>
+<p class="ja">そのレッドストーンメカニズムは今、激しいエネルギーで燃えぎらめいている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdˌstoʊn ˈmɛkənɪzəm ɪz ˈspɑɹkɪŋ wɪð ɪnˈtɛns ˈɛnɚdʒi ˈɹaɪt ˈnaʊ/</div>
+<ul class="link"><li>the は弱形、redstone に続く</li><li>mechanism の語末 /m/ が is の弱形 /z/ に続く</li><li>sparking の語末 /ŋ/ が with に続く</li></ul>
+<div class="kana">ザ レッドストーン メカニズム イズ スパーキング ウィズ インテンス エナジー ライト ナウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is sparking</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Lightning is <mark>sparking</mark> all around me!</p>
+<p class="ja">稲妻が私の周りでいたるところで火花を散らしています！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈlaɪtnɪŋ ɪz ˈspɑɹkɪŋ ɔləˈɹaʊnd mi]</div>
+<ul class="link"><li>「is」は弱形 /ɪz/</li><li>「all」語末子音 /l/ が「around」の初頭 /ə/ に連結 [ɔləˈɹaʊnd] オラウンド</li></ul>
+<div class="kana">ライトニング イズ スパーキング オラウンド ミー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The fuel is <mark>sparking</mark> in my hands!</p>
+<p class="ja">燃料が私の手の中で火花を散らしています！</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈfjuəlɪz ˈspɑɹkɪŋ ɪn maɪ hændz]</div>
+<ul class="link"><li>「the」は弱形 /ðə/</li><li>「fuel」語末子音 /l/ が「is」の初頭 /ɪ/ に連結 [ˈfjuəlɪz] フュアリズ</li><li>「is」は弱形 /ɪz/</li></ul>
+<div class="kana">ザ フュアリズ スパーキング イン マイ ハンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was sparking</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The circuit was <mark>sparking</mark> before I fixed it.</p>
+<p class="ja">私がそれを修正する前に回路は火花を散らしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɝkɪt̚ wəz ˈspɑɹkɪŋ bɪˈfɔr aɪ ˈfɪkst ɪt]</div>
+<ul class="link"><li>「the」は弱形 /ðə/</li><li>「was」は弱形 /wəz/</li><li>「circuit」語末子音 /t/ が未開放で「was」に続く [ˈsɝkɪt̚ wəz] サーキッ ワズ</li></ul>
+<div class="kana">ザ サーキッ ワズ スパーキング ビフォー アイ フィクスト イット</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone was <mark>sparking</mark> all over the place.</p>
+<p class="ja">レッドストーンはいたるところで火花を散らしていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɹɛd stoʊn wəz ˈspɑɹkɪŋ ɔloʊvɚ ðə pleɪs]</div>
+<ul class="link"><li>「the」は弱形 /ðə/</li><li>「was」は弱形 /wəz/</li><li>「all」語末子音 /l/ が「over」の初頭 /oʊ/ に連結 [ɔloʊvɚ] オロー バー</li></ul>
+<div class="kana">ザ レッド ストーン ワズ スパーキング オロー バー ザ プレイス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been sparking</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The torch had been <mark>sparking</mark> for hours.</p>
+<p class="ja">懐中電灯は数時間火花を散らし続けていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈtɔɹtʃ həd bɪn ˈspɑɹkɪŋ fɚ ˈaʊɚz]</div>
+<ul class="link"><li>「the」は弱形 /ðə/</li><li>「had」は弱形 /həd/</li><li>「been」は弱形 /bɪn/</li></ul>
+<div class="kana">ザ トーチ ハド ビン スパーキング ファー アワーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The circuit had been <mark>sparking</mark> and smoking.</p>
+<p class="ja">回路は火花を散らし、煙を立てていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɝkɪt̚ həd bɪn ˈspɑɹkɪŋ ənd ˈsmoʊkɪŋ]</div>
+<ul class="link"><li>「the」は弱形 /ðə/</li><li>「had」は弱形 /həd/</li><li>「been」は弱形 /bɪn/</li><li>「and」は弱形 /ən/や /ənd/</li></ul>
+<div class="kana">ザ サーキッ ハド ビン スパーキング エン スモーキング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has sparked</span><span class="fl">現在完了形</span><span class="fi">/həz spɑɹkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>This flint and steel has <mark>sparked</mark> multiple times, igniting the torch.</p>
+<p class="ja">このflint and steel は何度も火を放ち、松明に火をつけた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈflɪnt ən ˈstil həz ˈspɑɹkt ˈmʌltɪpəl ˈtaɪmz ɪɡˈnaɪtɪŋ ðə ˈtɔɹtʃ/</div>
+<ul class="link"><li>this は子音前で弱形 /ðɪs/ ディス</li><li>flint の語末子音 /t/ が and の弱形 /ən/ に続く</li><li>steel の語末 /l/ が has の弱形 /həz/ に連結 [ˈstil həz] スティール ハズ</li><li>sparked の語末 /t/ が multiple の /m/ に続く（未開放）</li></ul>
+<div class="kana">ディス フリント エン スティール ハズ スパークド マルティプル タイムズ イグナイティング ザ トーチ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>sparked</mark> the furnace successfully to begin the smelting process.</p>
+<p class="ja">私はかまどに火をつけて、精錬プロセスを始めるのに成功した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv ˈspɑɹkt ðə ˈfɝːnəs ˌsʌkˈsɛsfəli tu bɪˈɡɪn ðə ˈsmɛltɪŋ ˈpɹɑsɛs/</div>
+<ul class="link"><li>have の /v/ が sparked の /s/ に続く（子音+子音）</li><li>sparked の語末 /t/ が the の弱形 /ðə/ に連結 [ˈspɑɹkt ðə] スパークド ザ</li><li>to は弱形 /tə/ タ</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ ハヴ スパークド ザ ファーネス サクセスフリー トゥ ビギン ザ スメルティング プロセス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had sparked</span><span class="fl">過去完了形</span><span class="fi">/həd spɑɹkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>After I had <mark>sparked</mark> the TNT, the chain reaction destroyed everything instantly.</p>
+<p class="ja">TNTに火をつけた後、連鎖反応がすべてを一瞬で破壊した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftɚ aɪ həd ˈspɑɹkt ðə ˌti ɛn ˈti ðə ˈtʃeɪn ɹiˈækʃən dɪsˈtɹɔɪd ˈɛvrɪθɪŋ ˈɪnstəntli/</div>
+<ul class="link"><li>had の /d/ が sparked の /s/ に続く（子音+子音）</li><li>sparked の語末 /t/ が the の弱形 /ðə/ に連結 [ˈspɑɹkt ðə] スパークド ザ</li><li>the は弱形 /ðə/ ザ、chain の /tʃ/ に続く</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アフター アイ ハッド スパークド ザ ティ エン ティ ザ チェイン リアクション ディストロイド エヴリシング インスタントリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone circuit had <mark>sparked</mark> before the water could extinguish it.</p>
+<p class="ja">レッドストーン回路は水が消火できる前に火を放った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdˌstoʊn ˈsɝːkɪt həd ˈspɑɹkt bɪˈfoɹ ðə ˈwɔtɚ ˈkʊd ɪkˈstɪŋɡwɪʃ ɪt/</div>
+<ul class="link"><li>the は弱形 /ðə/、redstone の /r/ に続く</li><li>circuit の語末 /t/ が had の弱形 /həd/ に続く（未開放）</li><li>had の /d/ が sparked の /s/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ、water の /w/ に続く</li></ul>
+<div class="kana">ザ レッドストーン サーキット ハッド スパークド ビフォア ザ ウォーター クッド イクスティングウィッシュ イット</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been sparking</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The enchanted stone has been <mark>sparking</mark> magical effects since I placed it here.</p>
+<p class="ja">エンチャントされた石はここに置いて以来、魔法の効果を放ち続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɛnˈtʃɑntɪd ˈstoʊn həz bɪn ˈspɑɹkɪŋ ˈmædʒɪkəl ɪˈfɛkts sɪns aɪ ˈpleɪst ɪt ˈhɪɹ/</div>
+<ul class="link"><li>the は子音前で弱形 /ðə/ ザ</li><li>stone の語末 /n/ が has の弱形 /həz/ に続く</li><li>has の /z/ が been の /b/ に続く（子音+子音）</li><li>been の /n/ が sparking の /s/ に続く（子音+子音）</li><li>placed の語末 /t/ が it の /ɪ/ に続く</li></ul>
+<div class="kana">ザ エンチャンティド ストーン ハズ ビン スパーキング マジカル イフェクツ シンス アイ プレイスド イット ヒアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone mechanism has been <mark>sparking</mark> continuously since the farm started operating.</p>
+<p class="ja">レッドストーン機構は農場の稼働開始以来、継続的に火花を放ち続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdˌstoʊn ˈmɛkənɪzəm həz bɪn ˈspɑɹkɪŋ ˌkɑnˈstɪnjuəsli sɪns ðə ˈfɑɹm ˈstɑɹtəd ˈɑpɚˌeɪtɪŋ/</div>
+<ul class="link"><li>the は弱形 /ðə/、redstone の /r/ に続く</li><li>mechanism の語末 /m/ が has の弱形 /həz/ に続く</li><li>has の /z/ が been の /b/ に続く（子音+子音）</li><li>been の /n/ が sparking の /s/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ、farm の /f/ に続く</li></ul>
+<div class="kana">ザ レッドストーン メカニズム ハズ ビン スパーキング コンティニュアスリー シンス ザ ファーム スターティッド オペレイティング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will spark</span><span class="fl">単純未来形</span><span class="fi">/wɪl spɑɹk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>spark</mark> the furnace to begin smelting ore.</p>
+<p class="ja">私は鉱石を精錬し始めるためにかまどに火をつけるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈspɑɹk ðə ˈfɝːnəs tə bɪˈɡɪn ˈsmɛltɪŋ ˈɔɹ/</div>
+<ul class="link"><li>will の語末 /l/ が spark の /s/ に続く（子音+子音、連結なし）</li><li>spark の語末子音 /k/ が the の弱形 /ðə/ に続く（子音+子音）</li><li>to は機能語で弱形 /tə/、begin の /b/ に続く</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">アイ ウィル スパーク ザ ファーネス タ ビギン スメルティング オアー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone circuit will <mark>spark</mark> when you press the button.</p>
+<p class="ja">レッドストーン回路はボタンを押すと火をつけるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɹɛdˌstoʊn ˈsɝːkɪt wɪl ˈspɑɹk wɛn ju pɹɛs ðə ˈbʌtn̩/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ、redstone の /r/ に続く</li><li>circuit の語末 /t/ が will の /w/ に続く（子音+子音）</li><li>will の語末 /l/ が spark の /s/ に続く（子音+子音）</li><li>spark の語末子音 /k/ が when の /w/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ レッドストーン サーキット ウィル スパーク ウェン ユー プレス ザ バットン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be sparking</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈspɑɹkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The mechanism will be <mark>sparking</mark> continuously while the farm operates.</p>
+<p class="ja">農場が稼働している間、その機構は継続的に火花を放ち続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmɛkənɪzəm wɪl bi ˈspɑɹkɪŋ ˌkɑnˈstɪnjuəsli waɪl ðə ˈfɑɹm ˈɑpɚˌeɪts/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ、mechanism の /m/ に続く</li><li>mechanism の語末 /m/ が will の /w/ に続く（子音+子音）</li><li>will の語末 /l/ が be の /b/ に続く（子音+子音）</li><li>while の語末 /l/ が the の弱形 /ðə/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ メカニズム ウィル ビー スパーキング コンティニュアスリー ホワイル ザ ファーム オペレイツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll be <mark>sparking</mark> flint and steel for hours if you want enough fire starters.</p>
+<p class="ja">火打ち石の着火器を十分に作りたいなら、何時間もflint and steel を使って火をつけることになるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jul bi ˈspɑɹkɪŋ ˈflɪnt ən ˈstil fɚ ˈaʊɚz ɪf ju ˈwɑnt ɪˈnʌf ˈfaɪɚ ˈstɑɹtɚz/</div>
+<ul class="link"><li>You'll は縮約形 /jul/、be の /b/ に続く（/l/-/b/ で連結なし）</li><li>be は弱形 /bi/、sparking の /s/ に続く（子音+子音）</li><li>sparking の語末 /ŋ/ が flint の /f/ に続く</li><li>flint の語末 /t/ が and の弱形 /ən/ に連結 [ˈflɪn tən] フリンタン</li></ul>
+<div class="kana">ユール ビー スパーキング フリント エン スティール ファー アワーズ イフ ユー ウォント イナフ ファイアー スターターズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have sparked</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv spɑɹkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/spark_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we finish mining, the redstone circuit will have <mark>sparked</mark> dozens of times.</p>
+<p class="ja">採掘を終える頃には、レッドストーン回路は何十回も火を放っているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈfɪnɪʃ ˈmaɪnɪŋ ðə ˈɹɛdˌstoʊn ˈsɝːkɪt wɪl həv ˈspɑɹkt ˈdʌzənz əv ˈtaɪmz/</div>
+<ul class="link"><li>by は /baɪ/、the は弱形 /ðə/ ザ</li><li>the は弱形 /ðə/ ザ、time の /t/ に続く</li><li>circuit の語末 /t/ が will の /w/ に続く（子音+子音）</li><li>will の語末 /l/ が have の弱形 /həv/ に続く（子音+子音）</li></ul>
+<div class="kana">バイ ザ タイム ウィー フィニッシュ マイニング ザ レッドストーン サーキット ウィル ハヴ スパークド ダズンズ アヴ タイムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll have <mark>sparked</mark> the furnace multiple times before the ore is completely smelted.</p>
+<p class="ja">鉱石が完全に精錬される前に、私はかまどに何度も火をつけているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl həv ˈspɑɹkt ðə ˈfɝːnəs ˈmʌltɪpəl ˈtaɪmz bɪˈfoɹ ðiː ˈɔɹ ɪz kəmˈplitli ˈsmɛltɪd/</div>
+<ul class="link"><li>I'll は縮約形 /aɪl/、have の弱形 /həv/ に続く（/l/-/h/ で連結なし）</li><li>have は弱形 /həv/、sparked の /s/ に続く（子音+子音）</li><li>sparked の語末 /t/ が the の弱形 /ðə/ に続く（子音+子音）</li><li>furnace の語末 /s/ が multiple の /m/ に続く（子音+子音）</li></ul>
+<div class="kana">アイル ハヴ スパークド ザ ファーネス マルティプル タイムズ ビフォア ディー オアー イズ コンプリートリー スメルティド</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">a spark of</span><span class="im">（希望・創造性などの）ひとかけら、わずかな</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>There was a <mark>spark</mark> of hope that we would find diamonds in the ravine.</p>
+<p class="ja">谷底でダイアモンドを見つけられるというわずかな希望があった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɹ wəz ə ˈspɑɹk əv ˈhoʊp ðət wi wəd ˈfaɪnd ˈdaɪməndz ɪn ðə ɹəˈvin/</div>
+<ul class="link"><li>spark の語末子音 /k/ が of の弱形 /əv/ に連結 [ˈspɑɹk əv]</li><li>hope の語末 /p/ は that の /ð/ に続く（子音-子音、連結なし）</li><li>would は弱形 /wəd/ で軽く発音される</li><li>the は弱形 /ðə/、ravine の /ɹ/ に続く</li></ul>
+<div class="kana">ゼア ワズ ア スパーク アヴ ホウプ ザッ ウィ ウッド ファインド ダイモンズ イン ザ ラヴィーン</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">spark off</span><span class="im">（何かを）引き起こす、（感情や爆発を）燃え上がらせる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Lighting TNT <mark>sparked</mark> off a massive explosion that lit the sky.</p>
+<p class="ja">TNT に火をつけることで、空を照らす巨大な爆発が引き起こされた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/spark_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/spark_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈlaɪtɪŋ ˌti ɛn ˈti ˈspɑɹkt ɔf ə ˈmæsɪv ɪkˈsploʊʒən ðət lɪt ðə ˈskaɪ/</div>
+<ul class="link"><li>sparked の語末子音 /t/ が off の母音 /ɔ/ に連結 [ˈspɑɹkt ɔf]</li><li>Lighting の語末 /ŋ/ が TNT の初頭 /t/ に続く</li><li>that は弱形 /ðət/ で短く、lit の /t/ に続く</li><li>the は弱形 /ðə/、sky の /s/ に続く</li></ul>
+<div class="kana">ライティング ティ エン ティ スパークド オフ ア マッシブ イクスプロウジョン ザッ リット ザ スカイ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="spark";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

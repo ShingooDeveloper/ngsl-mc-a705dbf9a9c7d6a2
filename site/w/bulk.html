@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>bulk — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>bulk</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/bʌlk/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #1866</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】大量、かさばった状態（多くの量がまとめられた状態）</li><li>【名詞】本体・主要部分（the bulk of～で「～の大部分」）</li><li>【動詞】膨れ上がる、かさばる（物が大きくなり、かさばった状態になる）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to buy materials in <mark>bulk</mark> to save money on the server.</p>
+<p class="ja">サーバーでお金を節約するために、私たちは材料を大量に買う必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪ ˈniːd tə ˈbaɪ məˈtɪrɪəlz ɪn ˈbʌlk tə ˈseɪv ˈmʌni ɑn ðə ˈsɝvər/</div>
+<ul class="link"><li>need to：need の末尾 /d/ が未開放で to に繋がり、to は弱形 /tə/ に弱化 [d̚ tə]</li><li>to buy：弱形 to /tə/ と buy /b/ が連結 [tə ˈbaɪ]</li></ul>
+<div class="kana">ウィ ニード トゥ バイ マテリアルズ イン バルク トゥ セイヴ マニー オン ザ サーヴァー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The chest will <mark>bulk</mark> up with all the resources we're storing.</p>
+<p class="ja">チェストは、私たちが保管しているすべてのリソースでかさばります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtʃɛst wɪl ˈbʌlk ʌp wɪð ɔl ðə ˈrɛsɚsɪz wɪr ˈstɔrɪŋ/</div>
+<ul class="link"><li>bulk up：bulk /k/ が up /ʌ/ に連結 [ˈbʌlk ʌp]</li></ul>
+<div class="kana">ザ チェスト ウィル バルク アップ ウィズ オール ザ リソースィズ ウィア ストーリング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I bought <mark>bulk</mark> amounts of cobblestone for the mining operation.</p>
+<p class="ja">私は採掘事業のために大量の丸石を買いました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈbɔt ˈbʌlk əˈmaʊnts əv ˈkɑbəlˌstoʊn fɔr ðə ˈmaɪnɪŋ ˌɑpəˈreɪʃən/</div>
+<ul class="link"><li>bulk amounts：bulk /k/ が amounts /ə/ に連結 [ˈbʌlk əˈmaʊnts]</li><li>amounts of：amounts の /ts/ が of /əv/ に繋がり、t がフラップ化 /ɾ/ [əˈmaʊɾəv]</li></ul>
+<div class="kana">アイ ボット バルク アマウンラヴ コブルストーン フォー ザ マイニング オペレーション</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bulks</span><span class="fl">複数形</span><span class="fi">/bʌlks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>These different <mark>bulks</mark> of ore require separate storage areas.</p>
+<p class="ja">これらの異なる鉱石の大量購入は、別々の保管エリアを必要とします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz ˈdɪfərənt ˈbʌlks əv ˈɔɹ rɪˈkwaɪər ˈsɛpərət ˈstɔɹɪdʒ ˈɛɹiəz/</div>
+<ul class="link"><li>These の語末 /z/ が different の初頭 /d/ に続く（子音+子音）</li><li>different の語末 /t/ が bulks の初頭 /b/ に続く（子音+子音）</li><li>of は弱形 /əv/、ore の初頭 /ɔ/ に連結</li><li>separate の語末 /t/ が storage の初頭 /s/ に続く（子音+子音）</li></ul>
+<div class="kana">ディーズ ディファレント バルクス アヴ オア リクワイアー セパレイト ストーリッジ エリアズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>bulks</mark> of materials in our supply depot occupy three entire chests.</p>
+<p class="ja">私たちの物資保管所にある材料の大量購入は、3つの全体チェストを占有しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbʌlks əv məˈtɪɹiəlz ɪn ˈaʊɚ səˈplaɪ ˈdipoʊ ˈɑkjupaɪ ˈθɹi ɪnˈtaɪɚ ˈtʃɛsts/</div>
+<ul class="link"><li>the は弱形 /ðə/、bulks の初頭 /b/ に続く（母音+子音）</li><li>of は弱形 /əv/、materials の初頭 /m/ に続く（子音+子音）</li><li>supply の語末 /aɪ/ が depot の初頭 /d/ に続く（母音+子音）</li><li>occupy の語末 /aɪ/ が three の初頭 /θ/ に続く（母音+子音）</li></ul>
+<div class="kana">ザ バルクス アヴ マテリアルズ イン アワー サプライ デポ オキュパイ スリー エンタイア チェストス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bulks</span><span class="fl">三人称単数現在形</span><span class="fi">/bʌlks/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Your inventory <mark>bulks</mark> up quickly when you mine stone without a fortune pickaxe.</p>
+<p class="ja">幸運のツルハシなしで石を採掘すると、インベントリが急速に膨れ上がります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔɹ ɪnˈvɛntəri ˈbʌlks ʌp ˈkwɪkli wɛn ju ˈmaɪn stoʊn wɪˈðaʊt ə ˈfɔɹtʃən ˈpɪkˌæks/</div>
+<ul class="link"><li>Your は /jɔɹ/、inventory の初頭 /ɪ/ に連結</li><li>inventory の語末 /i/ が bulks の初頭 /b/ に続く（母音+子音）</li><li>up の語末 /p/ が quickly の初頭 /k/ に続く（子音+子音）</li><li>pickaxe は /ˈpɪkˌæks/、語末 /s/ で終わる</li></ul>
+<div class="kana">ユアー インベントリー バルクス アップ クイックリー ホエン ユー マイン ストウン ウィザウト ア フォーチュン ピッケックス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>When collecting resources, the pile <mark>bulks</mark> dramatically if you gather without organizing.</p>
+<p class="ja">リソースを収集するとき、整理せずに集めると、山は劇的に膨れ上がります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɛn kəˈlɛktɪŋ ˈɹɛsɔɹsɪz ðə paɪl ˈbʌlks dɹəˈmætɪkli ɪf ju ˈɡæðər wɪðˈaʊt ˈɔɹɡənaɪzɪŋ/</div>
+<ul class="link"><li>When の語末 /n/ が collecting の初頭 /k/ に続く（子音+子音）</li><li>the は弱形 /ðə/、pile の初頭 /p/ に続く（母音+子音）</li><li>pile の語末 /l/ が bulks の初頭 /b/ に続く（子音+子音）</li><li>if は /ɪf/、you の初頭 /ju/ に続く（子音+子音）</li></ul>
+<div class="kana">ウエン コレクティング レソーシーズ ザ パイル バルクス ドラマティクリー イフ ユー ガザー ウィザウト オーガナイジング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bulked</span><span class="fl">過去形</span><span class="fi">/bʌlkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>bulked</mark> up our defenses before the raid began.</p>
+<p class="ja">レイドが始まる前に、私たちは防御を強化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈbʌlkt ʌp ˈaʊɚ dɪˈfɛnsɪz bɪˈfɔɹ ðə ˈɹeɪd bɪˈɡæn/</div>
+<ul class="link"><li>bulked の語末 /t/ が up の初頭 /ʌ/ に連結</li><li>our は /ˈaʊɚ/、defenses の初頭 /d/ に続く（子音+子音）</li><li>defenses の語末 /z/ が before の初頭 /b/ に続く（子音+子音）</li><li>the は弱形 /ðə/、raid の初頭 /ɹ/ に続く</li></ul>
+<div class="kana">ウィー バルクト アップ アワー ディフェンシーズ ビフォア ザ レイド ビガン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>bulked</mark> out our armor with protection enchantments and reduced damage significantly.</p>
+<p class="ja">保護エンチャントでアーマーを強化し、ダメージを大幅に削減しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈbʌlkt aʊt ˈaʊɚ ˈɑɹmɚ wɪð prəˈtɛkʃən ɪnˈtʃɑntmənts ænd rɪˈdjuːst ˈdæmɪdʒ sɪɡˈnɪfɪkəntli/</div>
+<ul class="link"><li>bulked の語末 /t/ が out の初頭 /aʊ/ に連結</li><li>out の語末 /t/ が our の初頭 /ˈaʊ/ に連結</li><li>armor の語末 /r/ が with の初頭 /w/ に続く（子音+子音）</li><li>and は /ænd/、reduced の初頭 /ɹ/ に続く（子音+子音）</li></ul>
+<div class="kana">ウィー バルクト アウト アワー アーマー ウィズ プロテクション エンチャントメンツ アンド リデューストゥ ダメージ シグニフィカントリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bulked</span><span class="fl">過去分詞</span><span class="fi">/bʌlkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>bulked</mark> up our resources, we were ready to start the construction project.</p>
+<p class="ja">リソースを増強した後、私たちは建築プロジェクトを開始する準備ができていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˈbʌlkt ʌp ˈaʊɚ ˈɹɛsɔɹsɪz wi wər ˈrɛdi tu ˈstɑɹt ðə kənˈstrʌkʃən ˈprɑdʒɛkt/</div>
+<ul class="link"><li>Having は /ˈhævɪŋ/、語末 /ŋ/ が bulked の初頭 /b/ に続く（子音+子音）</li><li>bulked の語末 /t/ が up の初頭 /ʌ/ に連結</li><li>our は /ˈaʊɚ/、resources の初頭 /ɹ/ に続く（子音+子音）</li><li>to は機能語で弱形 /tə/、start の初頭 /s/ に続く（母音+子音）</li></ul>
+<div class="kana">ハビング バルクト アップ アワー レソーシーズ ウィー ワー レディー トゥ スタート ザ コンストラクション プロジェクト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supplies we had <mark>bulked</mark> were enough to sustain us through the winter.</p>
+<p class="ja">私たちが増強した物資は、冬の間私たちを支えるのに十分でした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪz wi hæd ˈbʌlkt wər ɪˈnʌf tu səˈsteɪn əs θɹu ðə ˈwɪntər/</div>
+<ul class="link"><li>the は弱形 /ðə/、supplies の初頭 /s/ に続く（母音+子音）</li><li>supplies の語末 /z/ が we の初頭 /w/ に続く（子音+子音）</li><li>had は弱形 /əd/ または /hæd/、bulked の初頭 /b/ に続く（子音+子音）</li><li>through の語末 /u/ が the は弱形 /ðə/ に続く（母音+子音）</li></ul>
+<div class="kana">ザ サプライズ ウィー ハッド バルクト ワー イナフ トゥ サステイン アス スルー ザ ウィンター</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">bulking</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Bulking</mark> up your equipment inventory takes time but is worth the effort in survival mode.</p>
+<p class="ja">装備インベントリーを強化するには時間がかかりますが、サバイバルモードでは努力の価値があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈbʌlkɪŋ ʌp jɔɹ ɪˈkwɪpmənt ɪnˈvɛntəri ˈteɪks ˈtaɪm bət ɪz ˈwɝθ ðə ˈɛfərt ɪn sərˈvaɪvəl ˈmoʊd/</div>
+<ul class="link"><li>Bulking の語末 /ŋ/ が up の初頭 /ʌ/ に続く（子音+子音）</li><li>your は /jɔɹ/、equipment の初頭 /ɪ/ に連結</li><li>inventory の語末 /i/ が takes の初頭 /t/ に続く（母音+子音）</li><li>but は /bət/、is の初頭 /ɪ/ に続く（子音+母音）</li></ul>
+<div class="kana">バルキング アップ ユアー イクウィップメント インベントリー テイクス タイム バット イズ ワース ザ エファート イン サーバイバル モウド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>bulking</mark> materials before your travels, you avoid making multiple trips to the farm.</p>
+<p class="ja">旅行前に材料を集めることで、農場への複数回の往復を避けることができます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈbʌlkɪŋ məˈtɪɹiəlz bɪˈfɔɹ jɔɹ ˈtɹævəlz ju əˈvɔɪd ˈmeɪkɪŋ ˈmʌltɪpəl ˈtrɪps tu ðə ˈfɑɹm/</div>
+<ul class="link"><li>By は /baɪ/、bulking の初頭 /b/ に続く（母音+子音）</li><li>materials の語末 /z/ が before の初頭 /b/ に続く（子音+子音）</li><li>your は /jɔɹ/、travels の初頭 /t/ に続く（子音+子音）</li><li>multiple の語末 /l/ が trips の初頭 /t/ に続く（子音+子音）</li></ul>
+<div class="kana">バイ バルキング マテリアルズ ビフォア ユアー トラベルズ ユー アボイド メイキング マルティプル トリップス トゥ ザ ファーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is bulking</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Your inventory is <mark>bulking</mark> up from all the iron ore we mined today.</p>
+<p class="ja">今日採掘した鉄鉱石から、あなたのインベントリーが大量に増えています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔɹ ɪnˈvɛntəri ɪz ˈbʌlkɪŋ ʌp frəm ˈɔl ðə ˈaɪɚn ˈɔɹ wi ˈmaɪnd təˈdeɪ/</div>
+<ul class="link"><li>Your は /jɔɹ/、inventory の初頭 /ɪ/ に連結 [jɔɹ ɪnˈvɛntəri]→「ユアー インベントリー」</li><li>is は弱形 /ɪz/、bulking の初頭 /b/ に続く（子音+子音）</li><li>from は弱形 /frəm/、all の初頭 /ɔ/ に連結 [frəm ˈɔl]→「フラム オール」</li><li>we は弱形、mined の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">ユアー インベントリー イズ バルキング アップ フラム オール ザ アイアン オア ウィー マインド トゥデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The chest is <mark>bulking</mark> with diamonds and gold as we collect more treasure.</p>
+<p class="ja">私たちが掘り続けるにつれて、チェストはダイヤモンドと金でいっぱいになっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtʃɛst ɪz ˈbʌlkɪŋ wɪð ˈdaɪəmənz ənd ˈɡoʊld æz wi kəˈlɛkt ˈmoɹ ˈtrɛʒər/</div>
+<ul class="link"><li>the は弱形 /ðə/、chest の初頭 /tʃ/ に続く（子音+子音）</li><li>is は弱形 /ɪz/、bulking の初頭 /b/ に続く（子音+子音）</li><li>with は /wɪð/、diamonds の初頭 /d/ に続く（子音+子音）</li><li>collect の語末 /t/ が more の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ チェスト イズ バルキング ウィズ ダイアモンズ アンド ゴウルド アズ ウィー コレクト モア トレジャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was bulking</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>bulking</mark> my supplies when suddenly a Creeper appeared outside the base.</p>
+<p class="ja">物資を集めていたとき、突然クリーパーが拠点の外に現れました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈbʌlkɪŋ maɪ səˈplaɪz wɛn ˈsʌdənli ə ˈkriːpər əˈpɪɹd ˈaʊtˌsaɪd ðə ˈbeɪs/</div>
+<ul class="link"><li>I は /aɪ/、was の弱形 /wəz/ に続く（母音+子音）</li><li>was は弱形 /wəz/、bulking の初頭 /b/ に続く（子音+子音）</li><li>suddenly の語末 /i/ が a の初頭 /ə/ に続く（母音+母音）</li><li>the は弱形 /ðə/、base の初頭 /b/ に続く（子音+子音）</li></ul>
+<div class="kana">アイ ワズ バルキング マイ サプライズ ウエン サドンリー ア クリーパー アピアード アウトサイド ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players were <mark>bulking</mark> their resources in the morning when unexpected server maintenance began.</p>
+<p class="ja">朝、プレイヤーたちがリソースを集めていたとき、予期しないサーバーメンテナンスが始まりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪərz wər ˈbʌlkɪŋ ðɛɹ ˈɹɛsɔɹsɪz ɪn ðə ˈmɔɹnɪŋ wɛn ʌnɪkˈspɛktɪd ˈsɜrvər ˌmeɪnətənəns bɪˈɡæn/</div>
+<ul class="link"><li>the は弱形 /ðə/、players の初頭 /p/ に続く（子音+子音）</li><li>were は弱形 /wər/、bulking の初頭 /b/ に続く（子音+子音）</li><li>in は /ɪn/、the の弱形 /ðə/ に続く（子音+子音）</li><li>server の語末 /r/ が maintenance の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ プレイヤーズ ワー バルキング ゼア レソーシーズ イン ザ モーニング ウエン アンイクスペクティド サーヴァー メイナテナンス ビガン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been bulking</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>bulking</mark> our supplies for hours before we set out on the expedition.</p>
+<p class="ja">遠征に出かける前に、私たちは数時間にわたって物資を集めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈbʌlkɪŋ ˈaʊɚ səˈplaɪz fɔɹ ˈaʊɚz bɪˈfɔɹ wi ˈsɛt ˈaʊt ɑn ðə ˌɛkspəˈdɪʃən/</div>
+<ul class="link"><li>we は /wi/、had の弱形 /həd/ に続く（子音+子音）</li><li>had は弱形 /həd/、been の弱形 /bɪn/ に続く（子音+子音）</li><li>been は弱形 /bɪn/、bulking の初頭 /b/ に続く（子音+子音）</li><li>the は弱形 /ðə/、expedition の初頭 /ɛ/ に続く（母音+母音）</li></ul>
+<div class="kana">ウィー ハド ビン バルキング アワー サプライズ フォア アワーズ ビフォア ウィー セット アウト オン ザ エクスペディション</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the builders arrived, we had been <mark>bulking</mark> materials in the quarry for the entire morning.</p>
+<p class="ja">ビルダーが到着したとき、私たちは朝中ずっと採石場で材料を集めていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈbɪldərz əˈɹaɪvd wi həd bɪn ˈbʌlkɪŋ məˈtɪɹiəlz ɪn ðə ˈkwɔɹi fɔɹ ðə ɪnˈtaɪɚ ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>By は /baɪ/、the の初頭 /ðə/ に続く（母音+子音）</li><li>the は弱形 /ðə/、time の初頭 /t/ に続く（母音+子音）</li><li>arrived の語末 /d/ が we の初頭 /w/ に続く（子音+子音）</li><li>entire は /ɪnˈtaɪɚ/、morning の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">バイ ザ タイム ザ ビルダーズ アライヴド ウィー ハド ビン バルキング マテリアルズ イン ザ クォーリー フォア ザ エンタイア モーニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has bulked</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈbʌlkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Your inventory has <mark>bulked</mark> up significantly since we started mining this morning.</p>
+<p class="ja">私たちが今朝採掘を始めてから、あなたのインベントリーは大幅に膨れ上がっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/jɔɹ ɪnˈvɛntəri həz ˈbʌlkt ʌp sɪɡˈnɪfɪkəntli sɪns wi ˈstɑɹtɪd ˈmaɪnɪŋ ðɪs ˈmɔɹnɪŋ/</div>
+<ul class="link"><li>Your は /jɔɹ/、inventory の初頭 /ɪ/ に連結 [jɔɹ ɪnˈvɛntəri]→「ユアー インベントリー」</li><li>has は弱形 /həz/、bulked の初頭 /b/ に続く（子音+子音）</li><li>bulked の語末 /t/ が up の初頭 /ʌ/ に連結 [ˈbʌlkt ʌp]→「バルクト アップ」</li><li>this は /ðɪs/、morning の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">ユアー インベントリー ハズ バルクト アップ シグニフィカントリー シンス ウィー スタートゥド マイニング ディス モーニング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The supply chests have <mark>bulked</mark> to capacity now that we've collected all the diamonds.</p>
+<p class="ja">私たちがすべてのダイヤモンドを集めたので、物資チェストは今や満杯に膨れ上がっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə səˈplaɪ ˈtʃɛsts həv ˈbʌlkt tu kəˈpæsɪti ˈnaʊ ðæt wiz kəˈlɛktɪd ˈɔl ðə ˈdaɪəmənz/</div>
+<ul class="link"><li>the は弱形 /ðə/、supply の初頭 /s/ に続く（母音+子音）</li><li>have は弱形 /həv/、bulked の初頭 /b/ に続く（子音+子音）</li><li>bulked の語末 /t/ が to の初頭 /t/ に未開放で連接 [ˈbʌlkt̚ tu]→「バルクット トゥ」</li><li>we've は /wiv/、collected の初頭 /k/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ サプライ チェストス ハヴ バルクット トゥ キャパシティー ナウ ザット ウィーヴ コレクティド オール ザ ダイアモンズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had bulked</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈbʌlkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid started, we had <mark>bulked</mark> our defenses with extra walls and cannons.</p>
+<p class="ja">レイドが始まったとき、私たちは追加の壁と大砲で防御を強化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈɹeɪd ˈstɑɹtɪd wi həd ˈbʌlkt ˈaʊɚ dɪˈfɛnsɪz wɪð ˈɛkstrə ˈwɔlz ənd ˈkænənz/</div>
+<ul class="link"><li>By は /baɪ/、the に続く（母音+子音）</li><li>had は弱形 /həd/、bulked の初頭 /b/ に続く（子音+子音）</li><li>our は /ˈaʊɚ/、defenses の初頭 /d/ に続く（子音+子音）</li><li>extra は /ˈɛkstrə/、walls の初頭 /w/ に続く（母音+子音）</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド スタートゥド ウィー ハド バルクト アワー ディフェンシーズ ウィズ エクストラ ウォールズ アンド キャナンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She realized she had <mark>bulked</mark> the shipment incorrectly; there were far too many stacks.</p>
+<p class="ja">彼女は出荷物を誤ってまとめ過ぎたことに気づきました。スタックが多すぎました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ɹiˈælɪzd ʃi həd ˈbʌlkt ðə ˈʃɪpmənt ɪnˈkɔɹɛktli ðɛɹ wər fɑɹ tu ˈmeɪni ˈstæks/</div>
+<ul class="link"><li>She は /ʃi/、realized の初頭 /ɹ/ に続く（母音+子音）</li><li>had は弱形 /həd/、bulked の初頭 /b/ に続く（子音+子音）</li><li>the は弱形 /ðə/、shipment の初頭 /ʃ/ に続く（子音+子音）</li><li>incorrectly は /ɪnˈkɔɹɛktli/、there の初頭 /ð/ に続く（母音+子音）</li></ul>
+<div class="kana">シー リアライズド シー ハド バルクト ザ シップメント インコレクトリー ゼア ワー ファー トゥー メイニー スタックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been bulking</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The construction crew has been <mark>bulking</mark> materials all week in preparation for the mega build.</p>
+<p class="ja">建設クルーは、メガビルドの準備のために1週間中材料を集めています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə kənˈstrʌkʃən ˈkɹu həz bɪn ˈbʌlkɪŋ məˈtɪɹiəlz ˈɔl ˈwiːk ɪn ˌprɛpəˈɹeɪʃən fɔɹ ðə ˈmeɡə ˈbɪld/</div>
+<ul class="link"><li>the は弱形 /ðə/、construction の初頭 /k/ に続く（母音+子音）</li><li>has は弱形 /həz/、been の弱形 /bɪn/ に続く（子音+子音）</li><li>been は弱形 /bɪn/、bulking の初頭 /b/ に続く（子音+子音）</li><li>for は弱形 /fər/、the の弱形 /ðə/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ コンストラクション クルー ハズ ビン バルキング マテリアルズ オール ウィーク イン プレパレーション ファー ザ メガ ビルド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>How long has your team been <mark>bulking</mark> up equipment in the storage vault?</p>
+<p class="ja">あなたのチームはストレージボルトで機器を集めるのにどのくらいの期間ですか？</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/haʊ ˈlɔŋ həz jɔɹ ˈtim bɪn ˈbʌlkɪŋ ʌp ɪˈkwɪpmənt ɪn ðə ˈstɔɹɪdʒ ˈvɔlt/</div>
+<ul class="link"><li>has は弱形 /həz/、your に続く（子音+子音）</li><li>your は /jɔɹ/、team の初頭 /t/ に続く（子音+子音）</li><li>been は弱形 /bɪn/、bulking の初頭 /b/ に続く（子音+子音）</li><li>in は /ɪn/、the の弱形 /ðə/ に続く（子音+子音）</li></ul>
+<div class="kana">ハウ ロング ハズ ユアー ティーム ビン バルキング アップ イクウィップメント イン ザ ストーリッジ ヴォルト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will bulk</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈbʌlk/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>bulk</mark> up our supplies before we head to the Nether.</p>
+<p class="ja">ネザーに行く前に、私たちの物資を一括で集めるつもりです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈbʌlk ʌp ˈaʊɚ səˈplaɪz bɪˈfɔɹ wi ˈhɛd tu ðə ˈnɛðɚ/</div>
+<ul class="link"><li>I は母音で終わる /aɪ/、will の初頭 /w/ に続く。縮約形は I'll /aɪl/</li><li>bulk の語末 /k/ が up の初頭 /ʌ/ に連結 [ˈbʌlk ʌp]→「バルク アップ」</li><li>supplies の語末 /z/ が before の初頭 /b/ に続く（子音+子音）</li><li>to は機能語で弱形 /tə/、the も弱形 /ðə/ に弱化</li></ul>
+<div class="kana">アイル バルク アップ アワー サプライズ ビフォア ウィー ヘッド トゥ ザ ネザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners will <mark>bulk</mark> ore into large stockpiles tomorrow.</p>
+<p class="ja">明日、採掘者たちは鉱石を大量にストックパイルにまとめるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnərz wɪl ˈbʌlk ˈɔɹ ˈɪntu ˈlɑɹdʒ ˈstɑkˌpaɪlz təˈmɑɹoʊ/</div>
+<ul class="link"><li>the は弱形 /ðə/、miners の初頭 /m/ に続く（母音+子音）</li><li>miners の語末 /z/ が will の初頭 /w/ に続く（子音+子音）</li><li>ore の語末 /ɹ/ が into の初頭 /ɪ/ に続く</li><li>large の語末 /dʒ/ が stockpiles の初頭 /s/ に続く（子音+子音）</li></ul>
+<div class="kana">ザ マイナーズ ウィル バルク オア イントゥ ラージ ストックパイルズ トゥマーロウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be bulking</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈbʌlkɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We will be <mark>bulking</mark> materials all next week for the mega structure.</p>
+<p class="ja">メガストラクチャーのために、来週ずっと材料を集め続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɪl bi ˈbʌlkɪŋ məˈtɪɹiəlz ˈɔl ˈnɛkst ˈwik fɔɹ ðə ˈmeɡə ˈstrʌktʃər/</div>
+<ul class="link"><li>we は /wi/、will の初頭 /w/ に続く（母音+子音）</li><li>be は弱形 /bi/、bulking の初頭 /b/ に続く（母音+子音）</li><li>all は /ˈɔl/、next の初頭 /n/ に続く（子音+子音）</li><li>for は弱形 /fər/、the も弱形 /ðə/ に続く（子音+子音）</li></ul>
+<div class="kana">ウィー ウィル ビー バルキング マテリアルズ オール ネクスト ウィック ファー ザ メガ ストラクチャー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will be <mark>bulking</mark> equipment throughout the entire morning shift.</p>
+<p class="ja">彼らは朝間のシフト中ずっと機器を集め続けるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl bi ˈbʌlkɪŋ ɪˈkwɪpmənt θɹuˈaʊt ðə ɪnˈtaɪɚ ˈmɔɹnɪŋ ˈʃɪft/</div>
+<ul class="link"><li>they は /ðeɪ/、will の初頭 /w/ に続く（母音+子音）。縮約形 they'll /ðeɪl/</li><li>be は弱形 /bi/、bulking の初頭 /b/ に続く（母音+子音）</li><li>equipment は /ɪˈkwɪpmənt/、throughout の初頭 /θ/ に続く（子音+子音）</li><li>entire の語末 /ɚ/ が morning の初頭 /m/ に続く（子音+子音）</li></ul>
+<div class="kana">ゼイル ウィル ビー バルキング イクウィップメント スルーアウト ザ エンタイア モーニング シフト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have bulked</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈbʌlkt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/bulk_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the raid starts, we will have <mark>bulked</mark> our defenses with extra walls.</p>
+<p class="ja">レイドが始まるまでに、私たちは余分な壁で防御を強化しておくでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈɹeɪd ˈstɑɹts wi wɪl həv ˈbʌlkt ˈaʊɚ dɪˈfɛnsɪz wɪð ˈɛkstrə ˈwɔlz/</div>
+<ul class="link"><li>by は /baɪ/、the に続く（母音+子音）</li><li>have は弱形 /həv/、bulked の初頭 /b/ に続く（子音+子音）</li><li>bulked の語末 /t/ が our の初頭 /ˈaʊ/ に続く（子音+母音）</li><li>with は /wɪð/、extra の初頭 /ɛ/ に続く（子音+母音）</li></ul>
+<div class="kana">バイ ザ タイム ザ レイド スターツ ウィー ウィル ハヴ バルクト アワー ディフェンシーズ ウィズ エクストラ ウォールズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He will have <mark>bulked</mark> the shipment by tomorrow evening.</p>
+<p class="ja">明日の夜までに、彼は出荷物をまとめ終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wɪl həv ˈbʌlkt ðə ˈʃɪpmənt baɪ təˈmɑɹoʊ ˈivnɪŋ/</div>
+<ul class="link"><li>he は /hi/、will の初頭 /w/ に続く（母音+子音）。縮約形 he'll /hil/</li><li>have は弱形 /həv/、bulked の初頭 /b/ に続く（子音+子音）</li><li>the は弱形 /ðə/、shipment の初頭 /ʃ/ に続く（母音+子音）</li><li>by は /baɪ/、tomorrow の初頭 /t/ に続く（母音+子音）</li></ul>
+<div class="kana">ヒ ウィル ハヴ バルクト ザ シップメント バイ トゥマーロウ イーブニング</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">in bulk</span><span class="im">大量に、一括で</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>It's cheaper to buy materials in <mark>bulk</mark> for our big building project.</p>
+<p class="ja">大きな建築プロジェクトのために、材料を大量に買う方が安いです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪts ˈtʃiːpər tə ˈbaɪ məˈtɪrɪəlz ɪn ˈbʌlk fɔr ˈaʊər bɪɡ ˈbɪldɪŋ ˈprɑdʒɛkt/</div>
+<ul class="link"><li>It's cheaper：s が未開放で ch に繋がる [ɪts̚ ˈtʃiːpər]</li><li>for our：for /r/ が our /aʊ/ に r-linking で連結 [fɔr ˈaʊər]</li></ul>
+<div class="kana">イッツ チーパー トゥ バイ マテリアルズ イン バルク フォー アワー ビグ ビルディング プロジェクト</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bulk up</span><span class="im">太くなる、膨らむ（体が大きくなる）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The iron golem will <mark>bulk</mark> up once we feed it enough iron blocks.</p>
+<p class="ja">十分な鉄ブロックを与えると、アイアンゴーレムは大きくなります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/bulk_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/bulk_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈaɪrən ˈɡoʊləm wɪl ˈbʌlk ʌp ˈwʌns wɪ fid ɪt ɪˈnʌf ˈaɪrən blɑks/</div>
+<ul class="link"><li>bulk up：bulk /k/ が up /ʌ/ に連結 [ˈbʌlk ʌp]</li></ul>
+<div class="kana">ザ アイアン ゴーレム ウィル バルク アップ ワンス ウィ フィド イット イナフ アイアン ブロックス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="bulk";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

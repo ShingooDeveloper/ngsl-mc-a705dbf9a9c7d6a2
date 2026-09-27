@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>script — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>script</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/ˈskrɪpt/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1900 #1244</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】映画や演劇などの台本、脚本（written text for a play or film）</li><li>【名詞】コンピュータプログラムの命令セット、スクリプト（set of programmed commands or code）</li><li>【名詞】手書き文字、筆記体（handwriting or cursive writing style）</li><li>【動詞】台本を書く、命令セットを作成する（write a script or create a set of instructions）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>scripted</mark> a mob spawner to activate when players approached.</p>
+<p class="ja">プレイヤーが接近したときにモブスポーナーが起動するようにスクリプトを作成した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈskrɪptəd ə ˈmoʊb ˈspɔnər tə ˈæktɪveɪt wɛn ˈpleɪərz əˈproʊtʃt̚/</div>
+<ul class="link"><li>「a」/ə/ 冠詞の弱形、子音で始まる「mob」に続く [ə ˈmoʊb] アモウブ</li><li>「to activate」- 機能語「to」が弱形 /tə/ に弱化、その後の母音に接続 [tə ˈæktɪveɪt] タアクティベイト</li><li>「players approached」- 語末子音 /z/ が次の母音 /ə/ に連結、「approached」の語末 /t/ は未開放 [ˈpleɪərz əˈproʊtʃt̚] プレイヤーザプローチッ</li></ul>
+<div class="kana">アイ スクリプティド ア モウブ スポナー タ アクティベイト ウェン プレイヤーザ プローチッ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Our server runs a <mark>script</mark> every hour to clear old entities.</p>
+<p class="ja">私たちのサーバーは毎時間スクリプトを実行して古いエンティティをクリアしている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈaʊɚ ˈsɚvɚ ɹʌnz ə ˈskrɪpt ˈɛvri ˈaʊɚ tə ˈklɪr oʊld ˈɛntɪtiz/</div>
+<ul class="link"><li>「runs a」- 語末子音 /z/ が次の母音 /ə/ に連結 [ɹʌnz ə] ランザ</li><li>「to clear」- 機能語「to」が弱形 /tə/ に弱化 [tə ˈklɪr] タクリア</li><li>「clear old」- 語末子音 /r/ が次の母音 /oʊ/ に連結 [ˈklɪr oʊld] クリアオウルド</li></ul>
+<div class="kana">アワー サーバー ランザ スクリプト エブリ アワー タ クリア オウルド エンティティーズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>You can't deviate from the <mark>script</mark>, or your adventure will fail.</p>
+<p class="ja">スクリプトから外れてはいけません。さもなくばアドベンチャーは失敗します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju kæn̚t ˌdiviˈeɪt fɹəm ðə ˈskrɪpt ɔɹ jɔɹ ədˈvɛntʃɚ wɪl feɪl/</div>
+<ul class="link"><li>「can't」- 語末の /t/ が未開放、次の「deviate」の /d/ と分離 [kæn̚t] キャント</li><li>「from the」- 語末子音 /m/ が次の「the」（弱形 /ðə/）に続く [fɹəm ðə] フラムザ</li><li>「or your」- 語末子音 /r/ が次の「your」の /j/ に連結 [ɔɹ jɔɹ] オーユァー</li></ul>
+<div class="kana">ユー キャント ディビエイト フラムザ スクリプト オーユァー アドベンチャー ウィル フェイル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scripts</span><span class="fl">複数形</span><span class="fi">/ˈskɹɪpts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>All the server <mark>scripts</mark> failed after the update was installed.</p>
+<p class="ja">アップデートがインストールされた後、すべてのサーバースクリプトが失敗しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɔl ðə ˈsɝvɚ ˈskɹɪpts feɪld ˈæftɚ ðə ˈʌpdeɪt wəz ɪnˈstɔld/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ ワズ</li></ul>
+<div class="kana">オール ザ サーバー スクリプツ フェイルド アフター ザ アップデイト ワズ インストールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>These modding <mark>scripts</mark> help us create custom items and creatures easily.</p>
+<p class="ja">これらのモッディングスクリプトは、カスタムアイテムと生物を簡単に作成するのに役立ちます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðiz ˈmɑdɪŋ ˈskɹɪpts hɛlp əs kriˈeɪt ˈkʌstəm ˈaɪtəmz ənd ˈkritʃɚz ˈizəli/</div>
+<ul class="link"><li>us は弱形 /əs/ アス</li><li>easily は /ˈizəli/ イージリー</li></ul>
+<div class="kana">ディーズ マッディング スクリプツ ヘルプ アス クリエイト カスタム アイテムズ アンド クリーチャーズ イージリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scripts</span><span class="fl">三人称単数現在形</span><span class="fi">/ˈskɹɪpts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>scripts</mark> every command block sequence before building the redstone machine.</p>
+<p class="ja">彼はレッドストーンマシンを構築する前に、すべてのコマンドブロックシーケンスをスクリプト化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈskɹɪpts ˈɛvri kəˈmænd blɑk siˈkwɛns bɪˈfɔɹ ˈbɪldɪŋ ðə ˈrɛdˌstoʊn məˈʃin/</div>
+<ul class="link"><li>every は /ˈɛvri/ エブリー</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ヒー スクリプツ エブリー コマンド ブラック シーケンス ビフォア ビルディング ザ レッド ストウン マシーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>scripts</mark> all our farm automation so we can focus on exploring.</p>
+<p class="ja">彼女はすべてのファーム自動化をスクリプト化するので、探検に集中できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈskɹɪpts ɔl ˈaʊɚ fɑɹm ˌɔtəˈmeɪʃən soʊ wi kən ˈfoʊkəs ɑn ɪkˈsplɔɹɪŋ/</div>
+<ul class="link"><li>all は /ɔl/ オール</li><li>our は弱化 /ˈaʊɚ/ アワー</li><li>so は /soʊ/ ソウ、we は弱形 /wi/ ウィー</li></ul>
+<div class="kana">シー スクリプツ オール アワー ファーム オートメイション ソウ ウィ カン フォウカス ァン イクスプローリング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scripted</span><span class="fl">過去形</span><span class="fi">/ˈskɹɪptəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>scripted</mark> the entire raid sequence so our team could replicate it perfectly.</p>
+<p class="ja">私はレイド全体をスクリプト化したので、チームは完璧に複製できました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈskɹɪptəd ðə ɪnˈtaɪɚ reɪd siˈkwɛns soʊ ˈaʊɚ tim kʊd ˈrɛpləˌkeɪt ɪt ˈpɝfəktli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>our は弱化 /ˈaʊɚ/ アワー</li></ul>
+<div class="kana">アイ スクリプティッド ザ インタイア レイド シーケンス ソウ アワー ティーム クッド レプリケイト イット パーフェクトリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They <mark>scripted</mark> all the dialogue for the multiplayer story mode adventure.</p>
+<p class="ja">彼らはマルチプレイヤーストーリーモードアドベンチャーのすべてのダイアログをスクリプト化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ˈskɹɪptəd ɔl ðə ˈdaɪəlɑg fɔɹ ðə ˌmʌltɪˈpleɪɚ ˈstɔɹi moʊd ədˈvɛntʃɚ/</div>
+<ul class="link"><li>all は /ɔl/ オール</li><li>the は弱形 /ðə/ ザ</li><li>for は /fɔɹ/ フォア</li></ul>
+<div class="kana">ゼイ スクリプティッド オール ザ ダイアログ フォア ザ マルチプレイア ストーリー モウド ア ベンチャー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scripted</span><span class="fl">過去分詞</span><span class="fi">/ˈskɹɪptəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>scripted</mark> event was interrupted when the server crashed unexpectedly.</p>
+<p class="ja">サーバーが予期せず落ちたとき、スクリプト化されたイベントは中断されました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskɹɪptəd ɪˈvɛnt wəz ˌɪntəˈɹʌptəd wɛn ðə ˈsɝvɚ kɹæʃt ʌnɪkˈspɛktɪdli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ ワズ</li><li>when の /n/ が the の /ð/ に続く（鼻音+有声摩擦音、連結なし）</li></ul>
+<div class="kana">ザ スクリプティッド イベント ワズ インタラプティッド ウェン ザ サーバー クラッシュト ア ニ エク スペクティッドリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>A well-<mark>scripted</mark> puzzle map requires months of planning and testing.</p>
+<p class="ja">よくスクリプト化されたパズルマップは、数か月の計画とテストが必要です。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ə wɛl ˈskɹɪptəd ˈpʌzəl mæp rɪˈkwaɪɚz ˈmʌnθz əv ˈplænɪŋ ənd ˈtɛstɪŋ/</div>
+<ul class="link"><li>of は弱形 /əv/ アヴ</li><li>and は弱形 /ən/ アン</li></ul>
+<div class="kana">ア ウェル スクリプティッド パズル マップ リクワイアーズ マンス ア ヴ プラニング ア ンド テスティング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">scripting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I enjoy <mark>scripting</mark> complex redstone systems that automate my mining operations.</p>
+<p class="ja">私は採掘操作を自動化する複雑なレッドストーンシステムをスクリプト化することを楽しんでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ɛnˈdʒɔɪ ˈskɹɪptɪŋ ˈkɑmplɛks ˈrɛdˌstoʊn ˈsɪstəmz ðæt ˌɔtəˈmeɪt maɪ ˈmaɪnɪŋ ˌɑpəˈɹeɪʃənz/</div>
+<ul class="link"><li>enjoy は /ɛnˈdʒɔɪ/ エンジョイ</li><li>my は弱化 /maɪ/ マイ</li></ul>
+<div class="kana">アイ エンジョイ スクリプティング コンプレックス レッドストウン システムズ ザット オートメイト マイ マイニング オペレイションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>scripting</mark> commands, you can create impossible structures that break normal rules.</p>
+<p class="ja">コマンドをスクリプト化することで、通常のルールを破る不可能な構造を作成できます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈskɹɪptɪŋ kəˈmændz ju kən kriˈeɪt ɪmˈpɑsəbəl ˈstrʌktʃɚz ðæt ˈbreɪk ˈnɔɹməl ˈɹulz/</div>
+<ul class="link"><li>by は /baɪ/ バイ</li><li>you は /ju/ ユー</li></ul>
+<div class="kana">バイ スクリプティング コマンズ ユー カン クリエイト インポッサブル ストラクチャーズ ザット ブレイク ノーマル ルーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is scripting</span><span class="fl">現在進行形（is/are + -ing）</span><span class="fi">/ɪz ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>My brother is <mark>scripting</mark> a new mob spawner trap for the end farm.</p>
+<p class="ja">私の兄は終末の地のファームのための新しいモブスポーナー罠をスクリプト化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈbrʌðɚ ɪz ˈskɹɪptɪŋ ə ˈnu moʊb ˈspoʊnɚ træp fɔɹ ðə ɛnd fɑɹm/</div>
+<ul class="link"><li>my は弱形 /maɪ/ マイ</li><li>is は弱形 /ɪz/ イズ</li><li>a は弱形 /ə/ ア</li><li>for は弱形 /fɔɹ/ フォア、the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">マイ ブラザー イズ スクリプティング ア ニュー モウブ スポウナー トラップ フォア ザ エンド ファーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While you're mining, I'm <mark>scripting</mark> the command blocks for our adventure map.</p>
+<p class="ja">あなたが採掘している間、私は私たちのアドベンチャーマップのコマンドブロックをスクリプト化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl jɚ ˈmaɪnɪŋ aɪm ˈskɹɪptɪŋ ðə kəˈmænd blɑks fɔɹ ˈaʊɚ ədˈvɛntʃɚ mæp/</div>
+<ul class="link"><li>your は弱形 /jɚ/ ユア</li><li>I'm は /aɪm/ アイム</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔɹ/ フォア、our は弱化 /ˈaʊɚ/ アワー</li></ul>
+<div class="kana">ワイル ユア マイニング アイム スクリプティング ザ コマンド ブラックス フォア アワー ア ベンチャー マップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was scripting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While the server was <mark>scripting</mark> the arena events, we prepared our gear and supplies.</p>
+<p class="ja">サーバーがアリーナイベントをスクリプト化している間、私たちは装備と物資を準備していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ðə ˈsɝvɚ wəz ˈskɹɪptɪŋ ðə əˈɹinə ɪˈvɛnts wi prɪˈpɛɹd ˈaʊɚ ɡɪɚ ənd səˈplaɪz/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>was は弱形 /wəz/ ワズ</li><li>the は弱形 /ðə/ ザ</li><li>we は弱形 /wi/ ウィ、and は弱形 /ən/ ア ン</li></ul>
+<div class="kana">ワイル ザ サーバー ワズ スクリプティング ザ ア リーナ イベンツ ウィ プリペアード アワー ギア ア ン サプライズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They were <mark>scripting</mark> new quests when the power outage happened yesterday.</p>
+<p class="ja">昨日、停電が起きたときに、彼らは新しいクエストをスクリプト化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɚ ˈskɹɪptɪŋ ˈnu ˈkwɛsts wɛn ðə ˈpaʊɚ ˈaʊtɪdʒ ˈhæpənd ˈjɛstɚˌdeɪ/</div>
+<ul class="link"><li>were は弱形 /wɚ/ ウァー</li><li>new は /ˈnu/ ニュー</li><li>when の /n/ と the の /ð/ の間で未開放</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">ゼイ ウァー スクリプティング ニュー クエスツ ウェン ザ パワー アウテッジ ハペンド イェスタデイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been scripting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had been <mark>scripting</mark> the command sequences for hours when the server finally restarted.</p>
+<p class="ja">サーバーがついに再起動するまで、私たちは何時間もコマンドシーケンスをスクリプト化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd bɪn ˈskɹɪptɪŋ ðə kəˈmænd siˈkwɛnsəz fɔɹ ˈaʊɚz wɛn ðə ˈsɝvɚ ˈfaɪnəli riˈstɑɹtəd/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>been は弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔɹ/ フォア、when の /n/ と the の /ð/（子音+子音）</li></ul>
+<div class="kana">ウィ ハド ビン スクリプティング ザ コマンド シーケンシーズ フォア アワーズ ウェン ザ サーバー ファイナリー リースターティッド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had been <mark>scripting</mark> automated builds when she discovered a much faster shortcut method.</p>
+<p class="ja">より高速なショートカット方法を発見したとき、彼女は自動ビルドをスクリプト化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd bɪn ˈskɹɪptɪŋ ˌɔtəˈmeɪtəd bɪldz wɛn ʃi dɪˈskʌvɚd ə ˈmʌtʃ ˈfæstɚ ˈʃɔɹtkʌt ˈmɛθəd/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>been は弱形 /bɪn/ ビン</li><li>when の /n/ と she の /ʃ/（子音+子音）</li><li>a は弱形 /ə/ ア、much は /ˈmʌtʃ/ マッチ</li></ul>
+<div class="kana">シー ハド ビン スクリプティング オートメイティッド ビルズ ウェン シー ディスカバード ア マッチ ファスター ショートカット メソッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has scripted</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈskɹɪptəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She has <mark>scripted</mark> the entire redstone farm automation system for the base.</p>
+<p class="ja">彼女はベースのためにレッドストーン農場自動化システム全体をスクリプト化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həz ˈskɹɪptəd ðə ɪnˈtaɪɚ ˈrɛdˌstoʊn fɑɹm ˌɔtəˈmeɪʃən ˈsɪstəm fɔɹ ðə ˈbeɪs/</div>
+<ul class="link"><li>has は弱形 /həz/ ハズ</li><li>entire の /t/ が redstone の /ɹ/ に続く（子音+子音）</li><li>the は弱形 /ðə/ ザ</li><li>for は弱形 /fɔɹ/ フォア</li></ul>
+<div class="kana">シー ハズ スクリプティッド ザ インタイア レッドストウン ファーム オートメイション システム フォア ザ ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They have <mark>scripted</mark> all the quest events and dialogue for our multiplayer server.</p>
+<p class="ja">彼らはマルチプレイヤーサーバーのすべてのクエストイベントとダイアログをスクリプト化しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həv ˈskɹɪptəd ɔl ðə ˈkwɛst ɪˈvɛnts ənd ˈdaɪəlɑg fɔɹ ˈaʊɚ ˈmʌltɪˈpleɪɚ ˈsɝvɚ/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>all は弱形後 /ɔl/ オール</li><li>the は弱形 /ðə/ ザ</li><li>and は弱形 /ən/ アン</li><li>for は弱形 /fɔɹ/ フォア</li></ul>
+<div class="kana">ゼイ ハヴ スクリプティッド オール ザ クエスト イベンツ ア ン ダイアログ フォア アワー マルチプレイア サーバー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had scripted</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈskɹɪptəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We had <mark>scripted</mark> the entire escape room before the first players logged in.</p>
+<p class="ja">最初のプレイヤーがログインする前に、私たちは脱出ルーム全体をスクリプト化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həd ˈskɹɪptəd ðə ɪnˈtaɪɚ ɪˈskeɪp ˈrum bɪˈfɔɹ ðə ˈfɝst ˈpleɪɚz ˈlɑɡd ɪn/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>the は弱形 /ðə/ ザ</li><li>entire の /t/ が escape の /ə/ に連結 [ɪnˈtaɪɚ ɪˈskeɪp]</li><li>in は弱形 /ɪn/ イン</li></ul>
+<div class="kana">ウィ ハド スクリプティッド ザ インタイア イスケイプ ルーム ビフォア ザ ファースト プレイアーズ ロッグド イン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>scripted</mark> the boss battle mechanics before the realm opened to everyone.</p>
+<p class="ja">レルムが全員に開放される前に、彼女はボス戦のメカニクスをスクリプト化していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd ˈskɹɪptəd ðə ˈbɑs ˈbætəl məˈkænɪks bɪˈfɔɹ ðə ˈɹɛlm ˈoʊpənd tu ˈɛvriˌwʌn/</div>
+<ul class="link"><li>had は弱形 /həd/ ハド</li><li>the は弱形 /ðə/ ザ（2回目）</li><li>to は弱形 /tə/ タ</li></ul>
+<div class="kana">シー ハド スクリプティッド ザ ボス バトル メカニクス ビフォア ザ レルム オウペンド タ エブリワン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been scripting</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>scripting</mark> the command sequences all week to prepare for the tournament.</p>
+<p class="ja">トーナメントに備えるために、私は1週間中コマンドシーケンスをスクリプト化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈskɹɪptɪŋ ðə kəˈmænd siˈkwɛnsəz ɔl ˈwik tu prɪˈpɛɹ fɔɹ ðə ˈtɝnəmənt/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>been は弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ</li><li>to は弱形 /tə/ タ、for は弱形 /fɔɹ/ フォア</li></ul>
+<div class="kana">アイ ハヴ ビン スクリプティング ザ コマンド シーケンシーズ オール ウィーク タ プリペア フォア ザ ターナメント</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>scripting</mark> the maze puzzles and traps for our adventure map for months.</p>
+<p class="ja">私たちはアドベンチャーマップのメイズパズルとトラップを数ヶ月間スクリプト化しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈskɹɪptɪŋ ðə ˈmeɪz ˈpʌzəlz ənd ˈtræps fɔɹ ˈaʊɚ ədˈvɛntʃɚ mæp fɔɹ ˈmʌnθz/</div>
+<ul class="link"><li>have は弱形 /həv/ ハヴ</li><li>been は弱形 /bɪn/ ビン</li><li>the は弱形 /ðə/ ザ</li><li>and は弱形 /ən/ アン、for は弱形 /fɔɹ/ フォア（2回目）</li></ul>
+<div class="kana">ウィ ハヴ ビン スクリプティング ザ メイズ パズルズ ア ン トラップス フォア アワー ア ベンチャー マップ フォア マンス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will script</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl ˈskɹɪpt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>script</mark> a trap mechanism for the end farm that catches all mobs automatically.</p>
+<p class="ja">終末の地のファームのためにトラップメカニズムをスクリプト化します。すべてのモブを自動的にキャッチします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈskɹɪpt ə ˈtræp ˈmɛkənɪzəm fɚ ðə ɛnd fɑɹm ðæt ˈkætʃəz ɔl moʊbz ˌɔtəˈmætɪkli/</div>
+<ul class="link"><li>I'll の語末 /l/ が script の /s/ に連結 [aɪl ˈskɹɪpt]「アイル スクリプト」</li><li>a は弱形 /ə/ [ア]；the は弱形 /ðə/ [ザ]；for は弱形 /fɚ/ [フア]</li><li>mobs の /z/ が automatically の /ɔ/ に連結 [moʊbz ˌɔ-]「モウブズ オートマティカリー」</li></ul>
+<div class="kana">アイル スクリプト ア トラップ メカニズム フア ザ エンド ファーム ザット キャッチャーズ オール モウブズ オートマティカリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She'll <mark>script</mark> all the dialogue and quest markers for our multiplayer adventure before next week.</p>
+<p class="ja">彼女は来週までに、マルチプレイヤーアドベンチャーのすべてのダイアログとクエストマーカーをスクリプト化します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃil ˈskɹɪpt ɔl ðə ˈdaɪəˌlɑg ənd ˈkwɛst ˈmɑɹkɚz fɚ ˈaʊɚ ˌmʌltɪˈpleɪɚ ədˈvɛntʃɚ bɪˈfɔɹ ˈnɛkst wik/</div>
+<ul class="link"><li>She'll の語末 /l/ が script の /s/ に連結 [ʃil ˈskɹɪpt]「シール スクリプト」</li><li>the は弱形 /ðə/ [ザ]；and は弱形 /ənd/ [アンド]；for は弱形 /fɚ/ [フア]</li><li>our は /ˈaʊɚ/ で重音</li></ul>
+<div class="kana">シール スクリプト オール ザ ダイアログ アンド クエスト マーカーズ フア アワー マルチプレイア ア ベンチャー ビフォア ネクスト ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be scripting</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈskɹɪptɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you're mining ores, I'll be <mark>scripting</mark> the automated sorting system all afternoon.</p>
+<p class="ja">あなたが鉱石を採掘している間、私は午後中、自動仕分けシステムをスクリプト化し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl jɚ ˈmaɪnɪŋ ˈɔɹz aɪl bi ˈskɹɪptɪŋ ðə ˌɔtəˈmeɪtəd ˈsɔɹtɪŋ ˈsɪstəm ɔl ˌæftɚˈnun/</div>
+<ul class="link"><li>while の /l/ が you're の /j/ に続く（子音+子音）で未開放 [waɪl jɚ]「ワイル ユア」</li><li>I'll の語末 /l/ が be の /b/ に連結しない（子音+子音で未開放）[aɪl bi]「アイル ビー」</li><li>the は弱形 /ðə/ [ザ]</li></ul>
+<div class="kana">ワイル ユア マイニング オアーズ アイル ビー スクリプティング ザ オートメイティッド ソーティング システム オール アフターヌーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>scripting</mark> the custom enchantment commands when the developers release the new API.</p>
+<p class="ja">開発者が新しいAPIをリリースするとき、彼らはカスタムエンチャントコマンドをスクリプト化し続けます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈskɹɪptɪŋ ðə ˈkʌstəm ɪnˈtʃæntmənt kəˈmændz wɛn ðə dɪˈvɛləpərz riˈlis ðə ˈnu ˌeɪ pi ˈeɪ/</div>
+<ul class="link"><li>They'll の語末 /l/ が be の /b/ に連結しない（子音+子音で未開放）[ðeɪl bi]「ゼイル ビー」</li><li>the は弱形 /ðə/ [ザ]（複数回出現）</li></ul>
+<div class="kana">ゼイル ビー スクリプティング ザ カスタム イン チャント メント コマンズ ウェン ザ ディベロパーズ リリース ザ ニュー エイ ピー エイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have scripted</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv ˈskɹɪpɾəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/script_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time you finish building, we will have <mark>scripted</mark> every command block for the entire arena system.</p>
+<p class="ja">あなたが建設を終えるまでに、私たちはアリーナシステム全体のすべてのコマンドブロックをスクリプト化し終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ju ˈfɪnɪʃ ˈbɪldɪŋ wi wɪl həv ˈskɹɪpɾəd ˈɛvri kəˈmænd blɑk fɚ ðə ɪnˈtaɪɚ əˈɹinə ˈsɪstəm/</div>
+<ul class="link"><li>the は弱形 /ðə/ [ザ]（複数回出現）</li><li>will の語末 /l/ が have の /h/ に連結しない（子音+子音で未開放）、have は弱形 /həv/ [wɪl həv]「ウィル ハヴ」</li><li>hundred の /d/ が automated の /ɔ/ に連結（子音から母音へ）[ˈhʌndɹəd ˌɔ-]「ハンドレッド オートメイティッド」</li></ul>
+<div class="kana">バイ ザ タイム ユー フィニッシュ ビルディング ウィ ウィル ハヴ スクリプリッド エブリ コマンド ブラック フア ザ インタイア ア リーナ システム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once the server restarts, he will have <mark>scripted</mark> over two hundred automated farming routines.</p>
+<p class="ja">サーバーが再起動したら、彼は200以上の自動農業ルーチンをスクリプト化し終わっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwʌns ðə ˈsɝvɚ riˈstɑɹts hi wɪl həv ˈskɹɪpɾəd ˈoʊvɚ tu ˈhʌndɹəd ˌɔtəˈmeɪtəd ˈfɑɹmɪŋ ˈɹuˌtinz/</div>
+<ul class="link"><li>the は弱形 /ðə/ [ザ]</li><li>will の語末 /l/ が have の /h/ に連結しない（子音+子音で未開放）、have は弱形 /həv/ [wɪl həv]「ウィル ハヴ」</li><li>hundred の /d/ が automated の /ɔ/ に連結（子音から母音へ）[ˈhʌndɹəd ˌɔ-]「ハンドレッド オートメイティッド」</li></ul>
+<div class="kana">ワンス ザ サーバー リースターツ ヒー ウィル ハヴ スクリプリッド オウヴァー トゥー ハンドレッド オートメイティッド ファーミング ルーティーンズ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">follow the script</span><span class="im">計画通りに進める、指示に従う</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Follow the <mark>script</mark> or the puzzle breaks.</p>
+<p class="ja">スクリプトに従わないとパズルが壊れます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈfɑloʊ ðə ˈskrɪpt ɔɹ ðə ˈpʌzəl ˈbɹeɪks/</div>
+<ul class="link"><li>「the」/ðə/ 弱形（2箇所）</li><li>「or the」- 語末子音 /r/ が /ðə/ に連結 [ɔɹ ðə] オーザ</li></ul>
+<div class="kana">フォロウ ザ スクリプト オーザ パズル ブレイクス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">stick to the script</span><span class="im">話題や計画から外れない、指示を守る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stick to the <mark>script</mark> and we'll beat the final boss.</p>
+<p class="ja">スクリプトに従えば、ラスボスに勝つことができます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈstɪk tə ðə ˈskrɪpt ænd wil biːt ðə ˈfaɪnəl bɔs/</div>
+<ul class="link"><li>「to the」- 機能語「to」/tə/ 弱形、「the」/ðə/ 弱形 [tə ðə] タザ</li><li>「and」機能語弱形</li><li>「the」弱形（再出）</li></ul>
+<div class="kana">スティック タザ スクリプト アンド ウィル ビート ザ ファイナル ボス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">deviate from the script</span><span class="im">予定から外れる、計画を変える</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't deviate from the <mark>script</mark> or you'll waste time.</p>
+<p class="ja">スクリプトから外れないでください。さもなくば時間を無駄にします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/script_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/script_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˌdoʊnt̚ ˌdiviˈeɪt fɹəm ðə ˈskrɪpt ɔɹ juːl weɪst taɪm/</div>
+<ul class="link"><li>「Don't」- /t/ 未開放 [doʊnt̚] ドウント</li><li>「from the」- 語末子音 /m/ が /ðə/ に連結 [fɹəm ðə] フラムザ</li><li>「or you'll」- 語末子音 /r/ が /j/ に連結 [ɔɹ juːl] オーユール</li></ul>
+<div class="kana">ドウント ディビエイト フラムザ スクリプト オーユール ウェイスト タイム</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="script";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

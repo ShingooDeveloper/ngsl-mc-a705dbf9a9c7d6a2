@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>alert — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#0891b2">
+<div class="wordhead"><h2>alert</h2><span class="pos">形容詞・名詞・動詞</span><span class="ipa-head">/əˈlɝt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1900 #985</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【形容詞】気を付いている、用心している、素早く反応する（…に気付く）</li><li>【名詞】警報、警告、警戒態勢（危険を知らせる信号）</li><li>【動詞】…に警告する、…を警戒させる</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stay <mark>alert</mark> for falling lava and blazes!</p>
+<p class="ja">溶岩とブレイズに気をつけて!</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/steɪ əˈlɝt fɚ ˈfɔlɪŋ ˈlɑvə ænd ˈbleɪzɪz/</div>
+<ul class="link"><li>stay alert: 両方が母音で接続するため、軽い分離が生じる</li><li>alert for: /t/ と /f/ が両方子音のため、はっきり分離</li><li>lava and: 弱形シュワと強母音の接続、「ラバアン」と聞こえる</li></ul>
+<div class="kana">スティ アラート フォー フォーリン ラーヴァ アン ブレイジズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>An <mark>alert</mark> sounded when I found the first diamonds.</p>
+<p class="ja">初めてダイヤを見つけたとき、警報が鳴った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ən əˈlɝt ˈsaʊndəd wɛn aɪ ˈfaʊnd ðə ˈfɚst ˈdaɪmənz/</div>
+<ul class="link"><li>an alert: /n/（an）が /ə/（alert）に連結 [ə nə ˈlɝt]、「ア ナラート」のように流れる</li><li>when I: /n/（when）が /aɪ/（I）に連結 [wɛn aɪ] → [wɛ naɪ]</li><li>first diamonds: /t/ と /d/ が両方子音のため分離</li></ul>
+<div class="kana">アン アラート サウンディド ウェン アイ ファウンド ザ ファースト ダイモンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'll <mark>alert</mark> everyone to danger in the mines.</p>
+<p class="ja">鉱山の危険について、皆に警告するつもりです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl əˈlɝt ˈɛvriˌwʌn tu ˈdeɪndʒɚ ɪn ðə ˈmaɪnz/</div>
+<ul class="link"><li>I'll alert: /l/（I'll）が /ə/（alert）に連結、「アイル」から「アラート」へ流れるように接続</li><li>alert everyone: /t/（alert）が /ɛ/（everyone）に連結、「トエ」のように一息で</li><li>danger in: /r/（danger）が /ɪ/（in）に連結、「デインジャリン」と聞こえる</li></ul>
+<div class="kana">アイル アラート エブリワン トゥ デインジャリン ザ マインズ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">alerts</span><span class="fl">複数形</span><span class="fi">/əˈlɛrts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The security system sends <mark>alerts</mark> whenever a creeper is detected nearby.</p>
+<p class="ja">セキュリティシステムは、クリーパーが近くで検出されるたびに警報を送信する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə sɪˈkyʊr.ə.ti ˈsɪs.təm sɛndz əˈlɛrts wɛnˈɛv.ər ə ˈkɹip.ər ɪz dɪˈtɛk.təd ˈnɪr.baɪ/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/</li><li>sends の語末子音 /z/ が alerts の初頭母音 /ə/ に連結 [sɛndz əˈlɛrts] センズ アラーツ</li><li>detected の語末 /ɪd/ が nearby の初頭 /n/ に続く (子音+子音で未開放)</li><li>a は冠詞で弱形 /ə/</li><li>is の語末 /z/ が detected の初頭 /d/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">ザ サキュリティ システム センズ アラーツ ウェネヴァー ア クリーパー イッ ディテクティド ニアーバイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Multiple <mark>alerts</mark> went off when the base was under siege.</p>
+<p class="ja">基地が包囲されたときに複数の警報が鳴った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmʌl.tɪ.pəl əˈlɛrts wɛnt ɔf wɛn ðə ˈbeɪs wəz ˈʌn.dər ˈsidʒ/</div>
+<ul class="link"><li>multiple の語末子音 /l/ が alerts の初頭母音 /ə/ に連結 [ˈmʌltəpəl əˈlɛrts] マルティプル アラーツ</li><li>went は動詞 /wɛnt/</li><li>when の語末 /n/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>was の語末子音 /z/ が under の初頭 /ʌ/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">マルティプル アラーツ ウェント オフ ウェン ザ ベイス ワッ アンダー シージ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">more alert</span><span class="fl">比較級</span><span class="fi">/moʊr əˈlɛrt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_comparative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Experienced players tend to be more <mark>alert</mark> than beginners in dangerous situations.</p>
+<p class="ja">経験豊富なプレイヤーは危険な状況ではビギナーより警戒心が強い傾向がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_comparative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_comparative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪkˈspɪr.i.ənst ˈpleɪ.ərz tɛnd tu bi moʊr əˈlɛrt ðæn bɪˈɡɪn.ərz ɪn ˈdeɪn.dʒɚ.əs ˌsɪ.tʃu.eɪ.ʃənz/</div>
+<ul class="link"><li>be の語末 /b/ が more の初頭 /m/ に続く (子音+子音で未開放)</li><li>more の語末 /r/ が alert の初頭母音 /ə/ に r-連結 [moʊr əˈlɛrt] モー アラート</li><li>than は機能語で /ðæn/</li><li>dangerous の語末 /s/ が situations の初頭 /s/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">イクスピアリアンスト プレイアーズ テンド トゥー ビー モー アラート ザン ビギナーズ イン デインジャラス シチュエイションズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>During night raids, the scout needs to stay more <mark>alert</mark> than usual.</p>
+<p class="ja">夜間レイドの間、スカウトはいつもより警戒心を持つ必要がある。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_comparative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_comparative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdʊr.ɪŋ naɪt ˈreɪdz ðə skaʊt nidz tu ˈsteɪ moʊr əˈlɛrt ðæn ˈyu.ʒu.əl/</div>
+<ul class="link"><li>during の語末 /ŋ/ が night の初頭 /n/ に続く (子音+子音で未開放)</li><li>raids の語末 /z/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>scout の語末 /t/ が needs の初頭 /n/ に続く (子音+子音で未開放)</li><li>to は機能語で弱形 /tə/</li><li>more の語末 /r/ が alert の初頭母音 /ə/ に r-連結 [moʊr əˈlɛrt] モー アラート</li><li>than の語末 /n/ が usual の初頭母音 /j/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">デューリング ナイト レイズ ザ スカウト ニーズ タ ステイ モー アラート ザン ユージュアル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">most alert</span><span class="fl">最上級</span><span class="fi">/moʊst əˈlɛrt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_superlative.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The team captain is the most <mark>alert</mark> player in the entire group.</p>
+<p class="ja">そのチームキャプテンはグループ全体で最も警戒心が強いプレイヤーである。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_superlative_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_superlative_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə tim ˈkæp.tən ɪz ðə moʊst əˈlɛrt ˈpleɪ.ər ɪn ðə ɪnˈtaɪr ɡrup/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>is の語末子音 /z/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>most の語末 /t/ が alert の初頭母音 /ə/ に連結 [moʊst əˈlɛrt] モースト アラート</li><li>alert の語末 /t/ が player の初頭 /p/ に続く (子音+子音で未開放)</li><li>in は機能語で弱形 /ɪn/</li><li>the は弱形 /ðə/</li><li>entire の語末 /r/ が group の初頭 /g/ に r-連結なし (子音+子音)</li></ul>
+<div class="kana">ザ ティーム キャプティン イッ ザ モースト アラート プレイアー イン ザ エンタイア グループ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was the most <mark>alert</mark> during the monster invasion.</p>
+<p class="ja">モンスター侵攻の際、彼は最も警戒心が強かった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_superlative_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_superlative_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wəz ðə moʊst əˈlɛrt ˈdʊr.ɪŋ ðə ˈmɑn.stər ɪnˈveɪ.ʒən/</div>
+<ul class="link"><li>was の語末子音 /z/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>most の語末 /t/ が alert の初頭母音 /ə/ に連結 [moʊst əˈlɛrt] モースト アラート</li><li>during は /ˈdʊrɪŋ/</li><li>the は弱形 /ðə/</li><li>monster の語末 /r/ が invasion の初頭母音 /ɪ/ に r-連結 [ˈmɑnstər ɪnˈveɪʒən]</li></ul>
+<div class="kana">ヒー ワッ ザ モースト アラート デューリング ザ マンスター インベージョン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">alerts</span><span class="fl">三人称単数現在形</span><span class="fi">/əˈlɛrts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The motion detector <mark>alerts</mark> everyone when an intruder is nearby.</p>
+<p class="ja">モーションディテクターは侵入者が近くにいるとみんなに警報を出す。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊ.ʃən dɪˈtɛk.tər əˈlɛrts ˈɛv.ri.wʌn wɛn ən ɪnˈtru.dər ɪz ˈnɪr.baɪ/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>detector の語末 /r/ が alerts の初頭母音 /ə/ に r-連結 [dɪˈtɛktər əˈlɛrts] ディテクター アラーツ</li><li>everyone は /ˈɛv.ri.wʌn/</li><li>when の語末 /n/ が an の初頭 /ə/ に続く (子音+子音で未開放)</li><li>an の語末 /n/ が intruder の初頭母音 /ɪ/ に連結 [ən ɪnˈtrudər]</li><li>is の語末子音 /z/ が nearby の初頭 /n/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">ザ モーション ディテクター アラーツ エヴリワン ウェン エン イントゥルーダー イズ ニアーバイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The system <mark>alerts</mark> the player to any hazardous blocks nearby.</p>
+<p class="ja">システムは危険なブロックが近くにあると、プレイヤーに警告する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɪs.təm əˈlɛrts ðə ˈpleɪ.ər tu ˈɛ.ni ˈhæz.ɚ.dəs ˈblɑks ˈnɪr.baɪ/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>system の語末 /m/ が alerts の初頭母音 /ə/ に連結 [ˈsɪstəm əˈlɛrts] システム アラーツ</li><li>alerts の語末 /ts/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>player の語末 /r/ が to の初頭 /t/ に r-連結 [ˈpleɪər tə]</li><li>to は機能語で弱形 /tə/</li><li>any は /ˈɛ.ni/</li></ul>
+<div class="kana">ザ システム アラーツ ザ プレイアー タ エニー ハザーダス ブラックス ニアーバイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">alerted</span><span class="fl">過去形</span><span class="fi">/əˈlɛr.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>alerted</mark> the team when I spotted the dragon approaching.</p>
+<p class="ja">ドラゴンが近づいてくるのを見かけた時、チームに警告した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əˈlɛr.tɪd ðə tim wɛn aɪ ˈspɑ.tɪd ðə ˈdræg.ən əˈproʊ.tʃɪŋ/</div>
+<ul class="link"><li>alerted の語末 /d/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>spotted の語末 /d/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>dragon の語末 /n/ が approaching の初頭母音 /ə/ に連結 [ˈdræɡən əˈproʊtʃɪŋ]</li></ul>
+<div class="kana">アイ アラーティド ザ ティーム ウェン アイ スポッティド ザ ドラゴン アプローチング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>alerted</mark> everyone about the huge explosion that just happened.</p>
+<p class="ja">彼女はたったいま起こった大爆発について、みんなに警告した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi əˈlɛr.tɪd ˈɛv.ri.wʌn əˈbaʊt ðə hjuʒ ɪkˈsploʊ.ʒən ðæt dʒʌst ˈhæp.ənd/</div>
+<ul class="link"><li>alerted の語末 /d/ が everyone の初頭母音 /ɛ/ に連結 [əˈlɛrtɪd ˈɛvriwʌn] アラーティド エヴリワン</li><li>about は弱形 /əˈbaʊt/</li><li>the は弱形 /ðə/</li><li>explosion の語末 /n/ が that の初頭 /ð/ に続く (子音+子音で未開放)</li><li>happened の語末 /d/ は文末</li></ul>
+<div class="kana">シー アラーティド エヴリワン アバウト ザ ヒュージ エクスプロゥジョン ザッ ジャスト ハペンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">alerted</span><span class="fl">過去分詞</span><span class="fi">/əˈlɛr.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>alerted</mark> the base to the danger, the scout returned safely.</p>
+<p class="ja">危険を基地に警告した後、スカウトは安全に戻った。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæv.ɪŋ əˈlɛr.tɪd ðə ˈbeɪs tu ðə ˈdeɪn.dʒər ðə skaʊt rɪˈtɝnd ˈseɪf.li/</div>
+<ul class="link"><li>having は /ˈhæviŋ/</li><li>alerted の語末 /d/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>to は機能語で弱形 /tu/</li><li>the は弱形 /ðə/</li><li>danger の語末 /r/ が the の初頭 /ð/ に r-連結 [ˈdeɪndʒər ðə]</li><li>the は弱形 /ðə/</li><li>returned は /rɪˈtɝnd/</li><li>safely は /ˈseɪfli/</li></ul>
+<div class="kana">ハヴィング アラーティド ザ ベイス トゥー ザ デインジャー ザ スカウト リターンド セイフリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once <mark>alerted</mark> to the security breach, the players took immediate action.</p>
+<p class="ja">セキュリティ侵害に警告されると、プレイヤーはすぐに行動した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wʌns əˈlɛr.tɪd tu ðə sɪˈkyʊr.ə.ti briːtʃ ðə ˈpleɪ.ərz tʊk ɪˈmi.dɪ.ət ˈæk.ʃən/</div>
+<ul class="link"><li>alerted の語末 /d/ が to の初頭 /t/ に続く (子音+子音で未開放)</li><li>to は機能語で弱形 /tu/</li><li>the は弱形 /ðə/</li><li>breach の語末子音 /tʃ/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>took は /tʊk/</li><li>immediate は /ɪˈmidiət/</li><li>action は /ˈækʃən/</li></ul>
+<div class="kana">ワンス アラーティッ トゥー ザ サキュリティ ブリーチ ザ プレイアーズ トゥック イミディエト アクション</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">alerting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The security system is <mark>alerting</mark> players about the incoming invasion.</p>
+<p class="ja">セキュリティシステムは侵攻が来ることについてプレイヤーに警告している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə sɪˈkyʊr.ə.ti ˈsɪs.təm ɪz əˈlɛr.tɪŋ ˈpleɪ.ərz əˈbaʊt ðə ˈɪn.kəm.ɪŋ ɪnˈveɪ.ʒən/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>is の語末子音 /z/ が alerting の初頭母音 /ə/ に連結 [ɪz əˈlɛrtɪŋ] イズ アラーティング</li><li>alerting の語末 /ŋ/ が players の初頭 /p/ に続く (子音+子音で未開放)</li><li>about は弱形 /əˈbaʊt/</li><li>the は弱形 /ðə/</li><li>incoming の語末 /ŋ/ が invasion の初頭母音 /ɪ/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">ザ サキュリティ システム イズ アラーティング プレイアーズ アバウト ザ インカミング インベージョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By <mark>alerting</mark> the team early, we avoided the ambush completely.</p>
+<p class="ja">早期にチームに警告することで、我々は伏撃を完全に回避した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ əˈlɛr.tɪŋ ðə tim ˈɝr.li wi əˈvɔɪd.əd ðə ˈæm.buʃ kəmˈplit.li/</div>
+<ul class="link"><li>by は機能語で弱形 /baɪ/</li><li>alerting の語末 /ŋ/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>team の語末 /m/ が early の初頭母音 /ɝ/ に続く (子音+子音で未開放)</li><li>early は /ˈɝli/</li><li>avoided の語末 /d/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>completely は /kəmˈpliːtli/</li></ul>
+<div class="kana">バイ アラーティング ザ ティーム アーリー ウィー アヴォイディド ザ アンブッシュ コンプリートリー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is alerting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The motion detector is <mark>alerting</mark> us whenever creepers spawn nearby.</p>
+<p class="ja">モーションディテクターは、クリーパーが近くにスポーンするたびに、我々に警告している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊ.ʃən dɪˈtɛk.tər ɪz əˈlɛr.tɪŋ ʌs wɛnˈɛv.ər ˈkrip.ərz spɔn ˈnɪr.baɪ/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/</li><li>detector の語末子音 /r/ が is の初頭 /ɪ/ に r-連結 [dɪˈtɛktər ɪz] ディテクター イズ</li><li>is の語末子音 /z/ が alerting の初頭母音 /ə/ に連結 [ɪz əˈlɛr.tɪŋ] イザラーティング</li><li>whenever は /wɛnˈɛv.ər/</li></ul>
+<div class="kana">ザ モーション ディテクター イザラーティング アス ウェネヴァー クリーパーズ スポーン ニアーバイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve is <mark>alerting</mark> the team about the lava pool ahead.</p>
+<p class="ja">スティーブはチームに前方の溶岩プールについて警告している。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stiv ɪz əˈlɛr.tɪŋ ðə tim əˈbaʊt ðə ˈlɑ.və pul əˈhɛd/</div>
+<ul class="link"><li>is の語末子音 /z/ が alerting の初頭母音 /ə/ に連結 [ɪz əˈlɛr.tɪŋ] イザラーティング</li><li>alerting の語末 /ŋ/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li><li>the は弱形 /ðə/</li><li>pool の語末子音 /l/ が ahead の初頭母音 /ə/ に連結 [pul əˈhɛd] プール アヘッド</li></ul>
+<div class="kana">スティーヴ イザラーティング ザ ティーム アバウト ザ ラーヴァ プール アヘッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was alerting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The alarm was <mark>alerting</mark> everyone while we scrambled to save our base.</p>
+<p class="ja">私たちが基地を救おうと必死に動いている間、アラームはみんなに警告していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə əˈlɑrm wəz əˈlɛr.tɪŋ ˈɛv.ri.wʌn waɪl wi ˈskræm.bəld tu ˈseɪv ˈaʊər ˈbeɪs/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>was の語末子音 /z/ が alerting の初頭母音 /ə/ に連結 [wəz əˈlɛr.tɪŋ] ワザラーティング</li><li>alerting の語末 /ŋ/ が everyone の初頭母音 /ɛ/ に連結 [ɪŋ ˈɛv] イング エヴリワン</li><li>while は /waɪl/</li></ul>
+<div class="kana">ザ アラーム ワザラーティング エヴリワン ワイル ウィー スクラムブルド トゥー セイヴ アウアー ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He was <mark>alerting</mark> his teammates about incoming hostile mobs.</p>
+<p class="ja">彼は敵対的なモブが来ることについて、チームメイトに警告していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wəz əˈlɛr.tɪŋ hɪz ˈtim.meɪts əˈbaʊt ɪnˈkʌm.ɪŋ ˈhɑs.təl mɑbz/</div>
+<ul class="link"><li>was の語末子音 /z/ が alerting の初頭母音 /ə/ に連結 [wəz əˈlɛr.tɪŋ] ワザラーティング</li><li>alerting の語末 /ŋ/ が his の初頭 /h/ に続く (子音+子音で未開放)</li><li>his は /hɪz/</li><li>teammates の語末 /s/ が about の初頭母音 /ə/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">ヒー ワザラーティング ヒズ ティームメイツ アバウト インカミング ホースタル モーブズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been alerting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, the security system had been <mark>alerting</mark> the players for several minutes.</p>
+<p class="ja">我々が到着するまでに、セキュリティシステムは数分間プレイヤーに警告し続けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi əˈraɪvd ðə sɪˈkyʊr.ə.ti ˈsɪs.təm həd bɪn əˈlɛr.tɪŋ ðə ˈpleɪ.ərz fɔr ˈsɛv.ər.əl ˈmɪn.ɪts/</div>
+<ul class="link"><li>had は機能語で弱形 /həd/</li><li>had の語末子音 /d/ が been の初頭 /b/ に続く (子音+子音で未開放)</li><li>been は弱形 /bɪn/</li><li>been の語末子音 /n/ が alerting の初頭母音 /ə/ に連結 [bɪn əˈlɛr.tɪŋ] ビナラーティング</li></ul>
+<div class="kana">バイ ザ タイム ウィー アライヴド ザ サキュリティ システム ハド ビナラーティング ザ プレイアーズ フォー セヴラル ミニッツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Before the builders found shelter, the warning beacons had been <mark>alerting</mark> them about the approaching storm.</p>
+<p class="ja">ビルダーたちが避難所を見つける前に、警告ビーコンは接近する嵐について彼らに警告し続けていた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr ðə ˈbɪl.dərz faʊnd ˈʃɛl.tər ðə ˈwɔr.nɪŋ ˈbik.ənz həd bɪn əˈlɛr.tɪŋ ðɛm əˈbaʊt ðə əˈproʊ.tʃɪŋ ˈstɔrm/</div>
+<ul class="link"><li>before は /bɪˈfɔr/</li><li>the は弱形 /ðə/</li><li>had は弱形 /həd/</li><li>had の語末子音 /d/ が been の初頭 /b/ に続く (子音+子音で未開放)</li><li>been の語末子音 /n/ が alerting の初頭母音 /ə/ に連結 [bɪn əˈlɛr.tɪŋ] ビナラーティング</li></ul>
+<div class="kana">ビフォー ザ ビルダーズ ファウンド シェルター ザ ウォーニング ビーコンズ ハド ビナラーティング ゼム アバウト ザ アプローチング ストーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has alerted</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz əˈlɛr.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The motion detector has <mark>alerted</mark> the entire base to the creeper invasion.</p>
+<p class="ja">モーションディテクターはクリーパー侵攻について基地全体に警告した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmoʊ.ʃən dɪˈtɛk.tər həz əˈlɛr.tɪd ðə ɪnˈtaɪ.ər ˈbeɪs tu ðə ˈkrip.ər ɪnˈveɪ.ʒən/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/</li><li>has は助動詞で弱形 /həz/、has の語末子音 /z/ が alerted の初頭母音 /ə/ に連結 [həz əˈlɛrtɪd] ハズ アラーティド</li><li>alerted の語末 /d/ が the の初頭 /ð/ に続く（子音+子音で未開放）</li><li>to は機能語で /tu/</li></ul>
+<div class="kana">ザ モーション ディテクター ハズ アラーティド ザ エンタイア ベイス トゥ ザ クリーパー インベージョン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We have <mark>alerted</mark> all the players about the impending raid from the neighboring clan.</p>
+<p class="ja">隣のクランからの差し迫ったレイドについて、すべてのプレイヤーに警告した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv əˈlɛr.tɪd ɔl ðə ˈpleɪ.ərz əˈbaʊt ðə ɪmˈpɛn.dɪŋ ˈreɪd frəm ðə ˈneɪ.bɚ.ɪŋ klæn/</div>
+<ul class="link"><li>have は助動詞で弱形 /həv/、have の語末子音 /v/ が alerted の初頭母音 /ə/ に連結 [həv əˈlɛrtɪd] ハヴ アラーティド</li><li>alerted の語末 /d/ が all の初頭母音 /ɔ/ に連結 [əˈlɛrtɪd ɔl] アラーティド オール</li><li>about は弱形 /əˈbaʊt/</li><li>from は前置詞で弱形 /frəm/</li></ul>
+<div class="kana">ウィー ハヴ アラーティド オール ザ プレイアーズ アバウト ザ インペンディング レイド フラム ザ ネイバーリング クラン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had alerted</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd əˈlɛr.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time the dragon landed on the platform, the lookout had already <mark>alerted</mark> everyone.</p>
+<p class="ja">ドラゴンがプラットフォームに着地するまでに、見張りはすでにみんなに警告していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm ðə ˈdræg.ən ˈlæn.dɪd ɑn ðə ˈplæt.fɔrm ðə ˈlʊk.aʊt həd ɔlˈrɛd.i əˈlɛr.tɪd ˈɛv.ri.wʌn/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/</li><li>had は助動詞で弱形 /həd/、had の語末子音 /d/ が alerted の初頭母音 /ə/ に連結 [həd əˈlɛrtɪd] ハド アラーティド</li><li>alerted の語末 /d/ が everyone の初頭母音 /ɛ/ に連結 [əˈlɛrtɪd ˈɛvriwʌn] アラーティド エヴリワン</li><li>already は /ɔlˈrɛd.i/</li></ul>
+<div class="kana">バイ ザ タイム ザ ドラゴン ランディド オン ザ プラットフォーム ザ ルックアウト ハド オールレディー アラーティド エヴリワン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>alerted</mark> the team before the Wither boss spawned in the nether.</p>
+<p class="ja">Witherボスがネザーでスポーンする前に、彼女はチームに警告していた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd əˈlɛr.tɪd ðə tim bɪˈfɔr ðə ˈwɪð.ər boʊs spɔnd ɪn ðə ˈnɛð.ər/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/、had の語末子音 /d/ が alerted の初頭母音 /ə/ に連結 [həd əˈlɛrtɪd] ハド アラーティド</li><li>alerted の語末 /d/ が the の初頭 /ð/ に続く（子音+子音で未開放）</li><li>the は弱形 /ðə/</li><li>before は前置詞で弱形 /bɪˈfɔr/</li></ul>
+<div class="kana">シー ハド アラーティド ザ ティーム ビフォー ザ ウィザー ボス スポンド イン ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been alerting</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The redstone alarm has been <mark>alerting</mark> the base about the intruding zombie horde since dawn.</p>
+<p class="ja">レッドストーン警報は夜明け以来、侵入するゾンビ群について基地に警告を続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈrɛd.stoʊn əˈlɑrm həz bɪn əˈlɛr.tɪŋ ðə ˈbeɪs əˈbaʊt ðə ɪnˈtru.dɪŋ ˈzɑm.bi ˈhɔrd sɪns dɔn/</div>
+<ul class="link"><li>the は定冠詞で弱形 /ðə/</li><li>has は弱形 /həz/、been は弱形 /bɪn/、been の語末 /n/ が alerting の初頭母音 /ə/ に連結 [bɪn əˈlɛrtɪŋ] ビン アラーティング</li><li>alerting の語末 /ŋ/ が the の初頭 /ð/ に続く（子音+子音で未開放）</li><li>about は弱形 /əˈbaʊt/</li></ul>
+<div class="kana">ザ レッドストーン アラーム ハズ ビン アラーティング ザ ベイス アバウト ザ イントゥルーディング ゾンビー ホード シンス ドーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The scouts have been <mark>alerting</mark> us continuously about hostile activity in the nearby canyon.</p>
+<p class="ja">スカウトたちは近くの峡谷の敵対的な活動についてずっと私たちに警告を続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈskaʊts həv bɪn əˈlɛr.tɪŋ ʌs kənˈtɪn.ju.ə.sli əˈbaʊt ˈhɑs.təl ˈæk.tɪv.ə.ti ɪn ðə ˈnɪr.baɪ ˈkæn.jən/</div>
+<ul class="link"><li>scouts の語末 /ts/ が have の初頭 /h/ に続く（子音+子音で未開放）</li><li>have は弱形 /həv/、been は弱形 /bɪn/、been の語末 /n/ が alerting の初頭母音 /ə/ に連結 [bɪn əˈlɛrtɪŋ] ビン アラーティング</li><li>alerting の語末 /ŋ/ が us の初頭母音 /ə/ に続く（子音+子音で未開放）</li><li>about は弱形 /əˈbaʊt/</li></ul>
+<div class="kana">ザ スカウツ ハヴ ビン アラーティング アス コンティニュアスリー アバウト ホースタル アクティヴィティ イン ザ ニアーバイ キャニオン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will alert</span><span class="fl">単純未来形</span><span class="fi">/wɪl əˈlɛrt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>alert</mark> the team when I spot the dragon.</p>
+<p class="ja">ドラゴンを見かけたら、チームに警告するつもりだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl əˈlɛrt ðə tim wɛn aɪ spɑt ðə ˈdræɡən/</div>
+<ul class="link"><li>I'll の語末 /l/ が alert の初頭母音 /ə/ に連結 [aɪl əˈlɛrt] アイル アラート</li><li>when の語末 /n/ が I の初頭母音 /aɪ/ に連結 [wɛn aɪ] ウェン アイ</li><li>the は定冠詞で弱形 /ðə/</li><li>spot の語末 /t/ が the の初頭 /ð/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">アイル アラート ザ ティーム ウェン アイ スポット ザ ドラゴン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>alert</mark> everyone about the approaching mob swarm.</p>
+<p class="ja">彼らはモブの大群が接近していることについて、みんなに警告するだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl əˈlɛrt ˈɛv.ri.wʌn əˈbaʊt ðə əˈproʊ.tʃɪŋ mɑb swɔrm/</div>
+<ul class="link"><li>will の /l/ が alert の初頭母音 /ə/ に連結 [wɪl əˈlɛrt] ウィル アラート</li><li>alert の語末 /t/ が everyone の初頭母音 /ɛ/ に連結 [əˈlɛrt ˈɛv.ri.wʌn] アラート エヴリワン</li><li>the は弱形 /ðə/</li><li>approaching の語末 /ŋ/ が mob の初頭 /m/ に続く (子音+子音で未開放)</li></ul>
+<div class="kana">ゼイ ウィル アラート エヴリワン アバウト ザ アプローチング モブ スウォーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be alerting</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi əˈlɛr.tɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The security system will be <mark>alerting</mark> players of any hazards throughout the night.</p>
+<p class="ja">セキュリティシステムは一晩中、プレイヤーに危険について警告し続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə sɪˈkyʊr.ə.ti ˈsɪs.təm wɪl bi əˈlɛr.tɪŋ ˈpleɪ.ərz əv ˈɛ.ni ˈhæz.ɚ.dəz θɹuˈaʊt ðə ˈnaɪt/</div>
+<ul class="link"><li>will の /l/ が be の初頭 /b/ に続く (子音+子音で未開放)</li><li>be の /i/ が alerting の初頭母音 /ə/ に連結 [bi əˈlɛr.tɪŋ] ビー アラーティング</li><li>alerting の語末 /ŋ/ が players の初頭 /p/ に続く (子音+子音で未開放)</li><li>of は弱形 /əv/、any の初頭母音 /ɛ/ に連結</li></ul>
+<div class="kana">ザ サキュリティ システム ウィル ビー アラーティング プレイアーズ オヴ エニー ハザーダス スルーアウト ザ ナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>alerting</mark> the mining crew about the lava pool directly ahead.</p>
+<p class="ja">我々は採掘クルーに、正面にある溶岩プールについて警告し続けるだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪl bi əˈlɛr.tɪŋ ðə ˈmaɪ.nɪŋ kru əˈbaʊt ðə ˈlɑ.və pul dɪˈrɛk.tli əˈhɛd/</div>
+<ul class="link"><li>we'll の語末 /l/ が be の初頭 /b/ に続く (子音+子音で未開放、縮約形)</li><li>be の /i/ が alerting の初頭母音 /ə/ に連結 [bi əˈlɛr.tɪŋ] ビー アラーティング</li><li>alerting の語末 /ŋ/ が the の初頭 /ð/ に連なり [əˈlɛr.tɪŋ ðə] アラーティング ザ</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ウィル ビー アラーティング ザ マイニング クルー アバウト ザ ラーバ プール ディレクトリー アヘッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have alerted</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv əˈlɛr.tɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/alert_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He will have <mark>alerted</mark> the base before the zombies break through the wall.</p>
+<p class="ja">ゾンビが壁を壊す前に、彼は基地に警告してしまっているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi wɪl həv əˈlɛr.tɪd ðə ˈbeɪs bɪˈfɔr ðə ˈzɑm.biz ˈbreɪk θɹu ðə wɔl/</div>
+<ul class="link"><li>will の /l/ が have の初頭 /h/ に続く (子音+子音で未開放) [wɪl həv] ウィル ハヴ</li><li>have の /v/ が alerted の初頭母音 /ə/ に連結（弱形 /həv/）[həv əˈlɛr.tɪd] ハヴ アラーティド</li><li>base の語末 /s/ が before の初頭 /b/ に続く (子音+子音で未開放)</li><li>before の /r/ が the の初頭 /ðə/ に連結 [bɪˈfɔr ðə] ビフォア ザ</li></ul>
+<div class="kana">ヒー ウィル ハヴ アラーティド ザ ベイス ビフォア ザ ゾンビーズ ブレイク スルー ザ ウォール</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, I will have <mark>alerted</mark> every player in the server about the update.</p>
+<p class="ja">明日までに、私はサーバーのすべてのプレイヤーにアップデートについて警告してしまっているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑr.oʊ aɪ wɪl həv əˈlɛr.tɪd ˈɛv.ri ˈpleɪ.ər ɪn ðə ˈsɝr.vər əˈbaʊt ðə ˈʌpˌdeɪt/</div>
+<ul class="link"><li>by の /aɪ/ が tomorrow の /t/ に続く (子音+子音で未開放)（tomorrow は弱形 /tə/）[baɪ təˈmɑr.oʊ] バイ トゥモロー</li><li>will の /l/ が have の初頭 /h/ に続く (子音+子音で未開放) [wɪl həv] ウィル ハヴ</li><li>have の /v/ が alerted の初頭母音 /ə/ に連結（弱形 /həv/）[həv əˈlɛr.tɪd] ハヴ アラーティド</li><li>player の /r/ が in の初頭母音 /ɪ/ に r-連結 [ˈpleɪ.ər ɪn] プレイアー イン</li></ul>
+<div class="kana">バイ トゥモロー アイ ウィル ハヴ アラーティド エヴリ プレイアー イン ザ サーヴァー アバウト ザ アップデイト</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">on alert</span><span class="im">警戒態勢にある、警戒中である</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We must stay on <mark>alert</mark> for creeper attacks near the base.</p>
+<p class="ja">基地の近くではクリーパー攻撃に対して警戒態勢を保つ必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/alert_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/alert_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi məst steɪ ɑn əˈlɝt fɚ ˈkriːpɚ əˈtæks nɪr ðə ˈbeɪs/</div>
+<ul class="link"><li>on alert: /n/（on）が /ə/（alert）に連結 [ɑn ə ˈlɝt] → [ɑ näˈlɝt]、「オ ナラート」のように流れる</li><li>alert for: /t/ と /f/ が両方子音のため分離</li></ul>
+<div class="kana">ウィ マスト スティ オン アラート フォー クリーパー アタックス ニア ザ ベイス</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="alert";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

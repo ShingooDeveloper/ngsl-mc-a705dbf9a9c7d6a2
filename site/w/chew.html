@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>chew — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>chew</h2><span class="pos">動詞</span><span class="ipa-head">/tʃuː/</span><span class="lvl">CEFR A2</span><span class="tagbadge">ターゲット1900 #1117</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】かむ、噛む（歯で食べ物を細かく砕く、break food with teeth）</li><li>【動詞】かじる、かみつく（強くかむ、gnaw or bite）</li><li>【動詞】〜を考え込む、熟考する（深く考える、think deeply about）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The wolf is <mark>chewing</mark> its bone after hunting.</p>
+<p class="ja">狼は狩りの後、その骨をかみ砕いている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwʊlf ɪz ˈtʃuːɪŋ ɪts boʊˈnæftər ˈhʌntɪŋ/</div>
+<ul class="link"><li>&quot;The&quot; は弱形 /ðə/ に弱化（通常の /ðiː/ ではなく）</li><li>&quot;bone after&quot; — 語末の /n/ が母音 /æ/ に連結 [boʊˈnæftər]</li></ul>
+<div class="kana">ザ ウルフ イズ チューイング イツ ボーナフター ハンティング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I like to <mark>chew</mark> sugarcane while mining for diamonds.</p>
+<p class="ja">ダイヤモンドを採掘しながら、サトウキビをかむのが好きだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈlaɪk tə ˈtʃuː ˈsuɡərˌkeɪn ˈwaɪl ˈmaɪnɪŋ fɚ ˈdaɪmənz/</div>
+<ul class="link"><li>&quot;to&quot; は弱形 /tə/ に弱化（通常 /tu/ から）</li><li>&quot;for&quot; は弱形 /fɚ/ に弱化（通常 /fɔr/ から）</li></ul>
+<div class="kana">アイ ライク タ チュー スーガーケイン ワイル マイニング ファー ダイモンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Hoglins <mark>chew</mark> on crimson fungus in the Nether.</p>
+<p class="ja">ホグリンはネザーの深紅の菌をかむ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhoʊɡlɪnz ˈtʃuː ɑn ˈkrɪmzən ˈfʌŋɡəs ɪn ðə ˈnɛðɚ/</div>
+<ul class="link"><li>&quot;fungus in&quot; — 語末の /s/ が母音 /ɪ/ に連結 [ˈfʌŋɡəsɪn]</li><li>&quot;the&quot; は弱形 /ðə/</li></ul>
+<div class="kana">ホグリンズ チュー アン クリムズン ファンガス イン ザ ネザー</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">chews</span><span class="fl">三人称単数現在形</span><span class="fi">/tʃuːz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The sheep <mark>chews</mark> on the hay in the barn.</p>
+<p class="ja">羊は納屋の干し草をかみます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ʃip tʃuːz ɑn ðə heɪ ɪn ðə bɑrn/</div>
+<ul class="link"><li>the は子音前で弱形 /ðə/ ザ</li><li>chews on → /z/ が母音 /ɑ/ に連結</li><li>in the → /n/ が弱形 /ðə/ に連結</li></ul>
+<div class="kana">ザ シープ チューズ オン ザ ヘイ イン ザ バーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>chews</mark> sugarcane while exploring the jungle.</p>
+<p class="ja">彼女はジャングルを探検しながらサトウキビをかみます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi tʃuːz ˈsuɡɚˌkeɪn waɪl ɪkˈsplɔrɪŋ ðə ˈdʒʌŋɡəl/</div>
+<ul class="link"><li>chews sugarcane → 子音+子音でリンクなし</li><li>while → /l/ が母音に続く</li><li>the は子音前で弱形 /ðə/ ザ</li></ul>
+<div class="kana">シー チューズ スーガーケイン ワイル イクスプローリング ザ ジャングル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">chewed</span><span class="fl">過去形</span><span class="fi">/tʃuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>chewed</mark> the food before swallowing it completely.</p>
+<p class="ja">私はそれを完全に飲み込む前に食べ物をかみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ tʃuːd ðə fud bɪˈfɔr ˈswɑloʊɪŋ ɪt kəmˈpliːtli/</div>
+<ul class="link"><li>the は弱形 /ðə/ ザ</li><li>before → /fɔr/ が弱化可能</li></ul>
+<div class="kana">アイ チュード ザ フード ビフォア スワロウイング イット コンプリートリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The horse <mark>chewed</mark> hay after the long journey.</p>
+<p class="ja">馬は長い旅の後、干し草をかみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə hɔrs tʃuːd heɪ ˈæɾɚ ðə lɔŋ ˈdʒɝni/</div>
+<ul class="link"><li>the は子音前で弱形 /ðə/ ザ</li><li>chewed hay → 子音+子音でリンクなし</li><li>the は子音前で弱形 /ðə/ ザ</li></ul>
+<div class="kana">ザ ホース チュード ヘイ アラー ザ ロング ジャーニー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">chewed</span><span class="fl">過去分詞</span><span class="fi">/tʃuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The grass was <mark>chewed</mark> by the sheep overnight.</p>
+<p class="ja">草は夜通し羊にかまれました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɡræs wəz tʃuːd baɪ ðə ʃip ˈoʊvɚˌnaɪt/</div>
+<ul class="link"><li>the は子音前で弱形 /ðə/ ザ</li><li>was chewed → 子音+子音でリンクなし</li><li>by the → /aɪ/ が子音に続く</li></ul>
+<div class="kana">ザ グラス ワズ チュード バイ ザ シープ オーバーナイト</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After being <mark>chewed</mark>, the food went into the stomach.</p>
+<p class="ja">かまれた後、食べ物は胃に入りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftɚ ˈbɪɪŋ tʃuːd ðə fud wɛnt ˈɪntu ðə ˈstʌməks/</div>
+<ul class="link"><li>being chewed → /ŋ/ が子音に続く</li><li>chewed the → /d/ が弱形 /ðə/ に先立つ</li><li>into the → /u/ が子音に続く</li></ul>
+<div class="kana">アフター ビーイング チュード ザ フード ウェント イントゥ ザ スタマックス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">chewing</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The goat is <mark>chewing</mark> leaves from the acacia tree.</p>
+<p class="ja">ヤギはアカシアの木から葉をかんでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ɡoʊt ɪz ˈtʃuːɪŋ livz frəm ðə əˈkeɪʃə tri/</div>
+<ul class="link"><li>is chewing → /z/ が子音に続く</li><li>chewing leaves → /ŋ/ が子音に続く</li><li>from the → /m/ が弱形に連結</li></ul>
+<div class="kana">ザ ゴート イズ チューイング リーブズ フラム ザ アケーシャ トリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While <mark>chewing</mark> sugarcane, I discovered the hidden temple.</p>
+<p class="ja">サトウキビをかみながら、隠された寺院を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwaɪl ˈtʃuːɪŋ ˈsuɡɚˌkeɪn aɪ dɪsˈkʌvɚd ðə ˈhɪɾən ˈtɛmpəl/</div>
+<ul class="link"><li>chewing sugarcane → /ŋ/ が子音に続く</li><li>the は子音前で弱形 /ðə/ ザ</li></ul>
+<div class="kana">ワイル チューイング スーガーケイン アイ ディスカバード ザ ヒレン テンパル</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has chewed</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈtʃuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have <mark>chewed</mark> on so much sugarcane while mining today.</p>
+<p class="ja">今日、採掘中にたくさんのサトウキビをかみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ əv ˈtʃuːd ɑn soʊ ˈmʌtʃ ˈsuɡərˌkeɪn ˈwaɪl ˈmaɪnɪŋ təˈdeɪ/</div>
+<ul class="link"><li>have は弱形 /əv/（助動詞）</li><li>chewed on — 語末子音 /d/ が母音 /ɑ/ に連結</li></ul>
+<div class="kana">アイ アヴ チュード オン ソー マッチ スーガーケイン ワイル マイニング タデイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The wolf has <mark>chewed</mark> its bone completely in half.</p>
+<p class="ja">狼はその骨を完全に半分までかみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈwʊlf həz ˈtʃuːd ɪts ˈboʊn kəmˈplitli ɪn ˈhæf/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>has は弱形 /həz/（助動詞）[ハズ]</li></ul>
+<div class="kana">ザ ウルフ ハズ チュード イツ ボーン カムプリートリー イン ハーフ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had chewed</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈtʃuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Before I found the food stash, I had <mark>chewed</mark> through my entire supply.</p>
+<p class="ja">食料庫を見つける前に、私は食料供給全体をかみ砕きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/bɪˈfɔr aɪ ˈfaʊnd ðə ˈfuːd ˈstæʃ aɪ əd ˈtʃuːd θruː maɪ ɪnˈtaɪər səˈplaɪ/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /əd/（助動詞）</li><li>chewed through — 語末子音 /d/ が /θ/（子音）に続く。連結なし</li></ul>
+<div class="kana">ビフォア アイ ファウンド ザ フード スタッシュ アイ アド チュード スルー マイ インタイアー サプライ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The hoglins had <mark>chewed</mark> the crimson fungus before we even arrived.</p>
+<p class="ja">私たちが到着する前に、ホグリンは深紅の菌をかみました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhoʊɡlɪnz əd ˈtʃuːd ðə ˈkrɪmzən ˈfʌŋɡəs bɪˈfɔr wi ˈɪvən əˈraɪvd/</div>
+<ul class="link"><li>the は弱形 /ðə/（2回）[ザ]</li><li>had は弱形 /əd/（助動詞）</li><li>chewed the — 語末子音 /d/ が /ð/（子音）に続く。連結なし</li></ul>
+<div class="kana">ザ ホウグリンズ アド チュード ザ クリムズン ファンガス ビフォア ウィ イーヴン ア ライヴド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been chewing</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The horse has been <mark>chewing</mark> hay since I brought it back to the stable.</p>
+<p class="ja">私が馬を厩舎に連れ戻してから、ずっと干し草をかんでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhɔrs həz bɪn ˈtʃuːɪŋ ˈheɪ sɪns aɪ ˈbrɔt ɪt ˈbæk tə ðə ˈsteɪbəl/</div>
+<ul class="link"><li>the は弱形 /ðə/（2回）[ザ]</li><li>has は弱形 /həz/、been は弱形 /bɪn/（助動詞）</li><li>to は弱形 /tə/</li></ul>
+<div class="kana">ザ ホース ハズ ビン チューイング ヘイ シンス アイ ブロット イット バック タ ザ ステイブル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You have been <mark>chewing</mark> on that stick for way too long.</p>
+<p class="ja">あなたはずっと長い間その枝をかみ続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juː əv bɪn ˈtʃuːɪŋ ɑn ðæt ˈstɪk fɚ ˈweɪ tu ˈlɔŋ/</div>
+<ul class="link"><li>have は弱形 /əv/、been は弱形 /bɪn/（助動詞）[アヴ ビン]</li><li>for は弱形 /fɚ/、too は /tu/</li></ul>
+<div class="kana">ユー アヴ ビン チューイング オン ザット スティック ファー ウェイ トゥ ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will chew</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈtʃuː/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>chew</mark> some sugarcane when I get back to the base.</p>
+<p class="ja">ベースに戻ったらサトウキビをかむつもりです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl ˈtʃuː səm ˈsuɡərˌkeɪn wɛn aɪ ɡɛt ˈbæk tu ðə ˈbeɪs/</div>
+<ul class="link"><li>I'll は I + will の縮約。will は弱形 /əl/ に弱化 [aɪl] アイル</li><li>chew の末尾 /uː/ が some の /s/ に続く（母音+子音）[ˈtʃuː səm] チュー サム</li><li>the は弱形 /ðə/ に弱化 ザ</li></ul>
+<div class="kana">アイル チュー サム スーガーケイン ウェン アイ ゲット バック トゥ ザ ベイス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The sheep will <mark>chew</mark> grass in this meadow tomorrow.</p>
+<p class="ja">明日、羊たちはこの草地で草をかむでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈʃip wɪl ˈtʃuː ɡræs ɪn ðɪs ˈmɛdoʊ təˈmɑroʊ/</div>
+<ul class="link"><li>the は弱形 /ðə/ に弱化 ザ</li><li>will は弱形 /əl/ に弱化。sheep の末尾 /p/ が will の /w/ に続く（子音+子音）で未開放 [ˈʃip̚ wɪl] シープ ウィル</li><li>chew の末尾 /uː/ が grass の /ɡ/ に続く（母音+子音）[ˈtʃuː ɡræs] チュー グラス</li></ul>
+<div class="kana">ザ シープ ウィル チュー グラス イン ディス メドウ トゥモロウ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be chewing</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll be <mark>chewing</mark> kelp while mining deep underground.</p>
+<p class="ja">私たちは地下深くで採掘しながら海草をかんでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wil bi ˈtʃuːɪŋ ˈkɛlp waɪl ˈmaɪnɪŋ ˈdip ˌʌndɚˈɡraʊnd/</div>
+<ul class="link"><li>We'll は we + will の縮約。will は弱形 /əl/ に弱化 [wil] ウィル</li><li>be の末尾 /i/ が chewing の /tʃ/ に続く（母音+子音）[bi ˈtʃuːɪŋ] ビー チューイング</li><li>kelp の末尾 /p/ が while の /w/ に続く（子音+子音）で未開放 [ˈkɛlp̚ waɪl] ケルプ ワイル</li><li>mining の末尾 /ŋ/ が deep の /d/ に続く（鼻音+子音）[ˈmaɪnɪŋ ˈdip] マイニング ディープ</li></ul>
+<div class="kana">ウィル ビー チューイング ケルプ ワイル マイニング ディープ アンダーグラウンド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be <mark>chewing</mark> the bamboo forest when we arrive at the biome.</p>
+<p class="ja">私たちがバイオームに到着するとき、彼らは竹林をかんでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈtʃuːɪŋ ðə bæmˈbuː ˈfɔrɪst wɛn wi əˈraɪv æt ðə ˈbaɪoʊm/</div>
+<ul class="link"><li>They'll は they + will の縮約。will は弱形 /əl/ に弱化 [ðeɪl] ザイル</li><li>be の末尾 /i/ が chewing の /tʃ/ に続く [bi ˈtʃuːɪŋ] ビー チューイング</li><li>the は弱形 /ðə/ に弱化 ザ（2回）</li><li>forest の末尾 /t/ が when の /w/ に続く（子音+子音）で未開放 [ˈfɔrɪst̚ wɛn] フォーリスト ウェン</li></ul>
+<div class="kana">ザイル ビー チューイング ザ バンブー フォーリスト ウェン ウィー ァライヴ アット ザ バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have chewed</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈtʃuːd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By midnight, I will have <mark>chewed</mark> all the beef in my inventory.</p>
+<p class="ja">真夜中までに、私はインベントリー内のすべての牛肉をかんでしまっているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈmɪdnaɪt aɪ wɪl həv ˈtʃuːd ɔl ðə ˈbif ɪn maɪ ɪnˈvɛntəri/</div>
+<ul class="link"><li>midnight の末尾 /t/ が I の /aɪ/ に続く（子音+母音）で未開放 [ˈmɪdnaɪt̚ aɪ] ミッドナイト アイ</li><li>will は弱形 /əl/ に弱化。I の末尾 /aɪ/ が will の /w/ に続く [aɪ wɪl] アイ ウィル</li><li>have は弱形 /əv/ に弱化。will の末尾 /l/ が have の /ə/ に連結 [wɪl həv] ウィル ハヴ</li><li>chewed の末尾 /d/ が all の /ɔ/ に連結 [ˈtʃuːd ɔl] チューダ オール</li></ul>
+<div class="kana">バイ ミッドナイト アイ ウィル ハヴ チューダ オール ザ ビーフ イン マイ インベントリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have <mark>chewed</mark> through the cactus patch by evening.</p>
+<p class="ja">彼女は夕方までにサボテン畑をかみつくしているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl həv ˈtʃuːd ˈθru ðə ˈkæktəs ˈpætʃ baɪ ˈivnɪŋ/</div>
+<ul class="link"><li>will は弱形 /əl/ に弱化。she の末尾 /i/ が will の /w/ に続く [ʃi wɪl] シー ウィル</li><li>have は弱形 /əv/ に弱化 [wɪl həv] ウィル ハヴ</li><li>chewed の末尾 /d/ が through の /θ/ に続く（子音+子音）で未開放 [ˈtʃuːd̚ ˈθru] チュード スルー</li><li>the は弱形 /ðə/ ザ</li></ul>
+<div class="kana">シー ウィル ハヴ チュード スルー ザ キャックタス パッチ バイ イーブニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is chewing</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The cat is <mark>chewing</mark> on a bone.</p>
+<p class="ja">猫が骨を噛んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈkæɾɪz ˈtʃuːɪŋ ɑn ə ˈboʊn]</div>
+<ul class="link"><li>cat is → 語末子音 /t/ が母音 /ɪ/ に挟まれてフラップ化し連結。[ˈkæɾɪz]。is は弱形 /ɪz/</li><li>a → 冠詞の弱形 /ə/</li></ul>
+<div class="kana">ザ カリズ チューイング アン ア ボーン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm <mark>chewing</mark> food after mining.</p>
+<p class="ja">採掘の後、私は食べ物を噛んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˈtʃuːɪŋ fuːdˈæftɚ ˈmaɪnɪŋ]</div>
+<ul class="link"><li>food after → 語末子音 /d/ が母音 /æ/ に連結し音が滑らかに繋がる。[fuːdˈæftɚ]</li></ul>
+<div class="kana">アイム チューイング フードアフター マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was chewing</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The goat was <mark>chewing</mark> my boots.</p>
+<p class="ja">ヤギが私のブーツを噛んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈɡoʊt wəz ˈtʃuːɪŋ maɪ ˈbuːts]</div>
+<ul class="link"><li>was → 助動詞は弱形 /wəz/ に弱化</li><li>The → 冠詞は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">ザ ゴート ワズ チューイング マイ ブーツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She was <mark>chewing</mark> food after mining.</p>
+<p class="ja">採掘の後、彼女は食べ物を噛んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi wəz ˈtʃuːɪŋ fuːdˈæftɚ ˈmaɪnɪŋ]</div>
+<ul class="link"><li>was → 助動詞は弱形 /wəz/ に弱化</li><li>food after → 語末子音 /d/ が母音 /æ/ に連結し音が滑らかに繋がる。[fuːdˈæftɚ]</li></ul>
+<div class="kana">シー ワズ チューイング フードアフター マイニング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been chewing</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈtʃuːɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The horse had been <mark>chewing</mark> hay all day.</p>
+<p class="ja">その馬は一日中干し草を噛んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈhɔrs həd bɪn ˈtʃuːɪŋ ˈheɪ ɔl ˈdeɪ]</div>
+<ul class="link"><li>had → 助動詞は弱形 /həd/ に弱化</li><li>been → 過去分詞は弱形 /bɪn/ に弱化</li><li>The → 冠詞は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">ザ ホース ハド ビン チューイング ヘイ オル デイ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>chewing</mark> that bone before the attack started.</p>
+<p class="ja">攻撃が始まる前、私はその骨を噛んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ həd bɪn ˈtʃuːɪŋ ðæt ˈboʊn bɪˈfɔɹ ðə əˈtæk ˈstɑɹtəd]</div>
+<ul class="link"><li>had → 助動詞は弱形 /həd/ に弱化</li><li>been → 過去分詞は弱形 /bɪn/ に弱化</li></ul>
+<div class="kana">アイ ハド ビン チューイング ザット ボーン ビフォア ザ アタック スターテッド</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">chew over</span><span class="im">〜を考え込む、しばらく考える</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I need to <mark>chew</mark> over my redstone circuit design before building it.</p>
+<p class="ja">建設する前にレッドストーン回路の設計をしばらく考える必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈniːd tə ˈtʃuː ˈoʊvɚ maɪ ˈrɛdˌstoʊn ˈsɝːkɪt dɪˈzaɪn bɪˈfɔr ˈbɪldɪŋ ɪt/</div>
+<ul class="link"><li>&quot;to&quot; は弱形 /tə/</li><li>&quot;circuit design&quot; — &quot;circuit&quot; 語末の /t/ は未開放で、次の &quot;design&quot; /d/ に接続 [ˈsɝːkɪt̚ dɪˈzaɪn]</li></ul>
+<div class="kana">アイ ニード タ チュー オーバー マイ レッドストーン サーキッ ディザイン ビフォア ビルディング イッ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">bite off more than you can chew</span><span class="im">自分の力量以上のことに手を出す、無理をする</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't bite off more than you can <mark>chew</mark>; that Nether fortress is too dangerous for beginners.</p>
+<p class="ja">無理をしないでください。そのネザー要塞は初心者には危険すぎます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/chew_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/chew_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdoʊnt ˈbaɪt ˈɔf mɔr ðæn juː kən ˈtʃuː ðæt ˈnɛðɚ ˈfɔrtəs ɪz tu ˈdeɪndʒərəs fɚ bɪˈɡɪnɚz/</div>
+<ul class="link"><li>&quot;than you&quot; — 語末の /n/ が半母音 /j/ に連結 [ðænjuː]</li><li>&quot;for&quot; は弱形 /fɚ/</li></ul>
+<div class="kana">ドント バイト オフ モア ザンユー カン チュー ザット ネザー フォーティス イズ トゥー デインジャラス ファ ビギナーズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="chew";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
