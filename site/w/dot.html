@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>dot — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#d97706">
+<div class="wordhead"><h2>dot</h2><span class="pos">名詞・動詞</span><span class="ipa-head">/dɑt/</span><span class="lvl">CEFR A1</span><span class="tagbadge">ターゲット1000 #789</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】小さな点やしるし（…a small round mark or spot…）</li><li>【名詞】(URL・ドメイン名などの) ドット、ピリオド（…the dot in internet domain names like .com…）</li><li>【動詞】小さな点で印をつける、点在させる（…to mark or cover with dots…）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I marked a <mark>dot</mark> on the map where I found diamonds.</p>
+<p class="ja">マップにダイヤモンドを見つけた場所に点をマークしました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈmɑɹkɾə ˈdɑɾən ðə ˈmæp ˈwɛɹ aɪ ˈfaʊnd ˈdaɪməndz/</div>
+<ul class="link"><li>marked a で、語末子音 /t/ が母音 /ə/ に挟まれてフラップ化し連結 [ˈmɑɹkɾə] マークラ</li><li>dot on で、語末子音 /t/ が母音に挟まれてフラップ化し連結 [dɑɾən] ダラン</li><li>the は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">アイ マークラ ダラン ザ マップ ウェア アイ ファウンド ダイマンズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The compass shows a small <mark>dot</mark> for each player's location.</p>
+<p class="ja">コンパスは各プレイヤーの位置を小さな点で表示します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈkɑmpəs ʃoʊzə ˈsmɔl dɑt̚ fə ˈiʧ ˈpleɪɚz ləˈkeɪʃən/</div>
+<ul class="link"><li>shows a で、語末の /z/ が母音 /ə/ に連結 [ʃoʊzə] ショウザ</li><li>dot for で、語末の /t/ が子音 /f/ の前で未開放 [dɑt̚] ダッ</li><li>for で機能語は弱形 /fə/</li></ul>
+<div class="kana">ザ カンパス ショウザ スモール ダッ ファ イチ プレイアズ ロケーション</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Each red <mark>dot</mark> on the map is a mob spawn.</p>
+<p class="ja">マップ上の各赤い点はモブスポーンです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/iʧ rɛd dɑɾən ðə ˈmæp ɪzə ˈmɑb spɔn/</div>
+<ul class="link"><li>dot on で、語末子音 /t/ が母音に挟まれてフラップ化し連結 [dɑɾən] ダラン</li><li>on the で、on の語末 /n/ が弱形 the /ðə/ と連接 [ðə] ザ</li><li>is a で、語末の /z/ が母音 /ə/ に連結 [ɪzə] イザ</li></ul>
+<div class="kana">イチ レッド ダラン ザ マップ イザ モブ スポーン</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dots</span><span class="fl">複数形</span><span class="fi">/dɑts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I marked red <mark>dots</mark> on a compass to find the diamond area.</p>
+<p class="ja">ダイヤの地域を探すために、羅針盤に赤いドットを書きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈmɑɹkɾə ɹɛd dɑts ɑnə ˈkɑmpəs tə ˈfaɪnd ðə ˈdaɪmənd ˈɛɹiə/</div>
+<ul class="link"><li>marked a で、語末子音 /t/ が母音 /ə/ に挟まれてフラップ化し連結 [ˈmɑɹkɾə] マークラ</li><li>on a で、語末子音 /n/ が母音 /ə/ に連結 [ɑnə] オナ</li><li>the は弱形 /ðə/ に弱化</li></ul>
+<div class="kana">アイ マークラ レッド ダッツ オナ カンパス タ ファインド ザ ダイモンド エリア</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Each yellow <mark>dot</mark> marks a mining tunnel on the map.</p>
+<p class="ja">マップ上の各黄色のドットは採掘トンネルをマークしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/iʧ ˈjɛloʊ dɑt̚ ˈmɑɹks ə ˈmaɪnɪŋ ˈtʌnəl ɑnðə ˈmæp/</div>
+<ul class="link"><li>dot marks で、語末子音 /t/ が子音 /m/ の前で未開放 [dɑt̚]</li><li>marks a で、語末の /z/ が母音 /ə/ に連結 [ˈmɑɹkz ə]</li><li>on the で、on の語末 /n/ が弱形 the /ðə/ と連接 [ɑnðə] オンザ</li></ul>
+<div class="kana">イーチ イエロー ダッ マークス ア マイニング タンネル オンザ マップ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dots</span><span class="fl">三人称単数現在形</span><span class="fi">/dɑts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>She <mark>dots</mark> each location on her mining map with markers.</p>
+<p class="ja">彼女は採掘マップの各場所をマーカーでドットでマークしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi ˈdɑts iʧ loʊˈkeɪʃən ɑn hɚ ˈmaɪnɪŋ ˈmæp wɪðə ˈmɑɹkɚz/</div>
+<ul class="link"><li>dots each で、語末子音 /ts/ が母音 /i/ に連結 [ˈdɑts iʧ] ダッツ イーチ</li><li>on her で、語末子音 /n/ が /h/ に連結 [ɑn hɚ] オン ハー</li><li>with a で、語末子音 /θ/ が母音 /ə/ に連結 [wɪðə] ウィザ</li></ul>
+<div class="kana">シー ダッツ イーチ ロケーション オン ハー マイニング マップ ウィザ マーカーズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The HUD <mark>dots</mark> the screen to show all the nearby players.</p>
+<p class="ja">HUDは画面にドットを表示して、すべての近くのプレイヤーを示しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛʧ juː ˈdi ˈdɑts ðə ˈskrin tə ʃoʊ ɔl ðə ˈnɪɹbi ˈpleɪɚz/</div>
+<ul class="link"><li>dots the で、語末 /ts/ が弱形 the /ðə/ に連結 [ˈdɑts ðə] ダッツ ザ</li><li>the 弱形 /ðə/ は各所に出現</li></ul>
+<div class="kana">ザ エッチ ユー ディー ダッツ ザ スクリーン タ ショウ オール ザ ニアバイ プレイアーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dotted</span><span class="fl">過去形</span><span class="fi">/ˈdɑtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>dotted</mark> the entire map to mark all the important caves.</p>
+<p class="ja">重要な洞窟をすべてマークするために、地図全体にドットを付けました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈdɑtɪd ðə ənˈtaɪɚ ˈmæp tə ˈmɑɹk ɔl ðə ɪmˈpɔɹtənt ˈkeɪvz/</div>
+<ul class="link"><li>dotted the で、過去分詞 -ed の語末 /d/ が弱形 the /ðə/ に連結 [ˈdɑtɪd ðə] ダッティッド ザ</li><li>mark all で、語末子音 /k/ が母音 /ɔ/ に続く [ˈmɑɹk ɔl]</li><li>important caves で、語末 /t/ が子音 /k/ の前で未開放</li></ul>
+<div class="kana">アイ ダッティッド ザ エンタイアー マップ タ マーク オール ザ インポータント ケイブズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He <mark>dotted</mark> the trail with torches so we wouldn't get lost.</p>
+<p class="ja">彼はトーチでトレイルにドットを付けたので、私たちは迷いませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈdɑtɪd ðə ˈtreɪl wɪðə ˈtɔɹʧəz soʊ wi ˈwʊdənt ˈɡɛt ˈlɔst/</div>
+<ul class="link"><li>dotted the で、過去分詞 -ed の語末 /d/ が弱形 the /ðə/ に連結 [ˈdɑtɪd ðə] ダッティッド ザ</li><li>with a で、語末 /θ/ が母音 /ə/ に連結 [wɪðə] ウィザ</li><li>so we で、so の語末 /oʊ/ と we /wi/ の連接</li></ul>
+<div class="kana">ヒー ダッティッド ザ トレイル ウィザ トーチェズ ソウ ウィー ウッデント ゲット ロスト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dotted</span><span class="fl">過去分詞</span><span class="fi">/ˈdɑtɪd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>dotted</mark> line on the map shows the safest route to the village.</p>
+<p class="ja">マップ上の点線は村への最も安全なルートを示しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈdɑtɪd ˈlaɪn ɑnðə ˈmæp ʃoʊz ðə ˈseɪfɪst ˈrut tu ðə ˈvɪləʤ/</div>
+<ul class="link"><li>dotted line で、語末 /ɪd/ が /l/ に続く。line は /l/ で始まる</li><li>on the で、on の語末 /n/ が弱形 the /ðə/ と連接 [ɑnðə] オンザ</li><li>to は弱形 /tu/ または /tə/</li></ul>
+<div class="kana">ザ ダッティッド ライン オンザ マップ ショウズ ザ セイフェスト ルート トゥ ザ ヴィレジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Diamonds were found at each <mark>dotted</mark> location on the blueprint.</p>
+<p class="ja">ブループリント上の各ドット位置でダイヤが見つかりました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈdaɪməndz wɚ ˈfaʊnd ət iʧ ˈdɑtɪd loʊˈkeɪʃən ɑnðə ˈbluːˌprɪnt/</div>
+<ul class="link"><li>found at で、語末 /d/ が /ə/ に連結 [ˈfaʊnd ət] ファウンド アット</li><li>dotted location で、語末 /ɪd/ が /l/ に続く [ˈdɑtɪd loʊˈkeɪʃən]</li><li>on the で、on の語末 /n/ が弱形 the /ðə/ と連接 [ɑnðə] オンザ</li></ul>
+<div class="kana">ダイモンズ ワー ファウンド アット イーチ ダッティッド ロケーション オンザ ブループリント</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dotting</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈdɑtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'm dotting the map to mark all the important landmarks.</p>
+<p class="ja">重要なランドマークをすべてマークするために、地図にドットを付けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈdɑtɪŋ ðə ˈmæp tə ˈmɑɹk ɔl ðə ɪmˈpɔɹtənt ˈlændˌmɑɹks/</div>
+<ul class="link"><li>I'm で、'm は am の短縮で /əm/ または /m/</li><li>dotting the で、語末 /ŋ/ が弱形 the /ðə/ に続く</li><li>mark all で、語末子音 /k/ が母音 /ɔ/ に続く</li></ul>
+<div class="kana">アイム ダッティング ザ マップ タ マーク オール ザ インポータント ランドマークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They're dotting the landscape with torches to light the path.</p>
+<p class="ja">彼らはパスを明かすためにトーチで風景にドットを付けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɛɹ ˈdɑtɪŋ ðə ˈlændˌskeɪp wɪðə ˈtɔɹʧɪz tu ˈlaɪt ðə ˈpæθ/</div>
+<ul class="link"><li>They're で、are の短縮 /ɚ/ と発音</li><li>dotting the で、語末 /ŋ/ が弱形 the /ðə/ に続く [ˈdɑtɪŋ ðə] ダッティング ザ</li><li>with a で、語末 /θ/ が母音 /ə/ に連結 [wɪðə] ウィザ</li></ul>
+<div class="kana">ゼアー ダッティング ザ ランドスケイプ ウィザ トーチェズ トゥ ライト ザ パス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is dotting</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈdɑtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Stars are dotting the night sky above the desert biome.</p>
+<p class="ja">星が砂漠バイオームの夜空に散らばっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stɑɹz ə ˈdɑtɪŋ ðə ˈnaɪt skaɪ əˈbʌv ðə ˈdɛzɚt ˈbaɪoʊm/</div>
+<ul class="link"><li>stars are で、stars /stɑɹz/ の語末子音 /z/ が are の弱形 /ə/ に連結 [stɑɹzə] スターザ</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">スターザ ドッティング ザ ナイト スカイ アバヴ ザ デザート バイオーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Redstone dust is dotting every connection point on the circuit.</p>
+<p class="ja">レッドストーン粉がサーキットのすべての接続ポイントに散らばっています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/rɛdˈstoʊn dʌst ɪz ˈdɑtɪŋ ˈɛvɚi kəˈnɛkʃən pɔɪnt ɑn ðə ˈsɚkɪt/</div>
+<ul class="link"><li>is は弱形 /ɪz/</li><li>on the で、on /ɑn/ の語末子音 /n/ が the の弱形 /ðə/ に連結 [ɑnðə] オンザ</li><li>circuit の語末子音 /t/ は未開放 [ˈsɚkɪt̚]</li></ul>
+<div class="kana">レッドストーン ダスト イズ ドッティング エブリー コネクション ポイント オンザ サーキッ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was dotting</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈdɑtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The glowstone was dotting the nether landscape as I explored.</p>
+<p class="ja">私が探索していた時、グロウストーンがネザーの風景に散らばっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɡloʊstoʊn wəz ˈdɑtɪŋ ðə ˈnɛðɚ ˈlændˌskeɪp æz aɪ ɪkˈsplɔɹd/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>was は弱形 /wəz/</li><li>landscape as で、landscape /ˈlændˌskeɪp/ の語末子音 /p/ は未開放し as /æz/ に続く [ˈlændˌskeɪp̚ æz] ランスケイプ アズ</li></ul>
+<div class="kana">ザ グロウストーン ワズ ドッティング ザ ネザー ランスケイプ アズ アイ イクスプロアド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While mining, ore veins were dotting the stone walls of the cave.</p>
+<p class="ja">採掘中、鉱石脈が洞窟の石の壁に散らばっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl ˈmaɪnɪŋ ɔɹ veɪnz wɚ ˈdɑtɪŋ ðə stoʊn wɔlz əv ðə keɪv/</div>
+<ul class="link"><li>were は弱形 /wɚ/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ホワイル マイニング オア ベインズ ウェア ドッティング ザ ストーン ウォールズ ア ザ ケイブ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been dotting</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/hæd bɪn ˈdɑtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The torches had been dotting the cave before it got too dark.</p>
+<p class="ja">懐中電灯が洞窟に散らばっていましたが、それが暗くなりすぎました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtɔɹʧɪz hæd bɪn ˈdɑtɪŋ ðə keɪv bɪˈfɔɹ ɪt ɡɑt ˈtuː dɑɹk/</div>
+<ul class="link"><li>the は弱形 /ðə/</li><li>had は弱形 /hæd/、been は弱形 /bɪn/</li><li>before it で、before /bɪˈfɔɹ/ の語末子音 /r/ が it /ɪt/ に連結し、it の /t/ は未開放 [bɪˈfɔɹɪt̚] ビフォアイッ</li></ul>
+<div class="kana">ザ トーチーズ ハド ビン ドッティング ザ ケイブ ビフォアイッ ガット トゥー ダーク</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time I started, diamonds had been dotting the cave floor all day.</p>
+<p class="ja">私が採掘を始めるまでに、ダイヤモンドが1日中洞窟の床に散らばっていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm aɪ ˈstɑɹtɪd ˈdaɪməndz hæd bɪn ˈdɑtɪŋ ðə keɪv flɔɹ ɔl deɪ/</div>
+<ul class="link"><li>had は弱形 /hæd/、been は弱形 /bɪn/</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">バイ ザ タイム アイ スターティド ダイマンズ ハド ビン ドッティング ザ ケイブ フロア オール デイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will dot</span><span class="fl">単純未来形（will + 原形）</span><span class="fi">/wɪl dɑt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll <mark>dot</mark> the map with markers to remember where I built my base.</p>
+<p class="ja">地図にマーカーを打って、自分の拠点を記憶しよう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl dɑt̚ ðə ˈmæp wɪð ˈmɑɹkɚz tə rɪˈmɛmbɚ wɛɹ aɪ bɪlt maɪ ˈbeɪs/</div>
+<ul class="link"><li>dot the で、dot の語末 /t/ が子音 /ð/ の前で未開放 [dɑt̚] ダッ。the は弱形 /ðə/</li><li>to で機能語は弱形 /tə/</li></ul>
+<div class="kana">アイル ダッ ザ マップ ウィズ マーカーズ タ リメンバー ウェア アイ ビルト マイ ベース</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We'll <mark>dot</mark> the walls with glowstone to light up the tunnel system.</p>
+<p class="ja">発光石を使ってトンネルを照らすため、壁にドットを打とう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wiːl dɑt̚ ðə ˈwɔlz wɪð ˈɡloʊstoʊn tə ˈlaɪɾəp ðə ˈtʌnəl ˈsɪstəm/</div>
+<ul class="link"><li>dot the で、dot の /t/ が子音 /ð/ の前で未開放 [dɑt̚]。the は弱形 /ðə/</li><li>light up で、light の語末 /t/ が母音 /ʌ/ に挟まれてフラップ化し連結 [ˈlaɪɾəp] ライラップ</li><li>the tunnel で、the は弱形 /ðə/</li></ul>
+<div class="kana">ウィール ダッ ザ ウォールズ ウィズ グロウストーン タ ライラップ ザ タネル システム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be dotting</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈdɑtɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I'll be dotting the map while we explore the new biome.</p>
+<p class="ja">新しいバイオームを探索している間、地図にドットを打ち続けよう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪl bi ˈdɑtɪŋ ðə ˈmæp waɪl wiː ɪkˈsplɔɹ ðə ˈnuː baɪˈoʊm/</div>
+<ul class="link"><li>dotting the で、the は弱形 /ðə/</li><li>explore は /ɹ/ で終わり、the の母音 /ə/ に連結</li></ul>
+<div class="kana">アイル ビー ダッティング ザ マップ ワイル ウィー エクスプロア ザ ニュー バイオウム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They'll be dotting the redstone circuit with test points.</p>
+<p class="ja">レッドストーン回路にテストポイントでドットを打ち続けている。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪl bi ˈdɑtɪŋ ðə ˈrɛdstoʊn ˈsɚkɪt̚ wɪð ˈtɛst pɔɪnts/</div>
+<ul class="link"><li>dotting the で、the は弱形 /ðə/</li><li>circuit の語末 /t/ が子音 /w/ の前で未開放 [ˈsɚkɪt̚] サーキッ</li></ul>
+<div class="kana">ザイル ビー ダッティング ザ レッドストーン サーキッ ウィズ テスト ポインツ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have dotted</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl hæv ˈdɑtəd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dot_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By tomorrow, I'll have <mark>dotted</mark> all the spawn points.</p>
+<p class="ja">明日までに、すべてのスポーンポイントにドットを打ち終わっているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ təˈmɑɹoʊ aɪl hæv ˈdɑtəd ɔl ðə ˈspɔn pɔɪnts/</div>
+<ul class="link"><li>all the で、the は弱形 /ðə/</li><li>have は通常 /hæv/（会話では弱化することもある /əv/）</li></ul>
+<div class="kana">バイ トゥモロー アイル ハブ ダッテド オール ザ スポーン ポインツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You'll have <mark>dotted</mark> the entire cave system with markers by the time we finish.</p>
+<p class="ja">私たちが終わるまでに、洞窟システム全体にマーカーでドットを打ち終わっているだろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/juːl hæv ˈdɑtəd ðə ɪnˈtaɪɹ ˈkeɪv ˈsɪstəm wɪð ˈmɑɹkɚz baɪ ðə ˈtaɪm wiː ˈfɪnɪʃ/</div>
+<ul class="link"><li>have は通常 /hæv/（会話では弱化することもある /əv/）</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ユール ハブ ダッテド ザ インタイアー ケーブ システム ウィズ マーカーズ バイ ザ タイム ウィー フィニッシュ</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">on the dot</span><span class="im">正確に、時間通りに</span><span class="tagbadge">ターゲット1000 #789</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The server resets on the <mark>dot</mark> at noon, so be careful if you're underground.</p>
+<p class="ja">サーバーは正午にちょうどリセットされるので、地下にいる場合は注意しましょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈsɚvɚ ˈrɛsɛts ɑnðə dɑt æt ˈnuːn soʊ bi ˈkɛɹfəl ɪf juɹ ˌʌndɚɡˈraʊnd/</div>
+<ul class="link"><li>on the dot で、on の /n/ が the /ðə/ と連接し、the の /ð/ が dot の /d/ に続く [ɑnðə dɑt] オンザ ダット</li><li>the は弱形 /ðə/</li></ul>
+<div class="kana">ザ サーバー レセッツ オンザ ダット アット ヌーン ソウ ビー ケアフル イフ ユア アンダーグラウンド</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">connect the dots</span><span class="im">関連性を理解する、点と点をつなぐ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>If you connect the <mark>dots</mark> on the map, you'll find where all the villages are.</p>
+<p class="ja">マップ上のドットをつなげば、すべての村がどこにあるか分かります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dot_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dot_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ɪf juː kəˈnɛkt ðə ˈdɑts ɑn ðə ˈmæp juː wɪl ˈfaɪnd wɛɹ ɔl ðə ˈvɪləʤɪz ɑɹ/</div>
+<ul class="link"><li>connect the で、/t/ が /ð/ の前で未開放 [kəˈnɛkt̚]。the は弱形 /ðə/</li><li>dots on で、dots は複数で語末 /ts/、on /ɑn/ に続く</li><li>all the で /l/ が /ð/ に近接、the は弱形 /ðə/</li></ul>
+<div class="kana">イフ ユー コネクッ ザ ダッツ オン ザ マップ ユー ウィル ファインド ウェア オール ザ ヴィレジズ アー</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="dot";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

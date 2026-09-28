@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>intent — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>intent</h2><span class="pos">名詞・形容詞</span><span class="ipa-head">/ɪnˈtɛnt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1000 #836</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/intent.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】意図、目的、意向（～しようとする心）</li><li>【名詞】実質的な意味、要旨</li><li>【名詞】法律用語：故意（犯罪を犯す意図）</li><li>【形容詞】集中した、一心不乱の（古い用法）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>My <mark>intent</mark> was to mine obsidian before nightfall.</p>
+<p class="ja">日没前に黒曜石を採掘するのが私の意図だった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ɪnˈtɛn̚t wəz tə ˈmaɪn əbˈsɪdiən bɪˈfɔr ˈnaɪtˌfɔl/</div>
+<ul class="link"><li>intent の語末 → t が未開放で [ɪnˈtɛn̚t] インテッ</li><li>was to → was /wəz/ (弱形)、to /tə/ (弱形) [wəz tə] ウズタ</li><li>mine obsidian → mine /n/ が obsidian /ə/ に連結 [ˈmaɪnə] マイナ</li></ul>
+<div class="kana">マイ インテッ ウズ タ マイナブシディアン ビフォー ナイトフォール</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>With <mark>intent</mark> to gather resources, I explored the cave system.</p>
+<p class="ja">資源を集める意図で、私は洞窟システムを探索した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wɪθ ɪnˈtɛn̚t tə ˈɡæðər rɪˈsɔrsəz aɪ ɪkˈsplɔrd ðə ˈkeɪv ˈsɪstəm/</div>
+<ul class="link"><li>intent の語末 → t が未開放で [ɪnˈtɛn̚t] インテッ</li><li>to → 機能語は弱形 /tə/</li><li>the → 限定詞は弱形 /ðə/</li></ul>
+<div class="kana">ウィズ インテッ タ ギャザー リソーシズ、アイ イクスプロアード ザ ケイヴ システム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The builder's <mark>intent</mark> to create a castle was obvious.</p>
+<p class="ja">その建築者が城を作ろうとする意図は明白だった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldərz ɪnˈtɛn̚t tə kriˈeɪɾə ˈkæsəl wəz ˈɑbviəs/</div>
+<ul class="link"><li>builder's intent → builder's /z/ が intent /ɪ/ に連結 [ˈbɪldərzɪnˈtɛn̚t] ビルダーズィンテッ</li><li>create a → フラップ化 [kriˈeɪɾə] クリエーラ</li><li>was obvious → was /z/ が obvious /ɑ/ に連結 [wəzˈɑbviəs] ウズアブビアス</li></ul>
+<div class="kana">ザ ビルダーズィンテッ タ クリエーラ キャッスル ウズアブビアス</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">intents</span><span class="fl">複数形</span><span class="fi">/ɪnˈtɛnts/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/intent_form_plural.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The <mark>intents</mark> of the Wither are to destroy everything.</p>
+<p class="ja">ウィザーの意図はすべてを破壊することだ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_form_plural_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_form_plural_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ɪnˈtɛnts əv ðə ˈwɪðər ɑr tə dɪˈstrɔɪ ˈɛvrɪθɪŋ]</div>
+<ul class="link"><li>intents of → 語末子音 /s/ が弱形 /əv/ に連結 [ɪnˈtɛnts əv]</li><li>to → 機能語は弱形 /tə/ に弱化 [tə]</li></ul>
+<div class="kana">ザ インテンツ アヴ ザ ウィザー アー タ ディストロイ エブリシング</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Our <mark>intents</mark> in survival mode are clear.</p>
+<p class="ja">サバイバルモードにおける私たちの意図は明白だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_form_plural_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_form_plural_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ˈaʊər ɪnˈtɛnts ɪn sərˈvaɪvəl moʊd ər klɪr]</div>
+<ul class="link"><li>in → 機能語は弱形 /ɪn/ に弱化 [ɪn]</li><li>are → 弱形 /ər/ に弱化 [ər]</li></ul>
+<div class="kana">アワー インテンツ イン サーヴァイヴアル モード アー クリア</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">with intent</span><span class="im">意図的に、意図を持って（～する意図で）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I gathered cobblestone with <mark>intent</mark> to build a fortress wall.</p>
+<p class="ja">要塞の壁を作る意図で意図的に丸石を集めた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈɡæðərd ˈkɑbəlˌstoʊn wɪθ ɪnˈtɛn̚t tə bɪld ə ˈfɔrtrəs wɔl/</div>
+<ul class="link"><li>with intent → with /θ/ が intent /ɪ/ に連結 [wɪθɪnˈtɛn̚t] ウィズィンテッ</li><li>build a → build /d/ が a /ə/ に連結 [bɪldə] ビルダ</li></ul>
+<div class="kana">アイ ギャザード コッブルストーン ウィズィンテッ タ ビルダ フォートレス ウォール</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">be intent on/upon ～</span><span class="im">～に懸命である</span><span class="tagbadge">ターゲット1000 #836</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>She is <mark>intent</mark> on mining diamonds in the deep cave.</p>
+<p class="ja">彼女は深いケイブでダイヤ採掘に懸命だ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/intent_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/intent_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ʃi əz ɪnˈtɛnɾɑn ˈmaɪnɪŋ ˈdaɪməndz ɪn ðə dip keɪv]</div>
+<ul class="link"><li>intent on → 語末 /t/ が母音 /ɑ/ に連結し，母音に挟まれてフラップ化 [ɪnˈtɛnɾɑn] インテンラン</li><li>is → 弱形 /əz/ に弱化 [əz] アズ</li><li>the → 弱形 /ðə/ [ðə] ザ</li></ul>
+<div class="kana">シー アズ インテンラン マイニング ダイモンズ イン ザ ディープ ケイブ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="intent";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

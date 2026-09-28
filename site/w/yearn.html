@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>yearn — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#059669">
+<div class="wordhead"><h2>yearn</h2><span class="pos">動詞</span><span class="ipa-head">/jɝn/</span><span class="lvl">CEFR B2</span><span class="tagbadge">ターゲット1000 #849</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】～に/を熱望する、長く望む、渇望する（…for/after）</li><li>【動詞】～することを切望する、～したくてたまらない（…to不定詞）</li><li>【動詞】（人が）懐かしさで満たされる、切実に思い出す</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>yearn</mark> for diamonds deep underground.</p>
+<p class="ja">地下深くのダイヤを心から望んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjɝn fɔr ˈdaɪmændz dip ˌʌndərˈɡraʊnd/</div>
+<ul class="link"><li>for diamonds で語末の /r/ が次の /d/ に続く</li><li>deep underground で /p/ が未開放で次の /ʌ/ に続く [diːp̚ ʌ-]</li></ul>
+<div class="kana">アイ ヤーン フォア ダイマンズ ディープ アンダーグラウンド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>After dying, she <mark>yearned</mark> to find her way home.</p>
+<p class="ja">死んだ後、彼女は家への道を見つけたくてたまりませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ˈdaɪɪŋ ʃi ˈjɝnd tə ˈfaɪnd hər weɪ hoʊm/</div>
+<ul class="link"><li>to find で to が弱形 /tə/ に弱化</li><li>her way で語末の /r/ が次の /w/ に続く</li><li>way home で語末の /eɪ/ が次の /h/ に続く</li></ul>
+<div class="kana">アフター ダイイング シー ヤーンド タ ファイン ハー ウェイ ホウム</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Every player <mark>yearns</mark> to build the perfect castle.</p>
+<p class="ja">すべてのプレイヤーは完璧な城を建てたいと切望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈɛvri ˈpleɪər ˈjɝnz tə ˈbɪld ðə ˈpɝfɪkt ˈkæsəl/</div>
+<ul class="link"><li>to build で to が弱形 /tə/、語末の /t/ が未開放で /b/ に続く [tə ˈbɪld]</li><li>the perfect で the が弱形 /ðə/</li><li>perfect castle で /t/ が未開放で /k/ に続く [pɝfɪkt̚ ˈkæ-]</li></ul>
+<div class="kana">エヴリ プレイア ヤーンズ タ ビルド ザ パーフィク キャッスル</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yearns</span><span class="fl">三人称単数現在形</span><span class="fi">/jɜrnz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve <mark>yearns</mark> for the adventure that awaits in the unexplored caves.</p>
+<p class="ja">スティーブは未開の洞窟で彼を待つ冒険を熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈstiv ˈjɜrnz fɔr ðə ˌædˈvɛntʃɚ ðæt əˈweɪts ɪn ðɪ ˌʌnɪkˈsplɔrd ˈkeɪvz/</div>
+<ul class="link"><li>awaits in: awaits の末尾 /s/ が in の初頭の母音 /ɪ/ に連結される [əˈweɪts ɪn]</li></ul>
+<div class="kana">スティーヴ ヤーンズ フォー ザ アドベンチャー ザット アウェイツ イン ザ アンエクスプロアード ケイヴズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Alex <mark>yearns</mark> to find the stronghold and reach the End.</p>
+<p class="ja">アレックスは要塞を見つけてエンドに到達することを熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈælɛks ˈjɜrnz tu ˈfaɪnd ðə ˈstrɔŋˌhoʊld ænd ˈritʃ ðiː ˈɛnd/</div>
+<ul class="link"><li>stronghold and: stronghold の末尾 /d/ が and の初頭の母音 /æ/ に連結される [ˈstrɔŋˌhoʊld ænd]</li></ul>
+<div class="kana">アレックス ヤーンズ タ ファインド ザ ストロングホールド エン リーチ ザィー エンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yearned</span><span class="fl">過去形</span><span class="fi">/jɜrnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I <mark>yearned</mark> for emeralds throughout the entire mining season.</p>
+<p class="ja">私は採掘シーズン全体を通してエメラルドを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjɜrnd fɔr ˌɛməˈrɑldz θruːˈaʊt ðə ɪnˈtaɪɚ ˈmaɪnɪŋ ˈsizən/</div>
+<ul class="link"><li>for emeralds: for は r-linking により末尾の /r/ が emeralds の初頭の母音 /ɛ/ に連結される [fɚ ˌɛməˈrɑldz]</li></ul>
+<div class="kana">アイ ヤーンド ファー エメラルズ スルーアウト ザ インタイアー マイニング シーズン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We <mark>yearned</mark> to build the perfect base for months before starting.</p>
+<p class="ja">私たちは開始する前に数ヶ月間、完璧な基地を建てることを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ˈjɜrnd tu ˈbɪld ðə ˈpɜrfɪkt ˈbeɪs fɔr ˈmʌnθz bɪˈfɔr ˈstɑrtɪŋ/</div>
+<ul class="link"></ul>
+<div class="kana">ウィー ヤーンド タ ビルド ザ パーフィクト ベース フォー マンスズ ビフォー スターティング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yearned</span><span class="fl">過去分詞</span><span class="fi">/jɜrnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having <mark>yearned</mark> for weeks, we finally discovered the treasure in the deep mine.</p>
+<p class="ja">数週間熱望した後、私たちはついに深い鉱山の中の宝を発見しました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhævɪŋ ˈjɜrnd fɔr ˈwiks wi ˈfaɪnəli dɪˈskʌvɚd ðə ˈtrɛʃɚ ɪn ðə ˈdip ˈmaɪn/</div>
+<ul class="link"></ul>
+<div class="kana">ハービング ヤーンド ファー ウィークス ウィー ファイナリー ディスカバード ザ トレジャー イン ザ ディープ マイン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The players, having <mark>yearned</mark> for the rare ore all season, could not contain their joy.</p>
+<p class="ja">全シーズン希少な鉱石を熱望していたプレイヤーたちは、喜びを抑制することができませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚz ˈhævɪŋ ˈjɜrnd fɔr ðə ˈrɛr ˈɔr ɔl ˈsizən kʊd ˈnɑt kənˈteɪn ðɛr ˈdʒɔɪ/</div>
+<ul class="link"></ul>
+<div class="kana">ザ プレイアーズ ハービング ヤーンド ファー ザ レア オア オール シーズン コッド ナット コンテイン ザイアー ジョイ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">yearning</span><span class="fl">現在分詞・動名詞</span><span class="fi">/ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span><mark>Yearning</mark> for success, the team worked together to build an enormous castle.</p>
+<p class="ja">成功を熱望して、チームは一緒に巨大な城を建てるために働きました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈjɜrnɪŋ fɔr səkˈsɛs ðə ˈtim ˈwɜrkt təˈɡɛðɚ tu ˈbɪld ən ɪˈnɔrməs ˈkæsəl/</div>
+<ul class="link"></ul>
+<div class="kana">ヤーニング ファー サクセス ザ ティーム ワーク トゥギャザー タ ビルド エン イノーマス キャッスル</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We are <mark>yearning</mark> to defeat the Ender Dragon and achieve our greatest dream.</p>
+<p class="ja">私たちはエンダードラゴンを倒して最大の夢を達成することを熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɑr ˈjɜrnɪŋ tu dɪˈfit ðə ˈɛndɚ ˈdræɡən ænd əˈtʃiv aʊɚ ˈɡreɪtəst ˈdrim/</div>
+<ul class="link"></ul>
+<div class="kana">ウィー アー ヤーニング タ ディフィート ザ エンダー ドラゴン エン アチーブ アワー グレイテスト ドリーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is yearning</span><span class="fl">現在進行形</span><span class="fi">/ɪz ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve is <mark>yearning</mark> to explore the mystical biomes beyond the mountains.</p>
+<p class="ja">スティーブは山々の向こうの神秘的なバイオームを探検することを熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈstiv ɪz ˈjɜrnɪŋ tu ɪkˈsplɔr ðə mɪˈstɪkəl ˈbaɪoʊmz bɪˈjɑnd ðə ˈmaʊntənz/</div>
+<ul class="link"><li>Steve is: Steve の末尾 /v/ が is の初頭 /ɪ/ に連結。is は弱形 /ɪz/ [ˈstiv ɪz]</li></ul>
+<div class="kana">スティーヴ イズ ヤーニング タ イクスプロア ザ ミスティカル バイオームズ ビヨンド ザ マウンテンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They are <mark>yearning</mark> for the day when they finally escape the Nether.</p>
+<p class="ja">彼らは最後にネザーから脱出できる日を熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ ɑr ˈjɜrnɪŋ fɔr ðə ˈdeɪ wɛn ðeɪ ˈfaɪnəli ɪˈskeɪp ðə ˈnɛðɚ/</div>
+<ul class="link"></ul>
+<div class="kana">ザイ アー ヤーニング フォー ザ デイ ウェン ザイ ファイナリー イスケイプ ザ ネザー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was yearning</span><span class="fl">過去進行形</span><span class="fi">/wəz ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I was <mark>yearning</mark> for diamonds while mining through the deepest caves.</p>
+<p class="ja">私は最深部の洞窟を採掘しながらダイヤモンドを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wəz ˈjɜrnɪŋ fɔr ˈdaɪməndz waɪl ˈmaɪnɪŋ θruː ðə ˈdipɪst ˈkeɪvz/</div>
+<ul class="link"></ul>
+<div class="kana">アイ ワズ ヤーニング フォー ダイモンズ ワイル マイニング スルー ザ ディーピスト ケイヴズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>yearning</mark> to build our fortress before the hostile mobs attacked.</p>
+<p class="ja">私たちは敵対的なモブが攻撃する前に要塞を建てることを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈjɜrnɪŋ tu ˈbɪld ˈaʊɚ ˈfɔrtɪs bɪˈfɔr ðə ˈhɑstəl ˈmɑbz əˈtækt/</div>
+<ul class="link"></ul>
+<div class="kana">ウィー ワー ヤーニング タ ビルド アワー フォーティス ビフォー ザ ホステル マブズ アタック</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been yearning</span><span class="fl">過去完了進行形</span><span class="fi">/həd bɪn ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The players had been <mark>yearning</mark> for a legendary sword long before they found one.</p>
+<p class="ja">プレイヤーたちは1つを見つける前からずっと伝説の剣を熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈpleɪɚz həd bɪn ˈjɜrnɪŋ fɔr ə ˈlɛdʒənˌɛri ˈsɔrd lɔŋ bɪˈfɔr ðeɪ ˈfaʊnd ˈwʌn/</div>
+<ul class="link"></ul>
+<div class="kana">ザ プレイアーズ ハド ビン ヤーニング フォー ア レジェンダリー ソード ロング ビフォー ザイ ファウンド ワン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He had been <mark>yearning</mark> to master redstone engineering for an entire year.</p>
+<p class="ja">彼は1年間ずっとレッドストーン工学を習得することを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həd bɪn ˈjɜrnɪŋ tu ˈmæstɚ ˈrɛdˌstoʊn ˌɛndʒɪˈnɪrɪŋ fɔr ən ɪnˈtaɪɚ ˈjir/</div>
+<ul class="link"></ul>
+<div class="kana">ヒー ハド ビン ヤーニング タ マスター レッドストーン エンジニアリング フォー アン インタイアー イヤー</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will yearn</span><span class="fl">単純未来形</span><span class="fi">/wɪl ˈjɜrn/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I will <mark>yearn</mark> to build our dream fortress in the Overworld.</p>
+<p class="ja">私はオーバーワールドに私たちの夢の要塞を建てることを熱望するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ wɪl ˈjɜrn tə ˈbɪld ˈaʊɚ ˈdrim ˈfɔrtrəs ɪn ðə ˈoʊvɚˌwɜrld/</div>
+<ul class="link"><li>will yearn: will の末尾 /l/ が yearn の初頭 /j/ に連結 [wɪl ˈjɜrn]</li><li>yearn to: yearn の末尾 /n/ が to の弱形 /tə/ に連結 [ˈjɜrn tə] ヤーン タ</li><li>in the: in の末尾 /n/ が the の弱形 /ðə/ に連結 [ɪn ðə] イン ザ</li><li>the Overworld: the は弱形 /ðə/、Overworld に連結 [ðə ˈoʊvɚˌwɜrld] ザ オーバーワールド</li></ul>
+<div class="kana">アイ ウィル ヤーン タ ビルド アワー ドリーム フォートレス イン ザ オーバーワールド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>yearn</mark> for the emeralds and diamonds hidden deep in the mines.</p>
+<p class="ja">彼らは鉱山の深くに隠されたエメラルドとダイヤモンドを熱望するでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl ˈjɜrn fɚ ðɪ ˌɛməˈrɑldz ənd ˈdaɪməndz ˈhɪdən ˈdip ɪn ðə ˈmaɪnz/</div>
+<ul class="link"><li>will yearn: will の末尾 /l/ が yearn の初頭 /j/ に連結 [wɪl ˈjɜrn]</li><li>for the: for が弱形 /fɚ/、the は弱形 /ðɪ/ に連結 [fɚ ðɪ] ファー ディ</li><li>in the: in の末尾 /n/ が the の弱形 /ðə/ に連結 [ɪn ðə] イン ザ</li><li>diamonds and: diamonds の末尾 /z/ が and の初頭 /ə/ に。and は弱形 /ənd/ [ˈdaɪməndz ənd] ダイモンズ アン</li></ul>
+<div class="kana">ザイ ウィル ヤーン ファー ディ エメラルズ エン ダイモンズ ヒドン ディープ イン ザ マインズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be yearning</span><span class="fl">未来進行形</span><span class="fi">/wɪl bi ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>While you battle the Wither, I will be <mark>yearning</mark> to protect you from harm.</p>
+<p class="ja">あなたがウィザーと戦っている間、私はあなたを傷から守りたいと強く願っているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwaɪl ju ˈbæɾəl ðə ˈwɪðɚ aɪ wɪl bi ˈjɜrnɪŋ tə prəˈtɛkt ju frəm ˈhɑrm/</div>
+<ul class="link"><li>will be: will の末尾 /l/ が be の初頭 /b/ に。be は弱形 /bɪ/ [wɪl bɪ] ウィル ビ</li><li>be yearning: be の末尾 /i/ が yearning /j/ に [bi ˈjɜrnɪŋ] ビー ヤーニング</li><li>to protect: to は弱形 /tə/、protect に連結 [tə prəˈtɛkt]</li><li>from harm: from が弱形 /frəm/ または /frʌm/、harm に連結 [frəm ˈhɑrm] フラム ハーム</li></ul>
+<div class="kana">ホワイル ユー バルル ザ ウィザー アイ ウィル ビ ヤーニング タ プロテクト ユー フラム ハーム</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The adventurers will be <mark>yearning</mark> to reach the End when the sun sets tonight.</p>
+<p class="ja">今夜日が沈むとき、冒険者たちはエンドに到達したいと熱望しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˌædvənˈtʃɚɚz wɪl bi ˈjɜrnɪŋ tə ˈritʃ ðiː ˈɛnd wɛn ðə ˈsʌn ˈsɛts təˈnaɪt/</div>
+<ul class="link"><li>will be: will の末尾 /l/ が be の弱形 /bɪ/ に連結 [wɪl bɪ]</li><li>be yearning: be /bi/ が yearning /j/ に [bi ˈjɜrnɪŋ]</li><li>to reach: to は弱形 /tə/、reach に連結 [tə ˈritʃ]</li><li>the End: the は弱形 /ðiː/、End に連結 [ðiː ˈɛnd] ザィー エンド</li></ul>
+<div class="kana">ザ アドベンチャラーズ ウィル ビ ヤーニング タ リーチ ザィー エンド ウェン ザ サン セッツ トゥナイト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have yearned</span><span class="fl">未来完了形</span><span class="fi">/wɪl həv ˈjɜrnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we find the stronghold, we will have <mark>yearned</mark> for it for months.</p>
+<p class="ja">要塞を見つけるまでに、私たちは数ヶ月間それを熱望しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi ˈfaɪnd ðə ˈstrɔŋˌhoʊld wi wɪl həv ˈjɜrnd fɚ ɪt fɚ ˈmʌnθz/</div>
+<ul class="link"><li>will have: will の末尾 /l/ が have の弱形 /həv/ に連結 [wɪl həv] ウィル ハヴ</li><li>have yearned: have の末尾 /v/ が yearned の初頭 /j/ に連結 [həv ˈjɜrnd] ハヴ ヤーンド</li><li>for it: for が弱形 /fɚ/、it に連結 [fɚ ɪt] ファー イット</li><li>for months: for が弱形 /fɚ/、months に連結 [fɚ ˈmʌnθz] ファー マンスズ</li></ul>
+<div class="kana">バイ ザ タイム ウィー ファインド ザ ストロングホールド ウィー ウィル ハヴ ヤーンド ファー イット ファー マンスズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>After we complete the quest, Steve will have <mark>yearned</mark> and finally achieved his greatest goal.</p>
+<p class="ja">探求を完了した後、スティーブは熱望して、ついに彼の最大の目標を達成しているでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftɚ wi kəmˈplit ðə ˈkwɛst ˈstiv wɪl həv ˈjɜrnd ənd ˈfaɪnəli əˈtʃivd hɪz ˈɡreɪtəst ˈɡoʊl/</div>
+<ul class="link"><li>will have: will の末尾 /l/ が have の弱形 /həv/ に連結 [wɪl həv]</li><li>have yearned: have の末尾 /v/ が yearned の初頭 /j/ に連結 [həv ˈjɜrnd] ハヴ ヤーンド</li><li>yearned and: yearned の末尾 /d/ が and の初頭 /ə/ に。and は弱形 /ənd/ [ˈjɜrnd ənd] ヤーンド アン</li><li>greatest goal: greatest の末尾 /t/ が goal /g/ に。未開放 /t/ に続く /g/ [ˈɡreɪtəst ˈɡoʊl] グレイテスト ゴール</li></ul>
+<div class="kana">アフター ウィー コンプリート ザ クエスト スティーヴ ウィル ハヴ ヤーンド エン ファイナリー アチーブド ヒズ グレイテスト ゴール</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has yearned</span><span class="fl">現在完了形（has/have + 過去分詞）</span><span class="fi">/həz ˈjɜrnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>He has <mark>yearned</mark> to reach the End ever since we started playing together.</p>
+<p class="ja">彼は私たちが一緒にプレイを始めて以来、エンドに到達することを熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz ˈjɜrnd tə ˈritʃ ðiː ˈɛnd ˈɛvɚ sɪns wi ˈstɑrtəd ˈpleɪɪŋ təˈɡɛðɚ/</div>
+<ul class="link"><li>has は弱形 /həz/</li><li>to reach: to は弱形 /tə/、reach に連結 [tə ˈritʃ]</li><li>reach the: reach の末尾 /tʃ/ の後に the の初頭 /ð/ が続く。the は弱形 /ðə/ [ˈritʃ ðə]</li><li>since we: since の末尾 /s/、we の初頭 /w/（子音+子音）</li></ul>
+<div class="kana">ヒー ハズ ヤーンド タ リーチ ザ エンド エバー シンス ウィー スターティッド プレイング トゥギャザー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners have <mark>yearned</mark> for deep diamonds and rare treasures all season long.</p>
+<p class="ja">採掘者たちはシーズン中ずっと、深いダイヤモンドと珍しい宝を熱望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnɚz həv ˈjɜrnd fɔr ˈdip ˈdaɪməndz ænd ˈrɛr ˈtrɛʒɚz ˈɔl ˈsizən ˈlɔŋ/</div>
+<ul class="link"><li>the miners: the は弱形 /ðə/、miners は /m/（子音）で開始。弱形 [ðə ˈmaɪnɚz]</li><li>have は弱形 /həv/</li><li>yearned for: yearned の末尾 /d/、for は弱形 /fɚ/ で開始。子音+子音 [ˈjɜrnd fɚ]</li><li>treasures all: treasures の末尾 /z/（子音）が all の初頭 /ɔ/（母音）に連結 [ˈtrɛʒɚz ˈɔl]</li></ul>
+<div class="kana">ザ マイナーズ ハヴ ヤーンド フォー ディープ ダイマンズ エン レア トレジャーズ オール シーズン ロング</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had yearned</span><span class="fl">過去完了形（had + 過去分詞）</span><span class="fi">/həd ˈjɜrnd/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we discovered the stronghold, we had <mark>yearned</mark> for it desperately.</p>
+<p class="ja">要塞を発見する頃には、私たちはそれを切実に熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə ˈtaɪm wi dɪsˈkʌvɚd ðə ˈstrɔŋˌhoʊld wi həd ˈjɜrnd fɔr ɪt ˈdɛspərətli/</div>
+<ul class="link"><li>By the: By の末尾 /aɪ/（母音）が the の初頭 /ð/（子音）に続く。the は弱形 /ðə/ [baɪ ðə]</li><li>had は弱形 /həd/</li><li>yearned for: yearned の末尾 /d/、for は弱形 /fɚ/ で開始。子音+子音 [ˈjɜrnd fɚ]</li><li>for it: for の末尾 /r/、it の初頭 /ɪ/ に連結 [fɚ ˈɪt]</li></ul>
+<div class="kana">バイ ザ タイム ウィー ディスカバード ザ ストロングホールド ウィー ハド ヤーンド フォー イット デスパラトリー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She had <mark>yearned</mark> to explore the Nether realm before the dangerous mobs appeared.</p>
+<p class="ja">危険なモブが現れる前に、彼女はネザー領域を探検することを熱望していました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi həd ˈjɜrnd tə ɪkˈsplɔr ðə ˈnɛðɚ ˈrɛlm bɪˈfɔr ðə ˈdeɪndʒərəs ˈmɑbz əˈpɪrd/</div>
+<ul class="link"><li>had は弱形 /həd/</li><li>to explore: to は弱形 /tə/、explore に連結 [tə ɪkˈsplɔr]</li><li>the Nether: the は弱形 /ðə/、Nether に連結 [ðə ˈnɛðɚ]</li><li>before the: before の末尾 /r/、the の初頭 /ð/（子音+子音）[bɪˈfɔr ðə]</li></ul>
+<div class="kana">シー ハド ヤーンド タ イクスプロア ザ ネザー レルム ビフォア ザ デインジャラス モブズ アピアード</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been yearning</span><span class="fl">現在完了進行形（has/have been + -ing）</span><span class="fi">/həz bɪn ˈjɜrnɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>I have been <mark>yearning</mark> to find the legendary loot ever since I joined the server.</p>
+<p class="ja">サーバーに参加して以来、私は伝説的な戦利品を見つけることを熱望し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həv bɪn ˈjɜrnɪŋ tə ˈfaɪnd ðə ˈlɛdʒəndˌɛri ˈlut ˈɛvɚ sɪns aɪ ˈdʒɔɪnd ðə ˈsɜrvɚ/</div>
+<ul class="link"><li>have は弱形 /həv/、been は弱形 /bɪn/ で開始。子音+子音 [həv bɪn]</li><li>been yearning: been の末尾 /n/、yearning の初頭 /j/（子音+子音）[bɪn ˈjɜrnɪŋ]</li><li>to find: to は弱形 /tə/、find に連結 [tə ˈfaɪnd]</li><li>the legendary: the は弱形 /ðə/、legendary に連結 [ðə ˈlɛdʒəndˌɛri]</li></ul>
+<div class="kana">アイ ハヴ ビン ヤーニング タ ファインド ザ レジェンダリー ルート エバー シンス アイ ジョインド ザ サーバー</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The builders have been <mark>yearning</mark> for creative freedom and unlimited blocks throughout the year.</p>
+<p class="ja">ビルダーたちは一年中、創造的な自由と無限のブロックを熱望し続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈbɪldɚz həv bɪn ˈjɜrnɪŋ fɔr kriːˈeɪtɪv ˈfridəm ænd ənˈlɪmɪtɪd ˈblɑks θruːˈaʊt ðə ˈjɪr/</div>
+<ul class="link"><li>the builders: the は弱形 /ðə/、builders に連結 [ðə ˈbɪldɚz]</li><li>have been: have は弱形 /həv/、been は弱形 /bɪn/（子音+子音）[həv bɪn]</li><li>been yearning: been の末尾 /n/、yearning の初頭 /j/（子音+子音）[bɪn ˈjɜrnɪŋ]</li><li>yearning for: yearning の末尾 /ŋ/、for は弱形 /fɚ/ で開始。子音+子音 [ˈjɜrnɪŋ fɚ]</li></ul>
+<div class="kana">ザ ビルダーズ ハヴ ビン ヤーニング フォー クリエイティヴ フリーダム エン アンリミティッド ブラックス スルーアウト ザ イアー</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">yearn for</span><span class="im">～を熱く望む、～に強い憧れを持つ</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We all <mark>yearn</mark> for a safe place away from monsters.</p>
+<p class="ja">僕たちはみな、モンスターから離れた安全な場所を切に望んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi ɔl ˈjɝn fɔr ə ˈseɪf pleɪs əˈweɪ frəm ˈmɑnstərz/</div>
+<ul class="link"><li>for a で語末の /r/ が次の /ə/ に連結</li><li>away from で語末の /eɪ/ が次の /f/ に続く</li><li>from monsters で語末の /m/ が次の /m/ に続く</li></ul>
+<div class="kana">ウィ オール ヤーン フォア セイフ プレイス アウェイ フラム モンスターズ</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">yearn to</span><span class="im">～することを熱く望む、～したくてたまらない</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I <mark>yearn</mark> to escape this burning forest before sunset.</p>
+<p class="ja">私は日没前にこの燃え盛る森から逃げ出したくてたまりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ ˈjɝn tə ɪsˈkeɪp ðɪs ˈbɝnɪŋ ˈfɔrɪst bɪˈfɔr ˈsʌnset/</div>
+<ul class="link"><li>to escape で to が弱形 /tə/ に弱化、/s/ に続く</li><li>this burning で語末の /s/ が /b/ に連結</li><li>burning forest で語末の /ŋ/ が次の /f/ に続く</li><li>before sunset で be- が弱形 /bɪ/、語末の /r/ が /s/ に続く</li></ul>
+<div class="kana">アイ ヤーン タ イスケイプ ディス バーニング フォリスト ビフォア サンセット</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">yearn after</span><span class="im">～を熱望する（より古風な表現）</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>He <mark>yearns</mark> after adventure in the Nether realm.</p>
+<p class="ja">彼はネザー領域での冒険を切望しています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_idiom3.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_idiom3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi ˈjɝnz ˈæftər ədˈvɛntʃər ɪn ðə ˈnɛðər ˈrelm/</div>
+<ul class="link"><li>after adventure で語末の /r/ が次の /ə/ に連結</li><li>in the で語末の /n/ が次の /ðə/ に続く</li><li>the Nether で /ð/ が /n/ に続く</li></ul>
+<div class="kana">ヒー ヤーンズ アフター アドベンチャー イン ザ ネザー レルム</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">yearn for ～</span><span class="im">~を恋しがる、~にあこがれる</span><span class="tagbadge">ターゲット1000 #849</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The player <mark>yearned</mark> for diamonds.</p>
+<p class="ja">プレイヤーはダイヤモンドを恋しがった。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/yearn_idiom4.mp3"></audio><audio class="slow" preload="none" src="../../audio/yearn_idiom4_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈpleɪɚ ˈjɝnd̚ fɚ ˈdaɪmɚndz]</div>
+<ul class="link"><li>The player → 冠詞 &quot;the&quot; は子音の前で weak form /ðə/ に減弱、母音が schwa に [ðə ˈpleɪɚ] ザ プレイヤー</li><li>yearned for → 語末の /d/ が次の /f/ の前で未開放 (unreleased) [ˈjɝnd̚ fɚ] ヤーンド ファー</li><li>for diamonds → 機能詞 &quot;for&quot; は weak form /fɚ/ に減弱、母音が schwa に [fɚ ˈdaɪmɚndz] ファー ダイマーンズ</li></ul>
+<div class="kana">ザ プレイヤー ヤーンド ファー ダイマーンズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="yearn";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

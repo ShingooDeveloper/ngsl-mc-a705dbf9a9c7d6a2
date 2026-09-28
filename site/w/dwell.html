@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>dwell — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>dwell</h2><span class="pos">動詞</span><span class="ipa-head">/dwɛl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">ターゲット1000 #863</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【動詞】住む、居住する。ある場所に長期間滞在する。（reside, inhabit）</li><li>【動詞】心を留める、思い巡らす。～について深く考え続ける。（dwell on/upon）</li><li>【動詞】（文語的）ある状態に留まる、とどまる</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Miners <mark>dwell</mark> in the caves looking for ore.</p>
+<p class="ja">鉱夫たちは鉱石を探すため洞窟に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmaɪnɚz dwɛl ɪn ðə keɪvz ˈlʊkɪŋ fɔr ɔr/</div>
+<ul class="link"><li>dwell in：語末子音 /l/ が母音 /ɪ/ に連結 [dwɛlɪn]</li><li>the は冠詞で弱形 /ðə/ に弱化。caves の初頭 /k/ と別音 [ðə keɪvz]</li><li>for ore：for の末尾 /r/ が ore の初頭 /ɔ/ に連結 [fɔrɔr]フォーオー</li></ul>
+<div class="kana">マイナーズ ドゥエリン ザ ケイブズ ルッキング フォーオー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Don't <mark>dwell</mark> on that creeper explosion—just rebuild!</p>
+<p class="ja">あのクリーパー爆発のことをくよくよ考えるな。もう一度作ろう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/doʊnt dwɛl ɑn ðæt ˈkripɚ ɪkˈsploʊʒən dʒʌst rɪˈbɪld/</div>
+<ul class="link"><li>dwell on：語末子音 /l/ が母音 /ɑ/ に連結 [dwɛlɑn]</li><li>on that：on の末尾 /n/ が that の初頭 /ð/ と別音。that の /t/ は未開放 [ðæt̚]</li></ul>
+<div class="kana">ドウント ドゥエラン ザッ クリーパー イクスプロウジョン ジャスト リビルド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We <mark>dwell</mark> together in this underground fortress.</p>
+<p class="ja">私たちはこの地下要塞に一緒に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dwɛl təˈɡɛðɚ ɪn ðɪs ʌndɚˈɡraʊnd ˈfɔrts/</div>
+<ul class="link"><li>dwell together：dwell の末尾 /l/ が together の初頭 /t/。両者とも子音なので連結しない [dwɛl təˈɡɛðɚ]</li><li>together in：together の末尾 /r/ が in の初頭 /ɪ/ に連結 [ðɚɪn]ザーイン</li><li>this は語頭がクリアだが、underground の末尾 /d/ は未開放 [ʌndɚˈɡraʊnd̚]</li></ul>
+<div class="kana">ウィ ドゥエル タゥゲザー インディス アンダーグラウンド フォーツ</div>
+</article>
+<h3 class="sec">🔤 活用形・複数形</h3>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dwells</span><span class="fl">三人称単数現在形</span><span class="fi">/dwɛlz/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_3rd_person_singular.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The enderman <mark>dwells</mark> in darkness.</p>
+<p class="ja">エンダーマンは暗闇の中に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_3rd_person_singular_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_3rd_person_singular_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈɛndɚmæn dwɛlz ɪn ˈdɑrknəs/</div>
+<ul class="link"><li>dwells in: dwells末尾/z/が in初頭/ɪ/に連結 [dwɛlzɪn]</li><li>in darkness: in末尾/n/が darkness初頭/d/。両子音なので別音 [ɪn ˈdɑrknəs]</li></ul>
+<div class="kana">ザ エンダーマン ドゥエルズイン ダークネス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>My friend <mark>dwells</mark> among creepers.</p>
+<p class="ja">私の友達はクリーパーの中に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_3rd_person_singular_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_3rd_person_singular_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/maɪ ˈfrɛnd dwɛlz əˈmʌŋ ˈkripɚz/</div>
+<ul class="link"><li>dwells among: dwells末尾/z/が among初頭/ə/に連結 [dwɛlzəˈmʌŋ]</li><li>among creepers: among末尾/ŋ/が creepers初頭/k/。鼻音なので別音 [əˈmʌŋ ˈkripɚz]</li></ul>
+<div class="kana">マイ フレンド ドゥエルザマング クリーパーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dwelt</span><span class="fl">過去形</span><span class="fi">/dwɛlt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_past_tense.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We dwelt in that cave for weeks.</p>
+<p class="ja">私たちはその洞窟に何週間も住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_tense_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_tense_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi dwɛlt ɪn ðæt keɪv fɔr wiks/</div>
+<ul class="link"><li>dwelt in: dwelt末尾/t/が in初頭/ɪ/に連結。フラップT [dwɛɾɪn]</li><li>that cave: that末尾/t/が cave初頭/k/。両子音なので別音 [ðæt̚ keɪv]</li></ul>
+<div class="kana">ウィ ドゥエリン ザッ ケイブ フォー ウィークス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>They dwelt among the mob spawners.</p>
+<p class="ja">彼らはモブスポーナーの中に住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_tense_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_tense_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ dwɛlt əˈmʌŋ ðə ˈmɑb ˈspɔnɚz/</div>
+<ul class="link"><li>dwelt among: dwelt末尾/t/が among初頭/ə/に連結。フラップT [dwɛɾəˈmʌŋ]</li><li>mob spawners: mob末尾/b/が spawners初頭/s/。両子音なので別音 [mɑb ˈspɔnɚz]</li></ul>
+<div class="kana">ザイ ドゥエラマング ザ モブ スポーナーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dwelt</span><span class="fl">過去分詞</span><span class="fi">/dwɛlt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_past_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Having dwelt in underground bases, we know safety.</p>
+<p class="ja">地下基地に長く住んだことがあるので、私たちは安全を知っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈhæving dwɛlt ɪn ˌʌndɚˈɡraʊnd ˈbeɪsəz wi noʊ ˈseɪfti/</div>
+<ul class="link"><li>dwelt in: dwelt末尾/t/が in初頭/ɪ/に連結。フラップT [dwɛɾɪn]</li><li>bases we: bases末尾/z/が we初頭/w/。両子音なので別音 [ˈbeɪsəz wi]</li></ul>
+<div class="kana">ハヴィング ドゥエリン アンダーグラウンド ベイシズ ウィ ノウ セイフティ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Once we had dwelt in those caverns, we never left.</p>
+<p class="ja">その洞窟に住んだことがあれば、私たちは決してそこを去りませんでした。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈwʌns wi hæd dwɛlt ɪn ðoʊz ˈkævɚnz wi ˈnɛvɚ ˈlɛft/</div>
+<ul class="link"><li>had dwelt: had末尾/d/が dwelt初頭/d/。両子音なので別音 [hæd dwɛlt]</li><li>dwelt in: dwelt末尾/t/が in初頭/ɪ/に連結。フラップT [dwɛɾɪn]</li><li>never left: never末尾/r/が left初頭/l/。両子音なので別音 [ˈnɛvɚ ˈlɛft]</li></ul>
+<div class="kana">ワンス ウィ ハッ ドゥエリン ゾウズ キャヴァーンズ ウィ ネバー レフト</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">dwelling</span><span class="fl">現在分詞</span><span class="fi">/ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_present_participle.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Mobs <mark>dwelling</mark> in caves cause problems.</p>
+<p class="ja">洞窟に住むモブは問題を引き起こします。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_participle_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_participle_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈmoʊbz ˈdwɛlɪŋ ɪn ˈkeɪvz ˈkɔz ˈpɹɑbləmz/</div>
+<ul class="link"><li>dwelling in: dwelling末尾/ŋ/が in初頭/ɪ/。鼻音なので別音 [ˈdwɛlɪŋ ɪn]</li><li>in caves: in末尾/n/が caves初頭/k/。両子音なので別音 [ɪn ˈkeɪvz]</li></ul>
+<div class="kana">モウブズ ドゥエリング イン ケイブズ コーズ プロブレムズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players <mark>dwelling</mark> underground face many dangers.</p>
+<p class="ja">地下に住むプレイヤーは多くの危険に直面します。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_participle_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_participle_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪɚz ˈdwɛlɪŋ ˌʌndɚˈɡraʊnd feɪs ˈmɛni ˈdeɪndʒɚz/</div>
+<ul class="link"><li>dwelling underground: dwelling末尾/ŋ/が underground初頭/ʌ/。鼻音なので別音 [ˈdwɛlɪŋ ˌʌndɚˈɡraʊnd]</li><li>underground face: underground末尾/d/が face初頭/f/。両子音なので別音 [ˌʌndɚˈɡraʊnd̚ feɪs]</li></ul>
+<div class="kana">プレイヤーズ ドゥエリング アンダーグラウンド フェイス メニー デンジャーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">is dwelling</span><span class="fl">現在進行形（am/is/are + -ing）</span><span class="fi">/ɪz ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_present_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Steve is <mark>dwelling</mark> in a woodland cottage.</p>
+<p class="ja">スティーブは森林の小屋に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stiːv ɪz ˈdwɛlɪŋ ɪn ə ˈwʊdlənd ˈkɑtɪdʒ/</div>
+<ul class="link"><li>is は助動詞で弱形 /ɪz/</li><li>in a の連結：in の末尾 /n/ が a の初頭 /ə/ に連結 [ɪnə]</li></ul>
+<div class="kana">スティーヴ イズ ドゥエリング イナ ウッドランド コッティジ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>The miners are <mark>dwelling</mark> deep underground.</p>
+<p class="ja">鉱夫たちは深い地下に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈmaɪnɚz ɚ ˈdwɛlɪŋ dip ʌndɚˈɡraʊnd/</div>
+<ul class="link"><li>are は助動詞で弱形 /ɚ/</li><li>the は冠詞で弱形 /ðə/</li></ul>
+<div class="kana">ザ マイナーズ アー ドゥエリング ディープ アンダーグラウンド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">was dwelling</span><span class="fl">過去進行形（was/were + -ing）</span><span class="fi">/wəz ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_past_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>The hermit was <mark>dwelling</mark> in a cave when the storm arrived.</p>
+<p class="ja">隠者は嵐が到着したときに洞窟に住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈhɝmɪt wəz ˈdwɛlɪŋ ɪn ə keɪv wɛn ðə stɔrm əˈraɪvd/</div>
+<ul class="link"><li>was は助動詞で弱形 /wəz/</li><li>in a の連結：in の末尾 /n/ が a の初頭 /ə/ に連結 [ɪnə]</li><li>the は冠詞で弱形 /ðə/（×2）</li></ul>
+<div class="kana">ザ ハーミット ワズ ドゥエリング イナ ケイヴ ウェン ザ ストーム アライヴド</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>We were <mark>dwelling</mark> peacefully before the Enderman visited.</p>
+<p class="ja">エンダーマンが訪れる前に私たちは平和に住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi wɚ ˈdwɛlɪŋ ˈpiːsfəli bɪˈfɔr ðə ˈɛndɚmæn ˈvɪzɪtəd/</div>
+<ul class="link"><li>were は助動詞で弱形 /wɚ/</li><li>the は冠詞で弱形 /ðə/</li></ul>
+<div class="kana">ウィ ウアー ドゥエリング ピースフリー ビフォア ザ エンダーマン ビジテッド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had been dwelling</span><span class="fl">過去完了進行形（had been + -ing）</span><span class="fi">/həd bɪn ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had been <mark>dwelling</mark> in that fortress for three seasons.</p>
+<p class="ja">彼らはその要塞に3シーズン住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd bɪn ˈdwɛlɪŋ ɪn ðæt̚ ˈfɔrtəs fɚ θri ˈsizənz/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/</li><li>been は助動詞で弱形 /bɪn/</li><li>for は前置詞で弱形 /fɚ/</li><li>that の /t/ は未開放 [ðæt̚]</li></ul>
+<div class="kana">ザイ ハド ビン ドゥエリング イン ザッ フォーテス フォー スリー シーズンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>I had been <mark>dwelling</mark> on the riddle all week.</p>
+<p class="ja">私は一週間ずっとそのなぞについて考えていました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪ həd bɪn ˈdwɛlɪŋ ɑn ðə ˈrɪdəl ɔl wik/</div>
+<ul class="link"><li>had は助動詞で弱形 /həd/</li><li>been は助動詞で弱形 /bɪn/</li><li>dwelling on：-ing は鼻音で終わる [ˈdwɛlɪŋ ɑn]</li><li>the は冠詞で弱形 /ðə/</li></ul>
+<div class="kana">アイ ハド ビン ドゥエリング オン ザ リドゥル オール ウィーク</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will dwell</span><span class="fl">単純未来形（will + 動詞原形）</span><span class="fi">/wɪl dwɛl/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_future.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They will <mark>dwell</mark> in the mountains until spring arrives.</p>
+<p class="ja">彼らは春が来るまで山に住むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ wɪl dwɛl ɪn ðə ˈmaʊntənz ənˈtɪl sprɪŋ əˈraɪvz/</div>
+<ul class="link"><li>will は助動詞で弱形 /wəl/ に弱化し dwell の /d/ に子音+子音で続く [wəl dwɛl]</li><li>dwell の語末 /l/ が in の /ɪ/ に連結 [dwɛlɪn]</li><li>until の語末 /l/ が spring の /s/ に未開放で続く [ənˈtɪl̚ sprɪŋ]</li></ul>
+<div class="kana">ザ ウル ドゥエリン ザ マウンテンズ アンティル スプリング アライヴズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>You will <mark>dwell</mark> safely here once you've gathered enough resources.</p>
+<p class="ja">十分なリソースを集めたら、ここに安全に住むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ju wɪl dwɛl ˈseɪfli hɪr wʌns juv ˈɡæðərd ɪˈnʌf ˈrɛsɔrsɪz/</div>
+<ul class="link"><li>will は助動詞で弱形 /wəl/ に弱化し dwell の /d/ に子音+子音で続く [wəl dwɛl]</li><li>gathered の語末 /d/ が enough の /ɪ/ に連結 [ˈɡæðərd ɪˈnʌf]</li></ul>
+<div class="kana">ユー ウル ドゥエル セイフリー ヒア ワンス ユーヴ ガザード イナフ レソーシーズ</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will be dwelling</span><span class="fl">未来進行形（will be + -ing）</span><span class="fi">/wɪl bi ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_future_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>Next month, we will be <mark>dwelling</mark> in the new underground fortress.</p>
+<p class="ja">来月、私たちは新しい地下要塞に住むでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈnɛkst mʌnθ wi wɪl bi ˈdwɛlɪŋ ɪn ðə nu ʌndɚˈɡraʊnd ˈfɔrts/</div>
+<ul class="link"><li>will は弱形 /wəl/ に弱化し be の /b/ に子音+子音で続く [wəl bi]</li><li>the は冠詞で弱形 /ðə/ に弱化し underground の /ʌ/ に続く [ðə ʌndɚˈɡraʊnd]</li></ul>
+<div class="kana">ネクスト マンス ウィ ウル ビー ドゥエリング イン ザ ニュー アンダーグラウンド フォーツ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>While you're training, I'll be <mark>dwelling</mark> in the peaceful meadow biome.</p>
+<p class="ja">あなたが訓練している間、私は平和な草原バイオームに住んでいるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/waɪl jɔr ˈtreɪnɪŋ aɪl bi ˈdwɛlɪŋ ɪn ðə ˈpisfəl ˈmɛdoʊ baɪˈoʊm/</div>
+<ul class="link"><li>I'll は I + will の縮約で /aɪl/ となり be の /b/ に子音+子音で続く [aɪl bi]</li><li>peaceful の語末 /l/ が meadow の /m/ に子音+子音で続く（連結なし）[ˈpisfəl ˈmɛdoʊ]</li></ul>
+<div class="kana">ワイル ヨー トレイニング アイル ビー ドゥエリング イン ザ ピースフル メドウ バイオーム</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">will have dwelt</span><span class="fl">未来完了形（will have + 過去分詞）</span><span class="fi">/wɪl həv dwɛlt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_future_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>By next week, they will have dwelt in this cave for an entire month.</p>
+<p class="ja">来週までに、彼らはこの洞窟に丸一ヶ月間住むことになるでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ˈnɛkst wik ðeɪ wɪl həv dwɛlt ɪn ðɪs keɪv fɔr ən ɪnˈtaɪɚ mʌnθ/</div>
+<ul class="link"><li>will は弱形 /wəl/ に、have も弱形 /həv/ に弱化 [wəl həv]</li><li>dwelt の語末 /t/ が in の /ɪ/ に連結 [dwɛltɪn]</li></ul>
+<div class="kana">バイ ネクスト ウィーク ザ ウル ハヴ ドゥエルティン ディス ケイヴ フォー アン インタイア マンス</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>She will have dwelt in the Nether for three seasons before returning to the Overworld.</p>
+<p class="ja">彼女はネザーに3シーズン住んでから、オーバーワールドに戻るでしょう。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_future_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_future_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ʃi wɪl həv dwɛlt ɪn ðə ˈnɛðɚ fɔr θri ˈsizənz bɪˈfɔr rɪˈtɝnɪŋ tu ðə ˈoʊvɚwɝld/</div>
+<ul class="link"><li>will は弱形 /wəl/ に、have も弱形 /həv/ に弱化 [wəl həv]</li><li>to は機能語で弱形 /tə/ に弱化し Overworld の /o/ に続く [tə ˈoʊvɚwɝld]</li></ul>
+<div class="kana">シー ウル ハヴ ドゥエルティン ザ ネザー フォー スリー シーズンズ ビフォア リターニング トゥ ザ オーヴァーワールド</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has dwelt</span><span class="fl">現在完了形</span><span class="fi">/həz dwɛlt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have dwelt here in peace since the settlement began.</p>
+<p class="ja">私たちはこの入植が始まってからずっとここで平和に住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv dwɛlt hɪr ɪn pis sɪns ðə ˈsɛtəlmənt bɪˈɡæn/</div>
+<ul class="link"><li>have dwelt：have は助動詞で弱形 /həv/ に弱化。/v/ と /d/ は子音が続くので連結なし [həv dwɛlt]</li><li>here in：here の語末子音 /r/ が in の母音 /ɪ/ に連結 [hɪrɪn]</li><li>since the：the は冠詞で弱形 /ðə/ に弱化</li></ul>
+<div class="kana">ウィ ハヴ ドゥエルト ヒアリン ピース シンス ザ セットルメント ビガン</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>Players have dwelt in underground bases for the entire season.</p>
+<p class="ja">プレイヤーたちはシーズン全体、地下ベースに住んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈpleɪərz həv dwɛlt ɪn ˌʌndɚˈɡraʊnd ˈbeɪsɪz fɔr ðə ənˈtaɪr ˈsizən/</div>
+<ul class="link"><li>have dwelt：have は弱形 /həv/、/v/ と /d/ は子音が続くので連結なし</li><li>dwelt in：dwelt の語末子音 /t/ が in の母音 /ɪ/ に連結し、フラップ化 [dwɛɾɪn]</li><li>for the：for は機能語で弱形 /fɚ/、the は弱形 /ðə/</li></ul>
+<div class="kana">プレイヤーズ ハヴ ドゥエリン アンダーグラウンド ベーシーズ ファー ザ エンタイアー シーズン</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">had dwelt</span><span class="fl">過去完了形</span><span class="fi">/həd dwɛlt/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>They had dwelt in the Nether fortress before it was destroyed by explosions.</p>
+<p class="ja">爆発で破壊される前に、彼らはネザー要塞に住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_perfect_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðeɪ həd dwɛlt ɪn ðə ˈnɛðər ˈfɔrtrəs bɪˈfɔr ɪt wəz dɪˈstrɔɪd baɪ ɪkˈsploʊʒənz/</div>
+<ul class="link"><li>had dwelt：had は弱形 /həd/、末尾の /d/ と dwelt の /d/ は子音が続くため続接</li><li>dwelt in：dwelt の語末子音 /t/ が in の母音 /ɪ/ に連結し、フラップ化 [dwɛɾɪn]</li><li>before it：before の語末子音 /r/ が it の母音 /ɪ/ に連結 [bɪfɔrɪt]</li></ul>
+<div class="kana">ザイ ハド ドゥエリン ザ ネザー フォートレス ビフォーリット ワズ ディストロイド バイ イクスプロージョンズ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>By the time we arrived, our teammates had dwelt alone in the mountains for weeks.</p>
+<p class="ja">私たちが到着した時には、チームメイトはもう何週間も山に一人で住んでいました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_past_perfect_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_past_perfect_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/baɪ ðə taɪm wi əˈraɪvd aʊɚ ˈtimmeɪts həd dwɛlt əˈloʊn ɪn ðə ˈmaʊntənz fɔr wiks/</div>
+<ul class="link"><li>had dwelt：had は弱形 /həd/</li><li>dwelt alone：dwelt の語末子音 /t/ が alone の母音 /ə/ に連結し、フラップ化 [dwɛɾəˈloʊn]</li><li>alone in：alone の語末子音 /n/ が in の母音 /ɪ/ に連結</li></ul>
+<div class="kana">バイ ザ タイム ウィ アライフド アワー ティームメイツ ハド ドゥエラアロウニン ザ マウンテンズ ファー ウィークス</div>
+</article>
+</div>
+<div class="formgroup">
+<div class="formhead"><span class="ft">has been dwelling</span><span class="fl">現在完了進行形</span><span class="fi">/həz bɪn ˈdwɛlɪŋ/</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect_progressive.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+<article class="ex">
+<p class="en"><span class="num"></span>We have been <mark>dwelling</mark> in this underground base for several months now.</p>
+<p class="ja">私たちは今、この地下ベースに数ヶ月もずっと住み続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect_progressive_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_perfect_progressive_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi həv bɪn ˈdwɛlɪŋ ɪn ðɪs ˌʌndɚˈɡraʊnd ˈbeɪs fɔr ˈsɛvrəl mʌnθz naʊ/</div>
+<ul class="link"><li>have been：have は弱形 /həv/、been も弱形 /bɪn/、/v/ と /b/ は子音が続くので連結なし</li><li>been dwelling：been の語末 /n/ と dwelling の /d/ は両子音のため連結なし</li><li>dwelling in：-ing は /ŋ/ で終わるため別音</li></ul>
+<div class="kana">ウィ ハヴ ビン ドゥエリング イン ディス アンダーグラウンド ベース ファー セブラル マンスズ ナウ</div>
+</article>
+<article class="ex">
+<p class="en"><span class="num"></span>He has been <mark>dwelling</mark> peacefully among the villagers since the realm opened.</p>
+<p class="ja">彼はレルムが開いてからずっと、村人たちの中で平和に住み続けています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_form_present_perfect_progressive_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_form_present_perfect_progressive_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/hi həz bɪn ˈdwɛlɪŋ ˈpisəfəli əˈmʌŋ ðə ˈvɪlɪdʒərz sɪns ðə ˈrɛlm ˈoʊpənd/</div>
+<ul class="link"><li>has been：has は弱形 /həz/、been も弱形 /bɪn/、/z/ と /b/ は子音が続くので連結なし</li><li>been dwelling：been の語末 /n/ と dwelling の /d/ は両子音のため連結なし</li><li>since the：the は弱形 /ðə/</li></ul>
+<div class="kana">ヒー ハズ ビン ドゥエリング ピースフリー アマング ザ ビレッジャーズ シンス ザ レルム オウペンド</div>
+</article>
+</div>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">dwell on/upon ~</span><span class="im">～について思い巡らす、くよくよ考える、～に心を留める</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Stop <mark>dwelling</mark> on past losses and focus on your new base.</p>
+<p class="ja">過去の喪失のことをくよくよ考えるのをやめて、新しい拠点に集中しろ。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/stɑp ˈdwɛlɪŋ ɑn pæst ˈlɔsɪz ænd ˈfoʊkəs ɑn jɔr nu ˈbeɪs/</div>
+<ul class="link"><li>dwelling on：dwell が -ing 形で /ɪŋ/ となり、on の /ɑ/ と別音。-ing は鼻音で終わる [ˈdwɛlɪŋ ɑn]</li><li>on past：on の末尾 /n/ が past の初頭 /p/。両子音なので連結しない [ɑn pæst]</li><li>past losses：past の末尾 /t/ が未開放。losses の初頭 /l/ に別音 [pæst̚ ˈlɔsɪz]</li></ul>
+<div class="kana">ストップ ドゥエリング アン ペースト ロッシーズ アンド フォウカス アン ヨー ニュー ベイス</div>
+</article>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">dwell on/upon ～</span><span class="im">～について詳しく考える、～に思い悩む</span><span class="tagbadge">ターゲット1000 #863</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm <mark>dwelling</mark> on armor options for dangerous adventures.</p>
+<p class="ja">危険な冒険に備えてアーマーの選択肢について今考え込んでいます。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dwell_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dwell_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪm ˈdwɛlɪŋ ɑn ˈɑɹmɚ ˈɑpʃənz fɚ ˈdeɪndʒərəs ədˈvɛntʃɚz]</div>
+<ul class="link"><li>dwelling on → 語末子音 /ŋ/ が母音 /ɑ/ に連結 [ˈdwɛlɪŋ ɑn] ドゥエリング オン</li><li>on armor → 語末子音 /n/ が母音 /ɑ/ に連結 [ɑn ˈɑɹmɚ] オン アルマア</li><li>for → 機能語は弱形 /fɚ/ に弱化 [fɚ] ファー</li></ul>
+<div class="kana">アイム ドゥエリング オン アルマア オプションズ ファー ダンジャラス アドベンチャーズ</div>
+</article>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="dwell";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
