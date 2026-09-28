@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>terminal — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>terminal</h2><span class="pos">名詞・形容詞</span><span class="ipa-head">/ˈtɜːrmɪnəl/</span><span class="lvl">CEFR B1</span><span class="tagbadge">英検準2級 #1334</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/terminal.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】終点、駅舎（…a station where buses or trains end their route）。</li><li>【名詞】末端、最後（…the end or final point of something）。</li><li>【名詞】コンピュータ用語。端末、ターミナル（…a device used to send and receive data in a computer network）。</li><li>【形容詞】終末的な、最終的な（…of or relating to the end）。</li><li>【形容詞】致命的な、末期の医学用語（…relating to or causing death）。</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>After mining obsidian for an hour, I finally reached the nether <mark>terminal</mark> where my base is located.</p>
+<p class="ja">1時間黒曜石を採掘した後、自分の基地がある下界のターミナルに到着した。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/terminal_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/terminal_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈæftər ˈmaɪnɪŋ əbˈsɪdiən fər ən ˈaʊər aɪ ˈfaɪnəli ˈriːtʃt ðə ˈnɛðər ˈtɜːrmɪnəl wɛr maɪ ˈbeɪs ɪz ləˈkeɪtəd/</div>
+<ul class="link"><li>mining obsidian → ŋ が /ə/ に連結。語末鼻音から次の母音への自然な連結 [maɪnɪŋ əbˈsɪdiən] マイニング アブシディアン</li><li>an hour → /n/ が /aʊ/ に連結。hour 頭の母音と自然に連なる [ən ˈaʊər] アン アウアー</li><li>finally reached → /ɪ/ が /r/ に連結 [ˈfaɪnəli ˈriːtʃt] ファイナリー リーチット</li><li>terminal where → 語末 l が /w/ に先行する。弱い連結 [ˈtɜːrmɪnəl wɛr] ターミナル ウェア</li></ul>
+<div class="kana">アフター マイニング アブシディアン フォー アン アウアー アイ ファイナリー リーチット ザ ネザー ターミナル ウェア マイ ベース イズ ロケイティド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The <mark>terminal</mark> velocity of a falling block is reached when it hits the ground.</p>
+<p class="ja">落下ブロックが地面に衝突するときに終末速度に達する。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/terminal_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/terminal_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðə ˈtɜːrmɪnəl vəˈlɑsəti əv ə ˈfɔlɪŋ blɑk ɪz ˈritʃt wɛn ɪt hɪts ðə ˈɡraʊnd/</div>
+<ul class="link"><li>the terminal → th /ðə/ は弱形。l の語末が母音に連なる [ðə ˈtɜːrmɪnəl] ザ ターミナル</li><li>of a → /v/ が母音 /ə/ に連結し弱形 [əv ə] アヴ ア</li><li>a falling → /ə/ が /f/ に先行 [ə ˈfɔlɪŋ] ア フォーリング</li><li>it hits → /t/ が /h/ に先行し、t は未開放 [ɪt hɪts] イット ヒッツ</li></ul>
+<div class="kana">ザ ターミナル ベロシティ アヴ ア フォーリング ブロック イズ リッチット ウェン イット ヒッツ ザ グラウンド</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This server <mark>terminal</mark> is essential for managing redstone contraptions and storing data.</p>
+<p class="ja">このサーバーターミナルはレッドストーン装置を管理しデータを保存するために必須である。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/terminal_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/terminal_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈsɜrvər ˈtɜːrmɪnəl ɪz ɪˈsɛnʃəl fər ˈmænɪdʒɪŋ ˈrɛdˌstoʊn kənˈtræpʃənz ənd ˈstɔrɪŋ ˈdeɪtə/</div>
+<ul class="link"><li>server terminal → /r/ が母音に連結。l が母音に先行 [ˈsɜrvər ˈtɜːrmɪnəl] サーバー ターミナル</li><li>essential for → l が /f/ に先行。for は弱形 /fər/ [ɪˈsɛnʃəl fər] イセンシャル ファー</li><li>managing redstone → ŋ が /r/ に連結 [ˈmænɪdʒɪŋ ˈrɛdˌstoʊn] マネッジング レッドストーン</li><li>and storing → /d/ が /s/ に先行する [ənd ˈstɔrɪŋ] アン ストーリング</li></ul>
+<div class="kana">ディス サーバー ターミナル イズ イセンシャル ファー マネッジング レッドストーン コントラプションズ アン ストーリング デイタ</div>
+</article>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">terminal case</span><span class="im">末期症状、回復不可能な状態</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>After the creeper explosion destroyed half my base, it seemed like a <mark>terminal</mark> case, but I managed to rebuild everything.</p>
+<p class="ja">クリーパーの爆発でベースの半分が破壊された後、末期症状のように思えたが、何とかすべてを再建することができた。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/terminal_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/terminal_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ˈtɜːrmɪnəl ˈkeɪs/</div>
+<ul class="link"><li>terminal case → l が次の語に連結する [ˈtɜːrmɪnəl ˈkeɪs] ターミナル ケース</li></ul>
+<div class="kana">ターミナル ケース</div>
+</article>
+<a class="backlink" href="../i/terminal_idiom1.html" style="font-size:.78rem">🔗 この熟語の個別ページ（熟語帳）</a>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="terminal";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
