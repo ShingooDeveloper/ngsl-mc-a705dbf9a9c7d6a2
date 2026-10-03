@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>blueprint — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#2563eb">
+<div class="wordhead"><h2>blueprint</h2><span class="pos">名詞</span><span class="ipa-head">/ˈbluːprɪnt/</span><span class="lvl">CEFR B1</span><span class="tagbadge">英検準1級 #998</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/blueprint.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】建築物や機械の詳細な設計図、技術図面（take a blueprint of ...）</li><li>【名詞】何かを成功させるための計画や方法、テンプレート（be a blueprint for ...）</li><li>【名詞】設計図、青焼き（建築・工学の分野で）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I'm following this <mark>blueprint</mark> to build the house exactly.</p>
+<p class="ja">この設計図に従って、その家を正確に建てています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blueprint_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blueprint_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/aɪm ˈfɑloʊɪŋ ðɪs ˈbluːprɪnt tə bɪld ðə ˈhaʊs ɪˈɡzæktli/</div>
+<ul class="link"><li>blueprint to - 語末の /t/ が母音 /ə/ に連結、to は弱形 /tə/ [prɪn̚ tə] プリンタ</li><li>build the - 定冠詞 the は弱形 /ðə/ [bɪld ðə] ビルザ</li></ul>
+<div class="kana">アイム ファロウイング ディス ブループリント タ ビルザ ハウス イグザクトリー</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>This <mark>blueprint</mark> is a template for efficient farming.</p>
+<p class="ja">この設計図は効率的な農業のためのテンプレートです。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blueprint_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/blueprint_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/ðɪs ˈbluːprɪnt ɪz ə ˈtɛmplət fər ɪˈfɪʃənt ˈfɑrmɪŋ/</div>
+<ul class="link"><li>blueprint is - 語末の /t/ が母音 /ɪ/ に連結、フラップT [ɾ] が生じる [prɪn ɾɪz] プリンリズ</li><li>is a - /z/ が弱形の a /ə/ に連結 [ɪzə] イズア</li><li>for efficient - for は弱形 /fər/ で、語末の /r/ が /ɪ/ に連結 [fərɪ] ファリ</li></ul>
+<div class="kana">ディス ブループリント イズア テンプレット ファリ イフィシェント ファーミング</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We need to find a <mark>blueprint</mark> of the Nether portal design.</p>
+<p class="ja">ネザーゲートの設計図を見つける必要があります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blueprint_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/blueprint_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wi nid tə faɪnd ə ˈbluːprɪnt əv ðə ˈnɛðər ˈpɔrɾəl dɪˈzaɪn/</div>
+<ul class="link"><li>need to - to は機能語として弱形 /tə/ に弱化 [nid tə] ニッタ</li><li>find a - 語末の /d/ が弱形の a /ə/ に連結 [faɪnd ə] ファインダ</li><li>blueprint of - 語末の /t/ が /əv/ に連結、of は弱形 /əv/ [prɪn̚ əv] プリナヴ</li></ul>
+<div class="kana">ウィ ニッタ ファインダ ブループリント プリナヴ ザ ネザー ポーラル ディザイン</div>
+</article>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">follow the blueprint</span><span class="im">計画に従う、設計図通りにやる</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We're following the <mark>blueprint</mark> for the redstone computer.</p>
+<p class="ja">レッドストーンコンピュータの設計図に従っています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/blueprint_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/blueprint_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">/wir ˈfɑloʊɪŋ ðə ˈbluːprɪnt fər ðə ˈrɛdstoʊn kəmˈpjuɾər/</div>
+<ul class="link"><li>the blueprint - 定冠詞 the は弱形 /ðə/ [ðə ˈbluː] ザブルー</li><li>for the - for は弱形 /fər/、定冠詞 the は弱形 /ðə/ [fərðə] ファーザ</li></ul>
+<div class="kana">ウィアー ファロウイング ザブルー プリント ファーザ レッドストーン コンピューター</div>
+</article>
+<a class="backlink" href="../i/blueprint_idiom1.html" style="font-size:.78rem">🔗 この熟語の個別ページ（熟語帳）</a>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="blueprint";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>

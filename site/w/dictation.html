@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>dictation — 英単語帳（マイクラ版）</title>
+<link rel="stylesheet" href="../style.css?v=2">
+<style>body{padding:0}.wrap{padding:20px}
+/* マークのスタイルはページ内に直接埋め込む（style.cssのキャッシュに左右されないため） */
+.topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.botbar{margin-top:28px;margin-bottom:0;padding-top:16px;border-top:1px solid var(--line)}
+.markbar{display:inline-flex;gap:8px;flex-wrap:wrap}
+.markbtn{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1.5px solid var(--line);color:var(--sub);background:transparent;border-radius:999px;padding:5px 15px;line-height:1.5}
+.markbtn:hover{border-color:currentColor}
+.markbtn.done.on{border-color:#059669;color:#fff;background:#059669}
+.markbtn.star.on{border-color:#eab308;color:#7a5c00;background:#fef9c3}
+.wordimg{float:right;width:42%;max-width:260px;margin:0 0 12px 18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.wordimg img{display:block;width:100%;height:auto}
+.wordimg figcaption{font-size:.7rem;color:var(--sub);padding:3px 8px;text-align:center}
+@media(max-width:560px){.wordimg{float:none;width:100%;max-width:100%;margin:0 0 14px}}</style>
+</head>
+<body>
+<div class="wrap">
+<div class="topbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar top"><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+<section class="word" style="--wc:#7c3aed">
+<div class="wordhead"><h2>dictation</h2><span class="pos">名詞</span><span class="ipa-head">/dɪkˈteɪʃən/</span><span class="lvl">CEFR B1</span><span class="tagbadge">英検準1級 #1740</span><span class="player mini"><audio class="norm" preload="none" src="../../audio/dictation.mp3"></audio><button onclick="play(this,'n')" title="発音を再生">▶</button></span></div>
+
+<ol class="meanings"><li>【名詞】(不可算)話者が発音した言葉を他者が書き取る行為。（taking dictation from the instructions）</li><li>【名詞】(可算)その際に発音される文章や言葉。（The dictation was difficult to follow because it was read quickly.）</li><li>【名詞】(形式的)権威者からの命令や指示。（under the dictation of the senior builder）</li></ol>
+<h3 class="sec mc">⛏️ マインクラフト例文</h3>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I take a <mark>dictation</mark> from the brewing guide whenever I forget the recipes.</p>
+<p class="ja">レシピを忘れるたびに、醸造ガイドから口述筆記を取ります。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dictation_ex1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dictation_ex1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈteɪkə dɪkˈteɪʃən frəm ðə ˈbruːɪŋ ˈɡaɪd wɛnˈɛvər aɪ fərˈɡɛt ðə ˈrɛsəpiz]</div>
+<ul class="link"><li>take a → /k/ が /ə/ に連結。[ˈteɪkə] テイカ</li><li>from the → the は弱形 /ðə/。[frəm ðə] フラム ザ</li></ul>
+<div class="kana">アイ テイカ ディクテイション フラム ザ ブルーイング ガイド ウェネヴァー アイ ファーゲット ザ レセピズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>The server admin read out a new <mark>dictation</mark> about the building restrictions.</p>
+<p class="ja">サーバー管理者は建築制限についての新しい指示を読み上げました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dictation_ex2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dictation_ex2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[ðə ˈsɜrvər ˈædmɪn ˈrɛdaʊtə ˈnu dɪkˈteɪʃən əˈbaʊt̚ ðə ˈbɪldɪŋ rɪˈstrɪkʃənz]</div>
+<ul class="link"><li>read out → /d/ が /aʊ/ に連結。[ˈrɛdaʊt] レダウット</li><li>out a → /t/ が /ə/ に連結。[ˈaʊtə] アウタ</li><li>about the → about の語末 /t/ は未開放、the は弱形 /ðə/。[əˈbaʊt̚ ðə] アバウッ ザ</li></ul>
+<div class="kana">ザ サーヴァー アドミン レダウッタ ニュー ディクテイション アバウッ ザ ビルディング リストリクションズ</div>
+</article>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>Each player took down the <mark>dictation</mark> of new server policies read out by the admin carefully.</p>
+<p class="ja">各プレイヤーは管理者が注意深く読み上げた新しいサーバーポリシーの指示を書き取りました。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dictation_ex3.mp3"></audio><audio class="slow" preload="none" src="../../audio/dictation_ex3_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[itʃ ˈpleɪər tʊk̚ daʊn ðə dɪkˈteɪʃən əv ˈnu ˈsɜrvər ˈpɑləsiz ˈrɛdaʊt baɪ ðə ˈædmɪn ˈkɛrfəli]</div>
+<ul class="link"><li>took down → took の語末 /k/ は未開放。[tʊk̚ daʊn] トゥック ダウン</li><li>read out → /d/ が /aʊ/ に連結。[ˈrɛdaʊt] レダウット</li><li>the の弱形 /ðə/ が複数回出現。[ðə] ザ</li></ul>
+<div class="kana">イーチ プレイアー トゥック ダウン ザ ディクテイション アヴ ニュー サーヴァー ポリシーズ レダウット バイ ザ アドミン ケアフリー</div>
+</article>
+<h3 class="sec">💬 よく使う熟語（マイクラ例文）</h3>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">take a dictation</span><span class="im">誰かが話した内容を書き取る；口述筆記をする</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>I take a <mark>dictation</mark> of the enchantment book list each week to improve my listening skills.</p>
+<p class="ja">リスニングスキルを向上させるために、毎週エンチャント本リストの口述筆記をしています。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dictation_idiom1.mp3"></audio><audio class="slow" preload="none" src="../../audio/dictation_idiom1_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[aɪ ˈteɪkə dɪkˈteɪʃən əv ðə ɪnˈtʃæntmənt ˈbʊk ˈlɪst itʃ ˈwik tə ɪmˈpruv maɪ ˈlɪsənɪŋ skɪlz]</div>
+<ul class="link"><li>take a → /k/ が /ə/ に連結。[ˈteɪkə] テイカ</li><li>of the → of の弱形 /əv/、the の弱形 /ðə/。[əv ðə] アヴ ザ</li><li>to improve → /tə/ 弱形。[tə ɪmˈpruv] タ インプルーヴ</li></ul>
+<div class="kana">アイ テイカ ディクテイション アヴ ザ インチャントメント ブック リスト イーチ ウィーク タ インプルーヴ マイ リスニング スキルズ</div>
+</article>
+<a class="backlink" href="../i/dictation_idiom1.html" style="font-size:.78rem">🔗 この熟語の個別ページ（熟語帳）</a>
+</div>
+<div class="idiom">
+<div class="idiomhead"><span class="ph">follow someone's dictation</span><span class="im">誰かの指示や命令に従う；厳密に指示を守る</span></div>
+<article class="ex mcx">
+<p class="en"><span class="num">⛏</span>We must follow the builder's <mark>dictation</mark> exactly to construct the medieval castle structure correctly.</p>
+<p class="ja">中世の城の構造を正しく建設するために、建築者の指示に厳密に従わなければなりません。</p>
+<span class="player"><audio class="norm" preload="none" src="../../audio/dictation_idiom2.mp3"></audio><audio class="slow" preload="none" src="../../audio/dictation_idiom2_slow.mp3"></audio><button onclick="play(this,'n')" title="通常速度で再生">▶ 再生</button><button onclick="play(this,'s')" title="ゆっくり丁寧に読んだ別録音を再生（弱形の潰れ方が緩やか）">🐢 ゆっくり</button></span>
+<div class="ipa-line">[wi məst ˈfɑloʊ ðə ˈbɪldərz dɪkˈteɪʃən ɪˈɡzæktli tə kənˈstrʌkt ðə ˌmɪdˈiːvəl ˈkæsəl ˈstrʌktʃər kəˈrɛktli]</div>
+<ul class="link"><li>follow the → the は弱形 /ðə/。[ðə] ザ</li><li>builder's dictation → /z/ が /d/ に続く（子音+子音）。特に変化なし。[ˈbɪldərz dɪk-] ビルダーズ ディク</li><li>to construct → /tə/ 弱形。[tə kən-] タ コン</li></ul>
+<div class="kana">ウィ マスト ファロー ザ ビルダーズ ディクテイション イグザクトリー タ コンストラクト ザ ミディーヴァル キャッセル ストラクチャー コレクトリー</div>
+</article>
+<a class="backlink" href="../i/dictation_idiom2.html" style="font-size:.78rem">🔗 この熟語の個別ページ（熟語帳）</a>
+</div>
+</section>
+<div class="topbar botbar"><a class="backlink" href="../index.html">← 目次にもどる</a><span class="markbar "><button class="markbtn done" onclick="toggleMark('done')">✓ 覚えた</button><button class="markbtn star" onclick="toggleMark('star')">★ ブックマーク</button></span></div>
+</div>
+<script>
+function play(b, which) {
+  document.querySelectorAll('audio').forEach(function (a) { a.pause(); });
+  document.querySelectorAll('.player button').forEach(function (x) { x.classList.remove('playing'); });
+  var p = b.parentElement;
+  var a;
+  if (which === 's' && p.querySelector('audio.slow')) {
+    a = p.querySelector('audio.slow');
+    a.playbackRate = 1;
+  } else {
+    a = p.querySelector('audio.norm');
+    a.playbackRate = which === 's' ? 0.7 : 1;
+    if ('preservesPitch' in a) a.preservesPitch = true;
+  }
+  a.currentTime = 0;
+  a.onended = function () { b.classList.remove('playing'); };
+  b.classList.add('playing');
+  a.play();
+}
+var W="dictation";
+var LS_DONE='ngslmc_done', LS_STAR='ngslmc_star';
+function setArr(s){ var a=[]; s.forEach(function(v){ a.push(v); }); return a; }
+function loadSet(k){ try{ return new Set(JSON.parse(localStorage.getItem(k)||'[]')); }catch(e){ return new Set(); } }
+function saveSet(k,s){ try{ localStorage.setItem(k, JSON.stringify(setArr(s))); }catch(e){} }
+var doneSet=loadSet(LS_DONE), starSet=loadSet(LS_STAR);
+function reflectMarks(){
+  document.querySelectorAll('.markbtn.done').forEach(function(b){ b.classList.toggle('on', doneSet.has(W)); });
+  document.querySelectorAll('.markbtn.star').forEach(function(b){ b.classList.toggle('on', starSet.has(W)); });
+}
+function toggleMark(kind){
+  var set = kind==='done'?doneSet:starSet, key = kind==='done'?LS_DONE:LS_STAR;
+  if(set.has(W)) set.delete(W); else set.add(W);
+  saveSet(key,set); reflectMarks();
+}
+reflectMarks();</script>
+</body>
+</html>
